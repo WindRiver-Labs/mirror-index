@@ -1,0 +1,97 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_9_BASE_RCPL0000",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_9_BASE_RCPL0000",
+            "id": 5,
+            "name": "WRLINUX_9_BASE_RCPL0000",
+            "short_description": "Wind River Linux 9 Baseline RCPL0000",
+            "sort_priority": null,
+            "update_environment": null,
+            "updated": "2016-11-15T21:11:15+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 5,
+            "collection": "core",
+            "id": 2377,
+            "layer": 1,
+            "updated": "2016-11-28T22:11:39+0000",
+            "vcs_last_commit": "2016-11-28T08:11:44+0000",
+            "vcs_last_fetch": "2016-11-28T22:11:39+0000",
+            "vcs_last_rev": "06e18cb02b76f2026453bc5de7d6d885bf522b49",
+            "vcs_subdir": "meta",
+            "version": "9"
+        },
+        {
+            "actual_branch": "",
+            "branch": 5,
+            "collection": "wr-fixes",
+            "id": 2408,
+            "layer": 53,
+            "updated": "2016-11-28T22:11:22+0000",
+            "vcs_last_commit": "2016-11-23T02:11:46+0000",
+            "vcs_last_fetch": "2016-11-28T22:11:22+0000",
+            "vcs_last_rev": "29ec18e91a0b777ea5b538454e6b06b5e9cefa23",
+            "vcs_subdir": "",
+            "version": "1"
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 2219,
+            "layerbranch": 2408,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "classic": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2016-10-19T15:10:36+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "This layer provides the fixes to other components of the system\r\n(oe-core, meta-yocto, meta-selinux, etc....)",
+            "id": 53,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "wr-fixes",
+            "status": "P",
+            "summary": "wr-fixes",
+            "updated": "2016-10-19T15:10:24+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wr-fixes",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [],
+    "wrtemplates": []
+}
