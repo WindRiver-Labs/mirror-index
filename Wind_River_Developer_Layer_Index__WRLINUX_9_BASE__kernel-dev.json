@@ -1,0 +1,194 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_9_BASE",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "branches": [
+        {
+            "bitbake_branch": "wr-9.0-20161125",
+            "id": 2,
+            "name": "WRLINUX_9_BASE",
+            "short_description": "Wind River Linux 9 Baseline",
+            "sort_priority": null,
+            "update_environment": null,
+            "updated": "2016-11-25T15:11:14+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "wr-9.0-20161125",
+            "branch": 2,
+            "collection": "core",
+            "id": 56,
+            "layer": 1,
+            "updated": "2016-12-06T03:12:23+0000",
+            "vcs_last_commit": "2016-12-06T02:12:31+0000",
+            "vcs_last_fetch": "2016-12-06T03:12:23+0000",
+            "vcs_last_rev": "b117ec20eb4f43d3fbae0dedf31996fd8160ab63",
+            "vcs_subdir": "meta",
+            "version": "9"
+        },
+        {
+            "actual_branch": "",
+            "branch": 2,
+            "collection": "wr-kernel-dev",
+            "id": 58,
+            "layer": 46,
+            "updated": "2016-12-06T03:12:59+0000",
+            "vcs_last_commit": "2016-12-01T18:12:53+0000",
+            "vcs_last_fetch": "2016-12-06T03:12:59+0000",
+            "vcs_last_rev": "eed29598162a25194b4c819ae888e0be6112906f",
+            "vcs_subdir": "kernel-dev",
+            "version": "1"
+        },
+        {
+            "actual_branch": "",
+            "branch": 2,
+            "collection": "wr-kernel",
+            "id": 76,
+            "layer": 47,
+            "updated": "2016-12-06T03:12:00+0000",
+            "vcs_last_commit": "2016-12-06T02:12:34+0000",
+            "vcs_last_fetch": "2016-12-06T03:12:00+0000",
+            "vcs_last_rev": "3b2079ecc3ec728d520a4039daa9bd18be801359",
+            "vcs_subdir": "",
+            "version": "1"
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 98,
+            "layerbranch": 58,
+            "required": true
+        },
+        {
+            "dependency": 47,
+            "id": 3448,
+            "layerbranch": 58,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "classic": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2016-10-19T15:10:36+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "When the linux-libc-headers-windriver package is enabled, it adds the ability\r\nto use the linux-windriver kernel as the source for libc-headers. When\r\nenabling this feature, the user is knowingly clobbering the supported and\r\ntested toolchain headers and does so at their own risk.",
+            "id": 46,
+            "index_preference": 0,
+            "layer_type": "M",
+            "mailing_list_url": "",
+            "name": "kernel-dev",
+            "status": "P",
+            "summary": "kernel-dev",
+            "updated": "2016-10-19T15:10:56+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wr-kernel",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "This layer:",
+            "id": 47,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "wr-kernel",
+            "status": "P",
+            "summary": "wr-kernel",
+            "updated": "2016-10-19T15:10:07+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wr-kernel",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "linux-libc-headers-windriver.bb",
+            "filepath": "recipes-kernel/linux-libc-headers",
+            "homepage": "",
+            "id": 53276,
+            "inherits": "kernel-arch",
+            "layerbranch": 58,
+            "license": "GPLv2",
+            "pn": "linux-libc-headers-windriver",
+            "provides": "linux-libc-headers-windriver linux-libc-headers",
+            "pv": "4.8",
+            "section": "devel",
+            "summary": "Sanitized set of kernel headers for the C library's use",
+            "updated": "2016-11-28T18:11:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Wind River Kernel",
+            "filename": "linux-windriver-custom.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "",
+            "id": 53277,
+            "inherits": "cml1 deploy kernel kernel-arch kernel-module-split kernel-uboot kernel-uimage kernel-windriver kernel-yocto linux-kernel-base",
+            "layerbranch": 58,
+            "license": "GPLv2",
+            "pn": "linux-windriver-custom",
+            "provides": "linux-windriver-custom  virtual/kernel",
+            "pv": "4.2+gitX",
+            "section": "kernel",
+            "summary": "Linux kernel",
+            "updated": "2016-11-28T18:11:57+0000"
+        }
+    ],
+    "wrtemplates": [
+        {
+            "description": "",
+            "id": 1980,
+            "layerbranch": 58,
+            "name": "feature/kernfeatures-clear",
+            "updated": "2016-11-28T18:11:57+0000"
+        },
+        {
+            "description": "",
+            "id": 1981,
+            "layerbranch": 58,
+            "name": "feature/custom-kernel",
+            "updated": "2016-11-28T18:11:57+0000"
+        },
+        {
+            "description": "",
+            "id": 1982,
+            "layerbranch": 58,
+            "name": "default",
+            "updated": "2016-11-28T18:11:57+0000"
+        }
+    ]
+}

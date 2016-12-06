@@ -1,0 +1,193 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_9_BASE",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "branches": [
+        {
+            "bitbake_branch": "wr-9.0-20161125",
+            "id": 2,
+            "name": "WRLINUX_9_BASE",
+            "short_description": "Wind River Linux 9 Baseline",
+            "sort_priority": null,
+            "update_environment": null,
+            "updated": "2016-11-25T15:11:14+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "wr-9.0-20161125",
+            "branch": 2,
+            "collection": "core",
+            "id": 56,
+            "layer": 1,
+            "updated": "2016-12-06T03:12:23+0000",
+            "vcs_last_commit": "2016-12-06T02:12:31+0000",
+            "vcs_last_fetch": "2016-12-06T03:12:23+0000",
+            "vcs_last_rev": "b117ec20eb4f43d3fbae0dedf31996fd8160ab63",
+            "vcs_subdir": "meta",
+            "version": "9"
+        },
+        {
+            "actual_branch": "wr-9.0-20161125",
+            "branch": 2,
+            "collection": "skeleton",
+            "id": 550,
+            "layer": 3,
+            "updated": "2016-12-06T03:12:25+0000",
+            "vcs_last_commit": "2016-07-08T08:07:42+0000",
+            "vcs_last_fetch": "2016-12-06T03:12:25+0000",
+            "vcs_last_rev": "8a227125991951c1ddd44bec0b6243474ebc363a",
+            "vcs_subdir": "meta-skeleton",
+            "version": "1"
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 658,
+            "layerbranch": 550,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "classic": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2016-10-19T15:10:36+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 3,
+            "index_preference": 0,
+            "layer_type": "M",
+            "mailing_list_url": "",
+            "name": "meta-skeleton",
+            "status": "P",
+            "summary": "meta-skeleton",
+            "updated": "2016-10-19T15:10:10+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "hello-mod_0.1.bb",
+            "filepath": "recipes-kernel/hello-mod",
+            "homepage": "",
+            "id": 51849,
+            "inherits": "kernel-arch kernel-module-split module module-base",
+            "layerbranch": 550,
+            "license": "GPLv2",
+            "pn": "hello-mod",
+            "provides": "hello-mod ",
+            "pv": "0.1",
+            "section": "base",
+            "summary": "Example of how to build an external Linux kernel module",
+            "updated": "2016-11-28T18:11:08+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "linux-yocto-custom.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "",
+            "id": 51850,
+            "inherits": "cml1 deploy kernel kernel-arch kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
+            "layerbranch": 550,
+            "license": "GPLv2",
+            "pn": "linux-yocto-custom",
+            "provides": "linux-yocto-custom  virtual/kernel",
+            "pv": "4.2+gitX",
+            "section": "kernel",
+            "summary": "Linux kernel",
+            "updated": "2016-11-28T18:11:08+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "service_0.1.bb",
+            "filepath": "recipes-skeleton/service",
+            "homepage": "",
+            "id": 51851,
+            "inherits": "",
+            "layerbranch": 550,
+            "license": "GPLv2",
+            "pn": "service",
+            "provides": "service ",
+            "pv": "0.1",
+            "section": "base",
+            "summary": "The canonical example of init scripts",
+            "updated": "2016-11-28T18:11:08+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "This recipe serves as an example for using features from useradd.bbclass",
+            "filename": "useradd-example.bb",
+            "filepath": "recipes-skeleton/useradd",
+            "homepage": "",
+            "id": 51852,
+            "inherits": "useradd useradd_base",
+            "layerbranch": 550,
+            "license": "MIT",
+            "pn": "useradd-example",
+            "provides": "useradd-example ",
+            "pv": "1.0",
+            "section": "examples",
+            "summary": "Example recipe for using inherit useradd",
+            "updated": "2016-11-28T18:11:08+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Image with Sato, a mobile environment and visual style for mobile devices. The image supports X11 with a Sato theme, Pimlico applications, and contains terminal, editor, and file manager.",
+            "filename": "core-image-multilib-example.bb",
+            "filepath": "recipes-multilib/images",
+            "homepage": "",
+            "id": 51853,
+            "inherits": "core-image gzipnative image image_types meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "layerbranch": 550,
+            "license": "MIT",
+            "pn": "core-image-multilib-example",
+            "provides": "core-image-multilib-example ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "",
+            "updated": "2016-11-28T18:11:08+0000"
+        }
+    ],
+    "wrtemplates": []
+}
