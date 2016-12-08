@@ -26,10 +26,10 @@
             "collection": "core",
             "id": 56,
             "layer": 1,
-            "updated": "2016-12-06T22:12:21+0000",
-            "vcs_last_commit": "2016-12-06T02:12:31+0000",
-            "vcs_last_fetch": "2016-12-06T22:12:21+0000",
-            "vcs_last_rev": "b117ec20eb4f43d3fbae0dedf31996fd8160ab63",
+            "updated": "2016-12-08T02:12:26+0000",
+            "vcs_last_commit": "2016-12-07T03:12:17+0000",
+            "vcs_last_fetch": "2016-12-08T02:12:26+0000",
+            "vcs_last_rev": "7931b2bcc1c74129799c1f7f746dcf5e83d2381e",
             "vcs_subdir": "meta",
             "version": "9"
         },
@@ -39,9 +39,9 @@
             "collection": "virtualization-layer",
             "id": 57,
             "layer": 45,
-            "updated": "2016-12-06T22:12:56+0000",
+            "updated": "2016-12-08T02:12:01+0000",
             "vcs_last_commit": "2016-11-29T22:11:31+0000",
-            "vcs_last_fetch": "2016-12-06T22:12:56+0000",
+            "vcs_last_fetch": "2016-12-08T02:12:01+0000",
             "vcs_last_rev": "ee38999c512fec1c965ae518a5863b0e1ac59d75",
             "vcs_subdir": "meta-virtualization",
             "version": "1"
@@ -101,7 +101,7 @@
             "filename": "lxc_2.0.4.bb",
             "filepath": "recipes-containers/lxc",
             "homepage": "",
-            "id": 53269,
+            "id": 72426,
             "inherits": "autotools pkgconfig ptest siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 57,
             "license": "GPLv2",
@@ -110,7 +110,7 @@
             "pv": "2.0.4",
             "section": "console/utils",
             "summary": "",
-            "updated": "2016-11-29T22:11:13+0000"
+            "updated": "2016-12-07T17:12:10+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -120,7 +120,7 @@
             "filename": "protobuf_3.1.0.bb",
             "filepath": "recipes-containers/criu",
             "homepage": "http://code.google.com/p/protobuf/",
-            "id": 53270,
+            "id": 72427,
             "inherits": "autotools distutils distutils-base distutils-common-base ptest python-dir pythonnative setuptools siteconfig siteinfo",
             "layerbranch": 57,
             "license": "BSD-3-Clause",
@@ -129,7 +129,7 @@
             "pv": "3.1.0",
             "section": "console/tools",
             "summary": "protobuf",
-            "updated": "2016-11-28T18:11:55+0000"
+            "updated": "2016-12-07T17:12:10+0000"
         },
         {
             "bbclassextend": "",
@@ -139,7 +139,7 @@
             "filename": "criu_git.bb",
             "filepath": "recipes-containers/criu",
             "homepage": "http://criu.org",
-            "id": 53271,
+            "id": 72428,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
             "layerbranch": 57,
             "license": "GPLv2",
@@ -148,7 +148,7 @@
             "pv": "2.5+gitX",
             "section": "console/tools",
             "summary": "CRIU",
-            "updated": "2016-11-28T18:11:55+0000"
+            "updated": "2016-12-07T17:12:10+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -158,7 +158,7 @@
             "filename": "protobuf-c_1.2.1.bb",
             "filepath": "recipes-containers/criu",
             "homepage": "http://code.google.com/p/protobuf-c/",
-            "id": 53272,
+            "id": 72429,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 57,
             "license": "Apache-2.0",
@@ -167,7 +167,7 @@
             "pv": "1.2.1",
             "section": "console/tools",
             "summary": "protobuf-c",
-            "updated": "2016-11-28T18:11:55+0000"
+            "updated": "2016-12-07T17:12:10+0000"
         },
         {
             "bbclassextend": "",
@@ -177,7 +177,7 @@
             "filename": "protobuf-native_3.1.0.bb",
             "filepath": "recipes-containers/criu",
             "homepage": "http://code.google.com/p/protobuf/",
-            "id": 53273,
+            "id": 72430,
             "inherits": "autotools native nopackages relocatable siteconfig siteinfo",
             "layerbranch": 57,
             "license": "BSD-3-Clause",
@@ -186,7 +186,7 @@
             "pv": "3.1.0",
             "section": "console/tools",
             "summary": "protobuf",
-            "updated": "2016-11-28T18:11:55+0000"
+            "updated": "2016-12-07T17:12:10+0000"
         },
         {
             "bbclassextend": "",
@@ -196,7 +196,7 @@
             "filename": "openvswitch_git.bb",
             "filepath": "recipes-networking/openvswitch",
             "homepage": "http://openvswitch.org/",
-            "id": 53274,
+            "id": 72431,
             "inherits": "autotools ptest siteconfig siteinfo update-rc.d",
             "layerbranch": 57,
             "license": "Apache-2",
@@ -205,7 +205,7 @@
             "pv": "2.4.0+bb429e09f7783f1ba23ac0682ed9edf424f0cfbb",
             "section": "networking",
             "summary": "OpenvSwitch",
-            "updated": "2016-11-28T18:11:55+0000"
+            "updated": "2016-12-07T17:12:10+0000"
         },
         {
             "bbclassextend": "",
@@ -215,7 +215,7 @@
             "filename": "libvirt_1.3.5.bb",
             "filepath": "recipes-extended/libvirt",
             "homepage": "http://libvirt.org",
-            "id": 53275,
+            "id": 72432,
             "inherits": "autotools gettext pkgconfig ptest python-dir pythonnative siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 57,
             "license": "LGPLv2.1 & LGPLv2.1+ & GPLv2+",
@@ -224,7 +224,7 @@
             "pv": "1.3.5",
             "section": "console/tools",
             "summary": "",
-            "updated": "2016-11-29T22:11:13+0000"
+            "updated": "2016-12-07T17:12:10+0000"
         }
     ],
     "wrtemplates": []

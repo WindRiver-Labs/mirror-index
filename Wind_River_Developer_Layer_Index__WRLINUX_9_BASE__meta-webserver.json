@@ -26,10 +26,10 @@
             "collection": "core",
             "id": 56,
             "layer": 1,
-            "updated": "2016-12-06T22:12:21+0000",
-            "vcs_last_commit": "2016-12-06T02:12:31+0000",
-            "vcs_last_fetch": "2016-12-06T22:12:21+0000",
-            "vcs_last_rev": "b117ec20eb4f43d3fbae0dedf31996fd8160ab63",
+            "updated": "2016-12-08T02:12:26+0000",
+            "vcs_last_commit": "2016-12-07T03:12:17+0000",
+            "vcs_last_fetch": "2016-12-08T02:12:26+0000",
+            "vcs_last_rev": "7931b2bcc1c74129799c1f7f746dcf5e83d2381e",
             "vcs_subdir": "meta",
             "version": "9"
         },
@@ -39,9 +39,9 @@
             "collection": "webserver",
             "id": 72,
             "layer": 10,
-            "updated": "2016-12-06T22:12:30+0000",
+            "updated": "2016-12-08T02:12:35+0000",
             "vcs_last_commit": "2016-11-29T09:11:42+0000",
-            "vcs_last_fetch": "2016-12-06T22:12:30+0000",
+            "vcs_last_fetch": "2016-12-08T02:12:35+0000",
             "vcs_last_rev": "69bdbf665a32b784cd1fc2b30e74aa3f9faf191b",
             "vcs_subdir": "meta-webserver",
             "version": "1"
@@ -107,7 +107,7 @@
             "filename": "phpmyadmin_4.6.3.bb",
             "filepath": "recipes-php/phpmyadmin",
             "homepage": "http://www.phpmyadmin.net",
-            "id": 52635,
+            "id": 71794,
             "inherits": "allarch",
             "layerbranch": 72,
             "license": "GPLv2 & LGPLv3 & MIT",
@@ -116,7 +116,7 @@
             "pv": "4.6.3",
             "section": "base",
             "summary": "Web-based MySQL administration interface",
-            "updated": "2016-11-28T18:11:28+0000"
+            "updated": "2016-12-07T17:12:43+0000"
         },
         {
             "bbclassextend": "",
@@ -126,7 +126,7 @@
             "filename": "xdebug_2.2.6.bb",
             "filepath": "recipes-php/xdebug",
             "homepage": "",
-            "id": 52636,
+            "id": 71795,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 72,
             "license": "Xdebug",
@@ -135,7 +135,7 @@
             "pv": "2.2.6",
             "section": "base",
             "summary": "Debugging and profiling extension for PHP",
-            "updated": "2016-11-28T18:11:28+0000"
+            "updated": "2016-12-07T17:12:43+0000"
         },
         {
             "bbclassextend": "",
@@ -145,7 +145,7 @@
             "filename": "webmin_1.801.bb",
             "filepath": "recipes-webadmin/webmin",
             "homepage": "http://www.webmin.com",
-            "id": 52637,
+            "id": 71796,
             "inherits": "perlnative systemd update-rc.d",
             "layerbranch": 72,
             "license": "BSD",
@@ -154,7 +154,7 @@
             "pv": "1.801",
             "section": "base",
             "summary": "Web-based administration interface",
-            "updated": "2016-11-28T18:11:29+0000"
+            "updated": "2016-12-07T17:12:43+0000"
         },
         {
             "bbclassextend": "",
@@ -164,7 +164,7 @@
             "filename": "netdata_git.bb",
             "filepath": "recipes-webadmin/netdata",
             "homepage": "https://github.com/firehol/netdata/",
-            "id": 52638,
+            "id": 71797,
             "inherits": "autotools pkgconfig siteconfig siteinfo systemd useradd useradd_base",
             "layerbranch": 72,
             "license": "GPLv3",
@@ -173,7 +173,7 @@
             "pv": "git",
             "section": "base",
             "summary": "Real-time performance monitoring",
-            "updated": "2016-11-28T18:11:29+0000"
+            "updated": "2016-12-07T17:12:44+0000"
         },
         {
             "bbclassextend": "",
@@ -183,7 +183,7 @@
             "filename": "spawn-fcgi_1.6.4.bb",
             "filepath": "recipes-support/spawn-fcgi",
             "homepage": "http://redmine.lighttpd.net/projects/spawn-fcgi",
-            "id": 52639,
+            "id": 71798,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 72,
             "license": "BSD",
@@ -192,7 +192,7 @@
             "pv": "1.6.4",
             "section": "base",
             "summary": "",
-            "updated": "2016-11-28T18:11:29+0000"
+            "updated": "2016-12-07T17:12:44+0000"
         },
         {
             "bbclassextend": "",
@@ -202,7 +202,7 @@
             "filename": "fcgi_2.4.0.bb",
             "filepath": "recipes-support/fcgi",
             "homepage": "http://www.fastcgi.com",
-            "id": 52640,
+            "id": 71799,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 72,
             "license": "OML",
@@ -211,7 +211,7 @@
             "pv": "2.4.0",
             "section": "base",
             "summary": "",
-            "updated": "2016-11-28T18:11:29+0000"
+            "updated": "2016-12-07T17:12:44+0000"
         },
         {
             "bbclassextend": "",
@@ -221,7 +221,7 @@
             "filename": "apache2-native_2.4.23.bb",
             "filepath": "recipes-httpd/apache2",
             "homepage": "http://httpd.apache.org/",
-            "id": 52641,
+            "id": 71800,
             "inherits": "autotools native nopackages pkgconfig relocatable siteconfig siteinfo",
             "layerbranch": 72,
             "license": "Apache-2.0",
@@ -230,7 +230,7 @@
             "pv": "2.4.23",
             "section": "net",
             "summary": "Apache HTTP Server",
-            "updated": "2016-11-28T18:11:29+0000"
+            "updated": "2016-12-07T17:12:44+0000"
         },
         {
             "bbclassextend": "",
@@ -240,7 +240,7 @@
             "filename": "apache2_2.4.23.bb",
             "filepath": "recipes-httpd/apache2",
             "homepage": "http://httpd.apache.org/",
-            "id": 52642,
+            "id": 71801,
             "inherits": "autotools pkgconfig siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 72,
             "license": "Apache-2.0",
@@ -249,7 +249,7 @@
             "pv": "2.4.23",
             "section": "net",
             "summary": "Apache HTTP Server",
-            "updated": "2016-11-28T18:11:29+0000"
+            "updated": "2016-12-07T17:12:44+0000"
         },
         {
             "bbclassextend": "",
@@ -259,7 +259,7 @@
             "filename": "nginx_1.11.5.bb",
             "filepath": "recipes-httpd/nginx",
             "homepage": "http://nginx.org/",
-            "id": 52643,
+            "id": 71802,
             "inherits": "update-rc.d useradd useradd_base",
             "layerbranch": 72,
             "license": "BSD-2-Clause",
@@ -268,7 +268,7 @@
             "pv": "1.11.5",
             "section": "net",
             "summary": "HTTP and reverse proxy server",
-            "updated": "2016-11-28T18:11:29+0000"
+            "updated": "2016-12-07T17:12:44+0000"
         },
         {
             "bbclassextend": "",
@@ -278,7 +278,7 @@
             "filename": "nginx_1.10.1.bb",
             "filepath": "recipes-httpd/nginx",
             "homepage": "http://nginx.org/",
-            "id": 52644,
+            "id": 71803,
             "inherits": "update-rc.d useradd useradd_base",
             "layerbranch": 72,
             "license": "BSD-2-Clause",
@@ -287,7 +287,7 @@
             "pv": "1.10.1",
             "section": "net",
             "summary": "HTTP and reverse proxy server",
-            "updated": "2016-11-28T18:11:29+0000"
+            "updated": "2016-12-07T17:12:44+0000"
         },
         {
             "bbclassextend": "",
@@ -297,7 +297,7 @@
             "filename": "monkey_1.5.6.bb",
             "filepath": "recipes-httpd/monkey",
             "homepage": "http://monkey-project.com",
-            "id": 52645,
+            "id": 71804,
             "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 72,
             "license": "Apache-2.0",
@@ -306,7 +306,7 @@
             "pv": "1.5.6",
             "section": "net",
             "summary": "Fast and Lightweight HTTP Server for Linux",
-            "updated": "2016-11-28T18:11:29+0000"
+            "updated": "2016-12-07T17:12:44+0000"
         },
         {
             "bbclassextend": "",
@@ -316,7 +316,7 @@
             "filename": "apache-websocket_git.bb",
             "filepath": "recipes-httpd/apache-mod",
             "homepage": "https://github.com/jchampio/apache-websocket/",
-            "id": 52646,
+            "id": 71805,
             "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo",
             "layerbranch": 72,
             "license": "Apache-2.0",
@@ -325,7 +325,7 @@
             "pv": "0.1.1",
             "section": "net",
             "summary": "Websocket module for Apache web server",
-            "updated": "2016-11-28T18:11:29+0000"
+            "updated": "2016-12-07T17:12:44+0000"
         },
         {
             "bbclassextend": "",
@@ -335,7 +335,7 @@
             "filename": "nostromo_1.9.6.bb",
             "filepath": "recipes-httpd/nostromo",
             "homepage": "http://www.nazgul.ch/dev_nostromo.html",
-            "id": 52647,
+            "id": 71806,
             "inherits": "update-rc.d",
             "layerbranch": 72,
             "license": "MIT",
@@ -344,7 +344,7 @@
             "pv": "1.9.6",
             "section": "base",
             "summary": "A simple, fast and secure HTTP server",
-            "updated": "2016-11-28T18:11:29+0000"
+            "updated": "2016-12-07T17:12:44+0000"
         },
         {
             "bbclassextend": "",
@@ -354,7 +354,7 @@
             "filename": "sthttpd_2.27.0.bb",
             "filepath": "recipes-httpd/sthttpd",
             "homepage": "http://opensource.dyc.edu/sthttpd",
-            "id": 52648,
+            "id": 71807,
             "inherits": "autotools siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 72,
             "license": "BSD-2-Clause",
@@ -363,7 +363,7 @@
             "pv": "2.27.0",
             "section": "base",
             "summary": "A simple, small, portable, fast, and secure HTTP server",
-            "updated": "2016-11-28T18:11:30+0000"
+            "updated": "2016-12-07T17:12:44+0000"
         },
         {
             "bbclassextend": "",
@@ -373,7 +373,7 @@
             "filename": "hiawatha_10.3.bb",
             "filepath": "recipes-httpd/hiawatha",
             "homepage": "http://www.hiawatha-webserver.org",
-            "id": 52649,
+            "id": 71808,
             "inherits": "cmake systemd update-rc.d",
             "layerbranch": 72,
             "license": "GPLv2",
@@ -382,7 +382,7 @@
             "pv": "10.3",
             "section": "net",
             "summary": "Lightweight secure web server",
-            "updated": "2016-11-28T18:11:30+0000"
+            "updated": "2016-12-07T17:12:45+0000"
         },
         {
             "bbclassextend": "",
@@ -392,7 +392,7 @@
             "filename": "cherokee_1.2.98.bb",
             "filepath": "recipes-httpd/cherokee",
             "homepage": "http://www.cherokee-project.com/",
-            "id": 52650,
+            "id": 71809,
             "inherits": "autotools binconfig pkgconfig siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 72,
             "license": "GPLv2",
@@ -401,7 +401,7 @@
             "pv": "1.2.98",
             "section": "network",
             "summary": "Cherokee Web Server fast and secure",
-            "updated": "2016-11-28T18:11:30+0000"
+            "updated": "2016-12-07T17:12:45+0000"
         }
     ],
     "wrtemplates": []

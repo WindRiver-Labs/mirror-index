@@ -26,10 +26,10 @@
             "collection": "core",
             "id": 56,
             "layer": 1,
-            "updated": "2016-12-06T22:12:21+0000",
-            "vcs_last_commit": "2016-12-06T02:12:31+0000",
-            "vcs_last_fetch": "2016-12-06T22:12:21+0000",
-            "vcs_last_rev": "b117ec20eb4f43d3fbae0dedf31996fd8160ab63",
+            "updated": "2016-12-08T02:12:26+0000",
+            "vcs_last_commit": "2016-12-07T03:12:17+0000",
+            "vcs_last_fetch": "2016-12-08T02:12:26+0000",
+            "vcs_last_rev": "7931b2bcc1c74129799c1f7f746dcf5e83d2381e",
             "vcs_subdir": "meta",
             "version": "9"
         },
@@ -39,9 +39,9 @@
             "collection": "wr-kernel-dev",
             "id": 58,
             "layer": 46,
-            "updated": "2016-12-06T22:12:57+0000",
+            "updated": "2016-12-08T02:12:02+0000",
             "vcs_last_commit": "2016-12-01T18:12:53+0000",
-            "vcs_last_fetch": "2016-12-06T22:12:57+0000",
+            "vcs_last_fetch": "2016-12-08T02:12:02+0000",
             "vcs_last_rev": "eed29598162a25194b4c819ae888e0be6112906f",
             "vcs_subdir": "kernel-dev",
             "version": "1"
@@ -52,10 +52,10 @@
             "collection": "wr-kernel",
             "id": 76,
             "layer": 47,
-            "updated": "2016-12-06T22:12:58+0000",
-            "vcs_last_commit": "2016-12-06T02:12:34+0000",
-            "vcs_last_fetch": "2016-12-06T22:12:58+0000",
-            "vcs_last_rev": "3b2079ecc3ec728d520a4039daa9bd18be801359",
+            "updated": "2016-12-08T02:12:03+0000",
+            "vcs_last_commit": "2016-12-07T15:12:17+0000",
+            "vcs_last_fetch": "2016-12-08T02:12:03+0000",
+            "vcs_last_rev": "5eb15d813e3ccca33e5e6426150d84c0ad0020b9",
             "vcs_subdir": "",
             "version": "1"
         }
@@ -137,7 +137,7 @@
             "filename": "linux-libc-headers-windriver.bb",
             "filepath": "recipes-kernel/linux-libc-headers",
             "homepage": "",
-            "id": 53276,
+            "id": 72433,
             "inherits": "kernel-arch",
             "layerbranch": 58,
             "license": "GPLv2",
@@ -146,7 +146,7 @@
             "pv": "4.8",
             "section": "devel",
             "summary": "Sanitized set of kernel headers for the C library's use",
-            "updated": "2016-11-28T18:11:57+0000"
+            "updated": "2016-12-07T17:12:12+0000"
         },
         {
             "bbclassextend": "",
@@ -156,7 +156,7 @@
             "filename": "linux-windriver-custom.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "",
-            "id": 53277,
+            "id": 72434,
             "inherits": "cml1 deploy kernel kernel-arch kernel-module-split kernel-uboot kernel-uimage kernel-windriver kernel-yocto linux-kernel-base",
             "layerbranch": 58,
             "license": "GPLv2",
@@ -165,30 +165,30 @@
             "pv": "4.2+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2016-11-28T18:11:57+0000"
+            "updated": "2016-12-07T17:12:12+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 1980,
+            "id": 2779,
             "layerbranch": 58,
             "name": "feature/kernfeatures-clear",
-            "updated": "2016-11-28T18:11:57+0000"
+            "updated": "2016-12-07T17:12:11+0000"
         },
         {
             "description": "",
-            "id": 1981,
+            "id": 2780,
             "layerbranch": 58,
             "name": "feature/custom-kernel",
-            "updated": "2016-11-28T18:11:57+0000"
+            "updated": "2016-12-07T17:12:11+0000"
         },
         {
             "description": "",
-            "id": 1982,
+            "id": 2781,
             "layerbranch": 58,
             "name": "default",
-            "updated": "2016-11-28T18:11:57+0000"
+            "updated": "2016-12-07T17:12:11+0000"
         }
     ]
 }

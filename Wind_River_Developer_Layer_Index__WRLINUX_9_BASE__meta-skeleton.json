@@ -26,10 +26,10 @@
             "collection": "core",
             "id": 56,
             "layer": 1,
-            "updated": "2016-12-06T22:12:21+0000",
-            "vcs_last_commit": "2016-12-06T02:12:31+0000",
-            "vcs_last_fetch": "2016-12-06T22:12:21+0000",
-            "vcs_last_rev": "b117ec20eb4f43d3fbae0dedf31996fd8160ab63",
+            "updated": "2016-12-08T02:12:26+0000",
+            "vcs_last_commit": "2016-12-07T03:12:17+0000",
+            "vcs_last_fetch": "2016-12-08T02:12:26+0000",
+            "vcs_last_rev": "7931b2bcc1c74129799c1f7f746dcf5e83d2381e",
             "vcs_subdir": "meta",
             "version": "9"
         },
@@ -39,9 +39,9 @@
             "collection": "skeleton",
             "id": 550,
             "layer": 3,
-            "updated": "2016-12-06T22:12:23+0000",
+            "updated": "2016-12-08T02:12:28+0000",
             "vcs_last_commit": "2016-07-08T08:07:42+0000",
-            "vcs_last_fetch": "2016-12-06T22:12:23+0000",
+            "vcs_last_fetch": "2016-12-08T02:12:28+0000",
             "vcs_last_rev": "8a227125991951c1ddd44bec0b6243474ebc363a",
             "vcs_subdir": "meta-skeleton",
             "version": "1"
@@ -101,7 +101,7 @@
             "filename": "hello-mod_0.1.bb",
             "filepath": "recipes-kernel/hello-mod",
             "homepage": "",
-            "id": 51849,
+            "id": 71008,
             "inherits": "kernel-arch kernel-module-split module module-base",
             "layerbranch": 550,
             "license": "GPLv2",
@@ -110,7 +110,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "Example of how to build an external Linux kernel module",
-            "updated": "2016-11-28T18:11:08+0000"
+            "updated": "2016-12-07T17:12:21+0000"
         },
         {
             "bbclassextend": "",
@@ -120,7 +120,7 @@
             "filename": "linux-yocto-custom.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "",
-            "id": 51850,
+            "id": 71009,
             "inherits": "cml1 deploy kernel kernel-arch kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
             "layerbranch": 550,
             "license": "GPLv2",
@@ -129,7 +129,7 @@
             "pv": "4.2+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2016-11-28T18:11:08+0000"
+            "updated": "2016-12-07T17:12:21+0000"
         },
         {
             "bbclassextend": "",
@@ -139,7 +139,7 @@
             "filename": "service_0.1.bb",
             "filepath": "recipes-skeleton/service",
             "homepage": "",
-            "id": 51851,
+            "id": 71010,
             "inherits": "",
             "layerbranch": 550,
             "license": "GPLv2",
@@ -148,7 +148,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "The canonical example of init scripts",
-            "updated": "2016-11-28T18:11:08+0000"
+            "updated": "2016-12-07T17:12:21+0000"
         },
         {
             "bbclassextend": "",
@@ -158,7 +158,7 @@
             "filename": "useradd-example.bb",
             "filepath": "recipes-skeleton/useradd",
             "homepage": "",
-            "id": 51852,
+            "id": 71011,
             "inherits": "useradd useradd_base",
             "layerbranch": 550,
             "license": "MIT",
@@ -167,7 +167,7 @@
             "pv": "1.0",
             "section": "examples",
             "summary": "Example recipe for using inherit useradd",
-            "updated": "2016-11-28T18:11:08+0000"
+            "updated": "2016-12-07T17:12:21+0000"
         },
         {
             "bbclassextend": "",
@@ -177,7 +177,7 @@
             "filename": "core-image-multilib-example.bb",
             "filepath": "recipes-multilib/images",
             "homepage": "",
-            "id": 51853,
+            "id": 71012,
             "inherits": "core-image gzipnative image image_types meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 550,
             "license": "MIT",
@@ -186,7 +186,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2016-11-28T18:11:08+0000"
+            "updated": "2016-12-07T17:12:21+0000"
         }
     ],
     "wrtemplates": []

@@ -21,17 +21,17 @@
     "distros": [
         {
             "description": "",
-            "id": 224,
+            "id": 320,
             "layerbranch": 87,
             "name": "oe-selinux",
-            "updated": "2016-11-28T18:11:31+0000"
+            "updated": "2016-12-07T17:12:46+0000"
         },
         {
             "description": "",
-            "id": 225,
+            "id": 321,
             "layerbranch": 87,
             "name": "poky-selinux",
-            "updated": "2016-11-28T18:11:31+0000"
+            "updated": "2016-12-07T17:12:46+0000"
         }
     ],
     "layerBranches": [
@@ -41,10 +41,10 @@
             "collection": "core",
             "id": 56,
             "layer": 1,
-            "updated": "2016-12-06T22:12:21+0000",
-            "vcs_last_commit": "2016-12-06T02:12:31+0000",
-            "vcs_last_fetch": "2016-12-06T22:12:21+0000",
-            "vcs_last_rev": "b117ec20eb4f43d3fbae0dedf31996fd8160ab63",
+            "updated": "2016-12-08T02:12:26+0000",
+            "vcs_last_commit": "2016-12-07T03:12:17+0000",
+            "vcs_last_fetch": "2016-12-08T02:12:26+0000",
+            "vcs_last_rev": "7931b2bcc1c74129799c1f7f746dcf5e83d2381e",
             "vcs_subdir": "meta",
             "version": "9"
         },
@@ -54,9 +54,9 @@
             "collection": "selinux",
             "id": 87,
             "layer": 20,
-            "updated": "2016-12-06T22:12:41+0000",
+            "updated": "2016-12-08T02:12:46+0000",
             "vcs_last_commit": "2016-11-23T16:11:15+0000",
-            "vcs_last_fetch": "2016-12-06T22:12:41+0000",
+            "vcs_last_fetch": "2016-12-08T02:12:46+0000",
             "vcs_last_rev": "087442ebb33cda6145bd370047ca19ac9749008b",
             "vcs_subdir": "",
             "version": "1"
@@ -122,7 +122,7 @@
             "filename": "audit_2.6.6.bb",
             "filepath": "recipes-security/audit",
             "homepage": "http://people.redhat.com/sgrubb/audit/",
-            "id": 53177,
+            "id": 72336,
             "inherits": "autotools python-dir pythonnative siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 87,
             "license": "GPLv2+ & LGPLv2+",
@@ -131,7 +131,7 @@
             "pv": "2.6.6",
             "section": "base",
             "summary": "User space tools for kernel auditing",
-            "updated": "2016-11-28T18:11:31+0000"
+            "updated": "2016-12-07T17:12:46+0000"
         },
         {
             "bbclassextend": "native",
@@ -141,7 +141,7 @@
             "filename": "setools_3.3.8.bb",
             "filepath": "recipes-security/setools",
             "homepage": "",
-            "id": 53178,
+            "id": 72337,
             "inherits": "autotools python-dir pythonnative siteconfig siteinfo",
             "layerbranch": 87,
             "license": "GPLv2 & LGPLv2.1",
@@ -150,7 +150,7 @@
             "pv": "3.3.8",
             "section": "base",
             "summary": "Policy analysis tools for SELinux",
-            "updated": "2016-11-28T18:11:31+0000"
+            "updated": "2016-12-07T17:12:46+0000"
         },
         {
             "bbclassextend": "",
@@ -160,7 +160,7 @@
             "filename": "core-image-selinux.bb",
             "filepath": "recipes-security/images",
             "homepage": "",
-            "id": 53179,
+            "id": 72338,
             "inherits": "core-image gzipnative image image_types meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk selinux-image siteinfo",
             "layerbranch": 87,
             "license": "MIT",
@@ -169,7 +169,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2016-11-28T18:11:31+0000"
+            "updated": "2016-12-07T17:12:46+0000"
         },
         {
             "bbclassextend": "",
@@ -179,7 +179,7 @@
             "filename": "core-image-selinux-minimal.bb",
             "filepath": "recipes-security/images",
             "homepage": "",
-            "id": 53180,
+            "id": 72339,
             "inherits": "core-image gzipnative image image_types meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk selinux-image siteinfo",
             "layerbranch": 87,
             "license": "MIT",
@@ -188,7 +188,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2016-11-28T18:11:32+0000"
+            "updated": "2016-12-07T17:12:46+0000"
         },
         {
             "bbclassextend": "",
@@ -198,7 +198,7 @@
             "filename": "packagegroup-selinux-policycoreutils.bb",
             "filepath": "recipes-security/packagegroups",
             "homepage": "",
-            "id": 53181,
+            "id": 72340,
             "inherits": "",
             "layerbranch": 87,
             "license": "MIT",
@@ -207,7 +207,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2016-11-28T18:11:32+0000"
+            "updated": "2016-12-07T17:12:47+0000"
         },
         {
             "bbclassextend": "",
@@ -217,7 +217,7 @@
             "filename": "packagegroup-selinux-minimal.bb",
             "filepath": "recipes-security/packagegroups",
             "homepage": "",
-            "id": 53182,
+            "id": 72341,
             "inherits": "",
             "layerbranch": 87,
             "license": "MIT",
@@ -226,7 +226,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2016-11-28T18:11:32+0000"
+            "updated": "2016-12-07T17:12:47+0000"
         },
         {
             "bbclassextend": "",
@@ -236,7 +236,7 @@
             "filename": "packagegroup-core-selinux.bb",
             "filepath": "recipes-security/packagegroups",
             "homepage": "",
-            "id": 53183,
+            "id": 72342,
             "inherits": "",
             "layerbranch": 87,
             "license": "MIT",
@@ -245,7 +245,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2016-11-28T18:11:32+0000"
+            "updated": "2016-12-07T17:12:47+0000"
         },
         {
             "bbclassextend": "native",
@@ -255,7 +255,7 @@
             "filename": "libsemanage_git.bb",
             "filepath": "recipes-security/selinux",
             "homepage": "https://github.com/SELinuxProject",
-            "id": 53184,
+            "id": 72343,
             "inherits": "lib_package python-dir",
             "layerbranch": 87,
             "license": "LGPLv2.1+",
@@ -264,7 +264,7 @@
             "pv": "2.2+gitX",
             "section": "base",
             "summary": "SELinux binary policy manipulation library",
-            "updated": "2016-11-28T18:11:32+0000"
+            "updated": "2016-12-07T17:12:47+0000"
         },
         {
             "bbclassextend": "native",
@@ -274,7 +274,7 @@
             "filename": "libsemanage_2.5.bb",
             "filepath": "recipes-security/selinux",
             "homepage": "https://github.com/SELinuxProject",
-            "id": 53185,
+            "id": 72344,
             "inherits": "lib_package python-dir",
             "layerbranch": 87,
             "license": "LGPLv2.1+",
@@ -283,7 +283,7 @@
             "pv": "2.5",
             "section": "base",
             "summary": "SELinux binary policy manipulation library",
-            "updated": "2016-11-28T18:11:32+0000"
+            "updated": "2016-12-07T17:12:47+0000"
         },
         {
             "bbclassextend": "native",
@@ -293,7 +293,7 @@
             "filename": "sepolgen_1.2.3.bb",
             "filepath": "recipes-security/selinux",
             "homepage": "https://github.com/SELinuxProject",
-            "id": 53186,
+            "id": 72345,
             "inherits": "python-dir",
             "layerbranch": 87,
             "license": "LGPLv2+",
@@ -302,26 +302,26 @@
             "pv": "1.2.3",
             "section": "base",
             "summary": "Python modules for supporting various SELinux utilities.",
-            "updated": "2016-11-28T18:11:32+0000"
+            "updated": "2016-12-07T17:12:47+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "",
+            "description": "policycoreutils contains the policy core utilities that are required for basic operation of a SELinux system.  These utilities include load_policy to load policies, setfiles to label filesystems, newrole to switch roles, and run_init to run /etc/init.d scripts in the proper context.",
             "filename": "policycoreutils_2.5.bb",
             "filepath": "recipes-security/selinux",
-            "homepage": "",
-            "id": 53187,
-            "inherits": "",
+            "homepage": "https://github.com/SELinuxProject",
+            "id": 72346,
+            "inherits": "python-dir pythonnative selinux systemd update-rc.d",
             "layerbranch": 87,
-            "license": "",
+            "license": "GPLv2+",
             "pn": "policycoreutils",
-            "provides": "",
-            "pv": "",
-            "section": "",
-            "summary": "",
-            "updated": "2016-11-28T18:11:32+0000"
+            "provides": "policycoreutils  mcstrans",
+            "pv": "2.5",
+            "section": "base",
+            "summary": "SELinux policy core utilities",
+            "updated": "2016-12-07T17:12:47+0000"
         },
         {
             "bbclassextend": "native",
@@ -331,7 +331,7 @@
             "filename": "checkpolicy_2.5.bb",
             "filepath": "recipes-security/selinux",
             "homepage": "https://github.com/SELinuxProject",
-            "id": 53188,
+            "id": 72347,
             "inherits": "",
             "layerbranch": 87,
             "license": "GPLv2+",
@@ -340,7 +340,7 @@
             "pv": "2.5",
             "section": "base",
             "summary": "SELinux policy compiler",
-            "updated": "2016-11-28T18:11:32+0000"
+            "updated": "2016-12-07T17:12:47+0000"
         },
         {
             "bbclassextend": "native",
@@ -350,7 +350,7 @@
             "filename": "checkpolicy_git.bb",
             "filepath": "recipes-security/selinux",
             "homepage": "https://github.com/SELinuxProject",
-            "id": 53189,
+            "id": 72348,
             "inherits": "",
             "layerbranch": 87,
             "license": "GPLv2+",
@@ -359,26 +359,26 @@
             "pv": "2.2+gitX",
             "section": "base",
             "summary": "SELinux policy compiler",
-            "updated": "2016-11-28T18:11:32+0000"
+            "updated": "2016-12-07T17:12:47+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "",
+            "description": "policycoreutils contains the policy core utilities that are required for basic operation of a SELinux system.  These utilities include load_policy to load policies, setfiles to label filesystems, newrole to switch roles, and run_init to run /etc/init.d scripts in the proper context.",
             "filename": "policycoreutils_git.bb",
             "filepath": "recipes-security/selinux",
-            "homepage": "",
-            "id": 53190,
-            "inherits": "",
+            "homepage": "https://github.com/SELinuxProject",
+            "id": 72349,
+            "inherits": "python-dir pythonnative selinux systemd update-rc.d",
             "layerbranch": 87,
-            "license": "",
+            "license": "GPLv2+",
             "pn": "policycoreutils",
-            "provides": "",
-            "pv": "",
-            "section": "",
-            "summary": "",
-            "updated": "2016-11-28T18:11:32+0000"
+            "provides": "policycoreutils  mcstrans",
+            "pv": "2.2.5+gitX",
+            "section": "base",
+            "summary": "SELinux policy core utilities",
+            "updated": "2016-12-07T17:12:47+0000"
         },
         {
             "bbclassextend": "native",
@@ -388,7 +388,7 @@
             "filename": "libselinux_git.bb",
             "filepath": "recipes-security/selinux",
             "homepage": "https://github.com/SELinuxProject",
-            "id": 53191,
+            "id": 72350,
             "inherits": "lib_package python-dir pythonnative",
             "layerbranch": 87,
             "license": "PD",
@@ -397,7 +397,7 @@
             "pv": "2.2+gitX",
             "section": "base",
             "summary": "SELinux library and simple utilities",
-            "updated": "2016-11-28T18:11:32+0000"
+            "updated": "2016-12-07T17:12:47+0000"
         },
         {
             "bbclassextend": "native",
@@ -407,7 +407,7 @@
             "filename": "libsepol_2.5.bb",
             "filepath": "recipes-security/selinux",
             "homepage": "https://github.com/SELinuxProject",
-            "id": 53192,
+            "id": 72351,
             "inherits": "lib_package",
             "layerbranch": 87,
             "license": "LGPLv2+",
@@ -416,7 +416,7 @@
             "pv": "2.5",
             "section": "base",
             "summary": "SELinux binary policy manipulation library",
-            "updated": "2016-11-28T18:11:32+0000"
+            "updated": "2016-12-07T17:12:48+0000"
         },
         {
             "bbclassextend": "native",
@@ -426,7 +426,7 @@
             "filename": "libsepol_git.bb",
             "filepath": "recipes-security/selinux",
             "homepage": "https://github.com/SELinuxProject",
-            "id": 53193,
+            "id": 72352,
             "inherits": "lib_package",
             "layerbranch": 87,
             "license": "LGPLv2+",
@@ -435,7 +435,7 @@
             "pv": "2.2+gitX",
             "section": "base",
             "summary": "SELinux binary policy manipulation library",
-            "updated": "2016-11-28T18:11:33+0000"
+            "updated": "2016-12-07T17:12:48+0000"
         },
         {
             "bbclassextend": "native",
@@ -445,7 +445,7 @@
             "filename": "sepolgen_git.bb",
             "filepath": "recipes-security/selinux",
             "homepage": "https://github.com/SELinuxProject",
-            "id": 53194,
+            "id": 72353,
             "inherits": "python-dir",
             "layerbranch": 87,
             "license": "LGPLv2+",
@@ -454,7 +454,7 @@
             "pv": "1.2.1+gitX",
             "section": "base",
             "summary": "Python modules for supporting various SELinux utilities.",
-            "updated": "2016-11-28T18:11:33+0000"
+            "updated": "2016-12-07T17:12:48+0000"
         },
         {
             "bbclassextend": "native",
@@ -464,7 +464,7 @@
             "filename": "secilc_2.5.bb",
             "filepath": "recipes-security/selinux",
             "homepage": "https://github.com/SELinuxProject",
-            "id": 53195,
+            "id": 72354,
             "inherits": "",
             "layerbranch": 87,
             "license": "BSD",
@@ -473,7 +473,7 @@
             "pv": "2.5",
             "section": "base",
             "summary": "SELinux Common Intermediate Language (CIL) compiler",
-            "updated": "2016-11-28T18:11:33+0000"
+            "updated": "2016-12-07T17:12:48+0000"
         },
         {
             "bbclassextend": "",
@@ -483,7 +483,7 @@
             "filename": "selinux-init_0.1.bb",
             "filepath": "recipes-security/selinux",
             "homepage": "",
-            "id": 53196,
+            "id": 72355,
             "inherits": "systemd update-rc.d",
             "layerbranch": 87,
             "license": "MIT",
@@ -492,7 +492,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "SELinux init script",
-            "updated": "2016-11-28T18:11:33+0000"
+            "updated": "2016-12-07T17:12:48+0000"
         },
         {
             "bbclassextend": "",
@@ -502,7 +502,7 @@
             "filename": "selinux-autorelabel_0.1.bb",
             "filepath": "recipes-security/selinux",
             "homepage": "",
-            "id": 53197,
+            "id": 72356,
             "inherits": "systemd update-rc.d",
             "layerbranch": 87,
             "license": "MIT",
@@ -511,7 +511,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "SELinux autorelabel script",
-            "updated": "2016-11-28T18:11:33+0000"
+            "updated": "2016-12-07T17:12:48+0000"
         },
         {
             "bbclassextend": "",
@@ -521,7 +521,7 @@
             "filename": "selinux-labeldev_0.1.bb",
             "filepath": "recipes-security/selinux",
             "homepage": "",
-            "id": 53198,
+            "id": 72357,
             "inherits": "systemd update-rc.d",
             "layerbranch": 87,
             "license": "MIT",
@@ -530,7 +530,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "SELinux init script",
-            "updated": "2016-11-28T18:11:33+0000"
+            "updated": "2016-12-07T17:12:48+0000"
         },
         {
             "bbclassextend": "native",
@@ -540,7 +540,7 @@
             "filename": "libselinux_2.5.bb",
             "filepath": "recipes-security/selinux",
             "homepage": "https://github.com/SELinuxProject",
-            "id": 53199,
+            "id": 72358,
             "inherits": "lib_package python-dir pythonnative",
             "layerbranch": 87,
             "license": "PD",
@@ -549,7 +549,7 @@
             "pv": "2.5",
             "section": "base",
             "summary": "SELinux library and simple utilities",
-            "updated": "2016-11-28T18:11:33+0000"
+            "updated": "2016-12-07T17:12:48+0000"
         },
         {
             "bbclassextend": "",
@@ -559,7 +559,7 @@
             "filename": "refpolicy-mcs_2.20151208.bb",
             "filepath": "recipes-security/refpolicy",
             "homepage": "",
-            "id": 53200,
+            "id": 72359,
             "inherits": "python-dir pythonnative",
             "layerbranch": 87,
             "license": "GPLv2",
@@ -568,7 +568,7 @@
             "pv": "2.20151208",
             "section": "base",
             "summary": "MCS (Multi Category Security) variant of the SELinux policy",
-            "updated": "2016-11-28T18:11:33+0000"
+            "updated": "2016-12-07T17:12:48+0000"
         },
         {
             "bbclassextend": "",
@@ -578,7 +578,7 @@
             "filename": "refpolicy-targeted_git.bb",
             "filepath": "recipes-security/refpolicy",
             "homepage": "",
-            "id": 53201,
+            "id": 72360,
             "inherits": "python-dir pythonnative",
             "layerbranch": 87,
             "license": "GPLv2",
@@ -587,7 +587,7 @@
             "pv": "2.20151208",
             "section": "base",
             "summary": "SELinux targeted policy",
-            "updated": "2016-11-28T18:11:33+0000"
+            "updated": "2016-12-07T17:12:48+0000"
         },
         {
             "bbclassextend": "",
@@ -597,7 +597,7 @@
             "filename": "refpolicy-mls_2.20151208.bb",
             "filepath": "recipes-security/refpolicy",
             "homepage": "",
-            "id": 53202,
+            "id": 72361,
             "inherits": "python-dir pythonnative",
             "layerbranch": 87,
             "license": "GPLv2",
@@ -606,7 +606,7 @@
             "pv": "2.20151208",
             "section": "base",
             "summary": "MLS (Multi Level Security) variant of the SELinux policy",
-            "updated": "2016-11-28T18:11:33+0000"
+            "updated": "2016-12-07T17:12:48+0000"
         },
         {
             "bbclassextend": "",
@@ -616,7 +616,7 @@
             "filename": "refpolicy-minimum_git.bb",
             "filepath": "recipes-security/refpolicy",
             "homepage": "",
-            "id": 53203,
+            "id": 72362,
             "inherits": "python-dir pythonnative",
             "layerbranch": 87,
             "license": "GPLv2",
@@ -625,7 +625,7 @@
             "pv": "2.20151208",
             "section": "base",
             "summary": "SELinux minimum policy",
-            "updated": "2016-11-28T18:11:33+0000"
+            "updated": "2016-12-07T17:12:48+0000"
         },
         {
             "bbclassextend": "",
@@ -635,7 +635,7 @@
             "filename": "refpolicy-minimum_2.20151208.bb",
             "filepath": "recipes-security/refpolicy",
             "homepage": "",
-            "id": 53204,
+            "id": 72363,
             "inherits": "python-dir pythonnative",
             "layerbranch": 87,
             "license": "GPLv2",
@@ -644,7 +644,7 @@
             "pv": "2.20151208",
             "section": "base",
             "summary": "SELinux minimum policy",
-            "updated": "2016-11-28T18:11:33+0000"
+            "updated": "2016-12-07T17:12:49+0000"
         },
         {
             "bbclassextend": "",
@@ -654,7 +654,7 @@
             "filename": "refpolicy-targeted_2.20151208.bb",
             "filepath": "recipes-security/refpolicy",
             "homepage": "",
-            "id": 53205,
+            "id": 72364,
             "inherits": "python-dir pythonnative",
             "layerbranch": 87,
             "license": "GPLv2",
@@ -663,7 +663,7 @@
             "pv": "2.20151208",
             "section": "base",
             "summary": "SELinux targeted policy",
-            "updated": "2016-11-28T18:11:33+0000"
+            "updated": "2016-12-07T17:12:49+0000"
         },
         {
             "bbclassextend": "",
@@ -673,7 +673,7 @@
             "filename": "refpolicy-mls_git.bb",
             "filepath": "recipes-security/refpolicy",
             "homepage": "",
-            "id": 53206,
+            "id": 72365,
             "inherits": "python-dir pythonnative",
             "layerbranch": 87,
             "license": "GPLv2",
@@ -682,7 +682,7 @@
             "pv": "2.20151208",
             "section": "base",
             "summary": "MLS (Multi Level Security) variant of the SELinux policy",
-            "updated": "2016-11-28T18:11:33+0000"
+            "updated": "2016-12-07T17:12:49+0000"
         },
         {
             "bbclassextend": "",
@@ -692,7 +692,7 @@
             "filename": "refpolicy-standard_git.bb",
             "filepath": "recipes-security/refpolicy",
             "homepage": "",
-            "id": 53207,
+            "id": 72366,
             "inherits": "python-dir pythonnative",
             "layerbranch": 87,
             "license": "GPLv2",
@@ -701,7 +701,7 @@
             "pv": "2.20151208",
             "section": "base",
             "summary": "Standard variants of the SELinux policy",
-            "updated": "2016-11-28T18:11:34+0000"
+            "updated": "2016-12-07T17:12:49+0000"
         },
         {
             "bbclassextend": "",
@@ -711,7 +711,7 @@
             "filename": "refpolicy-mcs_git.bb",
             "filepath": "recipes-security/refpolicy",
             "homepage": "",
-            "id": 53208,
+            "id": 72367,
             "inherits": "python-dir pythonnative",
             "layerbranch": 87,
             "license": "GPLv2",
@@ -720,7 +720,7 @@
             "pv": "2.20151208",
             "section": "base",
             "summary": "MCS (Multi Category Security) variant of the SELinux policy",
-            "updated": "2016-11-28T18:11:34+0000"
+            "updated": "2016-12-07T17:12:49+0000"
         },
         {
             "bbclassextend": "",
@@ -730,7 +730,7 @@
             "filename": "refpolicy-standard_2.20151208.bb",
             "filepath": "recipes-security/refpolicy",
             "homepage": "",
-            "id": 53209,
+            "id": 72368,
             "inherits": "python-dir pythonnative",
             "layerbranch": 87,
             "license": "GPLv2",
@@ -739,7 +739,7 @@
             "pv": "2.20151208",
             "section": "base",
             "summary": "Standard variants of the SELinux policy",
-            "updated": "2016-11-28T18:11:34+0000"
+            "updated": "2016-12-07T17:12:49+0000"
         },
         {
             "bbclassextend": "native",
@@ -749,7 +749,7 @@
             "filename": "ustr_1.0.4.bb",
             "filepath": "recipes-extended/ustr",
             "homepage": "",
-            "id": 53210,
+            "id": 72369,
             "inherits": "lib_package siteinfo",
             "layerbranch": 87,
             "license": "MIT | LGPLv2+ | BSD",
@@ -758,7 +758,7 @@
             "pv": "1.0.4",
             "section": "base",
             "summary": "Micro String API - for C",
-            "updated": "2016-11-28T18:11:34+0000"
+            "updated": "2016-12-07T17:12:49+0000"
         },
         {
             "bbclassextend": "native",
@@ -768,7 +768,7 @@
             "filename": "python-ipy_0.83.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/haypo/python-ipy",
-            "id": 53211,
+            "id": 72370,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative",
             "layerbranch": 87,
             "license": "BSD",
@@ -777,7 +777,7 @@
             "pv": "0.83",
             "section": "devel/python",
             "summary": "Python module for handling IPv4 and IPv6 Addresses and Networks",
-            "updated": "2016-11-28T18:11:34+0000"
+            "updated": "2016-12-07T17:12:49+0000"
         }
     ],
     "wrtemplates": []

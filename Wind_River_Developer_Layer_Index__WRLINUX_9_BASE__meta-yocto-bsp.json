@@ -26,10 +26,10 @@
             "collection": "core",
             "id": 56,
             "layer": 1,
-            "updated": "2016-12-06T22:12:21+0000",
-            "vcs_last_commit": "2016-12-06T02:12:31+0000",
-            "vcs_last_fetch": "2016-12-06T22:12:21+0000",
-            "vcs_last_rev": "b117ec20eb4f43d3fbae0dedf31996fd8160ab63",
+            "updated": "2016-12-08T02:12:26+0000",
+            "vcs_last_commit": "2016-12-07T03:12:17+0000",
+            "vcs_last_fetch": "2016-12-08T02:12:26+0000",
+            "vcs_last_rev": "7931b2bcc1c74129799c1f7f746dcf5e83d2381e",
             "vcs_subdir": "meta",
             "version": "9"
         },
@@ -39,9 +39,9 @@
             "collection": "yoctobsp",
             "id": 86,
             "layer": 58,
-            "updated": "2016-12-06T22:12:08+0000",
+            "updated": "2016-12-08T02:12:14+0000",
             "vcs_last_commit": "2016-10-26T08:10:08+0000",
-            "vcs_last_fetch": "2016-12-06T22:12:08+0000",
+            "vcs_last_fetch": "2016-12-08T02:12:14+0000",
             "vcs_last_rev": "d4627701a3a5d8c82f49747c41c5b3226da56d07",
             "vcs_subdir": "meta-yocto-bsp",
             "version": "3"
@@ -94,38 +94,38 @@
     "machines": [
         {
             "description": " http://beagleboard.org/bone and http://beagleboard.org/black boards",
-            "id": 793,
+            "id": 1248,
             "layerbranch": 86,
             "name": "beaglebone",
-            "updated": "2016-11-28T18:11:11+0000"
+            "updated": "2016-12-07T17:12:26+0000"
         },
         {
             "description": "",
-            "id": 794,
+            "id": 1249,
             "layerbranch": 86,
             "name": "mpc8315e-rdb",
-            "updated": "2016-11-28T18:11:11+0000"
+            "updated": "2016-12-07T17:12:26+0000"
         },
         {
             "description": " generic X86 (32-bit) PCs. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
-            "id": 795,
+            "id": 1250,
             "layerbranch": 86,
             "name": "genericx86",
-            "updated": "2016-11-28T18:11:11+0000"
+            "updated": "2016-12-07T17:12:26+0000"
         },
         {
             "description": "Edgerouter",
-            "id": 796,
+            "id": 1251,
             "layerbranch": 86,
             "name": "edgerouter",
-            "updated": "2016-11-28T18:11:11+0000"
+            "updated": "2016-12-07T17:12:26+0000"
         },
         {
             "description": " generic X86_64 (64-bit) PCs and servers. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
-            "id": 797,
+            "id": 1252,
             "layerbranch": 86,
             "name": "genericx86-64",
-            "updated": "2016-11-28T18:11:11+0000"
+            "updated": "2016-12-07T17:12:26+0000"
         }
     ],
     "recipes": [
@@ -137,7 +137,7 @@
             "filename": "gma500-gfx-check_1.0.bb",
             "filepath": "recipes-bsp/gma500-gfx-check",
             "homepage": "",
-            "id": 53303,
+            "id": 72460,
             "inherits": "",
             "layerbranch": 86,
             "license": "GPLv2",
@@ -146,7 +146,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Intel gma500_gfx fix for certain hardware",
-            "updated": "2016-11-28T18:11:11+0000"
+            "updated": "2016-12-07T17:12:26+0000"
         }
     ],
     "wrtemplates": []
