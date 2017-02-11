@@ -12,9 +12,9 @@
             "id": 2,
             "name": "WRLINUX_9_BASE",
             "short_description": "Wind River Linux 9 Baseline",
-            "sort_priority": null,
+            "sort_priority": 2,
             "update_environment": null,
-            "updated": "2016-11-25T15:11:14+0000",
+            "updated": "2017-01-18T14:01:00+0000",
             "updates_enabled": true
         }
     ],
@@ -34,10 +34,10 @@
             "collection": "core",
             "id": 56,
             "layer": 1,
-            "updated": "2017-01-13T22:01:06+0000",
-            "vcs_last_commit": "2017-01-11T09:01:05+0000",
-            "vcs_last_fetch": "2017-01-13T22:01:06+0000",
-            "vcs_last_rev": "7f7e8b7f73a868099bd22083a102b5a24926dcae",
+            "updated": "2017-02-11T03:02:25+0000",
+            "vcs_last_commit": "2017-02-09T05:02:18+0000",
+            "vcs_last_fetch": "2017-02-11T03:02:25+0000",
+            "vcs_last_rev": "284fa72b2a7a01724bab75c26b6180afa44ce65d",
             "vcs_subdir": "meta",
             "version": "9"
         }
@@ -55,13 +55,13 @@
             "classic": false,
             "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
             "id": 1,
-            "index_preference": 0,
+            "index_preference": 1000,
             "layer_type": "A",
             "mailing_list_url": "",
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2016-10-19T15:10:36+0000",
+            "updated": "2017-01-20T17:01:22+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
             "vcs_web_file_base_url": "",
@@ -3615,7 +3615,7 @@
             "pv": "7.3p1",
             "section": "console/network",
             "summary": "A suite of security-related network utilities based on the SSH protocol including the ssh client and sshd server",
-            "updated": "2016-12-07T17:12:48+0000"
+            "updated": "2017-02-08T07:02:27+0000"
         },
         {
             "bbclassextend": "",
@@ -3786,7 +3786,7 @@
             "pv": "4.3.4",
             "section": "console/network",
             "summary": "Internet Software Consortium DHCP package",
-            "updated": "2016-12-07T17:12:49+0000"
+            "updated": "2017-02-09T06:02:08+0000"
         },
         {
             "bbclassextend": "",
@@ -3919,7 +3919,7 @@
             "pv": "1.0.2j",
             "section": "libs/network",
             "summary": "Secure Socket Layer",
-            "updated": "2016-12-07T17:12:50+0000"
+            "updated": "2017-02-08T05:02:07+0000"
         },
         {
             "bbclassextend": "",
@@ -5344,7 +5344,7 @@
             "pv": "1.4.7",
             "section": "console/utils",
             "summary": "GNU Privacy Guard - encryption and signing tools",
-            "updated": "2016-12-07T17:12:59+0000"
+            "updated": "2017-01-16T07:01:14+0000"
         },
         {
             "bbclassextend": "native",
@@ -5914,7 +5914,7 @@
             "pv": "3.5.3",
             "section": "base",
             "summary": "GNU Transport Layer Security Library",
-            "updated": "2016-12-07T17:12:04+0000"
+            "updated": "2017-02-08T18:02:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -7092,7 +7092,7 @@
             "pv": "4.0.6",
             "section": "base",
             "summary": "Provides support for the Tag Image File Format (TIFF)",
-            "updated": "2016-12-07T17:12:12+0000"
+            "updated": "2017-02-08T06:02:07+0000"
         },
         {
             "bbclassextend": "",
@@ -8479,7 +8479,7 @@
             "pv": "20160126",
             "section": "console/utils",
             "summary": "Linux Test Project",
-            "updated": "2016-12-07T17:12:20+0000"
+            "updated": "2017-02-08T07:02:21+0000"
         },
         {
             "bbclassextend": "native",
@@ -10455,7 +10455,7 @@
             "pv": "6.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2016-12-07T17:12:34+0000"
+            "updated": "2017-02-07T05:02:08+0000"
         },
         {
             "bbclassextend": "",
@@ -10645,7 +10645,7 @@
             "pv": "5.4.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2016-12-07T17:12:35+0000"
+            "updated": "2017-02-07T05:02:08+0000"
         },
         {
             "bbclassextend": "",
@@ -10683,7 +10683,7 @@
             "pv": "6.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2016-12-07T17:12:35+0000"
+            "updated": "2017-02-07T05:02:08+0000"
         },
         {
             "bbclassextend": "",
@@ -10797,7 +10797,7 @@
             "pv": "5.4.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2016-12-07T17:12:36+0000"
+            "updated": "2017-02-07T05:02:08+0000"
         },
         {
             "bbclassextend": "",
@@ -12659,7 +12659,7 @@
             "pv": "2.0.12",
             "section": "devel",
             "summary": "Guile is the GNU Ubiquitous Intelligent Language for Extensions",
-            "updated": "2016-12-20T23:12:25+0000"
+            "updated": "2017-02-08T06:02:06+0000"
         },
         {
             "bbclassextend": "",
@@ -12982,7 +12982,7 @@
             "pv": "5.22.1",
             "section": "devel",
             "summary": "Perl scripting language",
-            "updated": "2016-12-07T17:12:53+0000"
+            "updated": "2017-01-16T03:01:06+0000"
         },
         {
             "bbclassextend": "native",
@@ -13210,7 +13210,7 @@
             "pv": "2.7.0",
             "section": "base",
             "summary": "Fast open source processor emulator",
-            "updated": "2017-01-12T02:01:06+0000"
+            "updated": "2017-01-17T07:01:37+0000"
         },
         {
             "bbclassextend": "",

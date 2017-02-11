@@ -12,9 +12,9 @@
             "id": 2,
             "name": "WRLINUX_9_BASE",
             "short_description": "Wind River Linux 9 Baseline",
-            "sort_priority": null,
+            "sort_priority": 2,
             "update_environment": null,
-            "updated": "2016-11-25T15:11:14+0000",
+            "updated": "2017-01-18T14:01:00+0000",
             "updates_enabled": true
         }
     ],
@@ -26,10 +26,10 @@
             "collection": "core",
             "id": 56,
             "layer": 1,
-            "updated": "2017-01-13T22:01:06+0000",
-            "vcs_last_commit": "2017-01-11T09:01:05+0000",
-            "vcs_last_fetch": "2017-01-13T22:01:06+0000",
-            "vcs_last_rev": "7f7e8b7f73a868099bd22083a102b5a24926dcae",
+            "updated": "2017-02-11T03:02:25+0000",
+            "vcs_last_commit": "2017-02-09T05:02:18+0000",
+            "vcs_last_fetch": "2017-02-11T03:02:25+0000",
+            "vcs_last_rev": "284fa72b2a7a01724bab75c26b6180afa44ce65d",
             "vcs_subdir": "meta",
             "version": "9"
         },
@@ -39,10 +39,10 @@
             "collection": "virtualization-layer",
             "id": 57,
             "layer": 45,
-            "updated": "2017-01-13T22:01:33+0000",
-            "vcs_last_commit": "2016-11-29T22:11:31+0000",
-            "vcs_last_fetch": "2017-01-13T22:01:33+0000",
-            "vcs_last_rev": "ee38999c512fec1c965ae518a5863b0e1ac59d75",
+            "updated": "2017-02-11T03:02:52+0000",
+            "vcs_last_commit": "2017-01-24T07:01:12+0000",
+            "vcs_last_fetch": "2017-02-11T03:02:52+0000",
+            "vcs_last_rev": "45b3b466d09fdffaaaf880d0b2845a6158cd651f",
             "vcs_subdir": "meta-virtualization",
             "version": "1"
         }
@@ -60,13 +60,13 @@
             "classic": false,
             "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
             "id": 1,
-            "index_preference": 0,
+            "index_preference": 1000,
             "layer_type": "A",
             "mailing_list_url": "",
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2016-10-19T15:10:36+0000",
+            "updated": "2017-01-20T17:01:22+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
             "vcs_web_file_base_url": "",
@@ -77,13 +77,13 @@
             "classic": false,
             "description": "This layer provides lxc package build for Wind River Linux.  It\r\nis required by most other layers that Wind River provides.",
             "id": 45,
-            "index_preference": 0,
-            "layer_type": "M",
+            "index_preference": 900,
+            "layer_type": "A",
             "mailing_list_url": "",
             "name": "meta-virtualization",
             "status": "P",
-            "summary": "meta-virtualization",
-            "updated": "2016-10-19T15:10:47+0000",
+            "summary": "Virtualization related components",
+            "updated": "2017-01-20T16:01:27+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/wr-kernel",
             "vcs_web_file_base_url": "",
@@ -101,7 +101,7 @@
             "filename": "lxc_2.0.4.bb",
             "filepath": "recipes-containers/lxc",
             "homepage": "",
-            "id": 72426,
+            "id": 117734,
             "inherits": "autotools pkgconfig ptest siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 57,
             "license": "GPLv2",
@@ -110,7 +110,7 @@
             "pv": "2.0.4",
             "section": "console/utils",
             "summary": "",
-            "updated": "2016-12-07T17:12:10+0000"
+            "updated": "2017-01-17T19:01:09+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -120,7 +120,7 @@
             "filename": "protobuf_3.1.0.bb",
             "filepath": "recipes-containers/criu",
             "homepage": "http://code.google.com/p/protobuf/",
-            "id": 72427,
+            "id": 117735,
             "inherits": "autotools distutils distutils-base distutils-common-base ptest python-dir pythonnative setuptools siteconfig siteinfo",
             "layerbranch": 57,
             "license": "BSD-3-Clause",
@@ -129,7 +129,7 @@
             "pv": "3.1.0",
             "section": "console/tools",
             "summary": "protobuf",
-            "updated": "2016-12-07T17:12:10+0000"
+            "updated": "2017-01-17T19:01:09+0000"
         },
         {
             "bbclassextend": "",
@@ -139,7 +139,7 @@
             "filename": "criu_git.bb",
             "filepath": "recipes-containers/criu",
             "homepage": "http://criu.org",
-            "id": 72428,
+            "id": 117736,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
             "layerbranch": 57,
             "license": "GPLv2",
@@ -148,7 +148,7 @@
             "pv": "2.5+gitX",
             "section": "console/tools",
             "summary": "CRIU",
-            "updated": "2016-12-07T17:12:10+0000"
+            "updated": "2017-01-17T19:01:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -158,7 +158,7 @@
             "filename": "protobuf-c_1.2.1.bb",
             "filepath": "recipes-containers/criu",
             "homepage": "http://code.google.com/p/protobuf-c/",
-            "id": 72429,
+            "id": 117737,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 57,
             "license": "Apache-2.0",
@@ -167,7 +167,7 @@
             "pv": "1.2.1",
             "section": "console/tools",
             "summary": "protobuf-c",
-            "updated": "2016-12-07T17:12:10+0000"
+            "updated": "2017-01-17T19:01:09+0000"
         },
         {
             "bbclassextend": "",
@@ -177,7 +177,7 @@
             "filename": "protobuf-native_3.1.0.bb",
             "filepath": "recipes-containers/criu",
             "homepage": "http://code.google.com/p/protobuf/",
-            "id": 72430,
+            "id": 117738,
             "inherits": "autotools native nopackages relocatable siteconfig siteinfo",
             "layerbranch": 57,
             "license": "BSD-3-Clause",
@@ -186,7 +186,7 @@
             "pv": "3.1.0",
             "section": "console/tools",
             "summary": "protobuf",
-            "updated": "2016-12-07T17:12:10+0000"
+            "updated": "2017-01-17T19:01:09+0000"
         },
         {
             "bbclassextend": "",
@@ -196,16 +196,16 @@
             "filename": "openvswitch_git.bb",
             "filepath": "recipes-networking/openvswitch",
             "homepage": "http://openvswitch.org/",
-            "id": 72431,
-            "inherits": "autotools ptest siteconfig siteinfo update-rc.d",
+            "id": 117739,
+            "inherits": "autotools ptest python-dir pythonnative siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 57,
             "license": "Apache-2",
             "pn": "openvswitch",
             "provides": "openvswitch ",
-            "pv": "2.4.0+bb429e09f7783f1ba23ac0682ed9edf424f0cfbb",
+            "pv": "2.6.1+f4b0e64cffb4777ff03d48621c3eadcf1d8c19f3",
             "section": "networking",
             "summary": "OpenvSwitch",
-            "updated": "2016-12-07T17:12:10+0000"
+            "updated": "2017-01-24T08:01:35+0000"
         },
         {
             "bbclassextend": "",
@@ -215,7 +215,7 @@
             "filename": "libvirt_1.3.5.bb",
             "filepath": "recipes-extended/libvirt",
             "homepage": "http://libvirt.org",
-            "id": 72432,
+            "id": 117740,
             "inherits": "autotools gettext pkgconfig ptest python-dir pythonnative siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 57,
             "license": "LGPLv2.1 & LGPLv2.1+ & GPLv2+",
@@ -224,7 +224,7 @@
             "pv": "1.3.5",
             "section": "console/tools",
             "summary": "",
-            "updated": "2016-12-07T17:12:10+0000"
+            "updated": "2017-01-17T19:01:09+0000"
         }
     ],
     "wrtemplates": []
