@@ -1,0 +1,117 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_9_BASE_RCPL0003",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_9_BASE_RCPL0003",
+            "id": 17,
+            "name": "WRLINUX_9_BASE_RCPL0003",
+            "short_description": "WRLinux 9 Base RCPL 0003",
+            "sort_priority": 9996,
+            "update_environment": null,
+            "updated": "2017-01-24T12:01:36+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 17,
+            "collection": "core",
+            "id": 3578,
+            "layer": 1,
+            "updated": "2017-02-15T18:02:16+0000",
+            "vcs_last_commit": "2017-02-15T09:02:05+0000",
+            "vcs_last_fetch": "2017-02-15T18:02:16+0000",
+            "vcs_last_rev": "a4107422c3518f1aa9c214b35965168d8541c2e2",
+            "vcs_subdir": "meta",
+            "version": "9"
+        },
+        {
+            "actual_branch": "",
+            "branch": 17,
+            "collection": "realtime",
+            "id": 3605,
+            "layer": 48,
+            "updated": "2017-02-15T18:02:49+0000",
+            "vcs_last_commit": "2016-11-18T00:11:28+0000",
+            "vcs_last_fetch": "2017-02-15T18:02:49+0000",
+            "vcs_last_rev": "784dfb23f398eae2b78173d2c863947625ad91fe",
+            "vcs_subdir": "meta-realtime",
+            "version": "1"
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 5418,
+            "layerbranch": 3605,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "classic": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2017-01-20T17:01:22+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "This layer is intended to be a central point for realtime related kernel and\r\nsystem development. It also contains utilities, and configuration useful for\r\ntuning a realtime system. It should be useful directly on top of oe-core.  It\r\nshould be primarily useful to the following groups:",
+            "id": 48,
+            "index_preference": 900,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-realtime",
+            "status": "P",
+            "summary": "Realtime related kernel components",
+            "updated": "2017-01-20T16:01:16+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wr-kernel",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "schedtool-dl (scheduler test tool) for deadline scheduler",
+            "filename": "schedtool-dl.bb",
+            "filepath": "recipes-tools/schedtool-dl",
+            "homepage": "",
+            "id": 131090,
+            "inherits": "",
+            "layerbranch": 3605,
+            "license": "GPLv2",
+            "pn": "schedtool-dl",
+            "provides": "schedtool-dl ",
+            "pv": "1.0",
+            "section": "devel",
+            "summary": "",
+            "updated": "2017-01-24T13:01:26+0000"
+        }
+    ],
+    "wrtemplates": []
+}
