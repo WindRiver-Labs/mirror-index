@@ -1,0 +1,123 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_9_BASE_RCPL0004",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_9_BASE_RCPL0004",
+            "id": 20,
+            "name": "WRLINUX_9_BASE_RCPL0004",
+            "short_description": "WRLinux 9 Base RCPL 0004",
+            "sort_priority": 9995,
+            "update_environment": null,
+            "updated": "2017-02-27T19:02:04+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 20,
+            "collection": "core",
+            "id": 3744,
+            "layer": 1,
+            "updated": "2017-03-09T02:03:08+0000",
+            "vcs_last_commit": "2017-03-06T06:03:30+0000",
+            "vcs_last_fetch": "2017-03-09T02:03:08+0000",
+            "vcs_last_rev": "267375cce77d6d8f0c4f7fa1e597180c9f18323c",
+            "vcs_subdir": "meta",
+            "version": "9"
+        },
+        {
+            "actual_branch": "",
+            "branch": 20,
+            "collection": "systemd-layer",
+            "id": 3749,
+            "layer": 6,
+            "updated": "2017-03-09T02:03:14+0000",
+            "vcs_last_commit": "2016-11-29T09:11:42+0000",
+            "vcs_last_fetch": "2017-03-09T02:03:14+0000",
+            "vcs_last_rev": "69bdbf665a32b784cd1fc2b30e74aa3f9faf191b",
+            "vcs_subdir": "meta-systemd",
+            "version": null
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 5960,
+            "layerbranch": 3749,
+            "required": true
+        },
+        {
+            "dependency": 74,
+            "id": 5961,
+            "layerbranch": 3749,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "classic": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2017-01-20T17:01:22+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "systemd package changes for meta-openembedded related components",
+            "id": 6,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-systemd",
+            "status": "P",
+            "summary": "systemd related support",
+            "updated": "2017-01-20T17:01:32+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "systemd-machine-units_1.0.bb",
+            "filepath": "recipes-core/systemd",
+            "homepage": "",
+            "id": 146471,
+            "inherits": "systemd",
+            "layerbranch": 3749,
+            "license": "MIT",
+            "pn": "systemd-machine-units",
+            "provides": "systemd-machine-units ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "Machine specific systemd units",
+            "updated": "2017-03-01T18:03:41+0000"
+        }
+    ],
+    "wrtemplates": []
+}
