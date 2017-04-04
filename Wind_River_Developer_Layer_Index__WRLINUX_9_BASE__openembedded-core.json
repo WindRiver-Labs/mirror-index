@@ -8,13 +8,13 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-9.0-20161125",
+            "bitbake_branch": "wr-9.0-20170330",
             "id": 2,
             "name": "WRLINUX_9_BASE",
             "short_description": "Wind River Linux 9 Baseline",
             "sort_priority": 2,
             "update_environment": null,
-            "updated": "2017-01-18T14:01:00+0000",
+            "updated": "2017-04-04T18:04:21+0000",
             "updates_enabled": true
         }
     ],
@@ -24,20 +24,20 @@
             "id": 319,
             "layerbranch": 56,
             "name": "nodistro",
-            "updated": "2016-12-07T17:12:26+0000"
+            "updated": "2017-04-04T19:04:14+0000"
         }
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-9.0-20161125",
+            "actual_branch": "wr-9.0-20170330",
             "branch": 2,
             "collection": "core",
             "id": 56,
             "layer": 1,
-            "updated": "2017-03-24T23:03:08+0000",
-            "vcs_last_commit": "2017-03-22T03:03:26+0000",
-            "vcs_last_fetch": "2017-03-24T23:03:08+0000",
-            "vcs_last_rev": "57275940bd287f03b9677277abab90d4a646ab26",
+            "updated": "2017-04-04T22:04:13+0000",
+            "vcs_last_commit": "2017-04-04T19:04:35+0000",
+            "vcs_last_fetch": "2017-04-04T22:04:13+0000",
+            "vcs_last_rev": "947f9d1f0f77b159315a2b9f3f1cdf611fe8187f",
             "vcs_subdir": "meta",
             "version": "9"
         }
@@ -75,49 +75,49 @@
             "id": 1218,
             "layerbranch": 56,
             "name": "qemuarm",
-            "updated": "2016-12-07T17:12:26+0000"
+            "updated": "2017-04-04T19:04:14+0000"
         },
         {
             "description": " PPC system under qemu emulation",
             "id": 1219,
             "layerbranch": 56,
             "name": "qemuppc",
-            "updated": "2016-12-07T17:12:26+0000"
+            "updated": "2017-04-04T19:04:14+0000"
         },
         {
             "description": "mti-malta64-be",
             "id": 1220,
             "layerbranch": 56,
             "name": "qemumips64",
-            "updated": "2016-12-07T17:12:26+0000"
+            "updated": "2017-04-04T19:04:14+0000"
         },
         {
             "description": "mti_malta32_be",
             "id": 1221,
             "layerbranch": 56,
             "name": "qemumips",
-            "updated": "2016-12-07T17:12:26+0000"
+            "updated": "2017-04-04T19:04:14+0000"
         },
         {
             "description": " a common x86",
             "id": 1222,
             "layerbranch": 56,
             "name": "qemux86-64",
-            "updated": "2016-12-07T17:12:26+0000"
+            "updated": "2017-04-04T19:04:14+0000"
         },
         {
             "description": " a generic armv8",
             "id": 1223,
             "layerbranch": 56,
             "name": "qemuarm64",
-            "updated": "2016-12-07T17:12:26+0000"
+            "updated": "2017-04-04T19:04:14+0000"
         },
         {
             "description": " a common x86",
             "id": 1224,
             "layerbranch": 56,
             "name": "qemux86",
-            "updated": "2016-12-07T17:12:26+0000"
+            "updated": "2017-04-04T19:04:14+0000"
         }
     ],
     "recipes": [
@@ -537,7 +537,7 @@
             "pv": "1.0",
             "section": "x11",
             "summary": "Simple Xserver Init Script (no dm)",
-            "updated": "2016-12-07T17:12:29+0000"
+            "updated": "2017-04-04T19:04:20+0000"
         },
         {
             "bbclassextend": "",
@@ -651,7 +651,7 @@
             "pv": "0.9.9",
             "section": "x11/libs",
             "summary": "XRender: X Rendering Extension library",
-            "updated": "2016-12-07T17:12:30+0000"
+            "updated": "2017-04-04T19:04:17+0000"
         },
         {
             "bbclassextend": "native",
@@ -734,7 +734,7 @@
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org/enter_bug.cgi?product=xorg",
             "description": "This extension is a minimal set of client and server extensions required to completely test the X11 server with no user intervention.",
-            "filename": "libxtst_1.2.2.bb",
+            "filename": "libxtst_1.2.3.bb",
             "filepath": "recipes-graphics/xorg-lib",
             "homepage": "http://www.x.org",
             "id": 70168,
@@ -743,10 +743,10 @@
             "license": "MIT-style",
             "pn": "libxtst",
             "provides": "libxtst xtst",
-            "pv": "1.2.2",
+            "pv": "1.2.3",
             "section": "x11/libs",
             "summary": "XTest: X Test extension library",
-            "updated": "2016-12-07T17:12:30+0000"
+            "updated": "2017-04-04T19:04:13+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -765,7 +765,7 @@
             "pv": "1.5.0",
             "section": "x11/libs",
             "summary": "XRandR: X Resize, Rotate and Reflect extension library",
-            "updated": "2016-12-07T17:12:31+0000"
+            "updated": "2017-04-04T19:04:17+0000"
         },
         {
             "bbclassextend": "",
@@ -860,7 +860,7 @@
             "pv": "1.6.3",
             "section": "x11/libs",
             "summary": "Xlib: C Language X Interface library",
-            "updated": "2016-12-07T17:12:31+0000"
+            "updated": "2017-04-04T19:04:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1506,7 +1506,7 @@
             "pv": "0.1",
             "section": "x11",
             "summary": "Custom Matchbox session files",
-            "updated": "2016-12-07T17:12:36+0000"
+            "updated": "2017-04-04T19:04:22+0000"
         },
         {
             "bbclassextend": "",
@@ -1753,7 +1753,7 @@
             "pv": "0.1",
             "section": "x11",
             "summary": "Very simple session manager for X",
-            "updated": "2016-12-07T17:12:37+0000"
+            "updated": "2017-04-04T19:04:22+0000"
         },
         {
             "bbclassextend": "",
@@ -2152,7 +2152,7 @@
             "pv": "1.5.2",
             "section": "base",
             "summary": "cross-platform C library to defer selection of GL API and of window system",
-            "updated": "2016-12-07T17:12:40+0000"
+            "updated": "2017-04-04T19:04:22+0000"
         },
         {
             "bbclassextend": "",
@@ -2342,7 +2342,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic X11 image with a terminal",
-            "updated": "2016-12-07T17:12:41+0000"
+            "updated": "2017-04-04T19:04:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2361,7 +2361,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic Wayland image with a terminal",
-            "updated": "2016-12-07T17:12:41+0000"
+            "updated": "2017-04-04T19:04:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2380,7 +2380,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2016-12-07T17:12:41+0000"
+            "updated": "2017-04-04T19:04:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2551,7 +2551,7 @@
             "pv": "1.11.0",
             "section": "base",
             "summary": "Weston, a Wayland compositor",
-            "updated": "2016-12-07T17:12:41+0000"
+            "updated": "2017-04-04T19:04:16+0000"
         },
         {
             "bbclassextend": "",
@@ -2589,7 +2589,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Startup script and systemd unit file for the Weston Wayland compositor",
-            "updated": "2016-12-07T17:12:41+0000"
+            "updated": "2017-04-04T19:04:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2703,7 +2703,7 @@
             "pv": "1.0+gitrX",
             "section": "base",
             "summary": "OpenGL driver testing framework",
-            "updated": "2016-12-07T17:12:42+0000"
+            "updated": "2017-04-04T19:04:23+0000"
         },
         {
             "bbclassextend": "",
@@ -3292,7 +3292,7 @@
             "pv": "12.0.1",
             "section": "x11",
             "summary": "A free implementation of the OpenGL API",
-            "updated": "2016-12-07T17:12:47+0000"
+            "updated": "2017-04-04T19:04:24+0000"
         },
         {
             "bbclassextend": "",
@@ -3330,7 +3330,7 @@
             "pv": "12.0.1",
             "section": "x11",
             "summary": "A free implementation of the OpenGL API  (OpenGL only, no EGL/GLES)",
-            "updated": "2016-12-07T17:12:47+0000"
+            "updated": "2017-04-04T19:04:24+0000"
         },
         {
             "bbclassextend": "",
@@ -3349,7 +3349,7 @@
             "pv": "10.5.4+gitX",
             "section": "x11",
             "summary": "A free implementation of the OpenGL API",
-            "updated": "2016-12-07T17:12:47+0000"
+            "updated": "2017-04-04T19:04:24+0000"
         },
         {
             "bbclassextend": "",
@@ -3463,7 +3463,7 @@
             "pv": "0.12-gitX",
             "section": "base",
             "summary": "open source telephony",
-            "updated": "2016-12-07T17:12:48+0000"
+            "updated": "2017-04-04T19:04:24+0000"
         },
         {
             "bbclassextend": "",
@@ -3482,7 +3482,7 @@
             "pv": "1.18",
             "section": "base",
             "summary": "open source telephony",
-            "updated": "2016-12-07T17:12:48+0000"
+            "updated": "2017-04-04T19:04:24+0000"
         },
         {
             "bbclassextend": "",
@@ -3520,7 +3520,7 @@
             "pv": "1.33",
             "section": "base",
             "summary": "A daemon for managing internet connections within embedded devices",
-            "updated": "2016-12-07T17:12:48+0000"
+            "updated": "2017-04-04T19:04:24+0000"
         },
         {
             "bbclassextend": "",
@@ -3558,7 +3558,7 @@
             "pv": "9.10.3-P3",
             "section": "console/network",
             "summary": "ISC Internet Domain Name Server",
-            "updated": "2017-02-20T03:02:35+0000"
+            "updated": "2017-04-04T19:04:25+0000"
         },
         {
             "bbclassextend": "",
@@ -3577,7 +3577,7 @@
             "pv": "4.7.0",
             "section": "base",
             "summary": "TCP / IP networking and traffic control utilities",
-            "updated": "2016-12-07T17:12:48+0000"
+            "updated": "2017-04-04T19:04:25+0000"
         },
         {
             "bbclassextend": "",
@@ -3615,7 +3615,7 @@
             "pv": "7.3p1",
             "section": "console/network",
             "summary": "A suite of security-related network utilities based on the SSH protocol including the ssh client and sshd server",
-            "updated": "2017-02-24T03:02:09+0000"
+            "updated": "2017-04-04T19:04:14+0000"
         },
         {
             "bbclassextend": "",
@@ -3653,7 +3653,7 @@
             "pv": "5.41",
             "section": "libs",
             "summary": "Linux Bluetooth Stack Userland V5",
-            "updated": "2017-02-24T03:02:09+0000"
+            "updated": "2017-04-04T19:04:25+0000"
         },
         {
             "bbclassextend": "",
@@ -3672,7 +3672,7 @@
             "pv": "0.9.18",
             "section": "base",
             "summary": "Common files for IrDA",
-            "updated": "2016-12-07T17:12:49+0000"
+            "updated": "2017-04-04T19:04:25+0000"
         },
         {
             "bbclassextend": "",
@@ -3748,7 +3748,7 @@
             "pv": "0.6.32",
             "section": "network",
             "summary": "Avahi IPv4LL network address configuration daemon",
-            "updated": "2016-12-07T17:12:49+0000"
+            "updated": "2017-04-04T19:04:25+0000"
         },
         {
             "bbclassextend": "",
@@ -3767,7 +3767,7 @@
             "pv": "0.6.32",
             "section": "network",
             "summary": "Avahi IPv4LL network address configuration daemon",
-            "updated": "2016-12-07T17:12:49+0000"
+            "updated": "2017-04-04T19:04:25+0000"
         },
         {
             "bbclassextend": "",
@@ -3786,7 +3786,7 @@
             "pv": "4.3.4",
             "section": "console/network",
             "summary": "Internet Software Consortium DHCP package",
-            "updated": "2017-02-09T06:02:08+0000"
+            "updated": "2017-04-04T19:04:25+0000"
         },
         {
             "bbclassextend": "",
@@ -3824,7 +3824,7 @@
             "pv": "1.3.3",
             "section": "console/network",
             "summary": "userspace utilities for kernel nfs",
-            "updated": "2016-12-07T17:12:50+0000"
+            "updated": "2017-04-04T19:04:26+0000"
         },
         {
             "bbclassextend": "",
@@ -3881,7 +3881,7 @@
             "pv": "6.0",
             "section": "console/network",
             "summary": "RPC program number mapper",
-            "updated": "2016-12-07T17:12:50+0000"
+            "updated": "2017-04-04T19:04:26+0000"
         },
         {
             "bbclassextend": "",
@@ -3919,7 +3919,7 @@
             "pv": "1.0.2j",
             "section": "libs/network",
             "summary": "Secure Socket Layer",
-            "updated": "2017-02-24T03:02:10+0000"
+            "updated": "2017-04-04T19:04:15+0000"
         },
         {
             "bbclassextend": "",
@@ -3938,7 +3938,7 @@
             "pv": "0.16",
             "section": "base",
             "summary": "Linux NFC daemon",
-            "updated": "2016-12-07T17:12:50+0000"
+            "updated": "2017-04-04T19:04:26+0000"
         },
         {
             "bbclassextend": "",
@@ -4128,7 +4128,7 @@
             "pv": "0.2+gitX",
             "section": "base",
             "summary": "Tools for managing Yocto Project style branched kernels",
-            "updated": "2016-12-07T17:12:51+0000"
+            "updated": "2017-04-04T19:04:17+0000"
         },
         {
             "bbclassextend": "",
@@ -4147,7 +4147,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "Power usage tool",
-            "updated": "2016-12-07T17:12:51+0000"
+            "updated": "2017-04-04T19:04:27+0000"
         },
         {
             "bbclassextend": "",
@@ -4166,7 +4166,7 @@
             "pv": "23+gitX",
             "section": "base",
             "summary": "Tools for managing Linux kernel modules",
-            "updated": "2016-12-07T17:12:51+0000"
+            "updated": "2017-04-04T19:04:27+0000"
         },
         {
             "bbclassextend": "",
@@ -4261,7 +4261,7 @@
             "pv": "0.0+gitX",
             "section": "kernel",
             "summary": "Firmware files for use with Linux kernel",
-            "updated": "2016-12-07T17:12:52+0000"
+            "updated": "2017-04-04T19:04:27+0000"
         },
         {
             "bbclassextend": "",
@@ -4394,7 +4394,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Initscript for auto-loading kernel modules on boot",
-            "updated": "2016-12-07T17:12:52+0000"
+            "updated": "2017-04-04T19:04:27+0000"
         },
         {
             "bbclassextend": "",
@@ -4451,7 +4451,7 @@
             "pv": "2.0.14",
             "section": "kernel/userland",
             "summary": "Kexec fast reboot tools",
-            "updated": "2017-01-10T03:01:08+0000"
+            "updated": "2017-04-04T19:04:27+0000"
         },
         {
             "bbclassextend": "",
@@ -4470,7 +4470,7 @@
             "pv": "3.0",
             "section": "base",
             "summary": "UProbes kernel module for SystemTap",
-            "updated": "2016-12-07T17:12:53+0000"
+            "updated": "2017-04-04T19:04:27+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4489,7 +4489,7 @@
             "pv": "3.0",
             "section": "base",
             "summary": "Script-directed dynamic tracing and performance analysis tool for Linux",
-            "updated": "2016-12-07T17:12:53+0000"
+            "updated": "2017-04-04T19:04:28+0000"
         },
         {
             "bbclassextend": "",
@@ -4524,10 +4524,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-tiny",
             "provides": "linux-yocto-tiny  virtual/kernel",
-            "pv": "4.4.26+gitX",
+            "pv": "4.4.36+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2016-12-07T17:12:53+0000"
+            "updated": "2017-04-04T19:04:18+0000"
         },
         {
             "bbclassextend": "",
@@ -4543,10 +4543,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-rt",
             "provides": "linux-yocto-rt  virtual/kernel",
-            "pv": "4.1.33+gitX",
+            "pv": "4.1.36+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2016-12-07T17:12:53+0000"
+            "updated": "2017-04-04T19:04:17+0000"
         },
         {
             "bbclassextend": "",
@@ -4562,10 +4562,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto",
             "provides": "linux-yocto  virtual/kernel",
-            "pv": "4.1.33+gitX",
+            "pv": "4.1.36+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2016-12-07T17:12:53+0000"
+            "updated": "2017-04-04T19:04:18+0000"
         },
         {
             "bbclassextend": "",
@@ -4600,10 +4600,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-dev",
             "provides": "linux-yocto-dev  virtual/kernel",
-            "pv": "4.8-rc++gitX",
+            "pv": "4.9-rc++gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2016-12-07T17:12:53+0000"
+            "updated": "2017-04-04T19:04:17+0000"
         },
         {
             "bbclassextend": "",
@@ -4619,10 +4619,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-tiny",
             "provides": "linux-yocto-tiny  virtual/kernel",
-            "pv": "4.1.33+gitX",
+            "pv": "4.1.36+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2016-12-07T17:12:53+0000"
+            "updated": "2017-04-04T19:04:18+0000"
         },
         {
             "bbclassextend": "",
@@ -4638,10 +4638,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-rt",
             "provides": "linux-yocto-rt  virtual/kernel",
-            "pv": "4.4.26+gitX",
+            "pv": "4.4.36+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2016-12-07T17:12:53+0000"
+            "updated": "2017-04-04T19:04:18+0000"
         },
         {
             "bbclassextend": "",
@@ -4657,10 +4657,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-tiny",
             "provides": "linux-yocto-tiny  virtual/kernel",
-            "pv": "4.8.3+gitX",
+            "pv": "4.8.12+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2016-12-07T17:12:53+0000"
+            "updated": "2017-04-04T19:04:18+0000"
         },
         {
             "bbclassextend": "",
@@ -4676,10 +4676,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto",
             "provides": "linux-yocto  virtual/kernel",
-            "pv": "4.8.3+gitX",
+            "pv": "4.8.12+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2016-12-07T17:12:54+0000"
+            "updated": "2017-04-04T19:04:18+0000"
         },
         {
             "bbclassextend": "",
@@ -4695,10 +4695,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-rt",
             "provides": "linux-yocto-rt  virtual/kernel",
-            "pv": "4.8.3+gitX",
+            "pv": "4.8.12+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2016-12-07T17:12:54+0000"
+            "updated": "2017-04-04T19:04:18+0000"
         },
         {
             "bbclassextend": "",
@@ -4714,10 +4714,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto",
             "provides": "linux-yocto  virtual/kernel",
-            "pv": "4.4.26+gitX",
+            "pv": "4.4.36+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2016-12-07T17:12:54+0000"
+            "updated": "2017-04-04T19:04:18+0000"
         },
         {
             "bbclassextend": "",
@@ -5135,7 +5135,7 @@
             "pv": "2.0.0",
             "section": "libs",
             "summary": "iCal and scheduling (RFC 2445, 2446, 2447) library",
-            "updated": "2016-12-07T17:12:57+0000"
+            "updated": "2017-04-04T19:04:30+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5230,7 +5230,7 @@
             "pv": "2.2.52",
             "section": "libs",
             "summary": "Utilities for managing POSIX Access Control Lists",
-            "updated": "2017-02-24T03:02:06+0000"
+            "updated": "2017-04-04T19:04:31+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5249,7 +5249,7 @@
             "pv": "2.4.47",
             "section": "libs",
             "summary": "Utilities for manipulating filesystem extended attributes",
-            "updated": "2017-02-24T03:02:06+0000"
+            "updated": "2017-04-04T19:04:31+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5439,7 +5439,7 @@
             "pv": "1.9.1",
             "section": "libs/multimedia",
             "summary": "Library for reading and editing the meta-data of popular audio formats",
-            "updated": "2016-12-07T17:12:00+0000"
+            "updated": "2017-04-04T19:04:31+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5553,7 +5553,7 @@
             "pv": "7.50.1",
             "section": "console/network",
             "summary": "Command line tool and library for client-side URL transfers",
-            "updated": "2017-02-21T08:02:06+0000"
+            "updated": "2017-04-04T19:04:19+0000"
         },
         {
             "bbclassextend": "native",
@@ -5591,7 +5591,7 @@
             "pv": "5",
             "section": "base",
             "summary": "Random number generator daemon",
-            "updated": "2016-12-07T17:12:01+0000"
+            "updated": "2017-04-04T19:04:32+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5667,7 +5667,7 @@
             "pv": "4.12",
             "section": "libs/network",
             "summary": "Netscape Portable Runtime Library",
-            "updated": "2016-12-07T17:12:03+0000"
+            "updated": "2017-04-04T19:04:19+0000"
         },
         {
             "bbclassextend": "",
@@ -5838,7 +5838,7 @@
             "pv": "0.4.13",
             "section": "libs",
             "summary": "Library providing automatic proxy configuration management",
-            "updated": "2016-12-07T17:12:04+0000"
+            "updated": "2017-04-04T19:04:32+0000"
         },
         {
             "bbclassextend": "",
@@ -5876,7 +5876,7 @@
             "pv": "4.8",
             "section": "base",
             "summary": "Miscellaneous utilities specific to Debian",
-            "updated": "2016-12-07T17:12:04+0000"
+            "updated": "2017-04-04T19:04:32+0000"
         },
         {
             "bbclassextend": "native",
@@ -6088,7 +6088,7 @@
             "updated": "2016-12-07T17:12:06+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "This library provides useful functions commonly found on BSD systems,                and lacking on others like GNU systems, thus making it easier to port                projects with strong BSD origins, without needing to embed the same                code over and over again on each project.",
@@ -6104,7 +6104,7 @@
             "pv": "0.8.3",
             "section": "libs",
             "summary": "Library of utility functions from BSD systems",
-            "updated": "2016-12-07T17:12:06+0000"
+            "updated": "2017-04-04T19:04:19+0000"
         },
         {
             "bbclassextend": "",
@@ -7080,7 +7080,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "tiff_4.0.6.bb",
+            "filename": "tiff_4.0.7.bb",
             "filepath": "recipes-multimedia/libtiff",
             "homepage": "",
             "id": 70502,
@@ -7089,10 +7089,10 @@
             "license": "BSD-2-Clause",
             "pn": "tiff",
             "provides": "tiff ",
-            "pv": "4.0.6",
+            "pv": "4.0.7",
             "section": "base",
             "summary": "Provides support for the Tag Image File Format (TIFF)",
-            "updated": "2017-02-08T06:02:07+0000"
+            "updated": "2017-04-04T19:04:14+0000"
         },
         {
             "bbclassextend": "",
@@ -7415,7 +7415,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2016-12-07T17:12:14+0000"
+            "updated": "2017-04-04T19:04:35+0000"
         },
         {
             "bbclassextend": "",
@@ -7434,7 +7434,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2016-12-07T17:12:14+0000"
+            "updated": "2017-04-04T19:04:35+0000"
         },
         {
             "bbclassextend": "",
@@ -7529,7 +7529,7 @@
             "pv": "1.06",
             "section": "base",
             "summary": "Arbitrary precision calculator language",
-            "updated": "2016-12-07T17:12:14+0000"
+            "updated": "2017-04-04T19:04:35+0000"
         },
         {
             "bbclassextend": "",
@@ -7624,7 +7624,7 @@
             "pv": "3.4",
             "section": "base",
             "summary": "Diffutils contains tools used for finding differences between files",
-            "updated": "2017-02-24T03:02:06+0000"
+            "updated": "2017-04-04T19:04:35+0000"
         },
         {
             "bbclassextend": "",
@@ -7643,7 +7643,7 @@
             "pv": "2.8.1",
             "section": "base",
             "summary": "Diffutils contains tools used for finding differences between files",
-            "updated": "2016-12-07T17:12:15+0000"
+            "updated": "2017-04-04T19:04:35+0000"
         },
         {
             "bbclassextend": "",
@@ -7681,14 +7681,14 @@
             "pv": "3.2.2",
             "section": "devel",
             "summary": "Support for reading various archive formats",
-            "updated": "2016-12-07T17:12:15+0000"
+            "updated": "2017-04-04T19:04:36+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "tzdata_2016j.bb",
+            "filename": "tzdata_2017a.bb",
             "filepath": "recipes-extended/tzdata",
             "homepage": "http://www.iana.org/time-zones",
             "id": 70534,
@@ -7697,10 +7697,10 @@
             "license": "PD & BSD & BSD-3-Clause",
             "pn": "tzdata",
             "provides": "tzdata ",
-            "pv": "2016j",
+            "pv": "2017a",
             "section": "base",
             "summary": "Timezone data",
-            "updated": "2016-12-07T17:12:15+0000"
+            "updated": "2017-04-04T20:04:05+0000"
         },
         {
             "bbclassextend": " nativesdk",
@@ -7719,7 +7719,7 @@
             "pv": "1.18",
             "section": "console/network",
             "summary": "Console URL download utility supporting HTTP, FTP, etc",
-            "updated": "2016-12-07T17:12:16+0000"
+            "updated": "2017-04-04T19:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -7852,7 +7852,7 @@
             "pv": "481",
             "section": "console/utils",
             "summary": "Text file viewer similar to more",
-            "updated": "2016-12-07T17:12:17+0000"
+            "updated": "2017-04-04T19:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -7871,7 +7871,7 @@
             "pv": "s20151218",
             "section": "console/network",
             "summary": "Network monitoring tools",
-            "updated": "2016-12-07T17:12:17+0000"
+            "updated": "2017-04-04T19:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -7928,7 +7928,7 @@
             "pv": "2.3.0",
             "section": "libs",
             "summary": "The shared library for the S-Lang extension language",
-            "updated": "2016-12-07T17:12:17+0000"
+            "updated": "2017-04-04T19:04:16+0000"
         },
         {
             "bbclassextend": "",
@@ -7966,7 +7966,7 @@
             "pv": "1.4.41",
             "section": "net",
             "summary": "Lightweight high-performance web server",
-            "updated": "2016-12-07T17:12:17+0000"
+            "updated": "2017-04-04T19:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -7985,7 +7985,7 @@
             "pv": "3.1.20",
             "section": "base",
             "summary": "Delayed job execution and batch processing",
-            "updated": "2016-12-07T17:12:17+0000"
+            "updated": "2017-04-04T19:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -8099,7 +8099,7 @@
             "pv": "2.3.3",
             "section": "console/utils",
             "summary": "A parallel implementation of gzip",
-            "updated": "2016-12-07T17:12:18+0000"
+            "updated": "2017-04-04T19:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -8118,7 +8118,7 @@
             "pv": "1.5.1",
             "section": "base",
             "summary": "System Log Daemons",
-            "updated": "2016-12-07T17:12:18+0000"
+            "updated": "2017-04-04T19:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -8137,7 +8137,7 @@
             "pv": "3.3.12",
             "section": "base",
             "summary": "System and process monitoring utilities",
-            "updated": "2016-12-07T17:12:18+0000"
+            "updated": "2017-04-04T19:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -8156,7 +8156,7 @@
             "pv": "22.21",
             "section": "base",
             "summary": "Utilities for managing processes on your system",
-            "updated": "2016-12-07T17:12:18+0000"
+            "updated": "2017-04-04T19:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -8194,7 +8194,7 @@
             "pv": "9.68",
             "section": "base",
             "summary": "SysV init scripts which are only used in an LSB image",
-            "updated": "2016-12-07T17:12:18+0000"
+            "updated": "2017-04-04T19:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -8232,7 +8232,7 @@
             "pv": "3.3",
             "section": "console/utils",
             "summary": "Command line file status display utility",
-            "updated": "2016-12-07T17:12:19+0000"
+            "updated": "2017-04-04T19:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -8270,7 +8270,7 @@
             "pv": "0.2.3",
             "section": "console/network",
             "summary": "Universal Addresses to RPC Program Number Mapper",
-            "updated": "2016-12-07T17:12:19+0000"
+            "updated": "2017-04-04T19:04:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8289,7 +8289,7 @@
             "pv": "1.17",
             "section": "base",
             "summary": "GNU file archiving program",
-            "updated": "2016-12-07T17:12:19+0000"
+            "updated": "2017-04-04T19:04:38+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8308,7 +8308,7 @@
             "pv": "1.29",
             "section": "base",
             "summary": "GNU file archiving program",
-            "updated": "2016-12-07T17:12:19+0000"
+            "updated": "2017-04-04T19:04:38+0000"
         },
         {
             "bbclassextend": "nativesdk native",
@@ -8346,7 +8346,7 @@
             "pv": "1.08",
             "section": "console/utils",
             "summary": "Compact getty terminal handler for virtual consoles only",
-            "updated": "2016-12-07T17:12:20+0000"
+            "updated": "2017-04-04T19:04:38+0000"
         },
         {
             "bbclassextend": "",
@@ -8384,7 +8384,7 @@
             "pv": "4.1.3",
             "section": "console/utils",
             "summary": "GNU awk text processing utility",
-            "updated": "2017-02-24T03:02:09+0000"
+            "updated": "2017-04-04T19:04:38+0000"
         },
         {
             "bbclassextend": "",
@@ -8403,7 +8403,7 @@
             "pv": "3.1.5",
             "section": "console/utils",
             "summary": "GNU awk text processing utility",
-            "updated": "2016-12-07T17:12:20+0000"
+            "updated": "2017-04-04T19:04:38+0000"
         },
         {
             "bbclassextend": "native",
@@ -8422,7 +8422,7 @@
             "pv": "6.0",
             "section": "console/utils",
             "summary": "Utilities for extracting and viewing files in .zip archives",
-            "updated": "2017-02-22T08:02:07+0000"
+            "updated": "2017-04-04T19:04:38+0000"
         },
         {
             "bbclassextend": "",
@@ -8517,7 +8517,7 @@
             "pv": "1.3.12",
             "section": "console/utils",
             "summary": "Standard GNU compressor",
-            "updated": "2016-12-07T17:12:21+0000"
+            "updated": "2017-04-04T19:04:39+0000"
         },
         {
             "bbclassextend": "native",
@@ -8536,7 +8536,7 @@
             "pv": "1.8",
             "section": "console/utils",
             "summary": "Standard GNU compressor",
-            "updated": "2016-12-07T17:12:21+0000"
+            "updated": "2017-04-04T19:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -8574,7 +8574,7 @@
             "pv": "1.5.1",
             "section": "utils",
             "summary": "Cron daemon for executing programs at set times",
-            "updated": "2016-12-07T17:12:21+0000"
+            "updated": "2017-04-04T19:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -8593,7 +8593,7 @@
             "pv": "4.2.2",
             "section": "console/utils",
             "summary": "Stream EDitor (text filtering utility)",
-            "updated": "2017-02-24T03:02:10+0000"
+            "updated": "2017-04-04T19:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -8612,7 +8612,7 @@
             "pv": "4.1.2",
             "section": "console/utils",
             "summary": "Stream EDitor (text filtering utility)",
-            "updated": "2016-12-07T17:12:21+0000"
+            "updated": "2017-04-04T19:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -8631,7 +8631,7 @@
             "pv": "4.07",
             "section": "console/utils",
             "summary": "Linux man-pages",
-            "updated": "2016-12-07T17:12:21+0000"
+            "updated": "2017-04-04T19:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -8650,7 +8650,7 @@
             "pv": "2.3.15",
             "section": "base",
             "summary": "Socket-based service activation daemon",
-            "updated": "2016-12-07T17:12:21+0000"
+            "updated": "2017-04-04T19:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -8669,7 +8669,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2016-12-07T17:12:22+0000"
+            "updated": "2017-04-04T19:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -8688,7 +8688,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2016-12-07T17:12:22+0000"
+            "updated": "2017-04-04T19:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -8707,7 +8707,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2016-12-07T17:12:22+0000"
+            "updated": "2017-04-04T19:04:40+0000"
         },
         {
             "bbclassextend": "",
@@ -8726,7 +8726,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2016-12-07T17:12:22+0000"
+            "updated": "2017-04-04T19:04:40+0000"
         },
         {
             "bbclassextend": "",
@@ -8745,7 +8745,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2016-12-07T17:12:22+0000"
+            "updated": "2017-04-04T19:04:40+0000"
         },
         {
             "bbclassextend": "",
@@ -8764,7 +8764,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2016-12-07T17:12:22+0000"
+            "updated": "2017-04-04T19:04:40+0000"
         },
         {
             "bbclassextend": "",
@@ -8783,7 +8783,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2016-12-07T17:12:22+0000"
+            "updated": "2017-04-04T19:04:40+0000"
         },
         {
             "bbclassextend": "",
@@ -8821,7 +8821,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Linux Standard Base (LSB)",
-            "updated": "2016-12-07T17:12:22+0000"
+            "updated": "2017-03-31T16:03:11+0000"
         },
         {
             "bbclassextend": "native",
@@ -8992,7 +8992,7 @@
             "pv": "1.7",
             "section": "utils",
             "summary": "Tool that measures CPU resources",
-            "updated": "2016-12-07T17:12:23+0000"
+            "updated": "2017-04-04T19:04:40+0000"
         },
         {
             "bbclassextend": "",
@@ -9049,7 +9049,7 @@
             "pv": "2.21",
             "section": "libs",
             "summary": "Displays the full path of shell commands",
-            "updated": "2016-12-07T17:12:24+0000"
+            "updated": "2017-04-04T19:04:40+0000"
         },
         {
             "bbclassextend": "",
@@ -9068,7 +9068,7 @@
             "pv": "2.18",
             "section": "libs",
             "summary": "Displays the full path of shell commands",
-            "updated": "2016-12-07T17:12:24+0000"
+            "updated": "2017-04-04T19:04:40+0000"
         },
         {
             "bbclassextend": "",
@@ -9087,7 +9087,7 @@
             "pv": "2.25",
             "section": "console/utils",
             "summary": "GNU grep utility",
-            "updated": "2016-12-07T17:12:24+0000"
+            "updated": "2017-04-04T19:04:40+0000"
         },
         {
             "bbclassextend": "",
@@ -9106,7 +9106,7 @@
             "pv": "2.5.1a",
             "section": "console/utils",
             "summary": "Pattern matching utilities",
-            "updated": "2016-12-07T17:12:24+0000"
+            "updated": "2017-04-04T19:04:41+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9170,7 +9170,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "tzcode-native_2016j.bb",
+            "filename": "tzcode-native_2017a.bb",
             "filepath": "recipes-extended/tzcode",
             "homepage": "",
             "id": 70612,
@@ -9179,10 +9179,10 @@
             "license": "PD & BSD & BSD-3-Clause",
             "pn": "tzcode-native",
             "provides": "tzcode-native ",
-            "pv": "2016j",
+            "pv": "2017a",
             "section": "base",
             "summary": "tzcode, timezone zoneinfo utils -- zic, zdump, tzselect",
-            "updated": "2016-12-07T17:12:25+0000"
+            "updated": "2017-04-04T20:04:05+0000"
         },
         {
             "bbclassextend": "native",
@@ -9201,7 +9201,7 @@
             "pv": "2.12",
             "section": "base",
             "summary": "GNU cpio is a program to manage archives of files",
-            "updated": "2016-12-07T17:12:25+0000"
+            "updated": "2017-04-04T19:04:41+0000"
         },
         {
             "bbclassextend": "native",
@@ -9220,7 +9220,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "GNU cpio is a program to manage archives of files",
-            "updated": "2016-12-07T17:12:25+0000"
+            "updated": "2017-04-04T19:04:41+0000"
         },
         {
             "bbclassextend": "native",
@@ -9334,7 +9334,7 @@
             "pv": "0.6.23",
             "section": "devel",
             "summary": "Library for solving packages and reading repositories",
-            "updated": "2016-12-07T17:12:26+0000"
+            "updated": "2017-04-04T19:04:41+0000"
         },
         {
             "bbclassextend": "",
@@ -9353,7 +9353,7 @@
             "pv": "1.7",
             "section": "console/utils",
             "summary": "Enables safe temporary file creation from shell scripts",
-            "updated": "2016-12-07T17:12:26+0000"
+            "updated": "2017-04-04T19:04:41+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9448,7 +9448,7 @@
             "pv": "5.15",
             "section": "base",
             "summary": "Software watchdog",
-            "updated": "2016-12-07T17:12:27+0000"
+            "updated": "2017-04-04T19:04:41+0000"
         },
         {
             "bbclassextend": "",
@@ -9543,7 +9543,7 @@
             "pv": "4.3.30",
             "section": "base/shell",
             "summary": "An sh-compatible command language interpreter",
-            "updated": "2017-02-24T03:02:12+0000"
+            "updated": "2017-04-04T19:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -9562,7 +9562,7 @@
             "pv": "3.2.57",
             "section": "base/shell",
             "summary": "An sh-compatible command language interpreter",
-            "updated": "2017-02-24T03:02:12+0000"
+            "updated": "2017-04-04T19:04:42+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9581,7 +9581,7 @@
             "pv": "4.6.0",
             "section": "console/utils",
             "summary": "find, locate, and xargs binaries",
-            "updated": "2016-12-07T17:12:28+0000"
+            "updated": "2017-04-04T19:04:42+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9600,7 +9600,7 @@
             "pv": "4.2.31",
             "section": "console/utils",
             "summary": "find, locate, and xargs binaries",
-            "updated": "2016-12-07T17:12:28+0000"
+            "updated": "2017-04-04T19:04:42+0000"
         },
         {
             "bbclassextend": "native",
@@ -9657,7 +9657,7 @@
             "pv": "4.2.1",
             "section": "base/utils",
             "summary": "Tools to change and administer password and group data",
-            "updated": "2016-12-07T17:12:28+0000"
+            "updated": "2017-04-04T19:04:43+0000"
         },
         {
             "bbclassextend": "",
@@ -9695,7 +9695,7 @@
             "pv": "9.48",
             "section": "console/utils",
             "summary": "Utility for viewing/manipulating IDE disk drive/driver parameters",
-            "updated": "2016-12-07T17:12:28+0000"
+            "updated": "2017-04-04T19:04:43+0000"
         },
         {
             "bbclassextend": "",
@@ -9714,7 +9714,7 @@
             "pv": "1.60-26",
             "section": "base",
             "summary": "Basic networking tools",
-            "updated": "2016-12-07T17:12:29+0000"
+            "updated": "2017-04-04T19:04:43+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9771,7 +9771,7 @@
             "pv": "1.0.6",
             "section": "console/utils",
             "summary": "Very high-quality data compression program",
-            "updated": "2017-02-24T03:02:13+0000"
+            "updated": "2017-04-04T19:04:43+0000"
         },
         {
             "bbclassextend": "",
@@ -9790,7 +9790,7 @@
             "pv": "1.6.5",
             "section": "console/network",
             "summary": "msmtp is an SMTP client",
-            "updated": "2016-12-07T17:12:29+0000"
+            "updated": "2017-04-04T19:04:43+0000"
         },
         {
             "bbclassextend": "",
@@ -9885,7 +9885,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Initscript for enabling USB gadget Ethernet",
-            "updated": "2016-12-07T17:12:30+0000"
+            "updated": "2017-04-04T19:04:43+0000"
         },
         {
             "bbclassextend": "",
@@ -9904,7 +9904,7 @@
             "pv": "3.2.2-15",
             "section": "base",
             "summary": "Utilities for Advanced Power Management",
-            "updated": "2016-12-07T17:12:30+0000"
+            "updated": "2017-04-04T19:04:43+0000"
         },
         {
             "bbclassextend": "",
@@ -9923,7 +9923,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Keyboard maps",
-            "updated": "2016-12-07T17:12:30+0000"
+            "updated": "2017-04-04T19:04:44+0000"
         },
         {
             "bbclassextend": "native",
@@ -9961,7 +9961,7 @@
             "pv": "0.1.10",
             "section": "base",
             "summary": "User support binary for the uvesafb kernel module",
-            "updated": "2016-12-07T17:12:30+0000"
+            "updated": "2017-04-04T19:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -9980,7 +9980,7 @@
             "pv": "2.00+X",
             "section": "bootloaders",
             "summary": "GRUB2 is the next-generation GRand Unified Bootloader",
-            "updated": "2016-12-07T17:12:30+0000"
+            "updated": "2017-04-04T19:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -9999,7 +9999,7 @@
             "pv": "2.00",
             "section": "bootloaders",
             "summary": "GRUB2 is the next-generation GRand Unified Bootloader",
-            "updated": "2016-12-07T17:12:30+0000"
+            "updated": "2017-04-04T19:04:44+0000"
         },
         {
             "bbclassextend": "native",
@@ -10018,7 +10018,7 @@
             "pv": "2.00",
             "section": "bootloaders",
             "summary": "GRUB2 is the next-generation GRand Unified Bootloader",
-            "updated": "2016-12-07T17:12:30+0000"
+            "updated": "2017-04-04T19:04:20+0000"
         },
         {
             "bbclassextend": "",
@@ -10208,7 +10208,7 @@
             "pv": "0.2.0",
             "section": "base",
             "summary": "Alsa scenario files to enable alsa state restoration",
-            "updated": "2016-12-07T17:12:31+0000"
+            "updated": "2017-04-04T19:04:20+0000"
         },
         {
             "bbclassextend": "",
@@ -10246,7 +10246,7 @@
             "pv": "0.12.20",
             "section": "console/network",
             "summary": "Tools for zmodem/xmodem/ymodem file transfer",
-            "updated": "2016-12-07T17:12:31+0000"
+            "updated": "2017-04-04T19:04:20+0000"
         },
         {
             "bbclassextend": "",
@@ -10265,7 +10265,7 @@
             "pv": "2.0.27",
             "section": "base",
             "summary": "A daemon for delivering ACPI events",
-            "updated": "2016-12-07T17:12:31+0000"
+            "updated": "2017-04-04T19:04:21+0000"
         },
         {
             "bbclassextend": "",
@@ -10455,7 +10455,7 @@
             "pv": "6.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2017-02-16T08:02:10+0000"
+            "updated": "2017-04-04T19:04:21+0000"
         },
         {
             "bbclassextend": "",
@@ -10645,7 +10645,7 @@
             "pv": "5.4.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2017-02-16T08:02:11+0000"
+            "updated": "2017-04-04T19:04:21+0000"
         },
         {
             "bbclassextend": "",
@@ -10683,7 +10683,7 @@
             "pv": "6.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2017-02-16T08:02:12+0000"
+            "updated": "2017-04-04T19:04:21+0000"
         },
         {
             "bbclassextend": "",
@@ -10797,7 +10797,7 @@
             "pv": "5.4.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2017-02-16T08:02:12+0000"
+            "updated": "2017-04-04T19:04:21+0000"
         },
         {
             "bbclassextend": "",
@@ -10835,7 +10835,7 @@
             "pv": "1.43",
             "section": "base",
             "summary": "Ext2 Filesystem Utilities",
-            "updated": "2017-02-24T03:02:09+0000"
+            "updated": "2017-04-04T19:04:22+0000"
         },
         {
             "bbclassextend": "native",
@@ -10930,7 +10930,7 @@
             "pv": "2.5.9",
             "section": "utils",
             "summary": "Tool for applying a patch file",
-            "updated": "2016-12-07T17:12:37+0000"
+            "updated": "2017-04-04T19:04:22+0000"
         },
         {
             "bbclassextend": "",
@@ -10949,7 +10949,7 @@
             "pv": "2.7.5",
             "section": "utils",
             "summary": "Tool for applying a patch file",
-            "updated": "2016-12-07T17:12:37+0000"
+            "updated": "2017-04-04T19:04:22+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -11120,7 +11120,7 @@
             "pv": "3.2",
             "section": "devel",
             "summary": "A parallel build system",
-            "updated": "2016-12-07T17:12:39+0000"
+            "updated": "2017-04-04T19:04:22+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -12564,7 +12564,7 @@
             "pv": "1.9.4",
             "section": "console/network",
             "summary": "Subversion (svn) version control system client",
-            "updated": "2016-12-21T09:12:19+0000"
+            "updated": "2017-04-04T19:04:16+0000"
         },
         {
             "bbclassextend": "native",
@@ -12697,7 +12697,7 @@
             "pv": "2.27",
             "section": "devel",
             "summary": "GNU binary utilities",
-            "updated": "2016-12-07T17:12:51+0000"
+            "updated": "2017-04-04T19:04:23+0000"
         },
         {
             "bbclassextend": "",
@@ -12716,7 +12716,7 @@
             "pv": "2.27",
             "section": "devel",
             "summary": "GNU binary utilities",
-            "updated": "2016-12-07T17:12:51+0000"
+            "updated": "2017-04-04T19:04:23+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -12735,7 +12735,7 @@
             "pv": "2.27",
             "section": "devel",
             "summary": "GNU binary utilities",
-            "updated": "2016-12-07T17:12:51+0000"
+            "updated": "2017-04-04T19:04:23+0000"
         },
         {
             "bbclassextend": "",
@@ -12754,7 +12754,7 @@
             "pv": "2.27",
             "section": "devel",
             "summary": "GNU binary utilities (cross-canadian for i586 target)",
-            "updated": "2016-12-07T17:12:52+0000"
+            "updated": "2017-04-04T19:04:24+0000"
         },
         {
             "bbclassextend": "",
@@ -12830,7 +12830,7 @@
             "pv": "4.1+dbg-1.1",
             "section": "devel",
             "summary": "Makefile debugger which is gnumake compatible",
-            "updated": "2016-12-07T17:12:52+0000"
+            "updated": "2017-04-04T19:04:24+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -12906,7 +12906,7 @@
             "pv": "1.0",
             "section": "devel",
             "summary": "Runs postinstall scripts on first boot of the target device",
-            "updated": "2016-12-07T17:12:53+0000"
+            "updated": "2017-04-04T19:04:24+0000"
         },
         {
             "bbclassextend": "native",
@@ -13115,7 +13115,7 @@
             "pv": "1.8.1",
             "section": "base",
             "summary": "Pseudo gives fake root capabilities to a normal user",
-            "updated": "2016-12-07T17:12:54+0000"
+            "updated": "2017-04-04T19:04:16+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -13134,7 +13134,7 @@
             "pv": "1.8.1+gitX",
             "section": "base",
             "summary": "Pseudo gives fake root capabilities to a normal user",
-            "updated": "2016-12-07T17:12:54+0000"
+            "updated": "2017-04-04T19:04:16+0000"
         },
         {
             "bbclassextend": "",
@@ -13571,7 +13571,7 @@
             "pv": "1.6.2",
             "section": "libs",
             "summary": "Universally Unique Identifier (UUID) library",
-            "updated": "2016-12-07T17:12:57+0000"
+            "updated": "2017-04-04T19:04:26+0000"
         },
         {
             "bbclassextend": "native",
@@ -13590,7 +13590,7 @@
             "pv": "0.14.8",
             "section": "base",
             "summary": "Booting sequence and CPU,I/O usage monitor",
-            "updated": "2016-12-21T09:12:19+0000"
+            "updated": "2017-04-04T19:04:26+0000"
         },
         {
             "bbclassextend": "",
@@ -13609,7 +13609,7 @@
             "pv": "1.4.0+gitX",
             "section": "base",
             "summary": "Target Communication Framework for the Eclipse IDE",
-            "updated": "2016-12-07T17:12:57+0000"
+            "updated": "2017-04-04T19:04:26+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -13723,7 +13723,7 @@
             "pv": "3.6.1",
             "section": "console/utils",
             "summary": "Cross-platform, open-source make system",
-            "updated": "2016-12-07T17:12:58+0000"
+            "updated": "2017-04-04T19:04:26+0000"
         },
         {
             "bbclassextend": "native",
@@ -14236,7 +14236,7 @@
             "pv": "2.24.30",
             "section": "libs",
             "summary": "Multi-platform toolkit for creating GUIs",
-            "updated": "2016-12-07T17:12:02+0000"
+            "updated": "2017-04-04T19:04:28+0000"
         },
         {
             "bbclassextend": "",
@@ -14255,7 +14255,7 @@
             "pv": "3.20.9",
             "section": "libs",
             "summary": "Multi-platform toolkit for creating GUIs",
-            "updated": "2016-12-07T17:12:02+0000"
+            "updated": "2017-04-04T19:04:28+0000"
         },
         {
             "bbclassextend": "",
@@ -14350,7 +14350,7 @@
             "pv": "2.24",
             "section": "libs",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2016-12-08T20:12:27+0000"
+            "updated": "2017-04-04T19:04:28+0000"
         },
         {
             "bbclassextend": "",
@@ -14426,7 +14426,7 @@
             "pv": "2.24",
             "section": "libs",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2016-12-08T20:12:27+0000"
+            "updated": "2017-04-04T19:04:28+0000"
         },
         {
             "bbclassextend": "",
@@ -14559,7 +14559,7 @@
             "pv": "230+gitX",
             "section": "base/shell",
             "summary": "A System and service manager",
-            "updated": "2017-02-24T03:02:13+0000"
+            "updated": "2017-04-04T19:04:29+0000"
         },
         {
             "bbclassextend": "",
@@ -14635,7 +14635,7 @@
             "pv": "6.9",
             "section": "base",
             "summary": "The basic file, shell and text manipulation utilities",
-            "updated": "2016-12-07T17:12:04+0000"
+            "updated": "2017-04-04T19:04:29+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -14654,7 +14654,7 @@
             "pv": "8.25",
             "section": "base",
             "summary": "The basic file, shell and text manipulation utilities",
-            "updated": "2016-12-07T17:12:04+0000"
+            "updated": "2017-04-04T19:04:29+0000"
         },
         {
             "bbclassextend": "",
@@ -14711,7 +14711,7 @@
             "pv": "3.2",
             "section": "base",
             "summary": "eudev is a fork of systemd's udev",
-            "updated": "2016-12-07T17:12:04+0000"
+            "updated": "2017-04-04T19:04:29+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -14730,7 +14730,7 @@
             "pv": "6.0+20160625",
             "section": "libs",
             "summary": "The New Curses library",
-            "updated": "2016-12-07T17:12:05+0000"
+            "updated": "2017-04-04T19:04:29+0000"
         },
         {
             "bbclassextend": "",
@@ -14749,7 +14749,7 @@
             "pv": "2016.74",
             "section": "console/network",
             "summary": "A lightweight SSH and SCP implementation",
-            "updated": "2016-12-07T17:12:05+0000"
+            "updated": "2017-04-04T19:04:30+0000"
         },
         {
             "bbclassextend": "native",
@@ -14806,7 +14806,7 @@
             "pv": "1.10.10",
             "section": "base",
             "summary": "D-Bus message bus",
-            "updated": "2016-12-07T17:12:06+0000"
+            "updated": "2017-04-04T19:04:30+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -14825,7 +14825,7 @@
             "pv": "2.9.4",
             "section": "libs",
             "summary": "XML C Parser Library and Toolkit",
-            "updated": "2017-02-24T03:02:15+0000"
+            "updated": "2017-04-04T19:04:15+0000"
         },
         {
             "bbclassextend": "",
@@ -14882,7 +14882,7 @@
             "pv": "2.88dsf",
             "section": "base",
             "summary": "System-V like init",
-            "updated": "2016-12-07T17:12:06+0000"
+            "updated": "2017-04-04T19:04:30+0000"
         },
         {
             "bbclassextend": "",
@@ -14901,7 +14901,7 @@
             "pv": "1.24.1",
             "section": "base",
             "summary": "Tiny versions of many common UNIX utilities in a single small executable",
-            "updated": "2017-02-24T03:02:06+0000"
+            "updated": "2017-04-04T19:04:30+0000"
         },
         {
             "bbclassextend": "",
@@ -14920,7 +14920,7 @@
             "pv": "1.25.0+gitX",
             "section": "base",
             "summary": "Tiny versions of many common UNIX utilities in a single small executable",
-            "updated": "2017-02-24T03:02:06+0000"
+            "updated": "2017-04-04T19:04:31+0000"
         },
         {
             "bbclassextend": "",
@@ -15167,7 +15167,7 @@
             "pv": "1.2.8",
             "section": "libs",
             "summary": "Zlib Compression Library",
-            "updated": "2017-02-24T03:02:07+0000"
+            "updated": "2017-04-04T19:04:15+0000"
         },
         {
             "bbclassextend": "",
@@ -15186,7 +15186,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2016-12-07T17:12:08+0000"
+            "updated": "2017-04-04T19:04:31+0000"
         },
         {
             "bbclassextend": "",
@@ -15205,7 +15205,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2016-12-07T17:12:08+0000"
+            "updated": "2017-04-04T19:04:32+0000"
         },
         {
             "bbclassextend": "",
@@ -15224,7 +15224,7 @@
             "pv": "15.0.0",
             "section": "base",
             "summary": "An image containing the build system itself",
-            "updated": "2016-12-07T17:12:08+0000"
+            "updated": "2017-04-04T19:04:15+0000"
         },
         {
             "bbclassextend": "",
@@ -15243,7 +15243,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2016-12-07T17:12:08+0000"
+            "updated": "2017-04-04T19:04:32+0000"
         },
         {
             "bbclassextend": "",
@@ -15262,7 +15262,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2016-12-07T17:12:09+0000"
+            "updated": "2017-04-04T19:04:32+0000"
         },
         {
             "bbclassextend": "",
@@ -15281,7 +15281,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2016-12-07T17:12:09+0000"
+            "updated": "2017-04-04T19:04:32+0000"
         },
         {
             "bbclassextend": "",
@@ -15604,7 +15604,7 @@
             "pv": "0.1+gitX",
             "section": "base",
             "summary": "Userspace framebuffer boot logo based on usplash",
-            "updated": "2016-12-07T17:12:10+0000"
+            "updated": "2017-04-04T19:04:32+0000"
         },
         {
             "bbclassextend": "",
@@ -15623,7 +15623,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "SysV init scripts",
-            "updated": "2017-02-22T02:02:06+0000"
+            "updated": "2017-04-04T19:04:33+0000"
         },
         {
             "bbclassextend": "",
@@ -15718,7 +15718,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Basic TCP/IP networking init scripts and configuration files",
-            "updated": "2016-12-07T17:12:11+0000"
+            "updated": "2017-04-04T19:04:33+0000"
         },
         {
             "bbclassextend": "native",
@@ -15794,7 +15794,7 @@
             "pv": "0.3.2",
             "section": "base",
             "summary": "Allows you to set-up and manipulate the Linux console",
-            "updated": "2016-12-07T17:12:11+0000"
+            "updated": "2017-04-04T19:04:33+0000"
         },
         {
             "bbclassextend": "",
@@ -16041,7 +16041,7 @@
             "pv": "0.8.2",
             "section": "base",
             "summary": "ifupdown: basic ifup and ifdown used by initscripts",
-            "updated": "2016-12-07T17:12:12+0000"
+            "updated": "2017-04-04T19:04:33+0000"
         },
         {
             "bbclassextend": "native",
@@ -16060,7 +16060,7 @@
             "pv": "2.0.3",
             "section": "base",
             "summary": "Keytable files and keyboard utilities",
-            "updated": "2017-02-24T03:02:11+0000"
+            "updated": "2017-04-04T19:04:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -16079,7 +16079,7 @@
             "pv": "2.28.1",
             "section": "base",
             "summary": "A suite of basic system administration utilities",
-            "updated": "2017-02-24T03:02:11+0000"
+            "updated": "2017-04-04T19:04:33+0000"
         },
         {
             "bbclassextend": "",
@@ -16212,7 +16212,7 @@
             "pv": "2.12.5",
             "section": "base",
             "summary": "WebKit web rendering engine for the GTK+ platform",
-            "updated": "2016-12-07T17:12:14+0000"
+            "updated": "2017-04-04T19:04:34+0000"
         },
         {
             "bbclassextend": "",
@@ -16288,7 +16288,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2016-12-07T17:12:14+0000"
+            "updated": "2017-04-04T19:04:34+0000"
         },
         {
             "bbclassextend": "",
@@ -16307,7 +16307,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2016-12-07T17:12:14+0000"
+            "updated": "2017-04-04T19:04:34+0000"
         },
         {
             "bbclassextend": "",
@@ -16326,7 +16326,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2016-12-07T17:12:15+0000"
+            "updated": "2017-04-04T19:04:34+0000"
         },
         {
             "bbclassextend": "",
@@ -16345,7 +16345,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2016-12-07T17:12:15+0000"
+            "updated": "2017-04-04T19:04:34+0000"
         },
         {
             "bbclassextend": "",
@@ -16383,7 +16383,7 @@
             "pv": "9.20",
             "section": "x11/utils",
             "summary": "rxvt terminal clone supporting unicode",
-            "updated": "2016-12-07T17:12:15+0000"
+            "updated": "2017-04-04T19:04:35+0000"
         },
         {
             "bbclassextend": "",
@@ -16402,7 +16402,7 @@
             "pv": "9.22",
             "section": "x11/utils",
             "summary": "rxvt terminal clone supporting unicode",
-            "updated": "2016-12-07T17:12:15+0000"
+            "updated": "2017-04-04T19:04:35+0000"
         },
         {
             "bbclassextend": "",
