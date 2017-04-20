@@ -26,9 +26,9 @@
             "collection": "core",
             "id": 56,
             "layer": 1,
-            "updated": "2017-04-04T22:04:13+0000",
+            "updated": "2017-04-20T20:04:06+0000",
             "vcs_last_commit": "2017-04-04T19:04:35+0000",
-            "vcs_last_fetch": "2017-04-04T22:04:13+0000",
+            "vcs_last_fetch": "2017-04-20T20:04:06+0000",
             "vcs_last_rev": "947f9d1f0f77b159315a2b9f3f1cdf611fe8187f",
             "vcs_subdir": "meta",
             "version": "9"
@@ -39,9 +39,9 @@
             "collection": "meta-initramfs",
             "id": 65,
             "layer": 4,
-            "updated": "2017-04-04T22:04:16+0000",
+            "updated": "2017-04-20T20:04:09+0000",
             "vcs_last_commit": "2016-11-29T09:11:42+0000",
-            "vcs_last_fetch": "2017-04-04T22:04:16+0000",
+            "vcs_last_fetch": "2017-04-20T20:04:09+0000",
             "vcs_last_rev": "69bdbf665a32b784cd1fc2b30e74aa3f9faf191b",
             "vcs_subdir": "meta-initramfs",
             "version": null
@@ -107,7 +107,7 @@
             "filename": "kexec-tools-klibc_2.0.2.bb",
             "filepath": "recipes-kernel/kexec",
             "homepage": "http://kernel.org/pub/linux/utils/kernel/kexec/",
-            "id": 71013,
+            "id": 186087,
             "inherits": "autotools klibc siteconfig siteinfo",
             "layerbranch": 65,
             "license": "GPLv2",
@@ -116,7 +116,7 @@
             "pv": "2.0.2",
             "section": "kernel/userland",
             "summary": "Kexec tools, statically compiled against klibc",
-            "updated": "2016-12-07T17:12:23+0000"
+            "updated": "2017-04-20T19:04:29+0000"
         },
         {
             "bbclassextend": "",
@@ -126,16 +126,16 @@
             "filename": "linux-yocto-tiny-kexecboot_4.4.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "",
-            "id": 71014,
+            "id": 186088,
             "inherits": "cml1 deploy kernel kernel-arch kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
             "layerbranch": 65,
             "license": "GPLv2",
             "pn": "linux-yocto-tiny-kexecboot",
             "provides": "linux-yocto-tiny-kexecboot ",
-            "pv": "4.4.26+gitX",
+            "pv": "4.4.36+gitX",
             "section": "kernel",
             "summary": "Yocto tiny kernel embedding a minimalistic kexecboot initramfs",
-            "updated": "2016-12-07T17:12:23+0000"
+            "updated": "2017-04-20T19:04:29+0000"
         },
         {
             "bbclassextend": "",
@@ -145,7 +145,7 @@
             "filename": "initramfs-debug_1.0.bb",
             "filepath": "recipes-bsp/initrdscripts",
             "homepage": "",
-            "id": 71015,
+            "id": 186089,
             "inherits": "allarch",
             "layerbranch": 65,
             "license": "MIT",
@@ -154,7 +154,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Extremely basic live image init script",
-            "updated": "2016-12-07T17:12:23+0000"
+            "updated": "2017-04-20T19:04:29+0000"
         },
         {
             "bbclassextend": "",
@@ -164,7 +164,7 @@
             "filename": "initramfs-kexecboot-image.bb",
             "filepath": "recipes-bsp/images",
             "homepage": "",
-            "id": 71016,
+            "id": 186090,
             "inherits": "gzipnative image image_types meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 65,
             "license": "MIT",
@@ -173,7 +173,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Initramfs image for kexecboot kernel",
-            "updated": "2016-12-07T17:12:23+0000"
+            "updated": "2017-04-20T19:04:30+0000"
         },
         {
             "bbclassextend": "",
@@ -183,7 +183,7 @@
             "filename": "initramfs-kexecboot-klibc-image.bb",
             "filepath": "recipes-bsp/images",
             "homepage": "",
-            "id": 71017,
+            "id": 186091,
             "inherits": "gzipnative image image_types meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 65,
             "license": "MIT",
@@ -192,7 +192,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Initramfs image for kexecboot kernel (klibc-static binaries)",
-            "updated": "2016-12-07T17:12:23+0000"
+            "updated": "2017-04-20T19:04:30+0000"
         },
         {
             "bbclassextend": "",
@@ -202,7 +202,7 @@
             "filename": "initramfs-debug-image.bb",
             "filepath": "recipes-bsp/images",
             "homepage": "",
-            "id": 71018,
+            "id": 186092,
             "inherits": "core-image gzipnative image image_types meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 65,
             "license": "MIT",
@@ -211,7 +211,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2016-12-07T17:12:23+0000"
+            "updated": "2017-04-20T19:04:30+0000"
         },
         {
             "bbclassextend": "klibc",
@@ -221,7 +221,7 @@
             "filename": "kexecboot_0.6.bb",
             "filepath": "recipes-bsp/kexecboot",
             "homepage": "http://kexecboot.org",
-            "id": 71019,
+            "id": 186093,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 65,
             "license": "GPLv2",
@@ -230,7 +230,7 @@
             "pv": "0.6",
             "section": "base",
             "summary": "kexecboot linux-as-bootloader",
-            "updated": "2016-12-07T17:12:23+0000"
+            "updated": "2017-04-20T19:04:30+0000"
         },
         {
             "bbclassextend": "",
@@ -240,7 +240,7 @@
             "filename": "kexecboot-cfg_0.2.bb",
             "filepath": "recipes-bsp/kexecboot",
             "homepage": "",
-            "id": 71020,
+            "id": 186094,
             "inherits": "",
             "layerbranch": 65,
             "license": "MIT",
@@ -249,7 +249,7 @@
             "pv": "0.2",
             "section": "base",
             "summary": "Configuration files for kexecboot",
-            "updated": "2016-12-07T17:12:23+0000"
+            "updated": "2017-04-20T19:04:30+0000"
         },
         {
             "bbclassextend": "",
@@ -259,7 +259,7 @@
             "filename": "dracut_git.bb",
             "filepath": "recipes-devtools/dracut",
             "homepage": "",
-            "id": 71021,
+            "id": 186095,
             "inherits": "bash-completion",
             "layerbranch": 65,
             "license": "GPLv2",
@@ -268,7 +268,7 @@
             "pv": "044+git1bc3e733f96033a508841e97fe08da7a12851782",
             "section": "base",
             "summary": "Initramfs generator using udev",
-            "updated": "2016-12-07T17:12:23+0000"
+            "updated": "2017-04-20T19:04:30+0000"
         },
         {
             "bbclassextend": "",
@@ -278,7 +278,7 @@
             "filename": "klibc-utils_2.0.4.bb",
             "filepath": "recipes-devtools/klibc",
             "homepage": "",
-            "id": 71022,
+            "id": 186096,
             "inherits": "",
             "layerbranch": 65,
             "license": "BSD-3-Clause & GPL-2.0 & MIT & Zlib",
@@ -287,7 +287,7 @@
             "pv": "2.0.4",
             "section": "libs",
             "summary": "klibc utils for initramfs",
-            "updated": "2016-12-07T17:12:23+0000"
+            "updated": "2017-04-20T19:04:30+0000"
         },
         {
             "bbclassextend": "",
@@ -297,7 +297,7 @@
             "filename": "klcc-cross_2.0.4.bb",
             "filepath": "recipes-devtools/klibc",
             "homepage": "",
-            "id": 71023,
+            "id": 186097,
             "inherits": "",
             "layerbranch": 65,
             "license": "BSD-3-Clause & GPL-2.0 & MIT & Zlib",
@@ -306,7 +306,7 @@
             "pv": "2.0.4",
             "section": "libs",
             "summary": "The klcc crosscompiler for klibc",
-            "updated": "2016-12-07T17:12:23+0000"
+            "updated": "2017-04-20T19:04:30+0000"
         },
         {
             "bbclassextend": "",
@@ -316,7 +316,7 @@
             "filename": "klibc-static-utils_2.0.4.bb",
             "filepath": "recipes-devtools/klibc",
             "homepage": "",
-            "id": 71024,
+            "id": 186098,
             "inherits": "",
             "layerbranch": 65,
             "license": "BSD-3-Clause & GPL-2.0 & MIT & Zlib",
@@ -325,7 +325,7 @@
             "pv": "2.0.4",
             "section": "libs",
             "summary": "klibc utils for initramfs statically compiled",
-            "updated": "2016-12-07T17:12:24+0000"
+            "updated": "2017-04-20T19:04:30+0000"
         },
         {
             "bbclassextend": "",
@@ -335,7 +335,7 @@
             "filename": "klibc_2.0.4.bb",
             "filepath": "recipes-devtools/klibc",
             "homepage": "",
-            "id": 71025,
+            "id": 186099,
             "inherits": "",
             "layerbranch": 65,
             "license": "BSD-3-Clause & GPL-2.0 & MIT & Zlib",
@@ -344,7 +344,7 @@
             "pv": "2.0.4",
             "section": "libs",
             "summary": "klibc, a small C library for use with initramfs",
-            "updated": "2016-12-07T17:12:24+0000"
+            "updated": "2017-04-20T19:04:30+0000"
         },
         {
             "bbclassextend": "",
@@ -354,7 +354,7 @@
             "filename": "ubi-utils-klibc_1.5.1.bb",
             "filepath": "recipes-devtools/mtd",
             "homepage": "http://www.linux-mtd.infradead.org/",
-            "id": 71026,
+            "id": 186100,
             "inherits": "klibc",
             "layerbranch": 65,
             "license": "GPLv2+",
@@ -363,7 +363,7 @@
             "pv": "1.5.1",
             "section": "base",
             "summary": "UBI utils statically compiled against klibc",
-            "updated": "2016-12-07T17:12:24+0000"
+            "updated": "2017-04-20T19:04:30+0000"
         },
         {
             "bbclassextend": "",
@@ -373,7 +373,7 @@
             "filename": "grubby_8.40.bb",
             "filepath": "recipes-devtools/grubby",
             "homepage": "",
-            "id": 71027,
+            "id": 186101,
             "inherits": "autotools autotools-brokensep ptest siteconfig siteinfo",
             "layerbranch": 65,
             "license": "GPLv2+",
@@ -382,7 +382,7 @@
             "pv": "8.40",
             "section": "base",
             "summary": "A command line tool for updating and displaying info about boot loaders",
-            "updated": "2016-12-07T17:12:24+0000"
+            "updated": "2017-04-20T19:04:31+0000"
         }
     ],
     "wrtemplates": []
