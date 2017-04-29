@@ -1,0 +1,162 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_9_BASE_RCPL0006",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_9_BASE_RCPL0006",
+            "id": 26,
+            "name": "WRLINUX_9_BASE_RCPL0006",
+            "short_description": "WRLinux 9 Base RCPL 0006",
+            "sort_priority": 9993,
+            "update_environment": null,
+            "updated": "2017-04-17T21:04:30+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [
+        {
+            "description": "",
+            "id": 878,
+            "layerbranch": 4448,
+            "name": "wrlinux-small",
+            "updated": "2017-04-17T21:04:21+0000"
+        },
+        {
+            "description": "",
+            "id": 879,
+            "layerbranch": 4448,
+            "name": "wrlinux-tiny",
+            "updated": "2017-04-17T21:04:21+0000"
+        },
+        {
+            "description": "",
+            "id": 880,
+            "layerbranch": 4448,
+            "name": "wrlinux",
+            "updated": "2017-04-17T21:04:21+0000"
+        },
+        {
+            "description": "",
+            "id": 881,
+            "layerbranch": 4448,
+            "name": "wrlinux-std-sato",
+            "updated": "2017-04-17T21:04:21+0000"
+        }
+    ],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 26,
+            "collection": "core",
+            "id": 4420,
+            "layer": 1,
+            "updated": "2017-04-29T15:04:57+0000",
+            "vcs_last_commit": "2017-04-04T19:04:35+0000",
+            "vcs_last_fetch": "2017-04-29T15:04:57+0000",
+            "vcs_last_rev": "947f9d1f0f77b159315a2b9f3f1cdf611fe8187f",
+            "vcs_subdir": "meta",
+            "version": "9"
+        },
+        {
+            "actual_branch": "",
+            "branch": 26,
+            "collection": "wr-userspace-base",
+            "id": 4444,
+            "layer": 43,
+            "updated": "2017-04-29T15:04:23+0000",
+            "vcs_last_commit": "2017-02-16T01:02:27+0000",
+            "vcs_last_fetch": "2017-04-29T15:04:23+0000",
+            "vcs_last_rev": "5922a501fc0e7aca3fb9f29b57d3b4223e51129a",
+            "vcs_subdir": "",
+            "version": "1"
+        },
+        {
+            "actual_branch": "",
+            "branch": 26,
+            "collection": "wrlinux",
+            "id": 4448,
+            "layer": 49,
+            "updated": "2017-04-29T15:04:27+0000",
+            "vcs_last_commit": "2017-04-17T21:04:20+0000",
+            "vcs_last_fetch": "2017-04-29T15:04:27+0000",
+            "vcs_last_rev": "db5293c0988410afdd21003c9ef37ddb082f881e",
+            "vcs_subdir": "",
+            "version": "1"
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 6906,
+            "layerbranch": 4448,
+            "required": true
+        },
+        {
+            "dependency": 43,
+            "id": 6907,
+            "layerbranch": 4448,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "classic": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2017-01-20T17:01:22+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "This layer provides many of the base components for Wind River Linux.  It\r\nis required by most other layers provided by Wind River.",
+            "id": 43,
+            "index_preference": 900,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "wr-base",
+            "status": "P",
+            "summary": "Base components for Wind River Linux",
+            "updated": "2017-03-01T22:03:38+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wr-base",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "This layer provides the Wind River Linux distribution definitions, \r\ndistribution-specific integration and bug fixes, and other wrlinux components.",
+            "id": 49,
+            "index_preference": 900,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "wrlinux",
+            "status": "P",
+            "summary": "Wind River Linux distribution definitions",
+            "updated": "2017-03-01T21:03:25+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wrlinux",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [],
+    "wrtemplates": []
+}
