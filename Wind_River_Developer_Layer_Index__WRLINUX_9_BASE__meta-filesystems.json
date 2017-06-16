@@ -26,10 +26,10 @@
             "collection": "core",
             "id": 56,
             "layer": 1,
-            "updated": "2017-06-06T04:06:07+0000",
-            "vcs_last_commit": "2017-06-02T02:06:32+0000",
-            "vcs_last_fetch": "2017-06-06T04:06:07+0000",
-            "vcs_last_rev": "5ccf28f9ccbddc18a1a29c7739dd04c05b8fe317",
+            "updated": "2017-06-16T13:06:53+0000",
+            "vcs_last_commit": "2017-06-08T04:06:13+0000",
+            "vcs_last_fetch": "2017-06-16T13:06:53+0000",
+            "vcs_last_rev": "772be538611e0b110937d6eb71d0cb7b1fcc9d98",
             "vcs_subdir": "meta",
             "version": "9"
         },
@@ -39,9 +39,9 @@
             "collection": "filesystems-layer",
             "id": 62,
             "layer": 8,
-            "updated": "2017-06-06T04:06:14+0000",
+            "updated": "2017-06-16T13:06:58+0000",
             "vcs_last_commit": "2017-03-16T03:03:48+0000",
-            "vcs_last_fetch": "2017-06-06T04:06:14+0000",
+            "vcs_last_fetch": "2017-06-16T13:06:58+0000",
             "vcs_last_rev": "bd383c1d7c97f5e6b53262ee2236eedc2baf8900",
             "vcs_subdir": "meta-filesystems",
             "version": "1"
@@ -52,9 +52,9 @@
             "collection": "openembedded-layer",
             "id": 68,
             "layer": 7,
-            "updated": "2017-06-06T04:06:13+0000",
+            "updated": "2017-06-16T13:06:57+0000",
             "vcs_last_commit": "2017-06-02T02:06:29+0000",
-            "vcs_last_fetch": "2017-06-06T04:06:13+0000",
+            "vcs_last_fetch": "2017-06-16T13:06:57+0000",
             "vcs_last_rev": "7f98ec20fa8f62a4a2320ab22948b77c68204c7a",
             "vcs_subdir": "meta-oe",
             "version": "1"
@@ -143,7 +143,7 @@
             "filename": "sshfs-fuse_2.8.bb",
             "filepath": "recipes-filesystems/sshfs-fuse",
             "homepage": "http://fuse.sourceforge.net/sshfs.html",
-            "id": 71719,
+            "id": 218521,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 62,
             "license": "GPLv2",
@@ -152,7 +152,7 @@
             "pv": "2.8",
             "section": "console/network",
             "summary": "This is a filesystem client based on the SSH File Transfer Protocol using FUSE",
-            "updated": "2016-12-07T17:12:34+0000"
+            "updated": "2017-06-09T06:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -162,7 +162,7 @@
             "filename": "smbnetfs_git.bb",
             "filepath": "recipes-filesystems/smbnetfs",
             "homepage": "http://sourceforge.net/projects/smbnetfs",
-            "id": 71720,
+            "id": 218522,
             "inherits": "autotools gitpkgv pkgconfig siteconfig siteinfo",
             "layerbranch": 62,
             "license": "GPLv2",
@@ -171,7 +171,7 @@
             "pv": "git",
             "section": "base",
             "summary": "FUSE module for mounting an entire SMB/NMB network in a single directory",
-            "updated": "2016-12-07T17:12:34+0000"
+            "updated": "2017-06-09T06:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -181,7 +181,7 @@
             "filename": "ifuse_1.1.2.bb",
             "filepath": "recipes-filesystems/ifuse",
             "homepage": "http://www.libimobiledevice.org/",
-            "id": 71721,
+            "id": 218523,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 62,
             "license": "LGPLv2.1",
@@ -190,7 +190,7 @@
             "pv": "1.1.2",
             "section": "base",
             "summary": "A fuse filesystem to access the contents of an iPhone or iPod Touch",
-            "updated": "2016-12-07T17:12:34+0000"
+            "updated": "2017-06-09T06:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -200,7 +200,7 @@
             "filename": "owfs_2.9p1.bb",
             "filepath": "recipes-filesystems/owfs",
             "homepage": "http://www.owfs.org/",
-            "id": 71722,
+            "id": 218524,
             "inherits": "autotools autotools-brokensep siteconfig siteinfo update-rc.d",
             "layerbranch": 62,
             "license": "GPLv2 & LGPLv2",
@@ -209,7 +209,7 @@
             "pv": "2.9p1",
             "section": "console/network",
             "summary": "1-Wire file system",
-            "updated": "2016-12-07T17:12:34+0000"
+            "updated": "2017-06-09T06:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -219,7 +219,7 @@
             "filename": "unionfs-fuse_0.26.bb",
             "filepath": "recipes-filesystems/unionfs-fuse",
             "homepage": "http://podgorny.cz/moin/UnionFsFuse",
-            "id": 71723,
+            "id": 218525,
             "inherits": "",
             "layerbranch": 62,
             "license": "BSD-3-Clause",
@@ -228,7 +228,7 @@
             "pv": "0.26",
             "section": "console/network",
             "summary": "A FUSE based implemention of unionfs",
-            "updated": "2016-12-07T17:12:34+0000"
+            "updated": "2017-06-09T06:06:32+0000"
         },
         {
             "bbclassextend": "native",
@@ -238,7 +238,7 @@
             "filename": "yaffs2-utils_git.bb",
             "filepath": "recipes-filesystems/yaffs2",
             "homepage": "http://www.yaffs.net",
-            "id": 71724,
+            "id": 218526,
             "inherits": "",
             "layerbranch": 62,
             "license": "GPLv2",
@@ -247,7 +247,7 @@
             "pv": "0.0+gitX",
             "section": "base",
             "summary": "Yet Another Flash File System",
-            "updated": "2016-12-07T17:12:34+0000"
+            "updated": "2017-06-09T06:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -257,7 +257,7 @@
             "filename": "simple-mtpfs_git.bb",
             "filepath": "recipes-filesystems/simple-mtpfs",
             "homepage": "https://github.com/phatina/simple-mtpfs",
-            "id": 71725,
+            "id": 218527,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 62,
             "license": "GPLv2",
@@ -266,7 +266,7 @@
             "pv": "git",
             "section": "base",
             "summary": "",
-            "updated": "2016-12-07T17:12:35+0000"
+            "updated": "2017-06-09T06:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -276,7 +276,7 @@
             "filename": "ntfs-3g-ntfsprogs_2013.1.13.bb",
             "filepath": "recipes-filesystems/ntfs-3g-ntfsprogs",
             "homepage": "http://www.ntfs-3g.org/",
-            "id": 71726,
+            "id": 218528,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 62,
             "license": "GPLv2 & LGPLv2",
@@ -285,17 +285,17 @@
             "pv": "2013.1.13",
             "section": "base",
             "summary": "",
-            "updated": "2016-12-07T17:12:35+0000"
+            "updated": "2017-06-09T06:06:32+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "LogFS is a Linux log-structured and scalable flash file system, intended for use on large devices of flash memory. It is written by J\u00c3\u00b6rn Engel and in part sponsored by the CE Linux Forum. LogFS is included in the mainline Linux kernel and was introduced in version 2.6.34, released on May 16, 2010.",
+            "description": "LogFS is a Linux log-structured and scalable flash file system, intended for use on large devices of flash memory. It is written by J\u00f6rn Engel and in part sponsored by the CE Linux Forum. LogFS is included in the mainline Linux kernel and was introduced in version 2.6.34, released on May 16, 2010.",
             "filename": "logfsprogs_git.bb",
             "filepath": "recipes-filesystems/logfsprogs",
             "homepage": "https://github.com/prasad-joshi/logfsprogs",
-            "id": 71727,
+            "id": 218529,
             "inherits": "",
             "layerbranch": 62,
             "license": "GPLv2",
@@ -304,7 +304,7 @@
             "pv": "git",
             "section": "base",
             "summary": "LogFS Programs: used to create LogFS file system",
-            "updated": "2016-12-07T17:12:35+0000"
+            "updated": "2017-06-09T06:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -314,7 +314,7 @@
             "filename": "fuse-exfat_1.2.3.bb",
             "filepath": "recipes-filesystems/fuse-exfat",
             "homepage": "http://code.google.com/p/exfat/",
-            "id": 71728,
+            "id": 218530,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 62,
             "license": "GPLv2+",
@@ -323,7 +323,7 @@
             "pv": "1.2.3",
             "section": "universe/otherosfs",
             "summary": "read and write exFAT driver for FUSE",
-            "updated": "2016-12-07T17:12:35+0000"
+            "updated": "2017-06-09T06:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -333,7 +333,7 @@
             "filename": "fuse_2.9.4.bb",
             "filepath": "recipes-support/fuse",
             "homepage": "https://github.com/libfuse/libfuse",
-            "id": 71729,
+            "id": 218531,
             "inherits": "autotools pkgconfig siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 62,
             "license": "GPLv2 & LGPLv2.1",
@@ -342,7 +342,7 @@
             "pv": "2.9.4",
             "section": "libs",
             "summary": "Implementation of a fully functional filesystem in a userspace program",
-            "updated": "2017-03-16T04:03:14+0000"
+            "updated": "2017-06-09T06:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -352,7 +352,7 @@
             "filename": "physfs_git.bb",
             "filepath": "recipes-support/physfs",
             "homepage": "",
-            "id": 71730,
+            "id": 218532,
             "inherits": "cmake",
             "layerbranch": 62,
             "license": "Zlib",
@@ -361,7 +361,7 @@
             "pv": "2.0.3+gitX",
             "section": "base",
             "summary": "PhysicsFS is a library to provide abstract access to various archives",
-            "updated": "2016-12-07T17:12:35+0000"
+            "updated": "2017-06-09T06:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -371,7 +371,7 @@
             "filename": "xfsprogs_4.7.0.bb",
             "filepath": "recipes-utils/xfsprogs",
             "homepage": "http://oss.sgi.com/projects/xfs",
-            "id": 71731,
+            "id": 218533,
             "inherits": "autotools autotools-brokensep siteconfig siteinfo",
             "layerbranch": 62,
             "license": "GPLv2 & LGPLv2.1",
@@ -380,7 +380,7 @@
             "pv": "4.7.0",
             "section": "base",
             "summary": "XFS Filesystem Utilities",
-            "updated": "2016-12-07T17:12:35+0000"
+            "updated": "2017-06-09T06:06:33+0000"
         },
         {
             "bbclassextend": "native",
@@ -390,7 +390,7 @@
             "filename": "xorriso_1.4.0.bb",
             "filepath": "recipes-utils/xorriso",
             "homepage": "",
-            "id": 71732,
+            "id": 218534,
             "inherits": "autotools autotools-brokensep distro_features_check pkgconfig siteconfig siteinfo",
             "layerbranch": 62,
             "license": "GPLv3",
@@ -399,7 +399,7 @@
             "pv": "1.4.0",
             "section": "base",
             "summary": "",
-            "updated": "2016-12-07T17:12:35+0000"
+            "updated": "2017-06-09T06:06:33+0000"
         },
         {
             "bbclassextend": "native",
@@ -409,7 +409,7 @@
             "filename": "f2fs-tools_1.4.0.bb",
             "filepath": "recipes-utils/f2fs-tools",
             "homepage": "http://sourceforge.net/projects/f2fs-tools/",
-            "id": 71733,
+            "id": 218535,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 62,
             "license": "GPLv2",
@@ -418,7 +418,7 @@
             "pv": "1.4.0",
             "section": "base",
             "summary": "Tools for Flash-Friendly File System (F2FS)",
-            "updated": "2016-12-07T17:12:35+0000"
+            "updated": "2017-06-09T06:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -428,7 +428,7 @@
             "filename": "exfat-utils_1.2.3.bb",
             "filepath": "recipes-utils/exfat-utils",
             "homepage": "http://code.google.com/p/exfat/",
-            "id": 71734,
+            "id": 218536,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 62,
             "license": "GPLv2",
@@ -437,7 +437,7 @@
             "pv": "1.2.3",
             "section": "universe/otherosfs",
             "summary": "utilities to create, check, label and dump exFAT filesystem",
-            "updated": "2016-12-07T17:12:36+0000"
+            "updated": "2017-06-09T06:06:33+0000"
         },
         {
             "bbclassextend": "native",
@@ -447,7 +447,7 @@
             "filename": "aufs-util_git.bb",
             "filepath": "recipes-utils/aufs-util",
             "homepage": "http://aufs.sourceforge.net/",
-            "id": 71735,
+            "id": 218537,
             "inherits": "",
             "layerbranch": 62,
             "license": "GPLv2",
@@ -456,7 +456,7 @@
             "pv": "3.14+gitX",
             "section": "base",
             "summary": "Tools for managing AUFS mounts",
-            "updated": "2016-12-07T17:12:36+0000"
+            "updated": "2017-06-09T06:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -466,7 +466,7 @@
             "filename": "xfsdump_3.1.6.bb",
             "filepath": "recipes-utils/xfsdump",
             "homepage": "http://oss.sgi.com/projects/xfs",
-            "id": 71736,
+            "id": 218538,
             "inherits": "autotools autotools-brokensep siteconfig siteinfo",
             "layerbranch": 62,
             "license": "GPLv2",
@@ -475,7 +475,7 @@
             "pv": "3.1.6",
             "section": "base",
             "summary": "XFS Filesystem Dump Utility",
-            "updated": "2016-12-07T17:12:36+0000"
+            "updated": "2017-06-09T06:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -485,7 +485,7 @@
             "filename": "dmapi_2.2.12.bb",
             "filepath": "recipes-utils/dmapi",
             "homepage": "http://oss.sgi.com/projects/xfs",
-            "id": 71737,
+            "id": 218539,
             "inherits": "autotools autotools-brokensep siteconfig siteinfo",
             "layerbranch": 62,
             "license": "LGPLv2.1",
@@ -494,7 +494,7 @@
             "pv": "2.2.12",
             "section": "base",
             "summary": "Library functions to get attribute bits",
-            "updated": "2016-12-07T17:12:36+0000"
+            "updated": "2017-06-09T06:06:33+0000"
         }
     ],
     "wrtemplates": []

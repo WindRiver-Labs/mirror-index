@@ -26,9 +26,9 @@
             "collection": "selftest",
             "id": 549,
             "layer": 2,
-            "updated": "2017-06-06T04:06:08+0000",
+            "updated": "2017-06-16T13:06:14+0000",
             "vcs_last_commit": "2016-10-15T08:10:28+0000",
-            "vcs_last_fetch": "2017-06-06T04:06:08+0000",
+            "vcs_last_fetch": "2017-06-16T13:06:14+0000",
             "vcs_last_rev": "93631befe8b962bf99524746b49f4ebca336175c",
             "vcs_subdir": "meta-selftest",
             "version": null
@@ -57,10 +57,10 @@
     "machines": [
         {
             "description": "",
-            "id": 1225,
+            "id": 3866,
             "layerbranch": 549,
             "name": "qemux86copy",
-            "updated": "2016-12-07T17:12:18+0000"
+            "updated": "2017-06-09T06:06:59+0000"
         }
     ],
     "recipes": [
@@ -72,7 +72,7 @@
             "filename": "aspell_0.0.0.1.bb",
             "filepath": "recipes-test/aspell",
             "homepage": "",
-            "id": 70998,
+            "id": 217011,
             "inherits": "autotools gettext siteconfig siteinfo",
             "layerbranch": 549,
             "license": "LGPLv2 | LGPLv2.1",
@@ -81,7 +81,7 @@
             "pv": "0.0.0.1",
             "section": "console/utils",
             "summary": "GNU Aspell spell-checker",
-            "updated": "2016-12-07T17:12:18+0000"
+            "updated": "2017-06-09T06:06:59+0000"
         },
         {
             "bbclassextend": "",
@@ -91,7 +91,7 @@
             "filename": "emptytest.bb",
             "filepath": "recipes-test/emptytest",
             "homepage": "",
-            "id": 70999,
+            "id": 217012,
             "inherits": "",
             "layerbranch": 549,
             "license": "",
@@ -100,7 +100,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2016-12-07T17:12:18+0000"
+            "updated": "2017-06-09T06:06:59+0000"
         },
         {
             "bbclassextend": "",
@@ -110,7 +110,7 @@
             "filename": "error.bb",
             "filepath": "recipes-test/error",
             "homepage": "",
-            "id": 71000,
+            "id": 217013,
             "inherits": "",
             "layerbranch": 549,
             "license": "MIT",
@@ -119,7 +119,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Error Test case that fails on do_compile",
-            "updated": "2016-12-07T17:12:18+0000"
+            "updated": "2017-06-09T06:06:59+0000"
         },
         {
             "bbclassextend": "",
@@ -129,7 +129,7 @@
             "filename": "selftest-recipetool-appendfile.bb",
             "filepath": "recipes-test/recipetool",
             "homepage": "",
-            "id": 71001,
+            "id": 217014,
             "inherits": "",
             "layerbranch": 549,
             "license": "MIT",
@@ -138,7 +138,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Test recipe for recipetool appendfile",
-            "updated": "2016-12-07T17:12:19+0000"
+            "updated": "2017-06-09T06:06:59+0000"
         },
         {
             "bbclassextend": "",
@@ -148,7 +148,7 @@
             "filename": "oe-selftest-image.bb",
             "filepath": "recipes-test/images",
             "homepage": "",
-            "id": 71002,
+            "id": 217015,
             "inherits": "core-image gzipnative image image_types meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 549,
             "license": "MIT",
@@ -157,7 +157,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "An image used during oe-selftest tests",
-            "updated": "2016-12-07T17:12:19+0000"
+            "updated": "2017-06-09T06:06:59+0000"
         },
         {
             "bbclassextend": "",
@@ -167,7 +167,7 @@
             "filename": "error-image.bb",
             "filepath": "recipes-test/images",
             "homepage": "",
-            "id": 71003,
+            "id": 217016,
             "inherits": "core-image gzipnative image image_types meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 549,
             "license": "MIT",
@@ -176,7 +176,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "An image that includes the error recipe and will therefore fail",
-            "updated": "2016-12-07T17:12:19+0000"
+            "updated": "2017-06-09T06:06:59+0000"
         },
         {
             "bbclassextend": "",
@@ -186,7 +186,7 @@
             "filename": "test-empty-image.bb",
             "filepath": "recipes-test/images",
             "homepage": "",
-            "id": 71004,
+            "id": 217017,
             "inherits": "gzipnative image image_types meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 549,
             "license": "MIT",
@@ -195,7 +195,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "An empty image.",
-            "updated": "2016-12-07T17:12:19+0000"
+            "updated": "2017-06-09T06:06:59+0000"
         },
         {
             "bbclassextend": "",
@@ -205,7 +205,7 @@
             "filename": "wic-image-minimal.bb",
             "filepath": "recipes-test/images",
             "homepage": "",
-            "id": 71005,
+            "id": 217018,
             "inherits": "",
             "layerbranch": 549,
             "license": "",
@@ -214,7 +214,7 @@
             "pv": "",
             "section": "",
             "summary": "",
-            "updated": "2016-12-07T17:12:19+0000"
+            "updated": "2017-06-09T06:06:59+0000"
         },
         {
             "bbclassextend": "",
@@ -224,7 +224,7 @@
             "filename": "devtool-upgrade-test2_git.bb",
             "filepath": "recipes-test/devtool",
             "homepage": "http://git.yoctoproject.org/cgit/cgit.cgi/dbus-wait",
-            "id": 71006,
+            "id": 217019,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 549,
             "license": "GPLv2",
@@ -233,7 +233,7 @@
             "pv": "0.1+gitX",
             "section": "base",
             "summary": "A simple tool to wait for a specific signal over DBus",
-            "updated": "2016-12-07T17:12:19+0000"
+            "updated": "2017-06-09T06:06:59+0000"
         },
         {
             "bbclassextend": "",
@@ -243,7 +243,7 @@
             "filename": "devtool-upgrade-test1_1.5.3.bb",
             "filepath": "recipes-test/devtool",
             "homepage": "",
-            "id": 71007,
+            "id": 217020,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 549,
             "license": "Artistic-2.0",
@@ -252,7 +252,7 @@
             "pv": "1.5.3",
             "section": "base",
             "summary": "Pipe viewer test recipe for devtool upgrade test",
-            "updated": "2016-12-07T17:12:19+0000"
+            "updated": "2017-06-09T06:06:00+0000"
         }
     ],
     "wrtemplates": []
