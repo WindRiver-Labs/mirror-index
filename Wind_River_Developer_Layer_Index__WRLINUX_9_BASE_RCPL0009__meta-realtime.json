@@ -1,0 +1,161 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_9_BASE_RCPL0009",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_9_BASE_RCPL0009",
+            "id": 35,
+            "name": "WRLINUX_9_BASE_RCPL0009",
+            "short_description": "WRLinux 9 Base RCPL 0009",
+            "sort_priority": 9000,
+            "update_environment": null,
+            "updated": "2017-07-11T21:07:37+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 35,
+            "collection": "core",
+            "id": 10109,
+            "layer": 1,
+            "updated": "2017-08-07T15:08:09+0000",
+            "vcs_last_commit": "2017-08-01T14:08:20+0000",
+            "vcs_last_fetch": "2017-08-07T15:08:09+0000",
+            "vcs_last_rev": "be183ce827df5108b6e9a4f2fb63fc36d2709d62",
+            "vcs_subdir": "meta",
+            "version": "9"
+        },
+        {
+            "actual_branch": "",
+            "branch": 35,
+            "collection": "realtime",
+            "id": 10124,
+            "layer": 48,
+            "updated": "2017-08-07T15:08:24+0000",
+            "vcs_last_commit": "2017-07-21T02:07:54+0000",
+            "vcs_last_fetch": "2017-08-07T15:08:24+0000",
+            "vcs_last_rev": "86f6124dda786d525fc891219a997f393e61d4f2",
+            "vcs_subdir": "",
+            "version": "1"
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 9551,
+            "layerbranch": 10124,
+            "required": true
+        },
+        {
+            "dependency": 147,
+            "id": 10204,
+            "layerbranch": 10124,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "classic": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2017-01-20T17:01:22+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "This layer is intended to be a central point for realtime related kernel and\r\nsystem development. It also contains utilities, and configuration useful for\r\ntuning a realtime system. It should be useful directly on top of oe-core.  It\r\nshould be primarily useful to the following groups:",
+            "id": 48,
+            "index_preference": 900,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-realtime",
+            "status": "P",
+            "summary": "Realtime related kernel components",
+            "updated": "2017-07-17T09:07:50+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-realtime",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "rt-app is a test application that starts multiple periodic threads in order to simulate a real-time periodic load",
+            "filename": "rt-app.bb",
+            "filepath": "recipes-tools/rt-app",
+            "homepage": "",
+            "id": 266213,
+            "inherits": "autotools gettext pkgconfig siteconfig siteinfo",
+            "layerbranch": 10124,
+            "license": "GPLv2",
+            "pn": "rt-app",
+            "provides": "rt-app ",
+            "pv": "1.0",
+            "section": "devel",
+            "summary": "",
+            "updated": "2017-07-18T18:07:30+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "schedtool-dl (scheduler test tool) for deadline scheduler",
+            "filename": "schedtool-dl.bb",
+            "filepath": "recipes-tools/schedtool-dl",
+            "homepage": "",
+            "id": 266214,
+            "inherits": "",
+            "layerbranch": 10124,
+            "license": "GPLv2",
+            "pn": "schedtool-dl",
+            "provides": "schedtool-dl ",
+            "pv": "1.0",
+            "section": "devel",
+            "summary": "",
+            "updated": "2017-07-18T18:07:30+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "A small image just capable of allowing a device to boot and is suitable for development work.",
+            "filename": "core-image-rt-extended.bb",
+            "filepath": "recipes-extended/images",
+            "homepage": "",
+            "id": 266215,
+            "inherits": "core-image gzipnative image image_types meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "layerbranch": 10124,
+            "license": "MIT",
+            "pn": "core-image-rt-extended",
+            "provides": "core-image-rt-extended ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "A small image just capable of allowing a device to boot.",
+            "updated": "2017-07-18T18:07:31+0000"
+        }
+    ],
+    "wrtemplates": []
+}
