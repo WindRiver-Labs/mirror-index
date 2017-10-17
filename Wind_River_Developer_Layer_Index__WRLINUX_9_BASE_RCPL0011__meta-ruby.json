@@ -1,0 +1,162 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_9_BASE_RCPL0011",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_9_BASE_RCPL0011",
+            "id": 45,
+            "name": "WRLINUX_9_BASE_RCPL0011",
+            "short_description": "WRLinux 9 Base RCPL 0011",
+            "sort_priority": 8998,
+            "update_environment": null,
+            "updated": "2017-09-26T13:09:01+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 45,
+            "collection": "core",
+            "id": 104985,
+            "layer": 1,
+            "updated": "2017-10-17T01:10:33+0000",
+            "vcs_last_commit": "2017-10-11T03:10:31+0000",
+            "vcs_last_fetch": "2017-10-17T01:10:33+0000",
+            "vcs_last_rev": "ccc0ee8c990bda5b13a67abc7493b6d4a13528b0",
+            "vcs_subdir": "meta",
+            "version": "9",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "",
+            "branch": 45,
+            "collection": "openembedded-layer",
+            "id": 104989,
+            "layer": 7,
+            "updated": "2017-10-17T01:10:37+0000",
+            "vcs_last_commit": "2017-08-11T03:08:22+0000",
+            "vcs_last_fetch": "2017-10-17T01:10:37+0000",
+            "vcs_last_rev": "c92909c68562927b0ad4caf3ba45000439d83d1a",
+            "vcs_subdir": "meta-oe",
+            "version": "1",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "",
+            "branch": 45,
+            "collection": "ruby-layer",
+            "id": 104995,
+            "layer": 14,
+            "updated": "2017-10-17T01:10:44+0000",
+            "vcs_last_commit": "2016-11-29T09:11:42+0000",
+            "vcs_last_fetch": "2017-10-17T01:10:44+0000",
+            "vcs_last_rev": "69bdbf665a32b784cd1fc2b30e74aa3f9faf191b",
+            "vcs_subdir": "meta-ruby",
+            "version": "1",
+            "yp_compatible_version": null
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 7,
+            "id": 14071,
+            "layerbranch": 104995,
+            "required": true
+        },
+        {
+            "dependency": 73,
+            "id": 14072,
+            "layerbranch": 104995,
+            "required": false
+        },
+        {
+            "dependency": 1,
+            "id": 14514,
+            "layerbranch": 104995,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "classic": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2017-08-25T17:08:12+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "Additional shared OE metadata",
+            "id": 7,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-oe",
+            "status": "P",
+            "summary": "Additional shared OE metadata",
+            "updated": "2017-08-25T17:08:40+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "RUBY language and utilities",
+            "id": 14,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-ruby",
+            "status": "P",
+            "summary": "RUBY language",
+            "updated": "2017-08-25T17:08:41+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Bundler makes sure Ruby applications run the same code on every machine. It does this by managing the gems that the application depends on. Given a list of gems, it can automatically download and install those gems, as well as any other gems needed by the gems that are listed. Before installing gems, it checks the versions of every gem to make sure that they are compatible, and can all be loaded at the same time. After the gems have been installed, Bundler can help you update some or all of them when new versions become available. Finally, it records the exact versions that have been installed, so that others can install the exact same gems.",
+            "filename": "bundler_git.bb",
+            "filepath": "recipes-devtools/ruby",
+            "homepage": "",
+            "id": 357332,
+            "inherits": "ruby",
+            "layerbranch": 104995,
+            "license": "MIT",
+            "pn": "bundler",
+            "provides": "bundler ",
+            "pv": "1.9.4",
+            "section": "base",
+            "summary": "Makes sure Ruby applications run the same code on every machine.",
+            "updated": "2017-10-06T20:10:09+0000"
+        }
+    ],
+    "wrtemplates": []
+}

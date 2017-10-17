@@ -1,0 +1,163 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_9_BASE_RCPL0011",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_9_BASE_RCPL0011",
+            "id": 45,
+            "name": "WRLINUX_9_BASE_RCPL0011",
+            "short_description": "WRLinux 9 Base RCPL 0011",
+            "sort_priority": 8998,
+            "update_environment": null,
+            "updated": "2017-09-26T13:09:01+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 45,
+            "collection": "core",
+            "id": 104985,
+            "layer": 1,
+            "updated": "2017-10-17T01:10:33+0000",
+            "vcs_last_commit": "2017-10-11T03:10:31+0000",
+            "vcs_last_fetch": "2017-10-17T01:10:33+0000",
+            "vcs_last_rev": "ccc0ee8c990bda5b13a67abc7493b6d4a13528b0",
+            "vcs_subdir": "meta",
+            "version": "9",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "",
+            "branch": 45,
+            "collection": "realtime",
+            "id": 105000,
+            "layer": 48,
+            "updated": "2017-10-17T01:10:50+0000",
+            "vcs_last_commit": "2017-07-21T02:07:54+0000",
+            "vcs_last_fetch": "2017-10-17T01:10:50+0000",
+            "vcs_last_rev": "86f6124dda786d525fc891219a997f393e61d4f2",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": null
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 14083,
+            "layerbranch": 105000,
+            "required": true
+        },
+        {
+            "dependency": 147,
+            "id": 14084,
+            "layerbranch": 105000,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "classic": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2017-08-25T17:08:12+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "This layer is intended to be a central point for realtime related kernel and\r\nsystem development. It also contains utilities, and configuration useful for\r\ntuning a realtime system. It should be useful directly on top of oe-core.  It\r\nshould be primarily useful to the following groups:",
+            "id": 48,
+            "index_preference": 900,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-realtime",
+            "status": "P",
+            "summary": "Realtime related kernel components",
+            "updated": "2017-08-25T17:08:33+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-realtime",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "rt-app is a test application that starts multiple periodic threads in order to simulate a real-time periodic load",
+            "filename": "rt-app.bb",
+            "filepath": "recipes-tools/rt-app",
+            "homepage": "",
+            "id": 357519,
+            "inherits": "autotools gettext pkgconfig siteconfig siteinfo",
+            "layerbranch": 105000,
+            "license": "GPLv2",
+            "pn": "rt-app",
+            "provides": "rt-app ",
+            "pv": "1.0",
+            "section": "devel",
+            "summary": "",
+            "updated": "2017-10-06T20:10:38+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "schedtool-dl (scheduler test tool) for deadline scheduler",
+            "filename": "schedtool-dl.bb",
+            "filepath": "recipes-tools/schedtool-dl",
+            "homepage": "",
+            "id": 357520,
+            "inherits": "",
+            "layerbranch": 105000,
+            "license": "GPLv2",
+            "pn": "schedtool-dl",
+            "provides": "schedtool-dl ",
+            "pv": "1.0",
+            "section": "devel",
+            "summary": "",
+            "updated": "2017-10-06T20:10:38+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "A small image just capable of allowing a device to boot and is suitable for development work.",
+            "filename": "core-image-rt-extended.bb",
+            "filepath": "recipes-extended/images",
+            "homepage": "",
+            "id": 357521,
+            "inherits": "core-image gzipnative image image_types meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "layerbranch": 105000,
+            "license": "MIT",
+            "pn": "core-image-rt-extended",
+            "provides": "core-image-rt-extended ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "A small image just capable of allowing a device to boot.",
+            "updated": "2017-10-06T20:10:38+0000"
+        }
+    ],
+    "wrtemplates": []
+}
