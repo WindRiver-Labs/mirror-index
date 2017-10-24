@@ -21,29 +21,29 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.17-20171012",
+            "actual_branch": "wr-10.17-20171018",
             "branch": 48,
             "collection": "core",
             "id": 165030,
             "layer": 1,
-            "updated": "2017-10-17T23:10:39+0000",
-            "vcs_last_commit": "2017-10-17T09:10:04+0000",
-            "vcs_last_fetch": "2017-10-17T23:10:39+0000",
-            "vcs_last_rev": "7afd510a2fee23be933a1352c137813af6b55cb1",
+            "updated": "2017-10-24T09:10:04+0000",
+            "vcs_last_commit": "2017-10-24T02:10:29+0000",
+            "vcs_last_fetch": "2017-10-24T09:10:04+0000",
+            "vcs_last_rev": "10e62e0f3764feb6a47b029bcb83abd03be6d7a7",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.17-20171016",
+            "actual_branch": "wr-10.17-20171018",
             "branch": 48,
             "collection": "openembedded-layer",
             "id": 165076,
             "layer": 7,
-            "updated": "2017-10-17T23:10:41+0000",
-            "vcs_last_commit": "2017-10-16T03:10:35+0000",
-            "vcs_last_fetch": "2017-10-17T23:10:41+0000",
-            "vcs_last_rev": "5fb8e3ac86cb1058f7a9b483476e4bfb428299a8",
+            "updated": "2017-10-24T09:10:06+0000",
+            "vcs_last_commit": "2017-10-20T03:10:50+0000",
+            "vcs_last_fetch": "2017-10-24T09:10:06+0000",
+            "vcs_last_rev": "38d9838cbfb03d016817f2e9bba0bd92ecc18b8f",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
@@ -2664,7 +2664,7 @@
             "pv": "2.6",
             "section": "kernel/userland",
             "summary": "User space daemon for extended IEEE 802.11 management",
-            "updated": "2017-10-17T01:10:57+0000"
+            "updated": "2017-10-18T06:10:21+0000"
         },
         {
             "bbclassextend": "",
@@ -5492,10 +5492,10 @@
             "license": "ImageMagick",
             "pn": "imagemagick",
             "provides": "imagemagick ",
-            "pv": "7.0.7_1",
+            "pv": "7.0.7_7",
             "section": "console/utils",
             "summary": "ImageMagick is an image convertion tools",
-            "updated": "2017-09-26T21:09:50+0000"
+            "updated": "2017-10-18T06:10:22+0000"
         },
         {
             "bbclassextend": "",
@@ -7528,7 +7528,7 @@
             "pv": "2.9.2",
             "section": "base",
             "summary": "Generic library for reporting various problems",
-            "updated": "2017-09-26T21:09:04+0000"
+            "updated": "2017-10-20T04:10:37+0000"
         },
         {
             "bbclassextend": "",
@@ -8763,7 +8763,7 @@
             "pv": "1.4.0",
             "section": "devel/lib",
             "summary": "",
-            "updated": "2017-09-26T21:09:12+0000"
+            "updated": "2017-10-20T04:10:37+0000"
         },
         {
             "bbclassextend": "",
@@ -10473,7 +10473,7 @@
             "pv": "8.4.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T21:09:24+0000"
+            "updated": "2017-10-18T06:10:21+0000"
         },
         {
             "bbclassextend": "native",
@@ -11544,7 +11544,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "toybox_0.7.4.bb",
+            "filename": "toybox_git.bb",
             "filepath": "recipes-core/toybox",
             "homepage": "http://www.landley.net/toybox/",
             "id": 381692,
@@ -11553,10 +11553,10 @@
             "license": "BSD-0-Clause",
             "pn": "toybox",
             "provides": "toybox ",
-            "pv": "0.7.4",
+            "pv": "0.7.4+gitX",
             "section": "base",
             "summary": "Toybox combines common utilities together into a single executable.",
-            "updated": "2017-10-10T03:10:18+0000"
+            "updated": "2017-10-18T06:10:21+0000"
         },
         {
             "bbclassextend": "",
@@ -11652,6 +11652,44 @@
             "section": "libs",
             "summary": "HTTP/2 C Library and tools",
             "updated": "2017-10-17T01:10:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "RocksDB is library that provides an embeddable, persistent key-value store for fast storage.",
+            "filename": "rocksdb_git.bb",
+            "filepath": "recipes-extended/rocksdb",
+            "homepage": "http://rocksdb.org/",
+            "id": 415737,
+            "inherits": "cmake",
+            "layerbranch": 165076,
+            "license": "(Apache-2.0 | GPL-2.0) & BSD-3-Clause",
+            "pn": "rocksdb",
+            "provides": "rocksdb ",
+            "pv": "5.8+gitX",
+            "section": "base",
+            "summary": "RocksDB an embeddable, persistent key-value store",
+            "updated": "2017-10-18T06:10:22+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "http://sourceforge.net/tracker/?group_id=16191&atid=116191",
+            "description": "OProfile is a system-wide profiler for Linux systems, capable of profiling all running code at low overhead.",
+            "filename": "oprofile_1.1.0.bb",
+            "filepath": "recipes-kernel/oprofile",
+            "homepage": "http://oprofile.sourceforge.net/news/",
+            "id": 415738,
+            "inherits": "autotools pkgconfig ptest siteconfig siteinfo",
+            "layerbranch": 165076,
+            "license": "LGPLv2.1+ & GPLv2",
+            "pn": "oprofile",
+            "provides": "oprofile ",
+            "pv": "1.1.0",
+            "section": "devel",
+            "summary": "System-Wide Profiler",
+            "updated": "2017-10-18T06:10:22+0000"
         }
     ],
     "wrtemplates": []
