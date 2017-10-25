@@ -1,0 +1,580 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_17_BASE_UPDATE0001",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_17_BASE_UPDATE0001",
+            "id": 54,
+            "name": "WRLINUX_10_17_BASE_UPDATE0001",
+            "short_description": "WRLinux 10_17 Base Update 0001",
+            "sort_priority": 8996,
+            "update_environment": null,
+            "updated": "2017-10-25T20:10:10+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 54,
+            "collection": "core",
+            "id": 168693,
+            "layer": 1,
+            "updated": "2017-10-25T21:10:44+0000",
+            "vcs_last_commit": "2017-10-24T02:10:29+0000",
+            "vcs_last_fetch": "2017-10-25T21:10:44+0000",
+            "vcs_last_rev": "10e62e0f3764feb6a47b029bcb83abd03be6d7a7",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "",
+            "branch": 54,
+            "collection": "wr-template",
+            "id": 168732,
+            "layer": 55,
+            "updated": "2017-10-25T21:10:04+0000",
+            "vcs_last_commit": "2017-10-13T08:10:55+0000",
+            "vcs_last_fetch": "2017-10-25T21:10:04+0000",
+            "vcs_last_rev": "ace3819a6f1a25be4d9b0239a597ec106efe0e3c",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "",
+            "branch": 54,
+            "collection": "wrlinux",
+            "id": 168746,
+            "layer": 49,
+            "updated": "2017-10-25T21:10:29+0000",
+            "vcs_last_commit": "2017-10-25T19:10:58+0000",
+            "vcs_last_fetch": "2017-10-25T21:10:29+0000",
+            "vcs_last_rev": "e97ecbbb63c4c400aa6257453fb8e58dcfdea59b",
+            "vcs_subdir": "",
+            "version": "2",
+            "yp_compatible_version": null
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 55,
+            "id": 19552,
+            "layerbranch": 168746,
+            "required": true
+        },
+        {
+            "dependency": 15,
+            "id": 19554,
+            "layerbranch": 168746,
+            "required": false
+        },
+        {
+            "dependency": 11,
+            "id": 19555,
+            "layerbranch": 168746,
+            "required": false
+        },
+        {
+            "dependency": 7,
+            "id": 19556,
+            "layerbranch": 168746,
+            "required": false
+        },
+        {
+            "dependency": 48,
+            "id": 19557,
+            "layerbranch": 168746,
+            "required": false
+        },
+        {
+            "dependency": 45,
+            "id": 19558,
+            "layerbranch": 168746,
+            "required": false
+        },
+        {
+            "dependency": 10,
+            "id": 19559,
+            "layerbranch": 168746,
+            "required": false
+        },
+        {
+            "dependency": 165,
+            "id": 19560,
+            "layerbranch": 168746,
+            "required": false
+        },
+        {
+            "dependency": 5,
+            "id": 19561,
+            "layerbranch": 168746,
+            "required": false
+        },
+        {
+            "dependency": 1,
+            "id": 19840,
+            "layerbranch": 168746,
+            "required": true
+        },
+        {
+            "dependency": 8,
+            "id": 19841,
+            "layerbranch": 168746,
+            "required": false
+        },
+        {
+            "dependency": 192,
+            "id": 21109,
+            "layerbranch": 168746,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "classic": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2017-08-25T17:08:12+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "This layer provides the Wind River Linux distribution definitions, \r\ndistribution-specific integration and bug fixes, and other wrlinux components.",
+            "id": 49,
+            "index_preference": 900,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "wrlinux",
+            "status": "P",
+            "summary": "Wind River Linux distribution definitions",
+            "updated": "2017-03-01T21:03:25+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wrlinux",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "This layer provides template processing support to OpenEmbedded.  Wind River\r\ntemplates are a mechanism that permit various configurations to be enabled\r\nwith a simple setting.",
+            "id": 55,
+            "index_preference": 900,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "wr-template",
+            "status": "P",
+            "summary": "Wind River Template Support",
+            "updated": "2017-01-20T16:01:26+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wr-template",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "This not a full theme for desktop environment, only includes                windriver branded desktop wallpapers and lxdm login theme. ",
+            "filename": "wr-themes_1.0.bb",
+            "filepath": "recipes-graphics/wr-themes",
+            "homepage": "http://www.windriver.com",
+            "id": 399642,
+            "inherits": "distro_features_check",
+            "layerbranch": 168746,
+            "license": "windriver",
+            "pn": "wr-themes",
+            "provides": "wr-themes ",
+            "pv": "1.0",
+            "section": "x11",
+            "summary": "Wind River Linux Desktop Themes",
+            "updated": "2017-10-24T09:10:02+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "aer-inject allows to inject PCIE AER errors on the software level into a running Linux kernel. This is intended for validation of the PCIE driver error recovery handler and PCIE AER core handler.",
+            "filename": "aer-inject_git.bb",
+            "filepath": "recipes-kernel/aer-inject",
+            "homepage": "",
+            "id": 399643,
+            "inherits": "",
+            "layerbranch": 168746,
+            "license": "GPLv2",
+            "pn": "aer-inject",
+            "provides": "aer-inject ",
+            "pv": "20100310+gitX",
+            "section": "base",
+            "summary": "inject PCIE AER errors on the software level",
+            "updated": "2017-10-24T09:10:03+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "the vdso test tool is used for vdso_gettimeofday,vdso_time and vdso_clock_gettime test - vdso_test-x86 is for x86  - vdso_test-x86_64 is for x86-64 ",
+            "filename": "vdso-test.bb",
+            "filepath": "recipes-kernel/vdso-test",
+            "homepage": "",
+            "id": 399644,
+            "inherits": "siteinfo",
+            "layerbranch": 168746,
+            "license": "GPLv2",
+            "pn": "vdso-test",
+            "provides": "vdso-test ",
+            "pv": "1.0",
+            "section": "vdso test",
+            "summary": " Vdso test Tool",
+            "updated": "2017-10-24T09:10:03+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "The MCE test suite is a collection of tools and test scripts for testing the Linux RAS related features, including CPU/Memory error containment and recovery, ACPI/APEI support etc.",
+            "filename": "mce-test_git.bb",
+            "filepath": "recipes-kernel/mce-test",
+            "homepage": "",
+            "id": 399645,
+            "inherits": "autotools autotools-brokensep siteconfig siteinfo",
+            "layerbranch": 168746,
+            "license": "GPLv2",
+            "pn": "mce-test",
+            "provides": "mce-test ",
+            "pv": "20131218+gitX",
+            "section": "base",
+            "summary": "MCE test suite",
+            "updated": "2017-10-24T09:10:03+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Software that understands and dynamically adjusts to resource utilization of modern processors has performance and power advantages. The Intel Performance Counter Monitor provides sample C++ routines and utilities to estimate the internal resource utilization of the latest Intel Xeon and Core processors and gain a significant performance boost.",
+            "filename": "intel-pcm_2.3a.bb",
+            "filepath": "recipes-kernel/intel-pcm",
+            "homepage": "http://software.intel.com/en-us/articles/intel-performance-counter-monitor-a-better-way-to-measure-cpu-utilization",
+            "id": 399646,
+            "inherits": "",
+            "layerbranch": 168746,
+            "license": "BSD",
+            "pn": "intel-pcm",
+            "provides": "intel-pcm ",
+            "pv": "2.3a",
+            "section": "base",
+            "summary": "Intel Processor Counter Monitor",
+            "updated": "2017-10-24T09:10:03+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "The turbostat tool allows you to determine the actual processor frequency and idle power saving state residency on supported processors.",
+            "filename": "turbostat_3.4.bb",
+            "filepath": "recipes-kernel/turbostat",
+            "homepage": "",
+            "id": 399647,
+            "inherits": "",
+            "layerbranch": 168746,
+            "license": "GPLv2",
+            "pn": "turbostat",
+            "provides": "turbostat ",
+            "pv": "3.4",
+            "section": "base",
+            "summary": "Frequency and Idle power monitoring tools for Linux",
+            "updated": "2017-10-24T09:10:03+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Userspace test code that tests cma.",
+            "filename": "cma-test.bb",
+            "filepath": "recipes-kernel/cma-test",
+            "homepage": "http://ozlabs.org/~cyeoh/cma/process_vm_readv.txt",
+            "id": 399648,
+            "inherits": "",
+            "layerbranch": 168746,
+            "license": "PD",
+            "pn": "cma-test",
+            "provides": "cma-test ",
+            "pv": "0.0.1",
+            "section": "base",
+            "summary": "Cross Memory Attach test case (cma)",
+            "updated": "2017-10-24T09:10:03+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "anspass is a daemon/client utility to save and retrieve     credentials by other utilities that implement the askpass interface.",
+            "filename": "anspass_git.bb",
+            "filepath": "recipes-support/anspass",
+            "homepage": "",
+            "id": 399649,
+            "inherits": "autotools autotools-brokensep siteconfig siteinfo",
+            "layerbranch": 168746,
+            "license": "LGPLv2",
+            "pn": "anspass",
+            "provides": "anspass ",
+            "pv": "1.0+gitX",
+            "section": "base",
+            "summary": "Credential storage for utilities that implement the askpass interface",
+            "updated": "2017-10-24T09:10:04+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "packagegroup-xfce.bb",
+            "filepath": "dynamic-layers/xfce-layer/recipes-xfce/packagegroups",
+            "homepage": "",
+            "id": 399650,
+            "inherits": "allarch distro_features_check packagegroup",
+            "layerbranch": 168746,
+            "license": "MIT",
+            "pn": "packagegroup-xfce",
+            "provides": "packagegroup-xfce ",
+            "pv": "1.0",
+            "section": "x11/wm",
+            "summary": "All packages for full XFCE installation",
+            "updated": "2017-10-24T09:10:04+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "A list of commonly used native packages.",
+            "filename": "wr-common-packages-native.bb",
+            "filepath": "recipes-base/wr-common-packages-native",
+            "homepage": "",
+            "id": 399651,
+            "inherits": "native nopackages relocatable",
+            "layerbranch": 168746,
+            "license": "MIT",
+            "pn": "wr-common-packages-native",
+            "provides": "wr-common-packages-native ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "",
+            "updated": "2017-10-24T09:10:04+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Tools to replace busybox",
+            "filename": "packagegroup-busybox-replacement.bb",
+            "filepath": "recipes-base/packagegroups",
+            "homepage": "",
+            "id": 399652,
+            "inherits": "allarch packagegroup",
+            "layerbranch": 168746,
+            "license": "",
+            "pn": "packagegroup-busybox-replacement",
+            "provides": "packagegroup-busybox-replacement ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "Tools to replace busybox",
+            "updated": "2017-10-24T09:10:04+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "microcode-ctl_git.bb",
+            "filepath": "recipes-bsp/microcode-ctl",
+            "homepage": "https://pagure.io/microcode_ctl/",
+            "id": 399653,
+            "inherits": "systemd update-rc.d",
+            "layerbranch": 168746,
+            "license": "GPLv2",
+            "pn": "microcode-ctl",
+            "provides": "microcode-ctl ",
+            "pv": "v2.1-9+gitad1238f26ca54ffb2e1a19d53edfc8e0cea07416",
+            "section": "console/utils",
+            "summary": "Microcode Control Tool",
+            "updated": "2017-10-24T09:10:04+0000"
+        }
+    ],
+    "wrtemplates": [
+        {
+            "description": "Enable addition security CFLAGS and LDFLAGS",
+            "id": 16005,
+            "layerbranch": 168746,
+            "name": "feature/security-flags",
+            "updated": "2017-10-24T09:10:04+0000"
+        },
+        {
+            "description": "Enable common Managed Build Project (mbp) settings",
+            "id": 16006,
+            "layerbranch": 168746,
+            "name": "feature/mbp-project",
+            "updated": "2017-10-24T09:10:04+0000"
+        },
+        {
+            "description": "Add packagegroup-self-hosted to the image",
+            "id": 16007,
+            "layerbranch": 168746,
+            "name": "feature/self-hosted",
+            "updated": "2017-10-24T09:10:04+0000"
+        },
+        {
+            "description": "Add gcc-sanitizers to image",
+            "id": 16008,
+            "layerbranch": 168746,
+            "name": "feature/gcc-sanitizers",
+            "updated": "2017-10-24T09:10:04+0000"
+        },
+        {
+            "description": "Enable package-test functionality",
+            "id": 16009,
+            "layerbranch": 168746,
+            "name": "feature/ptest",
+            "updated": "2017-10-24T09:10:04+0000"
+        },
+        {
+            "description": "Enable archiver class and original src mode",
+            "id": 16010,
+            "layerbranch": 168746,
+            "name": "feature/archiver",
+            "updated": "2017-10-24T09:10:04+0000"
+        },
+        {
+            "description": "Set the default syslog to sysklogd",
+            "id": 16011,
+            "layerbranch": 168746,
+            "name": "feature/sysklogd",
+            "updated": "2017-10-24T09:10:04+0000"
+        },
+        {
+            "description": "Enable readonly-root filesystem",
+            "id": 16012,
+            "layerbranch": 168746,
+            "name": "feature/readonly-root",
+            "updated": "2017-10-24T09:10:04+0000"
+        },
+        {
+            "description": "",
+            "id": 16013,
+            "layerbranch": 168746,
+            "name": "feature/ntp",
+            "updated": "2017-10-24T09:10:04+0000"
+        },
+        {
+            "description": "Add on-target package management to image",
+            "id": 16014,
+            "layerbranch": 168746,
+            "name": "feature/package-management",
+            "updated": "2017-10-24T09:10:04+0000"
+        },
+        {
+            "description": "Add valgrind to the image",
+            "id": 16015,
+            "layerbranch": 168746,
+            "name": "feature/valgrind",
+            "updated": "2017-10-24T09:10:04+0000"
+        },
+        {
+            "description": "Add system and process monitoring utilities to the image",
+            "id": 16016,
+            "layerbranch": 168746,
+            "name": "feature/system-stats",
+            "updated": "2017-10-24T09:10:04+0000"
+        },
+        {
+            "description": "",
+            "id": 16017,
+            "layerbranch": 168746,
+            "name": "feature/rpm-local-keys",
+            "updated": "2017-10-24T09:10:04+0000"
+        },
+        {
+            "description": "Enable qemu to use native SDL libraries",
+            "id": 16018,
+            "layerbranch": 168746,
+            "name": "feature/qemu-sdl",
+            "updated": "2017-10-24T09:10:04+0000"
+        },
+        {
+            "description": "Enable Data Plane Development Kit (DPDK)",
+            "id": 16019,
+            "layerbranch": 168746,
+            "name": "feature/dpdk",
+            "updated": "2017-10-24T09:10:04+0000"
+        },
+        {
+            "description": "Add sftp-server to the image",
+            "id": 16020,
+            "layerbranch": 168746,
+            "name": "feature/sftp-server",
+            "updated": "2017-10-24T09:10:04+0000"
+        },
+        {
+            "description": "Add dev packages to image",
+            "id": 16021,
+            "layerbranch": 168746,
+            "name": "feature/dev-pkgs",
+            "updated": "2017-10-24T09:10:04+0000"
+        },
+        {
+            "description": "Add gdb and gdbserver to image",
+            "id": 16022,
+            "layerbranch": 168746,
+            "name": "feature/gdb",
+            "updated": "2017-10-24T09:10:04+0000"
+        },
+        {
+            "description": "Enable on-target software development",
+            "id": 16023,
+            "layerbranch": 168746,
+            "name": "feature/target-toolchain",
+            "updated": "2017-10-24T09:10:04+0000"
+        },
+        {
+            "description": "",
+            "id": 16024,
+            "layerbranch": 168746,
+            "name": "feature/rpm-required-sig",
+            "updated": "2017-10-24T09:10:04+0000"
+        },
+        {
+            "description": "Add gdbserver to image",
+            "id": 16025,
+            "layerbranch": 168746,
+            "name": "feature/gdbserver",
+            "updated": "2017-10-24T09:10:04+0000"
+        },
+        {
+            "description": "",
+            "id": 16026,
+            "layerbranch": 168746,
+            "name": "feature/wr-profiling-kernel-overrides",
+            "updated": "2017-10-24T09:10:04+0000"
+        }
+    ]
+}
