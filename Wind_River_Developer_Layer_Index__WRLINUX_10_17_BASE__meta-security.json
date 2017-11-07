@@ -26,10 +26,10 @@
             "collection": "core",
             "id": 165030,
             "layer": 1,
-            "updated": "2017-10-25T19:10:26+0000",
-            "vcs_last_commit": "2017-10-24T20:10:13+0000",
-            "vcs_last_fetch": "2017-10-25T19:10:26+0000",
-            "vcs_last_rev": "679868738b59e7b446f55878137c2868ebc93294",
+            "updated": "2017-11-07T18:11:55+0000",
+            "vcs_last_commit": "2017-11-06T06:11:52+0000",
+            "vcs_last_fetch": "2017-11-07T18:11:55+0000",
+            "vcs_last_rev": "511436d7fd4b3f80a95a7888eaec22f8637436df",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -40,9 +40,9 @@
             "collection": "openembedded-layer",
             "id": 165076,
             "layer": 7,
-            "updated": "2017-10-25T19:10:29+0000",
+            "updated": "2017-11-07T18:11:57+0000",
             "vcs_last_commit": "2017-10-25T02:10:57+0000",
-            "vcs_last_fetch": "2017-10-25T19:10:29+0000",
+            "vcs_last_fetch": "2017-11-07T18:11:57+0000",
             "vcs_last_rev": "84a953072149d33fddff406c0a93c7a4d401697b",
             "vcs_subdir": "meta-oe",
             "version": "1",
@@ -54,10 +54,10 @@
             "collection": "networking-layer",
             "id": 165079,
             "layer": 11,
-            "updated": "2017-10-25T19:10:58+0000",
-            "vcs_last_commit": "2017-10-25T00:10:15+0000",
-            "vcs_last_fetch": "2017-10-25T19:10:58+0000",
-            "vcs_last_rev": "73489ce2054977beb934eca1348942bd92301103",
+            "updated": "2017-11-07T18:11:25+0000",
+            "vcs_last_commit": "2017-11-03T23:11:13+0000",
+            "vcs_last_fetch": "2017-11-07T18:11:25+0000",
+            "vcs_last_rev": "8938442e067acc9ae388aa999894bd23bdf9d5bd",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": null
@@ -68,9 +68,9 @@
             "collection": "meta-python",
             "id": 165080,
             "layer": 12,
-            "updated": "2017-10-25T19:10:32+0000",
+            "updated": "2017-11-07T18:11:01+0000",
             "vcs_last_commit": "2017-10-18T06:10:28+0000",
-            "vcs_last_fetch": "2017-10-25T19:10:32+0000",
+            "vcs_last_fetch": "2017-11-07T18:11:01+0000",
             "vcs_last_rev": "94e9e03da4d5539963d6f536f03c5d3cb0e1d4f1",
             "vcs_subdir": "meta-python",
             "version": "1",
@@ -82,9 +82,9 @@
             "collection": "perl-layer",
             "id": 165081,
             "layer": 13,
-            "updated": "2017-10-25T19:10:34+0000",
+            "updated": "2017-11-07T18:11:02+0000",
             "vcs_last_commit": "2017-10-18T06:10:28+0000",
-            "vcs_last_fetch": "2017-10-25T19:10:34+0000",
+            "vcs_last_fetch": "2017-11-07T18:11:02+0000",
             "vcs_last_rev": "f09a3b9f43c51f7055afee9126a770f44d4b5cb3",
             "vcs_subdir": "meta-perl",
             "version": "1",
@@ -96,9 +96,9 @@
             "collection": "security",
             "id": 165120,
             "layer": 18,
-            "updated": "2017-10-25T19:10:01+0000",
+            "updated": "2017-11-07T18:11:27+0000",
             "vcs_last_commit": "2017-10-18T01:10:06+0000",
-            "vcs_last_fetch": "2017-10-25T19:10:01+0000",
+            "vcs_last_fetch": "2017-11-07T18:11:27+0000",
             "vcs_last_rev": "779bc1ec006ebef344d2bdfd00f2170a9273fee9",
             "vcs_subdir": "",
             "version": null,
@@ -257,7 +257,7 @@
             "filename": "sleuthkit_4.1.3.bb",
             "filepath": "recipes-forensic/sleuth",
             "homepage": "http://www.sleuthkit.org/sleuthkit/",
-            "id": 381919,
+            "id": 444257,
             "inherits": "autotools autotools-brokensep gettext pkgconfig siteconfig siteinfo",
             "layerbranch": 165120,
             "license": "IPL-1.0 & GPLv2 & CPL-1.0",
@@ -266,7 +266,7 @@
             "pv": "4.1.3",
             "section": "base",
             "summary": "The Sleuth Kit (TSK) is a library and collection of command line tools that allow you to investigate disk images.",
-            "updated": "2017-09-26T21:09:48+0000"
+            "updated": "2017-11-06T17:11:44+0000"
         },
         {
             "bbclassextend": "",
@@ -276,7 +276,7 @@
             "filename": "libewf_20140608.bb",
             "filepath": "recipes-forensic/libewf",
             "homepage": "",
-            "id": 381920,
+            "id": 444258,
             "inherits": "autotools autotools-brokensep gettext pkgconfig siteconfig siteinfo",
             "layerbranch": 165120,
             "license": "LGPLv3+",
@@ -285,7 +285,7 @@
             "pv": "20140608",
             "section": "base",
             "summary": "library with support for Expert Witness Compression Format",
-            "updated": "2017-10-10T03:10:59+0000"
+            "updated": "2017-11-06T17:11:44+0000"
         },
         {
             "bbclassextend": "",
@@ -295,7 +295,7 @@
             "filename": "afflib_3.6.6.bb",
             "filepath": "recipes-forensic/afflib",
             "homepage": "http://www.afflib.org/",
-            "id": 381921,
+            "id": 444259,
             "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo",
             "layerbranch": 165120,
             "license": " BSD-4-Clause  & CPL-1.0",
@@ -304,7 +304,7 @@
             "pv": "3.6.6",
             "section": "base",
             "summary": "The Advanced Forensic Format (AFF) is on-disk format for storing computer forensic information.",
-            "updated": "2017-09-26T21:09:48+0000"
+            "updated": "2017-11-06T17:11:44+0000"
         },
         {
             "bbclassextend": "",
@@ -314,7 +314,7 @@
             "filename": "fail2ban_0.10.0.bb",
             "filepath": "recipes-security/fail2ban",
             "homepage": "http://www.fail2ban.org",
-            "id": 381922,
+            "id": 444260,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools update-rc.d",
             "layerbranch": 165120,
             "license": "GPL-2.0",
@@ -323,7 +323,7 @@
             "pv": "0.10.0",
             "section": "base",
             "summary": "Daemon to ban hosts that cause multiple authentication errors.",
-            "updated": "2017-09-26T21:09:49+0000"
+            "updated": "2017-11-06T17:11:44+0000"
         },
         {
             "bbclassextend": "",
@@ -333,7 +333,7 @@
             "filename": "keyutils_1.5.10.bb",
             "filepath": "recipes-security/keyutils",
             "homepage": "http://people.redhat.com/dhowells/keyutils",
-            "id": 381923,
+            "id": 444261,
             "inherits": "ptest siteinfo",
             "layerbranch": 165120,
             "license": "LGPLv2.1+ & GPLv2.0+",
@@ -342,7 +342,7 @@
             "pv": "1.5.10",
             "section": "base",
             "summary": "Linux Key Management Utilities",
-            "updated": "2017-09-26T21:09:49+0000"
+            "updated": "2017-11-06T17:11:44+0000"
         },
         {
             "bbclassextend": "native",
@@ -352,7 +352,7 @@
             "filename": "paxctl_0.9.bb",
             "filepath": "recipes-security/paxctl",
             "homepage": "https://pax.grsecurity.net/",
-            "id": 381924,
+            "id": 444262,
             "inherits": "",
             "layerbranch": 165120,
             "license": "GPLv2",
@@ -361,7 +361,7 @@
             "pv": "0.9",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T21:09:49+0000"
+            "updated": "2017-11-06T17:11:44+0000"
         },
         {
             "bbclassextend": "",
@@ -371,7 +371,7 @@
             "filename": "checksecurity_2.0.15.bb",
             "filepath": "recipes-security/checksecurity",
             "homepage": "",
-            "id": 381925,
+            "id": 444263,
             "inherits": "",
             "layerbranch": 165120,
             "license": "GPL-2.0",
@@ -380,7 +380,7 @@
             "pv": "2.0.15",
             "section": "security",
             "summary": "basic system security checks",
-            "updated": "2017-10-10T03:10:00+0000"
+            "updated": "2017-11-06T17:11:44+0000"
         },
         {
             "bbclassextend": "",
@@ -390,7 +390,7 @@
             "filename": "ccs-tools_1.8.4.bb",
             "filepath": "recipes-security/ccs-tools",
             "homepage": "",
-            "id": 381926,
+            "id": 444264,
             "inherits": "distro_features_check",
             "layerbranch": 165120,
             "license": "GPL-2.0",
@@ -399,26 +399,7 @@
             "pv": "1.8.4",
             "section": "security",
             "summary": "Tomoyo",
-            "updated": "2017-09-26T21:09:49+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "libhtp_0.5.25.bb",
-            "filepath": "recipes-security/suricata",
-            "homepage": "http://suricata-ids.org/",
-            "id": 381927,
-            "inherits": "autotools pkgconfig siteconfig siteinfo",
-            "layerbranch": 165120,
-            "license": "GPLv2",
-            "pn": "libhtp",
-            "provides": "libhtp ",
-            "pv": "0.5.25",
-            "section": "security Monitor/Admin",
-            "summary": "LibHTP is a security-aware parser for the HTTP protocol and the related bits and pieces.",
-            "updated": "2017-10-10T03:10:59+0000"
+            "updated": "2017-11-06T17:11:44+0000"
         },
         {
             "bbclassextend": "",
@@ -428,7 +409,7 @@
             "filename": "suricata_4.0.0.bb",
             "filepath": "recipes-security/suricata",
             "homepage": "http://suricata-ids.org/",
-            "id": 381928,
+            "id": 444265,
             "inherits": "autotools autotools-brokensep pkgconfig python-dir siteconfig siteinfo",
             "layerbranch": 165120,
             "license": "GPLv2",
@@ -437,7 +418,26 @@
             "pv": "4.0.0",
             "section": "security Monitor/Admin",
             "summary": "The Suricata Engine is an Open Source Next Generation Intrusion Detection and Prevention Engine",
-            "updated": "2017-10-10T03:10:59+0000"
+            "updated": "2017-11-06T17:11:44+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "libhtp_0.5.25.bb",
+            "filepath": "recipes-security/suricata",
+            "homepage": "http://suricata-ids.org/",
+            "id": 444266,
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "layerbranch": 165120,
+            "license": "GPLv2",
+            "pn": "libhtp",
+            "provides": "libhtp ",
+            "pv": "0.5.25",
+            "section": "security Monitor/Admin",
+            "summary": "LibHTP is a security-aware parser for the HTTP protocol and the related bits and pieces.",
+            "updated": "2017-11-06T17:11:45+0000"
         },
         {
             "bbclassextend": "",
@@ -447,7 +447,7 @@
             "filename": "libseccomp.bb",
             "filepath": "recipes-security/libseccomp",
             "homepage": "",
-            "id": 381929,
+            "id": 444267,
             "inherits": "autotools autotools-brokensep pkgconfig ptest siteconfig siteinfo",
             "layerbranch": 165120,
             "license": "LGPL-2.1",
@@ -456,7 +456,7 @@
             "pv": "2.3.2+gitX",
             "section": "security",
             "summary": "interface to seccomp filtering mechanism",
-            "updated": "2017-09-26T21:09:49+0000"
+            "updated": "2017-11-06T17:11:45+0000"
         },
         {
             "bbclassextend": "",
@@ -466,7 +466,7 @@
             "filename": "scapy_2.3.2.bb",
             "filepath": "recipes-security/scapy",
             "homepage": "",
-            "id": 381930,
+            "id": 444268,
             "inherits": "distutils distutils-base distutils-common-base ptest python-dir pythonnative setuptools",
             "layerbranch": 165120,
             "license": "GPLv2",
@@ -475,7 +475,7 @@
             "pv": "2.3.2",
             "section": "security",
             "summary": "Network scanning and manipulation tool",
-            "updated": "2017-09-26T21:09:50+0000"
+            "updated": "2017-11-06T17:11:45+0000"
         },
         {
             "bbclassextend": "native",
@@ -485,7 +485,7 @@
             "filename": "smack_1.3.0.bb",
             "filepath": "recipes-security/smack",
             "homepage": "https://github.com/smack-team/smack",
-            "id": 381931,
+            "id": 444269,
             "inherits": "autotools pkgconfig ptest siteconfig siteinfo update-rc.d",
             "layerbranch": 165120,
             "license": "LGPL-2.1",
@@ -494,7 +494,7 @@
             "pv": "1.3.0+gitX",
             "section": "Security/Access Control",
             "summary": "",
-            "updated": "2017-09-26T21:09:50+0000"
+            "updated": "2017-11-06T17:11:45+0000"
         },
         {
             "bbclassextend": "",
@@ -504,7 +504,7 @@
             "filename": "packagegroup-core-security.bb",
             "filepath": "recipes-security/packagegroup",
             "homepage": "",
-            "id": 381932,
+            "id": 444270,
             "inherits": "allarch packagegroup",
             "layerbranch": 165120,
             "license": "MIT",
@@ -513,7 +513,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T21:09:50+0000"
+            "updated": "2017-11-06T17:11:45+0000"
         },
         {
             "bbclassextend": "",
@@ -523,7 +523,7 @@
             "filename": "redhat-security_1.0.bb",
             "filepath": "recipes-security/redhat-security",
             "homepage": "",
-            "id": 381933,
+            "id": 444271,
             "inherits": "",
             "layerbranch": 165120,
             "license": "GPLv2",
@@ -532,7 +532,7 @@
             "pv": "1.0",
             "section": "security",
             "summary": "redhat security tools",
-            "updated": "2017-10-10T03:10:00+0000"
+            "updated": "2017-11-06T17:11:45+0000"
         },
         {
             "bbclassextend": "",
@@ -542,7 +542,7 @@
             "filename": "checksec_1.5.bb",
             "filepath": "recipes-security/checksec",
             "homepage": "http://www.trapkit.de/tools/checksec.html",
-            "id": 381934,
+            "id": 444272,
             "inherits": "",
             "layerbranch": 165120,
             "license": "BSD",
@@ -551,7 +551,7 @@
             "pv": "1.5",
             "section": "security",
             "summary": "Program radominization",
-            "updated": "2017-09-26T21:09:50+0000"
+            "updated": "2017-11-06T17:11:45+0000"
         },
         {
             "bbclassextend": "",
@@ -561,7 +561,7 @@
             "filename": "keynote_2.3.bb",
             "filepath": "recipes-security/keynote",
             "homepage": "http://www.cs.columbia.edu/~angelos/keynote.html",
-            "id": 381935,
+            "id": 444273,
             "inherits": "autotools autotools-brokensep ptest siteconfig siteinfo",
             "layerbranch": 165120,
             "license": "ISC",
@@ -570,17 +570,17 @@
             "pv": "2.3",
             "section": "security",
             "summary": "Keynote tool and library",
-            "updated": "2017-09-30T08:09:38+0000"
+            "updated": "2017-11-06T17:11:45+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "Open Source Tripwire\u00ae software is a security and data integrity tool useful for monitoring and alerting on specific file change(s) on a range of systems",
+            "description": "Open Source Tripwire\u00c2\u00ae software is a security and data integrity tool useful for monitoring and alerting on specific file change(s) on a range of systems",
             "filename": "tripwire_2.4.3.5.bb",
             "filepath": "recipes-security/tripwire",
             "homepage": "http://sourceforge.net/projects/tripwire",
-            "id": 381936,
+            "id": 444274,
             "inherits": "autotools autotools-brokensep siteconfig siteinfo update-rc.d",
             "layerbranch": 165120,
             "license": "GPLv2",
@@ -589,7 +589,7 @@
             "pv": "2.4.3.5",
             "section": "security Monitor/Admin",
             "summary": "Tripwire: A system integrity assessment tool (IDS)",
-            "updated": "2017-09-26T21:09:50+0000"
+            "updated": "2017-11-06T17:11:46+0000"
         },
         {
             "bbclassextend": "",
@@ -599,7 +599,7 @@
             "filename": "nmap_7.60.bb",
             "filepath": "recipes-security/nmap",
             "homepage": "",
-            "id": 381937,
+            "id": 444275,
             "inherits": "autotools autotools-brokensep distro_features_check pkgconfig python-dir pythonnative siteconfig siteinfo",
             "layerbranch": 165120,
             "license": "GPL-2.0",
@@ -608,7 +608,7 @@
             "pv": "7.60",
             "section": "security",
             "summary": "network auditing tool",
-            "updated": "2017-09-26T21:09:50+0000"
+            "updated": "2017-11-06T17:11:46+0000"
         },
         {
             "bbclassextend": "",
@@ -618,7 +618,7 @@
             "filename": "nikto_2.1.5.bb",
             "filepath": "recipes-security/nikto",
             "homepage": "",
-            "id": 381938,
+            "id": 444276,
             "inherits": "",
             "layerbranch": 165120,
             "license": "GPLv2",
@@ -627,7 +627,7 @@
             "pv": "2.1.5",
             "section": "security",
             "summary": "web server scanner",
-            "updated": "2017-09-26T21:09:50+0000"
+            "updated": "2017-11-06T17:11:46+0000"
         },
         {
             "bbclassextend": "",
@@ -637,7 +637,7 @@
             "filename": "bastille_3.2.1.bb",
             "filepath": "recipes-security/bastille",
             "homepage": "",
-            "id": 381939,
+            "id": 444277,
             "inherits": "allarch kernel-arch module-base",
             "layerbranch": 165120,
             "license": "GPLv2",
@@ -646,7 +646,7 @@
             "pv": "3.2.1",
             "section": "base",
             "summary": "Linux hardening tool",
-            "updated": "2017-10-10T03:10:59+0000"
+            "updated": "2017-11-06T17:11:46+0000"
         },
         {
             "bbclassextend": "",
@@ -656,7 +656,7 @@
             "filename": "security-client-image.bb",
             "filepath": "recipes-security/images",
             "homepage": "",
-            "id": 381940,
+            "id": 444278,
             "inherits": "core-image image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 165120,
             "license": "MIT",
@@ -665,7 +665,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T21:09:51+0000"
+            "updated": "2017-11-06T17:11:46+0000"
         },
         {
             "bbclassextend": "",
@@ -675,7 +675,7 @@
             "filename": "security-build-image.bb",
             "filepath": "recipes-security/images",
             "homepage": "",
-            "id": 381941,
+            "id": 444279,
             "inherits": "core-image image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 165120,
             "license": "MIT",
@@ -684,7 +684,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T21:09:51+0000"
+            "updated": "2017-11-06T17:11:47+0000"
         },
         {
             "bbclassextend": "",
@@ -694,7 +694,7 @@
             "filename": "security-server-image.bb",
             "filepath": "recipes-security/images",
             "homepage": "",
-            "id": 381942,
+            "id": 444280,
             "inherits": "core-image image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 165120,
             "license": "MIT",
@@ -703,7 +703,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T21:09:51+0000"
+            "updated": "2017-11-06T17:11:47+0000"
         },
         {
             "bbclassextend": "",
@@ -713,7 +713,7 @@
             "filename": "xmlsec1_1.2.24.bb",
             "filepath": "recipes-security/xmlsec1",
             "homepage": "http://www.aleksey.com/xmlsec/",
-            "id": 381943,
+            "id": 444281,
             "inherits": "autotools autotools-brokensep pkgconfig ptest siteconfig siteinfo",
             "layerbranch": 165120,
             "license": "MIT",
@@ -722,7 +722,7 @@
             "pv": "1.2.24",
             "section": "libs",
             "summary": "XML Security Library is a C library based on LibXML2",
-            "updated": "2017-09-26T21:09:51+0000"
+            "updated": "2017-11-06T17:11:47+0000"
         },
         {
             "bbclassextend": "",
@@ -732,7 +732,7 @@
             "filename": "libgssglue_0.4.bb",
             "filepath": "recipes-security/libgssglue",
             "homepage": "http://www.citi.umich.edu/projects/nfsv4/linux/",
-            "id": 381944,
+            "id": 444282,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 165120,
             "license": "BSD-3-Clause | HPND",
@@ -741,7 +741,7 @@
             "pv": "0.4",
             "section": "libs",
             "summary": "Exports a gssapi interface which calls other gssapi libraries",
-            "updated": "2017-09-26T21:09:51+0000"
+            "updated": "2017-11-06T17:11:47+0000"
         },
         {
             "bbclassextend": "",
@@ -751,7 +751,7 @@
             "filename": "aircrack-ng_1.2.bb",
             "filepath": "recipes-security/aircrack-ng",
             "homepage": "",
-            "id": 381945,
+            "id": 444283,
             "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo",
             "layerbranch": 165120,
             "license": "GPL-2.0",
@@ -760,7 +760,7 @@
             "pv": "1.2",
             "section": "security",
             "summary": "Aircrack-ng is a set of tools for auditing wireless networks",
-            "updated": "2017-09-26T21:09:52+0000"
+            "updated": "2017-11-06T17:11:47+0000"
         },
         {
             "bbclassextend": "native",
@@ -770,7 +770,7 @@
             "filename": "buck-security_0.7.bb",
             "filepath": "recipes-security/buck-security",
             "homepage": "",
-            "id": 381946,
+            "id": 444284,
             "inherits": "",
             "layerbranch": 165120,
             "license": "GPL-2.0",
@@ -779,7 +779,7 @@
             "pv": "0.7",
             "section": "security",
             "summary": "Linux security scanner",
-            "updated": "2017-09-26T21:09:52+0000"
+            "updated": "2017-11-06T17:11:47+0000"
         },
         {
             "bbclassextend": "",
@@ -789,7 +789,7 @@
             "filename": "freediameter_1.2.1.bb",
             "filepath": "recipes-security/freediameter",
             "homepage": "http://www.freediameter.net/trac/",
-            "id": 381947,
+            "id": 444285,
             "inherits": "cmake pkgconfig update-rc.d",
             "layerbranch": 165120,
             "license": "BSD",
@@ -798,7 +798,7 @@
             "pv": "1.2.1",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T21:09:52+0000"
+            "updated": "2017-11-06T17:11:47+0000"
         },
         {
             "bbclassextend": "",
@@ -808,7 +808,7 @@
             "filename": "ding-libs_0.5.0.bb",
             "filepath": "recipes-security/libdhash",
             "homepage": "https://fedorahosted.org/released/ding-libs",
-            "id": 381948,
+            "id": 444286,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 165120,
             "license": "GPLv3+",
@@ -817,7 +817,7 @@
             "pv": "0.5.0",
             "section": "base",
             "summary": "Dynamic hash table implementation",
-            "updated": "2017-09-26T21:09:52+0000"
+            "updated": "2017-11-06T17:11:48+0000"
         },
         {
             "bbclassextend": "",
@@ -827,7 +827,7 @@
             "filename": "apparmor_2.11.0.bb",
             "filepath": "recipes-security/AppArmor",
             "homepage": "",
-            "id": 381949,
+            "id": 444287,
             "inherits": "autotools autotools-brokensep cpan cpan-base perl-version perlnative pkgconfig ptest python3-dir python3native siteconfig siteinfo update-rc.d",
             "layerbranch": 165120,
             "license": "GPLv2 & GPLv2+ & BSD-3-Clause & LGPLv2.1+",
@@ -836,7 +836,7 @@
             "pv": "2.11.0",
             "section": "admin",
             "summary": "AppArmor another MAC control system",
-            "updated": "2017-09-26T21:09:52+0000"
+            "updated": "2017-11-06T17:11:48+0000"
         },
         {
             "bbclassextend": "",
@@ -846,7 +846,7 @@
             "filename": "sssd_1.13.3.bb",
             "filepath": "recipes-security/sssd",
             "homepage": "https://fedorahosted.org/sssd/",
-            "id": 381950,
+            "id": 444288,
             "inherits": "autotools gettext pkgconfig python-dir siteconfig siteinfo update-rc.d",
             "layerbranch": 165120,
             "license": "GPLv3+",
@@ -855,7 +855,7 @@
             "pv": "1.13.3",
             "section": "base",
             "summary": "system security services daemon",
-            "updated": "2017-09-26T21:09:52+0000"
+            "updated": "2017-11-06T17:11:48+0000"
         },
         {
             "bbclassextend": "",
@@ -865,7 +865,7 @@
             "filename": "libmspack_0.5.bb",
             "filepath": "recipes-security/libmspack",
             "homepage": "http://www.cabextract.org.uk/libmspack/",
-            "id": 381951,
+            "id": 444289,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 165120,
             "license": "LGPL-2.1",
@@ -874,7 +874,7 @@
             "pv": "0.5",
             "section": "lib",
             "summary": "A library for Microsoft compression formats",
-            "updated": "2017-09-26T21:09:52+0000"
+            "updated": "2017-11-06T17:11:48+0000"
         },
         {
             "bbclassextend": "",
@@ -884,7 +884,7 @@
             "filename": "isic_0.07.bb",
             "filepath": "recipes-security/isic",
             "homepage": "http://isic.sourceforge.net/",
-            "id": 381952,
+            "id": 444290,
             "inherits": "autotools autotools-brokensep siteconfig siteinfo",
             "layerbranch": 165120,
             "license": "BSD",
@@ -893,7 +893,7 @@
             "pv": "0.07",
             "section": "security",
             "summary": "ISIC -- IP Stack Integrity Checker",
-            "updated": "2017-09-26T21:09:52+0000"
+            "updated": "2017-11-06T17:11:48+0000"
         },
         {
             "bbclassextend": "",
@@ -903,7 +903,7 @@
             "filename": "samhain-standalone_4.2.2.bb",
             "filepath": "recipes-security/samhain",
             "homepage": "http://www.la-samhna.de/samhain/",
-            "id": 381953,
+            "id": 444291,
             "inherits": "autotools autotools-brokensep pkgconfig ptest siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 165120,
             "license": "GPLv2",
@@ -912,7 +912,7 @@
             "pv": "4.2.2",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T21:09:53+0000"
+            "updated": "2017-11-06T17:11:48+0000"
         },
         {
             "bbclassextend": "native",
@@ -922,7 +922,7 @@
             "filename": "samhain-server_4.2.2.bb",
             "filepath": "recipes-security/samhain",
             "homepage": "http://www.la-samhna.de/samhain/",
-            "id": 381954,
+            "id": 444292,
             "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 165120,
             "license": "GPLv2",
@@ -931,7 +931,7 @@
             "pv": "4.2.2",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T21:09:53+0000"
+            "updated": "2017-11-06T17:11:48+0000"
         },
         {
             "bbclassextend": "",
@@ -941,7 +941,7 @@
             "filename": "samhain-client_4.2.2.bb",
             "filepath": "recipes-security/samhain",
             "homepage": "http://www.la-samhna.de/samhain/",
-            "id": 381955,
+            "id": 444293,
             "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 165120,
             "license": "GPLv2",
@@ -950,7 +950,7 @@
             "pv": "4.2.2",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T21:09:53+0000"
+            "updated": "2017-11-06T17:11:49+0000"
         },
         {
             "bbclassextend": "",
@@ -960,7 +960,7 @@
             "filename": "ecryptfs-utils_111.bb",
             "filepath": "recipes-security/ecryptfs-utils",
             "homepage": "https://launchpad.net/ecryptfs",
-            "id": 381956,
+            "id": 444294,
             "inherits": "autotools pkgconfig siteconfig siteinfo systemd",
             "layerbranch": 165120,
             "license": "GPL-2.0",
@@ -969,7 +969,7 @@
             "pv": "111",
             "section": "base",
             "summary": "The eCryptfs mount helper and support libraries",
-            "updated": "2017-09-26T21:09:53+0000"
+            "updated": "2017-11-06T17:11:49+0000"
         },
         {
             "bbclassextend": "",
@@ -979,7 +979,7 @@
             "filename": "libmhash_0.9.9.9.bb",
             "filepath": "recipes-security/libmhash",
             "homepage": "http://mhash.sourceforge.net/",
-            "id": 381957,
+            "id": 444295,
             "inherits": "autotools autotools-brokensep ptest siteconfig siteinfo",
             "layerbranch": 165120,
             "license": "LGPLv2.0",
@@ -988,7 +988,7 @@
             "pv": "0.9.9.9",
             "section": "libs",
             "summary": "Library of hashing algorithms.",
-            "updated": "2017-09-26T21:09:53+0000"
+            "updated": "2017-11-06T17:11:49+0000"
         },
         {
             "bbclassextend": "",
@@ -998,7 +998,7 @@
             "filename": "clamav_0.99.2.bb",
             "filepath": "recipes-security/clamav",
             "homepage": "http://www.clamav.net/index.html",
-            "id": 381958,
+            "id": 444296,
             "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo systemd useradd useradd_base",
             "layerbranch": 165120,
             "license": "LGPL-2.1",
@@ -1007,7 +1007,7 @@
             "pv": "0.99.2",
             "section": "security",
             "summary": "ClamAV anti-virus utility for Unix - command-line interface",
-            "updated": "2017-10-10T03:10:00+0000"
+            "updated": "2017-11-06T17:11:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1017,7 +1017,7 @@
             "filename": "tor_6.5.2.bb",
             "filepath": "recipes-browers/tor",
             "homepage": "https://www.torproject.org/",
-            "id": 381959,
+            "id": 444297,
             "inherits": "",
             "layerbranch": 165120,
             "license": "GPV-v2",
@@ -1026,7 +1026,7 @@
             "pv": "6.5.2",
             "section": "base",
             "summary": "Tor is free software and an open network that helps you defend against traffic analysis, a form of network surveillance that threatens personal freedom and privacy, confidential business activities an",
-            "updated": "2017-09-26T21:09:53+0000"
+            "updated": "2017-11-06T17:11:49+0000"
         },
         {
             "bbclassextend": "",
@@ -1036,7 +1036,7 @@
             "filename": "lib-perl_0.63.bb",
             "filepath": "recipes-perl/perl",
             "homepage": "",
-            "id": 381960,
+            "id": 444298,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165120,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -1045,7 +1045,7 @@
             "pv": "0.63",
             "section": "libs",
             "summary": "",
-            "updated": "2017-09-26T21:09:53+0000"
+            "updated": "2017-11-06T17:11:49+0000"
         },
         {
             "bbclassextend": "native",
@@ -1055,7 +1055,7 @@
             "filename": "libwhisker2-perl_2.5.bb",
             "filepath": "recipes-perl/perl",
             "homepage": "",
-            "id": 381961,
+            "id": 444299,
             "inherits": "cpan-base perl-version",
             "layerbranch": 165120,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -1064,121 +1064,7 @@
             "pv": "2.5",
             "section": "libs",
             "summary": "",
-            "updated": "2017-09-26T21:09:54+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "lynis_2.5.1.bb",
-            "filepath": "meta-security-compliance/recipes-auditors/lynis",
-            "homepage": "",
-            "id": 415582,
-            "inherits": "autotools autotools-brokensep siteconfig siteinfo",
-            "layerbranch": 165120,
-            "license": "GPL-3.0",
-            "pn": "lynis",
-            "provides": "lynis ",
-            "pv": "2.5.1",
-            "section": "base",
-            "summary": "Lynis is a free and open source security and auditing tool.",
-            "updated": "2017-10-10T03:10:00+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "The /etc/openembedded-release file contains operating system identification data.",
-            "filename": "openembedded-release_1.0.bb",
-            "filepath": "meta-security-compliance/recipes-core/openembedded-release",
-            "homepage": "",
-            "id": 415583,
-            "inherits": "allarch",
-            "layerbranch": 165120,
-            "license": "MIT",
-            "pn": "openembedded-release",
-            "provides": "openembedded-release ",
-            "pv": "1.0",
-            "section": "base",
-            "summary": "Operating release identification",
-            "updated": "2017-10-10T03:10:00+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "oe-scap_1.0.bb",
-            "filepath": "meta-security-compliance/recipes-openscap/oe-scap",
-            "homepage": "",
-            "id": 415584,
-            "inherits": "",
-            "layerbranch": 165120,
-            "license": "MIT",
-            "pn": "oe-scap",
-            "provides": "oe-scap ",
-            "pv": "1.0",
-            "section": "base",
-            "summary": "",
-            "updated": "2017-10-10T03:10:00+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "openscap-daemon_0.1.6.bb",
-            "filepath": "meta-security-compliance/recipes-openscap/openscap-daemon",
-            "homepage": "",
-            "id": 415585,
-            "inherits": "distutils-common-base distutils3 distutils3-base python3-dir python3native setuptools3",
-            "layerbranch": 165120,
-            "license": "LGPL-2.1",
-            "pn": "openscap-daemon",
-            "provides": "openscap-daemon ",
-            "pv": "0.1.6+gitX",
-            "section": "base",
-            "summary": "",
-            "updated": "2017-10-10T03:10:00+0000"
-        },
-        {
-            "bbclassextend": "native",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "openscap_1.2.15.bb",
-            "filepath": "meta-security-compliance/recipes-openscap/openscap",
-            "homepage": "",
-            "id": 415586,
-            "inherits": "autotools autotools-brokensep perlnative pkgconfig ptest python3-dir python3native siteconfig siteinfo",
-            "layerbranch": 165120,
-            "license": "LGPL-2.1",
-            "pn": "openscap",
-            "provides": "openscap ",
-            "pv": "1.2.15",
-            "section": "base",
-            "summary": "",
-            "updated": "2017-10-18T06:10:54+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "scap-security-guide_0.1.33.bb",
-            "filepath": "meta-security-compliance/recipes-openscap/scap-security-guide",
-            "homepage": "",
-            "id": 415587,
-            "inherits": "cmake",
-            "layerbranch": 165120,
-            "license": "LGPL-2.1",
-            "pn": "scap-security-guide",
-            "provides": "scap-security-guide ",
-            "pv": "0.1.33",
-            "section": "base",
-            "summary": "",
-            "updated": "2017-10-10T03:10:01+0000"
+            "updated": "2017-11-06T17:11:49+0000"
         },
         {
             "bbclassextend": "native",
@@ -1188,7 +1074,7 @@
             "filename": "libenv-perl_1.04.bb",
             "filepath": "recipes-perl/perl",
             "homepage": "http://search.cpan.org/~flora/Env/",
-            "id": 415588,
+            "id": 444300,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165120,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -1197,83 +1083,7 @@
             "pv": "1.04",
             "section": "libs",
             "summary": "Perl module that imports environment variables as scalars or arrays",
-            "updated": "2017-10-10T03:10:01+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "OpenSSL secure engine based on TPM hardware",
-            "filename": "openssl-tpm-engine_0.4.2.bb",
-            "filepath": "meta-tpm/recipes-tpm/openssl-tpm-engine",
-            "homepage": "https://sourceforge.net/projects/trousers/",
-            "id": 415687,
-            "inherits": "autotools autotools-brokensep siteconfig siteinfo",
-            "layerbranch": 165120,
-            "license": "openssl",
-            "pn": "openssl-tpm-engine",
-            "provides": "openssl-tpm-engine ",
-            "pv": "0.4.2",
-            "section": "security/tpm",
-            "summary": "",
-            "updated": "2017-10-13T07:10:39+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "pcr-extend_git.bb",
-            "filepath": "meta-tpm/recipes-tpm/pcr-extend",
-            "homepage": "https://github.com/flihp/pcr-extend",
-            "id": 415688,
-            "inherits": "autotools siteconfig siteinfo",
-            "layerbranch": 165120,
-            "license": "GPLv2",
-            "pn": "pcr-extend",
-            "provides": "pcr-extend ",
-            "pv": "0.1+gitX",
-            "section": "security/tpm",
-            "summary": "Command line utility to extend hash of arbitrary data into a TPMs PCR.",
-            "updated": "2017-10-13T07:10:39+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "The TPM Quote Tools is a collection of programs that provide support   for TPM based attestation using the TPM quote mechanism.  The manual   page for tpm_quote_tools provides a usage overview.     TPM Quote Tools has been tested with TrouSerS on Linux and NTRU on   Windows XP.  It was ported to Windows using MinGW and MSYS.   ",
-            "filename": "tpm-quote-tools_1.0.4.bb",
-            "filepath": "meta-tpm/recipes-tpm/tpm-quote-tools",
-            "homepage": "https://sourceforge.net/projects/tpmquotetools/",
-            "id": 415689,
-            "inherits": "autotools siteconfig siteinfo",
-            "layerbranch": 165120,
-            "license": "BSD-3-Clause",
-            "pn": "tpm-quote-tools",
-            "provides": "tpm-quote-tools ",
-            "pv": "1.0.4",
-            "section": "security/tpm",
-            "summary": "The TPM Quote Tools is a collection of programs that provide support   for TPM based attestation using the TPM quote mechanism.   ",
-            "updated": "2017-10-13T07:10:39+0000"
-        },
-        {
-            "bbclassextend": "native",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "This is a system daemon implementing the TPM2 access broker (TAB) & Resource Manager (RM) spec from the TCG. The daemon (tpm2-abrmd) is implemented using Glib and the GObject system. In this documentation and in the code we use `tpm2-abrmd` and `tabrmd` interchangeably. ",
-            "filename": "tpm2-abrmd_1.1.1.bb",
-            "filepath": "meta-tpm/recipes-tpm/tpm2-abrmd",
-            "homepage": "",
-            "id": 415690,
-            "inherits": "autotools pkgconfig siteconfig siteinfo systemd update-rc.d useradd useradd_base",
-            "layerbranch": 165120,
-            "license": "BSD-2-Clause",
-            "pn": "tpm2-abrmd",
-            "provides": "tpm2-abrmd ",
-            "pv": "1.1.1",
-            "section": "security/tpm",
-            "summary": "TPM2 Access Broker & Resource Manager",
-            "updated": "2017-10-13T07:10:39+0000"
+            "updated": "2017-11-06T17:11:50+0000"
         }
     ],
     "wrtemplates": []
