@@ -26,10 +26,10 @@
             "collection": "core",
             "id": 165030,
             "layer": 1,
-            "updated": "2017-11-07T18:11:55+0000",
-            "vcs_last_commit": "2017-11-06T06:11:52+0000",
-            "vcs_last_fetch": "2017-11-07T18:11:55+0000",
-            "vcs_last_rev": "511436d7fd4b3f80a95a7888eaec22f8637436df",
+            "updated": "2017-11-17T18:11:19+0000",
+            "vcs_last_commit": "2017-11-16T07:11:38+0000",
+            "vcs_last_fetch": "2017-11-17T18:11:19+0000",
+            "vcs_last_rev": "7fa115154c99a46bf1fa2af86da2932b8a79dd17",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -40,10 +40,10 @@
             "collection": "openembedded-layer",
             "id": 165076,
             "layer": 7,
-            "updated": "2017-11-07T18:11:57+0000",
-            "vcs_last_commit": "2017-10-25T02:10:57+0000",
-            "vcs_last_fetch": "2017-11-07T18:11:57+0000",
-            "vcs_last_rev": "84a953072149d33fddff406c0a93c7a4d401697b",
+            "updated": "2017-11-17T18:11:21+0000",
+            "vcs_last_commit": "2017-11-13T06:11:20+0000",
+            "vcs_last_fetch": "2017-11-17T18:11:21+0000",
+            "vcs_last_rev": "83c445a91c24299efcc3eab9442b07ce90cff071",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
@@ -54,10 +54,10 @@
             "collection": "networking-layer",
             "id": 165079,
             "layer": 11,
-            "updated": "2017-11-07T18:11:25+0000",
-            "vcs_last_commit": "2017-11-03T23:11:13+0000",
-            "vcs_last_fetch": "2017-11-07T18:11:25+0000",
-            "vcs_last_rev": "8938442e067acc9ae388aa999894bd23bdf9d5bd",
+            "updated": "2017-11-17T18:11:49+0000",
+            "vcs_last_commit": "2017-11-17T02:11:30+0000",
+            "vcs_last_fetch": "2017-11-17T18:11:49+0000",
+            "vcs_last_rev": "7b4703c405edaf0f7d2b61025d2f5a96ddcc69f2",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": null
@@ -68,9 +68,9 @@
             "collection": "meta-python",
             "id": 165080,
             "layer": 12,
-            "updated": "2017-11-07T18:11:01+0000",
+            "updated": "2017-11-17T18:11:25+0000",
             "vcs_last_commit": "2017-10-18T06:10:28+0000",
-            "vcs_last_fetch": "2017-11-07T18:11:01+0000",
+            "vcs_last_fetch": "2017-11-17T18:11:25+0000",
             "vcs_last_rev": "94e9e03da4d5539963d6f536f03c5d3cb0e1d4f1",
             "vcs_subdir": "meta-python",
             "version": "1",
@@ -629,7 +629,7 @@
             "pv": "1.4.4",
             "section": "net/misc",
             "summary": "NetworkManager",
-            "updated": "2017-09-28T03:09:33+0000"
+            "updated": "2017-11-14T08:11:33+0000"
         },
         {
             "bbclassextend": "",
@@ -1419,7 +1419,7 @@
             "filepath": "recipes-support/open-isns",
             "homepage": "http://github.com/gonzoleeman/open-isns/",
             "id": 380907,
-            "inherits": "autotools autotools-brokensep distro_features_check siteconfig siteinfo systemd",
+            "inherits": "autotools autotools-brokensep siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 165079,
             "license": "GPLv2+ & LGPLv2+",
             "pn": "open-isns",
@@ -1427,7 +1427,7 @@
             "pv": "0.97",
             "section": "net",
             "summary": "iSNS daemon and utility programs",
-            "updated": "2017-09-28T03:09:38+0000"
+            "updated": "2017-11-13T03:11:02+0000"
         },
         {
             "bbclassextend": "",
@@ -2453,7 +2453,7 @@
             "pv": "3.2.2",
             "section": "mail",
             "summary": "Postfix Mail Transport Agent",
-            "updated": "2017-09-28T03:09:45+0000"
+            "updated": "2017-11-17T03:11:17+0000"
         },
         {
             "bbclassextend": "",
@@ -2597,7 +2597,7 @@
             "filepath": "recipes-daemons/iscsi-initiator-utils",
             "homepage": "http://www.open-iscsi.com/",
             "id": 380969,
-            "inherits": "autotools distro_features_check siteconfig siteinfo systemd update-rc.d",
+            "inherits": "autotools siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 165079,
             "license": "GPLv2 & LGPLv2.1",
             "pn": "iscsi-initiator-utils",
@@ -2605,7 +2605,7 @@
             "pv": "2.0.874",
             "section": "net",
             "summary": "iSCSI daemon and utility programs",
-            "updated": "2017-09-28T03:09:46+0000"
+            "updated": "2017-11-13T03:11:02+0000"
         },
         {
             "bbclassextend": "",
@@ -3080,7 +3080,7 @@
             "pv": "2.4.2",
             "section": "base",
             "summary": "The Corosync Cluster Engine and Application Programming Interfaces",
-            "updated": "2017-09-28T03:09:50+0000"
+            "updated": "2017-11-08T08:11:21+0000"
         },
         {
             "bbclassextend": "",
