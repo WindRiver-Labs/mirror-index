@@ -8,13 +8,13 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-9.0-20170330",
+            "bitbake_branch": "wr-9.0-20171109",
             "id": 2,
             "name": "WRLINUX_9_BASE",
             "short_description": "Wind River Linux 9 Baseline",
             "sort_priority": 10,
             "update_environment": null,
-            "updated": "2017-09-26T13:09:03+0000",
+            "updated": "2017-11-16T09:11:50+0000",
             "updates_enabled": true
         }
     ],
@@ -29,15 +29,15 @@
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-9.0-20170330",
+            "actual_branch": "wr-9.0-20171109",
             "branch": 2,
             "collection": "core",
             "id": 56,
             "layer": 1,
-            "updated": "2017-11-13T15:11:14+0000",
-            "vcs_last_commit": "2017-11-07T05:11:38+0000",
-            "vcs_last_fetch": "2017-11-13T15:11:14+0000",
-            "vcs_last_rev": "69d22ede5b48b6c76ebc82b63a9df517e8341c14",
+            "updated": "2017-11-29T04:11:14+0000",
+            "vcs_last_commit": "2017-11-10T01:11:08+0000",
+            "vcs_last_fetch": "2017-11-29T04:11:14+0000",
+            "vcs_last_rev": "f78c865df207cd963cf88b50977a630d26035fa2",
             "vcs_subdir": "meta",
             "version": "9",
             "yp_compatible_version": null
@@ -291,7 +291,7 @@
             "pv": "1.1.2",
             "section": "x11/apps",
             "summary": "A program to create an index of scalable font files for X",
-            "updated": "2017-06-09T06:06:41+0000"
+            "updated": "2017-11-16T10:11:48+0000"
         },
         {
             "bbclassextend": "native",
@@ -310,7 +310,7 @@
             "pv": "1.0.7",
             "section": "x11/apps",
             "summary": "A program to create an index of X font files in a directory",
-            "updated": "2017-06-09T06:06:41+0000"
+            "updated": "2017-11-16T10:11:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1611,7 +1611,7 @@
             "description": "The Liberation(tm) Fonts is a font family originally created by Ascender(c) which aims at metric compatibility with Arial, Times New Roman, Courier New.",
             "filename": "liberation-fonts_1.04.bb",
             "filepath": "recipes-graphics/ttf-fonts",
-            "homepage": "https://fedorahosted.org/liberation-fonts/",
+            "homepage": "https://releases.pagure.org/liberation-fonts/",
             "id": 217101,
             "inherits": "allarch fontcache qemu",
             "layerbranch": 56,
@@ -1621,7 +1621,7 @@
             "pv": "1.04",
             "section": "x11/fonts",
             "summary": "Liberation(tm) Fonts",
-            "updated": "2017-06-09T06:06:51+0000"
+            "updated": "2017-11-16T10:11:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1678,7 +1678,7 @@
             "pv": "1.3.1",
             "section": "x11/fonts",
             "summary": "X.Org font package creation/installation utilities",
-            "updated": "2017-06-09T06:06:51+0000"
+            "updated": "2017-11-16T10:11:51+0000"
         },
         {
             "bbclassextend": "",
@@ -1716,7 +1716,7 @@
             "pv": "1.0.4",
             "section": "x11/fonts",
             "summary": "The Xorg font encoding files",
-            "updated": "2017-06-09T06:06:51+0000"
+            "updated": "2017-11-16T10:11:51+0000"
         },
         {
             "bbclassextend": "",
@@ -1735,7 +1735,7 @@
             "pv": "1.0.3",
             "section": "x11/fonts",
             "summary": "X font aliases",
-            "updated": "2017-06-09T06:06:51+0000"
+            "updated": "2017-11-16T10:11:51+0000"
         },
         {
             "bbclassextend": "",
@@ -2343,7 +2343,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic X11 image with a terminal",
-            "updated": "2017-06-09T06:06:54+0000"
+            "updated": "2017-11-16T10:11:51+0000"
         },
         {
             "bbclassextend": "",
@@ -2362,7 +2362,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A very basic Wayland image with a terminal",
-            "updated": "2017-06-09T06:06:55+0000"
+            "updated": "2017-11-16T10:11:51+0000"
         },
         {
             "bbclassextend": "",
@@ -2381,7 +2381,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-06-09T06:06:55+0000"
+            "updated": "2017-11-16T10:11:52+0000"
         },
         {
             "bbclassextend": "",
@@ -3521,7 +3521,7 @@
             "pv": "1.33",
             "section": "base",
             "summary": "A daemon for managing internet connections within embedded devices",
-            "updated": "2017-06-09T06:06:02+0000"
+            "updated": "2017-11-16T10:11:41+0000"
         },
         {
             "bbclassextend": "",
@@ -3559,7 +3559,7 @@
             "pv": "9.10.3-P3",
             "section": "console/network",
             "summary": "ISC Internet Domain Name Server",
-            "updated": "2017-06-09T06:06:02+0000"
+            "updated": "2017-11-16T10:11:41+0000"
         },
         {
             "bbclassextend": "",
@@ -3920,7 +3920,7 @@
             "pv": "1.0.2j",
             "section": "libs/network",
             "summary": "Secure Socket Layer",
-            "updated": "2017-06-09T06:06:04+0000"
+            "updated": "2017-11-16T10:11:42+0000"
         },
         {
             "bbclassextend": "",
@@ -4091,7 +4091,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Performance analysis tools for Linux",
-            "updated": "2017-06-09T06:06:05+0000"
+            "updated": "2017-11-16T10:11:49+0000"
         },
         {
             "bbclassextend": "",
@@ -4281,7 +4281,7 @@
             "pv": "1.8",
             "section": "base",
             "summary": "A test suite for /dev/crypto device driver",
-            "updated": "2017-06-09T06:06:06+0000"
+            "updated": "2017-11-16T10:11:52+0000"
         },
         {
             "bbclassextend": "",
@@ -4300,7 +4300,7 @@
             "pv": "1.8",
             "section": "base",
             "summary": "A /dev/crypto device driver kernel module",
-            "updated": "2017-06-09T06:06:06+0000"
+            "updated": "2017-11-16T10:11:52+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4319,7 +4319,7 @@
             "pv": "1.8",
             "section": "base",
             "summary": "A /dev/crypto device driver header file",
-            "updated": "2017-06-09T06:06:06+0000"
+            "updated": "2017-11-16T10:11:52+0000"
         },
         {
             "bbclassextend": "",
@@ -4468,10 +4468,10 @@
             "license": "GPLv2",
             "pn": "systemtap-uprobes",
             "provides": "systemtap-uprobes ",
-            "pv": "3.0",
+            "pv": "3.1",
             "section": "base",
             "summary": "UProbes kernel module for SystemTap",
-            "updated": "2017-06-09T06:06:07+0000"
+            "updated": "2017-11-16T10:11:52+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4482,15 +4482,15 @@
             "filepath": "recipes-kernel/systemtap",
             "homepage": "",
             "id": 217252,
-            "inherits": "autotools gettext pkgconfig siteconfig siteinfo",
+            "inherits": "autotools distutils-common-base distutils3-base gettext pkgconfig python3-dir python3native siteconfig siteinfo",
             "layerbranch": 56,
             "license": "GPLv2",
             "pn": "systemtap",
             "provides": "systemtap ",
-            "pv": "3.0",
+            "pv": "3.1",
             "section": "base",
             "summary": "Script-directed dynamic tracing and performance analysis tool for Linux",
-            "updated": "2017-06-09T06:06:07+0000"
+            "updated": "2017-11-16T10:11:49+0000"
         },
         {
             "bbclassextend": "",
@@ -4525,10 +4525,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-tiny",
             "provides": "linux-yocto-tiny  virtual/kernel",
-            "pv": "4.4.36+gitX",
+            "pv": "4.4.60+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2017-08-10T02:08:21+0000"
+            "updated": "2017-11-16T10:11:48+0000"
         },
         {
             "bbclassextend": "",
@@ -4544,10 +4544,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-rt",
             "provides": "linux-yocto-rt  virtual/kernel",
-            "pv": "4.1.36+gitX",
+            "pv": "4.1.38+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2017-08-10T02:08:21+0000"
+            "updated": "2017-11-16T10:11:48+0000"
         },
         {
             "bbclassextend": "",
@@ -4563,10 +4563,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto",
             "provides": "linux-yocto  virtual/kernel",
-            "pv": "4.1.36+gitX",
+            "pv": "4.1.38+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2017-08-10T02:08:22+0000"
+            "updated": "2017-11-16T10:11:49+0000"
         },
         {
             "bbclassextend": "",
@@ -4604,7 +4604,7 @@
             "pv": "4.9-rc++gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2017-08-10T02:08:22+0000"
+            "updated": "2017-11-16T10:11:52+0000"
         },
         {
             "bbclassextend": "",
@@ -4620,10 +4620,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-tiny",
             "provides": "linux-yocto-tiny  virtual/kernel",
-            "pv": "4.1.36+gitX",
+            "pv": "4.1.38+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2017-08-10T02:08:22+0000"
+            "updated": "2017-11-16T10:11:48+0000"
         },
         {
             "bbclassextend": "",
@@ -4639,10 +4639,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-rt",
             "provides": "linux-yocto-rt  virtual/kernel",
-            "pv": "4.4.36+gitX",
+            "pv": "4.4.60+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2017-08-10T02:08:22+0000"
+            "updated": "2017-11-16T10:11:48+0000"
         },
         {
             "bbclassextend": "",
@@ -4658,10 +4658,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-tiny",
             "provides": "linux-yocto-tiny  virtual/kernel",
-            "pv": "4.8.12+gitX",
+            "pv": "4.8.24+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2017-08-10T02:08:22+0000"
+            "updated": "2017-11-16T10:11:48+0000"
         },
         {
             "bbclassextend": "",
@@ -4677,10 +4677,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto",
             "provides": "linux-yocto  virtual/kernel",
-            "pv": "4.8.12+gitX",
+            "pv": "4.8.24+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2017-08-10T02:08:22+0000"
+            "updated": "2017-11-16T10:11:49+0000"
         },
         {
             "bbclassextend": "",
@@ -4696,10 +4696,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto-rt",
             "provides": "linux-yocto-rt  virtual/kernel",
-            "pv": "4.8.12+gitX",
+            "pv": "4.8.24+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2017-08-10T02:08:22+0000"
+            "updated": "2017-11-16T10:11:48+0000"
         },
         {
             "bbclassextend": "",
@@ -4715,10 +4715,10 @@
             "license": "GPLv2",
             "pn": "linux-yocto",
             "provides": "linux-yocto  virtual/kernel",
-            "pv": "4.4.36+gitX",
+            "pv": "4.4.60+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2017-08-10T02:08:23+0000"
+            "updated": "2017-11-16T10:11:49+0000"
         },
         {
             "bbclassextend": "",
@@ -4737,7 +4737,7 @@
             "pv": "1.2.56",
             "section": "libs",
             "summary": "PNG image format decoding library",
-            "updated": "2017-07-27T03:07:24+0000"
+            "updated": "2017-11-16T10:11:50+0000"
         },
         {
             "bbclassextend": "native",
@@ -5535,7 +5535,7 @@
             "pv": "6.1.1",
             "section": "devel",
             "summary": "GNU multiprecision arithmetic library",
-            "updated": "2017-06-09T06:06:16+0000"
+            "updated": "2017-11-16T10:11:50+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -5706,7 +5706,7 @@
             "pv": "1.1.29",
             "section": "libs",
             "summary": "GNOME XSLT library",
-            "updated": "2017-06-09T06:06:17+0000"
+            "updated": "2017-11-16T10:11:50+0000"
         },
         {
             "bbclassextend": "native",
@@ -6200,7 +6200,7 @@
             "pv": "8.39",
             "section": "devel",
             "summary": "Perl Compatible Regular Expressions",
-            "updated": "2017-06-09T06:06:22+0000"
+            "updated": "2017-11-16T10:11:50+0000"
         },
         {
             "bbclassextend": "native",
@@ -6371,7 +6371,7 @@
             "pv": "1.7.3",
             "section": "libs",
             "summary": "General purpose cryptographic library based on the code from GnuPG",
-            "updated": "2017-06-09T06:06:23+0000"
+            "updated": "2017-11-16T10:11:53+0000"
         },
         {
             "bbclassextend": "native",
@@ -7416,7 +7416,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2017-06-09T06:06:29+0000"
+            "updated": "2017-11-16T10:11:54+0000"
         },
         {
             "bbclassextend": "",
@@ -7435,7 +7435,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2017-06-09T06:06:29+0000"
+            "updated": "2017-11-16T10:11:54+0000"
         },
         {
             "bbclassextend": "",
@@ -7568,7 +7568,7 @@
             "pv": "1.9",
             "section": "base",
             "summary": "Line-oriented text editor",
-            "updated": "2017-06-09T06:06:29+0000"
+            "updated": "2017-11-16T10:11:46+0000"
         },
         {
             "bbclassextend": "",
@@ -7653,7 +7653,7 @@
             "description": "",
             "filename": "logrotate_3.9.1.bb",
             "filepath": "recipes-extended/logrotate",
-            "homepage": "https://fedorahosted.org/logrotate/",
+            "homepage": "https://github.com/logrotate/logrotate/issues",
             "id": 217419,
             "inherits": "",
             "layerbranch": 56,
@@ -7663,7 +7663,7 @@
             "pv": "3.9.1",
             "section": "console/utils",
             "summary": "Rotates, compresses, removes and mails system log files",
-            "updated": "2017-06-09T06:06:30+0000"
+            "updated": "2017-11-16T10:11:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -8309,7 +8309,7 @@
             "pv": "1.29",
             "section": "base",
             "summary": "GNU file archiving program",
-            "updated": "2017-06-09T06:06:34+0000"
+            "updated": "2017-11-16T10:11:47+0000"
         },
         {
             "bbclassextend": "nativesdk native",
@@ -8432,7 +8432,7 @@
             "description": "Chkconfig is a basic system utility.  It updates and queries runlevel information for system services.  Chkconfig manipulates the numerous symbolic links in /etc/rc.d, to relieve system administrators of some of the drudgery of manually editing the symbolic links.",
             "filename": "chkconfig_1.3.58.bb",
             "filepath": "recipes-extended/chkconfig",
-            "homepage": "http://fedorahosted.org/releases/c/h/chkconfig",
+            "homepage": "https://github.com/fedora-sysv",
             "id": 217460,
             "inherits": "gettext",
             "layerbranch": 56,
@@ -8442,7 +8442,7 @@
             "pv": "1.3.58",
             "section": "base",
             "summary": "A system tool for maintaining the /etc/rc*.d hierarchy",
-            "updated": "2017-06-09T06:06:35+0000"
+            "updated": "2017-11-16T10:11:46+0000"
         },
         {
             "bbclassextend": "",
@@ -8451,7 +8451,7 @@
             "description": "${DESCRIPTION_chkconfig-alternatives}",
             "filename": "chkconfig-alternatives-native_1.3.59.bb",
             "filepath": "recipes-extended/chkconfig",
-            "homepage": "http://fedorahosted.org/releases/c/h/chkconfig",
+            "homepage": "https://github.com/fedora-sysv",
             "id": 217461,
             "inherits": "gettext native nopackages relocatable",
             "layerbranch": 56,
@@ -8461,7 +8461,7 @@
             "pv": "1.3.59+X",
             "section": "base",
             "summary": "${SUMMARY_chkconfig-alternatives}",
-            "updated": "2017-06-09T06:06:35+0000"
+            "updated": "2017-11-16T10:11:54+0000"
         },
         {
             "bbclassextend": "",
@@ -8546,7 +8546,7 @@
             "description": "Lsof is a Unix-specific diagnostic tool. Its name stands for LiSt Open Files, and it does just that.",
             "filename": "lsof_4.89.bb",
             "filepath": "recipes-extended/lsof",
-            "homepage": "",
+            "homepage": "http://people.freebsd.org/~abe/",
             "id": 217466,
             "inherits": "",
             "layerbranch": 56,
@@ -8556,7 +8556,7 @@
             "pv": "4.89",
             "section": "devel",
             "summary": "LiSt Open Files tool",
-            "updated": "2017-06-09T06:06:35+0000"
+            "updated": "2017-11-16T10:11:47+0000"
         },
         {
             "bbclassextend": "",
@@ -8565,7 +8565,7 @@
             "description": "Cronie contains the standard UNIX daemon crond that runs specified programs at scheduled times and related tools. It is based on the original cron and has security and configuration enhancements like the ability to use pam and SELinux.",
             "filename": "cronie_1.5.1.bb",
             "filepath": "recipes-extended/cronie",
-            "homepage": "https://fedorahosted.org/cronie/",
+            "homepage": "https://github.com/cronie-crond/cronie/",
             "id": 217467,
             "inherits": "autotools siteconfig siteinfo systemd update-rc.d useradd useradd_base",
             "layerbranch": 56,
@@ -8575,7 +8575,7 @@
             "pv": "1.5.1",
             "section": "utils",
             "summary": "Cron daemon for executing programs at set times",
-            "updated": "2017-06-09T06:06:36+0000"
+            "updated": "2017-11-16T10:11:46+0000"
         },
         {
             "bbclassextend": "",
@@ -8670,7 +8670,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-06-09T06:06:36+0000"
+            "updated": "2017-11-16T10:11:54+0000"
         },
         {
             "bbclassextend": "",
@@ -8689,7 +8689,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2017-06-09T06:06:36+0000"
+            "updated": "2017-11-16T10:11:55+0000"
         },
         {
             "bbclassextend": "",
@@ -8708,7 +8708,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-06-09T06:06:36+0000"
+            "updated": "2017-11-16T10:11:55+0000"
         },
         {
             "bbclassextend": "",
@@ -8727,7 +8727,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-06-09T06:06:36+0000"
+            "updated": "2017-11-16T10:11:55+0000"
         },
         {
             "bbclassextend": "",
@@ -8746,7 +8746,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-06-09T06:06:36+0000"
+            "updated": "2017-11-16T10:11:55+0000"
         },
         {
             "bbclassextend": "",
@@ -8765,7 +8765,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-06-09T06:06:37+0000"
+            "updated": "2017-11-16T10:11:55+0000"
         },
         {
             "bbclassextend": "",
@@ -8784,7 +8784,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-06-09T06:06:37+0000"
+            "updated": "2017-11-16T10:11:55+0000"
         },
         {
             "bbclassextend": "",
@@ -9183,7 +9183,7 @@
             "pv": "2017a",
             "section": "base",
             "summary": "tzcode, timezone zoneinfo utils -- zic, zdump, tzselect",
-            "updated": "2017-06-09T06:06:39+0000"
+            "updated": "2017-11-16T10:11:47+0000"
         },
         {
             "bbclassextend": "native",
@@ -9230,7 +9230,7 @@
             "description": "Newt is a programming library for color text mode, widget based user interfaces.  Newt can be used to add stacked windows, entry widgets, checkboxes, radio buttons, labels, plain text fields, scrollbars, etc., to text mode user interfaces.  This package also contains the shared library needed by programs built with newt, as well as a /usr/bin/dialog replacement called whiptail.  Newt is based on the slang library.",
             "filename": "libnewt_0.52.19.bb",
             "filepath": "recipes-extended/newt",
-            "homepage": "https://fedorahosted.org/newt/",
+            "homepage": "https://releases.pagure.org/newt/",
             "id": 217502,
             "inherits": "autotools autotools-brokensep siteconfig siteinfo",
             "layerbranch": 56,
@@ -9240,7 +9240,7 @@
             "pv": "0.52.19",
             "section": "libs",
             "summary": "A library for text mode user interfaces",
-            "updated": "2017-06-09T06:06:40+0000"
+            "updated": "2017-11-16T10:11:47+0000"
         },
         {
             "bbclassextend": "native",
@@ -9249,7 +9249,7 @@
             "description": "Newt is a programming library for color text mode, widget based user interfaces.  Newt can be used to add stacked windows, entry widgets, checkboxes, radio buttons, labels, plain text fields, scrollbars, etc., to text mode user interfaces.  This package also contains the shared library needed by programs built with newt, as well as a /usr/bin/dialog replacement called whiptail.  Newt is based on the slang library.",
             "filename": "libnewt-python_0.52.19.bb",
             "filepath": "recipes-extended/newt",
-            "homepage": "https://fedorahosted.org/newt/",
+            "homepage": "https://releases.pagure.org/newt/",
             "id": 217503,
             "inherits": "autotools autotools-brokensep python3-dir python3native siteconfig siteinfo",
             "layerbranch": 56,
@@ -9259,7 +9259,7 @@
             "pv": "0.52.19",
             "section": "libs",
             "summary": "A library for text mode user interfaces - python",
-            "updated": "2017-06-09T06:06:40+0000"
+            "updated": "2017-11-16T10:11:55+0000"
         },
         {
             "bbclassextend": "",
@@ -9506,7 +9506,7 @@
             "pv": "9.19",
             "section": "console/utils",
             "summary": "The GPL Ghostscript PostScript/PDF interpreter",
-            "updated": "2017-06-09T06:06:41+0000"
+            "updated": "2017-11-16T10:11:47+0000"
         },
         {
             "bbclassextend": "",
@@ -9544,7 +9544,7 @@
             "pv": "4.3.30",
             "section": "base/shell",
             "summary": "An sh-compatible command language interpreter",
-            "updated": "2017-06-09T06:06:42+0000"
+            "updated": "2017-11-16T10:11:46+0000"
         },
         {
             "bbclassextend": "",
@@ -9739,11 +9739,11 @@
         {
             "bbclassextend": "",
             "blacklisted": "",
-            "bugtracker": "https://fedorahosted.org/libuser/newticket",
+            "bugtracker": "https://pagure.io/libuser/issues",
             "description": "The libuser library implements a standardized interface for manipulating and administering user and group accounts",
             "filename": "libuser_0.62.bb",
             "filepath": "recipes-extended/libuser",
-            "homepage": "https://fedorahosted.org/libuser/",
+            "homepage": "https://pagure.io/libuser",
             "id": 217529,
             "inherits": "autotools gettext gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo",
             "layerbranch": 56,
@@ -9753,7 +9753,7 @@
             "pv": "0.62",
             "section": "base",
             "summary": "user and group account administration library",
-            "updated": "2017-06-09T06:06:43+0000"
+            "updated": "2017-11-16T10:11:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10418,7 +10418,7 @@
             "pv": "6.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2017-09-12T08:09:06+0000"
+            "updated": "2017-11-16T10:11:56+0000"
         },
         {
             "bbclassextend": "",
@@ -10437,7 +10437,7 @@
             "pv": "6.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers (cross-canadian for i586 target)",
-            "updated": "2017-09-12T08:09:06+0000"
+            "updated": "2017-11-16T10:11:56+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -10456,7 +10456,7 @@
             "pv": "6.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2017-09-12T08:09:06+0000"
+            "updated": "2017-11-16T10:11:56+0000"
         },
         {
             "bbclassextend": "",
@@ -10475,7 +10475,7 @@
             "pv": "6.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2017-09-12T08:09:06+0000"
+            "updated": "2017-11-16T10:11:56+0000"
         },
         {
             "bbclassextend": "",
@@ -10494,7 +10494,7 @@
             "pv": "6.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2017-09-12T08:09:06+0000"
+            "updated": "2017-11-16T10:11:56+0000"
         },
         {
             "bbclassextend": "",
@@ -10513,7 +10513,7 @@
             "pv": "6.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2017-09-12T08:09:06+0000"
+            "updated": "2017-11-16T10:11:56+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -10532,7 +10532,7 @@
             "pv": "6.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2017-09-12T08:09:07+0000"
+            "updated": "2017-11-16T10:11:56+0000"
         },
         {
             "bbclassextend": "",
@@ -10570,7 +10570,7 @@
             "pv": "6.2.0",
             "section": "devel",
             "summary": "Runtime libraries from GCC",
-            "updated": "2017-09-12T08:09:07+0000"
+            "updated": "2017-11-16T10:11:57+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -10608,7 +10608,7 @@
             "pv": "6.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2017-09-12T08:09:07+0000"
+            "updated": "2017-11-16T10:11:57+0000"
         },
         {
             "bbclassextend": "",
@@ -10684,7 +10684,7 @@
             "pv": "6.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2017-09-12T08:09:08+0000"
+            "updated": "2017-11-16T10:11:57+0000"
         },
         {
             "bbclassextend": "",
@@ -10741,7 +10741,7 @@
             "pv": "6.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2017-09-12T08:09:08+0000"
+            "updated": "2017-11-16T10:11:57+0000"
         },
         {
             "bbclassextend": "",
@@ -10760,7 +10760,7 @@
             "pv": "6.2.0",
             "section": "devel",
             "summary": "GNU cc and gcc C compilers",
-            "updated": "2017-09-12T08:09:08+0000"
+            "updated": "2017-11-16T10:11:57+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -10836,7 +10836,7 @@
             "pv": "1.43",
             "section": "base",
             "summary": "Ext2 Filesystem Utilities",
-            "updated": "2017-06-09T06:06:51+0000"
+            "updated": "2017-11-16T10:11:44+0000"
         },
         {
             "bbclassextend": "native",
@@ -11102,7 +11102,7 @@
             "pv": "5.4.16",
             "section": "base",
             "summary": "The RPM package management system",
-            "updated": "2017-07-27T03:07:24+0000"
+            "updated": "2017-11-16T10:11:46+0000"
         },
         {
             "bbclassextend": "",
@@ -11349,7 +11349,7 @@
             "pv": "3.5.2",
             "section": "devel/python",
             "summary": "The Python Programming Language",
-            "updated": "2017-06-09T06:06:55+0000"
+            "updated": "2017-11-16T10:11:45+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -11634,7 +11634,7 @@
             "pv": "3.5.2",
             "section": "devel/python",
             "summary": "The Python Programming Language",
-            "updated": "2017-06-09T06:06:58+0000"
+            "updated": "2017-11-16T10:11:51+0000"
         },
         {
             "bbclassextend": "",
@@ -12052,7 +12052,7 @@
             "pv": "1.11.1",
             "section": "devel/python",
             "summary": "A sophisticated Numeric Processing Package for Python",
-            "updated": "2017-06-09T06:06:00+0000"
+            "updated": "2017-11-16T10:11:45+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -12071,7 +12071,7 @@
             "pv": "1.11.0",
             "section": "devel/python",
             "summary": "A sophisticated Numeric Processing Package for Python",
-            "updated": "2017-06-09T06:06:01+0000"
+            "updated": "2017-11-16T10:11:45+0000"
         },
         {
             "bbclassextend": "",
@@ -12318,7 +12318,7 @@
             "pv": "1.15",
             "section": "devel",
             "summary": "A GNU tool for automatically generating Makefiles",
-            "updated": "2017-06-09T06:06:03+0000"
+            "updated": "2017-11-16T10:11:43+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -12489,7 +12489,7 @@
             "pv": "0.6.3",
             "section": "base",
             "summary": "Base utilities for working with SGML and XML",
-            "updated": "2017-06-09T06:06:04+0000"
+            "updated": "2017-11-16T10:11:46+0000"
         },
         {
             "bbclassextend": "",
@@ -12508,7 +12508,7 @@
             "pv": "0.6.3",
             "section": "base",
             "summary": "Base utilities for working with SGML and XML",
-            "updated": "2017-06-09T06:06:04+0000"
+            "updated": "2017-11-16T10:11:52+0000"
         },
         {
             "bbclassextend": "",
@@ -12574,7 +12574,7 @@
             "description": "",
             "filename": "xmlto_0.0.28.bb",
             "filepath": "recipes-devtools/xmlto",
-            "homepage": "https://fedorahosted.org/xmlto/",
+            "homepage": "https://releases.pagure.org/xmlto/",
             "id": 217678,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 56,
@@ -12584,7 +12584,7 @@
             "pv": "0.0.28",
             "section": "docs/xmlto",
             "summary": "A shell-script tool for converting XML files to various formats",
-            "updated": "2017-06-09T06:06:04+0000"
+            "updated": "2017-11-16T10:11:46+0000"
         },
         {
             "bbclassextend": "",
@@ -13211,7 +13211,7 @@
             "pv": "2.7.0",
             "section": "base",
             "summary": "Fast open source processor emulator",
-            "updated": "2017-06-09T06:06:08+0000"
+            "updated": "2017-11-16T10:11:45+0000"
         },
         {
             "bbclassextend": "",
@@ -13239,7 +13239,7 @@
             "description": "",
             "filename": "elfutils_0.166.bb",
             "filepath": "recipes-devtools/elfutils",
-            "homepage": "https://fedorahosted.org/elfutils",
+            "homepage": "https://sourceware.org/elfutils",
             "id": 217713,
             "inherits": "autotools gettext siteconfig siteinfo",
             "layerbranch": 56,
@@ -13249,7 +13249,7 @@
             "pv": "0.166",
             "section": "base",
             "summary": "Utilities and libraries for handling compiled object files",
-            "updated": "2017-06-09T06:06:09+0000"
+            "updated": "2017-11-16T10:11:44+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -13268,7 +13268,7 @@
             "pv": "0.148",
             "section": "base",
             "summary": "Utilities and libraries for handling compiled object files",
-            "updated": "2017-06-09T06:06:09+0000"
+            "updated": "2017-11-16T10:11:44+0000"
         },
         {
             "bbclassextend": "",
@@ -13382,7 +13382,7 @@
             "pv": "0.6.14",
             "section": "console/utils",
             "summary": "Utilities for formatting and manipulating DocBook documents",
-            "updated": "2017-06-09T06:06:10+0000"
+            "updated": "2017-11-16T10:11:43+0000"
         },
         {
             "bbclassextend": "",
@@ -13420,7 +13420,7 @@
             "pv": "7.11.1",
             "section": "devel",
             "summary": "GNU debugger (cross-canadian gdb for i586 target)",
-            "updated": "2017-06-09T06:06:10+0000"
+            "updated": "2017-11-16T10:11:52+0000"
         },
         {
             "bbclassextend": "",
@@ -14332,7 +14332,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Volatile bind mount setup and configuration for read-only-rootfs",
-            "updated": "2017-06-09T06:06:17+0000"
+            "updated": "2017-11-16T10:11:43+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -14351,7 +14351,7 @@
             "pv": "2.24",
             "section": "libs",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2017-11-07T06:11:44+0000"
+            "updated": "2017-11-16T10:11:42+0000"
         },
         {
             "bbclassextend": "",
@@ -14427,7 +14427,7 @@
             "pv": "2.24",
             "section": "libs",
             "summary": "GLIBC (GNU C Library)",
-            "updated": "2017-11-07T06:11:44+0000"
+            "updated": "2017-11-16T10:11:52+0000"
         },
         {
             "bbclassextend": "",
@@ -14560,7 +14560,7 @@
             "pv": "230+gitX",
             "section": "base/shell",
             "summary": "A System and service manager",
-            "updated": "2017-06-09T06:06:18+0000"
+            "updated": "2017-11-16T10:11:43+0000"
         },
         {
             "bbclassextend": "",
@@ -14706,13 +14706,13 @@
             "id": 217790,
             "inherits": "autotools pkgconfig qemu siteconfig siteinfo update-rc.d",
             "layerbranch": 56,
-            "license": "GPLv2.0+",
+            "license": "GPLv2.0+ & LGPL-2.1+",
             "pn": "eudev",
             "provides": "eudev udev",
             "pv": "3.2",
             "section": "base",
             "summary": "eudev is a fork of systemd's udev",
-            "updated": "2017-06-09T06:06:19+0000"
+            "updated": "2017-11-16T10:11:43+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -14826,7 +14826,7 @@
             "pv": "2.9.4",
             "section": "libs",
             "summary": "XML C Parser Library and Toolkit",
-            "updated": "2017-06-09T06:06:20+0000"
+            "updated": "2017-11-16T10:11:43+0000"
         },
         {
             "bbclassextend": "",
@@ -14902,7 +14902,7 @@
             "pv": "1.24.1",
             "section": "base",
             "summary": "Tiny versions of many common UNIX utilities in a single small executable",
-            "updated": "2017-06-09T06:06:21+0000"
+            "updated": "2017-11-16T10:11:42+0000"
         },
         {
             "bbclassextend": "",
@@ -15187,7 +15187,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2017-06-09T06:06:22+0000"
+            "updated": "2017-11-16T10:11:53+0000"
         },
         {
             "bbclassextend": "",
@@ -15206,7 +15206,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2017-06-09T06:06:22+0000"
+            "updated": "2017-11-16T10:11:53+0000"
         },
         {
             "bbclassextend": "",
@@ -15225,7 +15225,7 @@
             "pv": "15.0.0",
             "section": "base",
             "summary": "An image containing the build system itself",
-            "updated": "2017-06-09T06:06:22+0000"
+            "updated": "2017-11-16T10:11:43+0000"
         },
         {
             "bbclassextend": "",
@@ -15244,7 +15244,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2017-06-09T06:06:22+0000"
+            "updated": "2017-11-16T10:11:53+0000"
         },
         {
             "bbclassextend": "",
@@ -15263,7 +15263,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-06-09T06:06:23+0000"
+            "updated": "2017-11-16T10:11:53+0000"
         },
         {
             "bbclassextend": "",
@@ -15282,7 +15282,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2017-06-09T06:06:23+0000"
+            "updated": "2017-11-16T10:11:53+0000"
         },
         {
             "bbclassextend": "",
@@ -15529,7 +15529,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Target packages for the standalone SDK",
-            "updated": "2017-06-09T06:06:24+0000"
+            "updated": "2017-11-16T10:11:43+0000"
         },
         {
             "bbclassextend": "",
@@ -16289,7 +16289,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-06-09T06:06:28+0000"
+            "updated": "2017-11-16T10:11:54+0000"
         },
         {
             "bbclassextend": "",
@@ -16308,7 +16308,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-06-09T06:06:29+0000"
+            "updated": "2017-11-16T10:11:54+0000"
         },
         {
             "bbclassextend": "",
@@ -16327,7 +16327,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-06-09T06:06:29+0000"
+            "updated": "2017-11-16T10:11:54+0000"
         },
         {
             "bbclassextend": "",
@@ -16346,7 +16346,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-06-09T06:06:29+0000"
+            "updated": "2017-11-16T10:11:54+0000"
         },
         {
             "bbclassextend": "",
