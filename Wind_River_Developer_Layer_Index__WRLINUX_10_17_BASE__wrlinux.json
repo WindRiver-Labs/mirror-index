@@ -26,9 +26,9 @@
             "collection": "core",
             "id": 165030,
             "layer": 1,
-            "updated": "2017-11-28T20:11:11+0000",
+            "updated": "2017-12-05T16:12:18+0000",
             "vcs_last_commit": "2017-11-21T03:11:40+0000",
-            "vcs_last_fetch": "2017-11-28T20:11:11+0000",
+            "vcs_last_fetch": "2017-12-05T16:12:18+0000",
             "vcs_last_rev": "7c002385123eb8bd19c79069867af1e5dd2d0f3a",
             "vcs_subdir": "meta",
             "version": "11",
@@ -40,9 +40,9 @@
             "collection": "wr-template",
             "id": 165069,
             "layer": 55,
-            "updated": "2017-11-28T20:11:30+0000",
+            "updated": "2017-12-05T16:12:37+0000",
             "vcs_last_commit": "2017-11-21T07:11:38+0000",
-            "vcs_last_fetch": "2017-11-28T20:11:30+0000",
+            "vcs_last_fetch": "2017-12-05T16:12:37+0000",
             "vcs_last_rev": "f57abac83474c074afccbdfdfa9313361006b4c8",
             "vcs_subdir": "",
             "version": "1",
@@ -54,10 +54,10 @@
             "collection": "wrlinux",
             "id": 166260,
             "layer": 49,
-            "updated": "2017-11-28T20:11:55+0000",
-            "vcs_last_commit": "2017-11-23T08:11:07+0000",
-            "vcs_last_fetch": "2017-11-28T20:11:55+0000",
-            "vcs_last_rev": "aab1965f3961a6b22cd3cdc0c90ca5b2bbcbb613",
+            "updated": "2017-12-05T16:12:02+0000",
+            "vcs_last_commit": "2017-12-04T06:12:39+0000",
+            "vcs_last_fetch": "2017-12-05T16:12:02+0000",
+            "vcs_last_rev": "4d83aad7b718376b698531f9a29767b46f5fbaa0",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": null
@@ -437,7 +437,26 @@
             "pv": "2016.03",
             "section": "base",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2017-11-22T05:11:09+0000"
+            "updated": "2017-12-04T07:12:20+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Tiny image capable of booting a device. The kernel includes the Minimal RAM-based Initial Root Filesystem (initramfs), which finds the first 'init' program more efficiently. core-image-tiny-initramfs doesn't actually generate an image but rather generates boot and rootfs artifacts that can subsequently be picked up by external image generation tools such as wic.",
+            "filename": "wrlinux-image-tiny-initramfs.bb",
+            "filepath": "wrlinux-distro/recipes-base/images",
+            "homepage": "",
+            "id": 462306,
+            "inherits": "core-image image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
+            "layerbranch": 166260,
+            "license": "MIT",
+            "pn": "wrlinux-image-tiny-initramfs",
+            "provides": "wrlinux-image-tiny-initramfs ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "",
+            "updated": "2017-11-29T03:11:41+0000"
         }
     ],
     "wrtemplates": [
@@ -594,6 +613,13 @@
             "layerbranch": 166260,
             "name": "feature/wr-profiling-kernel-overrides",
             "updated": "2017-11-06T19:11:00+0000"
+        },
+        {
+            "description": "Include kernel-dev and kernel-devsrc in SDK",
+            "id": 19483,
+            "layerbranch": 166260,
+            "name": "feature/kernel-dev",
+            "updated": "2017-12-01T20:12:02+0000"
         }
     ]
 }
