@@ -1,0 +1,99 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_17_BASE_UPDATE0003",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_17_BASE_UPDATE0003",
+            "id": 65,
+            "name": "WRLINUX_10_17_BASE_UPDATE0003",
+            "short_description": "WRLinux 10_17 Base Update 0003",
+            "sort_priority": 9,
+            "update_environment": null,
+            "updated": "2017-12-16T14:12:05+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 65,
+            "collection": "core",
+            "id": 361722,
+            "layer": 1,
+            "updated": "2018-01-08T18:01:47+0000",
+            "vcs_last_commit": "2018-01-05T06:01:13+0000",
+            "vcs_last_fetch": "2018-01-08T18:01:47+0000",
+            "vcs_last_rev": "495f3607b23bfa8d0f238a32a7b330388e619179",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "",
+            "branch": 65,
+            "collection": "wr-template",
+            "id": 361738,
+            "layer": 55,
+            "updated": "2018-01-08T18:01:07+0000",
+            "vcs_last_commit": "2017-12-13T05:12:44+0000",
+            "vcs_last_fetch": "2018-01-08T18:01:07+0000",
+            "vcs_last_rev": "0a6c6f593d8c13216b897c1731b289c15f571393",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": null
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 30784,
+            "layerbranch": 361738,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "classic": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2017-08-25T17:08:12+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "This layer provides template processing support to OpenEmbedded.  Wind River\r\ntemplates are a mechanism that permit various configurations to be enabled\r\nwith a simple setting.",
+            "id": 55,
+            "index_preference": 900,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "wr-template",
+            "status": "P",
+            "summary": "Wind River Template Support",
+            "updated": "2017-01-20T16:01:26+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wr-template",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [],
+    "wrtemplates": []
+}
