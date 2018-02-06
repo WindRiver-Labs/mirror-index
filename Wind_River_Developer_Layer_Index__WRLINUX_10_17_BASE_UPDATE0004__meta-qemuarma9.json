@@ -1,0 +1,107 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_17_BASE_UPDATE0004",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_17_BASE_UPDATE0004",
+            "id": 70,
+            "name": "WRLINUX_10_17_BASE_UPDATE0004",
+            "short_description": "WRLinux 10_17 Base Update 0004",
+            "sort_priority": 9,
+            "update_environment": null,
+            "updated": "2018-01-17T07:01:53+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 70,
+            "collection": "core",
+            "id": 441440,
+            "layer": 1,
+            "updated": "2018-02-06T13:02:48+0000",
+            "vcs_last_commit": "2018-02-02T09:02:56+0000",
+            "vcs_last_fetch": "2018-02-06T13:02:48+0000",
+            "vcs_last_rev": "11edc004bc66e2f649eed9bfa6769c813c0cb951",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "",
+            "branch": 70,
+            "collection": "qemuarma9",
+            "id": 441598,
+            "layer": 229,
+            "updated": "2018-02-06T13:02:59+0000",
+            "vcs_last_commit": "2017-11-27T06:11:20+0000",
+            "vcs_last_fetch": "2018-02-06T13:02:59+0000",
+            "vcs_last_rev": "dac480cdbdc517461fede0d91e58cb28a944c681",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": null
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 32661,
+            "layerbranch": 441598,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "classic": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2017-08-25T17:08:12+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "QEMU Arm A9 BSP",
+            "id": 229,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-qemuarma9",
+            "status": "P",
+            "summary": "QEMU Arm A9 BSP",
+            "updated": "2017-11-21T06:11:38+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-qemuarma9",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [
+        {
+            "description": "a9 vexpress",
+            "id": 8016,
+            "layerbranch": 441598,
+            "name": "qemuarma9",
+            "updated": "2018-01-17T07:01:30+0000"
+        }
+    ],
+    "recipes": [],
+    "wrtemplates": []
+}
