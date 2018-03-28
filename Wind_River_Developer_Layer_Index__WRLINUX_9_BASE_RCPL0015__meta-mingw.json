@@ -1,0 +1,163 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_9_BASE_RCPL0015",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_9_BASE_RCPL0015",
+            "id": 72,
+            "name": "WRLINUX_9_BASE_RCPL0015",
+            "short_description": "WRLinux 9 Base RCPL 0015",
+            "sort_priority": 8993,
+            "update_environment": null,
+            "updated": "2018-03-12T19:03:31+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 72,
+            "collection": "core",
+            "id": 492190,
+            "layer": 1,
+            "updated": "2018-03-28T02:03:17+0000",
+            "vcs_last_commit": "2018-03-20T00:03:11+0000",
+            "vcs_last_fetch": "2018-03-28T02:03:17+0000",
+            "vcs_last_rev": "71db7e6f0d1172ed8e9f474e131349e2afd5621d",
+            "vcs_subdir": "meta",
+            "version": "9",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "",
+            "branch": 72,
+            "collection": "meta-mingw",
+            "id": 492336,
+            "layer": 50,
+            "updated": "2018-03-28T02:03:34+0000",
+            "vcs_last_commit": "2016-11-23T16:11:16+0000",
+            "vcs_last_fetch": "2018-03-28T02:03:34+0000",
+            "vcs_last_rev": "436fff8f20fdf8e33c7aca154dd732b3e67963a9",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": null
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 33640,
+            "layerbranch": 492336,
+            "required": true
+        },
+        {
+            "dependency": 82,
+            "id": 33641,
+            "layerbranch": 492336,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "classic": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2017-08-25T17:08:12+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "OpenEmbedded meta layer for mingw based SDKs",
+            "id": 50,
+            "index_preference": 700,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-mingw",
+            "status": "P",
+            "summary": "Support to build MinGW based SDKs",
+            "updated": "2017-08-25T17:08:43+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-mingw",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "A Win32 implementation of the POSIX standard threads API",
+            "filename": "pthreads-win32_2.9.1.bb",
+            "filepath": "recipes-devtools/pthreads-win32",
+            "homepage": "http://www.sourceware.org/pthreads-win32",
+            "id": 507447,
+            "inherits": "",
+            "layerbranch": 492336,
+            "license": "LGPLv2.1",
+            "pn": "pthreads-win32",
+            "provides": "pthreads-win32 ",
+            "pv": "2.9.1",
+            "section": "base",
+            "summary": "",
+            "updated": "2018-02-06T03:02:50+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Header files from the MingGW-w64 project",
+            "filename": "nativesdk-mingw-w64-headers_3.1.0.bb",
+            "filepath": "recipes-devtools/mingw-w64",
+            "homepage": "",
+            "id": 507448,
+            "inherits": "autotools nativesdk siteconfig siteinfo",
+            "layerbranch": 492336,
+            "license": "ZPL-2.1",
+            "pn": "nativesdk-mingw-w64-headers",
+            "provides": "nativesdk-mingw-w64-headers ",
+            "pv": "3.1.0",
+            "section": "base",
+            "summary": "",
+            "updated": "2018-02-06T03:02:50+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Runtime libraries from MinGW-w64 project",
+            "filename": "nativesdk-mingw-w64-runtime_3.1.0.bb",
+            "filepath": "recipes-devtools/mingw-w64",
+            "homepage": "",
+            "id": 507449,
+            "inherits": "autotools nativesdk siteconfig siteinfo",
+            "layerbranch": 492336,
+            "license": "ZPL-2.1",
+            "pn": "nativesdk-mingw-w64-runtime",
+            "provides": "nativesdk-mingw-w64-runtime  virtual/nativesdk-libc virtual/nativesdk-x86_64-oesdk-linux-libc-initial virtual/nativesdk-x86_64-oesdk-linux-libc-for-gcc virtual/nativesdk-libintl",
+            "pv": "3.1.0",
+            "section": "base",
+            "summary": "",
+            "updated": "2018-02-06T03:02:50+0000"
+        }
+    ],
+    "wrtemplates": []
+}
