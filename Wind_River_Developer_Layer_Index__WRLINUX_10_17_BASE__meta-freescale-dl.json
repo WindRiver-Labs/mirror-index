@@ -1,0 +1,61 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_17_BASE",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "branches": [
+        {
+            "bitbake_branch": "wr-10.17-20171012",
+            "id": 48,
+            "name": "WRLINUX_10_17_BASE",
+            "short_description": "Wind River Linux 10_17 Baseline",
+            "sort_priority": 9,
+            "update_environment": null,
+            "updated": "2017-10-25T20:10:43+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 48,
+            "collection": "meta-freescale-dl",
+            "id": 424476,
+            "layer": 232,
+            "updated": "2018-04-09T05:04:06+0000",
+            "vcs_last_commit": "2018-01-19T03:01:35+0000",
+            "vcs_last_fetch": "2018-04-09T05:04:06+0000",
+            "vcs_last_rev": "6ee37f3104c6470a1c6bb6eddbe7220e5f8b1272",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": null
+        }
+    ],
+    "layerDependencies": [],
+    "layerItems": [
+        {
+            "classic": false,
+            "description": "This layer provides download components for the meta-freescale layer.",
+            "id": 232,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "meta-freescale-dl",
+            "status": "P",
+            "summary": "This layer provides download components for the meta-freescale layer.",
+            "updated": "2018-01-15T14:01:17+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-freescale-dl",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [],
+    "wrtemplates": []
+}
