@@ -26,9 +26,9 @@
             "collection": "core",
             "id": 165030,
             "layer": 1,
-            "updated": "2018-04-09T05:04:08+0000",
+            "updated": "2018-04-24T14:04:08+0000",
             "vcs_last_commit": "2018-03-27T09:03:18+0000",
-            "vcs_last_fetch": "2018-04-09T05:04:08+0000",
+            "vcs_last_fetch": "2018-04-24T14:04:08+0000",
             "vcs_last_rev": "7143aaff9d30c8592010d35b0b8ff92b7c87112b",
             "vcs_subdir": "meta",
             "version": "11",
@@ -40,9 +40,9 @@
             "collection": "xfce-layer",
             "id": 165075,
             "layer": 5,
-            "updated": "2018-04-09T05:04:09+0000",
+            "updated": "2018-04-24T14:04:39+0000",
             "vcs_last_commit": "2017-11-09T03:11:50+0000",
-            "vcs_last_fetch": "2018-04-09T05:04:09+0000",
+            "vcs_last_fetch": "2018-04-24T14:04:39+0000",
             "vcs_last_rev": "34a5c32045afae17875904d49b7cbf6490872365",
             "vcs_subdir": "meta-xfce",
             "version": "1",
@@ -54,9 +54,9 @@
             "collection": "openembedded-layer",
             "id": 165076,
             "layer": 7,
-            "updated": "2018-04-09T05:04:10+0000",
+            "updated": "2018-04-24T14:04:09+0000",
             "vcs_last_commit": "2018-02-12T01:02:22+0000",
-            "vcs_last_fetch": "2018-04-09T05:04:10+0000",
+            "vcs_last_fetch": "2018-04-24T14:04:09+0000",
             "vcs_last_rev": "274ce9bf5d71a6a02d0bb09832423d7dff1ed548",
             "vcs_subdir": "meta-oe",
             "version": "1",
@@ -68,9 +68,9 @@
             "collection": "meta-python",
             "id": 165080,
             "layer": 12,
-            "updated": "2018-04-09T05:04:12+0000",
+            "updated": "2018-04-24T14:04:11+0000",
             "vcs_last_commit": "2017-12-25T05:12:48+0000",
-            "vcs_last_fetch": "2018-04-09T05:04:12+0000",
+            "vcs_last_fetch": "2018-04-24T14:04:11+0000",
             "vcs_last_rev": "4b81f9b6ab2d867eb01ca1ab2c86bd4ecadec80b",
             "vcs_subdir": "meta-python",
             "version": "1",
@@ -82,9 +82,9 @@
             "collection": "gnome-layer",
             "id": 165086,
             "layer": 15,
-            "updated": "2018-04-09T05:04:13+0000",
+            "updated": "2018-04-24T14:04:24+0000",
             "vcs_last_commit": "2018-02-12T01:02:22+0000",
-            "vcs_last_fetch": "2018-04-09T05:04:13+0000",
+            "vcs_last_fetch": "2018-04-24T14:04:24+0000",
             "vcs_last_rev": "274ce9bf5d71a6a02d0bb09832423d7dff1ed548",
             "vcs_subdir": "meta-gnome",
             "version": "1",
@@ -96,9 +96,9 @@
             "collection": "multimedia-layer",
             "id": 165104,
             "layer": 16,
-            "updated": "2018-04-09T05:04:14+0000",
+            "updated": "2018-04-24T14:04:12+0000",
             "vcs_last_commit": "2017-10-18T06:10:28+0000",
-            "vcs_last_fetch": "2018-04-09T05:04:14+0000",
+            "vcs_last_fetch": "2018-04-24T14:04:12+0000",
             "vcs_last_rev": "94e9e03da4d5539963d6f536f03c5d3cb0e1d4f1",
             "vcs_subdir": "meta-multimedia",
             "version": "1",
@@ -257,7 +257,7 @@
             "filename": "xfce4-panel_4.12.1.bb",
             "filepath": "recipes-xfce/xfce4-panel",
             "homepage": "http://www.xfce.org",
-            "id": 381705,
+            "id": 578687,
             "inherits": "autotools distro_features_check gettext gtk-doc gtk-icon-cache pkgconfig qemu siteconfig siteinfo xfce",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -266,7 +266,7 @@
             "pv": "4.12.1",
             "section": "x11",
             "summary": "Xfce4 Panel",
-            "updated": "2017-09-26T21:09:29+0000"
+            "updated": "2018-04-24T14:04:27+0000"
         },
         {
             "bbclassextend": "",
@@ -276,7 +276,7 @@
             "filename": "thunar-volman_0.8.1.bb",
             "filepath": "recipes-xfce/thunar-volman",
             "homepage": "http://www.xfce.org",
-            "id": 381706,
+            "id": 578688,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -285,7 +285,7 @@
             "pv": "0.8.1",
             "section": "x11",
             "summary": "Automatic management of removable drives and media for thunar",
-            "updated": "2017-09-26T21:09:29+0000"
+            "updated": "2018-04-24T14:04:27+0000"
         },
         {
             "bbclassextend": "",
@@ -295,7 +295,7 @@
             "filename": "xfce4-settings_git.bb",
             "filepath": "recipes-xfce/xfce4-settings",
             "homepage": "http://www.xfce.org",
-            "id": 381707,
+            "id": 578689,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-git",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -304,7 +304,7 @@
             "pv": "4.12.0+gitX",
             "section": "x11/wm",
             "summary": "Xfce4 settings",
-            "updated": "2017-09-26T21:09:29+0000"
+            "updated": "2018-04-24T14:04:27+0000"
         },
         {
             "bbclassextend": "",
@@ -314,7 +314,7 @@
             "filename": "xfce4-session_4.12.1.bb",
             "filepath": "recipes-xfce/xfce4-session",
             "homepage": "http://www.xfce.org",
-            "id": 381708,
+            "id": 578690,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo update-alternatives xfce",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -323,7 +323,7 @@
             "pv": "4.12.1",
             "section": "x11",
             "summary": "xfce4-session is a session manager for Xfce 4 Desktop Environment",
-            "updated": "2017-09-26T21:09:29+0000"
+            "updated": "2018-04-24T14:04:28+0000"
         },
         {
             "bbclassextend": "",
@@ -333,7 +333,7 @@
             "filename": "machine-host.bb",
             "filepath": "recipes-xfce/xfce4-session",
             "homepage": "",
-            "id": 381709,
+            "id": 578691,
             "inherits": "",
             "layerbranch": 165075,
             "license": "MIT",
@@ -342,7 +342,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Meta package adding machine name to known hosts",
-            "updated": "2017-09-26T21:09:29+0000"
+            "updated": "2018-04-24T14:04:28+0000"
         },
         {
             "bbclassextend": "",
@@ -352,7 +352,7 @@
             "filename": "xfce4-power-manager_1.6.0.bb",
             "filepath": "recipes-xfce/xfce4-power-manager",
             "homepage": "http://www.xfce.org",
-            "id": 381710,
+            "id": 578692,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce",
             "layerbranch": 165075,
             "license": "GPLv2+",
@@ -361,7 +361,7 @@
             "pv": "1.6.0",
             "section": "x11",
             "summary": "Power manager for the Xfce desktop environment",
-            "updated": "2017-09-26T21:09:29+0000"
+            "updated": "2018-04-24T14:04:28+0000"
         },
         {
             "bbclassextend": "",
@@ -371,7 +371,7 @@
             "filename": "garcon_0.6.1.bb",
             "filepath": "recipes-xfce/garcon",
             "homepage": "http://www.xfce.org",
-            "id": 381711,
+            "id": 578693,
             "inherits": "autotools distro_features_check gettext gtk-doc gtk-icon-cache pkgconfig qemu siteconfig siteinfo xfce",
             "layerbranch": 165075,
             "license": "LGPLv2",
@@ -380,7 +380,7 @@
             "pv": "0.6.1",
             "section": "x11/libs",
             "summary": "",
-            "updated": "2017-09-26T21:09:29+0000"
+            "updated": "2018-04-24T14:04:28+0000"
         },
         {
             "bbclassextend": "",
@@ -390,7 +390,7 @@
             "filename": "libxfce4ui_4.12.1.bb",
             "filepath": "recipes-xfce/libxfce4ui",
             "homepage": "http://www.xfce.org",
-            "id": 381712,
+            "id": 578694,
             "inherits": "autotools distro_features_check gettext gtk-doc gtk-icon-cache pkgconfig qemu siteconfig siteinfo xfce",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -399,7 +399,7 @@
             "pv": "4.12.1",
             "section": "x11/libs",
             "summary": "Xfce4 Widget library and X Window System interaction",
-            "updated": "2017-09-26T21:09:30+0000"
+            "updated": "2018-04-24T14:04:28+0000"
         },
         {
             "bbclassextend": "",
@@ -409,7 +409,7 @@
             "filename": "xfce4-appfinder_4.12.0.bb",
             "filepath": "recipes-xfce/xfce4-appfinder",
             "homepage": "http://www.xfce.org",
-            "id": 381713,
+            "id": 578695,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -418,7 +418,7 @@
             "pv": "4.12.0",
             "section": "x11",
             "summary": "",
-            "updated": "2017-09-26T21:09:30+0000"
+            "updated": "2018-04-24T14:04:29+0000"
         },
         {
             "bbclassextend": "",
@@ -428,7 +428,7 @@
             "filename": "thunar_1.6.12.bb",
             "filepath": "recipes-xfce/thunar",
             "homepage": "http://www.xfce.org",
-            "id": 381714,
+            "id": 578696,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -437,7 +437,7 @@
             "pv": "1.6.12",
             "section": "x11",
             "summary": "File manager for the Xfce Desktop Environment",
-            "updated": "2017-09-26T21:09:30+0000"
+            "updated": "2018-04-24T14:04:29+0000"
         },
         {
             "bbclassextend": "",
@@ -447,7 +447,7 @@
             "filename": "packagegroup-xfce-extended.bb",
             "filepath": "recipes-xfce/packagegroups",
             "homepage": "",
-            "id": 381715,
+            "id": 578697,
             "inherits": "allarch packagegroup",
             "layerbranch": 165075,
             "license": "MIT",
@@ -456,7 +456,7 @@
             "pv": "1.0",
             "section": "x11/wm",
             "summary": "All packages for full XFCE installation",
-            "updated": "2017-09-26T21:09:30+0000"
+            "updated": "2018-04-24T14:04:29+0000"
         },
         {
             "bbclassextend": "",
@@ -466,7 +466,7 @@
             "filename": "packagegroup-xfce-base.bb",
             "filepath": "recipes-xfce/packagegroups",
             "homepage": "",
-            "id": 381716,
+            "id": 578698,
             "inherits": "allarch distro_features_check packagegroup",
             "layerbranch": 165075,
             "license": "MIT",
@@ -475,7 +475,7 @@
             "pv": "1.0",
             "section": "x11/wm",
             "summary": "All packages required for a base installation of XFCE",
-            "updated": "2017-09-26T21:09:30+0000"
+            "updated": "2018-04-24T14:04:29+0000"
         },
         {
             "bbclassextend": "native",
@@ -485,7 +485,7 @@
             "filename": "xfce4-dev-tools_4.12.0.bb",
             "filepath": "recipes-xfce/xfce4-dev-tools",
             "homepage": "http://www.xfce.org",
-            "id": 381717,
+            "id": 578699,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -494,7 +494,7 @@
             "pv": "4.12.0",
             "section": "x11/libs",
             "summary": "Xfce4 development tools",
-            "updated": "2017-09-26T21:09:30+0000"
+            "updated": "2018-04-24T14:04:29+0000"
         },
         {
             "bbclassextend": "",
@@ -504,7 +504,7 @@
             "filename": "xfwm4_4.12.4.bb",
             "filepath": "recipes-xfce/xfwm4",
             "homepage": "http://www.xfce.org",
-            "id": 381718,
+            "id": 578700,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo update-alternatives xfce",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -513,7 +513,7 @@
             "pv": "4.12.4",
             "section": "x11/wm",
             "summary": "",
-            "updated": "2017-09-26T21:09:30+0000"
+            "updated": "2018-04-24T14:04:29+0000"
         },
         {
             "bbclassextend": "",
@@ -523,7 +523,7 @@
             "filename": "tumbler_0.1.31.bb",
             "filepath": "recipes-xfce/tumbler",
             "homepage": "http://www.xfce.org",
-            "id": 381719,
+            "id": 578701,
             "inherits": "autotools gettext gtk-doc gtk-icon-cache pkgconfig qemu siteconfig siteinfo xfce",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -532,7 +532,7 @@
             "pv": "0.1.31",
             "section": "x11/libs",
             "summary": "",
-            "updated": "2017-09-26T21:09:30+0000"
+            "updated": "2018-04-24T14:04:29+0000"
         },
         {
             "bbclassextend": "",
@@ -542,7 +542,7 @@
             "filename": "libxfce4util_4.12.1.bb",
             "filepath": "recipes-xfce/libxfce4util",
             "homepage": "http://www.xfce.org",
-            "id": 381720,
+            "id": 578702,
             "inherits": "autotools gettext gtk-doc gtk-icon-cache pkgconfig qemu siteconfig siteinfo xfce",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -551,7 +551,7 @@
             "pv": "4.12.1",
             "section": "x11/libs",
             "summary": "Basic utility library for Xfce4",
-            "updated": "2017-09-26T21:09:31+0000"
+            "updated": "2018-04-24T14:04:30+0000"
         },
         {
             "bbclassextend": "native",
@@ -561,7 +561,7 @@
             "filename": "exo_0.11.5.bb",
             "filepath": "recipes-xfce/exo",
             "homepage": "http://www.xfce.org",
-            "id": 381721,
+            "id": 578703,
             "inherits": "autotools distro_features_check gettext gtk-doc gtk-icon-cache perlnative pkgconfig python-dir pythonnative qemu siteconfig siteinfo xfce",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -570,7 +570,7 @@
             "pv": "0.11.5",
             "section": "x11",
             "summary": "",
-            "updated": "2017-09-26T21:09:31+0000"
+            "updated": "2018-04-24T14:04:30+0000"
         },
         {
             "bbclassextend": "",
@@ -580,7 +580,7 @@
             "filename": "gtk-xfce-engine_3.2.0.bb",
             "filepath": "recipes-xfce/gtk-xfce-engine",
             "homepage": "http://www.xfce.org",
-            "id": 381722,
+            "id": 578704,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -589,7 +589,7 @@
             "pv": "3.2.0",
             "section": "x11/libs",
             "summary": "XFCE theme for GTK",
-            "updated": "2017-09-26T21:09:31+0000"
+            "updated": "2018-04-24T14:04:30+0000"
         },
         {
             "bbclassextend": "",
@@ -599,7 +599,7 @@
             "filename": "xfdesktop_4.12.3.bb",
             "filepath": "recipes-xfce/xfdesktop",
             "homepage": "http://www.xfce.org",
-            "id": 381723,
+            "id": 578705,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -608,7 +608,7 @@
             "pv": "4.12.3",
             "section": "x11/base",
             "summary": "Xfce4 Desktop Manager",
-            "updated": "2017-09-26T21:09:31+0000"
+            "updated": "2018-04-24T14:04:30+0000"
         },
         {
             "bbclassextend": "",
@@ -618,7 +618,7 @@
             "filename": "xfconf_4.12.1.bb",
             "filepath": "recipes-xfce/xfconf",
             "homepage": "http://www.xfce.org",
-            "id": 381724,
+            "id": 578706,
             "inherits": "autotools gettext gtk-doc gtk-icon-cache pkgconfig qemu siteconfig siteinfo xfce",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -627,7 +627,7 @@
             "pv": "4.12.1",
             "section": "x11/wm",
             "summary": "Xfce configuration daemon and utilities",
-            "updated": "2017-09-26T21:09:31+0000"
+            "updated": "2018-04-24T14:04:30+0000"
         },
         {
             "bbclassextend": "",
@@ -637,7 +637,7 @@
             "filename": "mousepad_0.4.0.bb",
             "filepath": "recipes-apps/mousepad",
             "homepage": "http://www.xfce.org",
-            "id": 381725,
+            "id": 578707,
             "inherits": "autotools distro_features_check gettext gsettings gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-app",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -646,7 +646,7 @@
             "pv": "0.4.0",
             "section": "x11/application",
             "summary": "A simple text editor for Xfce",
-            "updated": "2017-09-26T21:09:31+0000"
+            "updated": "2018-04-24T14:04:31+0000"
         },
         {
             "bbclassextend": "",
@@ -656,7 +656,7 @@
             "filename": "xfce4-taskmanager_1.2.0.bb",
             "filepath": "recipes-apps/xfce4-taskmanager",
             "homepage": "http://www.xfce.org",
-            "id": 381726,
+            "id": 578708,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-app",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -665,7 +665,7 @@
             "pv": "1.2.0",
             "section": "base",
             "summary": "Easy to use task manager",
-            "updated": "2017-09-26T21:09:31+0000"
+            "updated": "2018-04-24T14:04:31+0000"
         },
         {
             "bbclassextend": "",
@@ -675,7 +675,7 @@
             "filename": "ristretto_0.8.2.bb",
             "filepath": "recipes-apps/ristretto",
             "homepage": "http://www.xfce.org",
-            "id": 381727,
+            "id": 578709,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-app",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -684,7 +684,7 @@
             "pv": "0.8.2",
             "section": "x11/application",
             "summary": "Tiny image-viewer",
-            "updated": "2017-09-26T21:09:32+0000"
+            "updated": "2018-04-24T14:04:31+0000"
         },
         {
             "bbclassextend": "",
@@ -694,7 +694,7 @@
             "filename": "xfce4-notifyd_0.3.6.bb",
             "filepath": "recipes-apps/xfce4-notifyd",
             "homepage": "http://www.xfce.org",
-            "id": 381728,
+            "id": 578710,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-app",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -703,7 +703,7 @@
             "pv": "0.3.6",
             "section": "base",
             "summary": "Easily themable notification daemon with transparency effects",
-            "updated": "2017-09-26T21:09:32+0000"
+            "updated": "2018-04-24T14:04:31+0000"
         },
         {
             "bbclassextend": "",
@@ -713,7 +713,7 @@
             "filename": "gigolo_0.4.2.bb",
             "filepath": "recipes-apps/gigolo",
             "homepage": "http://www.xfce.org",
-            "id": 381729,
+            "id": 578711,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-app",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -722,7 +722,7 @@
             "pv": "0.4.2",
             "section": "x11/application",
             "summary": "Gigolo is a frontend to easily manage connections to remote filesystems using GIO/GVfs",
-            "updated": "2017-09-26T21:09:32+0000"
+            "updated": "2018-04-24T14:04:31+0000"
         },
         {
             "bbclassextend": "",
@@ -732,7 +732,7 @@
             "filename": "xfce4-terminal_0.8.6.bb",
             "filepath": "recipes-apps/xfce4-terminal",
             "homepage": "http://www.xfce.org",
-            "id": 381730,
+            "id": 578712,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-app",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -741,7 +741,7 @@
             "pv": "0.8.6",
             "section": "base",
             "summary": "Terminal emulator for the Xfce desktop environment",
-            "updated": "2017-09-26T21:09:32+0000"
+            "updated": "2018-04-24T14:04:31+0000"
         },
         {
             "bbclassextend": "",
@@ -751,7 +751,7 @@
             "filename": "xfce4-mixer_4.11.0.bb",
             "filepath": "recipes-apps/xfce4-mixer",
             "homepage": "http://www.xfce.org",
-            "id": 381731,
+            "id": 578713,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -760,7 +760,7 @@
             "pv": "4.11.0",
             "section": "base",
             "summary": "A volume control application based on GStreamer",
-            "updated": "2017-09-26T21:09:32+0000"
+            "updated": "2018-04-24T14:04:32+0000"
         },
         {
             "bbclassextend": "",
@@ -770,7 +770,7 @@
             "filename": "xfce-polkit_0.2.bb",
             "filepath": "recipes-apps/xfce-polkit",
             "homepage": "http://www.xfce.org",
-            "id": 381732,
+            "id": 578714,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-app",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -779,7 +779,7 @@
             "pv": "0.2",
             "section": "base",
             "summary": "A simple PolicyKit authentication agent for XFCE",
-            "updated": "2017-09-26T21:09:32+0000"
+            "updated": "2018-04-24T14:04:32+0000"
         },
         {
             "bbclassextend": "",
@@ -789,7 +789,7 @@
             "filename": "xfce4-screenshooter_1.9.1.bb",
             "filepath": "recipes-apps/xfce4-screenshooter",
             "homepage": "http://www.xfce.org",
-            "id": 381733,
+            "id": 578715,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-app",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -798,7 +798,7 @@
             "pv": "1.9.1",
             "section": "x11/application",
             "summary": "Application to take screenshots",
-            "updated": "2017-11-09T05:11:49+0000"
+            "updated": "2018-04-24T14:04:32+0000"
         },
         {
             "bbclassextend": "",
@@ -808,7 +808,7 @@
             "filename": "orage_4.12.1.bb",
             "filepath": "recipes-apps/orage",
             "homepage": "http://www.xfce.org",
-            "id": 381734,
+            "id": 578716,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-app",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -817,7 +817,7 @@
             "pv": "4.12.1",
             "section": "x11/application",
             "summary": "Xfce Calender",
-            "updated": "2017-09-26T21:09:32+0000"
+            "updated": "2018-04-24T14:04:32+0000"
         },
         {
             "bbclassextend": "",
@@ -827,7 +827,7 @@
             "filename": "menulibre_2.1.3.bb",
             "filepath": "recipes-apps/menulibre",
             "homepage": "https://launchpad.net/menulibre",
-            "id": 381735,
+            "id": 578717,
             "inherits": "distutils-common-base distutils3 distutils3-base gtk-icon-cache python3-dir python3native",
             "layerbranch": 165075,
             "license": "GPLv3",
@@ -836,7 +836,7 @@
             "pv": "2.1.3",
             "section": "x11/graphics",
             "summary": "",
-            "updated": "2017-09-26T21:09:32+0000"
+            "updated": "2018-04-24T14:04:32+0000"
         },
         {
             "bbclassextend": "",
@@ -846,7 +846,7 @@
             "filename": "xarchiver_git.bb",
             "filepath": "recipes-apps/xarchiver",
             "homepage": "http://xarchiver.sourceforge.net",
-            "id": 381736,
+            "id": 578718,
             "inherits": "autotools gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce-git",
             "layerbranch": 165075,
             "license": "GPLv2+",
@@ -855,7 +855,7 @@
             "pv": "0.5.3",
             "section": "x11",
             "summary": "Lightweight, desktop independent GTK+ archive manager",
-            "updated": "2017-09-26T21:09:33+0000"
+            "updated": "2018-04-24T14:04:32+0000"
         },
         {
             "bbclassextend": "",
@@ -865,7 +865,7 @@
             "filename": "thunar-archive-plugin_0.3.1.bb",
             "filepath": "recipes-thunar-plugins/archive",
             "homepage": "http://www.xfce.org",
-            "id": 381737,
+            "id": 578719,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo thunar-plugin xfce",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -874,7 +874,7 @@
             "pv": "0.3.1",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T21:09:33+0000"
+            "updated": "2018-04-24T14:04:33+0000"
         },
         {
             "bbclassextend": "",
@@ -884,7 +884,7 @@
             "filename": "thunar-media-tags-plugin_0.2.1.bb",
             "filepath": "recipes-thunar-plugins/media-tags",
             "homepage": "http://www.xfce.org",
-            "id": 381738,
+            "id": 578720,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo thunar-plugin xfce",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -893,7 +893,7 @@
             "pv": "0.2.1",
             "section": "base",
             "summary": "Adds ID3/OGG tag support to the Thunar bulk rename dialog",
-            "updated": "2017-09-26T21:09:33+0000"
+            "updated": "2018-04-24T14:04:33+0000"
         },
         {
             "bbclassextend": "",
@@ -903,7 +903,7 @@
             "filename": "xfce4-vala_4.10.3.bb",
             "filepath": "recipes-bindings/vala",
             "homepage": "http://www.xfce.org",
-            "id": 381739,
+            "id": 578721,
             "inherits": "autotools gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce",
             "layerbranch": 165075,
             "license": "LGPLv2.1",
@@ -912,7 +912,7 @@
             "pv": "4.10.3",
             "section": "base",
             "summary": "Xfce4 Vala provides bindings for the Xfce framework",
-            "updated": "2017-09-26T21:09:33+0000"
+            "updated": "2018-04-24T14:04:33+0000"
         },
         {
             "bbclassextend": "",
@@ -922,7 +922,7 @@
             "filename": "xfwm4-themes_4.10.0.bb",
             "filepath": "recipes-art/xfwm4-themes",
             "homepage": "http://www.xfce.org",
-            "id": 381740,
+            "id": 578722,
             "inherits": "autotools gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce",
             "layerbranch": 165075,
             "license": "GPLv3",
@@ -931,7 +931,7 @@
             "pv": "4.10.0",
             "section": "x11/wm",
             "summary": "Additional (old) themes for Xfwm4",
-            "updated": "2017-09-26T21:09:33+0000"
+            "updated": "2018-04-24T14:04:33+0000"
         },
         {
             "bbclassextend": "",
@@ -941,7 +941,7 @@
             "filename": "rodent-icon-theme_5.0.bb",
             "filepath": "recipes-art/rodent-icon-theme",
             "homepage": "",
-            "id": 381741,
+            "id": 578723,
             "inherits": "allarch autotools gtk-icon-cache siteconfig siteinfo",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -950,7 +950,7 @@
             "pv": "5.0",
             "section": "base",
             "summary": "Rodent-icon-theme (was xfce4-icon-theme) is a svg icon theme",
-            "updated": "2017-09-26T21:09:33+0000"
+            "updated": "2018-04-24T14:04:33+0000"
         },
         {
             "bbclassextend": "",
@@ -960,7 +960,7 @@
             "filename": "openzone_1.2.3.bb",
             "filepath": "recipes-art/cursor-themes",
             "homepage": "http://xfce-look.org/content/show.php/OpenZone?content=111343",
-            "id": 381742,
+            "id": 578724,
             "inherits": "allarch gtk-icon-cache",
             "layerbranch": 165075,
             "license": "MIT",
@@ -969,7 +969,7 @@
             "pv": "1.2.3",
             "section": "x11/wm",
             "summary": "X11 Mouse Theme",
-            "updated": "2017-09-26T21:09:33+0000"
+            "updated": "2018-04-24T14:04:33+0000"
         },
         {
             "bbclassextend": "",
@@ -979,7 +979,7 @@
             "filename": "xfce-dusk-gtk3_1.3.bb",
             "filepath": "recipes-art/xfce-dusk-gtk3",
             "homepage": "",
-            "id": 381743,
+            "id": 578725,
             "inherits": "allarch",
             "layerbranch": 165075,
             "license": "GPLv3",
@@ -988,7 +988,7 @@
             "pv": "1.3",
             "section": "base",
             "summary": "Modified version of the xfce-dusk theme to support also gtk 3.x too",
-            "updated": "2017-09-26T21:09:33+0000"
+            "updated": "2018-04-24T14:04:33+0000"
         },
         {
             "bbclassextend": "",
@@ -998,7 +998,7 @@
             "filename": "xfce4-mpc-plugin_0.5.0.bb",
             "filepath": "recipes-multimedia/xfce4-mpc-plugin",
             "homepage": "http://www.xfce.org",
-            "id": 381744,
+            "id": 578726,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "BSD",
@@ -1007,7 +1007,7 @@
             "pv": "0.5.0",
             "section": "x11/application",
             "summary": "Simple client plugin for Music Player Daemon",
-            "updated": "2017-09-26T21:09:33+0000"
+            "updated": "2018-04-24T14:04:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1017,7 +1017,7 @@
             "filename": "parole_0.8.1.bb",
             "filepath": "recipes-multimedia/parole",
             "homepage": "http://www.xfce.org",
-            "id": 381745,
+            "id": 578727,
             "inherits": "autotools distro_features_check gettext gtk-doc gtk-icon-cache mime pkgconfig qemu siteconfig siteinfo xfce xfce-app",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -1026,7 +1026,7 @@
             "pv": "0.8.1",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T21:09:34+0000"
+            "updated": "2018-04-24T14:04:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1036,7 +1036,7 @@
             "filename": "packagegroup-xfce-multimedia.bb",
             "filepath": "recipes-multimedia/packagegroups",
             "homepage": "",
-            "id": 381746,
+            "id": 578728,
             "inherits": "allarch packagegroup",
             "layerbranch": 165075,
             "license": "MIT",
@@ -1045,7 +1045,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "All packages multimedia packages available for XFCE",
-            "updated": "2017-09-26T21:09:34+0000"
+            "updated": "2018-04-24T14:04:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1055,7 +1055,7 @@
             "filename": "xfmpc_0.2.3.bb",
             "filepath": "recipes-multimedia/xfmpc",
             "homepage": "http://www.xfce.org",
-            "id": 381747,
+            "id": 578729,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-app",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -1064,7 +1064,7 @@
             "pv": "0.2.3",
             "section": "base",
             "summary": "Music Player Daemon (MPD) client written in GTK+",
-            "updated": "2017-09-26T21:09:34+0000"
+            "updated": "2018-04-24T14:04:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1074,7 +1074,7 @@
             "filename": "imsettings_1.7.2.bb",
             "filepath": "recipes-extended/imsettings",
             "homepage": "http://code.google.com/p/imsettings/",
-            "id": 381748,
+            "id": 578730,
             "inherits": "autotools gobject-introspection gobject-introspection-data gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo",
             "layerbranch": 165075,
             "license": "LGPLv2+",
@@ -1083,7 +1083,7 @@
             "pv": "1.7.2",
             "section": "Applications/System",
             "summary": "Delivery framework for general Input Method configuration",
-            "updated": "2017-09-26T21:09:34+0000"
+            "updated": "2018-04-24T14:04:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1093,7 +1093,7 @@
             "filename": "xfce4-verve-plugin_1.1.0.bb",
             "filepath": "recipes-panel-plugins/verve",
             "homepage": "http://www.xfce.org",
-            "id": 381749,
+            "id": 578731,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -1102,7 +1102,7 @@
             "pv": "1.1.0",
             "section": "base",
             "summary": "Verve panel plugin is a comfortable command line plugin for the Xfce panel",
-            "updated": "2017-09-26T21:09:34+0000"
+            "updated": "2018-04-24T14:04:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1112,7 +1112,7 @@
             "filename": "xfce4-smartbookmark-plugin_0.5.0.bb",
             "filepath": "recipes-panel-plugins/smartbookmark",
             "homepage": "http://www.xfce.org",
-            "id": 381750,
+            "id": 578732,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -1121,7 +1121,7 @@
             "pv": "0.5.0",
             "section": "base",
             "summary": "Panel plugin allowing to send requests directly to browser",
-            "updated": "2017-09-26T21:09:34+0000"
+            "updated": "2018-04-24T14:04:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1131,7 +1131,7 @@
             "filename": "xfce4-battery-plugin_1.1.0.bb",
             "filepath": "recipes-panel-plugins/battery",
             "homepage": "http://www.xfce.org",
-            "id": 381751,
+            "id": 578733,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -1140,7 +1140,7 @@
             "pv": "1.1.0",
             "section": "base",
             "summary": "A battery monitor panel plugin for Xfce4, compatible with APM and ACP",
-            "updated": "2017-09-26T21:09:34+0000"
+            "updated": "2018-04-24T14:04:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1150,7 +1150,7 @@
             "filename": "xfce4-embed-plugin_1.0.0.bb",
             "filepath": "recipes-panel-plugins/embed",
             "homepage": "http://www.xfce.org",
-            "id": 381752,
+            "id": 578734,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -1159,7 +1159,7 @@
             "pv": "1.0.0",
             "section": "x11/application",
             "summary": "",
-            "updated": "2017-09-26T21:09:34+0000"
+            "updated": "2018-04-24T14:04:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1169,7 +1169,7 @@
             "filename": "xfce4-clipman-plugin_1.4.2.bb",
             "filepath": "recipes-panel-plugins/clipman",
             "homepage": "http://www.xfce.org",
-            "id": 381753,
+            "id": 578735,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -1178,7 +1178,7 @@
             "pv": "1.4.2",
             "section": "x11/application",
             "summary": "Clipman is a clipboard manager for Xfce",
-            "updated": "2017-09-26T21:09:34+0000"
+            "updated": "2018-04-24T14:04:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1188,7 +1188,7 @@
             "filename": "xfce4-places-plugin_1.7.0.bb",
             "filepath": "recipes-panel-plugins/places",
             "homepage": "http://www.xfce.org",
-            "id": 381754,
+            "id": 578736,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -1197,7 +1197,7 @@
             "pv": "1.7.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T21:09:35+0000"
+            "updated": "2018-04-24T14:04:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1207,7 +1207,7 @@
             "filename": "xfce4-xkb-plugin_0.8.0.bb",
             "filepath": "recipes-panel-plugins/xkb",
             "homepage": "http://www.xfce.org",
-            "id": 381755,
+            "id": 578737,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -1216,7 +1216,7 @@
             "pv": "0.8.0",
             "section": "x11/application",
             "summary": "XKB layout switching panel plug-in for the Xfce desktop environment",
-            "updated": "2017-09-26T21:09:35+0000"
+            "updated": "2018-04-24T14:04:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1226,7 +1226,7 @@
             "filename": "xfce4-systemload-plugin_1.2.1.bb",
             "filepath": "recipes-panel-plugins/systemload",
             "homepage": "http://www.xfce.org",
-            "id": 381756,
+            "id": 578738,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "BSD-2-Clause",
@@ -1235,7 +1235,7 @@
             "pv": "1.2.1",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T21:09:35+0000"
+            "updated": "2018-04-24T14:04:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1245,7 +1245,7 @@
             "filename": "xfce4-kbdleds-plugin_0.0.6.bb",
             "filepath": "recipes-panel-plugins/kbdleds",
             "homepage": "http://www.xfce.org",
-            "id": 381757,
+            "id": 578739,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -1254,7 +1254,7 @@
             "pv": "0.0.6",
             "section": "base",
             "summary": "XFCE panel plugin displaying status of keyboard LEDs",
-            "updated": "2017-09-26T21:09:35+0000"
+            "updated": "2018-04-24T14:04:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1264,7 +1264,7 @@
             "filename": "xfce4-weather-plugin_0.8.9.bb",
             "filepath": "recipes-panel-plugins/weather",
             "homepage": "http://www.xfce.org",
-            "id": 381758,
+            "id": 578740,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -1273,7 +1273,7 @@
             "pv": "0.8.9",
             "section": "base",
             "summary": "Panel plugin to display current temperature and weather condition",
-            "updated": "2017-09-26T21:09:35+0000"
+            "updated": "2018-04-24T14:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1283,7 +1283,7 @@
             "filename": "xfce4-notes-plugin_1.8.1.bb",
             "filepath": "recipes-panel-plugins/notes",
             "homepage": "http://www.xfce.org",
-            "id": 381759,
+            "id": 578741,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -1292,7 +1292,7 @@
             "pv": "1.8.1",
             "section": "base",
             "summary": "Notes plugin for the Xfce Panel",
-            "updated": "2017-09-26T21:09:35+0000"
+            "updated": "2018-04-24T14:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1302,7 +1302,7 @@
             "filename": "xfce4-hotcorner-plugin_0.0.2.bb",
             "filepath": "recipes-panel-plugins/hotcorner",
             "homepage": "http://www.xfce.org",
-            "id": 381760,
+            "id": 578742,
             "inherits": "autotools cmake distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -1311,7 +1311,7 @@
             "pv": "0.0.2",
             "section": "base",
             "summary": "Plugin providing hotcorners",
-            "updated": "2017-09-26T21:09:35+0000"
+            "updated": "2018-04-24T14:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1321,7 +1321,7 @@
             "filename": "xfce4-pulseaudio-plugin_0.2.4.bb",
             "filepath": "recipes-panel-plugins/pulseaudio",
             "homepage": "http://www.xfce.org",
-            "id": 381761,
+            "id": 578743,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -1330,7 +1330,7 @@
             "pv": "0.2.4",
             "section": "base",
             "summary": "Pulseaudio mixer for the xfce panel",
-            "updated": "2017-09-26T21:09:35+0000"
+            "updated": "2018-04-24T14:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1340,7 +1340,7 @@
             "filename": "xfce4-calculator-plugin_0.6.0.bb",
             "filepath": "recipes-panel-plugins/calculator",
             "homepage": "http://www.xfce.org",
-            "id": 381762,
+            "id": 578744,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -1349,7 +1349,7 @@
             "pv": "0.6.0",
             "section": "base",
             "summary": "A calculator plugin for the Xfce panel",
-            "updated": "2017-09-26T21:09:36+0000"
+            "updated": "2018-04-24T14:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1359,7 +1359,7 @@
             "filename": "xfce4-cpugraph-plugin_1.0.5.bb",
             "filepath": "recipes-panel-plugins/cpugraph",
             "homepage": "http://www.xfce.org",
-            "id": 381763,
+            "id": 578745,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -1368,7 +1368,7 @@
             "pv": "1.0.5",
             "section": "base",
             "summary": "Panel plugin with graphical representation of the cpu frequency",
-            "updated": "2017-09-26T21:09:36+0000"
+            "updated": "2018-04-24T14:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1378,7 +1378,7 @@
             "filename": "xfce4-cpufreq-plugin_1.1.3.bb",
             "filepath": "recipes-panel-plugins/cpufreq",
             "homepage": "http://www.xfce.org",
-            "id": 381764,
+            "id": 578746,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -1387,7 +1387,7 @@
             "pv": "1.1.3",
             "section": "base",
             "summary": "Panel plugin to display frequency of all cpus",
-            "updated": "2017-09-26T21:09:36+0000"
+            "updated": "2018-04-24T14:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1397,7 +1397,7 @@
             "filename": "xfce4-wavelan-plugin_0.6.0.bb",
             "filepath": "recipes-panel-plugins/wavelan",
             "homepage": "http://www.xfce.org",
-            "id": 381765,
+            "id": 578747,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "BSD",
@@ -1406,7 +1406,7 @@
             "pv": "0.6.0",
             "section": "base",
             "summary": "Panel plugin displaying stats from a wireless lan interface",
-            "updated": "2017-09-26T21:09:36+0000"
+            "updated": "2018-04-24T14:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1416,7 +1416,7 @@
             "filename": "xfce4-genmon-plugin_4.0.0.bb",
             "filepath": "recipes-panel-plugins/genmon",
             "homepage": "http://www.xfce.org",
-            "id": 381766,
+            "id": 578748,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "LGPLv2.1",
@@ -1425,7 +1425,7 @@
             "pv": "4.0.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T21:09:36+0000"
+            "updated": "2018-04-24T14:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1435,7 +1435,7 @@
             "filename": "xfce4-netload-plugin_1.3.1.bb",
             "filepath": "recipes-panel-plugins/netload",
             "homepage": "http://www.xfce.org",
-            "id": 381767,
+            "id": 578749,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -1444,7 +1444,7 @@
             "pv": "1.3.1",
             "section": "base",
             "summary": "Panel plugin displaying current load of the network interfaces",
-            "updated": "2017-09-26T21:09:36+0000"
+            "updated": "2018-04-24T14:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1454,7 +1454,7 @@
             "filename": "xfce4-time-out-plugin_1.0.2.bb",
             "filepath": "recipes-panel-plugins/time-out",
             "homepage": "http://www.xfce.org",
-            "id": 381768,
+            "id": 578750,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -1463,7 +1463,7 @@
             "pv": "1.0.2",
             "section": "x11/application",
             "summary": "This plugin makes it possible to take periodical breaks",
-            "updated": "2017-09-26T21:09:36+0000"
+            "updated": "2018-04-24T14:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1473,7 +1473,7 @@
             "filename": "xfce4-datetime-plugin_0.7.0.bb",
             "filepath": "recipes-panel-plugins/datetime",
             "homepage": "http://www.xfce.org",
-            "id": 381769,
+            "id": 578751,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -1482,7 +1482,7 @@
             "pv": "0.7.0",
             "section": "base",
             "summary": "Panel plugin displaying date and time and a calendar when left-clicked",
-            "updated": "2017-09-26T21:09:36+0000"
+            "updated": "2018-04-24T14:04:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1492,7 +1492,7 @@
             "filename": "xfce4-equake-plugin_1.3.8.1.bb",
             "filepath": "recipes-panel-plugins/equake",
             "homepage": "http://www.xfce.org",
-            "id": 381770,
+            "id": 578752,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "GPLv3",
@@ -1501,7 +1501,7 @@
             "pv": "1.3.8.1",
             "section": "x11/application",
             "summary": "",
-            "updated": "2017-09-26T21:09:37+0000"
+            "updated": "2018-04-24T14:04:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1511,7 +1511,7 @@
             "filename": "xfce4-closebutton-plugin_git.bb",
             "filepath": "recipes-panel-plugins/closebutton",
             "homepage": "http://www.xfce.org",
-            "id": 381771,
+            "id": 578753,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache perlnative pkgconfig siteconfig siteinfo xfce xfce-git xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -1520,7 +1520,7 @@
             "pv": "0.1.0+gitrX",
             "section": "x11",
             "summary": "Plugin displaying close button for application currently active",
-            "updated": "2017-09-26T21:09:37+0000"
+            "updated": "2018-04-24T14:04:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1530,7 +1530,7 @@
             "filename": "xfce4-sensors-plugin_1.2.97.bb",
             "filepath": "recipes-panel-plugins/sensors",
             "homepage": "http://www.xfce.org",
-            "id": 381772,
+            "id": 578754,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -1539,7 +1539,7 @@
             "pv": "1.2.97",
             "section": "base",
             "summary": "Sensors plugin for the Xfce Panel",
-            "updated": "2017-09-26T21:09:37+0000"
+            "updated": "2018-04-24T14:04:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1549,7 +1549,7 @@
             "filename": "xfce4-mailwatch-plugin_1.2.0.bb",
             "filepath": "recipes-panel-plugins/mailwatch",
             "homepage": "http://www.xfce.org",
-            "id": 381773,
+            "id": 578755,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -1558,7 +1558,7 @@
             "pv": "1.2.0",
             "section": "base",
             "summary": "Multi-protocol, multi-mailbox mail watcher for the Xfce4 panel",
-            "updated": "2017-09-26T21:09:37+0000"
+            "updated": "2018-04-24T14:04:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1568,7 +1568,7 @@
             "filename": "xfce4-mount-plugin_1.1.2.bb",
             "filepath": "recipes-panel-plugins/mount",
             "homepage": "http://www.xfce.org",
-            "id": 381774,
+            "id": 578756,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -1577,7 +1577,7 @@
             "pv": "1.1.2",
             "section": "x11/application",
             "summary": "Mount/umount utility for the xfce panel",
-            "updated": "2017-09-26T21:09:37+0000"
+            "updated": "2018-04-24T14:04:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1587,7 +1587,7 @@
             "filename": "xfce4-timer-plugin_1.6.0.bb",
             "filepath": "recipes-panel-plugins/timer",
             "homepage": "http://www.xfce.org",
-            "id": 381775,
+            "id": 578757,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -1596,7 +1596,7 @@
             "pv": "1.6.0",
             "section": "base",
             "summary": "XFCE panel plugin to generate alarm messages",
-            "updated": "2017-09-26T21:09:37+0000"
+            "updated": "2018-04-24T14:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1606,7 +1606,7 @@
             "filename": "xfce4-diskperf-plugin_2.6.1.bb",
             "filepath": "recipes-panel-plugins/diskperf",
             "homepage": "http://www.xfce.org",
-            "id": 381776,
+            "id": 578758,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "BSD",
@@ -1615,7 +1615,7 @@
             "pv": "2.6.1",
             "section": "base",
             "summary": "Panel plugin displaying instant disk/partition performance",
-            "updated": "2017-09-26T21:09:37+0000"
+            "updated": "2018-04-24T14:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1625,7 +1625,7 @@
             "filename": "xfce4-eyes-plugin_4.4.5.bb",
             "filepath": "recipes-panel-plugins/eyes",
             "homepage": "http://www.xfce.org",
-            "id": 381777,
+            "id": 578759,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -1634,7 +1634,7 @@
             "pv": "4.4.5",
             "section": "base",
             "summary": "Panel plugin with graphical representation of the cpu frequency",
-            "updated": "2017-09-26T21:09:38+0000"
+            "updated": "2018-04-24T14:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1644,7 +1644,7 @@
             "filename": "xfce4-fsguard-plugin_1.1.0.bb",
             "filepath": "recipes-panel-plugins/fsguard",
             "homepage": "http://www.xfce.org",
-            "id": 381778,
+            "id": 578760,
             "inherits": "autotools distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "GPLv3",
@@ -1653,7 +1653,7 @@
             "pv": "1.1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T21:09:38+0000"
+            "updated": "2018-04-24T14:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1663,7 +1663,7 @@
             "filename": "xfce4-whiskermenu-plugin_2.1.3.bb",
             "filepath": "recipes-panel-plugins/whiskermenu",
             "homepage": "http://www.xfce.org",
-            "id": 381779,
+            "id": 578761,
             "inherits": "autotools cmake distro_features_check gettext gtk-icon-cache pkgconfig siteconfig siteinfo xfce xfce-panel-plugin",
             "layerbranch": 165075,
             "license": "GPLv2",
@@ -1672,7 +1672,7 @@
             "pv": "2.1.3",
             "section": "base",
             "summary": "An alternate menu for the Xfce desktop environment",
-            "updated": "2017-09-26T21:09:38+0000"
+            "updated": "2018-04-24T14:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1682,7 +1682,7 @@
             "filename": "core-image-minimal-xfce.bb",
             "filepath": "recipes-core/images",
             "homepage": "",
-            "id": 381780,
+            "id": 578762,
             "inherits": "core-image distro_features_check image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 165075,
             "license": "MIT",
@@ -1691,7 +1691,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-09-26T21:09:38+0000"
+            "updated": "2018-04-24T14:04:39+0000"
         }
     ],
     "wrtemplates": []
