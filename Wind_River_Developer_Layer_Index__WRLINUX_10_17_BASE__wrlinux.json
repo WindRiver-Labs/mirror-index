@@ -8,28 +8,28 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.17-20171012",
+            "bitbake_branch": "wr-10.17-20180418",
             "id": 48,
             "name": "WRLINUX_10_17_BASE",
             "short_description": "Wind River Linux 10_17 Baseline",
             "sort_priority": 9,
             "update_environment": null,
-            "updated": "2017-10-25T20:10:43+0000",
+            "updated": "2018-04-25T08:04:56+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.17-20171018",
+            "actual_branch": "wr-10.17-20180418",
             "branch": 48,
             "collection": "core",
             "id": 165030,
             "layer": 1,
-            "updated": "2018-04-24T14:04:08+0000",
-            "vcs_last_commit": "2018-03-27T09:03:18+0000",
-            "vcs_last_fetch": "2018-04-24T14:04:08+0000",
-            "vcs_last_rev": "7143aaff9d30c8592010d35b0b8ff92b7c87112b",
+            "updated": "2018-04-30T18:04:45+0000",
+            "vcs_last_commit": "2018-04-27T08:04:31+0000",
+            "vcs_last_fetch": "2018-04-30T18:04:45+0000",
+            "vcs_last_rev": "22edd0b439f017a7badbaa7a58300abb82fb7b33",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -40,9 +40,9 @@
             "collection": "wr-template",
             "id": 165069,
             "layer": 55,
-            "updated": "2018-04-24T14:04:18+0000",
+            "updated": "2018-04-30T18:04:54+0000",
             "vcs_last_commit": "2017-12-13T05:12:44+0000",
-            "vcs_last_fetch": "2018-04-24T14:04:18+0000",
+            "vcs_last_fetch": "2018-04-30T18:04:54+0000",
             "vcs_last_rev": "0a6c6f593d8c13216b897c1731b289c15f571393",
             "vcs_subdir": "",
             "version": "1",
@@ -54,10 +54,10 @@
             "collection": "wrlinux",
             "id": 166260,
             "layer": 49,
-            "updated": "2018-04-24T14:04:30+0000",
-            "vcs_last_commit": "2018-04-24T07:04:11+0000",
-            "vcs_last_fetch": "2018-04-24T14:04:30+0000",
-            "vcs_last_rev": "c7f29d95f0e4364da46d700610e181c89ec3cd33",
+            "updated": "2018-04-30T18:04:07+0000",
+            "vcs_last_commit": "2018-04-28T04:04:10+0000",
+            "vcs_last_fetch": "2018-04-30T18:04:07+0000",
+            "vcs_last_rev": "a13ce38e7d722ffd0c83c03f69a1f6026ce0c190",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": null
@@ -200,7 +200,7 @@
             "filename": "wr-themes_1.0.bb",
             "filepath": "recipes-graphics/wr-themes",
             "homepage": "http://www.windriver.com",
-            "id": 526466,
+            "id": 621651,
             "inherits": "distro_features_check",
             "layerbranch": 166260,
             "license": "windriver",
@@ -209,7 +209,7 @@
             "pv": "1.0",
             "section": "x11",
             "summary": "Wind River Linux Desktop Themes",
-            "updated": "2018-04-19T07:04:21+0000"
+            "updated": "2018-04-28T03:04:55+0000"
         },
         {
             "bbclassextend": "",
@@ -219,7 +219,7 @@
             "filename": "aer-inject_git.bb",
             "filepath": "recipes-kernel/aer-inject",
             "homepage": "",
-            "id": 526467,
+            "id": 621652,
             "inherits": "",
             "layerbranch": 166260,
             "license": "GPLv2",
@@ -228,7 +228,7 @@
             "pv": "20100310+gitX",
             "section": "base",
             "summary": "inject PCIE AER errors on the software level",
-            "updated": "2018-04-19T07:04:22+0000"
+            "updated": "2018-04-28T03:04:55+0000"
         },
         {
             "bbclassextend": "",
@@ -238,7 +238,7 @@
             "filename": "vdso-test.bb",
             "filepath": "recipes-kernel/vdso-test",
             "homepage": "",
-            "id": 526468,
+            "id": 621653,
             "inherits": "siteinfo",
             "layerbranch": 166260,
             "license": "GPLv2",
@@ -247,7 +247,7 @@
             "pv": "1.0",
             "section": "vdso test",
             "summary": " Vdso test Tool",
-            "updated": "2018-04-19T07:04:22+0000"
+            "updated": "2018-04-28T03:04:55+0000"
         },
         {
             "bbclassextend": "",
@@ -257,7 +257,7 @@
             "filename": "mce-test_git.bb",
             "filepath": "recipes-kernel/mce-test",
             "homepage": "",
-            "id": 526469,
+            "id": 621654,
             "inherits": "autotools autotools-brokensep siteconfig siteinfo",
             "layerbranch": 166260,
             "license": "GPLv2",
@@ -266,7 +266,7 @@
             "pv": "20131218+gitX",
             "section": "base",
             "summary": "MCE test suite",
-            "updated": "2018-04-19T07:04:22+0000"
+            "updated": "2018-04-28T03:04:55+0000"
         },
         {
             "bbclassextend": "",
@@ -276,7 +276,7 @@
             "filename": "intel-pcm_2.3a.bb",
             "filepath": "recipes-kernel/intel-pcm",
             "homepage": "http://software.intel.com/en-us/articles/intel-performance-counter-monitor-a-better-way-to-measure-cpu-utilization",
-            "id": 526470,
+            "id": 621655,
             "inherits": "",
             "layerbranch": 166260,
             "license": "BSD",
@@ -285,7 +285,7 @@
             "pv": "2.3a",
             "section": "base",
             "summary": "Intel Processor Counter Monitor",
-            "updated": "2018-04-19T07:04:22+0000"
+            "updated": "2018-04-28T03:04:55+0000"
         },
         {
             "bbclassextend": "",
@@ -295,7 +295,7 @@
             "filename": "turbostat_3.4.bb",
             "filepath": "recipes-kernel/turbostat",
             "homepage": "",
-            "id": 526471,
+            "id": 621656,
             "inherits": "",
             "layerbranch": 166260,
             "license": "GPLv2",
@@ -304,7 +304,7 @@
             "pv": "3.4",
             "section": "base",
             "summary": "Frequency and Idle power monitoring tools for Linux",
-            "updated": "2018-04-19T07:04:22+0000"
+            "updated": "2018-04-28T03:04:55+0000"
         },
         {
             "bbclassextend": "",
@@ -314,7 +314,7 @@
             "filename": "cma-test.bb",
             "filepath": "recipes-kernel/cma-test",
             "homepage": "http://ozlabs.org/~cyeoh/cma/process_vm_readv.txt",
-            "id": 526472,
+            "id": 621657,
             "inherits": "",
             "layerbranch": 166260,
             "license": "PD",
@@ -323,7 +323,7 @@
             "pv": "0.0.1",
             "section": "base",
             "summary": "Cross Memory Attach test case (cma)",
-            "updated": "2018-04-19T07:04:22+0000"
+            "updated": "2018-04-28T03:04:55+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -333,7 +333,7 @@
             "filename": "anspass_git.bb",
             "filepath": "recipes-support/anspass",
             "homepage": "",
-            "id": 526473,
+            "id": 621658,
             "inherits": "autotools autotools-brokensep siteconfig siteinfo",
             "layerbranch": 166260,
             "license": "LGPLv2",
@@ -342,7 +342,7 @@
             "pv": "1.0+gitX",
             "section": "base",
             "summary": "Credential storage for utilities that implement the askpass interface",
-            "updated": "2018-04-19T07:04:23+0000"
+            "updated": "2018-04-28T03:04:56+0000"
         },
         {
             "bbclassextend": "",
@@ -352,7 +352,7 @@
             "filename": "packagegroup-xfce.bb",
             "filepath": "dynamic-layers/xfce-layer/recipes-xfce/packagegroups",
             "homepage": "",
-            "id": 526474,
+            "id": 621659,
             "inherits": "allarch distro_features_check packagegroup",
             "layerbranch": 166260,
             "license": "MIT",
@@ -361,7 +361,7 @@
             "pv": "1.0",
             "section": "x11/wm",
             "summary": "All packages for full XFCE installation",
-            "updated": "2018-04-19T07:04:23+0000"
+            "updated": "2018-04-28T03:04:56+0000"
         },
         {
             "bbclassextend": "",
@@ -371,7 +371,7 @@
             "filename": "wr-common-packages-native.bb",
             "filepath": "recipes-base/wr-common-packages-native",
             "homepage": "",
-            "id": 526475,
+            "id": 621660,
             "inherits": "native nopackages relocatable",
             "layerbranch": 166260,
             "license": "MIT",
@@ -380,7 +380,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-19T07:04:23+0000"
+            "updated": "2018-04-28T03:04:56+0000"
         },
         {
             "bbclassextend": "",
@@ -390,7 +390,7 @@
             "filename": "packagegroup-busybox-replacement.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 526476,
+            "id": 621661,
             "inherits": "allarch packagegroup",
             "layerbranch": 166260,
             "license": "",
@@ -399,7 +399,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Tools to replace busybox",
-            "updated": "2018-04-19T07:04:23+0000"
+            "updated": "2018-04-28T03:04:56+0000"
         },
         {
             "bbclassextend": "",
@@ -409,7 +409,7 @@
             "filename": "u-boot-imx_2016.03.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "",
-            "id": 526477,
+            "id": 621662,
             "inherits": "deploy uboot-config uboot-extlinux-config uboot-sign",
             "layerbranch": 166260,
             "license": "GPLv2+",
@@ -418,191 +418,198 @@
             "pv": "2016.03",
             "section": "base",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2018-04-19T07:04:23+0000"
+            "updated": "2018-04-28T03:04:56+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "Enable addition security CFLAGS and LDFLAGS",
-            "id": 22116,
+            "id": 24876,
             "layerbranch": 166260,
             "name": "feature/security-flags",
-            "updated": "2018-03-29T09:03:41+0000"
+            "updated": "2018-04-28T03:04:54+0000"
+        },
+        {
+            "description": "",
+            "id": 24877,
+            "layerbranch": 166260,
+            "name": "feature/ntp428p11",
+            "updated": "2018-04-28T03:04:54+0000"
         },
         {
             "description": "Enable common Managed Build Project (mbp) settings",
-            "id": 22117,
+            "id": 24878,
             "layerbranch": 166260,
             "name": "feature/mbp-project",
-            "updated": "2018-03-29T09:03:41+0000"
+            "updated": "2018-04-28T03:04:54+0000"
         },
         {
             "description": "Add packagegroup-self-hosted to the image",
-            "id": 22118,
+            "id": 24879,
             "layerbranch": 166260,
             "name": "feature/self-hosted",
-            "updated": "2018-03-29T09:03:41+0000"
+            "updated": "2018-04-28T03:04:54+0000"
         },
         {
             "description": "Add gcc-sanitizers to image",
-            "id": 22119,
+            "id": 24880,
             "layerbranch": 166260,
             "name": "feature/gcc-sanitizers",
-            "updated": "2018-03-29T09:03:41+0000"
+            "updated": "2018-04-28T03:04:54+0000"
         },
         {
             "description": "Enable package-test functionality",
-            "id": 22120,
+            "id": 24881,
             "layerbranch": 166260,
             "name": "feature/ptest",
-            "updated": "2018-03-29T09:03:41+0000"
+            "updated": "2018-04-28T03:04:54+0000"
         },
         {
             "description": "Include kernel-dev and kernel-devsrc in SDK",
-            "id": 22121,
+            "id": 24882,
             "layerbranch": 166260,
             "name": "feature/kernel-dev",
-            "updated": "2018-03-29T09:03:41+0000"
+            "updated": "2018-04-28T03:04:54+0000"
         },
         {
             "description": "Enable archiver class and original src mode",
-            "id": 22122,
+            "id": 24883,
             "layerbranch": 166260,
             "name": "feature/archiver",
-            "updated": "2018-03-29T09:03:41+0000"
+            "updated": "2018-04-28T03:04:54+0000"
         },
         {
             "description": "Set the default syslog to sysklogd",
-            "id": 22123,
+            "id": 24884,
             "layerbranch": 166260,
             "name": "feature/sysklogd",
-            "updated": "2018-03-29T09:03:41+0000"
+            "updated": "2018-04-28T03:04:54+0000"
         },
         {
             "description": "Enable readonly-root filesystem",
-            "id": 22124,
+            "id": 24885,
             "layerbranch": 166260,
             "name": "feature/readonly-root",
-            "updated": "2018-03-29T09:03:41+0000"
-        },
-        {
-            "description": "",
-            "id": 22125,
-            "layerbranch": 166260,
-            "name": "feature/ntp",
-            "updated": "2018-03-29T09:03:41+0000"
-        },
-        {
-            "description": "Add on-target package management to image",
-            "id": 22126,
-            "layerbranch": 166260,
-            "name": "feature/package-management",
-            "updated": "2018-03-29T09:03:41+0000"
-        },
-        {
-            "description": "Add valgrind to the image",
-            "id": 22127,
-            "layerbranch": 166260,
-            "name": "feature/valgrind",
-            "updated": "2018-03-29T09:03:41+0000"
-        },
-        {
-            "description": "Add system and process monitoring utilities to the image",
-            "id": 22128,
-            "layerbranch": 166260,
-            "name": "feature/system-stats",
-            "updated": "2018-03-29T09:03:41+0000"
-        },
-        {
-            "description": "",
-            "id": 22129,
-            "layerbranch": 166260,
-            "name": "feature/rpm-local-keys",
-            "updated": "2018-03-29T09:03:41+0000"
-        },
-        {
-            "description": "Enable qemu to use native SDL libraries",
-            "id": 22130,
-            "layerbranch": 166260,
-            "name": "feature/qemu-sdl",
-            "updated": "2018-03-29T09:03:41+0000"
-        },
-        {
-            "description": "Enable Data Plane Development Kit (DPDK)",
-            "id": 22131,
-            "layerbranch": 166260,
-            "name": "feature/dpdk",
-            "updated": "2018-03-29T09:03:41+0000"
-        },
-        {
-            "description": "Add sftp-server to the image",
-            "id": 22132,
-            "layerbranch": 166260,
-            "name": "feature/sftp-server",
-            "updated": "2018-03-29T09:03:41+0000"
-        },
-        {
-            "description": "Add dev packages to image",
-            "id": 22133,
-            "layerbranch": 166260,
-            "name": "feature/dev-pkgs",
-            "updated": "2018-03-29T09:03:41+0000"
-        },
-        {
-            "description": "Add gdb and gdbserver to image",
-            "id": 22134,
-            "layerbranch": 166260,
-            "name": "feature/gdb",
-            "updated": "2018-03-29T09:03:41+0000"
-        },
-        {
-            "description": "Enable on-target software development",
-            "id": 22135,
-            "layerbranch": 166260,
-            "name": "feature/target-toolchain",
-            "updated": "2018-03-29T09:03:41+0000"
-        },
-        {
-            "description": "",
-            "id": 22136,
-            "layerbranch": 166260,
-            "name": "feature/rpm-required-sig",
-            "updated": "2018-03-29T09:03:41+0000"
-        },
-        {
-            "description": "Add gdbserver to image",
-            "id": 22137,
-            "layerbranch": 166260,
-            "name": "feature/gdbserver",
-            "updated": "2018-03-29T09:03:41+0000"
-        },
-        {
-            "description": "",
-            "id": 22138,
-            "layerbranch": 166260,
-            "name": "feature/wr-profiling-kernel-overrides",
-            "updated": "2018-03-29T09:03:41+0000"
+            "updated": "2018-04-28T03:04:54+0000"
         },
         {
             "description": "Enable python device cloud agent.",
-            "id": 22218,
+            "id": 24886,
             "layerbranch": 166260,
             "name": "feature/python-device-cloud",
-            "updated": "2018-04-02T08:04:44+0000"
-        },
-        {
-            "description": "Enable python3 device cloud agent.",
-            "id": 22219,
-            "layerbranch": 166260,
-            "name": "feature/python3-device-cloud",
-            "updated": "2018-04-02T08:04:44+0000"
+            "updated": "2018-04-28T03:04:54+0000"
         },
         {
             "description": "",
-            "id": 23387,
+            "id": 24887,
             "layerbranch": 166260,
-            "name": "feature/ntp428p11",
-            "updated": "2018-04-24T06:04:00+0000"
+            "name": "feature/ntp",
+            "updated": "2018-04-28T03:04:54+0000"
+        },
+        {
+            "description": "Add on-target package management to image",
+            "id": 24888,
+            "layerbranch": 166260,
+            "name": "feature/package-management",
+            "updated": "2018-04-28T03:04:54+0000"
+        },
+        {
+            "description": "Add valgrind to the image",
+            "id": 24889,
+            "layerbranch": 166260,
+            "name": "feature/valgrind",
+            "updated": "2018-04-28T03:04:54+0000"
+        },
+        {
+            "description": "Add system and process monitoring utilities to the image",
+            "id": 24890,
+            "layerbranch": 166260,
+            "name": "feature/system-stats",
+            "updated": "2018-04-28T03:04:54+0000"
+        },
+        {
+            "description": "",
+            "id": 24891,
+            "layerbranch": 166260,
+            "name": "feature/rpm-local-keys",
+            "updated": "2018-04-28T03:04:54+0000"
+        },
+        {
+            "description": "Enable qemu to use native SDL libraries",
+            "id": 24892,
+            "layerbranch": 166260,
+            "name": "feature/qemu-sdl",
+            "updated": "2018-04-28T03:04:54+0000"
+        },
+        {
+            "description": "Enable Data Plane Development Kit (DPDK)",
+            "id": 24893,
+            "layerbranch": 166260,
+            "name": "feature/dpdk",
+            "updated": "2018-04-28T03:04:54+0000"
+        },
+        {
+            "description": "Add sftp-server to the image",
+            "id": 24894,
+            "layerbranch": 166260,
+            "name": "feature/sftp-server",
+            "updated": "2018-04-28T03:04:54+0000"
+        },
+        {
+            "description": "Add dev packages to image",
+            "id": 24895,
+            "layerbranch": 166260,
+            "name": "feature/dev-pkgs",
+            "updated": "2018-04-28T03:04:54+0000"
+        },
+        {
+            "description": "Add gdb and gdbserver to image",
+            "id": 24896,
+            "layerbranch": 166260,
+            "name": "feature/gdb",
+            "updated": "2018-04-28T03:04:54+0000"
+        },
+        {
+            "description": "Enable on-target software development",
+            "id": 24897,
+            "layerbranch": 166260,
+            "name": "feature/target-toolchain",
+            "updated": "2018-04-28T03:04:54+0000"
+        },
+        {
+            "description": "",
+            "id": 24898,
+            "layerbranch": 166260,
+            "name": "feature/rpm-required-sig",
+            "updated": "2018-04-28T03:04:54+0000"
+        },
+        {
+            "description": "Add gdbserver to image",
+            "id": 24899,
+            "layerbranch": 166260,
+            "name": "feature/gdbserver",
+            "updated": "2018-04-28T03:04:54+0000"
+        },
+        {
+            "description": "",
+            "id": 24900,
+            "layerbranch": 166260,
+            "name": "feature/wr-profiling-kernel-overrides",
+            "updated": "2018-04-28T03:04:54+0000"
+        },
+        {
+            "description": "Enable python3 device cloud agent.",
+            "id": 24901,
+            "layerbranch": 166260,
+            "name": "feature/python3-device-cloud",
+            "updated": "2018-04-28T03:04:54+0000"
+        },
+        {
+            "description": "",
+            "id": 24902,
+            "layerbranch": 166260,
+            "name": "feature/gperftools",
+            "updated": "2018-04-28T03:04:55+0000"
         }
     ]
 }

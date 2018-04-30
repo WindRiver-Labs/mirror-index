@@ -8,28 +8,28 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.17-20171012",
+            "bitbake_branch": "wr-10.17-20180418",
             "id": 48,
             "name": "WRLINUX_10_17_BASE",
             "short_description": "Wind River Linux 10_17 Baseline",
             "sort_priority": 9,
             "update_environment": null,
-            "updated": "2017-10-25T20:10:43+0000",
+            "updated": "2018-04-25T08:04:56+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.17-20171018",
+            "actual_branch": "wr-10.17-20180418",
             "branch": 48,
             "collection": "core",
             "id": 165030,
             "layer": 1,
-            "updated": "2018-04-24T14:04:08+0000",
-            "vcs_last_commit": "2018-03-27T09:03:18+0000",
-            "vcs_last_fetch": "2018-04-24T14:04:08+0000",
-            "vcs_last_rev": "7143aaff9d30c8592010d35b0b8ff92b7c87112b",
+            "updated": "2018-04-30T18:04:45+0000",
+            "vcs_last_commit": "2018-04-27T08:04:31+0000",
+            "vcs_last_fetch": "2018-04-30T18:04:45+0000",
+            "vcs_last_rev": "22edd0b439f017a7badbaa7a58300abb82fb7b33",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -40,9 +40,9 @@
             "collection": "openembedded-layer",
             "id": 165076,
             "layer": 7,
-            "updated": "2018-04-24T14:04:09+0000",
+            "updated": "2018-04-30T18:04:46+0000",
             "vcs_last_commit": "2018-02-12T01:02:22+0000",
-            "vcs_last_fetch": "2018-04-24T14:04:09+0000",
+            "vcs_last_fetch": "2018-04-30T18:04:46+0000",
             "vcs_last_rev": "274ce9bf5d71a6a02d0bb09832423d7dff1ed548",
             "vcs_subdir": "meta-oe",
             "version": "1",
@@ -54,9 +54,9 @@
             "collection": "perl-layer",
             "id": 165081,
             "layer": 13,
-            "updated": "2018-04-24T14:04:11+0000",
+            "updated": "2018-04-30T18:04:48+0000",
             "vcs_last_commit": "2017-10-18T06:10:28+0000",
-            "vcs_last_fetch": "2018-04-24T14:04:11+0000",
+            "vcs_last_fetch": "2018-04-30T18:04:48+0000",
             "vcs_last_rev": "f09a3b9f43c51f7055afee9126a770f44d4b5cb3",
             "vcs_subdir": "meta-perl",
             "version": "1",
@@ -146,7 +146,7 @@
             "filename": "mime-construct_1.11.bb",
             "filepath": "recipes-extended/mime-construct",
             "homepage": "http://search.cpan.org/~rosch/mime-construct/mime-construct",
-            "id": 382257,
+            "id": 620476,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "GPLv2+",
@@ -155,7 +155,7 @@
             "pv": "1.11",
             "section": "mail",
             "summary": "Construct and optionally mail MIME messages",
-            "updated": "2017-09-26T21:09:44+0000"
+            "updated": "2018-04-28T03:04:16+0000"
         },
         {
             "bbclassextend": "",
@@ -165,7 +165,7 @@
             "filename": "logcheck_1.3.18.bb",
             "filepath": "recipes-extended/logcheck",
             "homepage": "http://logcheck.org/",
-            "id": 382258,
+            "id": 620477,
             "inherits": "useradd useradd_base",
             "layerbranch": 165081,
             "license": "GPLv2",
@@ -174,7 +174,7 @@
             "pv": "1.3.18",
             "section": "Applications/System",
             "summary": "Analyzes log files and sends noticeable events as email",
-            "updated": "2017-09-26T21:09:44+0000"
+            "updated": "2018-04-28T03:04:16+0000"
         },
         {
             "bbclassextend": "native",
@@ -184,7 +184,7 @@
             "filename": "libstrictures-perl_2.000003.bb",
             "filepath": "recipes-perl/libstrictures",
             "homepage": "https://metacpan.org/pod/strictures",
-            "id": 382259,
+            "id": 620478,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -193,7 +193,7 @@
             "pv": "2.000003",
             "section": "libs",
             "summary": "strictures - turn on strict and make all warnings fatal",
-            "updated": "2017-09-26T21:09:44+0000"
+            "updated": "2018-04-28T03:04:16+0000"
         },
         {
             "bbclassextend": "native",
@@ -203,7 +203,7 @@
             "filename": "libmodule-pluggable-perl_5.2.bb",
             "filepath": "recipes-perl/libmodule",
             "homepage": "https://github.com/simonwistow/Module-Pluggable",
-            "id": 382260,
+            "id": 620479,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -212,7 +212,7 @@
             "pv": "5.2",
             "section": "libs",
             "summary": "Automatically give your module the ability to have plugins",
-            "updated": "2017-09-26T21:09:44+0000"
+            "updated": "2018-04-28T03:04:16+0000"
         },
         {
             "bbclassextend": "native",
@@ -222,7 +222,7 @@
             "filename": "libmodule-build-perl_0.4224.bb",
             "filepath": "recipes-perl/libmodule",
             "homepage": "https://metacpan.org/release/Module-Build",
-            "id": 382261,
+            "id": 620480,
             "inherits": "cpan-base cpan_build perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -231,7 +231,7 @@
             "pv": "0.4224",
             "section": "libs",
             "summary": "Module::Build - Build and install Perl modules",
-            "updated": "2017-09-26T21:09:44+0000"
+            "updated": "2018-04-28T03:04:16+0000"
         },
         {
             "bbclassextend": "native",
@@ -241,7 +241,7 @@
             "filename": "libmodule-runtime-perl_0.015.bb",
             "filepath": "recipes-perl/libmodule",
             "homepage": "http://search.cpan.org/~zefram/Module-Runtime/",
-            "id": 382262,
+            "id": 620481,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -250,7 +250,7 @@
             "pv": "0.015",
             "section": "libs",
             "summary": "Module::Runtime - runtime module handling",
-            "updated": "2017-09-26T21:09:44+0000"
+            "updated": "2018-04-28T03:04:16+0000"
         },
         {
             "bbclassextend": "native",
@@ -260,7 +260,7 @@
             "filename": "libmodule-build-tiny-perl_0.039.bb",
             "filepath": "recipes-perl/libmodule",
             "homepage": "http://search.cpan.org/~leont/Module-Build-Tiny/",
-            "id": 382263,
+            "id": 620482,
             "inherits": "cpan-base cpan_build perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -269,7 +269,7 @@
             "pv": "0.039",
             "section": "libs",
             "summary": "Module::Build::Tiny - A tiny replacement for Module::Build",
-            "updated": "2017-09-26T21:09:45+0000"
+            "updated": "2018-04-28T03:04:17+0000"
         },
         {
             "bbclassextend": "",
@@ -279,7 +279,7 @@
             "filename": "libcrypt-openssl-random-perl_0.11.bb",
             "filepath": "recipes-perl/libcrypt",
             "homepage": "",
-            "id": 382264,
+            "id": 620483,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -288,7 +288,7 @@
             "pv": "0.11",
             "section": "libs",
             "summary": "Crypt Openssl Random cpan module",
-            "updated": "2017-09-26T21:09:45+0000"
+            "updated": "2018-04-28T03:04:17+0000"
         },
         {
             "bbclassextend": "",
@@ -298,7 +298,7 @@
             "filename": "libcrypt-openssl-rsa-perl_0.28.bb",
             "filepath": "recipes-perl/libcrypt",
             "homepage": "",
-            "id": 382265,
+            "id": 620484,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -307,7 +307,7 @@
             "pv": "0.28",
             "section": "libs",
             "summary": "Crypt Openssl RSA cpan module",
-            "updated": "2017-09-26T21:09:45+0000"
+            "updated": "2018-04-28T03:04:17+0000"
         },
         {
             "bbclassextend": "native",
@@ -317,7 +317,7 @@
             "filename": "libcapture-tiny-perl_0.46.bb",
             "filepath": "recipes-perl/libcapture",
             "homepage": "http://search.cpan.org/~dagolden/Capture-Tiny/",
-            "id": 382266,
+            "id": 620485,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -326,7 +326,7 @@
             "pv": "0.46",
             "section": "libs",
             "summary": "Capture::Tiny - Capture STDOUT and STDERR from Perl, XS or external programs.",
-            "updated": "2017-09-26T21:09:45+0000"
+            "updated": "2018-04-28T03:04:17+0000"
         },
         {
             "bbclassextend": "",
@@ -336,7 +336,7 @@
             "filename": "libnet-ldap-perl_0.65.bb",
             "filepath": "recipes-perl/libnet",
             "homepage": "",
-            "id": 382267,
+            "id": 620486,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0|GPLv1+",
@@ -345,7 +345,7 @@
             "pv": "0.65",
             "section": "libs",
             "summary": "LDAP Perl module",
-            "updated": "2017-09-26T21:09:45+0000"
+            "updated": "2018-04-28T03:04:17+0000"
         },
         {
             "bbclassextend": "",
@@ -355,7 +355,7 @@
             "filename": "libnet-telnet-perl_3.04.bb",
             "filepath": "recipes-perl/libnet",
             "homepage": "http://search.cpan.org/dist/Net-Telnet/",
-            "id": 382268,
+            "id": 620487,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0|GPLv1+",
@@ -364,7 +364,7 @@
             "pv": "3.04",
             "section": "Development/Libraries",
             "summary": "Net-Telnet Perl module",
-            "updated": "2017-09-26T21:09:45+0000"
+            "updated": "2018-04-28T03:04:17+0000"
         },
         {
             "bbclassextend": "native",
@@ -374,7 +374,7 @@
             "filename": "libnet-ssleay-perl_1.81.bb",
             "filepath": "recipes-perl/libnet",
             "homepage": "http://search.cpan.org/dist/Net-SSLeay/",
-            "id": 382269,
+            "id": 620488,
             "inherits": "cpan cpan-base perl-version perlnative ptest",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -383,7 +383,7 @@
             "pv": "1.81",
             "section": "libs",
             "summary": "Net::SSLeay - Perl extension for using OpenSSL",
-            "updated": "2017-09-26T21:09:45+0000"
+            "updated": "2018-04-28T03:04:17+0000"
         },
         {
             "bbclassextend": "native",
@@ -393,7 +393,7 @@
             "filename": "libnet-dns-perl_1.10.bb",
             "filepath": "recipes-perl/libnet",
             "homepage": "http://www.net-dns.org/",
-            "id": 382270,
+            "id": 620489,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -402,7 +402,7 @@
             "pv": "1.10",
             "section": "libs",
             "summary": "",
-            "updated": "2017-09-26T21:09:45+0000"
+            "updated": "2018-04-28T03:04:17+0000"
         },
         {
             "bbclassextend": "",
@@ -412,7 +412,7 @@
             "filename": "libnet-libidn-perl_0.12.bb",
             "filepath": "recipes-perl/libnet",
             "homepage": "http://search.cpan.org/dist/Net-LibIDN/",
-            "id": 382271,
+            "id": 620490,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPLv1+",
@@ -421,7 +421,7 @@
             "pv": "0.12",
             "section": "libs",
             "summary": "Net::LibIDN - Perl bindings for GNU Libidn",
-            "updated": "2017-09-26T21:09:45+0000"
+            "updated": "2018-04-28T03:04:18+0000"
         },
         {
             "bbclassextend": "native",
@@ -431,7 +431,7 @@
             "filename": "libhtml-parser-perl_3.72.bb",
             "filepath": "recipes-perl/libhtml",
             "homepage": "https://metacpan.org/release/HTML-Parser",
-            "id": 382272,
+            "id": 620491,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -440,7 +440,7 @@
             "pv": "3.72",
             "section": "libs",
             "summary": "",
-            "updated": "2017-09-26T21:09:46+0000"
+            "updated": "2018-04-28T03:04:18+0000"
         },
         {
             "bbclassextend": "native",
@@ -450,7 +450,7 @@
             "filename": "libhtml-tree-perl_5.03.bb",
             "filepath": "recipes-perl/libhtml",
             "homepage": "http://www.cpan.org/authors/id/C/CJ/CJM/HTML-Tree-5.03.readme",
-            "id": 382273,
+            "id": 620492,
             "inherits": "cpan-base cpan_build perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -459,7 +459,7 @@
             "pv": "5.03",
             "section": "libs",
             "summary": "HTML::TreeBuilder - Parser that builds a HTML syntax tree",
-            "updated": "2017-09-26T21:09:46+0000"
+            "updated": "2018-04-28T03:04:18+0000"
         },
         {
             "bbclassextend": "native",
@@ -469,7 +469,7 @@
             "filename": "libdigest-hmac-perl_1.03.bb",
             "filepath": "recipes-perl/libdigest",
             "homepage": "http://search.cpan.org/~gaas/Digest-HMAC-1.03/",
-            "id": 382274,
+            "id": 620493,
             "inherits": "cpan cpan-base perl-version perlnative ptest",
             "layerbranch": 165081,
             "license": "Artistic-1.0|GPLv1+",
@@ -478,7 +478,7 @@
             "pv": "1.03",
             "section": "libs",
             "summary": "Keyed-Hashing for Message Authentication",
-            "updated": "2017-09-26T21:09:46+0000"
+            "updated": "2018-04-28T03:04:18+0000"
         },
         {
             "bbclassextend": "native",
@@ -488,7 +488,7 @@
             "filename": "libdigest-sha1-perl_2.13.bb",
             "filepath": "recipes-perl/libdigest",
             "homepage": "http://search.cpan.org/~gaas/Digest-SHA1-2.13/",
-            "id": 382275,
+            "id": 620494,
             "inherits": "cpan cpan-base perl-version perlnative ptest",
             "layerbranch": 165081,
             "license": "Artistic-1.0|GPLv1+",
@@ -497,7 +497,7 @@
             "pv": "2.13",
             "section": "libs",
             "summary": "Perl interface to the SHA-1 algorithm ",
-            "updated": "2017-09-26T21:09:46+0000"
+            "updated": "2018-04-28T03:04:18+0000"
         },
         {
             "bbclassextend": "native",
@@ -507,7 +507,7 @@
             "filename": "libterm-readkey-perl_2.37.bb",
             "filepath": "recipes-perl/libterm",
             "homepage": "http://search.cpan.org/~jstowe/TermReadKey-2.37",
-            "id": 382276,
+            "id": 620495,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPLv1+",
@@ -516,7 +516,7 @@
             "pv": "2.37",
             "section": "libraries",
             "summary": "Term::ReadKey - A perl module for simple terminal control.",
-            "updated": "2017-09-26T21:09:46+0000"
+            "updated": "2018-04-28T03:04:19+0000"
         },
         {
             "bbclassextend": "native",
@@ -526,7 +526,7 @@
             "filename": "libauthen-sasl-perl_2.16.bb",
             "filepath": "recipes-perl/libauthen",
             "homepage": "http://search.cpan.org/dist/Authen-SASL/",
-            "id": 382277,
+            "id": 620496,
             "inherits": "cpan cpan-base perl-version perlnative ptest",
             "layerbranch": 165081,
             "license": "Artistic-1.0|GPL-1.0+",
@@ -535,26 +535,7 @@
             "pv": "2.16",
             "section": "libs",
             "summary": "SASL Authentication framework for Perl",
-            "updated": "2017-09-26T21:09:46+0000"
-        },
-        {
-            "bbclassextend": "native",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "The Authen::Radius module provides a simple class that     allows you to send/receive Radius requests/responses to/from a     Radius server. ",
-            "filename": "libauthen-radius-perl_0.22.bb",
-            "filepath": "../meta-networking/recipes-devtools/perl/libauthen",
-            "homepage": "http://search.cpan.org/~manowar/RadiusPerl",
-            "id": 382278,
-            "inherits": "cpan cpan-base perl-version perlnative ptest",
-            "layerbranch": 165081,
-            "license": "Artistic-2.0",
-            "pn": "libauthen-radius-perl",
-            "provides": "libauthen-radius-perl ",
-            "pv": "0.22",
-            "section": "libs",
-            "summary": "Authen::Radius - provide simple Radius client facilities",
-            "updated": "2017-10-17T01:10:06+0000"
+            "updated": "2018-04-28T03:04:19+0000"
         },
         {
             "bbclassextend": "native",
@@ -564,7 +545,7 @@
             "filename": "libdevel-globaldestruction-perl_0.14.bb",
             "filepath": "recipes-perl/libdevel",
             "homepage": "https://metacpan.org/pod/Devel-GlobalDestruction/",
-            "id": 382279,
+            "id": 620497,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -573,7 +554,7 @@
             "pv": "0.14",
             "section": "libs",
             "summary": "Function returning \\\"${^GLOBAL_PHASE} eq \\'DESTRUCT\\'\\\"",
-            "updated": "2017-09-26T21:09:47+0000"
+            "updated": "2018-04-28T03:04:19+0000"
         },
         {
             "bbclassextend": "",
@@ -583,7 +564,7 @@
             "filename": "libmime-types-perl_2.13.bb",
             "filepath": "recipes-perl/libmime",
             "homepage": "http://search.cpan.org/~markov/MIME-Types-2.13",
-            "id": 382280,
+            "id": 620498,
             "inherits": "cpan cpan-base perl-version perlnative ptest",
             "layerbranch": 165081,
             "license": "Artistic-1.0|GPLv1+",
@@ -592,7 +573,7 @@
             "pv": "2.13",
             "section": "libraries",
             "summary": "MIME::Types - Definition of MIME types",
-            "updated": "2017-09-26T21:09:47+0000"
+            "updated": "2018-04-28T03:04:19+0000"
         },
         {
             "bbclassextend": "native",
@@ -602,7 +583,7 @@
             "filename": "libmime-charset-perl_1.012.2.bb",
             "filepath": "recipes-perl/libmime",
             "homepage": "http://search.cpan.org/~nezumi/MIME-Charset-1.012.2/",
-            "id": 382281,
+            "id": 620499,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPLv1+",
@@ -611,7 +592,7 @@
             "pv": "1.012.2",
             "section": "libs",
             "summary": "MIME::Charset - Charset Information for MIME.",
-            "updated": "2017-09-26T21:09:47+0000"
+            "updated": "2018-04-28T03:04:19+0000"
         },
         {
             "bbclassextend": "native",
@@ -621,7 +602,7 @@
             "filename": "libextutils-cppguess-perl_0.09.bb",
             "filepath": "recipes-perl/libextutils",
             "homepage": "http://search.cpan.org/~smueller/ExtUtils-CppGuess/",
-            "id": 382282,
+            "id": 620500,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -630,7 +611,7 @@
             "pv": "0.09",
             "section": "libs",
             "summary": "ExtUtils::CppGuess - guess C++ compiler and flags",
-            "updated": "2017-09-26T21:09:47+0000"
+            "updated": "2018-04-28T03:04:19+0000"
         },
         {
             "bbclassextend": "native",
@@ -640,7 +621,7 @@
             "filename": "libextutils-installpaths-perl_0.011.bb",
             "filepath": "recipes-perl/libextutils",
             "homepage": "http://search.cpan.org/~leont/ExtUtils-InstallPaths/",
-            "id": 382283,
+            "id": 620501,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -649,7 +630,7 @@
             "pv": "0.011",
             "section": "libs",
             "summary": "ExtUtils::InstallPaths - Build.PL install path logic made easy",
-            "updated": "2017-09-26T21:09:47+0000"
+            "updated": "2018-04-28T03:04:20+0000"
         },
         {
             "bbclassextend": "native",
@@ -659,7 +640,7 @@
             "filename": "libextutils-helpers-perl_0.026.bb",
             "filepath": "recipes-perl/libextutils",
             "homepage": "http://search.cpan.org/~leont/ExtUtils-Helpers/",
-            "id": 382284,
+            "id": 620502,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -668,7 +649,7 @@
             "pv": "0.026",
             "section": "libs",
             "summary": "ExtUtils::Helpers - Various portability utilities for module builders",
-            "updated": "2017-09-26T21:09:47+0000"
+            "updated": "2018-04-28T03:04:20+0000"
         },
         {
             "bbclassextend": "native",
@@ -678,7 +659,7 @@
             "filename": "libextutils-config-perl_0.008.bb",
             "filepath": "recipes-perl/libextutils",
             "homepage": "http://search.cpan.org/~leont/ExtUtils-Config/",
-            "id": 382285,
+            "id": 620503,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -687,7 +668,7 @@
             "pv": "0.008",
             "section": "libs",
             "summary": "ExtUtils::Config - A wrapper for perl's configuration",
-            "updated": "2017-09-26T21:09:48+0000"
+            "updated": "2018-04-28T03:04:20+0000"
         },
         {
             "bbclassextend": "native",
@@ -697,7 +678,7 @@
             "filename": "libextutils-parsexs-perl_3.35.bb",
             "filepath": "recipes-perl/libextutils",
             "homepage": "http://metapan.org/release/ExtUtils-ParseXS/",
-            "id": 382286,
+            "id": 620504,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -706,7 +687,7 @@
             "pv": "3.35",
             "section": "libs",
             "summary": "ExtUtils::ParseXS - converts Perl XS code into C code",
-            "updated": "2017-09-26T21:09:48+0000"
+            "updated": "2018-04-28T03:04:20+0000"
         },
         {
             "bbclassextend": "native",
@@ -716,7 +697,7 @@
             "filename": "po4a_0.49.bb",
             "filepath": "recipes-perl/po4a",
             "homepage": "https://po4a.alioth.debian.org",
-            "id": 382287,
+            "id": 620505,
             "inherits": "cpan-base cpan_build perl-version perlnative",
             "layerbranch": 165081,
             "license": "GPLv2",
@@ -725,7 +706,7 @@
             "pv": "0.49",
             "section": "base",
             "summary": "PO for anything",
-            "updated": "2017-09-26T21:09:48+0000"
+            "updated": "2018-04-28T03:04:20+0000"
         },
         {
             "bbclassextend": "",
@@ -735,7 +716,7 @@
             "filename": "libcurses-perl_1.36.bb",
             "filepath": "recipes-perl/libcurses",
             "homepage": "",
-            "id": 382288,
+            "id": 620506,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -744,7 +725,7 @@
             "pv": "1.36",
             "section": "libs",
             "summary": "",
-            "updated": "2017-09-26T21:09:48+0000"
+            "updated": "2018-04-28T03:04:20+0000"
         },
         {
             "bbclassextend": "native",
@@ -754,7 +735,7 @@
             "filename": "libdbd-sqlite-perl_1.54.bb",
             "filepath": "recipes-perl/libdb",
             "homepage": "http://search.cpan.org/~ishigaki/DBD-SQLite/",
-            "id": 382289,
+            "id": 620507,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -763,7 +744,7 @@
             "pv": "1.54",
             "section": "libs",
             "summary": "A Perl DBI driver for SQLite",
-            "updated": "2017-09-26T21:09:48+0000"
+            "updated": "2018-04-28T03:04:20+0000"
         },
         {
             "bbclassextend": "native",
@@ -773,7 +754,7 @@
             "filename": "libtext-charwidth-perl_0.04.bb",
             "filepath": "recipes-perl/libtext",
             "homepage": "http://search.cpan.org/~kubota/Text-CharWidth-0.04/",
-            "id": 382290,
+            "id": 620508,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPLv1+",
@@ -782,7 +763,7 @@
             "pv": "0.04",
             "section": "libs",
             "summary": "Text::CharWidth - Get number of occupied columns of a string on terminal.",
-            "updated": "2017-09-26T21:09:48+0000"
+            "updated": "2018-04-28T03:04:21+0000"
         },
         {
             "bbclassextend": "native",
@@ -792,7 +773,7 @@
             "filename": "libtext-diff-perl_1.41.bb",
             "filepath": "recipes-perl/libtext",
             "homepage": "http://search.cpan.org/~ovid/Text-Diff/",
-            "id": 382291,
+            "id": 620509,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-2.0+",
@@ -801,7 +782,7 @@
             "pv": "1.41",
             "section": "libs",
             "summary": "Text::Diff - Perform diffs on files and record sets",
-            "updated": "2017-09-26T21:09:48+0000"
+            "updated": "2018-04-28T03:04:21+0000"
         },
         {
             "bbclassextend": "",
@@ -811,7 +792,7 @@
             "filename": "libtext-iconv-perl_1.7.bb",
             "filepath": "recipes-perl/libtext",
             "homepage": "",
-            "id": 382292,
+            "id": 620510,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -820,7 +801,7 @@
             "pv": "1.7",
             "section": "libs",
             "summary": "Perl interface to iconv() codeset conversion function",
-            "updated": "2017-09-26T21:09:48+0000"
+            "updated": "2018-04-28T03:04:21+0000"
         },
         {
             "bbclassextend": "native",
@@ -830,7 +811,7 @@
             "filename": "libtext-wrapi18n-perl_0.06.bb",
             "filepath": "recipes-perl/libtext",
             "homepage": "http://search.cpan.org/~kubota/Text-WrapI18N-0.06/",
-            "id": 382293,
+            "id": 620511,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPLv1+",
@@ -839,7 +820,7 @@
             "pv": "0.06",
             "section": "libs",
             "summary": "Text::WrapI18N - Line wrapping module with support for multibyte, fullwidth, and combining characters and languages without whitespaces between words.",
-            "updated": "2017-09-26T21:09:49+0000"
+            "updated": "2018-04-28T03:04:21+0000"
         },
         {
             "bbclassextend": "native",
@@ -849,7 +830,7 @@
             "filename": "libclass-method-modifiers-perl_2.12.bb",
             "filepath": "recipes-perl/libclass",
             "homepage": "https://github.com/moose/Class-Method-Modifiers/",
-            "id": 382294,
+            "id": 620512,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -858,7 +839,7 @@
             "pv": "2.12",
             "section": "libs",
             "summary": "Class::Method::Modifiers - provides Moose-like method modifiers",
-            "updated": "2017-09-26T21:09:49+0000"
+            "updated": "2018-04-28T03:04:21+0000"
         },
         {
             "bbclassextend": "native",
@@ -868,7 +849,7 @@
             "filename": "libio-socket-ssl-perl_1.997.bb",
             "filepath": "recipes-perl/libio",
             "homepage": "http://search.cpan.org/dist/IO-Socket-SSL/",
-            "id": 382295,
+            "id": 620513,
             "inherits": "cpan cpan-base perl-version perlnative ptest",
             "layerbranch": 165081,
             "license": "Artistic-1.0|GPLv1+",
@@ -877,7 +858,7 @@
             "pv": "1.997",
             "section": "libs",
             "summary": "Perl library for transparent SSL",
-            "updated": "2017-09-26T21:09:49+0000"
+            "updated": "2018-04-28T03:04:21+0000"
         },
         {
             "bbclassextend": "native",
@@ -887,7 +868,7 @@
             "filename": "libio-stringy-perl_2.111.bb",
             "filepath": "recipes-perl/libio",
             "homepage": "http://www.zeegee.com/products/IO-stringy/",
-            "id": 382296,
+            "id": 620514,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -896,7 +877,7 @@
             "pv": "2.111",
             "section": "devel",
             "summary": "IO-stringy - I/O on in-core objects like strings and arrays",
-            "updated": "2017-09-26T21:09:49+0000"
+            "updated": "2018-04-28T03:04:21+0000"
         },
         {
             "bbclassextend": "native",
@@ -906,7 +887,7 @@
             "filename": "libxml-sax-writer-perl_0.57.bb",
             "filepath": "recipes-perl/libxml",
             "homepage": "http://search.cpan.org/dist/XML-SAX-Writer/",
-            "id": 382297,
+            "id": 620515,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPLv1+",
@@ -915,7 +896,7 @@
             "pv": "0.57",
             "section": "libs",
             "summary": "XML::SAX::Writer - SAX2 Writer",
-            "updated": "2017-09-26T21:09:49+0000"
+            "updated": "2018-04-28T03:04:22+0000"
         },
         {
             "bbclassextend": "native",
@@ -925,7 +906,7 @@
             "filename": "libxml-filter-buffertext-perl_1.01.bb",
             "filepath": "recipes-perl/libxml",
             "homepage": "http://search.cpan.org/dist/XML-Filter-BufferText/",
-            "id": 382298,
+            "id": 620516,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPLv1+",
@@ -934,7 +915,7 @@
             "pv": "1.01",
             "section": "libs",
             "summary": "XML::Filter::BufferText - Filter to put all characters() in one event",
-            "updated": "2017-09-26T21:09:49+0000"
+            "updated": "2018-04-28T03:04:22+0000"
         },
         {
             "bbclassextend": "native",
@@ -944,7 +925,7 @@
             "filename": "libxml-libxml-perl_2.0129.bb",
             "filepath": "recipes-perl/libxml",
             "homepage": "http://search.cpan.org/dist/XML-LibXML-1.99/",
-            "id": 382299,
+            "id": 620517,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0|GPLv1+",
@@ -953,7 +934,7 @@
             "pv": "2.0129",
             "section": "libs",
             "summary": "Perl interface to the libxml2 library",
-            "updated": "2017-09-26T21:09:50+0000"
+            "updated": "2018-04-28T03:04:22+0000"
         },
         {
             "bbclassextend": "native",
@@ -963,7 +944,7 @@
             "filename": "liblocale-gettext-perl_1.07.bb",
             "filepath": "recipes-perl/liblocale",
             "homepage": "http://search.cpan.org/~pvandry/Locale-gettext-1.07/",
-            "id": 382300,
+            "id": 620518,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPLv1+",
@@ -972,7 +953,7 @@
             "pv": "1.07",
             "section": "libs",
             "summary": "Locale::gettext - message handling functions.",
-            "updated": "2017-09-26T21:09:50+0000"
+            "updated": "2018-04-28T03:04:22+0000"
         },
         {
             "bbclassextend": "native",
@@ -982,7 +963,7 @@
             "filename": "libalgorithm-diff-perl_1.15.bb",
             "filepath": "recipes-perl/libalgorithm",
             "homepage": "http://search.cpan.org/~nedkonz/Algorithm-Diff/",
-            "id": 382301,
+            "id": 620519,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -991,7 +972,7 @@
             "pv": "1.15",
             "section": "libs",
             "summary": "Algorithm::Diff - Compute 'intelligent' differences between two files/lists",
-            "updated": "2017-09-26T21:09:50+0000"
+            "updated": "2018-04-28T03:04:22+0000"
         },
         {
             "bbclassextend": "",
@@ -1001,7 +982,7 @@
             "filename": "libipc-signal-perl_1.00.bb",
             "filepath": "recipes-perl/libipc",
             "homepage": "http://search.cpan.org/~rosch/IPC-Signal-1.00/",
-            "id": 382302,
+            "id": 620520,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0|GPLv1+",
@@ -1010,7 +991,7 @@
             "pv": "1.00",
             "section": "libs",
             "summary": "IPC::Signal - Utility functions dealing with signals",
-            "updated": "2017-09-26T21:09:50+0000"
+            "updated": "2018-04-28T03:04:22+0000"
         },
         {
             "bbclassextend": "native",
@@ -1020,7 +1001,7 @@
             "filename": "libdata-hexdump-perl_0.02.bb",
             "filepath": "recipes-perl/libdata",
             "homepage": "http://search.cpan.org/~ftassin/Data-HexDump-0.02/lib/Data/HexDump.pm",
-            "id": 382303,
+            "id": 620521,
             "inherits": "cpan cpan-base perl-version perlnative ptest",
             "layerbranch": 165081,
             "license": "Artistic-1.0",
@@ -1029,7 +1010,7 @@
             "pv": "0.02",
             "section": "libs",
             "summary": "Data::HexDump - Hexadecial Dumper",
-            "updated": "2017-09-26T21:09:50+0000"
+            "updated": "2018-04-28T03:04:23+0000"
         },
         {
             "bbclassextend": "",
@@ -1039,7 +1020,7 @@
             "filename": "libproc-waitstat-perl_1.00.bb",
             "filepath": "recipes-perl/libproc",
             "homepage": "http://search.cpan.org/~rosch/Proc-WaitStat/",
-            "id": 382304,
+            "id": 620522,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0|GPLv1+",
@@ -1048,7 +1029,7 @@
             "pv": "1.00",
             "section": "libraries",
             "summary": "Interpret and act on wait() status values",
-            "updated": "2017-09-26T21:09:50+0000"
+            "updated": "2018-04-28T03:04:23+0000"
         },
         {
             "bbclassextend": "native",
@@ -1058,7 +1039,7 @@
             "filename": "libsub-exporter-progressive-perl_0.001013.bb",
             "filepath": "recipes-perl/libsub",
             "homepage": "https://metacpan.org/pod/Sub-Exporter-Progressive/",
-            "id": 382305,
+            "id": 620523,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -1067,7 +1048,7 @@
             "pv": "0.001013",
             "section": "libs",
             "summary": "Sub::Exporter::Progressive - Only use Sub::Exporter if you need it.",
-            "updated": "2017-09-26T21:09:50+0000"
+            "updated": "2018-04-28T03:04:23+0000"
         },
         {
             "bbclassextend": "native",
@@ -1077,7 +1058,7 @@
             "filename": "libimport-into-perl_1.002004.bb",
             "filepath": "recipes-perl/libimport",
             "homepage": "https://metacpan.org/pod/Import-Into/",
-            "id": 382306,
+            "id": 620524,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -1086,7 +1067,7 @@
             "pv": "1.002004",
             "section": "libs",
             "summary": "Import::Into - import packages into other packages",
-            "updated": "2017-09-26T21:09:50+0000"
+            "updated": "2018-04-28T03:04:23+0000"
         },
         {
             "bbclassextend": "",
@@ -1096,7 +1077,7 @@
             "filename": "adduser_3.116.bb",
             "filepath": "recipes-perl/adduser",
             "homepage": "http://alioth.debian.org/projects/adduser/",
-            "id": 382307,
+            "id": 620525,
             "inherits": "cpan-base perl-version update-alternatives",
             "layerbranch": 165081,
             "license": "GPLv2",
@@ -1105,7 +1086,7 @@
             "pv": "3.116",
             "section": "base/utils",
             "summary": "a utility to add users/groups to the system",
-            "updated": "2017-09-26T21:09:51+0000"
+            "updated": "2018-04-28T03:04:23+0000"
         },
         {
             "bbclassextend": "native",
@@ -1115,7 +1096,7 @@
             "filename": "libmoo-perl_2.003002.bb",
             "filepath": "recipes-perl/libmoo",
             "homepage": "http://metapan.org/release/Moo/",
-            "id": 382308,
+            "id": 620526,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -1124,7 +1105,7 @@
             "pv": "2.003002",
             "section": "libs",
             "summary": "Moo - Minimalist Object Orientation (with Moose compatibility)",
-            "updated": "2017-09-26T21:09:51+0000"
+            "updated": "2018-04-28T03:04:23+0000"
         },
         {
             "bbclassextend": "native",
@@ -1134,7 +1115,7 @@
             "filename": "libfile-slurp-perl_9999.19.bb",
             "filepath": "recipes-perl/libfile",
             "homepage": "",
-            "id": 382309,
+            "id": 620527,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -1143,7 +1124,7 @@
             "pv": "9999.19",
             "section": "libs",
             "summary": "Slurp entire files into variables.",
-            "updated": "2017-09-26T21:09:51+0000"
+            "updated": "2018-04-28T03:04:24+0000"
         },
         {
             "bbclassextend": "",
@@ -1153,7 +1134,7 @@
             "filename": "libcgi-perl_4.36.bb",
             "filepath": "recipes-perl/libcgi",
             "homepage": "http://search.cpan.org/~leejo/CGI-4.28/lib/CGI.pod",
-            "id": 382310,
+            "id": 620528,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-2.0 | GPL-2.0",
@@ -1162,7 +1143,7 @@
             "pv": "4.36",
             "section": "libs",
             "summary": "",
-            "updated": "2017-09-26T21:09:51+0000"
+            "updated": "2018-04-28T03:04:24+0000"
         },
         {
             "bbclassextend": "native",
@@ -1172,7 +1153,7 @@
             "filename": "librole-tiny-perl_2.000005.bb",
             "filepath": "recipes-perl/librole",
             "homepage": "https://metacpan.org/pod/Role::Tiny",
-            "id": 382311,
+            "id": 620529,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -1181,7 +1162,7 @@
             "pv": "2.000005",
             "section": "libs",
             "summary": "Role::Tiny - Roles. Like a nouvelle cousine portion size of Moose.",
-            "updated": "2017-09-26T21:09:51+0000"
+            "updated": "2018-04-28T03:04:24+0000"
         },
         {
             "bbclassextend": "native",
@@ -1191,7 +1172,7 @@
             "filename": "libtest-harness-perl_3.36.bb",
             "filepath": "recipes-perl/libtest",
             "homepage": "http://testanything.org",
-            "id": 382312,
+            "id": 620530,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -1200,7 +1181,7 @@
             "pv": "3.36",
             "section": "libs",
             "summary": "Test::Harness - Run Perl standard test scripts with statistics",
-            "updated": "2017-09-26T21:09:51+0000"
+            "updated": "2018-04-28T03:04:24+0000"
         },
         {
             "bbclassextend": "native",
@@ -1210,7 +1191,7 @@
             "filename": "libunicode-linebreak-perl_2017.004.bb",
             "filepath": "recipes-perl/libunicode",
             "homepage": "http://search.cpan.org/~nezumi/Unicode-LineBreak-2017.004/",
-            "id": 382313,
+            "id": 620531,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPLv1+",
@@ -1219,7 +1200,7 @@
             "pv": "2017.004",
             "section": "libs",
             "summary": "Unicode::LineBreak - UAX #14 Unicode Line Breaking Algorithm.",
-            "updated": "2017-09-26T21:09:51+0000"
+            "updated": "2018-04-28T03:04:24+0000"
         },
         {
             "bbclassextend": "native",
@@ -1229,7 +1210,7 @@
             "filename": "libencode-perl_2.83.bb",
             "filepath": "recipes-perl/libencode",
             "homepage": "https://metacpan.org/release/Encode",
-            "id": 382314,
+            "id": 620532,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -1238,7 +1219,7 @@
             "pv": "2.83",
             "section": "lib",
             "summary": "Encode - character encodings",
-            "updated": "2017-09-26T21:09:52+0000"
+            "updated": "2018-04-28T03:04:24+0000"
         },
         {
             "bbclassextend": "native",
@@ -1248,7 +1229,7 @@
             "filename": "libencode-locale-perl_1.05.bb",
             "filepath": "recipes-perl/libencode",
             "homepage": "https://metacpan.org/module/Encode::Locale",
-            "id": 382315,
+            "id": 620533,
             "inherits": "cpan cpan-base perl-version perlnative",
             "layerbranch": 165081,
             "license": "Artistic-1.0 | GPL-1.0+",
@@ -1257,7 +1238,7 @@
             "pv": "1.05",
             "section": "libs",
             "summary": "Encode::Locale - Determine the locale encoding",
-            "updated": "2017-09-26T21:09:52+0000"
+            "updated": "2018-04-28T03:04:24+0000"
         }
     ],
     "wrtemplates": []

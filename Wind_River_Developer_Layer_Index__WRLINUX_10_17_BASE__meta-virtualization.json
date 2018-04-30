@@ -8,28 +8,28 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.17-20171012",
+            "bitbake_branch": "wr-10.17-20180418",
             "id": 48,
             "name": "WRLINUX_10_17_BASE",
             "short_description": "Wind River Linux 10_17 Baseline",
             "sort_priority": 9,
             "update_environment": null,
-            "updated": "2017-10-25T20:10:43+0000",
+            "updated": "2018-04-25T08:04:56+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.17-20171018",
+            "actual_branch": "wr-10.17-20180418",
             "branch": 48,
             "collection": "core",
             "id": 165030,
             "layer": 1,
-            "updated": "2018-04-24T14:04:08+0000",
-            "vcs_last_commit": "2018-03-27T09:03:18+0000",
-            "vcs_last_fetch": "2018-04-24T14:04:08+0000",
-            "vcs_last_rev": "7143aaff9d30c8592010d35b0b8ff92b7c87112b",
+            "updated": "2018-04-30T18:04:45+0000",
+            "vcs_last_commit": "2018-04-27T08:04:31+0000",
+            "vcs_last_fetch": "2018-04-30T18:04:45+0000",
+            "vcs_last_rev": "22edd0b439f017a7badbaa7a58300abb82fb7b33",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -40,9 +40,9 @@
             "collection": "networking-layer",
             "id": 165079,
             "layer": 11,
-            "updated": "2018-04-24T14:04:23+0000",
+            "updated": "2018-04-30T18:04:00+0000",
             "vcs_last_commit": "2018-04-24T05:04:45+0000",
-            "vcs_last_fetch": "2018-04-24T14:04:23+0000",
+            "vcs_last_fetch": "2018-04-30T18:04:00+0000",
             "vcs_last_rev": "3b1a21ed7166708046ec55eacadbc4dde30cec39",
             "vcs_subdir": "meta-networking",
             "version": "1",
@@ -54,9 +54,9 @@
             "collection": "virtualization-layer",
             "id": 165142,
             "layer": 45,
-            "updated": "2018-04-24T14:04:26+0000",
+            "updated": "2018-04-30T18:04:03+0000",
             "vcs_last_commit": "2018-03-21T10:03:23+0000",
-            "vcs_last_fetch": "2018-04-24T14:04:26+0000",
+            "vcs_last_fetch": "2018-04-30T18:04:03+0000",
             "vcs_last_rev": "f909adbe312c7357a9e25261a77de2dea03f4d95",
             "vcs_subdir": "",
             "version": "1",
@@ -146,7 +146,7 @@
             "filename": "docker-distribution_git.bb",
             "filepath": "recipes-containers/docker-distribution",
             "homepage": "http://github.com/docker/distribution",
-            "id": 526376,
+            "id": 621167,
             "inherits": "go goarch ptest",
             "layerbranch": 165142,
             "license": "Apache-2.0",
@@ -155,7 +155,7 @@
             "pv": "v2.6.2",
             "section": "base",
             "summary": "The Docker toolset to pack, ship, store, and deliver content",
-            "updated": "2018-03-29T09:03:27+0000"
+            "updated": "2018-04-28T03:04:34+0000"
         },
         {
             "bbclassextend": "",
@@ -165,7 +165,7 @@
             "filename": "runc-opencontainers_git.bb",
             "filepath": "recipes-containers/runc",
             "homepage": "https://github.com/opencontainers/runc",
-            "id": 526377,
+            "id": 621168,
             "inherits": "go goarch ptest",
             "layerbranch": 165142,
             "license": "Apache-2.0",
@@ -174,7 +174,7 @@
             "pv": "1.0.0-rc4+gitX",
             "section": "base",
             "summary": "runc container cli tools",
-            "updated": "2018-03-29T09:03:28+0000"
+            "updated": "2018-04-28T03:04:34+0000"
         },
         {
             "bbclassextend": "",
@@ -184,7 +184,7 @@
             "filename": "runc-docker_git.bb",
             "filepath": "recipes-containers/runc",
             "homepage": "https://github.com/opencontainers/runc",
-            "id": 526378,
+            "id": 621169,
             "inherits": "go goarch ptest",
             "layerbranch": 165142,
             "license": "Apache-2.0",
@@ -193,7 +193,7 @@
             "pv": "1.0.0-rc3+gitX",
             "section": "base",
             "summary": "runc container cli tools",
-            "updated": "2018-03-29T09:03:28+0000"
+            "updated": "2018-04-28T03:04:35+0000"
         },
         {
             "bbclassextend": "",
@@ -203,7 +203,7 @@
             "filename": "oci-image-tools_git.bb",
             "filepath": "recipes-containers/oci-image-tools",
             "homepage": "https://github.com/opencontainers/image-tools",
-            "id": 526379,
+            "id": 621170,
             "inherits": "go goarch ptest",
             "layerbranch": 165142,
             "license": "Apache-2",
@@ -212,7 +212,7 @@
             "pv": "0.2.0-dev+gitX",
             "section": "base",
             "summary": "A collection of tools for working with the OCI image format specification",
-            "updated": "2018-03-29T09:03:28+0000"
+            "updated": "2018-04-28T03:04:35+0000"
         },
         {
             "bbclassextend": "",
@@ -222,7 +222,7 @@
             "filename": "lxc_2.0.8.bb",
             "filepath": "recipes-containers/lxc",
             "homepage": "",
-            "id": 526380,
+            "id": 621171,
             "inherits": "autotools pkgconfig ptest python3-dir python3native siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 165142,
             "license": "GPLv2",
@@ -231,7 +231,7 @@
             "pv": "2.0.8",
             "section": "console/utils",
             "summary": "",
-            "updated": "2018-03-29T09:03:28+0000"
+            "updated": "2018-04-28T03:04:35+0000"
         },
         {
             "bbclassextend": "",
@@ -241,7 +241,7 @@
             "filename": "oci-systemd-hook_git.bb",
             "filepath": "recipes-containers/oci-systemd-hook",
             "homepage": "",
-            "id": 526381,
+            "id": 621172,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 165142,
             "license": "GPLv3",
@@ -250,7 +250,7 @@
             "pv": "0.0.1+gitX",
             "section": "console/utils",
             "summary": "",
-            "updated": "2018-03-29T09:03:28+0000"
+            "updated": "2018-04-28T03:04:35+0000"
         },
         {
             "bbclassextend": "",
@@ -260,7 +260,7 @@
             "filename": "oci-image-spec_git.bb",
             "filepath": "recipes-containers/oci-image-spec",
             "homepage": "https://github.com/opencontainers/image-spec",
-            "id": 526382,
+            "id": 621173,
             "inherits": "",
             "layerbranch": 165142,
             "license": "Apache-2.0",
@@ -269,7 +269,7 @@
             "pv": "v1.0.0-rc4+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-03-29T09:03:28+0000"
+            "updated": "2018-04-28T03:04:35+0000"
         },
         {
             "bbclassextend": "",
@@ -279,7 +279,7 @@
             "filename": "spf13-pflag_git.bb",
             "filepath": "recipes-containers/go-spf13-pflag",
             "homepage": "https://github.com/spf13/pflag",
-            "id": 526383,
+            "id": 621174,
             "inherits": "",
             "layerbranch": 165142,
             "license": "BSD",
@@ -288,7 +288,7 @@
             "pv": "v1.0.0-rc4+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-03-29T09:03:28+0000"
+            "updated": "2018-04-28T03:04:35+0000"
         },
         {
             "bbclassextend": "",
@@ -298,7 +298,7 @@
             "filename": "oci-runtime-tools_git.bb",
             "filepath": "recipes-containers/oci-runtime-tools",
             "homepage": "https://github.com/opencontainers/runtime-tools",
-            "id": 526384,
+            "id": 621175,
             "inherits": "go goarch ptest",
             "layerbranch": 165142,
             "license": "GPLv2",
@@ -307,7 +307,7 @@
             "pv": "0.1.0+gitX",
             "section": "base",
             "summary": "oci-runtime-tool is a collection of tools for working with the OCI runtime specification",
-            "updated": "2018-03-29T09:03:29+0000"
+            "updated": "2018-04-28T03:04:35+0000"
         },
         {
             "bbclassextend": "",
@@ -317,7 +317,7 @@
             "filename": "python3-docker-compose_1.16.1.bb",
             "filepath": "recipes-containers/docker-compose",
             "homepage": "",
-            "id": 526385,
+            "id": 621176,
             "inherits": "",
             "layerbranch": 165142,
             "license": "",
@@ -326,7 +326,7 @@
             "pv": "",
             "section": "",
             "summary": "",
-            "updated": "2018-03-29T09:03:29+0000"
+            "updated": "2018-04-28T03:04:35+0000"
         },
         {
             "bbclassextend": "",
@@ -336,7 +336,7 @@
             "filename": "riddler_git.bb",
             "filepath": "recipes-containers/riddler",
             "homepage": "https://github.com/jfrazelle/riddler",
-            "id": 526386,
+            "id": 621177,
             "inherits": "go goarch ptest",
             "layerbranch": 165142,
             "license": "MIT",
@@ -345,7 +345,7 @@
             "pv": "0.1.0+gitX",
             "section": "base",
             "summary": "Convert `docker inspect` to opencontainers (OCI compatible) runc spec.",
-            "updated": "2018-03-29T09:03:29+0000"
+            "updated": "2018-04-28T03:04:35+0000"
         },
         {
             "bbclassextend": "",
@@ -355,7 +355,7 @@
             "filename": "criu_git.bb",
             "filepath": "recipes-containers/criu",
             "homepage": "http://criu.org",
-            "id": 526387,
+            "id": 621178,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
             "layerbranch": 165142,
             "license": "GPLv2",
@@ -364,7 +364,7 @@
             "pv": "3.4+gitX",
             "section": "console/tools",
             "summary": "CRIU",
-            "updated": "2018-03-29T09:03:29+0000"
+            "updated": "2018-04-28T03:04:35+0000"
         },
         {
             "bbclassextend": "",
@@ -374,7 +374,7 @@
             "filename": "singularity_git.bb",
             "filepath": "recipes-containers/singularity",
             "homepage": "",
-            "id": 526388,
+            "id": 621179,
             "inherits": "autotools autotools-brokensep python-dir pythonnative siteconfig siteinfo",
             "layerbranch": 165142,
             "license": "BSD",
@@ -383,7 +383,7 @@
             "pv": "2.3.1+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2018-03-29T09:03:29+0000"
+            "updated": "2018-04-28T03:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -393,7 +393,7 @@
             "filename": "containerd-opencontainers_git.bb",
             "filepath": "recipes-containers/containerd",
             "homepage": "https://github.com/docker/containerd",
-            "id": 526389,
+            "id": 621180,
             "inherits": "go goarch ptest",
             "layerbranch": 165142,
             "license": "Apache-2.0",
@@ -402,7 +402,7 @@
             "pv": "0.2.2+git0ac3cd1be170d180b2baed755e8f0da547ceb267",
             "section": "base",
             "summary": "containerd is a daemon to control runC",
-            "updated": "2018-03-29T09:03:29+0000"
+            "updated": "2018-04-28T03:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -412,7 +412,7 @@
             "filename": "containerd-docker_git.bb",
             "filepath": "recipes-containers/containerd",
             "homepage": "https://github.com/docker/containerd",
-            "id": 526390,
+            "id": 621181,
             "inherits": "go goarch ptest",
             "layerbranch": 165142,
             "license": "Apache-2.0",
@@ -421,7 +421,7 @@
             "pv": "v0.2.x+git3addd840653146c90a254301d6c3a663c7fd6429",
             "section": "base",
             "summary": "containerd is a daemon to control runC",
-            "updated": "2018-03-29T09:03:29+0000"
+            "updated": "2018-04-28T03:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -431,7 +431,7 @@
             "filename": "cri-o_git.bb",
             "filepath": "recipes-containers/cri-o",
             "homepage": "https://github.com/kubernetes-incubator/cri-o",
-            "id": 526391,
+            "id": 621182,
             "inherits": "go goarch pkgconfig ptest systemd",
             "layerbranch": 165142,
             "license": "Apache-2.0",
@@ -440,7 +440,7 @@
             "pv": "1.0.0-rc3-dev+git65faae67828fb3eb3eac05b582aae9f9d1dea51c",
             "section": "base",
             "summary": "Open Container Initiative-based implementation of Kubernetes Container Runtime Interface",
-            "updated": "2018-03-29T09:03:29+0000"
+            "updated": "2018-04-28T03:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -450,7 +450,7 @@
             "filename": "go-digest_git.bb",
             "filepath": "recipes-containers/go-digest",
             "homepage": "https://github.com/opencontainers/go-digest.git",
-            "id": 526392,
+            "id": 621183,
             "inherits": "",
             "layerbranch": 165142,
             "license": "Apache-2.0",
@@ -459,7 +459,7 @@
             "pv": "v1.0.0-rc0+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-03-29T09:03:29+0000"
+            "updated": "2018-04-28T03:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -469,7 +469,7 @@
             "filename": "go-errors_git.bb",
             "filepath": "recipes-containers/go-errors",
             "homepage": "https://github.com/pkg/errors",
-            "id": 526393,
+            "id": 621184,
             "inherits": "",
             "layerbranch": 165142,
             "license": "BSD",
@@ -478,7 +478,7 @@
             "pv": "v0.8.0+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-03-29T09:03:29+0000"
+            "updated": "2018-04-28T03:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -488,7 +488,7 @@
             "filename": "oci-runtime-spec_git.bb",
             "filepath": "recipes-containers/oci-runtime-spec",
             "homepage": "https://github.com/opencontainers/runtime-spec",
-            "id": 526394,
+            "id": 621185,
             "inherits": "",
             "layerbranch": 165142,
             "license": "Apache-2.0",
@@ -497,7 +497,7 @@
             "pv": "v1.0.0-rc6+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-03-29T09:03:30+0000"
+            "updated": "2018-04-28T03:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -507,7 +507,7 @@
             "filename": "spf13-cobra_git.bb",
             "filepath": "recipes-containers/go-spf13-cobra",
             "homepage": "https://github.com/spf13/cobra",
-            "id": 526395,
+            "id": 621186,
             "inherits": "",
             "layerbranch": 165142,
             "license": "Apache-2.0",
@@ -516,7 +516,7 @@
             "pv": "v0.0.1+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-03-29T09:03:30+0000"
+            "updated": "2018-04-28T03:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -526,7 +526,7 @@
             "filename": "kubernetes_git.bb",
             "filepath": "recipes-containers/kubernetes",
             "homepage": "git://github.com/kubernetes/kubernetes",
-            "id": 526396,
+            "id": 621187,
             "inherits": "go goarch ptest systemd",
             "layerbranch": 165142,
             "license": "Apache-2.0",
@@ -535,7 +535,7 @@
             "pv": "1.9.0-alpha.1+git4b839465f84e7faf876c51703aaf49b37fd10d9c",
             "section": "base",
             "summary": "Production-Grade Container Scheduling and Management",
-            "updated": "2018-03-29T09:03:30+0000"
+            "updated": "2018-04-28T03:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -545,7 +545,7 @@
             "filename": "cgroup-lite_1.11.bb",
             "filepath": "recipes-containers/cgroup-lite",
             "homepage": "http://packages.ubuntu.com/source/precise/cgroup-lite",
-            "id": 526397,
+            "id": 621188,
             "inherits": "allarch update-rc.d",
             "layerbranch": 165142,
             "license": "GPLv2",
@@ -554,7 +554,7 @@
             "pv": "1.11",
             "section": "devel",
             "summary": "Light-weight package to set up cgroups at system boot.",
-            "updated": "2018-03-29T09:03:30+0000"
+            "updated": "2018-04-28T03:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -564,7 +564,7 @@
             "filename": "docker_git.bb",
             "filepath": "recipes-containers/docker",
             "homepage": "http://www.docker.com",
-            "id": 526398,
+            "id": 621189,
             "inherits": "go goarch ptest systemd update-rc.d useradd useradd_base",
             "layerbranch": 165142,
             "license": "Apache-2.0",
@@ -573,7 +573,7 @@
             "pv": "17.06.0+gite639a70fbe999d96354a5bcf560231b7b8aa935c",
             "section": "base",
             "summary": "Linux container runtime",
-            "updated": "2018-03-29T09:03:30+0000"
+            "updated": "2018-04-28T03:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -583,7 +583,7 @@
             "filename": "openvswitch_git.bb",
             "filepath": "recipes-networking/openvswitch",
             "homepage": "http://openvswitch.org/",
-            "id": 526399,
+            "id": 621190,
             "inherits": "autotools ptest python3-dir python3native siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 165142,
             "license": "Apache-2",
@@ -592,7 +592,7 @@
             "pv": "2.7.1+b29cb89e9e9fe3119b2e5dd5d4fb79141635b7cc",
             "section": "networking",
             "summary": "OpenvSwitch",
-            "updated": "2018-03-29T09:03:30+0000"
+            "updated": "2018-04-28T03:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -602,7 +602,7 @@
             "filename": "netns_git.bb",
             "filepath": "recipes-networking/netns",
             "homepage": "https://github.com/jfrazelle/netns",
-            "id": 526400,
+            "id": 621191,
             "inherits": "go goarch ptest",
             "layerbranch": 165142,
             "license": "MIT",
@@ -611,7 +611,7 @@
             "pv": "0.2.1",
             "section": "base",
             "summary": "Runc hook for setting up default bridge networking.",
-            "updated": "2018-03-29T09:03:30+0000"
+            "updated": "2018-04-28T03:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -621,7 +621,7 @@
             "filename": "cni_git.bb",
             "filepath": "recipes-networking/cni",
             "homepage": "https://github.com/containernetworking/cni",
-            "id": 526401,
+            "id": 621192,
             "inherits": "go goarch ptest",
             "layerbranch": 165142,
             "license": "Apache-2.0",
@@ -630,7 +630,7 @@
             "pv": "0.6.0+git4b9e11a5266fe50222ed00c5973c6ea4a384a4bb",
             "section": "base",
             "summary": "Container Network Interface - networking for Linux containers",
-            "updated": "2018-03-29T09:03:31+0000"
+            "updated": "2018-04-28T03:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -640,7 +640,7 @@
             "filename": "diod_1.0.24.bb",
             "filepath": "recipes-extended/diod",
             "homepage": "",
-            "id": 526402,
+            "id": 621193,
             "inherits": "autotools siteconfig siteinfo systemd",
             "layerbranch": 165142,
             "license": "GPLv2",
@@ -649,7 +649,7 @@
             "pv": "1.0.24+gitX",
             "section": "console/network",
             "summary": "Diod is a user space server for the kernel v9fs client.",
-            "updated": "2018-03-29T09:03:31+0000"
+            "updated": "2018-04-28T03:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -659,7 +659,7 @@
             "filename": "irqbalance_1.1.0.bb",
             "filepath": "recipes-extended/irqbalance",
             "homepage": "http://code.google.com/p/irqbalance/",
-            "id": 526403,
+            "id": 621194,
             "inherits": "autotools pkgconfig siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 165142,
             "license": "GPLv2",
@@ -668,7 +668,7 @@
             "pv": "1.1.0",
             "section": "base",
             "summary": "IRQ allocation daemon",
-            "updated": "2018-03-29T09:03:31+0000"
+            "updated": "2018-04-28T03:04:38+0000"
         },
         {
             "bbclassextend": "",
@@ -678,7 +678,7 @@
             "filename": "libvirt_1.3.5.bb",
             "filepath": "recipes-extended/libvirt",
             "homepage": "http://libvirt.org",
-            "id": 526404,
+            "id": 621195,
             "inherits": "autotools gettext pkgconfig ptest python-dir pythonnative siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 165142,
             "license": "LGPLv2.1+ & GPLv2+",
@@ -687,7 +687,7 @@
             "pv": "1.3.5",
             "section": "console/tools",
             "summary": "",
-            "updated": "2018-03-29T09:03:31+0000"
+            "updated": "2018-04-28T03:04:38+0000"
         },
         {
             "bbclassextend": "native",
@@ -697,7 +697,7 @@
             "filename": "dev86_0.16.20.bb",
             "filepath": "recipes-extended/dev86",
             "homepage": "http://www.debath.co.uk/dev86/",
-            "id": 526405,
+            "id": 621196,
             "inherits": "",
             "layerbranch": 165142,
             "license": "GPLv2",
@@ -706,7 +706,7 @@
             "pv": "0.16.20",
             "section": "console/tools",
             "summary": "",
-            "updated": "2018-03-29T09:03:31+0000"
+            "updated": "2018-04-28T03:04:38+0000"
         },
         {
             "bbclassextend": "",
@@ -716,7 +716,7 @@
             "filename": "kvmtool.bb",
             "filepath": "recipes-extended/kvmtool",
             "homepage": "",
-            "id": 526406,
+            "id": 621197,
             "inherits": "",
             "layerbranch": 165142,
             "license": "GPLv2",
@@ -725,7 +725,7 @@
             "pv": "3.18.0+git3fea89a924511f9f8fe05a892098fad77c1eca0d",
             "section": "base",
             "summary": "Native Linux KVM tool",
-            "updated": "2018-03-29T09:03:31+0000"
+            "updated": "2018-04-28T03:04:38+0000"
         },
         {
             "bbclassextend": "",
@@ -735,7 +735,7 @@
             "filename": "ipxe_git.bb",
             "filepath": "recipes-extended/ipxe",
             "homepage": "http://ipxe.org",
-            "id": 526407,
+            "id": 621198,
             "inherits": "",
             "layerbranch": 165142,
             "license": "GPLv2",
@@ -744,7 +744,7 @@
             "pv": "gitrX",
             "section": "base",
             "summary": "",
-            "updated": "2018-03-29T09:03:32+0000"
+            "updated": "2018-04-28T03:04:38+0000"
         },
         {
             "bbclassextend": "",
@@ -754,7 +754,7 @@
             "filename": "seabios_1.9.1.bb",
             "filepath": "recipes-extended/seabios",
             "homepage": "http://www.coreboot.org/SeaBIOS",
-            "id": 526408,
+            "id": 621199,
             "inherits": "",
             "layerbranch": 165142,
             "license": "LGPLv3",
@@ -763,7 +763,7 @@
             "pv": "1.9.1",
             "section": "firmware",
             "summary": "",
-            "updated": "2018-03-29T09:03:32+0000"
+            "updated": "2018-04-28T03:04:38+0000"
         },
         {
             "bbclassextend": "native",
@@ -773,7 +773,7 @@
             "filename": "biossums_0.7a.bb",
             "filepath": "recipes-extended/vgabios",
             "homepage": "http://www.nongnu.org/vgabios/",
-            "id": 526409,
+            "id": 621200,
             "inherits": "",
             "layerbranch": 165142,
             "license": "LGPLv2.1",
@@ -782,7 +782,7 @@
             "pv": "0.7a",
             "section": "firmware",
             "summary": "",
-            "updated": "2018-03-29T09:03:32+0000"
+            "updated": "2018-04-28T03:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -792,7 +792,7 @@
             "filename": "vgabios_0.7a.bb",
             "filepath": "recipes-extended/vgabios",
             "homepage": "http://www.nongnu.org/vgabios/",
-            "id": 526410,
+            "id": 621201,
             "inherits": "",
             "layerbranch": 165142,
             "license": "LGPLv2.1",
@@ -801,7 +801,7 @@
             "pv": "0.7a",
             "section": "firmware",
             "summary": "",
-            "updated": "2018-03-29T09:03:32+0000"
+            "updated": "2018-04-28T03:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -811,7 +811,7 @@
             "filename": "cloud-image-compute.bb",
             "filepath": "recipes-extended/images",
             "homepage": "",
-            "id": 526411,
+            "id": 621202,
             "inherits": "core-image image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 165142,
             "license": "",
@@ -820,7 +820,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-03-29T09:03:32+0000"
+            "updated": "2018-04-28T03:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -830,7 +830,7 @@
             "filename": "kvm-image-minimal.bb",
             "filepath": "recipes-extended/images",
             "homepage": "",
-            "id": 526412,
+            "id": 621203,
             "inherits": "core-image image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 165142,
             "license": "MIT",
@@ -839,7 +839,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-03-29T09:03:32+0000"
+            "updated": "2018-04-28T03:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -849,7 +849,7 @@
             "filename": "cloud-image-controller.bb",
             "filepath": "recipes-extended/images",
             "homepage": "",
-            "id": 526413,
+            "id": 621204,
             "inherits": "core-image image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 165142,
             "license": "",
@@ -858,7 +858,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-03-29T09:03:33+0000"
+            "updated": "2018-04-28T03:04:39+0000"
         },
         {
             "bbclassextend": "",
@@ -868,7 +868,7 @@
             "filename": "cloud-image-guest.bb",
             "filepath": "recipes-extended/images",
             "homepage": "",
-            "id": 526414,
+            "id": 621205,
             "inherits": "core-image image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 165142,
             "license": "",
@@ -877,7 +877,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-03-29T09:03:33+0000"
+            "updated": "2018-04-28T03:04:40+0000"
         },
         {
             "bbclassextend": "",
@@ -887,7 +887,7 @@
             "filename": "xen-guest-image-minimal.bb",
             "filepath": "recipes-extended/images",
             "homepage": "",
-            "id": 526415,
+            "id": 621206,
             "inherits": "core-image distro_features_check image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 165142,
             "license": "MIT",
@@ -896,7 +896,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-03-29T09:03:33+0000"
+            "updated": "2018-04-28T03:04:40+0000"
         },
         {
             "bbclassextend": "",
@@ -906,7 +906,7 @@
             "filename": "xen-image-minimal.bb",
             "filepath": "recipes-extended/images",
             "homepage": "",
-            "id": 526416,
+            "id": 621207,
             "inherits": "core-image image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 165142,
             "license": "MIT",
@@ -915,7 +915,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-03-29T09:03:33+0000"
+            "updated": "2018-04-28T03:04:40+0000"
         },
         {
             "bbclassextend": "native",
@@ -925,7 +925,7 @@
             "filename": "iasl_20160527.bb",
             "filepath": "recipes-extended/iasl",
             "homepage": "http://www.acpica.org/",
-            "id": 526417,
+            "id": 621208,
             "inherits": "",
             "layerbranch": 165142,
             "license": "Intel-ACPI",
@@ -934,7 +934,7 @@
             "pv": "20160527",
             "section": "console/tools",
             "summary": "Intel ASL compiler/decompiler",
-            "updated": "2018-03-29T09:03:33+0000"
+            "updated": "2018-04-28T03:04:40+0000"
         },
         {
             "bbclassextend": "",
@@ -944,7 +944,7 @@
             "filename": "xen_git.bb",
             "filepath": "recipes-extended/xen",
             "homepage": "http://xen.org",
-            "id": 526418,
+            "id": 621209,
             "inherits": "autotools autotools-brokensep deploy distutils distutils-base distutils-common-base python-dir pythonnative setuptools siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 165142,
             "license": "GPLv2",
@@ -953,7 +953,7 @@
             "pv": "4.7+gitX",
             "section": "console/tools",
             "summary": "",
-            "updated": "2018-03-29T09:03:33+0000"
+            "updated": "2018-04-28T03:04:40+0000"
         },
         {
             "bbclassextend": "",
@@ -963,7 +963,7 @@
             "filename": "xen_4.9.0.bb",
             "filepath": "recipes-extended/xen",
             "homepage": "http://xen.org",
-            "id": 526419,
+            "id": 621210,
             "inherits": "autotools autotools-brokensep deploy distutils distutils-base distutils-common-base python-dir pythonnative setuptools siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 165142,
             "license": "GPLv2",
@@ -972,7 +972,7 @@
             "pv": "4.9.0",
             "section": "console/tools",
             "summary": "",
-            "updated": "2018-03-29T09:03:34+0000"
+            "updated": "2018-04-28T03:04:40+0000"
         },
         {
             "bbclassextend": "",
@@ -982,7 +982,7 @@
             "filename": "python-backports-lzma_0.0.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/peterjc/backports.lzma",
-            "id": 526420,
+            "id": 621211,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
             "layerbranch": 165142,
             "license": "BSD",
@@ -991,7 +991,7 @@
             "pv": "0.0.3",
             "section": "devel/python",
             "summary": "  Backport of Python 3.3's 'lzma' module for XZ/LZMA compressed files.",
-            "updated": "2018-03-29T09:03:34+0000"
+            "updated": "2018-04-28T03:04:41+0000"
         },
         {
             "bbclassextend": "",
@@ -1001,7 +1001,7 @@
             "filename": "python-gevent_1.0.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.gevent.org",
-            "id": 526421,
+            "id": 621212,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
             "layerbranch": 165142,
             "license": "MIT",
@@ -1010,7 +1010,7 @@
             "pv": "1.0.1",
             "section": "devel/python",
             "summary": "A coroutine-based Python networking library",
-            "updated": "2018-03-29T09:03:34+0000"
+            "updated": "2018-04-28T03:04:41+0000"
         },
         {
             "bbclassextend": "",
@@ -1020,7 +1020,7 @@
             "filename": "python-werkzeug_0.10.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/Werkzeug/",
-            "id": 526422,
+            "id": 621213,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
             "layerbranch": 165142,
             "license": "BSD-3-Clause",
@@ -1029,7 +1029,7 @@
             "pv": "0.10.4",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-03-29T09:03:34+0000"
+            "updated": "2018-04-28T03:04:41+0000"
         },
         {
             "bbclassextend": "",
@@ -1039,7 +1039,7 @@
             "filename": "python-webob_1.6.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://webob.org/",
-            "id": 526423,
+            "id": 621214,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
             "layerbranch": 165142,
             "license": "MIT",
@@ -1048,7 +1048,7 @@
             "pv": "1.6.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-03-29T09:03:34+0000"
+            "updated": "2018-04-28T03:04:41+0000"
         },
         {
             "bbclassextend": "",
@@ -1058,7 +1058,7 @@
             "filename": "python3-websocket-client_0.44.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 526424,
+            "id": 621215,
             "inherits": "",
             "layerbranch": 165142,
             "license": "",
@@ -1067,7 +1067,7 @@
             "pv": "",
             "section": "",
             "summary": "",
-            "updated": "2018-03-29T09:03:34+0000"
+            "updated": "2018-04-28T03:04:41+0000"
         },
         {
             "bbclassextend": "",
@@ -1077,7 +1077,7 @@
             "filename": "python-newrelic_2.22.0.19.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.newrelic.com",
-            "id": 526425,
+            "id": 621216,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
             "layerbranch": 165142,
             "license": "BSD-3-Clause & MIT & Python-2.0 & BSD-2-Clause & NewRelic",
@@ -1086,7 +1086,7 @@
             "pv": "2.22.0.19",
             "section": "devel/python",
             "summary": "New Relic Python Agent",
-            "updated": "2018-03-29T09:03:34+0000"
+            "updated": "2018-04-28T03:04:41+0000"
         },
         {
             "bbclassextend": "",
@@ -1096,7 +1096,7 @@
             "filename": "python-blinker_1.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/blinker",
-            "id": 526426,
+            "id": 621217,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
             "layerbranch": 165142,
             "license": "MIT",
@@ -1105,7 +1105,7 @@
             "pv": "1.3",
             "section": "devel/python",
             "summary": "Fast, simple object-to-object and broadcast signaling",
-            "updated": "2018-03-29T09:03:34+0000"
+            "updated": "2018-04-28T03:04:41+0000"
         },
         {
             "bbclassextend": "",
@@ -1115,7 +1115,7 @@
             "filename": "python3-dockerpty_0.4.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 526427,
+            "id": 621218,
             "inherits": "",
             "layerbranch": 165142,
             "license": "",
@@ -1124,7 +1124,7 @@
             "pv": "",
             "section": "",
             "summary": "",
-            "updated": "2018-03-29T09:03:34+0000"
+            "updated": "2018-04-28T03:04:41+0000"
         },
         {
             "bbclassextend": "",
@@ -1134,7 +1134,7 @@
             "filename": "python-sqlalchemy_1.1.5.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.sqlalchemy.org/",
-            "id": 526428,
+            "id": 621219,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
             "layerbranch": 165142,
             "license": "MIT",
@@ -1143,7 +1143,7 @@
             "pv": "1.1.5",
             "section": "base",
             "summary": "",
-            "updated": "2018-03-29T09:03:35+0000"
+            "updated": "2018-04-28T03:04:41+0000"
         },
         {
             "bbclassextend": "",
@@ -1153,7 +1153,7 @@
             "filename": "python3-docker-pycreds_0.2.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 526429,
+            "id": 621220,
             "inherits": "",
             "layerbranch": 165142,
             "license": "",
@@ -1162,7 +1162,7 @@
             "pv": "",
             "section": "",
             "summary": "",
-            "updated": "2018-03-29T09:03:35+0000"
+            "updated": "2018-04-28T03:04:41+0000"
         },
         {
             "bbclassextend": "",
@@ -1172,7 +1172,7 @@
             "filename": "python-sphinx_1.4.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://sphinx-doc.org/",
-            "id": 526430,
+            "id": 621221,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
             "layerbranch": 165142,
             "license": "BSD",
@@ -1181,7 +1181,7 @@
             "pv": "1.4.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-03-29T09:03:35+0000"
+            "updated": "2018-04-28T03:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1191,7 +1191,7 @@
             "filename": "python-docker-registry-core_2.0.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/docker-registry-core",
-            "id": 526431,
+            "id": 621222,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
             "layerbranch": 165142,
             "license": "Apache-2.0",
@@ -1200,7 +1200,7 @@
             "pv": "2.0.3",
             "section": "devel/python",
             "summary": "Docker registry core package",
-            "updated": "2018-03-29T09:03:35+0000"
+            "updated": "2018-04-28T03:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1210,7 +1210,7 @@
             "filename": "python-pyyaml_3.11.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.pyyaml.org",
-            "id": 526432,
+            "id": 621223,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
             "layerbranch": 165142,
             "license": "MIT",
@@ -1219,7 +1219,7 @@
             "pv": "3.11",
             "section": "devel/python",
             "summary": "Python support for YAML",
-            "updated": "2018-03-29T09:03:35+0000"
+            "updated": "2018-04-28T03:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1229,7 +1229,7 @@
             "filename": "python-flask_0.10.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/Flask/",
-            "id": 526433,
+            "id": 621224,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
             "layerbranch": 165142,
             "license": "BSD-3-Clause",
@@ -1238,7 +1238,7 @@
             "pv": "0.10.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-03-29T09:03:35+0000"
+            "updated": "2018-04-28T03:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1248,7 +1248,7 @@
             "filename": "python3-texttable_0.9.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 526434,
+            "id": 621225,
             "inherits": "",
             "layerbranch": 165142,
             "license": "",
@@ -1257,7 +1257,7 @@
             "pv": "",
             "section": "",
             "summary": "",
-            "updated": "2018-03-29T09:03:35+0000"
+            "updated": "2018-04-28T03:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1267,7 +1267,7 @@
             "filename": "python3-cached-property_1.3.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 526435,
+            "id": 621226,
             "inherits": "",
             "layerbranch": 165142,
             "license": "",
@@ -1276,7 +1276,7 @@
             "pv": "",
             "section": "",
             "summary": "",
-            "updated": "2018-03-29T09:03:35+0000"
+            "updated": "2018-04-28T03:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1286,7 +1286,7 @@
             "filename": "gunicorn_19.1.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 526436,
+            "id": 621227,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
             "layerbranch": 165142,
             "license": "MIT",
@@ -1295,7 +1295,7 @@
             "pv": "19.1.1",
             "section": "base",
             "summary": "WSGI HTTP Server for UNIX",
-            "updated": "2018-03-29T09:03:35+0000"
+            "updated": "2018-04-28T03:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1305,7 +1305,7 @@
             "filename": "python-redis_2.10.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/redis/",
-            "id": 526437,
+            "id": 621228,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
             "layerbranch": 165142,
             "license": "MIT",
@@ -1314,7 +1314,7 @@
             "pv": "2.10.3",
             "section": "devel/python",
             "summary": "Python client for Redis key-value store",
-            "updated": "2018-03-29T09:03:35+0000"
+            "updated": "2018-04-28T03:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1324,7 +1324,7 @@
             "filename": "python3-docopt_0.6.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 526438,
+            "id": 621229,
             "inherits": "",
             "layerbranch": 165142,
             "license": "",
@@ -1333,7 +1333,7 @@
             "pv": "",
             "section": "",
             "summary": "",
-            "updated": "2018-03-29T09:03:35+0000"
+            "updated": "2018-04-28T03:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1343,7 +1343,7 @@
             "filename": "python3-docker_2.5.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 526439,
+            "id": 621230,
             "inherits": "",
             "layerbranch": 165142,
             "license": "",
@@ -1352,7 +1352,7 @@
             "pv": "",
             "section": "",
             "summary": "",
-            "updated": "2018-03-29T09:03:35+0000"
+            "updated": "2018-04-28T03:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1362,7 +1362,7 @@
             "filename": "python-m2crypto_0.22.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://chandlerproject.org/bin/view/Projects/MeTooCrypto",
-            "id": 526440,
+            "id": 621231,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
             "layerbranch": 165142,
             "license": "BSD",
@@ -1371,7 +1371,7 @@
             "pv": "0.22.3",
             "section": "base",
             "summary": "A Python crypto and SSL toolkit",
-            "updated": "2018-03-29T09:03:35+0000"
+            "updated": "2018-04-28T03:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1381,7 +1381,7 @@
             "filename": "python3-colorama_0.3.9.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 526441,
+            "id": 621232,
             "inherits": "",
             "layerbranch": 165142,
             "license": "",
@@ -1390,7 +1390,7 @@
             "pv": "",
             "section": "",
             "summary": "",
-            "updated": "2018-03-29T09:03:35+0000"
+            "updated": "2018-04-28T03:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1400,7 +1400,7 @@
             "filename": "python-bugsnag_2.0.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://bugsnag.com/",
-            "id": 526442,
+            "id": 621233,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
             "layerbranch": 165142,
             "license": "MIT",
@@ -1409,7 +1409,7 @@
             "pv": "2.0.2",
             "section": "devel/python",
             "summary": "Automatic error monitoring for django, flask, etc.",
-            "updated": "2018-03-29T09:03:35+0000"
+            "updated": "2018-04-28T03:04:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1419,7 +1419,7 @@
             "filename": "python-boto_2.34.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/boto/boto",
-            "id": 526443,
+            "id": 621234,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
             "layerbranch": 165142,
             "license": "MIT",
@@ -1428,7 +1428,7 @@
             "pv": "2.34.0",
             "section": "devel/python",
             "summary": "Amazon Web Services API",
-            "updated": "2018-03-29T09:03:36+0000"
+            "updated": "2018-04-28T03:04:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1438,7 +1438,7 @@
             "filename": "python-sqlalchemy_1.0.16.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.sqlalchemy.org/",
-            "id": 526444,
+            "id": 621235,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
             "layerbranch": 165142,
             "license": "MIT",
@@ -1447,7 +1447,7 @@
             "pv": "1.0.16",
             "section": "base",
             "summary": "",
-            "updated": "2018-03-29T09:03:36+0000"
+            "updated": "2018-04-28T03:04:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1457,7 +1457,7 @@
             "filename": "python-flask-cors_1.10.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/Flask-Cors/1.10.3",
-            "id": 526445,
+            "id": 621236,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
             "layerbranch": 165142,
             "license": "MIT",
@@ -1466,7 +1466,7 @@
             "pv": "1.10.3",
             "section": "devel/python",
             "summary": "A Flask extension adding a decorator for CORS support",
-            "updated": "2018-03-29T09:03:36+0000"
+            "updated": "2018-04-28T03:04:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1476,7 +1476,7 @@
             "filename": "notary_git.bb",
             "filepath": "recipes-devtools/go",
             "homepage": "https://github.com/docker/notary",
-            "id": 526446,
+            "id": 621237,
             "inherits": "",
             "layerbranch": 165142,
             "license": "Apache-2.0",
@@ -1485,7 +1485,7 @@
             "pv": "0.4.2+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-03-29T09:03:36+0000"
+            "updated": "2018-04-28T03:04:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1495,7 +1495,7 @@
             "filename": "grpc-go_git.bb",
             "filepath": "recipes-devtools/go",
             "homepage": "https://github.com/grpc/grpc-go",
-            "id": 526447,
+            "id": 621238,
             "inherits": "",
             "layerbranch": 165142,
             "license": "BSD",
@@ -1504,7 +1504,7 @@
             "pv": "1.4.0+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-03-29T09:03:36+0000"
+            "updated": "2018-04-28T03:04:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1514,7 +1514,7 @@
             "filename": "go-systemd_git.bb",
             "filepath": "recipes-devtools/go",
             "homepage": "https://github.com/coreos/go-systemd",
-            "id": 526448,
+            "id": 621239,
             "inherits": "",
             "layerbranch": 165142,
             "license": "Apache-2.0",
@@ -1523,7 +1523,7 @@
             "pv": "4+gitb4a58d95188dd092ae20072bac14cece0e67c388",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-03-29T09:03:36+0000"
+            "updated": "2018-04-28T03:04:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1533,7 +1533,7 @@
             "filename": "go-cli_git.bb",
             "filepath": "recipes-devtools/go",
             "homepage": "https://github.com/codegangsta/cli",
-            "id": 526449,
+            "id": 621240,
             "inherits": "",
             "layerbranch": 165142,
             "license": "MIT",
@@ -1542,7 +1542,7 @@
             "pv": "1.1.0+git27ecc97192df1bf053a22b04463f2b51b8b8373e",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-03-29T09:03:36+0000"
+            "updated": "2018-04-28T03:04:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1552,7 +1552,7 @@
             "filename": "go-logrus_git.bb",
             "filepath": "recipes-devtools/go",
             "homepage": "https://github.com/Sirupsen/logrus",
-            "id": 526450,
+            "id": 621241,
             "inherits": "",
             "layerbranch": 165142,
             "license": "MIT",
@@ -1561,7 +1561,7 @@
             "pv": "0.11.0+gitd26492970760ca5d33129d2d799e34be5c4782eb",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-03-29T09:03:36+0000"
+            "updated": "2018-04-28T03:04:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1571,7 +1571,7 @@
             "filename": "go-distribution_git.bb",
             "filepath": "recipes-devtools/go",
             "homepage": "https://github.com/docker/distribution",
-            "id": 526451,
+            "id": 621242,
             "inherits": "",
             "layerbranch": 165142,
             "license": "Apache-2.0",
@@ -1580,7 +1580,7 @@
             "pv": "2.6.0+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-03-29T09:03:36+0000"
+            "updated": "2018-04-28T03:04:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1590,7 +1590,7 @@
             "filename": "go-context_git.bb",
             "filepath": "recipes-devtools/go",
             "homepage": "https://github.com/gorilla/context",
-            "id": 526452,
+            "id": 621243,
             "inherits": "",
             "layerbranch": 165142,
             "license": "BSD-3-Clause",
@@ -1599,7 +1599,7 @@
             "pv": "git",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-03-29T09:03:37+0000"
+            "updated": "2018-04-28T03:04:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1609,7 +1609,7 @@
             "filename": "go-pty_git.bb",
             "filepath": "recipes-devtools/go",
             "homepage": "https://github.com/kr/pty",
-            "id": 526453,
+            "id": 621244,
             "inherits": "",
             "layerbranch": 165142,
             "license": "MIT",
@@ -1618,7 +1618,7 @@
             "pv": "git",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-03-29T09:03:37+0000"
+            "updated": "2018-04-28T03:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1628,7 +1628,7 @@
             "filename": "compose-file_git.bb",
             "filepath": "recipes-devtools/go",
             "homepage": "https://github.com/aanand/compose-file",
-            "id": 526454,
+            "id": 621245,
             "inherits": "",
             "layerbranch": 165142,
             "license": "Apache-2.0",
@@ -1637,7 +1637,7 @@
             "pv": "3.0+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-03-29T09:03:37+0000"
+            "updated": "2018-04-28T03:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1647,7 +1647,7 @@
             "filename": "go-capability_git.bb",
             "filepath": "recipes-devtools/go",
             "homepage": "https://github.com/syndtr/gocapability",
-            "id": 526455,
+            "id": 621246,
             "inherits": "",
             "layerbranch": 165142,
             "license": "BSD-2-Clause",
@@ -1656,7 +1656,7 @@
             "pv": "0.0+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-03-29T09:03:37+0000"
+            "updated": "2018-04-28T03:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1666,7 +1666,7 @@
             "filename": "go-dbus_git.bb",
             "filepath": "recipes-devtools/go",
             "homepage": "https://github.com/godbus/dbus",
-            "id": 526456,
+            "id": 621247,
             "inherits": "",
             "layerbranch": 165142,
             "license": "BSD-2-Clause",
@@ -1675,7 +1675,7 @@
             "pv": "4.0.0+git5f6efc7ef2759c81b7ba876593971bfce311eab3",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-03-29T09:03:37+0000"
+            "updated": "2018-04-28T03:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1685,7 +1685,7 @@
             "filename": "go-patricia_git.bb",
             "filepath": "recipes-devtools/go",
             "homepage": "https://github.com/gorilla/context",
-            "id": 526457,
+            "id": 621248,
             "inherits": "",
             "layerbranch": 165142,
             "license": "MIT",
@@ -1694,7 +1694,7 @@
             "pv": "2.2.6+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-03-29T09:03:37+0000"
+            "updated": "2018-04-28T03:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1704,7 +1704,7 @@
             "filename": "go-connections_git.bb",
             "filepath": "recipes-devtools/go",
             "homepage": "https://github.com/docker/connections",
-            "id": 526458,
+            "id": 621249,
             "inherits": "",
             "layerbranch": 165142,
             "license": "Apache-2.0",
@@ -1713,7 +1713,7 @@
             "pv": "0.2.1+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-03-29T09:03:37+0000"
+            "updated": "2018-04-28T03:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1723,7 +1723,7 @@
             "filename": "go-fsnotify_git.bb",
             "filepath": "recipes-devtools/go",
             "homepage": "https://github.com/go-fsnotify/fsnotify",
-            "id": 526459,
+            "id": 621250,
             "inherits": "",
             "layerbranch": 165142,
             "license": "BSD-3-Clause",
@@ -1732,7 +1732,7 @@
             "pv": "1.2.11+git836bfd95fecc0f1511dd66bdbf2b5b61ab8b00b6",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-03-29T09:03:37+0000"
+            "updated": "2018-04-28T03:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1742,7 +1742,7 @@
             "filename": "go-mux_git.bb",
             "filepath": "recipes-devtools/go",
             "homepage": "https://github.com/gorilla/mux",
-            "id": 526460,
+            "id": 621251,
             "inherits": "",
             "layerbranch": 165142,
             "license": "BSD-3-Clause",
@@ -1751,7 +1751,7 @@
             "pv": "git",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-03-29T09:03:37+0000"
+            "updated": "2018-04-28T03:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1761,7 +1761,7 @@
             "filename": "go-libtrust_git.bb",
             "filepath": "recipes-devtools/go",
             "homepage": "https://github.com/docker/libtrust",
-            "id": 526461,
+            "id": 621252,
             "inherits": "",
             "layerbranch": 165142,
             "license": "Apache-2.0",
@@ -1770,7 +1770,7 @@
             "pv": "0.0+gitX",
             "section": "devel/go",
             "summary": "",
-            "updated": "2018-03-29T09:03:37+0000"
+            "updated": "2018-04-28T03:04:44+0000"
         },
         {
             "bbclassextend": "",
@@ -1780,7 +1780,7 @@
             "filename": "runv_git.bb",
             "filepath": "recipes-core/runv",
             "homepage": "https://github.com/hyperhq/runv",
-            "id": 526462,
+            "id": 621253,
             "inherits": "autotools autotools-brokensep go goarch pkgconfig ptest siteconfig siteinfo",
             "layerbranch": 165142,
             "license": "Apache-2.0",
@@ -1789,7 +1789,7 @@
             "pv": "0.4.0+gitb360a686abc6c6e896382990ef1b93ef07c7a677",
             "section": "base",
             "summary": "Hypervisor-based Runtime for OCI",
-            "updated": "2018-03-29T09:03:38+0000"
+            "updated": "2018-04-28T03:04:44+0000"
         }
     ],
     "wrtemplates": []
