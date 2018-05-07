@@ -1,0 +1,219 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_17_BASE_UPDATE0007",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_17_BASE_UPDATE0007",
+            "id": 82,
+            "name": "WRLINUX_10_17_BASE_UPDATE0007",
+            "short_description": "WRLinux 10_17 Base Update 0007",
+            "sort_priority": 8986,
+            "update_environment": null,
+            "updated": "2018-04-26T15:04:47+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 82,
+            "collection": "core",
+            "id": 662868,
+            "layer": 1,
+            "updated": "2018-05-07T11:05:29+0000",
+            "vcs_last_commit": "2018-05-07T05:05:11+0000",
+            "vcs_last_fetch": "2018-05-07T11:05:29+0000",
+            "vcs_last_rev": "1ccdeb69a75a9b4cb9d4655be02abe2503381de5",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "",
+            "branch": 82,
+            "collection": "intel",
+            "id": 662880,
+            "layer": 166,
+            "updated": "2018-05-07T11:05:37+0000",
+            "vcs_last_commit": "2018-05-03T02:05:06+0000",
+            "vcs_last_fetch": "2018-05-07T11:05:37+0000",
+            "vcs_last_rev": "20d34219eeec49104c40f15b7fe71e0d61cf4736",
+            "vcs_subdir": "",
+            "version": "4",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "",
+            "branch": 82,
+            "collection": "intel-qat",
+            "id": 662887,
+            "layer": 193,
+            "updated": "2018-05-07T11:05:41+0000",
+            "vcs_last_commit": "2017-10-09T08:10:22+0000",
+            "vcs_last_fetch": "2018-05-07T11:05:41+0000",
+            "vcs_last_rev": "e7487ee911f9e2b41b6b6b293b434815dad21932",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": null
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 38328,
+            "layerbranch": 662887,
+            "required": true
+        },
+        {
+            "dependency": 166,
+            "id": 38329,
+            "layerbranch": 662887,
+            "required": true
+        },
+        {
+            "dependency": 195,
+            "id": 38330,
+            "layerbranch": 662887,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "classic": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2017-08-25T17:08:12+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "Official layer for Intel platform/board support. This layer itself (at the top level) contains common components, and then there are sub-layers for each BSP which are listed individually in this index.\r\n\r\nThis layer includes support for DPDK.",
+            "id": 166,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-intel",
+            "status": "P",
+            "summary": "Intel board support common layer",
+            "updated": "2017-09-07T23:09:37+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-intel",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "The Intel QuickAssist Adapter family provides customers with a scalable, flexible, and extendable way to offer Intel QuickAssist Technology crypto acceleration and compression capabilities to their existing product lines.",
+            "id": 193,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-intel-qat",
+            "status": "P",
+            "summary": "intel qat layer",
+            "updated": "2017-09-29T21:09:45+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-intel-qat",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "This software acelerates the data compression algorithm in the zlib software library via the Intel QuickAssist Technology implemented on Intel Communications Chipset 89xx and 895x Series based platforms.",
+            "filename": "zlib-qat_0.4.7-002.bb",
+            "filepath": "recipes-extended/zlib-qat",
+            "homepage": "http://zlib.net/",
+            "id": 614620,
+            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
+            "layerbranch": 662887,
+            "license": "Zlib & GPLv2 & BSD",
+            "pn": "zlib-qat",
+            "provides": "zlib-qat ",
+            "pv": "0.4.7-002",
+            "section": "libs",
+            "summary": "Zlib QAT_MEM Memory Management Module for Intel Quick Assist Technology",
+            "updated": "2018-04-28T03:04:33+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "This software adds an engine that accelerates some of the libcrypto algorithms via the Intel QuickAssist Technology implemented on Intel Communications Chipset 89xx Series based platforms.",
+            "filename": "openssl-qat_0.4.9-009.bb",
+            "filepath": "recipes-extended/openssl-qat",
+            "homepage": "http://www.openssl.org/",
+            "id": 614621,
+            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
+            "layerbranch": 662887,
+            "license": "openssl & GPLv2 & BSD",
+            "pn": "openssl-qat",
+            "provides": "openssl-qat ",
+            "pv": "0.4.9-009",
+            "section": "libs/network",
+            "summary": "libcrypto* (OpenSSL*) QAT_MEM Memory Management Module for Intel Quick Assist Technology",
+            "updated": "2018-04-28T03:04:33+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Intel(r) QuickAssist Technology API",
+            "filename": "qat16_2.5.0-80.bb",
+            "filepath": "recipes-extended/qat",
+            "homepage": "https://01.org/packet-processing/intel%C2%AE-quickassist-technology-drivers-and-patches",
+            "id": 614622,
+            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig update-rc.d",
+            "layerbranch": 662887,
+            "license": "BSD & GPLv2",
+            "pn": "qat16",
+            "provides": "qat16  virtual/qat",
+            "pv": "2.5.0-80",
+            "section": "base",
+            "summary": "",
+            "updated": "2018-04-28T03:04:33+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Intel(r) QuickAssist Technology API",
+            "filename": "qat16_2.6.0-65.bb",
+            "filepath": "recipes-extended/qat",
+            "homepage": "https://01.org/packet-processing/intel%C2%AE-quickassist-technology-drivers-and-patches",
+            "id": 614623,
+            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig update-rc.d",
+            "layerbranch": 662887,
+            "license": "BSD & GPLv2",
+            "pn": "qat16",
+            "provides": "qat16  virtual/qat",
+            "pv": "2.6.0-65",
+            "section": "base",
+            "summary": "",
+            "updated": "2018-04-28T03:04:34+0000"
+        }
+    ],
+    "wrtemplates": []
+}
