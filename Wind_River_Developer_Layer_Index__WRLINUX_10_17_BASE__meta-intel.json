@@ -26,9 +26,9 @@
             "collection": "core",
             "id": 165030,
             "layer": 1,
-            "updated": "2018-06-05T01:06:29+0000",
+            "updated": "2018-06-22T05:06:27+0000",
             "vcs_last_commit": "2018-05-29T01:05:14+0000",
-            "vcs_last_fetch": "2018-06-05T01:06:29+0000",
+            "vcs_last_fetch": "2018-06-22T05:06:27+0000",
             "vcs_last_rev": "d75b808e85d57a5906396e9f3cb913bc0d70cc79",
             "vcs_subdir": "meta",
             "version": "11",
@@ -40,10 +40,10 @@
             "collection": "intel",
             "id": 165167,
             "layer": 166,
-            "updated": "2018-06-05T01:06:35+0000",
-            "vcs_last_commit": "2018-05-03T02:05:06+0000",
-            "vcs_last_fetch": "2018-06-05T01:06:35+0000",
-            "vcs_last_rev": "20d34219eeec49104c40f15b7fe71e0d61cf4736",
+            "updated": "2018-06-22T05:06:33+0000",
+            "vcs_last_commit": "2018-06-06T02:06:14+0000",
+            "vcs_last_fetch": "2018-06-22T05:06:33+0000",
+            "vcs_last_rev": "28d6f13bc08c17dd8e91c7f1c97eb1add569e7fd",
             "vcs_subdir": "",
             "version": "4",
             "yp_compatible_version": null
@@ -102,24 +102,24 @@
     "machines": [
         {
             "description": " Quark systems",
-            "id": 10231,
+            "id": 10936,
             "layerbranch": 165167,
             "name": "intel-quark",
-            "updated": "2018-04-28T03:04:52+0000"
+            "updated": "2018-06-20T07:06:49+0000"
         },
         {
             "description": " 32 bit Intel Core 2 CPU (and later) with MMX, SSE, SSE2, SSE3, and SSSE3 instruction set support. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
-            "id": 10232,
+            "id": 10937,
             "layerbranch": 165167,
             "name": "intel-core2-32",
-            "updated": "2018-04-28T03:04:52+0000"
+            "updated": "2018-06-20T07:06:49+0000"
         },
         {
             "description": " 64 bit Intel Core i7 CPU (and later) with MMX, SSE, SSE2, SSE3, and SSSE3 instruction set support. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
-            "id": 10233,
+            "id": 10938,
             "layerbranch": 165167,
             "name": "intel-corei7-64",
-            "updated": "2018-04-28T03:04:52+0000"
+            "updated": "2018-06-20T07:06:49+0000"
         }
     ],
     "recipes": [
@@ -131,7 +131,7 @@
             "filename": "intel-gpu-tools_1.19.bb",
             "filepath": "common/recipes-graphics/intel-gpu-tools",
             "homepage": "http://www.x.org/",
-            "id": 620663,
+            "id": 654524,
             "inherits": "autotools distro_features_check gtk-doc pkgconfig qemu siteconfig siteinfo",
             "layerbranch": 165167,
             "license": "MIT-X & ISC",
@@ -140,7 +140,7 @@
             "pv": "1.19",
             "section": "x11/apps",
             "summary": "Intel GPU tools",
-            "updated": "2018-04-28T03:04:52+0000"
+            "updated": "2018-06-20T07:06:49+0000"
         },
         {
             "bbclassextend": "",
@@ -150,7 +150,7 @@
             "filename": "xf86-video-ast_1.1.5.bb",
             "filepath": "common/recipes-graphics/xorg-driver",
             "homepage": "http://www.x.org",
-            "id": 620664,
+            "id": 654525,
             "inherits": "autotools distro_features_check pkgconfig siteconfig siteinfo",
             "layerbranch": 165167,
             "license": "MIT-X",
@@ -159,7 +159,7 @@
             "pv": "1.1.5",
             "section": "x11/drivers",
             "summary": "X.Org X server -- ASpeed Technologies graphics driver",
-            "updated": "2018-04-28T03:04:52+0000"
+            "updated": "2018-06-20T07:06:49+0000"
         },
         {
             "bbclassextend": "",
@@ -169,7 +169,7 @@
             "filename": "xf86-video-mga_1.6.5.bb",
             "filepath": "common/recipes-graphics/xorg-driver",
             "homepage": "http://www.x.org",
-            "id": 620665,
+            "id": 654526,
             "inherits": "autotools distro_features_check pkgconfig siteconfig siteinfo",
             "layerbranch": 165167,
             "license": "MIT-X",
@@ -178,7 +178,7 @@
             "pv": "1.6.5",
             "section": "x11/drivers",
             "summary": "X.Org X server -- Matrox MGA display driver",
-            "updated": "2018-04-28T03:04:52+0000"
+            "updated": "2018-06-20T07:06:49+0000"
         },
         {
             "bbclassextend": "",
@@ -188,7 +188,7 @@
             "filename": "backport-iwlwifi_git.bb",
             "filepath": "common/recipes-kernel/iwlwifi",
             "homepage": "",
-            "id": 620666,
+            "id": 654527,
             "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
             "layerbranch": 165167,
             "license": "GPLv2",
@@ -197,7 +197,7 @@
             "pv": "30",
             "section": "kernel",
             "summary": "Intel Wireless LinuxCore kernel driver",
-            "updated": "2018-04-28T03:04:53+0000"
+            "updated": "2018-06-20T07:06:49+0000"
         },
         {
             "bbclassextend": "",
@@ -207,7 +207,7 @@
             "filename": "ixgbevf.bb",
             "filepath": "common/recipes-kernel/intel-ethernet",
             "homepage": "http://www.intel.com/network/connectivity/products/server_adapters.htm",
-            "id": 620667,
+            "id": 654528,
             "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
             "layerbranch": 165167,
             "license": "GPLv2",
@@ -216,7 +216,7 @@
             "pv": "4.1.2",
             "section": "kernel/network",
             "summary": "ixgbevf kernel driver for Intel Magnolia Park 10GbE",
-            "updated": "2018-04-28T03:04:53+0000"
+            "updated": "2018-06-20T07:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -226,7 +226,7 @@
             "filename": "ixgbe.bb",
             "filepath": "common/recipes-kernel/intel-ethernet",
             "homepage": "http://www.intel.com/network/connectivity/products/server_adapters.htm",
-            "id": 620668,
+            "id": 654529,
             "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
             "layerbranch": 165167,
             "license": "GPLv2",
@@ -235,7 +235,7 @@
             "pv": "5.1.3",
             "section": "kernel/network",
             "summary": "ixgbe kernel driver for Intel Magnolia Park 10GbE",
-            "updated": "2018-04-28T03:04:53+0000"
+            "updated": "2018-06-20T07:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -245,7 +245,7 @@
             "filename": "linux-intel-rt_4.9.bb",
             "filepath": "common/recipes-kernel/linux",
             "homepage": "",
-            "id": 620669,
+            "id": 654530,
             "inherits": "cml1 deploy kernel kernel-arch kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
             "layerbranch": 165167,
             "license": "GPLv2",
@@ -254,7 +254,7 @@
             "pv": "4.9.47+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-04-28T03:04:53+0000"
+            "updated": "2018-06-20T07:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -264,7 +264,7 @@
             "filename": "linux-intel_4.9.bb",
             "filepath": "common/recipes-kernel/linux",
             "homepage": "",
-            "id": 620670,
+            "id": 654531,
             "inherits": "cml1 deploy kernel kernel-arch kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
             "layerbranch": 165167,
             "license": "GPLv2",
@@ -273,7 +273,7 @@
             "pv": "4.9.47+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-04-28T03:04:53+0000"
+            "updated": "2018-06-20T07:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -283,7 +283,7 @@
             "filename": "sbsigntool-native_git.bb",
             "filepath": "common/recipes-support/sbsigntool",
             "homepage": "",
-            "id": 620671,
+            "id": 654532,
             "inherits": "autotools native nopackages pkgconfig relocatable siteconfig siteinfo",
             "layerbranch": 165167,
             "license": "GPLv3 & LGPL-2.1 & LGPL-3.0 & MIT",
@@ -292,7 +292,7 @@
             "pv": "0.8-gitX",
             "section": "base",
             "summary": "",
-            "updated": "2018-05-03T04:05:02+0000"
+            "updated": "2018-06-20T07:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -302,7 +302,7 @@
             "filename": "libva-intel-driver_1.8.3.bb",
             "filepath": "common/recipes-multimedia/libva",
             "homepage": "http://www.freedesktop.org/wiki/Software/vaapi",
-            "id": 620672,
+            "id": 654533,
             "inherits": "autotools distro_features_check pkgconfig siteconfig siteinfo",
             "layerbranch": 165167,
             "license": "MIT",
@@ -311,7 +311,7 @@
             "pv": "1.8.3",
             "section": "base",
             "summary": "VA driver for Intel G45 & HD Graphics family",
-            "updated": "2018-04-28T03:04:53+0000"
+            "updated": "2018-06-20T07:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -321,7 +321,7 @@
             "filename": "va-intel.bb",
             "filepath": "common/recipes-multimedia/libva",
             "homepage": "",
-            "id": 620673,
+            "id": 654534,
             "inherits": "distro_features_check",
             "layerbranch": 165167,
             "license": "MIT",
@@ -330,7 +330,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-28T03:04:53+0000"
+            "updated": "2018-06-20T07:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -340,7 +340,7 @@
             "filename": "libyami_1.2.0.bb",
             "filepath": "common/recipes-multimedia/libyami",
             "homepage": "https://github.com/01org/libyami",
-            "id": 620674,
+            "id": 654535,
             "inherits": "autotools distro_features_check pkgconfig siteconfig siteinfo",
             "layerbranch": 165167,
             "license": "Apache-2.0",
@@ -349,7 +349,7 @@
             "pv": "1.2.0",
             "section": "base",
             "summary": "Yami is media infrastructure base on libva",
-            "updated": "2018-04-28T03:04:53+0000"
+            "updated": "2018-06-20T07:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -359,7 +359,7 @@
             "filename": "libyami-utils_1.2.0.bb",
             "filepath": "common/recipes-multimedia/libyami",
             "homepage": "https://github.com/01org/libyami-utils",
-            "id": 620675,
+            "id": 654536,
             "inherits": "autotools distro_features_check pkgconfig siteconfig siteinfo",
             "layerbranch": 165167,
             "license": "Apache-2.0",
@@ -368,7 +368,7 @@
             "pv": "1.2.0",
             "section": "base",
             "summary": "Applications and Scripts for libyami.",
-            "updated": "2018-04-28T03:04:53+0000"
+            "updated": "2018-06-20T07:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -378,7 +378,7 @@
             "filename": "core-image-rt.bb",
             "filepath": "common/recipes-rt/images",
             "homepage": "",
-            "id": 620676,
+            "id": 654537,
             "inherits": "core-image image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 165167,
             "license": "MIT",
@@ -387,7 +387,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-04-28T03:04:53+0000"
+            "updated": "2018-06-20T07:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -397,7 +397,7 @@
             "filename": "core-image-rt-sdk.bb",
             "filepath": "common/recipes-rt/images",
             "homepage": "",
-            "id": 620677,
+            "id": 654538,
             "inherits": "core-image image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 165167,
             "license": "MIT",
@@ -406,7 +406,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-04-28T03:04:53+0000"
+            "updated": "2018-06-20T07:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -416,7 +416,7 @@
             "filename": "gma500-gfx-check_1.0.bb",
             "filepath": "common/recipes-bsp/gma500-gfx-check",
             "homepage": "",
-            "id": 620678,
+            "id": 654539,
             "inherits": "",
             "layerbranch": 165167,
             "license": "GPLv2",
@@ -425,7 +425,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Intel gma500_gfx fix for certain hardware",
-            "updated": "2018-04-28T03:04:54+0000"
+            "updated": "2018-06-20T07:06:50+0000"
         },
         {
             "bbclassextend": "",
@@ -435,7 +435,7 @@
             "filename": "thermald_1.6.bb",
             "filepath": "common/recipes-bsp/thermald",
             "homepage": "https://github.com/01org/thermal_daemon",
-            "id": 620679,
+            "id": 654540,
             "inherits": "autotools pkgconfig siteconfig siteinfo systemd",
             "layerbranch": 165167,
             "license": "GPL-2.0",
@@ -444,7 +444,7 @@
             "pv": "1.6",
             "section": "base",
             "summary": "Linux thermal daemon",
-            "updated": "2018-04-28T03:04:54+0000"
+            "updated": "2018-06-20T07:06:51+0000"
         },
         {
             "bbclassextend": "",
@@ -454,7 +454,7 @@
             "filename": "efilinux_1.1.bb",
             "filepath": "common/recipes-bsp/efilinux",
             "homepage": "",
-            "id": 620680,
+            "id": 654541,
             "inherits": "deploy",
             "layerbranch": 165167,
             "license": "BSD-2-Clause",
@@ -463,7 +463,7 @@
             "pv": "1.1+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-28T03:04:54+0000"
+            "updated": "2018-06-20T07:06:51+0000"
         },
         {
             "bbclassextend": "",
@@ -473,7 +473,7 @@
             "filename": "lms7_7.1.20.bb",
             "filepath": "common/recipes-bsp/amt",
             "homepage": "http://software.intel.com/en-us/articles/download-the-latest-intel-amt-open-source-drivers",
-            "id": 620681,
+            "id": 654542,
             "inherits": "autotools siteconfig siteinfo update-rc.d",
             "layerbranch": 165167,
             "license": "BSD_LMS",
@@ -482,7 +482,7 @@
             "pv": "7.1.20",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-28T03:04:54+0000"
+            "updated": "2018-06-20T07:06:51+0000"
         },
         {
             "bbclassextend": "",
@@ -492,7 +492,7 @@
             "filename": "lms8_8.0.0-7.bb",
             "filepath": "common/recipes-bsp/amt",
             "homepage": "http://software.intel.com/en-us/articles/download-the-latest-intel-amt-open-source-drivers",
-            "id": 620682,
+            "id": 654543,
             "inherits": "autotools siteconfig siteinfo update-rc.d",
             "layerbranch": 165167,
             "license": "BSD_LMS",
@@ -501,7 +501,7 @@
             "pv": "8.0.0-7",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-28T03:04:54+0000"
+            "updated": "2018-06-20T07:06:51+0000"
         },
         {
             "bbclassextend": "",
@@ -511,7 +511,7 @@
             "filename": "rmc-db.bb",
             "filepath": "common/recipes-bsp/rmc",
             "homepage": "",
-            "id": 620683,
+            "id": 654544,
             "inherits": "deploy rmc-db",
             "layerbranch": 165167,
             "license": "MIT",
@@ -520,7 +520,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Central RMC Database",
-            "updated": "2018-04-28T03:04:54+0000"
+            "updated": "2018-06-20T07:06:51+0000"
         },
         {
             "bbclassextend": "",
@@ -530,7 +530,7 @@
             "filename": "rmc-efi.bb",
             "filepath": "common/recipes-bsp/rmc",
             "homepage": "",
-            "id": 620684,
+            "id": 654545,
             "inherits": "",
             "layerbranch": 165167,
             "license": "MIT",
@@ -539,7 +539,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "RMC (Runtime Machine Configuration) EFI library",
-            "updated": "2018-04-28T03:04:54+0000"
+            "updated": "2018-06-20T07:06:51+0000"
         },
         {
             "bbclassextend": "native",
@@ -549,7 +549,7 @@
             "filename": "rmc.bb",
             "filepath": "common/recipes-bsp/rmc",
             "homepage": "",
-            "id": 620685,
+            "id": 654546,
             "inherits": "",
             "layerbranch": 165167,
             "license": "MIT",
@@ -558,7 +558,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "RMC (Runtime Machine Configuration)",
-            "updated": "2018-04-28T03:04:54+0000"
+            "updated": "2018-06-20T07:06:51+0000"
         },
         {
             "bbclassextend": "",
@@ -568,7 +568,7 @@
             "filename": "ovmf-shell-image-enrollkeys.bb",
             "filepath": "common/recipes-core/ovmf",
             "homepage": "",
-            "id": 620686,
+            "id": 654547,
             "inherits": "image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 165167,
             "license": "",
@@ -577,7 +577,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-28T03:04:55+0000"
+            "updated": "2018-06-20T07:06:52+0000"
         },
         {
             "bbclassextend": "",
@@ -587,7 +587,7 @@
             "filename": "core-image-tiny.bb",
             "filepath": "common/recipes-core/images",
             "homepage": "",
-            "id": 620687,
+            "id": 654548,
             "inherits": "core-image image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 165167,
             "license": "MIT",
@@ -596,26 +596,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A tiny image just capable of allowing a device to boot from RAM, this image recipe generates an image file which rather boots from initrd than from storage, it achieves this by using wic to pick up th",
-            "updated": "2018-04-28T03:04:55+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "The microcode data file contains the latest microcode definitions for all Intel processors. Intel releases microcode updates to correct processor behavior as documented in the respective processor specification updates. While the regular approach to getting this microcode update is via a BIOS upgrade, Intel realizes that this can be an administrative hassle. The Linux operating system and VMware ESX products have a mechanism to update the microcode after booting. For example, this file will be used by the operating system mechanism if the file is placed in the /etc/firmware directory of the Linux system.",
-            "filename": "intel-microcode_20180312.bb",
-            "filepath": "common/recipes-core/microcode",
-            "homepage": "http://www.intel.com/",
-            "id": 620688,
-            "inherits": "deploy",
-            "layerbranch": 165167,
-            "license": "Intel-Microcode-License",
-            "pn": "intel-microcode",
-            "provides": "intel-microcode ",
-            "pv": "20180312",
-            "section": "base",
-            "summary": "Intel Processor Microcode Datafile for Linux",
-            "updated": "2018-04-28T03:04:55+0000"
+            "updated": "2018-06-20T07:06:52+0000"
         },
         {
             "bbclassextend": "native",
@@ -625,8 +606,8 @@
             "filename": "iucode-tool_2.1.2.bb",
             "filepath": "common/recipes-core/microcode",
             "homepage": "https://gitlab.com/iucode-tool/",
-            "id": 620689,
-            "inherits": "autotools siteconfig siteinfo",
+            "id": 654549,
+            "inherits": "autotools siteconfig siteinfo systemd",
             "layerbranch": 165167,
             "license": "GPLv2+",
             "pn": "iucode-tool",
@@ -634,7 +615,26 @@
             "pv": "2.1.2",
             "section": "base",
             "summary": "Update Intel CPU microcode",
-            "updated": "2018-04-28T03:04:55+0000"
+            "updated": "2018-06-20T07:06:52+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "The microcode data file contains the latest microcode definitions for all Intel processors. Intel releases microcode updates to correct processor behavior as documented in the respective processor specification updates. While the regular approach to getting this microcode update is via a BIOS upgrade, Intel realizes that this can be an administrative hassle. The Linux operating system and VMware ESX products have a mechanism to update the microcode after booting. For example, this file will be used by the operating system mechanism if the file is placed in the /etc/firmware directory of the Linux system.",
+            "filename": "intel-microcode_20180425.bb",
+            "filepath": "common/recipes-core/microcode",
+            "homepage": "http://www.intel.com/",
+            "id": 654550,
+            "inherits": "deploy",
+            "layerbranch": 165167,
+            "license": "Intel-Microcode-License",
+            "pn": "intel-microcode",
+            "provides": "intel-microcode ",
+            "pv": "20180425",
+            "section": "base",
+            "summary": "Intel Processor Microcode Datafile for Linux",
+            "updated": "2018-06-20T07:06:52+0000"
         },
         {
             "bbclassextend": "",
@@ -644,7 +644,7 @@
             "filename": "secureboot-selftest-image-signed.bb",
             "filepath": "common/recipes-selftest/images",
             "homepage": "",
-            "id": 620690,
+            "id": 654551,
             "inherits": "core-image image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo uefi-comboapp uefi-sign",
             "layerbranch": 165167,
             "license": "MIT",
@@ -653,7 +653,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-04-28T03:04:55+0000"
+            "updated": "2018-06-20T07:06:52+0000"
         },
         {
             "bbclassextend": "",
@@ -663,7 +663,7 @@
             "filename": "secureboot-selftest-image-unsigned.bb",
             "filepath": "common/recipes-selftest/images",
             "homepage": "",
-            "id": 620691,
+            "id": 654552,
             "inherits": "core-image image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo uefi-comboapp uefi-sign",
             "layerbranch": 165167,
             "license": "MIT",
@@ -672,7 +672,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-04-28T03:04:56+0000"
+            "updated": "2018-06-20T07:06:53+0000"
         }
     ],
     "wrtemplates": []

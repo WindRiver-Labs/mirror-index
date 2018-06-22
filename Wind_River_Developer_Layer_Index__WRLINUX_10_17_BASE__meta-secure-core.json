@@ -26,9 +26,9 @@
             "collection": "core",
             "id": 165030,
             "layer": 1,
-            "updated": "2018-06-05T01:06:29+0000",
+            "updated": "2018-06-22T05:06:27+0000",
             "vcs_last_commit": "2018-05-29T01:05:14+0000",
-            "vcs_last_fetch": "2018-06-05T01:06:29+0000",
+            "vcs_last_fetch": "2018-06-22T05:06:27+0000",
             "vcs_last_rev": "d75b808e85d57a5906396e9f3cb913bc0d70cc79",
             "vcs_subdir": "meta",
             "version": "11",
@@ -40,9 +40,9 @@
             "collection": "secure-core",
             "id": 165195,
             "layer": 149,
-            "updated": "2018-06-05T01:06:34+0000",
+            "updated": "2018-06-22T05:06:32+0000",
             "vcs_last_commit": "2017-09-25T07:09:27+0000",
-            "vcs_last_fetch": "2018-06-05T01:06:34+0000",
+            "vcs_last_fetch": "2018-06-22T05:06:32+0000",
             "vcs_last_rev": "6dff36ef09e5ea6b87f872ba5ae10c9e7af87fa2",
             "vcs_subdir": "meta",
             "version": null,
@@ -103,7 +103,7 @@
             "filename": "initrdscripts-secure-core.bb",
             "filepath": "recipes-core/initrdscripts",
             "homepage": "",
-            "id": 620644,
+            "id": 654505,
             "inherits": "",
             "layerbranch": 165195,
             "license": "MIT",
@@ -112,7 +112,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Basic init for initramfs to mount and pivot root",
-            "updated": "2018-04-28T03:04:44+0000"
+            "updated": "2018-06-20T07:06:41+0000"
         },
         {
             "bbclassextend": "",
@@ -122,7 +122,7 @@
             "filename": "secure-core-minimal-image.bb",
             "filepath": "recipes-core/images",
             "homepage": "",
-            "id": 620645,
+            "id": 654506,
             "inherits": "core-image image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 165195,
             "license": "MIT",
@@ -131,7 +131,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "The root image of SecureCore.",
-            "updated": "2018-04-28T03:04:45+0000"
+            "updated": "2018-06-20T07:06:41+0000"
         },
         {
             "bbclassextend": "",
@@ -141,7 +141,7 @@
             "filename": "secure-core-image.bb",
             "filepath": "recipes-core/images",
             "homepage": "",
-            "id": 620646,
+            "id": 654507,
             "inherits": "core-image image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 165195,
             "license": "MIT",
@@ -150,7 +150,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "The root image of SecureCore.",
-            "updated": "2018-04-28T03:04:45+0000"
+            "updated": "2018-06-20T07:06:42+0000"
         },
         {
             "bbclassextend": "",
@@ -160,7 +160,7 @@
             "filename": "kernel-initramfs.bb",
             "filepath": "recipes-core/images",
             "homepage": "",
-            "id": 620647,
+            "id": 654508,
             "inherits": "kernel-arch linux-kernel-base",
             "layerbranch": 165195,
             "license": "MIT",
@@ -169,7 +169,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Initramfs kernel boot",
-            "updated": "2018-04-28T03:04:45+0000"
+            "updated": "2018-06-20T07:06:42+0000"
         },
         {
             "bbclassextend": "",
@@ -179,7 +179,7 @@
             "filename": "secure-core-image-initramfs.bb",
             "filepath": "recipes-core/images",
             "homepage": "",
-            "id": 620648,
+            "id": 654509,
             "inherits": "core-image image image_types image_types_wic kernel-arch meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 165195,
             "license": "MIT",
@@ -188,7 +188,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-28T03:04:45+0000"
+            "updated": "2018-06-20T07:06:42+0000"
         }
     ],
     "wrtemplates": []

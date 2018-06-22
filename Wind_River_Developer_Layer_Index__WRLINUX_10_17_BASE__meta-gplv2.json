@@ -26,9 +26,9 @@
             "collection": "core",
             "id": 165030,
             "layer": 1,
-            "updated": "2018-06-05T01:06:29+0000",
+            "updated": "2018-06-22T05:06:27+0000",
             "vcs_last_commit": "2018-05-29T01:05:14+0000",
-            "vcs_last_fetch": "2018-06-05T01:06:29+0000",
+            "vcs_last_fetch": "2018-06-22T05:06:27+0000",
             "vcs_last_rev": "d75b808e85d57a5906396e9f3cb913bc0d70cc79",
             "vcs_subdir": "meta",
             "version": "11",
@@ -40,9 +40,9 @@
             "collection": "gplv2",
             "id": 165173,
             "layer": 115,
-            "updated": "2018-06-05T01:06:37+0000",
+            "updated": "2018-06-22T05:06:35+0000",
             "vcs_last_commit": "2017-10-09T08:10:53+0000",
-            "vcs_last_fetch": "2018-06-05T01:06:37+0000",
+            "vcs_last_fetch": "2018-06-22T05:06:35+0000",
             "vcs_last_rev": "85971c0e7745205bd852eb20dae8b66d838b5c42",
             "vcs_subdir": "",
             "version": "1",
@@ -109,7 +109,7 @@
             "filename": "gdbm_1.8.3.bb",
             "filepath": "recipes-support/gdbm",
             "homepage": "http://www.gnu.org/software/gdbm/",
-            "id": 620700,
+            "id": 654561,
             "inherits": "autotools siteconfig siteinfo texinfo",
             "layerbranch": 165173,
             "license": "GPLv2+",
@@ -118,7 +118,7 @@
             "pv": "1.8.3",
             "section": "libs",
             "summary": "Key/value database library with extensible hashing",
-            "updated": "2018-04-28T03:04:03+0000"
+            "updated": "2018-06-20T07:06:00+0000"
         },
         {
             "bbclassextend": "",
@@ -128,7 +128,7 @@
             "filename": "gnupg_1.4.7.bb",
             "filepath": "recipes-support/gnupg",
             "homepage": "http://www.gnupg.org/",
-            "id": 620701,
+            "id": 654562,
             "inherits": "autotools gettext siteconfig siteinfo texinfo",
             "layerbranch": 165173,
             "license": "GPLv2",
@@ -137,7 +137,7 @@
             "pv": "1.4.7",
             "section": "console/utils",
             "summary": "GNU Privacy Guard - encryption and signing tools",
-            "updated": "2018-04-28T03:04:03+0000"
+            "updated": "2018-06-20T07:06:00+0000"
         },
         {
             "bbclassextend": "",
@@ -147,7 +147,7 @@
             "filename": "gmp_4.2.1.bb",
             "filepath": "recipes-support/gmp",
             "homepage": "http://gmplib.org/",
-            "id": 620702,
+            "id": 654563,
             "inherits": "autotools siteconfig siteinfo texinfo",
             "layerbranch": 165173,
             "license": "LGPLv2.1+ & GPLv2+",
@@ -156,7 +156,7 @@
             "pv": "4.2.1",
             "section": "devel",
             "summary": "GNU multiprecision arithmetic library",
-            "updated": "2018-04-28T03:04:03+0000"
+            "updated": "2018-06-20T07:06:00+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -166,7 +166,7 @@
             "filename": "nettle_2.7.1.bb",
             "filepath": "recipes-support/nettle",
             "homepage": "http://www.lysator.liu.se/~nisse/nettle/",
-            "id": 620703,
+            "id": 654564,
             "inherits": "autotools ptest siteconfig siteinfo",
             "layerbranch": 165173,
             "license": "LGPLv2.1+ & GPLv2",
@@ -175,7 +175,7 @@
             "pv": "2.7.1",
             "section": "libs",
             "summary": "A low level cryptographic library",
-            "updated": "2018-04-28T03:04:04+0000"
+            "updated": "2018-06-20T07:06:00+0000"
         },
         {
             "bbclassextend": "",
@@ -185,7 +185,7 @@
             "filename": "libiconv_1.11.1.bb",
             "filepath": "recipes-support/libiconv",
             "homepage": "http://www.gnu.org/software/libiconv",
-            "id": 620704,
+            "id": 654565,
             "inherits": "autotools gettext pkgconfig siteconfig siteinfo",
             "layerbranch": 165173,
             "license": "LGPLv2.0",
@@ -194,7 +194,7 @@
             "pv": "1.11.1",
             "section": "libs",
             "summary": "Character encoding support library",
-            "updated": "2018-04-28T03:04:04+0000"
+            "updated": "2018-06-20T07:06:00+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -204,7 +204,7 @@
             "filename": "gnutls_3.3.27.bb",
             "filepath": "recipes-support/gnutls",
             "homepage": "http://www.gnu.org/software/gnutls/",
-            "id": 620705,
+            "id": 654566,
             "inherits": "autotools binconfig gettext gtk-doc lib_package pkgconfig qemu siteconfig siteinfo texinfo",
             "layerbranch": 165173,
             "license": "GPLv3+ & LGPLv2.1+",
@@ -213,7 +213,7 @@
             "pv": "3.3.27",
             "section": "base",
             "summary": "GNU Transport Layer Security Library",
-            "updated": "2018-04-28T03:04:04+0000"
+            "updated": "2018-06-20T07:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -223,7 +223,7 @@
             "filename": "ed_0.5.bb",
             "filepath": "recipes-extended/ed",
             "homepage": "http://www.gnu.org/software/ed/",
-            "id": 620706,
+            "id": 654567,
             "inherits": "autotools siteconfig siteinfo texinfo",
             "layerbranch": 165173,
             "license": "GPLv2+",
@@ -232,7 +232,7 @@
             "pv": "0.5",
             "section": "base",
             "summary": "Line-oriented text editor",
-            "updated": "2018-04-28T03:04:04+0000"
+            "updated": "2018-06-20T07:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -242,7 +242,7 @@
             "filename": "diffutils_2.8.1.bb",
             "filepath": "recipes-extended/diffutils",
             "homepage": "",
-            "id": 620707,
+            "id": 654568,
             "inherits": "autotools gettext siteconfig siteinfo texinfo update-alternatives",
             "layerbranch": 165173,
             "license": "GPLv2+",
@@ -251,7 +251,7 @@
             "pv": "2.8.1",
             "section": "base",
             "summary": "Diffutils contains tools used for finding differences between files",
-            "updated": "2018-04-28T03:04:04+0000"
+            "updated": "2018-06-20T07:06:01+0000"
         },
         {
             "bbclassextend": "",
@@ -261,7 +261,7 @@
             "filename": "groff_1.18.1.4.bb",
             "filepath": "recipes-extended/groff",
             "homepage": "http://www.gnu.org/software/groff/",
-            "id": 620708,
+            "id": 654569,
             "inherits": "autotools siteconfig siteinfo texinfo",
             "layerbranch": 165173,
             "license": "GPLv2",
@@ -270,7 +270,7 @@
             "pv": "1.18.1.4",
             "section": "console/utils",
             "summary": "GNU Troff software",
-            "updated": "2018-04-28T03:04:04+0000"
+            "updated": "2018-06-20T07:06:01+0000"
         },
         {
             "bbclassextend": "native",
@@ -280,7 +280,7 @@
             "filename": "gperf_3.0.3.bb",
             "filepath": "recipes-extended/gperf",
             "homepage": "http://www.gnu.org/software/gperf",
-            "id": 620709,
+            "id": 654570,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 165173,
             "license": "GPLv2+",
@@ -289,7 +289,7 @@
             "pv": "3.0.3",
             "section": "base",
             "summary": "Generate a perfect hash function from a set of keywords",
-            "updated": "2018-04-28T03:04:05+0000"
+            "updated": "2018-06-20T07:06:01+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -299,7 +299,7 @@
             "filename": "tar_1.17.bb",
             "filepath": "recipes-extended/tar",
             "homepage": "http://www.gnu.org/software/tar/",
-            "id": 620710,
+            "id": 654571,
             "inherits": "autotools gettext siteconfig siteinfo texinfo update-alternatives",
             "layerbranch": 165173,
             "license": "GPLv2",
@@ -308,7 +308,7 @@
             "pv": "1.17",
             "section": "base",
             "summary": "GNU file archiving program",
-            "updated": "2018-04-28T03:04:05+0000"
+            "updated": "2018-06-20T07:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -318,7 +318,7 @@
             "filename": "gawk_3.1.5.bb",
             "filepath": "recipes-extended/gawk",
             "homepage": "www.gnu.org/software/gawk",
-            "id": 620711,
+            "id": 654572,
             "inherits": "autotools gettext siteconfig siteinfo texinfo update-alternatives",
             "layerbranch": 165173,
             "license": "GPLv2",
@@ -327,7 +327,7 @@
             "pv": "3.1.5",
             "section": "console/utils",
             "summary": "GNU awk text processing utility",
-            "updated": "2018-04-28T03:04:05+0000"
+            "updated": "2018-06-20T07:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -337,7 +337,7 @@
             "filename": "gzip_1.3.12.bb",
             "filepath": "recipes-extended/gzip",
             "homepage": "http://www.gnu.org/software/gzip/",
-            "id": 620712,
+            "id": 654573,
             "inherits": "autotools siteconfig siteinfo texinfo update-alternatives",
             "layerbranch": 165173,
             "license": "GPLv2+",
@@ -346,7 +346,7 @@
             "pv": "1.3.12",
             "section": "console/utils",
             "summary": "Standard GNU compressor",
-            "updated": "2018-04-28T03:04:05+0000"
+            "updated": "2018-06-20T07:06:02+0000"
         },
         {
             "bbclassextend": "",
@@ -356,7 +356,7 @@
             "filename": "sed_4.1.2.bb",
             "filepath": "recipes-extended/sed",
             "homepage": "http://www.gnu.org/software/sed/",
-            "id": 620713,
+            "id": 654574,
             "inherits": "autotools gettext siteconfig siteinfo texinfo update-alternatives",
             "layerbranch": 165173,
             "license": "GPLv2+",
@@ -365,7 +365,7 @@
             "pv": "4.1.2",
             "section": "console/utils",
             "summary": "Stream EDitor (text filtering utility)",
-            "updated": "2018-04-28T03:04:05+0000"
+            "updated": "2018-06-20T07:06:02+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -375,7 +375,7 @@
             "filename": "libidn_0.6.14.bb",
             "filepath": "recipes-extended/libidn",
             "homepage": "http://www.gnu.org/software/libidn/",
-            "id": 620714,
+            "id": 654575,
             "inherits": "autotools gettext pkgconfig siteconfig siteinfo texinfo",
             "layerbranch": 165173,
             "license": "LGPLv2.1+ & GPLv2+",
@@ -384,7 +384,7 @@
             "pv": "0.6.14",
             "section": "libs",
             "summary": "Internationalized Domain Name support library",
-            "updated": "2018-04-28T03:04:06+0000"
+            "updated": "2018-06-20T07:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -394,7 +394,7 @@
             "filename": "which_2.18.bb",
             "filepath": "recipes-extended/which",
             "homepage": "http://carlo17.home.xs4all.nl/which/",
-            "id": 620715,
+            "id": 654576,
             "inherits": "autotools siteconfig siteinfo texinfo update-alternatives",
             "layerbranch": 165173,
             "license": "GPLv2+",
@@ -403,7 +403,7 @@
             "pv": "2.18",
             "section": "libs",
             "summary": "Displays the full path of shell commands",
-            "updated": "2018-04-28T03:04:06+0000"
+            "updated": "2018-06-20T07:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -413,7 +413,7 @@
             "filename": "grep_2.5.1a.bb",
             "filepath": "recipes-extended/grep",
             "homepage": "",
-            "id": 620716,
+            "id": 654577,
             "inherits": "autotools gettext siteconfig siteinfo texinfo update-alternatives",
             "layerbranch": 165173,
             "license": "GPLv2",
@@ -422,7 +422,7 @@
             "pv": "2.5.1a",
             "section": "console/utils",
             "summary": "Pattern matching utilities",
-            "updated": "2018-04-28T03:04:06+0000"
+            "updated": "2018-06-20T07:06:03+0000"
         },
         {
             "bbclassextend": "native",
@@ -432,7 +432,7 @@
             "filename": "cpio_2.8.bb",
             "filepath": "recipes-extended/cpio",
             "homepage": "http://www.gnu.org/software/cpio/",
-            "id": 620717,
+            "id": 654578,
             "inherits": "autotools gettext siteconfig siteinfo texinfo update-alternatives",
             "layerbranch": 165173,
             "license": "GPLv2",
@@ -441,7 +441,7 @@
             "pv": "2.8",
             "section": "base",
             "summary": "GNU cpio is a program to manage archives of files",
-            "updated": "2018-04-28T03:04:06+0000"
+            "updated": "2018-06-20T07:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -451,7 +451,7 @@
             "filename": "mc_4.7.5.2.bb",
             "filepath": "recipes-extended/mc",
             "homepage": "http://www.midnight-commander.org/",
-            "id": 620718,
+            "id": 654579,
             "inherits": "autotools gettext pkgconfig siteconfig siteinfo",
             "layerbranch": 165173,
             "license": "GPLv2",
@@ -460,7 +460,7 @@
             "pv": "4.7.5.2",
             "section": "console/utils",
             "summary": "Midnight Commander is an ncurses based file manager",
-            "updated": "2018-04-28T03:04:07+0000"
+            "updated": "2018-06-20T07:06:03+0000"
         },
         {
             "bbclassextend": "native",
@@ -470,7 +470,7 @@
             "filename": "texinfo_4.8.bb",
             "filepath": "recipes-extended/texinfo",
             "homepage": "http://www.gnu.org/software/texinfo/",
-            "id": 620719,
+            "id": 654580,
             "inherits": "autotools gettext siteconfig siteinfo",
             "layerbranch": 165173,
             "license": "GPLv2",
@@ -479,7 +479,7 @@
             "pv": "4.8",
             "section": "console/utils",
             "summary": "Documentation system for on-line information and printed output",
-            "updated": "2018-04-28T03:04:07+0000"
+            "updated": "2018-06-20T07:06:03+0000"
         },
         {
             "bbclassextend": "",
@@ -489,7 +489,7 @@
             "filename": "bash_3.2.57.bb",
             "filepath": "recipes-extended/bash",
             "homepage": "http://tiswww.case.edu/php/chet/bash/bashtop.html",
-            "id": 620720,
+            "id": 654581,
             "inherits": "autotools gettext ptest siteconfig siteinfo texinfo update-alternatives",
             "layerbranch": 165173,
             "license": "GPLv2+",
@@ -498,7 +498,7 @@
             "pv": "3.2.57",
             "section": "base/shell",
             "summary": "An sh-compatible command language interpreter",
-            "updated": "2018-04-28T03:04:07+0000"
+            "updated": "2018-06-20T07:06:04+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -508,7 +508,7 @@
             "filename": "findutils_4.2.31.bb",
             "filepath": "recipes-extended/findutils",
             "homepage": "http://www.gnu.org/software/findutils/",
-            "id": 620721,
+            "id": 654582,
             "inherits": "autotools gettext siteconfig siteinfo texinfo update-alternatives upstream-version-is-even",
             "layerbranch": 165173,
             "license": "GPLv2+",
@@ -517,7 +517,7 @@
             "pv": "4.2.31",
             "section": "console/utils",
             "summary": "find, locate, and xargs binaries",
-            "updated": "2018-04-28T03:04:07+0000"
+            "updated": "2018-06-20T07:06:04+0000"
         },
         {
             "bbclassextend": "",
@@ -527,7 +527,7 @@
             "filename": "msmtp_1.4.12.bb",
             "filepath": "recipes-extended/msmtp",
             "homepage": "http://msmtp.sourceforge.net/",
-            "id": 620722,
+            "id": 654583,
             "inherits": "autotools gettext siteconfig siteinfo update-alternatives",
             "layerbranch": 165173,
             "license": "GPLv2",
@@ -536,7 +536,7 @@
             "pv": "1.4.12",
             "section": "console/network",
             "summary": "msmtp is an SMTP client.",
-            "updated": "2018-04-28T03:04:07+0000"
+            "updated": "2018-06-20T07:06:04+0000"
         },
         {
             "bbclassextend": "",
@@ -546,7 +546,7 @@
             "filename": "grub_0.97.bb",
             "filepath": "recipes-bsp/grub",
             "homepage": "http://www.gnu.org/software/grub/",
-            "id": 620723,
+            "id": 654584,
             "inherits": "autotools siteconfig siteinfo texinfo",
             "layerbranch": 165173,
             "license": "GPLv2+",
@@ -555,7 +555,7 @@
             "pv": "0.97",
             "section": "bootloaders",
             "summary": "GRUB is the GRand Unified Bootloader",
-            "updated": "2018-04-28T03:04:08+0000"
+            "updated": "2018-06-20T07:06:04+0000"
         },
         {
             "bbclassextend": "",
@@ -565,7 +565,7 @@
             "filename": "dosfstools_2.11.bb",
             "filepath": "recipes-devtools/dosfstools",
             "homepage": "https://github.com/dosfstools/dosfstools",
-            "id": 620724,
+            "id": 654585,
             "inherits": "",
             "layerbranch": 165173,
             "license": "GPLv2",
@@ -574,7 +574,7 @@
             "pv": "2.11",
             "section": "base",
             "summary": "DOS FAT Filesystem Utilities",
-            "updated": "2018-04-28T03:04:08+0000"
+            "updated": "2018-06-20T07:06:04+0000"
         },
         {
             "bbclassextend": "",
@@ -584,7 +584,7 @@
             "filename": "patch_2.5.9.bb",
             "filepath": "recipes-devtools/patch",
             "homepage": "http://savannah.gnu.org/projects/patch/",
-            "id": 620725,
+            "id": 654586,
             "inherits": "autotools siteconfig siteinfo update-alternatives",
             "layerbranch": 165173,
             "license": "GPLv2",
@@ -593,7 +593,7 @@
             "pv": "2.5.9",
             "section": "utils",
             "summary": "Tool for applying a patch file",
-            "updated": "2018-04-28T03:04:08+0000"
+            "updated": "2018-06-20T07:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -603,7 +603,7 @@
             "filename": "bison_2.3.bb",
             "filepath": "recipes-devtools/bison",
             "homepage": "http://www.gnu.org/software/bison/",
-            "id": 620726,
+            "id": 654587,
             "inherits": "autotools gettext siteconfig siteinfo texinfo",
             "layerbranch": 165173,
             "license": "GPLv2",
@@ -612,7 +612,7 @@
             "pv": "2.3",
             "section": "devel",
             "summary": "GNU Project parser generator (yacc replacement)",
-            "updated": "2018-04-28T03:04:08+0000"
+            "updated": "2018-06-20T07:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -622,7 +622,7 @@
             "filename": "rsync_2.6.9.bb",
             "filepath": "recipes-devtools/rsync",
             "homepage": "http://rsync.samba.org/",
-            "id": 620727,
+            "id": 654588,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 165173,
             "license": "GPLv2+",
@@ -631,7 +631,7 @@
             "pv": "2.6.9",
             "section": "console/network",
             "summary": "File synchronization tool",
-            "updated": "2018-04-28T03:04:08+0000"
+            "updated": "2018-06-20T07:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -641,7 +641,7 @@
             "filename": "make_3.81.bb",
             "filepath": "recipes-devtools/make",
             "homepage": "http://www.gnu.org/software/make/",
-            "id": 620728,
+            "id": 654589,
             "inherits": "autotools gettext pkgconfig siteconfig siteinfo texinfo",
             "layerbranch": 165173,
             "license": "GPLv2 & LGPLv2",
@@ -650,7 +650,7 @@
             "pv": "3.81",
             "section": "devel",
             "summary": "GNU tool that controls the build process",
-            "updated": "2018-04-28T03:04:08+0000"
+            "updated": "2018-06-20T07:06:05+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -660,7 +660,7 @@
             "filename": "mtools_3.9.9.bb",
             "filepath": "recipes-devtools/mtools",
             "homepage": "http://www.gnu.org/software/mtools/",
-            "id": 620729,
+            "id": 654590,
             "inherits": "autotools siteconfig siteinfo texinfo",
             "layerbranch": 165173,
             "license": "GPLv2+",
@@ -669,7 +669,7 @@
             "pv": "3.9.9",
             "section": "optional",
             "summary": "Utilities to access MS-DOS disks without mounting them",
-            "updated": "2018-04-28T03:04:09+0000"
+            "updated": "2018-06-20T07:06:05+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -679,7 +679,7 @@
             "filename": "m4_1.4.9.bb",
             "filepath": "recipes-devtools/m4",
             "homepage": "",
-            "id": 620730,
+            "id": 654591,
             "inherits": "autotools siteconfig siteinfo texinfo",
             "layerbranch": 165173,
             "license": "GPLv2",
@@ -688,7 +688,7 @@
             "pv": "1.4.9",
             "section": "base",
             "summary": "Traditional Unix macro processor",
-            "updated": "2018-04-28T03:04:09+0000"
+            "updated": "2018-06-20T07:06:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -698,7 +698,7 @@
             "filename": "elfutils_0.148.bb",
             "filepath": "recipes-devtools/elfutils",
             "homepage": "https://fedorahosted.org/elfutils",
-            "id": 620731,
+            "id": 654592,
             "inherits": "autotools gettext siteconfig siteinfo",
             "layerbranch": 165173,
             "license": "(GPL-2+ & Elfutils-Exception)",
@@ -707,7 +707,7 @@
             "pv": "0.148",
             "section": "base",
             "summary": "Utilities and libraries for handling compiled object files",
-            "updated": "2018-04-28T03:04:09+0000"
+            "updated": "2018-06-20T07:06:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -717,7 +717,7 @@
             "filename": "gettext_0.16.1.bb",
             "filepath": "recipes-core/gettext",
             "homepage": "http://www.gnu.org/software/gettext/gettext.html",
-            "id": 620732,
+            "id": 654593,
             "inherits": "autotools siteconfig siteinfo texinfo",
             "layerbranch": 165173,
             "license": "GPLv2",
@@ -726,7 +726,7 @@
             "pv": "0.16.1",
             "section": "libs",
             "summary": "Utilities and libraries for producing multi-lingual messages",
-            "updated": "2018-04-28T03:04:10+0000"
+            "updated": "2018-06-20T07:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -736,7 +736,7 @@
             "filename": "coreutils_6.9.bb",
             "filepath": "recipes-core/coreutils",
             "homepage": "http://www.gnu.org/software/coreutils/",
-            "id": 620733,
+            "id": 654594,
             "inherits": "autotools gettext siteconfig siteinfo texinfo update-alternatives",
             "layerbranch": 165173,
             "license": "GPLv2+",
@@ -745,7 +745,7 @@
             "pv": "6.9",
             "section": "base",
             "summary": "The basic file, shell and text manipulation utilities",
-            "updated": "2018-04-28T03:04:10+0000"
+            "updated": "2018-06-20T07:06:06+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -755,7 +755,7 @@
             "filename": "readline_5.2.bb",
             "filepath": "recipes-core/readline",
             "homepage": "",
-            "id": 620734,
+            "id": 654595,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 165173,
             "license": "GPLv2+",
@@ -764,7 +764,7 @@
             "pv": "5.2",
             "section": "libs",
             "summary": "Library for editing typed command lines",
-            "updated": "2018-04-28T03:04:10+0000"
+            "updated": "2018-06-20T07:06:07+0000"
         },
         {
             "bbclassextend": "",
@@ -774,7 +774,7 @@
             "filename": "rxvt-unicode_9.20.bb",
             "filepath": "recipes-sato/rxvt-unicode",
             "homepage": "",
-            "id": 620735,
+            "id": 654596,
             "inherits": "autotools siteconfig siteinfo update-alternatives",
             "layerbranch": 165173,
             "license": "GPLv2+",
@@ -783,7 +783,7 @@
             "pv": "9.20",
             "section": "x11/utils",
             "summary": "rxvt terminal clone supporting unicode",
-            "updated": "2018-04-28T03:04:10+0000"
+            "updated": "2018-06-20T07:06:07+0000"
         }
     ],
     "wrtemplates": []

@@ -26,9 +26,9 @@
             "collection": "core",
             "id": 165030,
             "layer": 1,
-            "updated": "2018-06-05T01:06:29+0000",
+            "updated": "2018-06-22T05:06:27+0000",
             "vcs_last_commit": "2018-05-29T01:05:14+0000",
-            "vcs_last_fetch": "2018-06-05T01:06:29+0000",
+            "vcs_last_fetch": "2018-06-22T05:06:27+0000",
             "vcs_last_rev": "d75b808e85d57a5906396e9f3cb913bc0d70cc79",
             "vcs_subdir": "meta",
             "version": "11",
@@ -40,9 +40,9 @@
             "collection": "tpm",
             "id": 165196,
             "layer": 151,
-            "updated": "2018-06-05T01:06:34+0000",
+            "updated": "2018-06-22T05:06:32+0000",
             "vcs_last_commit": "2017-10-13T07:10:50+0000",
-            "vcs_last_fetch": "2018-06-05T01:06:34+0000",
+            "vcs_last_fetch": "2018-06-22T05:06:32+0000",
             "vcs_last_rev": "82413848310802b894b292ec351ca67abd8d64e9",
             "vcs_subdir": "meta-tpm",
             "version": null,
@@ -109,7 +109,7 @@
             "filename": "packagegroup-tpm.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 620649,
+            "id": 654510,
             "inherits": "allarch packagegroup",
             "layerbranch": 165196,
             "license": "MIT",
@@ -118,7 +118,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-28T03:04:47+0000"
+            "updated": "2018-06-20T07:06:43+0000"
         },
         {
             "bbclassextend": "native",
@@ -128,7 +128,7 @@
             "filename": "trousers_git.bb",
             "filepath": "recipes-tpm/trousers",
             "homepage": "https://sourceforge.net/projects/trousers",
-            "id": 620650,
+            "id": 654511,
             "inherits": "autotools pkgconfig siteconfig siteinfo update-rc.d useradd useradd_base",
             "layerbranch": 165196,
             "license": "BSD",
@@ -137,7 +137,7 @@
             "pv": "0.3.14+gitX",
             "section": "security/tpm",
             "summary": "TrouSerS - An open-source TCG Software Stack implementation.",
-            "updated": "2018-04-28T03:04:47+0000"
+            "updated": "2018-06-20T07:06:44+0000"
         },
         {
             "bbclassextend": "native",
@@ -147,7 +147,7 @@
             "filename": "tpm-tools_git.bb",
             "filepath": "recipes-tpm/tpm-tools",
             "homepage": "",
-            "id": 620651,
+            "id": 654512,
             "inherits": "autotools autotools-brokensep gettext siteconfig siteinfo",
             "layerbranch": 165196,
             "license": "CPL-1.0",
@@ -156,7 +156,7 @@
             "pv": "1.3.9.1+gitX",
             "section": "security/tpm",
             "summary": "The tpm-tools package contains commands to allow the platform administrator the ability to manage and diagnose the platform's TPM.",
-            "updated": "2018-04-28T03:04:47+0000"
+            "updated": "2018-06-20T07:06:44+0000"
         },
         {
             "bbclassextend": "",
@@ -166,7 +166,7 @@
             "filename": "tss-testsuite_git.bb",
             "filepath": "recipes-tpm/tss-testsuite",
             "homepage": "http://downloads.sourceforge.net/projects/trousers",
-            "id": 620652,
+            "id": 654513,
             "inherits": "",
             "layerbranch": 165196,
             "license": "GPLv2",
@@ -175,7 +175,7 @@
             "pv": "gitX",
             "section": "security/tpm",
             "summary": "Testcases to exercise the TSS stack/TSS API",
-            "updated": "2018-04-28T03:04:47+0000"
+            "updated": "2018-06-20T07:06:44+0000"
         },
         {
             "bbclassextend": "",
@@ -185,7 +185,7 @@
             "filename": "tpm-quote-tools_git.bb",
             "filepath": "recipes-tpm/tpm-quote-tools",
             "homepage": "",
-            "id": 620653,
+            "id": 654514,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 165196,
             "license": "BSD",
@@ -194,7 +194,7 @@
             "pv": "1.0.4+gitX",
             "section": "security/tpm",
             "summary": "A collection of programs that provide support for TPM based attestation using the TPM quote mechanism. ",
-            "updated": "2018-04-28T03:04:47+0000"
+            "updated": "2018-06-20T07:06:44+0000"
         },
         {
             "bbclassextend": "",
@@ -204,7 +204,7 @@
             "filename": "pcr-extend_git.bb",
             "filepath": "recipes-tpm/pcr-extend",
             "homepage": "",
-            "id": 620654,
+            "id": 654515,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 165196,
             "license": "GPLv2",
@@ -213,7 +213,7 @@
             "pv": "0.1+gitX",
             "section": "security/tpm",
             "summary": "Command line utility to extend hash of arbitrary data into a TPMs PCR.",
-            "updated": "2018-04-28T03:04:48+0000"
+            "updated": "2018-06-20T07:06:44+0000"
         },
         {
             "bbclassextend": "",
@@ -223,7 +223,7 @@
             "filename": "openssl-tpm-engine_git.bb",
             "filepath": "recipes-tpm/openssl-tpm-engine",
             "homepage": "http://www.openssl.org/",
-            "id": 620655,
+            "id": 654516,
             "inherits": "autotools autotools-brokensep siteconfig siteinfo",
             "layerbranch": 165196,
             "license": "openssl",
@@ -232,7 +232,7 @@
             "pv": "0.4.2+gitX",
             "section": "security/tpm",
             "summary": "",
-            "updated": "2018-04-28T03:04:48+0000"
+            "updated": "2018-06-20T07:06:45+0000"
         }
     ],
     "wrtemplates": []

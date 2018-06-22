@@ -26,9 +26,9 @@
             "collection": "core",
             "id": 165030,
             "layer": 1,
-            "updated": "2018-06-05T01:06:29+0000",
+            "updated": "2018-06-22T05:06:27+0000",
             "vcs_last_commit": "2018-05-29T01:05:14+0000",
-            "vcs_last_fetch": "2018-06-05T01:06:29+0000",
+            "vcs_last_fetch": "2018-06-22T05:06:27+0000",
             "vcs_last_rev": "d75b808e85d57a5906396e9f3cb913bc0d70cc79",
             "vcs_subdir": "meta",
             "version": "11",
@@ -40,9 +40,9 @@
             "collection": "openembedded-layer",
             "id": 165076,
             "layer": 7,
-            "updated": "2018-06-05T01:06:30+0000",
+            "updated": "2018-06-22T05:06:28+0000",
             "vcs_last_commit": "2018-05-30T03:05:57+0000",
-            "vcs_last_fetch": "2018-06-05T01:06:30+0000",
+            "vcs_last_fetch": "2018-06-22T05:06:28+0000",
             "vcs_last_rev": "6d02ece73068e403a0d36978aa0a5a0419cfbfa0",
             "vcs_subdir": "meta-oe",
             "version": "1",
@@ -54,9 +54,9 @@
             "collection": "perl-layer",
             "id": 165081,
             "layer": 13,
-            "updated": "2018-06-05T01:06:32+0000",
+            "updated": "2018-06-22T05:06:30+0000",
             "vcs_last_commit": "2017-10-18T06:10:28+0000",
-            "vcs_last_fetch": "2018-06-05T01:06:32+0000",
+            "vcs_last_fetch": "2018-06-22T05:06:30+0000",
             "vcs_last_rev": "f09a3b9f43c51f7055afee9126a770f44d4b5cb3",
             "vcs_subdir": "meta-perl",
             "version": "1",
@@ -68,9 +68,9 @@
             "collection": "signing-key",
             "id": 165184,
             "layer": 129,
-            "updated": "2018-06-05T01:06:36+0000",
+            "updated": "2018-06-22T05:06:34+0000",
             "vcs_last_commit": "2017-10-13T07:10:50+0000",
-            "vcs_last_fetch": "2018-06-05T01:06:36+0000",
+            "vcs_last_fetch": "2018-06-22T05:06:34+0000",
             "vcs_last_rev": "6dd44178fc5cbb6275032d30ccbe348776c89f64",
             "vcs_subdir": "meta-signing-key",
             "version": null,
@@ -82,9 +82,9 @@
             "collection": "secure-core",
             "id": 165195,
             "layer": 149,
-            "updated": "2018-06-05T01:06:34+0000",
+            "updated": "2018-06-22T05:06:32+0000",
             "vcs_last_commit": "2017-09-25T07:09:27+0000",
-            "vcs_last_fetch": "2018-06-05T01:06:34+0000",
+            "vcs_last_fetch": "2018-06-22T05:06:32+0000",
             "vcs_last_rev": "6dff36ef09e5ea6b87f872ba5ae10c9e7af87fa2",
             "vcs_subdir": "meta",
             "version": null,
@@ -96,9 +96,9 @@
             "collection": "efi-secure-boot",
             "id": 166272,
             "layer": 126,
-            "updated": "2018-06-05T01:06:42+0000",
+            "updated": "2018-06-22T05:06:39+0000",
             "vcs_last_commit": "2017-10-13T07:10:50+0000",
-            "vcs_last_fetch": "2018-06-05T01:06:42+0000",
+            "vcs_last_fetch": "2018-06-22T05:06:39+0000",
             "vcs_last_rev": "72476f372512cffcfbf2077075dd0cc06c8cc8f6",
             "vcs_subdir": "meta-efi-secure-boot",
             "version": null,
@@ -257,7 +257,7 @@
             "filename": "packagegroup-efi-secure-boot.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 620866,
+            "id": 654727,
             "inherits": "",
             "layerbranch": 166272,
             "license": "MIT",
@@ -266,7 +266,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-04-28T03:04:33+0000"
+            "updated": "2018-06-20T07:06:30+0000"
         },
         {
             "bbclassextend": "",
@@ -276,7 +276,7 @@
             "filename": "mokutil_git.bb",
             "filepath": "recipes-extended/mokutil",
             "homepage": "",
-            "id": 620867,
+            "id": 654728,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 166272,
             "license": "GPLv3",
@@ -285,7 +285,7 @@
             "pv": "0.3.0+gitX",
             "section": "base",
             "summary": "The utility to manipulate machines owner keys which managed in shim",
-            "updated": "2018-04-28T03:04:33+0000"
+            "updated": "2018-06-20T07:06:30+0000"
         },
         {
             "bbclassextend": "",
@@ -295,7 +295,7 @@
             "filename": "efitools_git.bb",
             "filepath": "recipes-bsp/efitools",
             "homepage": "",
-            "id": 620868,
+            "id": 654729,
             "inherits": "deploy perlnative user-key-store",
             "layerbranch": 166272,
             "license": "GPLv2",
@@ -304,7 +304,7 @@
             "pv": "1.7.0+gitX",
             "section": "base",
             "summary": "Tools to support reading and manipulating the UEFI signature database",
-            "updated": "2018-04-28T03:04:34+0000"
+            "updated": "2018-06-20T07:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -314,7 +314,7 @@
             "filename": "efitools-native_git.bb",
             "filepath": "recipes-bsp/efitools",
             "homepage": "",
-            "id": 620869,
+            "id": 654730,
             "inherits": "native nopackages perlnative relocatable",
             "layerbranch": 166272,
             "license": "GPLv2",
@@ -323,7 +323,7 @@
             "pv": "1.7.0+gitX",
             "section": "base",
             "summary": "Tools to support reading and manipulating the UEFI signature database",
-            "updated": "2018-04-28T03:04:34+0000"
+            "updated": "2018-06-20T07:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -333,7 +333,7 @@
             "filename": "shim_git.bb",
             "filepath": "recipes-bsp/shim",
             "homepage": "https://github.com/rhinstaller/shim.git",
-            "id": 620870,
+            "id": 654731,
             "inherits": "deploy user-key-store",
             "layerbranch": 166272,
             "license": "BSD-2-Clause",
@@ -342,7 +342,7 @@
             "pv": "12+gitX",
             "section": "bootloaders",
             "summary": "shim is a trivial EFI application.",
-            "updated": "2018-04-28T03:04:34+0000"
+            "updated": "2018-06-20T07:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -352,7 +352,7 @@
             "filename": "seloader_git.bb",
             "filepath": "recipes-bsp/seloader",
             "homepage": "https://github.com/jiazhang0/SELoader",
-            "id": 620871,
+            "id": 654732,
             "inherits": "deploy user-key-store",
             "layerbranch": 166272,
             "license": "BSD-3-Clause",
@@ -361,7 +361,7 @@
             "pv": "0.4.5+gitX",
             "section": "bootloaders",
             "summary": "The bootloader capable of authenticating the PE and non-PE files.",
-            "updated": "2018-04-28T03:04:34+0000"
+            "updated": "2018-06-20T07:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -371,7 +371,7 @@
             "filename": "sbsigntool-native_git.bb",
             "filepath": "recipes-devtools/sbsigntool",
             "homepage": "",
-            "id": 620872,
+            "id": 654733,
             "inherits": "autotools autotools-brokensep native nopackages pkgconfig relocatable siteconfig siteinfo",
             "layerbranch": 166272,
             "license": "GPLv3",
@@ -380,7 +380,7 @@
             "pv": "0.6+gitX",
             "section": "base",
             "summary": "Utilities for signing UEFI binaries for use with secure boot",
-            "updated": "2018-04-28T03:04:34+0000"
+            "updated": "2018-06-20T07:06:31+0000"
         },
         {
             "bbclassextend": "native",
@@ -390,7 +390,7 @@
             "filename": "libsign_git.bb",
             "filepath": "recipes-devtools/libsign",
             "homepage": "https://github.com/jiazhang0/libsign",
-            "id": 620873,
+            "id": 654734,
             "inherits": "",
             "layerbranch": 166272,
             "license": "BSD-3-Clause",
@@ -399,7 +399,7 @@
             "pv": "0.3.2+gitX",
             "section": "devel",
             "summary": "A generic signing tool framework",
-            "updated": "2018-04-28T03:04:34+0000"
+            "updated": "2018-06-20T07:06:31+0000"
         }
     ],
     "wrtemplates": []
