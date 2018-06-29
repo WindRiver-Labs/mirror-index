@@ -8,28 +8,28 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.17-20180418",
+            "bitbake_branch": "wr-10.17-20180620",
             "id": 48,
             "name": "WRLINUX_10_17_BASE",
             "short_description": "Wind River Linux 10_17 Baseline",
             "sort_priority": 9,
             "update_environment": null,
-            "updated": "2018-04-25T08:04:56+0000",
+            "updated": "2018-06-26T22:06:30+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.17-20180418",
+            "actual_branch": "wr-10.17-20180620",
             "branch": 48,
             "collection": "core",
             "id": 165030,
             "layer": 1,
-            "updated": "2018-06-22T05:06:27+0000",
-            "vcs_last_commit": "2018-05-29T01:05:14+0000",
-            "vcs_last_fetch": "2018-06-22T05:06:27+0000",
-            "vcs_last_rev": "d75b808e85d57a5906396e9f3cb913bc0d70cc79",
+            "updated": "2018-06-28T22:06:11+0000",
+            "vcs_last_commit": "2018-06-28T21:06:03+0000",
+            "vcs_last_fetch": "2018-06-28T22:06:11+0000",
+            "vcs_last_rev": "34a003d37e3474321cea097f4190ace0bef2b055",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -40,9 +40,9 @@
             "collection": "openembedded-layer",
             "id": 165076,
             "layer": 7,
-            "updated": "2018-06-22T05:06:28+0000",
-            "vcs_last_commit": "2018-05-30T03:05:57+0000",
-            "vcs_last_fetch": "2018-06-22T05:06:28+0000",
+            "updated": "2018-06-22T14:06:43+0000",
+            "vcs_last_commit": "2018-05-29T22:05:57+0000",
+            "vcs_last_fetch": "2018-06-22T14:06:43+0000",
             "vcs_last_rev": "6d02ece73068e403a0d36978aa0a5a0419cfbfa0",
             "vcs_subdir": "meta-oe",
             "version": "1",
@@ -54,9 +54,9 @@
             "collection": "tpm2",
             "id": 165197,
             "layer": 152,
-            "updated": "2018-06-22T05:06:33+0000",
-            "vcs_last_commit": "2017-10-13T07:10:50+0000",
-            "vcs_last_fetch": "2018-06-22T05:06:33+0000",
+            "updated": "2018-06-22T14:06:48+0000",
+            "vcs_last_commit": "2017-10-13T02:10:50+0000",
+            "vcs_last_fetch": "2018-06-22T14:06:48+0000",
             "vcs_last_rev": "59f627443b2ea2f297d12be9d49dfbd3c8ace9f2",
             "vcs_subdir": "meta-tpm2",
             "version": null,
@@ -68,9 +68,9 @@
             "collection": "encrypted-storage",
             "id": 166273,
             "layer": 127,
-            "updated": "2018-06-22T05:06:40+0000",
-            "vcs_last_commit": "2017-10-13T07:10:50+0000",
-            "vcs_last_fetch": "2018-06-22T05:06:40+0000",
+            "updated": "2018-06-22T14:06:56+0000",
+            "vcs_last_commit": "2017-10-13T02:10:50+0000",
+            "vcs_last_fetch": "2018-06-22T14:06:56+0000",
             "vcs_last_rev": "59f627443b2ea2f297d12be9d49dfbd3c8ace9f2",
             "vcs_subdir": "meta-encrypted-storage",
             "version": null,
@@ -114,9 +114,10 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2018-05-30T23:05:28+0000",
+            "updated": "2018-05-30T18:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -131,9 +132,10 @@
             "name": "meta-oe",
             "status": "P",
             "summary": "Additional shared OE metadata",
-            "updated": "2018-05-30T22:05:13+0000",
+            "updated": "2018-05-30T17:05:13+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -148,9 +150,10 @@
             "name": "meta-encrypted-storage",
             "status": "P",
             "summary": "Encrypted storage components",
-            "updated": "2018-05-30T22:05:14+0000",
+            "updated": "2018-05-30T17:05:14+0000",
             "usage_url": "",
             "vcs_url": "#BASE_URL#/meta-secure-core",
+            "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -165,9 +168,10 @@
             "name": "meta-tpm2",
             "status": "P",
             "summary": "Provide TPM 2.x support",
-            "updated": "2018-05-30T22:05:55+0000",
+            "updated": "2018-05-30T17:05:55+0000",
             "usage_url": "",
             "vcs_url": "#BASE_URL#/meta-secure-core",
+            "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -192,7 +196,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-20T07:06:33+0000"
+            "updated": "2018-06-20T02:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -211,7 +215,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-20T07:06:33+0000"
+            "updated": "2018-06-20T02:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -230,7 +234,7 @@
             "pv": "0.6.0+gitX",
             "section": "security/tpm",
             "summary": "A tool used to create, persist, evict a passphrase for full-disk-encryption with TPM 2.0",
-            "updated": "2018-06-20T07:06:33+0000"
+            "updated": "2018-06-20T02:06:33+0000"
         }
     ],
     "wrtemplates": []

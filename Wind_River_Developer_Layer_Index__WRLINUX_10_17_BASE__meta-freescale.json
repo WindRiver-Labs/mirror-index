@@ -8,28 +8,28 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.17-20180418",
+            "bitbake_branch": "wr-10.17-20180620",
             "id": 48,
             "name": "WRLINUX_10_17_BASE",
             "short_description": "Wind River Linux 10_17 Baseline",
             "sort_priority": 9,
             "update_environment": null,
-            "updated": "2018-04-25T08:04:56+0000",
+            "updated": "2018-06-26T22:06:30+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.17-20180418",
+            "actual_branch": "wr-10.17-20180620",
             "branch": 48,
             "collection": "core",
             "id": 165030,
             "layer": 1,
-            "updated": "2018-06-22T05:06:27+0000",
-            "vcs_last_commit": "2018-05-29T01:05:14+0000",
-            "vcs_last_fetch": "2018-06-22T05:06:27+0000",
-            "vcs_last_rev": "d75b808e85d57a5906396e9f3cb913bc0d70cc79",
+            "updated": "2018-06-28T22:06:11+0000",
+            "vcs_last_commit": "2018-06-28T21:06:03+0000",
+            "vcs_last_fetch": "2018-06-28T22:06:11+0000",
+            "vcs_last_rev": "34a003d37e3474321cea097f4190ace0bef2b055",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -40,10 +40,10 @@
             "collection": "freescale-layer",
             "id": 422117,
             "layer": 231,
-            "updated": "2018-06-22T05:06:39+0000",
-            "vcs_last_commit": "2018-06-22T02:06:34+0000",
-            "vcs_last_fetch": "2018-06-22T05:06:39+0000",
-            "vcs_last_rev": "5a2120a6340edaf671671bd87b6da3f6e66960cd",
+            "updated": "2018-06-24T23:06:10+0000",
+            "vcs_last_commit": "2018-06-24T22:06:37+0000",
+            "vcs_last_fetch": "2018-06-24T23:06:10+0000",
+            "vcs_last_rev": "168183040bf81db130ec535aa9e588be110b5c37",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": null
@@ -74,9 +74,10 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2018-05-30T23:05:28+0000",
+            "updated": "2018-05-30T18:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -91,9 +92,10 @@
             "name": "meta-freescale",
             "status": "P",
             "summary": "This layer provides support for Freescale's platforms for use with OpenEmbedded and/or Yocto.",
-            "updated": "2018-05-30T22:05:30+0000",
+            "updated": "2018-05-30T17:05:30+0000",
             "usage_url": "",
             "vcs_url": "#BASE_URL#/meta-freescale",
+            "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -105,196 +107,196 @@
             "id": 11413,
             "layerbranch": 422117,
             "name": "ls1012ardb",
-            "updated": "2018-06-20T10:06:04+0000"
+            "updated": "2018-06-20T05:06:04+0000"
         },
         {
             "description": " LS2088ARDB in 64-bit mode",
             "id": 11414,
             "layerbranch": 422117,
             "name": "ls2088ardb",
-            "updated": "2018-06-20T10:06:04+0000"
+            "updated": "2018-06-20T05:06:04+0000"
         },
         {
             "description": " LS1046A in 32-bit mode",
             "id": 11415,
             "layerbranch": 422117,
             "name": "ls1046ardb-32b",
-            "updated": "2018-06-20T10:06:04+0000"
+            "updated": "2018-06-20T05:06:04+0000"
         },
         {
             "description": " NXP i.MX6QP/Q/DL SABRE Automotive",
             "id": 11416,
             "layerbranch": 422117,
             "name": "imx6qdlsabreauto",
-            "updated": "2018-06-20T10:06:04+0000"
+            "updated": "2018-06-20T05:06:04+0000"
         },
         {
             "description": " Freescale i.MX6ULL EVK",
             "id": 11417,
             "layerbranch": 422117,
             "name": "imx6ullevk",
-            "updated": "2018-06-20T10:06:04+0000"
+            "updated": "2018-06-20T05:06:04+0000"
         },
         {
             "description": " NXP i.MX6SL Evaluation Kit",
             "id": 11418,
             "layerbranch": 422117,
             "name": "imx6slevk",
-            "updated": "2018-06-20T10:06:04+0000"
+            "updated": "2018-06-20T05:06:04+0000"
         },
         {
             "description": " NXP QorIQ LS1012ARDB",
             "id": 11419,
             "layerbranch": 422117,
             "name": "ls1012afrdm-32b",
-            "updated": "2018-06-20T10:06:04+0000"
+            "updated": "2018-06-20T05:06:04+0000"
         },
         {
             "description": " NXP i.MX6SoloX Sabre SD",
             "id": 11420,
             "layerbranch": 422117,
             "name": "imx6sxsabresd",
-            "updated": "2018-06-20T10:06:04+0000"
+            "updated": "2018-06-20T05:06:04+0000"
         },
         {
             "description": " NXP i.MX28 Evaluation Kit",
             "id": 11421,
             "layerbranch": 422117,
             "name": "imx28evk",
-            "updated": "2018-06-20T10:06:04+0000"
+            "updated": "2018-06-20T05:06:04+0000"
         },
         {
             "description": " NXP QorIQ LS1012ARDB",
             "id": 11422,
             "layerbranch": 422117,
             "name": "ls1012ardb-32b",
-            "updated": "2018-06-20T10:06:04+0000"
+            "updated": "2018-06-20T05:06:04+0000"
         },
         {
             "description": " LS1043A in 32B mode",
             "id": 11423,
             "layerbranch": 422117,
             "name": "ls1043ardb-32b",
-            "updated": "2018-06-20T10:06:04+0000"
+            "updated": "2018-06-20T05:06:04+0000"
         },
         {
             "description": " NXP i.MX6SoloX Sabre Automotive",
             "id": 11424,
             "layerbranch": 422117,
             "name": "imx6sxsabreauto",
-            "updated": "2018-06-20T10:06:04+0000"
+            "updated": "2018-06-20T05:06:04+0000"
         },
         {
             "description": " NXP i.MX7D SABRE Smart Device",
             "id": 11425,
             "layerbranch": 422117,
             "name": "imx7dsabresd",
-            "updated": "2018-06-20T10:06:04+0000"
+            "updated": "2018-06-20T05:06:04+0000"
         },
         {
             "description": " LS1088ARDB in 64-bit mode",
             "id": 11426,
             "layerbranch": 422117,
             "name": "ls1088ardb",
-            "updated": "2018-06-20T10:06:04+0000"
+            "updated": "2018-06-20T05:06:04+0000"
         },
         {
             "description": " NXP QorIQ LS1012ARDB",
             "id": 11427,
             "layerbranch": 422117,
             "name": "ls1012afrdm",
-            "updated": "2018-06-20T10:06:04+0000"
+            "updated": "2018-06-20T05:06:04+0000"
         },
         {
             "description": " NXP i.MX7ULP EVK",
             "id": 11428,
             "layerbranch": 422117,
             "name": "imx7ulpevk",
-            "updated": "2018-06-20T10:06:04+0000"
+            "updated": "2018-06-20T05:06:04+0000"
         },
         {
             "description": " NXP QorIQ LS2080ARDB",
             "id": 11429,
             "layerbranch": 422117,
             "name": "ls2080ardb",
-            "updated": "2018-06-20T10:06:04+0000"
+            "updated": "2018-06-20T05:06:04+0000"
         },
         {
             "description": " NXP QorIQ LS1043ARDB",
             "id": 11430,
             "layerbranch": 422117,
             "name": "ls1043ardb",
-            "updated": "2018-06-20T10:06:04+0000"
+            "updated": "2018-06-20T05:06:04+0000"
         },
         {
             "description": " NXP i.MX23 Evaluation Kit",
             "id": 11431,
             "layerbranch": 422117,
             "name": "imx23evk",
-            "updated": "2018-06-20T10:06:04+0000"
+            "updated": "2018-06-20T05:06:04+0000"
         },
         {
             "description": " NXP i.MX53 Quick Start Board",
             "id": 11432,
             "layerbranch": 422117,
             "name": "imx53qsb",
-            "updated": "2018-06-20T10:06:04+0000"
+            "updated": "2018-06-20T05:06:04+0000"
         },
         {
             "description": " LS1046A in 64-bit mode",
             "id": 11433,
             "layerbranch": 422117,
             "name": "ls1046ardb",
-            "updated": "2018-06-20T10:06:04+0000"
+            "updated": "2018-06-20T05:06:04+0000"
         },
         {
             "description": " NXP QorIQ LS1 Tower System",
             "id": 11434,
             "layerbranch": 422117,
             "name": "ls1021atwr",
-            "updated": "2018-06-20T10:06:04+0000"
+            "updated": "2018-06-20T05:06:04+0000"
         },
         {
             "description": " NXP i.MX51 Evaluation Kit",
             "id": 11435,
             "layerbranch": 422117,
             "name": "imx51evk",
-            "updated": "2018-06-20T10:06:04+0000"
+            "updated": "2018-06-20T05:06:04+0000"
         },
         {
             "description": " NXP i.MX6QP/Q/DL SABRE Smart Device",
             "id": 11436,
             "layerbranch": 422117,
             "name": "imx6qdlsabresd",
-            "updated": "2018-06-20T10:06:04+0000"
+            "updated": "2018-06-20T05:06:04+0000"
         },
         {
             "description": " NXP i.MX25 Evaluation Kit",
             "id": 11437,
             "layerbranch": 422117,
             "name": "imx25pdk",
-            "updated": "2018-06-20T10:06:04+0000"
+            "updated": "2018-06-20T05:06:04+0000"
         },
         {
             "description": " NXP i.MX6UL EVK",
             "id": 11438,
             "layerbranch": 422117,
             "name": "imx6ulevk",
-            "updated": "2018-06-20T10:06:04+0000"
+            "updated": "2018-06-20T05:06:04+0000"
         },
         {
             "description": " NXP i.MX53 SABRE Automotive Board",
             "id": 11439,
             "layerbranch": 422117,
             "name": "imx53ard",
-            "updated": "2018-06-20T10:06:04+0000"
+            "updated": "2018-06-20T05:06:04+0000"
         },
         {
             "description": " Freescale i.MX6SLL EVK",
             "id": 11440,
             "layerbranch": 422117,
             "name": "imx6sllevk",
-            "updated": "2018-06-20T10:06:04+0000"
+            "updated": "2018-06-20T05:06:04+0000"
         }
     ],
     "recipes": [
@@ -315,7 +317,7 @@
             "pv": "0.1+gitX",
             "section": "x11/base",
             "summary": "Userspace interface to kernel DRM services",
-            "updated": "2018-06-20T10:06:05+0000"
+            "updated": "2018-06-20T05:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -334,7 +336,7 @@
             "pv": "0.1+gitX",
             "section": "x11/drivers",
             "summary": "X driver",
-            "updated": "2018-06-20T10:06:05+0000"
+            "updated": "2018-06-20T05:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -353,7 +355,7 @@
             "pv": "5.0.11.p8.6",
             "section": "x11/drivers",
             "summary": "X driver",
-            "updated": "2018-06-20T10:06:05+0000"
+            "updated": "2018-06-20T05:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -372,7 +374,7 @@
             "pv": "0.4.2",
             "section": "x11/drivers",
             "summary": "X driver",
-            "updated": "2018-06-20T10:06:05+0000"
+            "updated": "2018-06-20T05:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -391,7 +393,7 @@
             "pv": "2.0.0",
             "section": "base",
             "summary": "Weston, a Wayland compositor",
-            "updated": "2018-06-20T10:06:05+0000"
+            "updated": "2018-06-20T05:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -410,7 +412,7 @@
             "pv": "5.0.11.p8.6-hfp",
             "section": "libs",
             "summary": "",
-            "updated": "2018-06-20T10:06:05+0000"
+            "updated": "2018-06-20T05:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -429,7 +431,7 @@
             "pv": "1.0.2l",
             "section": "libs/network",
             "summary": "Secure Socket Layer",
-            "updated": "2018-06-20T10:06:05+0000"
+            "updated": "2018-06-20T05:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -448,7 +450,7 @@
             "pv": "git",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-20T10:06:05+0000"
+            "updated": "2018-06-20T05:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -467,7 +469,7 @@
             "pv": "0.8.2",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-20T10:06:05+0000"
+            "updated": "2018-06-20T05:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -486,7 +488,7 @@
             "pv": "5.0.11.p8.6",
             "section": "base",
             "summary": "Kernel loadable module for Vivante GPU",
-            "updated": "2018-06-20T10:06:06+0000"
+            "updated": "2018-06-20T05:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -505,7 +507,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-20T10:06:06+0000"
+            "updated": "2018-06-20T05:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -524,7 +526,7 @@
             "pv": "git",
             "section": "base",
             "summary": "Scatter-gather logic for multiple tables",
-            "updated": "2018-06-20T10:06:06+0000"
+            "updated": "2018-06-20T05:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -543,7 +545,7 @@
             "pv": "git",
             "section": "base",
             "summary": "Linux IPC KERNEL MODULE ",
-            "updated": "2018-06-20T10:06:06+0000"
+            "updated": "2018-06-20T05:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -562,7 +564,7 @@
             "pv": "git",
             "section": "ls-debug",
             "summary": "Layerscape Debug File System Module",
-            "updated": "2018-06-20T10:06:06+0000"
+            "updated": "2018-06-20T05:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -581,7 +583,7 @@
             "pv": "git",
             "section": "base",
             "summary": "Auto Response Control Module",
-            "updated": "2018-06-20T10:06:06+0000"
+            "updated": "2018-06-20T05:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -600,7 +602,7 @@
             "pv": "5.0.11.p8.6+fslc+gitX",
             "section": "base",
             "summary": "Kernel loadable module for Vivante GPU",
-            "updated": "2018-06-20T10:06:06+0000"
+            "updated": "2018-06-20T05:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -619,7 +621,7 @@
             "pv": "git",
             "section": "base",
             "summary": "Linux IPC KERNEL MODULE ",
-            "updated": "2018-06-20T10:06:06+0000"
+            "updated": "2018-06-20T05:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -638,7 +640,7 @@
             "pv": "1.9",
             "section": "base",
             "summary": "A /dev/crypto device driver header file",
-            "updated": "2018-06-20T10:06:06+0000"
+            "updated": "2018-06-20T05:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -657,7 +659,7 @@
             "pv": "1.9",
             "section": "base",
             "summary": "A /dev/crypto device driver kernel module",
-            "updated": "2018-06-20T10:06:06+0000"
+            "updated": "2018-06-20T05:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -676,7 +678,7 @@
             "pv": "1.9",
             "section": "base",
             "summary": "A test suite for /dev/crypto device driver",
-            "updated": "2018-06-20T10:06:06+0000"
+            "updated": "2018-06-20T05:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -695,7 +697,7 @@
             "pv": "git",
             "section": "c293-skmm-host",
             "summary": "",
-            "updated": "2018-06-20T10:06:06+0000"
+            "updated": "2018-06-20T05:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -714,7 +716,7 @@
             "pv": "4.9.11",
             "section": "base",
             "summary": "Linux Kernel provided and supported by NXP",
-            "updated": "2018-06-20T10:06:06+0000"
+            "updated": "2018-06-20T05:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -733,7 +735,7 @@
             "pv": "4.14+gitX",
             "section": "base",
             "summary": "FSL Community BSP Linux mainline based kernel with backported features and fixes",
-            "updated": "2018-06-20T10:06:06+0000"
+            "updated": "2018-06-20T05:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -752,7 +754,7 @@
             "pv": "4.4",
             "section": "kernel",
             "summary": "Linux Kernel for Freescale QorIQ platforms",
-            "updated": "2018-06-20T10:06:06+0000"
+            "updated": "2018-06-20T05:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -771,7 +773,7 @@
             "pv": "4.1-2.0.x+gitX",
             "section": "base",
             "summary": "FSL Community BSP i.MX Linux kernel with backported features and fixes",
-            "updated": "2018-06-20T10:06:06+0000"
+            "updated": "2018-06-20T05:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -790,7 +792,7 @@
             "pv": "4.1-2.0.x+gitX",
             "section": "base",
             "summary": "Realtime version of the FSL Community BSP i.MX6 Linux kernel with backported features and fixes",
-            "updated": "2018-06-20T10:06:06+0000"
+            "updated": "2018-06-20T05:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -809,7 +811,7 @@
             "pv": "4.9.11",
             "section": "base",
             "summary": "Linux Kernel provided and supported by NXP",
-            "updated": "2018-06-20T10:06:07+0000"
+            "updated": "2018-06-20T05:06:07+0000"
         },
         {
             "bbclassextend": "",
@@ -828,7 +830,7 @@
             "pv": "4.9",
             "section": "kernel",
             "summary": "Linux Kernel for Freescale QorIQ platforms",
-            "updated": "2018-06-20T10:06:07+0000"
+            "updated": "2018-06-20T05:06:07+0000"
         },
         {
             "bbclassextend": "",
@@ -847,7 +849,7 @@
             "pv": "4.9+gitX",
             "section": "base",
             "summary": "FSL Community BSP Linux mainline based kernel with backported features and fixes",
-            "updated": "2018-06-20T10:06:07+0000"
+            "updated": "2018-06-20T05:06:07+0000"
         },
         {
             "bbclassextend": "",
@@ -866,7 +868,7 @@
             "pv": "git",
             "section": "pkc-host",
             "summary": "",
-            "updated": "2018-06-20T10:06:07+0000"
+            "updated": "2018-06-20T05:06:07+0000"
         },
         {
             "bbclassextend": "",
@@ -885,7 +887,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "Scripts and configuration files for ipsec demo",
-            "updated": "2018-06-20T10:06:07+0000"
+            "updated": "2018-06-20T05:06:07+0000"
         },
         {
             "bbclassextend": "",
@@ -904,7 +906,7 @@
             "pv": "git",
             "section": "asf",
             "summary": "",
-            "updated": "2018-06-20T10:06:07+0000"
+            "updated": "2018-06-20T05:06:07+0000"
         },
         {
             "bbclassextend": "",
@@ -923,7 +925,7 @@
             "pv": "git",
             "section": "web-sysmon",
             "summary": "",
-            "updated": "2018-06-20T10:06:07+0000"
+            "updated": "2018-06-20T05:06:07+0000"
         },
         {
             "bbclassextend": "",
@@ -942,7 +944,7 @@
             "pv": "git",
             "section": "base",
             "summary": "Frame Manager Configuration tool",
-            "updated": "2018-06-20T10:06:07+0000"
+            "updated": "2018-06-20T05:06:07+0000"
         },
         {
             "bbclassextend": "",
@@ -961,7 +963,7 @@
             "pv": "git",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-20T10:06:07+0000"
+            "updated": "2018-06-20T05:06:07+0000"
         },
         {
             "bbclassextend": "",
@@ -980,7 +982,7 @@
             "pv": "git",
             "section": "fm-ucode",
             "summary": "",
-            "updated": "2018-06-20T10:06:07+0000"
+            "updated": "2018-06-20T05:06:07+0000"
         },
         {
             "bbclassextend": "",
@@ -999,7 +1001,7 @@
             "pv": "git",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-20T10:06:07+0000"
+            "updated": "2018-06-20T05:06:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1018,7 +1020,7 @@
             "pv": "git",
             "section": "flib",
             "summary": "",
-            "updated": "2018-06-20T10:06:07+0000"
+            "updated": "2018-06-20T05:06:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1037,7 +1039,7 @@
             "pv": "git",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-20T10:06:07+0000"
+            "updated": "2018-06-20T05:06:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1056,7 +1058,7 @@
             "pv": "git",
             "section": "eth-config",
             "summary": "",
-            "updated": "2018-06-20T10:06:07+0000"
+            "updated": "2018-06-20T05:06:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1075,7 +1077,7 @@
             "pv": "git",
             "section": "fman",
             "summary": "",
-            "updated": "2018-06-20T10:06:07+0000"
+            "updated": "2018-06-20T05:06:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1094,7 +1096,7 @@
             "pv": "4.2.1",
             "section": "multimedia",
             "summary": "",
-            "updated": "2018-06-20T10:06:07+0000"
+            "updated": "2018-06-20T05:06:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1113,7 +1115,7 @@
             "pv": "1.0.26",
             "section": "multimedia",
             "summary": "",
-            "updated": "2018-06-20T10:06:08+0000"
+            "updated": "2018-06-20T05:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1132,7 +1134,7 @@
             "pv": "4.1.6",
             "section": "multimedia",
             "summary": "",
-            "updated": "2018-06-20T10:06:08+0000"
+            "updated": "2018-06-20T05:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1151,7 +1153,7 @@
             "pv": "0.13.0",
             "section": "multimedia",
             "summary": "",
-            "updated": "2018-06-20T10:06:08+0000"
+            "updated": "2018-06-20T05:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1170,7 +1172,7 @@
             "pv": "4.2.1",
             "section": "multimedia",
             "summary": "",
-            "updated": "2018-06-20T10:06:08+0000"
+            "updated": "2018-06-20T05:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1189,7 +1191,7 @@
             "pv": "0.10.3",
             "section": "multimedia",
             "summary": "",
-            "updated": "2018-06-20T10:06:08+0000"
+            "updated": "2018-06-20T05:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1208,7 +1210,7 @@
             "pv": "1.0.68",
             "section": "multimedia",
             "summary": "",
-            "updated": "2018-06-20T10:06:08+0000"
+            "updated": "2018-06-20T05:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1227,7 +1229,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-20T10:06:08+0000"
+            "updated": "2018-06-20T05:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1246,7 +1248,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Freescale Manufacturing Tool requirements",
-            "updated": "2018-06-20T10:06:08+0000"
+            "updated": "2018-06-20T05:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1265,7 +1267,7 @@
             "pv": "git",
             "section": "console/network",
             "summary": "An open source user space fast path TCP/IP stack",
-            "updated": "2018-06-20T10:06:08+0000"
+            "updated": "2018-06-20T05:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1284,7 +1286,7 @@
             "pv": "git",
             "section": "console/network",
             "summary": "Open Data Plane Interface Implementation",
-            "updated": "2018-06-20T10:06:08+0000"
+            "updated": "2018-06-20T05:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1303,7 +1305,7 @@
             "pv": "git",
             "section": "console/network",
             "summary": "Open Data Plane Interface Implementation",
-            "updated": "2018-06-20T10:06:08+0000"
+            "updated": "2018-06-20T05:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1322,7 +1324,7 @@
             "pv": "git",
             "section": "console/network",
             "summary": "Open Data Plane Interface Implementation",
-            "updated": "2018-06-20T10:06:08+0000"
+            "updated": "2018-06-20T05:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1341,7 +1343,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-20T10:06:08+0000"
+            "updated": "2018-06-20T05:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1360,7 +1362,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-20T10:06:09+0000"
+            "updated": "2018-06-20T05:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1379,7 +1381,7 @@
             "pv": "git",
             "section": "base",
             "summary": "Linux IPC Userspace Tool",
-            "updated": "2018-06-20T10:06:09+0000"
+            "updated": "2018-06-20T05:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1398,7 +1400,7 @@
             "pv": "git",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-20T10:06:09+0000"
+            "updated": "2018-06-20T05:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1417,7 +1419,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-20T10:06:09+0000"
+            "updated": "2018-06-20T05:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1436,7 +1438,7 @@
             "pv": "git",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-20T10:06:09+0000"
+            "updated": "2018-06-20T05:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1455,7 +1457,7 @@
             "pv": "16.07",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-20T10:06:09+0000"
+            "updated": "2018-06-20T05:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1474,7 +1476,7 @@
             "pv": "git",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-20T10:06:09+0000"
+            "updated": "2018-06-20T05:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1493,7 +1495,7 @@
             "pv": "git",
             "section": "skmm-ep",
             "summary": "",
-            "updated": "2018-06-20T10:06:09+0000"
+            "updated": "2018-06-20T05:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1512,7 +1514,7 @@
             "pv": "1.0.3",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-20T10:06:09+0000"
+            "updated": "2018-06-20T05:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1531,7 +1533,7 @@
             "pv": "2a",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-20T10:06:09+0000"
+            "updated": "2018-06-20T05:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1550,7 +1552,7 @@
             "pv": "git",
             "section": "hv-cfg",
             "summary": "",
-            "updated": "2018-06-20T10:06:09+0000"
+            "updated": "2018-06-20T05:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1569,7 +1571,7 @@
             "pv": "git",
             "section": "embedded-hv",
             "summary": "",
-            "updated": "2018-06-20T10:06:09+0000"
+            "updated": "2018-06-20T05:06:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1588,7 +1590,7 @@
             "pv": "1.02",
             "section": "mux-server",
             "summary": "",
-            "updated": "2018-06-20T10:06:09+0000"
+            "updated": "2018-06-20T05:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1607,7 +1609,7 @@
             "pv": "git",
             "section": "dpaa2",
             "summary": "",
-            "updated": "2018-06-20T10:06:09+0000"
+            "updated": "2018-06-20T05:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1626,7 +1628,7 @@
             "pv": "git",
             "section": "base",
             "summary": "DPAA2 Resource Manager Tool",
-            "updated": "2018-06-20T10:06:09+0000"
+            "updated": "2018-06-20T05:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1645,7 +1647,7 @@
             "pv": "10.3.4",
             "section": "base",
             "summary": "DPAA2 Management Complex Firmware",
-            "updated": "2018-06-20T10:06:09+0000"
+            "updated": "2018-06-20T05:06:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1664,7 +1666,7 @@
             "pv": "git",
             "section": "dpaa2",
             "summary": "",
-            "updated": "2018-06-20T10:06:10+0000"
+            "updated": "2018-06-20T05:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1683,7 +1685,7 @@
             "pv": "git",
             "section": "dpaa2",
             "summary": "",
-            "updated": "2018-06-20T10:06:10+0000"
+            "updated": "2018-06-20T05:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1702,7 +1704,7 @@
             "pv": "git",
             "section": "base",
             "summary": "Datapath layout examples",
-            "updated": "2018-06-20T10:06:10+0000"
+            "updated": "2018-06-20T05:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1721,7 +1723,7 @@
             "pv": "5.5+gitX",
             "section": "base",
             "summary": "Nand boot write source",
-            "updated": "2018-06-20T10:06:10+0000"
+            "updated": "2018-06-20T05:06:10+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1740,7 +1742,7 @@
             "pv": "git",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-20T10:06:10+0000"
+            "updated": "2018-06-20T05:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1759,7 +1761,7 @@
             "pv": "00.00.00",
             "section": "base",
             "summary": "Dummy package for SoCs lacking imx-test package",
-            "updated": "2018-06-20T10:06:10+0000"
+            "updated": "2018-06-20T05:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1778,7 +1780,7 @@
             "pv": "6.0+X",
             "section": "base",
             "summary": "Test programs for IMX BSP",
-            "updated": "2018-06-20T10:06:10+0000"
+            "updated": "2018-06-20T05:06:10+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1797,7 +1799,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-20T10:06:10+0000"
+            "updated": "2018-06-20T05:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1816,7 +1818,7 @@
             "pv": "10.12.01",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-20T10:06:10+0000"
+            "updated": "2018-06-20T05:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1835,7 +1837,7 @@
             "pv": "0.5.1+gitX",
             "section": "base",
             "summary": "A Daemon wait for Freescale/NXP mfgtools host's command",
-            "updated": "2018-06-20T10:06:10+0000"
+            "updated": "2018-06-20T05:06:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1854,7 +1856,7 @@
             "pv": "git",
             "section": "base",
             "summary": "PPFE Linux firmware",
-            "updated": "2018-06-20T10:06:10+0000"
+            "updated": "2018-06-20T05:06:10+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1873,7 +1875,7 @@
             "pv": "10.12.01",
             "section": "bootloader",
             "summary": "",
-            "updated": "2018-06-20T10:06:11+0000"
+            "updated": "2018-06-20T05:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1892,7 +1894,7 @@
             "pv": "5.4",
             "section": "base",
             "summary": "Freescale IMX firmware",
-            "updated": "2018-06-20T10:06:11+0000"
+            "updated": "2018-06-20T05:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1911,7 +1913,7 @@
             "pv": "5.4.37",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-20T10:06:11+0000"
+            "updated": "2018-06-20T05:06:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1930,7 +1932,7 @@
             "pv": "0.0.0+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-20T10:06:11+0000"
+            "updated": "2018-06-20T05:06:11+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1949,7 +1951,7 @@
             "pv": "v2017.11+gitX",
             "section": "bootloader",
             "summary": "",
-            "updated": "2018-06-20T10:06:11+0000"
+            "updated": "2018-06-20T05:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1968,7 +1970,7 @@
             "pv": "v2017.11+gitX",
             "section": "base",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2018-06-20T10:06:11+0000"
+            "updated": "2018-06-20T05:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1987,7 +1989,7 @@
             "pv": "2017.09+fslgit",
             "section": "base",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2018-06-22T04:06:13+0000"
+            "updated": "2018-06-21T23:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -2006,7 +2008,7 @@
             "pv": "2017.03",
             "section": "base",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2018-06-20T10:06:11+0000"
+            "updated": "2018-06-20T05:06:11+0000"
         },
         {
             "bbclassextend": "",
@@ -2025,7 +2027,7 @@
             "pv": "2017.03",
             "section": "base",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2018-06-20T10:06:11+0000"
+            "updated": "2018-06-20T05:06:11+0000"
         },
         {
             "bbclassextend": "cross",
@@ -2044,7 +2046,7 @@
             "pv": "v2017.11+gitX",
             "section": "base",
             "summary": "U-Boot bootloader fw_printenv/setenv utilities",
-            "updated": "2018-06-20T10:06:12+0000"
+            "updated": "2018-06-20T05:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2063,7 +2065,7 @@
             "pv": "git",
             "section": "base",
             "summary": "Firmwares and Standalone Applications",
-            "updated": "2018-06-20T10:06:12+0000"
+            "updated": "2018-06-20T05:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2082,7 +2084,7 @@
             "pv": "git",
             "section": "base",
             "summary": "Reset Configuration Word",
-            "updated": "2018-06-20T10:06:12+0000"
+            "updated": "2018-06-20T05:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2101,7 +2103,7 @@
             "pv": "git",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-20T10:06:12+0000"
+            "updated": "2018-06-20T05:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2120,7 +2122,7 @@
             "pv": "1.0.0",
             "section": "base",
             "summary": "Freescale TLU(Table Lookup Unit) test package",
-            "updated": "2018-06-20T10:06:12+0000"
+            "updated": "2018-06-20T05:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2139,7 +2141,7 @@
             "pv": "git",
             "section": "qe-ucode",
             "summary": "",
-            "updated": "2018-06-20T10:06:12+0000"
+            "updated": "2018-06-20T05:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2158,7 +2160,7 @@
             "pv": "5.8+X",
             "section": "multimedia",
             "summary": "",
-            "updated": "2018-06-20T10:06:12+0000"
+            "updated": "2018-06-20T05:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2177,7 +2179,7 @@
             "pv": "git",
             "section": "base",
             "summary": "Primary Protected Application",
-            "updated": "2018-06-20T10:06:12+0000"
+            "updated": "2018-06-20T05:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2196,7 +2198,7 @@
             "pv": "git",
             "section": "bootloaders",
             "summary": "",
-            "updated": "2018-06-20T10:06:12+0000"
+            "updated": "2018-06-20T05:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2215,7 +2217,7 @@
             "pv": "git",
             "section": "apptrk",
             "summary": "Debug agent for Freescale CodeWarrior",
-            "updated": "2018-06-20T10:06:12+0000"
+            "updated": "2018-06-20T05:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2234,7 +2236,7 @@
             "pv": "2015.10.0",
             "section": "bootloader",
             "summary": "",
-            "updated": "2018-06-20T10:06:12+0000"
+            "updated": "2018-06-20T05:06:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2253,7 +2255,7 @@
             "pv": "1.0+X",
             "section": "devel",
             "summary": "",
-            "updated": "2018-06-20T10:06:12+0000"
+            "updated": "2018-06-20T05:06:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2272,7 +2274,7 @@
             "pv": "1.0+X",
             "section": "devel",
             "summary": "",
-            "updated": "2018-06-20T10:06:12+0000"
+            "updated": "2018-06-20T05:06:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2291,7 +2293,7 @@
             "pv": "git",
             "section": "cst",
             "summary": "utility for security boot",
-            "updated": "2018-06-20T10:06:13+0000"
+            "updated": "2018-06-20T05:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -2310,7 +2312,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-20T10:06:13+0000"
+            "updated": "2018-06-20T05:06:13+0000"
         },
         {
             "bbclassextend": "",
@@ -2329,7 +2331,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-20T10:06:13+0000"
+            "updated": "2018-06-20T05:06:13+0000"
         }
     ],
     "wrtemplates": []

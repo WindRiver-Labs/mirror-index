@@ -8,28 +8,28 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.17-20180418",
+            "bitbake_branch": "wr-10.17-20180620",
             "id": 48,
             "name": "WRLINUX_10_17_BASE",
             "short_description": "Wind River Linux 10_17 Baseline",
             "sort_priority": 9,
             "update_environment": null,
-            "updated": "2018-04-25T08:04:56+0000",
+            "updated": "2018-06-26T22:06:30+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.17-20180418",
+            "actual_branch": "wr-10.17-20180620",
             "branch": 48,
             "collection": "core",
             "id": 165030,
             "layer": 1,
-            "updated": "2018-06-22T05:06:27+0000",
-            "vcs_last_commit": "2018-05-29T01:05:14+0000",
-            "vcs_last_fetch": "2018-06-22T05:06:27+0000",
-            "vcs_last_rev": "d75b808e85d57a5906396e9f3cb913bc0d70cc79",
+            "updated": "2018-06-28T22:06:11+0000",
+            "vcs_last_commit": "2018-06-28T21:06:03+0000",
+            "vcs_last_fetch": "2018-06-28T22:06:11+0000",
+            "vcs_last_rev": "34a003d37e3474321cea097f4190ace0bef2b055",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -40,9 +40,9 @@
             "collection": "openembedded-layer",
             "id": 165076,
             "layer": 7,
-            "updated": "2018-06-22T05:06:28+0000",
-            "vcs_last_commit": "2018-05-30T03:05:57+0000",
-            "vcs_last_fetch": "2018-06-22T05:06:28+0000",
+            "updated": "2018-06-22T14:06:43+0000",
+            "vcs_last_commit": "2018-05-29T22:05:57+0000",
+            "vcs_last_fetch": "2018-06-22T14:06:43+0000",
             "vcs_last_rev": "6d02ece73068e403a0d36978aa0a5a0419cfbfa0",
             "vcs_subdir": "meta-oe",
             "version": "1",
@@ -54,9 +54,9 @@
             "collection": "networking-layer",
             "id": 165079,
             "layer": 11,
-            "updated": "2018-06-22T05:06:41+0000",
-            "vcs_last_commit": "2018-05-07T06:05:45+0000",
-            "vcs_last_fetch": "2018-06-22T05:06:41+0000",
+            "updated": "2018-06-22T14:06:57+0000",
+            "vcs_last_commit": "2018-05-07T01:05:45+0000",
+            "vcs_last_fetch": "2018-06-22T14:06:57+0000",
             "vcs_last_rev": "576d9f86026845a702c27a225030f8315c7709bb",
             "vcs_subdir": "meta-networking",
             "version": "1",
@@ -68,9 +68,9 @@
             "collection": "meta-python",
             "id": 165080,
             "layer": 12,
-            "updated": "2018-06-22T05:06:30+0000",
-            "vcs_last_commit": "2017-12-25T05:12:48+0000",
-            "vcs_last_fetch": "2018-06-22T05:06:30+0000",
+            "updated": "2018-06-22T14:06:44+0000",
+            "vcs_last_commit": "2017-12-24T23:12:48+0000",
+            "vcs_last_fetch": "2018-06-22T14:06:44+0000",
             "vcs_last_rev": "4b81f9b6ab2d867eb01ca1ab2c86bd4ecadec80b",
             "vcs_subdir": "meta-python",
             "version": "1",
@@ -82,9 +82,9 @@
             "collection": "meta-hdc",
             "id": 617561,
             "layer": 239,
-            "updated": "2018-06-22T05:06:44+0000",
-            "vcs_last_commit": "2018-05-23T03:05:00+0000",
-            "vcs_last_fetch": "2018-06-22T05:06:44+0000",
+            "updated": "2018-06-22T14:06:02+0000",
+            "vcs_last_commit": "2018-05-22T22:05:00+0000",
+            "vcs_last_fetch": "2018-06-22T14:06:02+0000",
             "vcs_last_rev": "bdd3389f6227112bf22ecc8861cfac9c8a2c44d9",
             "vcs_subdir": "",
             "version": "1",
@@ -134,9 +134,10 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2018-05-30T23:05:28+0000",
+            "updated": "2018-05-30T18:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -151,9 +152,10 @@
             "name": "meta-oe",
             "status": "P",
             "summary": "Additional shared OE metadata",
-            "updated": "2018-05-30T22:05:13+0000",
+            "updated": "2018-05-30T17:05:13+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -168,9 +170,10 @@
             "name": "meta-networking",
             "status": "P",
             "summary": "Networking-related packages and configuration",
-            "updated": "2018-05-30T22:05:09+0000",
+            "updated": "2018-05-30T17:05:09+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -185,9 +188,10 @@
             "name": "meta-python",
             "status": "P",
             "summary": "PYTHON Language related items",
-            "updated": "2018-05-30T22:05:58+0000",
+            "updated": "2018-05-30T17:05:58+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -202,9 +206,10 @@
             "name": "meta-device-cloud",
             "status": "P",
             "summary": "HDC python agent",
-            "updated": "2018-05-30T22:05:31+0000",
+            "updated": "2018-05-30T17:05:31+0000",
             "usage_url": "",
             "vcs_url": "#BASE_URL#/meta-device-cloud",
+            "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -229,7 +234,7 @@
             "pv": "1.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-06-20T07:06:45+0000"
+            "updated": "2018-06-20T02:06:45+0000"
         },
         {
             "bbclassextend": "",
@@ -248,7 +253,7 @@
             "pv": "1.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-06-20T07:06:45+0000"
+            "updated": "2018-06-20T02:06:45+0000"
         },
         {
             "bbclassextend": "",
@@ -267,7 +272,7 @@
             "pv": "3.3",
             "section": "devel/python",
             "summary": "An implementation of the WebSocket Protocol (RFC 6455)",
-            "updated": "2018-06-20T07:06:46+0000"
+            "updated": "2018-06-20T02:06:46+0000"
         },
         {
             "bbclassextend": "",
@@ -286,7 +291,7 @@
             "pv": "1.0",
             "section": "devel/python",
             "summary": "WebSocket client for python. hybi13 is supported.",
-            "updated": "2018-06-20T07:06:46+0000"
+            "updated": "2018-06-20T02:06:46+0000"
         },
         {
             "bbclassextend": "",
@@ -305,7 +310,7 @@
             "pv": "1.0",
             "section": "devel/python",
             "summary": "WebSocket client for python. hybi13 is supported.",
-            "updated": "2018-06-20T07:06:46+0000"
+            "updated": "2018-06-20T02:06:46+0000"
         }
     ],
     "wrtemplates": []
