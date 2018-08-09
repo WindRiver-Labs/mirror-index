@@ -1,0 +1,101 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_17_BASE_UPDATE0010",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_17_BASE_UPDATE0010",
+            "id": 91,
+            "name": "WRLINUX_10_17_BASE_UPDATE0010",
+            "short_description": "WRLinux 10_17 Base Update 0010",
+            "sort_priority": 9,
+            "update_environment": null,
+            "updated": "2018-07-16T21:07:45+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 91,
+            "collection": "openstack-controller-deploy-layer",
+            "id": 833454,
+            "layer": 159,
+            "updated": "2018-07-18T01:07:56+0000",
+            "vcs_last_commit": "2017-10-09T03:10:07+0000",
+            "vcs_last_fetch": "2018-07-18T01:07:56+0000",
+            "vcs_last_rev": "080518ea6fc04f84eb58be9d7a5c5fbe727b58c8",
+            "vcs_subdir": "meta-openstack-controller-deploy",
+            "version": null,
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "",
+            "branch": 91,
+            "collection": "openstack-controller-test-config-layer",
+            "id": 833455,
+            "layer": 160,
+            "updated": "2018-07-18T01:07:58+0000",
+            "vcs_last_commit": "2017-10-09T03:10:07+0000",
+            "vcs_last_fetch": "2018-07-18T01:07:58+0000",
+            "vcs_last_rev": "080518ea6fc04f84eb58be9d7a5c5fbe727b58c8",
+            "vcs_subdir": "meta-openstack-controller-test-config",
+            "version": null,
+            "yp_compatible_version": null
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 159,
+            "id": 40398,
+            "layerbranch": 833455,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "classic": false,
+            "description": "Provides support configuring and deploying the recipes to create a controller node.",
+            "id": 159,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-openstack-controller-deploy",
+            "status": "P",
+            "summary": "Support configuring and deploying the recipes to create a controller node",
+            "updated": "2018-05-30T17:05:54+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-cloud-services",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "classic": false,
+            "description": "Provides support configuring and deploying the recipes to setup/configure system to prepare for running openstack tests, e.g. tempest testsuite.",
+            "id": 160,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-openstack-controller-test-config",
+            "status": "P",
+            "summary": "Support for preparing to run openstack tests",
+            "updated": "2018-05-30T17:05:40+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-cloud-services",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [],
+    "wrtemplates": []
+}
