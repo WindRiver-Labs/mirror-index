@@ -26,9 +26,9 @@
             "collection": "core",
             "id": 165030,
             "layer": 1,
-            "updated": "2018-07-25T02:07:46+0000",
+            "updated": "2018-08-14T03:08:08+0000",
             "vcs_last_commit": "2018-07-25T02:07:36+0000",
-            "vcs_last_fetch": "2018-07-25T02:07:46+0000",
+            "vcs_last_fetch": "2018-08-14T03:08:08+0000",
             "vcs_last_rev": "ebe4350a6afa4d9a63ada9867c507db782a82f62",
             "vcs_subdir": "meta",
             "version": "11",
@@ -40,9 +40,9 @@
             "collection": "cloud-services-layer",
             "id": 165185,
             "layer": 141,
-            "updated": "2018-06-22T14:06:53+0000",
+            "updated": "2018-08-14T03:08:14+0000",
             "vcs_last_commit": "2018-03-15T03:03:13+0000",
-            "vcs_last_fetch": "2018-06-22T14:06:53+0000",
+            "vcs_last_fetch": "2018-08-14T03:08:14+0000",
             "vcs_last_rev": "efd5b221a6fa2d3841984bde717591bd9ef82d35",
             "vcs_subdir": "",
             "version": null,
@@ -111,7 +111,7 @@
             "filename": "ruby-shadow_git.bb",
             "filepath": "recipes-support/ruby-shadow",
             "homepage": "https://github.com/apalmblad/ruby-shadow",
-            "id": 654604,
+            "id": 702455,
             "inherits": "ruby",
             "layerbranch": 165185,
             "license": "PD",
@@ -120,7 +120,7 @@
             "pv": "2.4.1",
             "section": "base",
             "summary": "Shadow Password Module",
-            "updated": "2018-06-20T02:06:13+0000"
+            "updated": "2018-08-14T03:08:12+0000"
         },
         {
             "bbclassextend": "",
@@ -130,7 +130,7 @@
             "filename": "puppetlabs-stdlib_git.bb",
             "filepath": "recipes-support/puppetlabs-stdlib",
             "homepage": "https://github.com/puppetlabs/puppetlabs-stdlib",
-            "id": 654605,
+            "id": 702456,
             "inherits": "ruby",
             "layerbranch": 165185,
             "license": "Apache-2.0",
@@ -139,7 +139,7 @@
             "pv": "4.10.0",
             "section": "base",
             "summary": "Puppet Labs Standard Library module",
-            "updated": "2018-06-20T02:06:13+0000"
+            "updated": "2018-08-14T03:08:12+0000"
         },
         {
             "bbclassextend": "",
@@ -149,7 +149,7 @@
             "filename": "celt051_git.bb",
             "filepath": "recipes-support/celt051",
             "homepage": "",
-            "id": 654606,
+            "id": 702457,
             "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo",
             "layerbranch": 165185,
             "license": "BSD",
@@ -158,7 +158,7 @@
             "pv": "0.5.1.3",
             "section": "base",
             "summary": "The CELT codec is a compression algorithm for audio",
-            "updated": "2018-06-20T02:06:14+0000"
+            "updated": "2018-08-14T03:08:12+0000"
         },
         {
             "bbclassextend": "",
@@ -168,7 +168,7 @@
             "filename": "hiera_1.3.4.bb",
             "filepath": "recipes-support/hiera",
             "homepage": "https://projects.puppetlabs.com/projects/hiera",
-            "id": 654607,
+            "id": 702458,
             "inherits": "ruby",
             "layerbranch": 165185,
             "license": "Apache-2.0",
@@ -177,7 +177,7 @@
             "pv": "1.3.4",
             "section": "base",
             "summary": "A simple pluggable Hierarchical Database",
-            "updated": "2018-06-20T02:06:14+0000"
+            "updated": "2018-08-14T03:08:12+0000"
         },
         {
             "bbclassextend": "",
@@ -187,7 +187,7 @@
             "filename": "facter_2.3.0.bb",
             "filepath": "recipes-support/facter",
             "homepage": "http://puppetlabs.com/facter",
-            "id": 654608,
+            "id": 702459,
             "inherits": "ruby",
             "layerbranch": 165185,
             "license": "Apache-2.0",
@@ -196,7 +196,7 @@
             "pv": "2.3.0",
             "section": "base",
             "summary": "Facter gathers basic facts about nodes (systems)",
-            "updated": "2018-06-20T02:06:14+0000"
+            "updated": "2018-08-14T03:08:12+0000"
         },
         {
             "bbclassextend": "",
@@ -206,7 +206,7 @@
             "filename": "nss-pam-ldapd_0.9.8.bb",
             "filepath": "recipes-support/nss-pam-ldapd",
             "homepage": "http://arthurdejong.org/nss-pam-ldapd/",
-            "id": 654609,
+            "id": 702460,
             "inherits": "autotools siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 165185,
             "license": "LGPLv2.1",
@@ -215,7 +215,7 @@
             "pv": "0.9.8",
             "section": "base",
             "summary": "NSS and PAM module for using LDAP as a naming service",
-            "updated": "2018-06-20T02:06:14+0000"
+            "updated": "2018-08-14T03:08:13+0000"
         },
         {
             "bbclassextend": "",
@@ -225,7 +225,7 @@
             "filename": "spice_git.bb",
             "filepath": "recipes-support/spice",
             "homepage": "",
-            "id": 654610,
+            "id": 702461,
             "inherits": "autotools gettext pkgconfig python-dir pythonnative siteconfig siteinfo",
             "layerbranch": 165185,
             "license": "BSD & LGPLv2.1+",
@@ -234,7 +234,7 @@
             "pv": "0.12.4",
             "section": "base",
             "summary": "Simple Protocol for Independent Computing Environments",
-            "updated": "2018-06-20T02:06:14+0000"
+            "updated": "2018-08-14T03:08:13+0000"
         },
         {
             "bbclassextend": "",
@@ -244,7 +244,7 @@
             "filename": "puppet_3.7.3.bb",
             "filepath": "recipes-support/puppet",
             "homepage": "https://puppetlabs.com/puppet/puppet-open-source",
-            "id": 654611,
+            "id": 702462,
             "inherits": "ruby",
             "layerbranch": 165185,
             "license": "Apache-2.0",
@@ -253,7 +253,7 @@
             "pv": "3.7.3",
             "section": "base",
             "summary": "Open source Puppet is a configuration management system",
-            "updated": "2018-06-20T02:06:14+0000"
+            "updated": "2018-08-14T03:08:13+0000"
         },
         {
             "bbclassextend": "",
@@ -263,7 +263,7 @@
             "filename": "puppet-vswitch_git.bb",
             "filepath": "recipes-support/puppet-vswitch",
             "homepage": "https://github.com/openstack/puppet-vswitch",
-            "id": 654612,
+            "id": 702463,
             "inherits": "ruby",
             "layerbranch": 165185,
             "license": "Apache-2.0",
@@ -272,7 +272,7 @@
             "pv": "3.0.0",
             "section": "base",
             "summary": "Puppet provider for virtual switches.",
-            "updated": "2018-06-20T02:06:14+0000"
+            "updated": "2018-08-14T03:08:13+0000"
         },
         {
             "bbclassextend": "",
@@ -282,7 +282,7 @@
             "filename": "openldap_2.4.39.bb",
             "filepath": "recipes-support/openldap",
             "homepage": "http://www.OpenLDAP.org/license.html",
-            "id": 654613,
+            "id": 702464,
             "inherits": "autotools autotools-brokensep siteconfig siteinfo",
             "layerbranch": 165185,
             "license": "OpenLDAP",
@@ -291,7 +291,7 @@
             "pv": "2.4.39",
             "section": "libs",
             "summary": "",
-            "updated": "2018-06-20T02:06:15+0000"
+            "updated": "2018-08-14T03:08:13+0000"
         },
         {
             "bbclassextend": "",
@@ -301,7 +301,7 @@
             "filename": "librdmacm_1.0.17.bb",
             "filepath": "recipes-extended/librdmacm",
             "homepage": "http://www.openfabrics.org/downloads/rdmacm/",
-            "id": 654614,
+            "id": 702465,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 165185,
             "license": "BSD",
@@ -310,7 +310,7 @@
             "pv": "1.0.17",
             "section": "libs/devel",
             "summary": "Userspace RDMA Connection Manager",
-            "updated": "2018-06-20T02:06:15+0000"
+            "updated": "2018-08-14T03:08:14+0000"
         },
         {
             "bbclassextend": "",
@@ -320,7 +320,7 @@
             "filename": "glusterfs_3.11.1.bb",
             "filepath": "recipes-extended/glusterfs",
             "homepage": "http://www.gluster.org/",
-            "id": 654615,
+            "id": 702466,
             "inherits": "autotools distutils-base distutils-common-base pkgconfig python-dir pythonnative siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 165185,
             "license": "(LGPLv3+ | GPLv2) & GPLv3+ & LGPLv3+ & GPLv2+ & LGPLv2+ & LGPLv2.1+ & Apache-2.0",
@@ -329,7 +329,7 @@
             "pv": "3.11.1",
             "section": "console/network",
             "summary": "Glusterfs distributed filesystem",
-            "updated": "2018-06-20T02:06:15+0000"
+            "updated": "2018-08-14T03:08:14+0000"
         },
         {
             "bbclassextend": "",
@@ -339,7 +339,7 @@
             "filename": "libibverbs_1.1.7.bb",
             "filepath": "recipes-extended/libibverbs",
             "homepage": "http://www.openfabrics.org/downloads/verbs/",
-            "id": 654616,
+            "id": 702467,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 165185,
             "license": "BSD",
@@ -348,7 +348,7 @@
             "pv": "1.1.7",
             "section": "libs/devel",
             "summary": "Support InfiniBand verbs",
-            "updated": "2018-06-20T02:06:15+0000"
+            "updated": "2018-08-14T03:08:14+0000"
         },
         {
             "bbclassextend": "",
@@ -358,7 +358,7 @@
             "filename": "python-pyparsing_2.0.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pyparsing.wikispaces.com/",
-            "id": 654617,
+            "id": 702468,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative",
             "layerbranch": 165185,
             "license": "MIT",
@@ -367,7 +367,7 @@
             "pv": "2.0.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-06-20T02:06:15+0000"
+            "updated": "2018-08-14T03:08:14+0000"
         },
         {
             "bbclassextend": "",
@@ -377,7 +377,7 @@
             "filename": "python-greenlet_0.4.9.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pypi.python.org/pypi/greenlet",
-            "id": 654618,
+            "id": 702469,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative",
             "layerbranch": 165185,
             "license": "MIT & PSF",
@@ -386,7 +386,7 @@
             "pv": "0.4.9",
             "section": "devel/python",
             "summary": "Python lightweight in-process concurrent programming",
-            "updated": "2018-06-20T02:06:15+0000"
+            "updated": "2018-08-14T03:08:14+0000"
         }
     ],
     "wrtemplates": []

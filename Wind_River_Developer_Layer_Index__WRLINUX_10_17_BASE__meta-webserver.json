@@ -26,9 +26,9 @@
             "collection": "core",
             "id": 165030,
             "layer": 1,
-            "updated": "2018-07-25T02:07:46+0000",
+            "updated": "2018-08-14T03:08:08+0000",
             "vcs_last_commit": "2018-07-25T02:07:36+0000",
-            "vcs_last_fetch": "2018-07-25T02:07:46+0000",
+            "vcs_last_fetch": "2018-08-14T03:08:08+0000",
             "vcs_last_rev": "ebe4350a6afa4d9a63ada9867c507db782a82f62",
             "vcs_subdir": "meta",
             "version": "11",
@@ -40,9 +40,9 @@
             "collection": "openembedded-layer",
             "id": 165076,
             "layer": 7,
-            "updated": "2018-06-22T14:06:43+0000",
+            "updated": "2018-08-14T03:08:05+0000",
             "vcs_last_commit": "2018-05-29T22:05:57+0000",
-            "vcs_last_fetch": "2018-06-22T14:06:43+0000",
+            "vcs_last_fetch": "2018-08-14T03:08:05+0000",
             "vcs_last_rev": "6d02ece73068e403a0d36978aa0a5a0419cfbfa0",
             "vcs_subdir": "meta-oe",
             "version": "1",
@@ -54,9 +54,9 @@
             "collection": "webserver",
             "id": 165078,
             "layer": 10,
-            "updated": "2018-06-22T14:06:44+0000",
+            "updated": "2018-08-14T03:08:15+0000",
             "vcs_last_commit": "2017-10-18T01:10:28+0000",
-            "vcs_last_fetch": "2018-06-22T14:06:44+0000",
+            "vcs_last_fetch": "2018-08-14T03:08:15+0000",
             "vcs_last_rev": "94e9e03da4d5539963d6f536f03c5d3cb0e1d4f1",
             "vcs_subdir": "meta-webserver",
             "version": "1",
@@ -149,7 +149,7 @@
             "filename": "phpmyadmin_4.7.3.bb",
             "filepath": "recipes-php/phpmyadmin",
             "homepage": "http://www.phpmyadmin.net",
-            "id": 654009,
+            "id": 701914,
             "inherits": "allarch",
             "layerbranch": 165078,
             "license": "GPLv2 & LGPLv3 & MIT",
@@ -158,7 +158,7 @@
             "pv": "4.7.3",
             "section": "base",
             "summary": "Web-based MySQL administration interface",
-            "updated": "2018-06-20T02:06:14+0000"
+            "updated": "2018-08-14T03:08:13+0000"
         },
         {
             "bbclassextend": "",
@@ -168,7 +168,7 @@
             "filename": "xdebug_2.5.1.bb",
             "filepath": "recipes-php/xdebug",
             "homepage": "",
-            "id": 654010,
+            "id": 701915,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 165078,
             "license": "Xdebug",
@@ -177,7 +177,7 @@
             "pv": "2.5.1",
             "section": "base",
             "summary": "Debugging and profiling extension for PHP",
-            "updated": "2018-06-20T02:06:14+0000"
+            "updated": "2018-08-14T03:08:13+0000"
         },
         {
             "bbclassextend": "",
@@ -187,7 +187,7 @@
             "filename": "webmin_1.850.bb",
             "filepath": "recipes-webadmin/webmin",
             "homepage": "http://www.webmin.com",
-            "id": 654011,
+            "id": 701916,
             "inherits": "perlnative systemd update-rc.d",
             "layerbranch": 165078,
             "license": "BSD",
@@ -196,7 +196,7 @@
             "pv": "1.850",
             "section": "base",
             "summary": "Web-based administration interface",
-            "updated": "2018-06-20T02:06:14+0000"
+            "updated": "2018-08-14T03:08:13+0000"
         },
         {
             "bbclassextend": "",
@@ -206,7 +206,7 @@
             "filename": "netdata_git.bb",
             "filepath": "recipes-webadmin/netdata",
             "homepage": "https://github.com/firehol/netdata/",
-            "id": 654012,
+            "id": 701917,
             "inherits": "autotools pkgconfig siteconfig siteinfo systemd useradd useradd_base",
             "layerbranch": 165078,
             "license": "GPLv3",
@@ -215,7 +215,7 @@
             "pv": "1.6.0+gitX",
             "section": "base",
             "summary": "Real-time performance monitoring",
-            "updated": "2018-06-20T02:06:15+0000"
+            "updated": "2018-08-14T03:08:13+0000"
         },
         {
             "bbclassextend": "",
@@ -225,7 +225,7 @@
             "filename": "spawn-fcgi_1.6.4.bb",
             "filepath": "recipes-support/spawn-fcgi",
             "homepage": "http://redmine.lighttpd.net/projects/spawn-fcgi",
-            "id": 654013,
+            "id": 701918,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 165078,
             "license": "BSD",
@@ -234,7 +234,7 @@
             "pv": "1.6.4",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-20T02:06:15+0000"
+            "updated": "2018-08-14T03:08:13+0000"
         },
         {
             "bbclassextend": "",
@@ -244,7 +244,7 @@
             "filename": "fcgi_2.4.0.bb",
             "filepath": "recipes-support/fcgi",
             "homepage": "http://www.fastcgi.com",
-            "id": 654014,
+            "id": 701919,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 165078,
             "license": "OML",
@@ -253,7 +253,7 @@
             "pv": "2.4.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-06-20T02:06:15+0000"
+            "updated": "2018-08-14T03:08:13+0000"
         },
         {
             "bbclassextend": "",
@@ -263,7 +263,7 @@
             "filename": "apache2-native_2.4.27.bb",
             "filepath": "recipes-httpd/apache2",
             "homepage": "http://httpd.apache.org/",
-            "id": 654015,
+            "id": 701920,
             "inherits": "autotools native nopackages pkgconfig relocatable siteconfig siteinfo",
             "layerbranch": 165078,
             "license": "Apache-2.0",
@@ -272,7 +272,7 @@
             "pv": "2.4.27",
             "section": "net",
             "summary": "Apache HTTP Server",
-            "updated": "2018-06-20T02:06:15+0000"
+            "updated": "2018-08-14T03:08:14+0000"
         },
         {
             "bbclassextend": "",
@@ -282,7 +282,7 @@
             "filename": "apache2_2.4.27.bb",
             "filepath": "recipes-httpd/apache2",
             "homepage": "http://httpd.apache.org/",
-            "id": 654016,
+            "id": 701921,
             "inherits": "autotools pkgconfig siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 165078,
             "license": "Apache-2.0",
@@ -291,7 +291,7 @@
             "pv": "2.4.27",
             "section": "net",
             "summary": "Apache HTTP Server",
-            "updated": "2018-06-20T02:06:15+0000"
+            "updated": "2018-08-14T03:08:14+0000"
         },
         {
             "bbclassextend": "",
@@ -301,7 +301,7 @@
             "filename": "nginx_1.12.1.bb",
             "filepath": "recipes-httpd/nginx",
             "homepage": "http://nginx.org/",
-            "id": 654017,
+            "id": 701922,
             "inherits": "systemd update-rc.d useradd useradd_base",
             "layerbranch": 165078,
             "license": "BSD-2-Clause",
@@ -310,7 +310,7 @@
             "pv": "1.12.1",
             "section": "net",
             "summary": "HTTP and reverse proxy server",
-            "updated": "2018-06-20T02:06:15+0000"
+            "updated": "2018-08-14T03:08:14+0000"
         },
         {
             "bbclassextend": "",
@@ -320,7 +320,7 @@
             "filename": "nginx_1.13.5.bb",
             "filepath": "recipes-httpd/nginx",
             "homepage": "http://nginx.org/",
-            "id": 654018,
+            "id": 701923,
             "inherits": "systemd update-rc.d useradd useradd_base",
             "layerbranch": 165078,
             "license": "BSD-2-Clause",
@@ -329,7 +329,7 @@
             "pv": "1.13.5",
             "section": "net",
             "summary": "HTTP and reverse proxy server",
-            "updated": "2018-06-20T02:06:16+0000"
+            "updated": "2018-08-14T03:08:14+0000"
         },
         {
             "bbclassextend": "",
@@ -339,7 +339,7 @@
             "filename": "monkey_1.5.6.bb",
             "filepath": "recipes-httpd/monkey",
             "homepage": "http://monkey-project.com",
-            "id": 654019,
+            "id": 701924,
             "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 165078,
             "license": "Apache-2.0",
@@ -348,7 +348,7 @@
             "pv": "1.5.6",
             "section": "net",
             "summary": "Fast and Lightweight HTTP Server for Linux",
-            "updated": "2018-06-20T02:06:16+0000"
+            "updated": "2018-08-14T03:08:14+0000"
         },
         {
             "bbclassextend": "",
@@ -358,7 +358,7 @@
             "filename": "apache-websocket_git.bb",
             "filepath": "recipes-httpd/apache-mod",
             "homepage": "https://github.com/jchampio/apache-websocket/",
-            "id": 654020,
+            "id": 701925,
             "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo",
             "layerbranch": 165078,
             "license": "Apache-2.0",
@@ -367,7 +367,7 @@
             "pv": "0.1.1",
             "section": "net",
             "summary": "Websocket module for Apache web server",
-            "updated": "2018-06-20T02:06:16+0000"
+            "updated": "2018-08-14T03:08:14+0000"
         },
         {
             "bbclassextend": "",
@@ -377,7 +377,7 @@
             "filename": "nostromo_1.9.6.bb",
             "filepath": "recipes-httpd/nostromo",
             "homepage": "http://www.nazgul.ch/dev_nostromo.html",
-            "id": 654021,
+            "id": 701926,
             "inherits": "update-rc.d",
             "layerbranch": 165078,
             "license": "MIT",
@@ -386,7 +386,7 @@
             "pv": "1.9.6",
             "section": "base",
             "summary": "A simple, fast and secure HTTP server",
-            "updated": "2018-06-20T02:06:16+0000"
+            "updated": "2018-08-14T03:08:15+0000"
         },
         {
             "bbclassextend": "",
@@ -396,7 +396,7 @@
             "filename": "sthttpd_2.27.1.bb",
             "filepath": "recipes-httpd/sthttpd",
             "homepage": "http://opensource.dyc.edu/sthttpd",
-            "id": 654022,
+            "id": 701927,
             "inherits": "autotools siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 165078,
             "license": "BSD-2-Clause",
@@ -405,7 +405,7 @@
             "pv": "2.27.1",
             "section": "base",
             "summary": "A simple, small, portable, fast, and secure HTTP server",
-            "updated": "2018-06-20T02:06:16+0000"
+            "updated": "2018-08-14T03:08:15+0000"
         },
         {
             "bbclassextend": "",
@@ -415,7 +415,7 @@
             "filename": "hiawatha_10.3.bb",
             "filepath": "recipes-httpd/hiawatha",
             "homepage": "http://www.hiawatha-webserver.org",
-            "id": 654023,
+            "id": 701928,
             "inherits": "cmake systemd update-rc.d",
             "layerbranch": 165078,
             "license": "GPLv2",
@@ -424,7 +424,7 @@
             "pv": "10.3",
             "section": "net",
             "summary": "Lightweight secure web server",
-            "updated": "2018-06-20T02:06:16+0000"
+            "updated": "2018-08-14T03:08:15+0000"
         },
         {
             "bbclassextend": "",
@@ -434,7 +434,7 @@
             "filename": "cherokee_git.bb",
             "filepath": "recipes-httpd/cherokee",
             "homepage": "http://www.cherokee-project.com/",
-            "id": 654024,
+            "id": 701929,
             "inherits": "autotools autotools-brokensep binconfig pkgconfig python-dir pythonnative siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 165078,
             "license": "GPLv2",
@@ -443,7 +443,7 @@
             "pv": "1.2.104+gitX",
             "section": "network",
             "summary": "Cherokee Web Server fast and secure",
-            "updated": "2018-06-20T02:06:16+0000"
+            "updated": "2018-08-14T03:08:15+0000"
         }
     ],
     "wrtemplates": []
