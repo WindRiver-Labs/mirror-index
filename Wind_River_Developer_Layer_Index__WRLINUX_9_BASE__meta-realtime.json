@@ -9,12 +9,13 @@
     "branches": [
         {
             "bitbake_branch": "wr-9.0-20171109",
+            "comparison": false,
             "id": 2,
             "name": "WRLINUX_9_BASE",
             "short_description": "Wind River Linux 9 Baseline",
             "sort_priority": 10,
             "update_environment": null,
-            "updated": "2017-11-16T03:11:50+0000",
+            "updated": "2017-11-16T09:11:50+0000",
             "updates_enabled": true
         }
     ],
@@ -26,9 +27,9 @@
             "collection": "core",
             "id": 56,
             "layer": 1,
-            "updated": "2018-09-03T03:09:11+0000",
-            "vcs_last_commit": "2018-09-03T02:09:10+0000",
-            "vcs_last_fetch": "2018-09-03T03:09:11+0000",
+            "updated": "2018-09-03T08:09:11+0000",
+            "vcs_last_commit": "2018-09-03T07:09:10+0000",
+            "vcs_last_fetch": "2018-09-03T08:09:11+0000",
             "vcs_last_rev": "7e15882edcc23a3196cc2e86375d1f6fede156d2",
             "vcs_subdir": "meta",
             "version": "9",
@@ -40,9 +41,9 @@
             "collection": "realtime",
             "id": 59,
             "layer": 48,
-            "updated": "2018-06-22T14:06:05+0000",
-            "vcs_last_commit": "2017-07-20T21:07:54+0000",
-            "vcs_last_fetch": "2018-06-22T14:06:05+0000",
+            "updated": "2018-06-22T19:06:05+0000",
+            "vcs_last_commit": "2017-07-21T02:07:54+0000",
+            "vcs_last_fetch": "2018-06-22T19:06:05+0000",
             "vcs_last_rev": "86f6124dda786d525fc891219a997f393e61d4f2",
             "vcs_subdir": "",
             "version": "1",
@@ -65,7 +66,7 @@
     ],
     "layerItems": [
         {
-            "classic": false,
+            "comparison": false,
             "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
             "id": 1,
             "index_preference": 1000,
@@ -74,7 +75,7 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2018-05-30T18:05:28+0000",
+            "updated": "2018-05-30T23:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
             "vcs_web_commit_url": "",
@@ -83,7 +84,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "This layer is intended to be a central point for realtime related kernel and\r\nsystem development. It also contains utilities, and configuration useful for\r\ntuning a realtime system. It should be useful directly on top of oe-core.  It\r\nshould be primarily useful to the following groups:",
             "id": 48,
             "index_preference": 900,
@@ -92,7 +93,7 @@
             "name": "meta-realtime",
             "status": "P",
             "summary": "Realtime related kernel components",
-            "updated": "2018-05-30T17:05:35+0000",
+            "updated": "2018-05-30T22:05:35+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-realtime",
             "vcs_web_commit_url": "",
@@ -120,7 +121,7 @@
             "pv": "1.0",
             "section": "devel",
             "summary": "",
-            "updated": "2017-07-17T04:07:09+0000"
+            "updated": "2017-07-17T09:07:09+0000"
         },
         {
             "bbclassextend": "",
@@ -139,7 +140,7 @@
             "pv": "1.0",
             "section": "devel",
             "summary": "",
-            "updated": "2017-07-17T04:07:09+0000"
+            "updated": "2017-07-17T09:07:09+0000"
         },
         {
             "bbclassextend": "",
@@ -158,7 +159,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2017-07-17T04:07:09+0000"
+            "updated": "2017-07-17T09:07:09+0000"
         }
     ],
     "wrtemplates": []

@@ -9,12 +9,13 @@
     "branches": [
         {
             "bitbake_branch": "wr-9.0-20171109",
+            "comparison": false,
             "id": 2,
             "name": "WRLINUX_9_BASE",
             "short_description": "Wind River Linux 9 Baseline",
             "sort_priority": 10,
             "update_environment": null,
-            "updated": "2017-11-16T03:11:50+0000",
+            "updated": "2017-11-16T09:11:50+0000",
             "updates_enabled": true
         }
     ],
@@ -26,9 +27,9 @@
             "collection": "core",
             "id": 56,
             "layer": 1,
-            "updated": "2018-09-03T03:09:11+0000",
-            "vcs_last_commit": "2018-09-03T02:09:10+0000",
-            "vcs_last_fetch": "2018-09-03T03:09:11+0000",
+            "updated": "2018-09-03T08:09:11+0000",
+            "vcs_last_commit": "2018-09-03T07:09:10+0000",
+            "vcs_last_fetch": "2018-09-03T08:09:11+0000",
             "vcs_last_rev": "7e15882edcc23a3196cc2e86375d1f6fede156d2",
             "vcs_subdir": "meta",
             "version": "9",
@@ -40,9 +41,9 @@
             "collection": "perl-layer",
             "id": 69,
             "layer": 13,
-            "updated": "2018-06-22T14:06:01+0000",
-            "vcs_last_commit": "2018-03-15T01:03:08+0000",
-            "vcs_last_fetch": "2018-06-22T14:06:01+0000",
+            "updated": "2018-06-22T19:06:01+0000",
+            "vcs_last_commit": "2018-03-15T06:03:08+0000",
+            "vcs_last_fetch": "2018-06-22T19:06:01+0000",
             "vcs_last_rev": "5c408ad352c10de2c01fa41971d0ec30d15e2793",
             "vcs_subdir": "meta-perl",
             "version": "1",
@@ -65,7 +66,7 @@
     ],
     "layerItems": [
         {
-            "classic": false,
+            "comparison": false,
             "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
             "id": 1,
             "index_preference": 1000,
@@ -74,7 +75,7 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2018-05-30T18:05:28+0000",
+            "updated": "2018-05-30T23:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
             "vcs_web_commit_url": "",
@@ -83,7 +84,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "PERL language and related items",
             "id": 13,
             "index_preference": 800,
@@ -92,7 +93,7 @@
             "name": "meta-perl",
             "status": "P",
             "summary": "PERL language and related items",
-            "updated": "2018-05-30T17:05:45+0000",
+            "updated": "2018-05-30T22:05:45+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_commit_url": "",
@@ -120,7 +121,7 @@
             "pv": "1.11",
             "section": "mail",
             "summary": "Construct and optionally mail MIME messages",
-            "updated": "2017-06-09T01:06:05+0000"
+            "updated": "2017-06-09T06:06:05+0000"
         },
         {
             "bbclassextend": "native",
@@ -139,7 +140,7 @@
             "pv": "2.000002",
             "section": "libs",
             "summary": "strictures - turn on strict and make all warnings fatal",
-            "updated": "2017-06-09T01:06:05+0000"
+            "updated": "2017-06-09T06:06:05+0000"
         },
         {
             "bbclassextend": "native",
@@ -158,7 +159,7 @@
             "pv": "5.2",
             "section": "libs",
             "summary": "Automatically give your module the ability to have plugins",
-            "updated": "2017-06-09T01:06:05+0000"
+            "updated": "2017-06-09T06:06:05+0000"
         },
         {
             "bbclassextend": "native",
@@ -177,7 +178,7 @@
             "pv": "0.015",
             "section": "libs",
             "summary": "Module::Runtime - runtime module handling",
-            "updated": "2017-06-09T01:06:05+0000"
+            "updated": "2017-06-09T06:06:05+0000"
         },
         {
             "bbclassextend": "native",
@@ -196,7 +197,7 @@
             "pv": "0.036",
             "section": "libs",
             "summary": "Module::Build::Tiny - A tiny replacement for Module::Build",
-            "updated": "2017-06-09T01:06:05+0000"
+            "updated": "2017-06-09T06:06:05+0000"
         },
         {
             "bbclassextend": "native",
@@ -215,7 +216,7 @@
             "pv": "0.31",
             "section": "libs",
             "summary": "Module::Build::Tiny - A tiny replacement for Module::Build",
-            "updated": "2017-06-09T01:06:05+0000"
+            "updated": "2017-06-09T06:06:05+0000"
         },
         {
             "bbclassextend": "",
@@ -234,7 +235,7 @@
             "pv": "0.11",
             "section": "libs",
             "summary": "Crypt Openssl Random cpan module",
-            "updated": "2017-06-09T01:06:06+0000"
+            "updated": "2017-06-09T06:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -253,7 +254,7 @@
             "pv": "0.28",
             "section": "libs",
             "summary": "Crypt Openssl RSA cpan module",
-            "updated": "2017-06-09T01:06:06+0000"
+            "updated": "2017-06-09T06:06:06+0000"
         },
         {
             "bbclassextend": "native",
@@ -272,7 +273,7 @@
             "pv": "0.36",
             "section": "libs",
             "summary": "Capture::Tiny - Capture STDOUT and STDERR from Perl, XS or external programs.",
-            "updated": "2017-06-09T01:06:06+0000"
+            "updated": "2017-06-09T06:06:06+0000"
         },
         {
             "bbclassextend": "native",
@@ -291,7 +292,7 @@
             "pv": "1.65",
             "section": "libs",
             "summary": "Net::SSLeay - Perl extension for using OpenSSL",
-            "updated": "2017-06-09T01:06:06+0000"
+            "updated": "2017-06-09T06:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -310,7 +311,7 @@
             "pv": "0.12",
             "section": "libs",
             "summary": "Net::LibIDN - Perl bindings for GNU Libidn",
-            "updated": "2017-06-09T01:06:06+0000"
+            "updated": "2017-06-09T06:06:06+0000"
         },
         {
             "bbclassextend": "native",
@@ -329,7 +330,7 @@
             "pv": "1.06",
             "section": "libs",
             "summary": "",
-            "updated": "2017-06-09T01:06:06+0000"
+            "updated": "2017-06-09T06:06:06+0000"
         },
         {
             "bbclassextend": "native",
@@ -348,7 +349,7 @@
             "pv": "3.72",
             "section": "libs",
             "summary": "",
-            "updated": "2017-06-09T01:06:06+0000"
+            "updated": "2017-06-09T06:06:06+0000"
         },
         {
             "bbclassextend": "native",
@@ -367,7 +368,7 @@
             "pv": "5.03",
             "section": "libs",
             "summary": "HTML::TreeBuilder - Parser that builds a HTML syntax tree",
-            "updated": "2017-06-09T01:06:06+0000"
+            "updated": "2017-06-09T06:06:06+0000"
         },
         {
             "bbclassextend": "native",
@@ -386,7 +387,7 @@
             "pv": "1.03",
             "section": "libs",
             "summary": "Keyed-Hashing for Message Authentication",
-            "updated": "2017-06-09T01:06:06+0000"
+            "updated": "2017-06-09T06:06:06+0000"
         },
         {
             "bbclassextend": "native",
@@ -405,7 +406,7 @@
             "pv": "2.13",
             "section": "libs",
             "summary": "Perl interface to the SHA-1 algorithm ",
-            "updated": "2017-06-09T01:06:06+0000"
+            "updated": "2017-06-09T06:06:06+0000"
         },
         {
             "bbclassextend": "native",
@@ -424,7 +425,7 @@
             "pv": "2.16",
             "section": "libs",
             "summary": "SASL Authentication framework for Perl",
-            "updated": "2017-06-09T01:06:06+0000"
+            "updated": "2017-06-09T06:06:06+0000"
         },
         {
             "bbclassextend": "native",
@@ -443,7 +444,7 @@
             "pv": "0.13",
             "section": "libs",
             "summary": "Function returning \\\"${^GLOBAL_PHASE} eq \\'DESTRUCT\\'\\\"",
-            "updated": "2017-06-09T01:06:06+0000"
+            "updated": "2017-06-09T06:06:06+0000"
         },
         {
             "bbclassextend": "",
@@ -462,7 +463,7 @@
             "pv": "2.04",
             "section": "libraries",
             "summary": "MIME::Types - Definition of MIME types",
-            "updated": "2018-03-15T02:03:19+0000"
+            "updated": "2018-03-15T07:03:19+0000"
         },
         {
             "bbclassextend": "native",
@@ -481,7 +482,7 @@
             "pv": "3.24",
             "section": "libs",
             "summary": "ExtUtils::ParseXS - converts Perl XS code into C code",
-            "updated": "2017-06-09T01:06:07+0000"
+            "updated": "2017-06-09T06:06:07+0000"
         },
         {
             "bbclassextend": "native",
@@ -500,7 +501,7 @@
             "pv": "0.09",
             "section": "libs",
             "summary": "ExtUtils::CppGuess - guess C++ compiler and flags",
-            "updated": "2017-06-09T01:06:07+0000"
+            "updated": "2017-06-09T06:06:07+0000"
         },
         {
             "bbclassextend": "native",
@@ -519,7 +520,7 @@
             "pv": "0.011",
             "section": "libs",
             "summary": "ExtUtils::InstallPaths - Build.PL install path logic made easy",
-            "updated": "2017-06-09T01:06:07+0000"
+            "updated": "2017-06-09T06:06:07+0000"
         },
         {
             "bbclassextend": "native",
@@ -538,7 +539,7 @@
             "pv": "0.022",
             "section": "libs",
             "summary": "ExtUtils::Helpers - Various portability utilities for module builders",
-            "updated": "2017-06-09T01:06:07+0000"
+            "updated": "2017-06-09T06:06:07+0000"
         },
         {
             "bbclassextend": "native",
@@ -557,7 +558,7 @@
             "pv": "0.008",
             "section": "libs",
             "summary": "ExtUtils::Config - A wrapper for perl's configuration",
-            "updated": "2017-06-09T01:06:07+0000"
+            "updated": "2017-06-09T06:06:07+0000"
         },
         {
             "bbclassextend": "",
@@ -576,7 +577,7 @@
             "pv": "1.34",
             "section": "libs",
             "summary": "",
-            "updated": "2017-06-09T01:06:07+0000"
+            "updated": "2017-06-09T06:06:07+0000"
         },
         {
             "bbclassextend": "native",
@@ -595,7 +596,7 @@
             "pv": "1.50",
             "section": "libs",
             "summary": "A Perl DBI driver for SQLite",
-            "updated": "2017-06-09T01:06:07+0000"
+            "updated": "2017-06-09T06:06:07+0000"
         },
         {
             "bbclassextend": "native",
@@ -614,7 +615,7 @@
             "pv": "1.41",
             "section": "libs",
             "summary": "Text::Diff - Perform diffs on files and record sets",
-            "updated": "2017-06-09T01:06:07+0000"
+            "updated": "2017-06-09T06:06:07+0000"
         },
         {
             "bbclassextend": "",
@@ -633,7 +634,7 @@
             "pv": "1.7",
             "section": "libs",
             "summary": "Perl interface to iconv() codeset conversion function",
-            "updated": "2017-06-09T01:06:07+0000"
+            "updated": "2017-06-09T06:06:07+0000"
         },
         {
             "bbclassextend": "native",
@@ -652,7 +653,7 @@
             "pv": "2.12",
             "section": "libs",
             "summary": "Class::Method::Modifiers - provides Moose-like method modifiers",
-            "updated": "2017-06-09T01:06:07+0000"
+            "updated": "2017-06-09T06:06:07+0000"
         },
         {
             "bbclassextend": "native",
@@ -671,7 +672,7 @@
             "pv": "1.997",
             "section": "libs",
             "summary": "Perl library for transparent SSL",
-            "updated": "2017-06-09T01:06:07+0000"
+            "updated": "2017-06-09T06:06:07+0000"
         },
         {
             "bbclassextend": "native",
@@ -690,7 +691,7 @@
             "pv": "2.111",
             "section": "devel",
             "summary": "IO-stringy - I/O on in-core objects like strings and arrays",
-            "updated": "2017-06-09T01:06:08+0000"
+            "updated": "2017-06-09T06:06:08+0000"
         },
         {
             "bbclassextend": "native",
@@ -709,7 +710,7 @@
             "pv": "1.01",
             "section": "libs",
             "summary": "XML::Filter::BufferText - Filter to put all characters() in one event",
-            "updated": "2017-06-09T01:06:08+0000"
+            "updated": "2017-06-09T06:06:08+0000"
         },
         {
             "bbclassextend": "native",
@@ -728,7 +729,7 @@
             "pv": "0.56",
             "section": "libs",
             "summary": "XML::SAX::Writer - SAX2 Writer",
-            "updated": "2017-06-09T01:06:08+0000"
+            "updated": "2017-06-09T06:06:08+0000"
         },
         {
             "bbclassextend": "native",
@@ -747,7 +748,7 @@
             "pv": "2.0121",
             "section": "libs",
             "summary": "Perl interface to the libxml2 library",
-            "updated": "2017-06-09T01:06:08+0000"
+            "updated": "2017-06-09T06:06:08+0000"
         },
         {
             "bbclassextend": "native",
@@ -766,7 +767,7 @@
             "pv": "1.15",
             "section": "libs",
             "summary": "Algorithm::Diff - Compute 'intelligent' differences between two files/lists",
-            "updated": "2017-06-09T01:06:08+0000"
+            "updated": "2017-06-09T06:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -785,7 +786,7 @@
             "pv": "1.00",
             "section": "libs",
             "summary": "IPC::Signal - Utility functions dealing with signals",
-            "updated": "2017-06-09T01:06:08+0000"
+            "updated": "2017-06-09T06:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -804,7 +805,7 @@
             "pv": "1.00",
             "section": "libraries",
             "summary": "Interpret and act on wait() status values",
-            "updated": "2017-06-09T01:06:08+0000"
+            "updated": "2017-06-09T06:06:08+0000"
         },
         {
             "bbclassextend": "native",
@@ -823,7 +824,7 @@
             "pv": "0.001011",
             "section": "libs",
             "summary": "Sub::Exporter::Progressive - Only use Sub::Exporter if you need it.",
-            "updated": "2017-06-09T01:06:08+0000"
+            "updated": "2017-06-09T06:06:08+0000"
         },
         {
             "bbclassextend": "native",
@@ -842,7 +843,7 @@
             "pv": "1.002004",
             "section": "libs",
             "summary": "Import::Into - import packages into other packages",
-            "updated": "2017-06-09T01:06:08+0000"
+            "updated": "2017-06-09T06:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -861,7 +862,7 @@
             "pv": "3.115",
             "section": "base/utils",
             "summary": "a utility to add users/groups to the system",
-            "updated": "2017-06-09T01:06:08+0000"
+            "updated": "2017-06-09T06:06:08+0000"
         },
         {
             "bbclassextend": "native",
@@ -880,7 +881,7 @@
             "pv": "2.000002",
             "section": "libs",
             "summary": "Moo - Minimalist Object Orientation (with Moose compatibility)",
-            "updated": "2017-06-09T01:06:08+0000"
+            "updated": "2017-06-09T06:06:08+0000"
         },
         {
             "bbclassextend": "",
@@ -899,7 +900,7 @@
             "pv": "4.28",
             "section": "libs",
             "summary": "",
-            "updated": "2017-06-09T01:06:08+0000"
+            "updated": "2017-06-09T06:06:08+0000"
         },
         {
             "bbclassextend": "native",
@@ -918,7 +919,7 @@
             "pv": "2.000001",
             "section": "libs",
             "summary": "Role::Tiny - Roles. Like a nouvelle cousine portion size of Moose.",
-            "updated": "2017-06-09T01:06:09+0000"
+            "updated": "2017-06-09T06:06:09+0000"
         },
         {
             "bbclassextend": "native",
@@ -937,7 +938,7 @@
             "pv": "3.36",
             "section": "libs",
             "summary": "Test::Harness - Run Perl standard test scripts with statistics",
-            "updated": "2017-06-09T01:06:09+0000"
+            "updated": "2017-06-09T06:06:09+0000"
         },
         {
             "bbclassextend": "native",
@@ -956,7 +957,7 @@
             "pv": "2.83",
             "section": "lib",
             "summary": "Encode - character encodings",
-            "updated": "2017-06-09T01:06:09+0000"
+            "updated": "2017-06-09T06:06:09+0000"
         },
         {
             "bbclassextend": "native",
@@ -975,7 +976,7 @@
             "pv": "1.05",
             "section": "libs",
             "summary": "Encode::Locale - Determine the locale encoding",
-            "updated": "2017-06-09T01:06:09+0000"
+            "updated": "2017-06-09T06:06:09+0000"
         }
     ],
     "wrtemplates": []

@@ -9,12 +9,13 @@
     "branches": [
         {
             "bitbake_branch": "wr-9.0-20171109",
+            "comparison": false,
             "id": 2,
             "name": "WRLINUX_9_BASE",
             "short_description": "Wind River Linux 9 Baseline",
             "sort_priority": 10,
             "update_environment": null,
-            "updated": "2017-11-16T03:11:50+0000",
+            "updated": "2017-11-16T09:11:50+0000",
             "updates_enabled": true
         }
     ],
@@ -26,9 +27,9 @@
             "collection": "core",
             "id": 56,
             "layer": 1,
-            "updated": "2018-09-03T03:09:11+0000",
-            "vcs_last_commit": "2018-09-03T02:09:10+0000",
-            "vcs_last_fetch": "2018-09-03T03:09:11+0000",
+            "updated": "2018-09-03T08:09:11+0000",
+            "vcs_last_commit": "2018-09-03T07:09:10+0000",
+            "vcs_last_fetch": "2018-09-03T08:09:11+0000",
             "vcs_last_rev": "7e15882edcc23a3196cc2e86375d1f6fede156d2",
             "vcs_subdir": "meta",
             "version": "9",
@@ -40,9 +41,9 @@
             "collection": "gpe-layer",
             "id": 64,
             "layer": 17,
-            "updated": "2018-06-22T14:06:03+0000",
-            "vcs_last_commit": "2016-11-29T03:11:42+0000",
-            "vcs_last_fetch": "2018-06-22T14:06:03+0000",
+            "updated": "2018-06-22T19:06:03+0000",
+            "vcs_last_commit": "2016-11-29T09:11:42+0000",
+            "vcs_last_fetch": "2018-06-22T19:06:03+0000",
             "vcs_last_rev": "69bdbf665a32b784cd1fc2b30e74aa3f9faf191b",
             "vcs_subdir": "meta-gpe",
             "version": "1",
@@ -54,9 +55,9 @@
             "collection": "openembedded-layer",
             "id": 68,
             "layer": 7,
-            "updated": "2018-06-22T14:06:57+0000",
-            "vcs_last_commit": "2018-01-08T01:01:45+0000",
-            "vcs_last_fetch": "2018-06-22T14:06:57+0000",
+            "updated": "2018-06-22T19:06:57+0000",
+            "vcs_last_commit": "2018-01-08T07:01:45+0000",
+            "vcs_last_fetch": "2018-06-22T19:06:57+0000",
             "vcs_last_rev": "2a14a0fb044fe493c5a07b75aec3c14def00acaf",
             "vcs_subdir": "meta-oe",
             "version": "1",
@@ -85,7 +86,7 @@
     ],
     "layerItems": [
         {
-            "classic": false,
+            "comparison": false,
             "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
             "id": 1,
             "index_preference": 1000,
@@ -94,7 +95,7 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2018-05-30T18:05:28+0000",
+            "updated": "2018-05-30T23:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
             "vcs_web_commit_url": "",
@@ -103,7 +104,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "Additional shared OE metadata",
             "id": 7,
             "index_preference": 0,
@@ -112,7 +113,7 @@
             "name": "meta-oe",
             "status": "P",
             "summary": "Additional shared OE metadata",
-            "updated": "2018-05-30T17:05:13+0000",
+            "updated": "2018-05-30T22:05:13+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_commit_url": "",
@@ -121,7 +122,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "GPE Palmtop Environment component integration",
             "id": 17,
             "index_preference": 800,
@@ -130,7 +131,7 @@
             "name": "meta-gpe",
             "status": "P",
             "summary": "GPE Palmtop Environment components",
-            "updated": "2018-05-30T17:05:47+0000",
+            "updated": "2018-05-30T22:05:47+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_commit_url": "",
@@ -158,7 +159,7 @@
             "pv": "1.4",
             "section": "gpe",
             "summary": "A GPE application that allows you to take screenshots",
-            "updated": "2017-06-09T01:06:24+0000"
+            "updated": "2017-06-09T06:06:24+0000"
         },
         {
             "bbclassextend": "",
@@ -177,7 +178,7 @@
             "pv": "0.50",
             "section": "gpe",
             "summary": "GPE Screen light control dockapp",
-            "updated": "2017-06-09T01:06:24+0000"
+            "updated": "2017-06-09T06:06:24+0000"
         },
         {
             "bbclassextend": "",
@@ -196,7 +197,7 @@
             "pv": "0.117",
             "section": "gpe/libs",
             "summary": "",
-            "updated": "2017-06-09T01:06:24+0000"
+            "updated": "2017-06-09T06:06:24+0000"
         },
         {
             "bbclassextend": "",
@@ -215,7 +216,7 @@
             "pv": "0.99.5+gitrX",
             "section": "x11/utils",
             "summary": "FBreader is an ebook reader",
-            "updated": "2017-06-09T01:06:24+0000"
+            "updated": "2017-06-09T06:06:24+0000"
         },
         {
             "bbclassextend": "",
@@ -234,7 +235,7 @@
             "pv": "0.12.10",
             "section": "x11/utils",
             "summary": "FBreader is an ebook reader",
-            "updated": "2017-06-09T01:06:24+0000"
+            "updated": "2017-06-09T06:06:24+0000"
         }
     ],
     "wrtemplates": []

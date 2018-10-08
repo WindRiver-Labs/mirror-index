@@ -9,12 +9,13 @@
     "branches": [
         {
             "bitbake_branch": "wr-9.0-20171109",
+            "comparison": false,
             "id": 2,
             "name": "WRLINUX_9_BASE",
             "short_description": "Wind River Linux 9 Baseline",
             "sort_priority": 10,
             "update_environment": null,
-            "updated": "2017-11-16T03:11:50+0000",
+            "updated": "2017-11-16T09:11:50+0000",
             "updates_enabled": true
         }
     ],
@@ -24,7 +25,7 @@
             "id": 1084,
             "layerbranch": 1506,
             "name": "wrlinux-installer",
-            "updated": "2017-06-09T01:06:31+0000"
+            "updated": "2017-06-09T06:06:31+0000"
         }
     ],
     "layerBranches": [
@@ -34,9 +35,9 @@
             "collection": "core",
             "id": 56,
             "layer": 1,
-            "updated": "2018-09-03T03:09:11+0000",
-            "vcs_last_commit": "2018-09-03T02:09:10+0000",
-            "vcs_last_fetch": "2018-09-03T03:09:11+0000",
+            "updated": "2018-09-03T08:09:11+0000",
+            "vcs_last_commit": "2018-09-03T07:09:10+0000",
+            "vcs_last_fetch": "2018-09-03T08:09:11+0000",
             "vcs_last_rev": "7e15882edcc23a3196cc2e86375d1f6fede156d2",
             "vcs_subdir": "meta",
             "version": "9",
@@ -48,9 +49,9 @@
             "collection": "filesystems-layer",
             "id": 62,
             "layer": 8,
-            "updated": "2018-06-22T14:06:58+0000",
-            "vcs_last_commit": "2017-03-15T22:03:48+0000",
-            "vcs_last_fetch": "2018-06-22T14:06:58+0000",
+            "updated": "2018-06-22T19:06:58+0000",
+            "vcs_last_commit": "2017-03-16T03:03:48+0000",
+            "vcs_last_fetch": "2018-06-22T19:06:58+0000",
             "vcs_last_rev": "bd383c1d7c97f5e6b53262ee2236eedc2baf8900",
             "vcs_subdir": "meta-filesystems",
             "version": "1",
@@ -62,9 +63,9 @@
             "collection": "gnome-layer",
             "id": 63,
             "layer": 15,
-            "updated": "2018-06-22T14:06:02+0000",
-            "vcs_last_commit": "2016-12-01T05:12:48+0000",
-            "vcs_last_fetch": "2018-06-22T14:06:02+0000",
+            "updated": "2018-06-22T19:06:02+0000",
+            "vcs_last_commit": "2016-12-01T11:12:48+0000",
+            "vcs_last_fetch": "2018-06-22T19:06:02+0000",
             "vcs_last_rev": "519c21e3de616b2cbe98ea68c49494e7ed40f13f",
             "vcs_subdir": "meta-gnome",
             "version": "1",
@@ -76,9 +77,9 @@
             "collection": "wr-userspace-base",
             "id": 74,
             "layer": 43,
-            "updated": "2018-07-09T22:07:13+0000",
-            "vcs_last_commit": "2018-07-09T21:07:34+0000",
-            "vcs_last_fetch": "2018-07-09T22:07:13+0000",
+            "updated": "2018-07-10T03:07:13+0000",
+            "vcs_last_commit": "2018-07-10T02:07:34+0000",
+            "vcs_last_fetch": "2018-07-10T03:07:13+0000",
             "vcs_last_rev": "3dbe245ace12e6777af0b87a96ec3d8e9be96a0a",
             "vcs_subdir": "",
             "version": "1",
@@ -90,9 +91,9 @@
             "collection": "wr-installer",
             "id": 1506,
             "layer": 81,
-            "updated": "2018-07-09T22:07:16+0000",
-            "vcs_last_commit": "2018-07-09T21:07:02+0000",
-            "vcs_last_fetch": "2018-07-09T22:07:16+0000",
+            "updated": "2018-07-10T03:07:16+0000",
+            "vcs_last_commit": "2018-07-10T02:07:02+0000",
+            "vcs_last_fetch": "2018-07-10T03:07:16+0000",
             "vcs_last_rev": "4729f757d7d456fb6f46473491f3a6042d66a9f1",
             "vcs_subdir": "",
             "version": "2",
@@ -133,7 +134,7 @@
     ],
     "layerItems": [
         {
-            "classic": false,
+            "comparison": false,
             "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
             "id": 1,
             "index_preference": 1000,
@@ -142,7 +143,7 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2018-05-30T18:05:28+0000",
+            "updated": "2018-05-30T23:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
             "vcs_web_commit_url": "",
@@ -151,7 +152,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "Filesystem related libraries and programs.  Includes support for FUSE and related components.",
             "id": 8,
             "index_preference": 0,
@@ -160,7 +161,7 @@
             "name": "meta-filesystems",
             "status": "P",
             "summary": "Filesystem related libraries and programs",
-            "updated": "2018-05-30T17:05:59+0000",
+            "updated": "2018-05-30T22:05:59+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_commit_url": "",
@@ -169,7 +170,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "GNOME desktop environment components",
             "id": 15,
             "index_preference": 800,
@@ -178,7 +179,7 @@
             "name": "meta-gnome",
             "status": "P",
             "summary": "GNOME desktop environment components",
-            "updated": "2018-05-30T17:05:08+0000",
+            "updated": "2018-05-30T22:05:08+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_commit_url": "",
@@ -187,7 +188,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "This layer provides many of the base components for Wind River Linux.  It\r\nis required by most other layers provided by Wind River.",
             "id": 43,
             "index_preference": 900,
@@ -196,7 +197,7 @@
             "name": "wr-base",
             "status": "P",
             "summary": "Base components for Wind River Linux",
-            "updated": "2018-05-30T17:05:23+0000",
+            "updated": "2018-05-30T22:05:23+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/wr-base",
             "vcs_web_commit_url": "",
@@ -205,7 +206,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "This layer provides the Anaconda based target-based installer for Wind River Linux.",
             "id": 81,
             "index_preference": 800,
@@ -214,7 +215,7 @@
             "name": "wr-installer",
             "status": "P",
             "summary": "Anaconda target-based installer for Wind River Linux.",
-            "updated": "2018-05-30T17:05:00+0000",
+            "updated": "2018-05-30T22:05:00+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/wr-installer",
             "vcs_web_commit_url": "",
@@ -242,7 +243,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-06-09T01:06:31+0000"
+            "updated": "2017-06-09T06:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -261,7 +262,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-06-09T01:06:31+0000"
+            "updated": "2017-06-09T06:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -280,7 +281,7 @@
             "pv": "0.61.15.41+gitX",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T01:06:31+0000"
+            "updated": "2017-06-09T06:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -299,7 +300,7 @@
             "pv": "21.48.22.63",
             "section": "devel",
             "summary": "The anaconda package",
-            "updated": "2017-06-09T01:06:31+0000"
+            "updated": "2017-06-09T06:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -318,7 +319,7 @@
             "pv": "16.25",
             "section": "devel",
             "summary": "The anaconda package",
-            "updated": "2017-06-09T01:06:31+0000"
+            "updated": "2017-06-09T06:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -337,7 +338,7 @@
             "pv": "",
             "section": "",
             "summary": "",
-            "updated": "2018-07-09T22:07:16+0000"
+            "updated": "2018-07-10T03:07:16+0000"
         },
         {
             "bbclassextend": "",
@@ -356,7 +357,7 @@
             "pv": "",
             "section": "",
             "summary": "",
-            "updated": "2017-06-09T01:06:31+0000"
+            "updated": "2017-06-09T06:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -375,7 +376,7 @@
             "pv": "16.4",
             "section": "base",
             "summary": "Initial system configuration utility",
-            "updated": "2017-06-09T01:06:32+0000"
+            "updated": "2017-06-09T06:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -394,7 +395,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-06-09T01:06:32+0000"
+            "updated": "2017-06-09T06:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -413,7 +414,7 @@
             "pv": "1.0",
             "section": "fonts",
             "summary": "Install ttf fonts for anaconda",
-            "updated": "2017-06-09T01:06:32+0000"
+            "updated": "2017-06-09T06:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -432,7 +433,7 @@
             "pv": "0.4.5",
             "section": "devel/lib",
             "summary": "",
-            "updated": "2017-06-09T01:06:32+0000"
+            "updated": "2017-06-09T06:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -451,7 +452,7 @@
             "pv": "0.3.1+gitX",
             "section": "devel/lib",
             "summary": "",
-            "updated": "2017-06-09T01:06:32+0000"
+            "updated": "2017-06-09T06:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -470,7 +471,7 @@
             "pv": "1.3.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T01:06:32+0000"
+            "updated": "2017-06-09T06:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -489,7 +490,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2017-06-09T01:06:32+0000"
+            "updated": "2017-06-09T06:06:32+0000"
         },
         {
             "bbclassextend": "native",
@@ -508,7 +509,7 @@
             "pv": "0.6.6",
             "section": "base",
             "summary": "An alternate posix capabilities library",
-            "updated": "2017-06-09T01:06:32+0000"
+            "updated": "2017-06-09T06:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -527,7 +528,7 @@
             "pv": "2.3.2",
             "section": "base",
             "summary": "User space tools for kernel auditing",
-            "updated": "2017-06-09T01:06:32+0000"
+            "updated": "2017-06-09T06:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -546,7 +547,7 @@
             "pv": "1.2.20",
             "section": "libs",
             "summary": "libtar, tar manipulating library",
-            "updated": "2017-06-09T01:06:32+0000"
+            "updated": "2017-06-09T06:06:32+0000"
         },
         {
             "bbclassextend": "native",
@@ -565,7 +566,7 @@
             "pv": "1.0.10",
             "section": "base",
             "summary": "Tools for taking the MD5 sum of ISO images",
-            "updated": "2017-06-09T01:06:32+0000"
+            "updated": "2017-06-09T06:06:32+0000"
         },
         {
             "bbclassextend": "",
@@ -584,7 +585,7 @@
             "pv": "1.108",
             "section": "base",
             "summary": "",
-            "updated": "2017-06-09T01:06:33+0000"
+            "updated": "2017-06-09T06:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -603,7 +604,7 @@
             "pv": "2.0.10",
             "section": "base",
             "summary": "",
-            "updated": "2017-06-09T01:06:33+0000"
+            "updated": "2017-06-09T06:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -622,7 +623,7 @@
             "pv": "0.25.2",
             "section": "base",
             "summary": "A python library for handling exceptions",
-            "updated": "2017-06-09T01:06:33+0000"
+            "updated": "2017-06-09T06:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -641,7 +642,7 @@
             "pv": "1.6.0",
             "section": "x11/utils",
             "summary": "",
-            "updated": "2017-06-09T01:06:33+0000"
+            "updated": "2017-06-09T06:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -660,7 +661,7 @@
             "pv": "1.29.3",
             "section": "base",
             "summary": "",
-            "updated": "2017-06-09T01:06:33+0000"
+            "updated": "2017-06-09T06:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -679,7 +680,7 @@
             "pv": "1.0.0.rc16-3",
             "section": "base",
             "summary": "dmraid (Device-mapper RAID tool and library)",
-            "updated": "2017-06-09T01:06:33+0000"
+            "updated": "2017-06-09T06:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -698,7 +699,7 @@
             "pv": "0.1.4",
             "section": "base",
             "summary": "Python bindings for cryptsetup",
-            "updated": "2017-06-09T01:06:33+0000"
+            "updated": "2017-06-09T06:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -717,7 +718,7 @@
             "pv": "0.12",
             "section": "base",
             "summary": "Python bindings for Network Security Services (NSS)",
-            "updated": "2017-06-09T01:06:33+0000"
+            "updated": "2017-06-09T06:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -736,7 +737,7 @@
             "pv": "1.10.5",
             "section": "base",
             "summary": "A graphical interface for modifying system date and time",
-            "updated": "2017-06-09T01:06:33+0000"
+            "updated": "2017-06-09T06:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -755,7 +756,7 @@
             "pv": "0.53",
             "section": "base",
             "summary": "Python modules for dealing with block devices",
-            "updated": "2017-06-09T01:06:33+0000"
+            "updated": "2017-06-09T06:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -774,7 +775,7 @@
             "pv": "1.99.66",
             "section": "base",
             "summary": "",
-            "updated": "2017-06-09T01:06:33+0000"
+            "updated": "2017-06-09T06:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -793,7 +794,7 @@
             "pv": "1.3.1",
             "section": "base",
             "summary": "",
-            "updated": "2017-06-09T01:06:33+0000"
+            "updated": "2017-06-09T06:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -812,7 +813,7 @@
             "pv": "1.3.1",
             "section": "base",
             "summary": "",
-            "updated": "2017-06-09T01:06:33+0000"
+            "updated": "2017-06-09T06:06:33+0000"
         },
         {
             "bbclassextend": "",
@@ -831,7 +832,7 @@
             "pv": "0.62",
             "section": "base",
             "summary": "user and group account administration library",
-            "updated": "2017-06-09T01:06:34+0000"
+            "updated": "2017-06-09T06:06:34+0000"
         },
         {
             "bbclassextend": "",
@@ -850,7 +851,7 @@
             "pv": "3.18.3",
             "section": "base",
             "summary": "Glade - A User Interface Designer",
-            "updated": "2017-06-09T01:06:34+0000"
+            "updated": "2017-06-09T06:06:34+0000"
         },
         {
             "bbclassextend": "",
@@ -869,7 +870,7 @@
             "pv": "0.3.3",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T01:06:34+0000"
+            "updated": "2017-06-09T06:06:34+0000"
         },
         {
             "bbclassextend": "",
@@ -888,7 +889,7 @@
             "pv": "1.6.1+gitX",
             "section": "devel/python",
             "summary": "Control process attributes through prctl",
-            "updated": "2017-06-09T01:06:34+0000"
+            "updated": "2017-06-09T06:06:34+0000"
         },
         {
             "bbclassextend": "",
@@ -907,7 +908,7 @@
             "pv": "0.83+gitX",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T01:06:34+0000"
+            "updated": "2017-06-09T06:06:34+0000"
         },
         {
             "bbclassextend": "",
@@ -926,7 +927,7 @@
             "pv": "0.4",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T01:06:34+0000"
+            "updated": "2017-06-09T06:06:34+0000"
         },
         {
             "bbclassextend": "",
@@ -945,7 +946,7 @@
             "pv": "3.9.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T01:06:34+0000"
+            "updated": "2017-06-09T06:06:34+0000"
         },
         {
             "bbclassextend": "",
@@ -964,7 +965,7 @@
             "pv": "0.0.34+gitX",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T01:06:34+0000"
+            "updated": "2017-06-09T06:06:34+0000"
         },
         {
             "bbclassextend": "",
@@ -983,7 +984,7 @@
             "pv": "3.6.0",
             "section": "x11/gnome/libs",
             "summary": "GNOME keyboard library",
-            "updated": "2017-06-09T01:06:34+0000"
+            "updated": "2017-06-09T06:06:34+0000"
         }
     ],
     "wrtemplates": [
@@ -992,14 +993,14 @@
             "id": 8493,
             "layerbranch": 1506,
             "name": "feature/wr-x86-server",
-            "updated": "2017-06-09T01:06:31+0000"
+            "updated": "2017-06-09T06:06:31+0000"
         },
         {
             "description": "",
             "id": 8494,
             "layerbranch": 1506,
             "name": "default",
-            "updated": "2017-06-09T01:06:31+0000"
+            "updated": "2017-06-09T06:06:31+0000"
         }
     ]
 }
