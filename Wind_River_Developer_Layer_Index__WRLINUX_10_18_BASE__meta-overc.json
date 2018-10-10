@@ -1,0 +1,192 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_18_BASE",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "branches": [
+        {
+            "bitbake_branch": "wr-10.18-20181007",
+            "comparison": false,
+            "id": 100,
+            "name": "WRLINUX_10_18_BASE",
+            "short_description": "Wind River Linux 10_18 Baseline",
+            "sort_priority": 8,
+            "update_environment": null,
+            "updated": "2018-10-08T19:10:12+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [
+        {
+            "description": "overc",
+            "id": 3639,
+            "layerbranch": 836749,
+            "name": "overc",
+            "updated": "2018-10-09T19:10:55+0000"
+        }
+    ],
+    "layerBranches": [
+        {
+            "actual_branch": "wr-10.18-20181007",
+            "branch": 100,
+            "collection": "core",
+            "id": 836626,
+            "layer": 1,
+            "updated": "2018-10-09T19:10:50+0000",
+            "vcs_last_commit": "2018-10-09T06:10:19+0000",
+            "vcs_last_fetch": "2018-10-09T19:10:50+0000",
+            "vcs_last_rev": "5678c3fa80c8a2f00dc2d29e779a4acad87298d9",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "wr-10.18-20181007",
+            "branch": 100,
+            "collection": "xfce-layer",
+            "id": 836707,
+            "layer": 5,
+            "updated": "2018-10-09T19:10:02+0000",
+            "vcs_last_commit": "2018-10-07T08:10:12+0000",
+            "vcs_last_fetch": "2018-10-09T19:10:02+0000",
+            "vcs_last_rev": "f2cd89e1f2767bfbc23451b7803fdb9bffbdcbea",
+            "vcs_subdir": "meta-xfce",
+            "version": "1",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "wr-10.18-20181009",
+            "branch": 100,
+            "collection": "overc",
+            "id": 836749,
+            "layer": 245,
+            "updated": "2018-10-09T19:10:55+0000",
+            "vcs_last_commit": "2018-10-09T14:10:41+0000",
+            "vcs_last_fetch": "2018-10-09T19:10:55+0000",
+            "vcs_last_rev": "4bff4ffbbe1ccb97e54019bc680866b0b8b0233b",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "wr-10.18-20181009",
+            "branch": 100,
+            "collection": "cube",
+            "id": 836750,
+            "layer": 246,
+            "updated": "2018-10-09T19:10:30+0000",
+            "vcs_last_commit": "2018-10-09T08:10:22+0000",
+            "vcs_last_fetch": "2018-10-09T19:10:30+0000",
+            "vcs_last_rev": "fa14fed588ede41d60db81b298b8d220ca4bffbd",
+            "vcs_subdir": "meta-cube",
+            "version": "1",
+            "yp_compatible_version": null
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 42551,
+            "layerbranch": 836749,
+            "required": true
+        },
+        {
+            "dependency": 246,
+            "id": 42552,
+            "layerbranch": 836749,
+            "required": true
+        },
+        {
+            "dependency": 5,
+            "id": 42553,
+            "layerbranch": 836749,
+            "required": true
+        },
+        {
+            "dependency": 252,
+            "id": 42809,
+            "layerbranch": 836749,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "The XFCE Desktop software and related components.",
+            "id": 5,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-xfce",
+            "status": "P",
+            "summary": "XFCE Desktop components",
+            "updated": "2018-05-30T22:05:38+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "OverC distribution layer",
+            "id": 245,
+            "index_preference": 0,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "meta-overc",
+            "status": "P",
+            "summary": "OverC - Container environment",
+            "updated": "2018-08-06T23:08:16+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-overc",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/meta-overc/commit/id=%hash%",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Recipe changes for OverC related cubes (containers)",
+            "id": 246,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "meta-cube",
+            "status": "P",
+            "summary": "Recipe changes for OverC related cubes (containers)",
+            "updated": "2018-08-06T23:08:24+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-overc",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/meta-overc/commit/id=%hash%",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [],
+    "wrtemplates": []
+}

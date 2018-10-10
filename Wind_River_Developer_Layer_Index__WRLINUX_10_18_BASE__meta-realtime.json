@@ -1,0 +1,185 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_18_BASE",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "branches": [
+        {
+            "bitbake_branch": "wr-10.18-20181007",
+            "comparison": false,
+            "id": 100,
+            "name": "WRLINUX_10_18_BASE",
+            "short_description": "Wind River Linux 10_18 Baseline",
+            "sort_priority": 8,
+            "update_environment": null,
+            "updated": "2018-10-08T19:10:12+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "wr-10.18-20181007",
+            "branch": 100,
+            "collection": "core",
+            "id": 836626,
+            "layer": 1,
+            "updated": "2018-10-09T19:10:50+0000",
+            "vcs_last_commit": "2018-10-09T06:10:19+0000",
+            "vcs_last_fetch": "2018-10-09T19:10:50+0000",
+            "vcs_last_rev": "5678c3fa80c8a2f00dc2d29e779a4acad87298d9",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "wr-10.18-20181007",
+            "branch": 100,
+            "collection": "realtime",
+            "id": 836719,
+            "layer": 48,
+            "updated": "2018-10-09T19:10:31+0000",
+            "vcs_last_commit": "2018-10-08T06:10:12+0000",
+            "vcs_last_fetch": "2018-10-09T19:10:31+0000",
+            "vcs_last_rev": "76b0ce6b914c442088657c627a325e82d66678b9",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": null
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 42365,
+            "layerbranch": 836719,
+            "required": true
+        },
+        {
+            "dependency": 265,
+            "id": 42366,
+            "layerbranch": 836719,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer is intended to be a central point for realtime related kernel and\r\nsystem development. It also contains utilities, and configuration useful for\r\ntuning a realtime system. It should be useful directly on top of oe-core.  It\r\nshould be primarily useful to the following groups:",
+            "id": 48,
+            "index_preference": 900,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-realtime",
+            "status": "P",
+            "summary": "Realtime related kernel components",
+            "updated": "2018-05-30T22:05:35+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-realtime",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "latencytop_0.5.bb",
+            "filepath": "recipes-kernel/latencytop",
+            "homepage": "http://www.latencytop.org/",
+            "id": 742412,
+            "inherits": "pkgconfig",
+            "layerbranch": 836719,
+            "license": "GPLv2",
+            "pn": "latencytop",
+            "provides": "latencytop ",
+            "pv": "0.5",
+            "section": "base",
+            "summary": "Linux tool for measuring and fixing latency",
+            "updated": "2018-10-09T19:10:30+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "rt-app is a test application that starts multiple periodic threads in order to simulate a real-time periodic load",
+            "filename": "rt-app.bb",
+            "filepath": "recipes-tools/rt-app",
+            "homepage": "",
+            "id": 742413,
+            "inherits": "autotools gettext pkgconfig siteconfig siteinfo",
+            "layerbranch": 836719,
+            "license": "GPLv2",
+            "pn": "rt-app",
+            "provides": "rt-app ",
+            "pv": "1.0",
+            "section": "devel",
+            "summary": "",
+            "updated": "2018-10-09T19:10:30+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "schedtool-dl (scheduler test tool) for deadline scheduler",
+            "filename": "schedtool-dl.bb",
+            "filepath": "recipes-tools/schedtool-dl",
+            "homepage": "",
+            "id": 742414,
+            "inherits": "",
+            "layerbranch": 836719,
+            "license": "GPLv2",
+            "pn": "schedtool-dl",
+            "provides": "schedtool-dl ",
+            "pv": "1.0",
+            "section": "devel",
+            "summary": "",
+            "updated": "2018-10-09T19:10:31+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "A small image just capable of allowing a device to boot and is suitable for development work.",
+            "filename": "core-image-rt-extended.bb",
+            "filepath": "recipes-extended/images",
+            "homepage": "",
+            "id": 742415,
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "layerbranch": 836719,
+            "license": "MIT",
+            "pn": "core-image-rt-extended",
+            "provides": "core-image-rt-extended ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "A small image just capable of allowing a device to boot.",
+            "updated": "2018-10-09T19:10:31+0000"
+        }
+    ],
+    "wrtemplates": []
+}
