@@ -22,15 +22,15 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20181007",
+            "actual_branch": "wr-10.18-20181010",
             "branch": 100,
             "collection": "core",
             "id": 836626,
             "layer": 1,
-            "updated": "2018-10-09T19:10:50+0000",
-            "vcs_last_commit": "2018-10-09T06:10:19+0000",
-            "vcs_last_fetch": "2018-10-09T19:10:50+0000",
-            "vcs_last_rev": "5678c3fa80c8a2f00dc2d29e779a4acad87298d9",
+            "updated": "2018-10-14T12:10:15+0000",
+            "vcs_last_commit": "2018-10-11T08:10:17+0000",
+            "vcs_last_fetch": "2018-10-14T12:10:15+0000",
+            "vcs_last_rev": "69876d5d219d5aa858a35d3ecd6844f4b7b72d50",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -41,9 +41,9 @@
             "collection": "intel",
             "id": 836743,
             "layer": 166,
-            "updated": "2018-10-09T19:10:28+0000",
+            "updated": "2018-10-14T12:10:41+0000",
             "vcs_last_commit": "2018-10-07T06:10:55+0000",
-            "vcs_last_fetch": "2018-10-09T19:10:28+0000",
+            "vcs_last_fetch": "2018-10-14T12:10:41+0000",
             "vcs_last_rev": "375ae3b476515372ae10388ea18d0cf2e77f2110",
             "vcs_subdir": "",
             "version": "5",
@@ -105,17 +105,17 @@
     "machines": [
         {
             "description": " 32 bit Intel Core 2 CPU (and later) with MMX, SSE, SSE2, SSE3, and SSSE3 instruction set support. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
-            "id": 12729,
+            "id": 12873,
             "layerbranch": 836743,
             "name": "intel-core2-32",
-            "updated": "2018-10-09T19:10:24+0000"
+            "updated": "2018-10-14T12:10:37+0000"
         },
         {
             "description": " 64 bit Intel Core i7 CPU (and later) with MMX, SSE, SSE2, SSE3, and SSSE3 instruction set support. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
-            "id": 12730,
+            "id": 12874,
             "layerbranch": 836743,
             "name": "intel-corei7-64",
-            "updated": "2018-10-09T19:10:24+0000"
+            "updated": "2018-10-14T12:10:37+0000"
         }
     ],
     "recipes": [
@@ -127,7 +127,7 @@
             "filename": "igt-gpu-tools_1.23.bb",
             "filepath": "recipes-graphics/igt-gpu-tools",
             "homepage": "http://www.x.org/",
-            "id": 742389,
+            "id": 771131,
             "inherits": "autotools distro_features_check gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo",
             "layerbranch": 836743,
             "license": "MIT-X & ISC",
@@ -136,7 +136,7 @@
             "pv": "1.23",
             "section": "x11/apps",
             "summary": "Intel GPU tools",
-            "updated": "2018-10-09T19:10:24+0000"
+            "updated": "2018-10-14T12:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -146,7 +146,7 @@
             "filename": "xf86-video-ast_1.1.5.bb",
             "filepath": "recipes-graphics/xorg-driver",
             "homepage": "http://www.x.org",
-            "id": 742390,
+            "id": 771132,
             "inherits": "autotools distro_features_check pkgconfig siteconfig siteinfo",
             "layerbranch": 836743,
             "license": "MIT-X",
@@ -155,7 +155,7 @@
             "pv": "1.1.5",
             "section": "x11/drivers",
             "summary": "X.Org X server -- ASpeed Technologies graphics driver",
-            "updated": "2018-10-09T19:10:24+0000"
+            "updated": "2018-10-14T12:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -165,7 +165,7 @@
             "filename": "backport-iwlwifi_git.bb",
             "filepath": "recipes-kernel/iwlwifi",
             "homepage": "",
-            "id": 742391,
+            "id": 771133,
             "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
             "layerbranch": 836743,
             "license": "GPLv2",
@@ -174,7 +174,7 @@
             "pv": "30",
             "section": "kernel",
             "summary": "Intel Wireless LinuxCore kernel driver",
-            "updated": "2018-10-09T19:10:25+0000"
+            "updated": "2018-10-14T12:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -184,7 +184,7 @@
             "filename": "ixgbe_5.3.8.bb",
             "filepath": "recipes-kernel/intel-ethernet",
             "homepage": "https://sourceforge.net/projects/e1000/",
-            "id": 742392,
+            "id": 771134,
             "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
             "layerbranch": 836743,
             "license": "GPLv2",
@@ -193,7 +193,7 @@
             "pv": "5.3.8",
             "section": "kernel/network",
             "summary": "ixgbe kernel driver for Intel Magnolia Park 10GbE",
-            "updated": "2018-10-09T19:10:25+0000"
+            "updated": "2018-10-14T12:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -203,7 +203,7 @@
             "filename": "ixgbevf_4.3.6.bb",
             "filepath": "recipes-kernel/intel-ethernet",
             "homepage": "https://sourceforge.net/projects/e1000/",
-            "id": 742393,
+            "id": 771135,
             "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
             "layerbranch": 836743,
             "license": "GPLv2",
@@ -212,7 +212,7 @@
             "pv": "4.3.6",
             "section": "kernel/network",
             "summary": "ixgbevf kernel driver for Intel Magnolia Park 10GbE",
-            "updated": "2018-10-09T19:10:25+0000"
+            "updated": "2018-10-14T12:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -222,7 +222,7 @@
             "filename": "linux-intel-rt_4.9.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "",
-            "id": 742394,
+            "id": 771136,
             "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
             "layerbranch": 836743,
             "license": "GPLv2",
@@ -231,7 +231,7 @@
             "pv": "4.9.84+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-10-09T19:10:25+0000"
+            "updated": "2018-10-14T12:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -241,7 +241,7 @@
             "filename": "linux-intel_4.9.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "",
-            "id": 742395,
+            "id": 771137,
             "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
             "layerbranch": 836743,
             "license": "GPLv2",
@@ -250,7 +250,7 @@
             "pv": "4.9.126+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-10-09T19:10:25+0000"
+            "updated": "2018-10-14T12:10:39+0000"
         },
         {
             "bbclassextend": "",
@@ -260,7 +260,7 @@
             "filename": "linux-intel_4.14.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "",
-            "id": 742396,
+            "id": 771138,
             "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
             "layerbranch": 836743,
             "license": "GPLv2",
@@ -269,7 +269,7 @@
             "pv": "4.14.68+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-10-09T19:10:25+0000"
+            "updated": "2018-10-14T12:10:39+0000"
         },
         {
             "bbclassextend": "",
@@ -279,7 +279,7 @@
             "filename": "linux-intel-rt_4.14.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "",
-            "id": 742397,
+            "id": 771139,
             "inherits": "cml1 deploy kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
             "layerbranch": 836743,
             "license": "GPLv2",
@@ -288,7 +288,7 @@
             "pv": "4.14.68+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-10-09T19:10:25+0000"
+            "updated": "2018-10-14T12:10:39+0000"
         },
         {
             "bbclassextend": "",
@@ -298,7 +298,7 @@
             "filename": "sbsigntool-native_git.bb",
             "filepath": "recipes-support/sbsigntool",
             "homepage": "",
-            "id": 742398,
+            "id": 771140,
             "inherits": "autotools native nopackages pkgconfig relocatable siteconfig siteinfo",
             "layerbranch": 836743,
             "license": "GPLv3 & LGPL-2.1 & LGPL-3.0 & MIT",
@@ -307,7 +307,7 @@
             "pv": "0.8-gitX",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-09T19:10:26+0000"
+            "updated": "2018-10-14T12:10:39+0000"
         },
         {
             "bbclassextend": "",
@@ -317,7 +317,7 @@
             "filename": "intel-vaapi-driver_2.2.0.bb",
             "filepath": "recipes-multimedia/libva",
             "homepage": "https://github.com/intel/intel-vaapi-driver",
-            "id": 742399,
+            "id": 771141,
             "inherits": "autotools distro_features_check pkgconfig siteconfig siteinfo",
             "layerbranch": 836743,
             "license": "MIT",
@@ -326,7 +326,7 @@
             "pv": "2.2.0",
             "section": "base",
             "summary": "VA driver for Intel G45 & HD Graphics family",
-            "updated": "2018-10-09T19:10:26+0000"
+            "updated": "2018-10-14T12:10:39+0000"
         },
         {
             "bbclassextend": "",
@@ -336,7 +336,7 @@
             "filename": "libyami-utils_1.3.1.bb",
             "filepath": "recipes-multimedia/libyami",
             "homepage": "https://github.com/intel/libyami-utils",
-            "id": 742400,
+            "id": 771142,
             "inherits": "autotools distro_features_check pkgconfig siteconfig siteinfo",
             "layerbranch": 836743,
             "license": "Apache-2.0",
@@ -345,7 +345,7 @@
             "pv": "1.3.1",
             "section": "base",
             "summary": "Applications and Scripts for libyami.",
-            "updated": "2018-10-09T19:10:26+0000"
+            "updated": "2018-10-14T12:10:39+0000"
         },
         {
             "bbclassextend": "",
@@ -355,7 +355,7 @@
             "filename": "libyami_1.3.1.bb",
             "filepath": "recipes-multimedia/libyami",
             "homepage": "https://github.com/intel/libyami",
-            "id": 742401,
+            "id": 771143,
             "inherits": "autotools distro_features_check pkgconfig siteconfig siteinfo",
             "layerbranch": 836743,
             "license": "Apache-2.0",
@@ -364,7 +364,7 @@
             "pv": "1.3.1",
             "section": "base",
             "summary": "Yami is media infrastructure base on libva",
-            "updated": "2018-10-09T19:10:26+0000"
+            "updated": "2018-10-14T12:10:39+0000"
         },
         {
             "bbclassextend": "",
@@ -374,7 +374,7 @@
             "filename": "core-image-rt.bb",
             "filepath": "recipes-rt/images",
             "homepage": "",
-            "id": 742402,
+            "id": 771144,
             "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 836743,
             "license": "MIT",
@@ -383,7 +383,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-10-09T19:10:26+0000"
+            "updated": "2018-10-14T12:10:39+0000"
         },
         {
             "bbclassextend": "",
@@ -393,7 +393,7 @@
             "filename": "core-image-rt-sdk.bb",
             "filepath": "recipes-rt/images",
             "homepage": "",
-            "id": 742403,
+            "id": 771145,
             "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 836743,
             "license": "MIT",
@@ -402,7 +402,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-10-09T19:10:26+0000"
+            "updated": "2018-10-14T12:10:39+0000"
         },
         {
             "bbclassextend": "",
@@ -412,7 +412,7 @@
             "filename": "gma500-gfx-check_1.0.bb",
             "filepath": "recipes-bsp/gma500-gfx-check",
             "homepage": "",
-            "id": 742404,
+            "id": 771146,
             "inherits": "",
             "layerbranch": 836743,
             "license": "GPLv2",
@@ -421,7 +421,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Intel gma500_gfx fix for certain hardware",
-            "updated": "2018-10-09T19:10:26+0000"
+            "updated": "2018-10-14T12:10:40+0000"
         },
         {
             "bbclassextend": "",
@@ -431,7 +431,7 @@
             "filename": "thermald_1.8.bb",
             "filepath": "recipes-bsp/thermald",
             "homepage": "https://github.com/01org/thermal_daemon",
-            "id": 742405,
+            "id": 771147,
             "inherits": "autotools pkgconfig siteconfig siteinfo systemd",
             "layerbranch": 836743,
             "license": "GPLv2",
@@ -440,7 +440,7 @@
             "pv": "1.8",
             "section": "base",
             "summary": "Linux thermal daemon",
-            "updated": "2018-10-09T19:10:26+0000"
+            "updated": "2018-10-14T12:10:40+0000"
         },
         {
             "bbclassextend": "",
@@ -450,7 +450,7 @@
             "filename": "ovmf-shell-image-enrollkeys.bb",
             "filepath": "recipes-core/ovmf",
             "homepage": "",
-            "id": 742406,
+            "id": 771148,
             "inherits": "image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 836743,
             "license": "",
@@ -459,7 +459,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-09T19:10:27+0000"
+            "updated": "2018-10-14T12:10:40+0000"
         },
         {
             "bbclassextend": "",
@@ -469,7 +469,7 @@
             "filename": "core-image-tiny.bb",
             "filepath": "recipes-core/images",
             "homepage": "",
-            "id": 742407,
+            "id": 771149,
             "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 836743,
             "license": "MIT",
@@ -478,7 +478,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A tiny image just capable of allowing a device to boot from RAM, this image recipe generates an image file which rather boots from initrd than from storage, it achieves this by using wic to pick up th",
-            "updated": "2018-10-09T19:10:27+0000"
+            "updated": "2018-10-14T12:10:40+0000"
         },
         {
             "bbclassextend": "native",
@@ -488,7 +488,7 @@
             "filename": "iucode-tool_2.3.1.bb",
             "filepath": "recipes-core/microcode",
             "homepage": "https://gitlab.com/iucode-tool/",
-            "id": 742408,
+            "id": 771150,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 836743,
             "license": "GPLv2+",
@@ -497,7 +497,7 @@
             "pv": "2.3.1",
             "section": "base",
             "summary": "Update Intel CPU microcode",
-            "updated": "2018-10-09T19:10:27+0000"
+            "updated": "2018-10-14T12:10:40+0000"
         },
         {
             "bbclassextend": "",
@@ -507,7 +507,7 @@
             "filename": "intel-microcode_20180807.bb",
             "filepath": "recipes-core/microcode",
             "homepage": "http://www.intel.com/",
-            "id": 742409,
+            "id": 771151,
             "inherits": "deploy",
             "layerbranch": 836743,
             "license": "Intel-Microcode-License",
@@ -516,7 +516,7 @@
             "pv": "20180807",
             "section": "base",
             "summary": "Intel Processor Microcode Datafile for Linux",
-            "updated": "2018-10-09T19:10:27+0000"
+            "updated": "2018-10-14T12:10:41+0000"
         },
         {
             "bbclassextend": "",
@@ -526,7 +526,7 @@
             "filename": "secureboot-selftest-image-signed.bb",
             "filepath": "recipes-selftest/images",
             "homepage": "",
-            "id": 742410,
+            "id": 771152,
             "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo uefi-comboapp uefi-sign",
             "layerbranch": 836743,
             "license": "MIT",
@@ -535,7 +535,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-10-09T19:10:28+0000"
+            "updated": "2018-10-14T12:10:41+0000"
         },
         {
             "bbclassextend": "",
@@ -545,7 +545,7 @@
             "filename": "secureboot-selftest-image-unsigned.bb",
             "filepath": "recipes-selftest/images",
             "homepage": "",
-            "id": 742411,
+            "id": 771153,
             "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo uefi-comboapp uefi-sign",
             "layerbranch": 836743,
             "license": "MIT",
@@ -554,7 +554,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-10-09T19:10:28+0000"
+            "updated": "2018-10-14T12:10:41+0000"
         }
     ],
     "wrtemplates": []

@@ -22,29 +22,29 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20181007",
+            "actual_branch": "wr-10.18-20181010",
             "branch": 100,
             "collection": "core",
             "id": 836626,
             "layer": 1,
-            "updated": "2018-10-09T19:10:50+0000",
-            "vcs_last_commit": "2018-10-09T06:10:19+0000",
-            "vcs_last_fetch": "2018-10-09T19:10:50+0000",
-            "vcs_last_rev": "5678c3fa80c8a2f00dc2d29e779a4acad87298d9",
+            "updated": "2018-10-14T12:10:15+0000",
+            "vcs_last_commit": "2018-10-11T08:10:17+0000",
+            "vcs_last_fetch": "2018-10-14T12:10:15+0000",
+            "vcs_last_rev": "69876d5d219d5aa858a35d3ecd6844f4b7b72d50",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180927",
+            "actual_branch": "wr-10.18-20181010",
             "branch": 100,
             "collection": "tpm",
             "id": 836731,
             "layer": 151,
-            "updated": "2018-10-09T19:10:18+0000",
-            "vcs_last_commit": "2018-10-08T07:10:55+0000",
-            "vcs_last_fetch": "2018-10-09T19:10:18+0000",
-            "vcs_last_rev": "36d85d0b0d5535cb9c2743e114516c7d36776215",
+            "updated": "2018-10-14T12:10:32+0000",
+            "vcs_last_commit": "2018-10-10T01:10:41+0000",
+            "vcs_last_fetch": "2018-10-14T12:10:32+0000",
+            "vcs_last_rev": "555826550ea4412ff15a3878714d9b729431c379",
             "vcs_subdir": "meta-tpm",
             "version": null,
             "yp_compatible_version": null
@@ -112,7 +112,7 @@
             "filename": "packagegroup-tpm.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 742372,
+            "id": 771114,
             "inherits": "allarch packagegroup",
             "layerbranch": 836731,
             "license": "MIT",
@@ -121,7 +121,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-09T19:10:16+0000"
+            "updated": "2018-10-14T12:10:31+0000"
         },
         {
             "bbclassextend": "native",
@@ -131,7 +131,7 @@
             "filename": "trousers_git.bb",
             "filepath": "recipes-tpm/trousers",
             "homepage": "https://sourceforge.net/projects/trousers",
-            "id": 742373,
+            "id": 771115,
             "inherits": "autotools pkgconfig siteconfig siteinfo update-rc.d useradd useradd_base",
             "layerbranch": 836731,
             "license": "BSD",
@@ -140,7 +140,7 @@
             "pv": "0.3.14+gitX",
             "section": "security/tpm",
             "summary": "TrouSerS - An open-source TCG Software Stack implementation.",
-            "updated": "2018-10-09T19:10:17+0000"
+            "updated": "2018-10-14T12:10:31+0000"
         },
         {
             "bbclassextend": "native",
@@ -150,7 +150,7 @@
             "filename": "tpm-tools_git.bb",
             "filepath": "recipes-tpm/tpm-tools",
             "homepage": "",
-            "id": 742374,
+            "id": 771116,
             "inherits": "autotools autotools-brokensep gettext siteconfig siteinfo",
             "layerbranch": 836731,
             "license": "CPL-1.0",
@@ -159,7 +159,7 @@
             "pv": "1.3.9.1+gitX",
             "section": "security/tpm",
             "summary": "The tpm-tools package contains commands to allow the platform administrator the ability to manage and diagnose the platform's TPM.",
-            "updated": "2018-10-09T19:10:17+0000"
+            "updated": "2018-10-14T12:10:31+0000"
         },
         {
             "bbclassextend": "",
@@ -169,7 +169,7 @@
             "filename": "tss-testsuite_git.bb",
             "filepath": "recipes-tpm/tss-testsuite",
             "homepage": "http://downloads.sourceforge.net/projects/trousers",
-            "id": 742375,
+            "id": 771117,
             "inherits": "",
             "layerbranch": 836731,
             "license": "GPLv2",
@@ -178,7 +178,7 @@
             "pv": "gitX",
             "section": "security/tpm",
             "summary": "Testcases to exercise the TSS stack/TSS API",
-            "updated": "2018-10-09T19:10:17+0000"
+            "updated": "2018-10-14T12:10:31+0000"
         },
         {
             "bbclassextend": "",
@@ -188,7 +188,7 @@
             "filename": "tpm-quote-tools_git.bb",
             "filepath": "recipes-tpm/tpm-quote-tools",
             "homepage": "",
-            "id": 742376,
+            "id": 771118,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 836731,
             "license": "BSD",
@@ -197,7 +197,7 @@
             "pv": "1.0.4+gitX",
             "section": "security/tpm",
             "summary": "A collection of programs that provide support for TPM based attestation using the TPM quote mechanism. ",
-            "updated": "2018-10-09T19:10:17+0000"
+            "updated": "2018-10-14T12:10:32+0000"
         },
         {
             "bbclassextend": "",
@@ -207,7 +207,7 @@
             "filename": "pcr-extend_git.bb",
             "filepath": "recipes-tpm/pcr-extend",
             "homepage": "",
-            "id": 742377,
+            "id": 771119,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 836731,
             "license": "GPLv2",
@@ -216,7 +216,7 @@
             "pv": "0.1+gitX",
             "section": "security/tpm",
             "summary": "Command line utility to extend hash of arbitrary data into a TPMs PCR.",
-            "updated": "2018-10-09T19:10:18+0000"
+            "updated": "2018-10-14T12:10:32+0000"
         },
         {
             "bbclassextend": "",
@@ -226,7 +226,7 @@
             "filename": "openssl-tpm-engine_0.5.0.bb",
             "filepath": "recipes-tpm/openssl-tpm-engine",
             "homepage": "https://github.com/mgerstner/openssl_tpm_engine",
-            "id": 742378,
+            "id": 771120,
             "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo",
             "layerbranch": 836731,
             "license": "openssl",
@@ -235,7 +235,7 @@
             "pv": "0.5.0",
             "section": "security/tpm",
             "summary": "",
-            "updated": "2018-10-09T19:10:18+0000"
+            "updated": "2018-10-14T12:10:32+0000"
         }
     ],
     "wrtemplates": []

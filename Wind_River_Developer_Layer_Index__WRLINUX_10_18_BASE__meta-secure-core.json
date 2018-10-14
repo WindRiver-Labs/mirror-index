@@ -22,29 +22,29 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20181007",
+            "actual_branch": "wr-10.18-20181010",
             "branch": 100,
             "collection": "core",
             "id": 836626,
             "layer": 1,
-            "updated": "2018-10-09T19:10:50+0000",
-            "vcs_last_commit": "2018-10-09T06:10:19+0000",
-            "vcs_last_fetch": "2018-10-09T19:10:50+0000",
-            "vcs_last_rev": "5678c3fa80c8a2f00dc2d29e779a4acad87298d9",
+            "updated": "2018-10-14T12:10:15+0000",
+            "vcs_last_commit": "2018-10-11T08:10:17+0000",
+            "vcs_last_fetch": "2018-10-14T12:10:15+0000",
+            "vcs_last_rev": "69876d5d219d5aa858a35d3ecd6844f4b7b72d50",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180927",
+            "actual_branch": "wr-10.18-20181010",
             "branch": 100,
             "collection": "secure-core",
             "id": 836729,
             "layer": 149,
-            "updated": "2018-10-09T19:10:15+0000",
-            "vcs_last_commit": "2018-10-08T07:10:55+0000",
-            "vcs_last_fetch": "2018-10-09T19:10:15+0000",
-            "vcs_last_rev": "36d85d0b0d5535cb9c2743e114516c7d36776215",
+            "updated": "2018-10-14T12:10:29+0000",
+            "vcs_last_commit": "2018-10-10T01:10:43+0000",
+            "vcs_last_fetch": "2018-10-14T12:10:29+0000",
+            "vcs_last_rev": "c8e0920d7638578d43a9c3413179899907102597",
             "vcs_subdir": "meta",
             "version": null,
             "yp_compatible_version": null
@@ -106,7 +106,7 @@
             "filename": "initrdscripts-secure-core.bb",
             "filepath": "recipes-core/initrdscripts",
             "homepage": "",
-            "id": 742367,
+            "id": 771109,
             "inherits": "",
             "layerbranch": 836729,
             "license": "MIT",
@@ -115,7 +115,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Basic init for initramfs to mount and pivot root",
-            "updated": "2018-10-09T19:10:14+0000"
+            "updated": "2018-10-14T12:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -125,7 +125,7 @@
             "filename": "secure-core-minimal-image.bb",
             "filepath": "recipes-core/images",
             "homepage": "",
-            "id": 742368,
+            "id": 771110,
             "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 836729,
             "license": "MIT",
@@ -134,7 +134,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "The root image of SecureCore.",
-            "updated": "2018-10-09T19:10:14+0000"
+            "updated": "2018-10-14T12:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -144,7 +144,7 @@
             "filename": "secure-core-image.bb",
             "filepath": "recipes-core/images",
             "homepage": "",
-            "id": 742369,
+            "id": 771111,
             "inherits": "core-image extrausers image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo useradd_base",
             "layerbranch": 836729,
             "license": "MIT",
@@ -153,7 +153,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "The root image of SecureCore.",
-            "updated": "2018-10-09T19:10:14+0000"
+            "updated": "2018-10-14T12:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -163,7 +163,7 @@
             "filename": "kernel-initramfs.bb",
             "filepath": "recipes-core/images",
             "homepage": "",
-            "id": 742370,
+            "id": 771112,
             "inherits": "kernel-arch linux-kernel-base update-alternatives",
             "layerbranch": 836729,
             "license": "MIT",
@@ -172,7 +172,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Initramfs kernel boot",
-            "updated": "2018-10-09T19:10:14+0000"
+            "updated": "2018-10-14T12:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -182,7 +182,7 @@
             "filename": "secure-core-image-initramfs.bb",
             "filepath": "recipes-core/images",
             "homepage": "",
-            "id": 742371,
+            "id": 771113,
             "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 836729,
             "license": "MIT",
@@ -191,7 +191,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-09T19:10:15+0000"
+            "updated": "2018-10-14T12:10:29+0000"
         }
     ],
     "wrtemplates": []

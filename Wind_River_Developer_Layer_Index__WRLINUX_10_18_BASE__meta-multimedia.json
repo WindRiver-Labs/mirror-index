@@ -22,29 +22,29 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20181007",
+            "actual_branch": "wr-10.18-20181010",
             "branch": 100,
             "collection": "core",
             "id": 836626,
             "layer": 1,
-            "updated": "2018-10-09T19:10:50+0000",
-            "vcs_last_commit": "2018-10-09T06:10:19+0000",
-            "vcs_last_fetch": "2018-10-09T19:10:50+0000",
-            "vcs_last_rev": "5678c3fa80c8a2f00dc2d29e779a4acad87298d9",
+            "updated": "2018-10-14T12:10:15+0000",
+            "vcs_last_commit": "2018-10-11T08:10:17+0000",
+            "vcs_last_fetch": "2018-10-14T12:10:15+0000",
+            "vcs_last_rev": "69876d5d219d5aa858a35d3ecd6844f4b7b72d50",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20181007",
+            "actual_branch": "wr-10.18-20181010",
             "branch": 100,
             "collection": "multimedia-layer",
             "id": 836715,
             "layer": 16,
-            "updated": "2018-10-09T19:10:01+0000",
-            "vcs_last_commit": "2018-10-07T08:10:12+0000",
-            "vcs_last_fetch": "2018-10-09T19:10:01+0000",
-            "vcs_last_rev": "f2cd89e1f2767bfbc23451b7803fdb9bffbdcbea",
+            "updated": "2018-10-14T12:10:16+0000",
+            "vcs_last_commit": "2018-10-10T01:10:31+0000",
+            "vcs_last_fetch": "2018-10-14T12:10:16+0000",
+            "vcs_last_rev": "fdcfce03fc58e093df7ccf5aa55d160cf773f4d0",
             "vcs_subdir": "meta-multimedia",
             "version": "1",
             "yp_compatible_version": null
@@ -112,7 +112,7 @@
             "filename": "gssdp_1.0.2.bb",
             "filepath": "recipes-connectivity/gupnp",
             "homepage": "",
-            "id": 742249,
+            "id": 770991,
             "inherits": "autotools gobject-introspection gobject-introspection-data gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo vala",
             "layerbranch": 836715,
             "license": "LGPLv2",
@@ -121,7 +121,7 @@
             "pv": "1.0.2",
             "section": "base",
             "summary": "Resource discovery and announcement over SSDP",
-            "updated": "2018-10-09T19:10:47+0000"
+            "updated": "2018-10-14T12:10:04+0000"
         },
         {
             "bbclassextend": "",
@@ -131,7 +131,7 @@
             "filename": "gupnp-igd_0.2.4.bb",
             "filepath": "recipes-connectivity/gupnp",
             "homepage": "",
-            "id": 742250,
+            "id": 770992,
             "inherits": "autotools gobject-introspection gobject-introspection-data gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "LGPLv2",
@@ -140,7 +140,7 @@
             "pv": "0.2.4",
             "section": "base",
             "summary": "Helpers for interacting with Internet Gateway Devices over UPnP",
-            "updated": "2018-10-09T19:10:48+0000"
+            "updated": "2018-10-14T12:10:04+0000"
         },
         {
             "bbclassextend": "",
@@ -150,7 +150,7 @@
             "filename": "gupnp-tools_0.8.13.bb",
             "filepath": "recipes-connectivity/gupnp",
             "homepage": "",
-            "id": 742251,
+            "id": 770993,
             "inherits": "autotools distro_features_check gettext pkgconfig siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "GPLv2+",
@@ -159,7 +159,7 @@
             "pv": "0.8.13",
             "section": "base",
             "summary": "Tools for GUPnP",
-            "updated": "2018-10-09T19:10:48+0000"
+            "updated": "2018-10-14T12:10:04+0000"
         },
         {
             "bbclassextend": "",
@@ -169,7 +169,7 @@
             "filename": "gupnp-av_0.12.10.bb",
             "filepath": "recipes-connectivity/gupnp",
             "homepage": "",
-            "id": 742252,
+            "id": 770994,
             "inherits": "autotools gobject-introspection gobject-introspection-data pkgconfig python3-dir python3native siteconfig siteinfo vala",
             "layerbranch": 836715,
             "license": "LGPLv2",
@@ -178,7 +178,7 @@
             "pv": "0.12.10",
             "section": "base",
             "summary": "Helpers for AV applications using UPnP",
-            "updated": "2018-10-09T19:10:48+0000"
+            "updated": "2018-10-14T12:10:04+0000"
         },
         {
             "bbclassextend": "",
@@ -188,7 +188,7 @@
             "filename": "gupnp_1.0.2.bb",
             "filepath": "recipes-connectivity/gupnp",
             "homepage": "",
-            "id": 742253,
+            "id": 770995,
             "inherits": "autotools gobject-introspection gobject-introspection-data pkgconfig python3-dir python3native siteconfig siteinfo vala",
             "layerbranch": 836715,
             "license": "LGPLv2+",
@@ -197,7 +197,7 @@
             "pv": "1.0.2",
             "section": "base",
             "summary": "UPnP framework",
-            "updated": "2018-10-09T19:10:48+0000"
+            "updated": "2018-10-14T12:10:04+0000"
         },
         {
             "bbclassextend": "",
@@ -207,7 +207,7 @@
             "filename": "gupnp-dlna_0.10.5.bb",
             "filepath": "recipes-connectivity/gupnp",
             "homepage": "",
-            "id": 742254,
+            "id": 770996,
             "inherits": "autotools gobject-introspection gobject-introspection-data pkgconfig python3-dir python3native siteconfig siteinfo vala",
             "layerbranch": 836715,
             "license": "LGPLv2",
@@ -216,7 +216,7 @@
             "pv": "0.10.5",
             "section": "base",
             "summary": "Helpers for AV applications using DLNA",
-            "updated": "2018-10-09T19:10:48+0000"
+            "updated": "2018-10-14T12:10:05+0000"
         },
         {
             "bbclassextend": "",
@@ -226,7 +226,7 @@
             "filename": "libupnp_git.bb",
             "filepath": "recipes-connectivity/libupnp",
             "homepage": "http://pupnp.sourceforge.net/",
-            "id": 742255,
+            "id": 770997,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "BSD",
@@ -235,7 +235,7 @@
             "pv": "1.8.2+gitX",
             "section": "base",
             "summary": "Portable SDK for UPnP* Devices",
-            "updated": "2018-10-09T19:10:49+0000"
+            "updated": "2018-10-14T12:10:05+0000"
         },
         {
             "bbclassextend": "",
@@ -245,7 +245,7 @@
             "filename": "rygel_0.34.0.bb",
             "filepath": "recipes-connectivity/rygel",
             "homepage": "http://live.gnome.org/Rygel",
-            "id": 742256,
+            "id": 770998,
             "inherits": "autotools gettext gnomebase gobject-introspection gobject-introspection-data pkgconfig python3-dir python3native siteconfig siteinfo systemd vala",
             "layerbranch": 836715,
             "license": "LGPL-2.1",
@@ -254,7 +254,7 @@
             "pv": "0.34.0",
             "section": "base",
             "summary": "A UPnP AV media server and renderer",
-            "updated": "2018-10-09T19:10:49+0000"
+            "updated": "2018-10-14T12:10:05+0000"
         },
         {
             "bbclassextend": "",
@@ -264,7 +264,7 @@
             "filename": "oscam_svn.bb",
             "filepath": "recipes-dvb/oscam",
             "homepage": "http://www.streamboard.tv/oscam/",
-            "id": 742257,
+            "id": 770999,
             "inherits": "cmake",
             "layerbranch": 836715,
             "license": "GPLv3",
@@ -273,7 +273,7 @@
             "pv": "1.10+X",
             "section": "base",
             "summary": "OSCam: Open Source Conditional Access Module",
-            "updated": "2018-10-09T19:10:49+0000"
+            "updated": "2018-10-14T12:10:05+0000"
         },
         {
             "bbclassextend": "",
@@ -283,7 +283,7 @@
             "filename": "libmediaart_0.7.0.bb",
             "filepath": "recipes-support/libmediaart",
             "homepage": "",
-            "id": 742258,
+            "id": 771000,
             "inherits": "autotools gnomebase gobject-introspection gobject-introspection-data gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "LGPLv2+ & GPLv2+",
@@ -292,7 +292,7 @@
             "pv": "0.7.0",
             "section": "base",
             "summary": "Library tasked with managing, extracting and handling media art caches",
-            "updated": "2018-10-09T19:10:49+0000"
+            "updated": "2018-10-14T12:10:05+0000"
         },
         {
             "bbclassextend": "",
@@ -302,7 +302,7 @@
             "filename": "libmediaart-2.0_1.9.0.bb",
             "filepath": "recipes-support/libmediaart",
             "homepage": "",
-            "id": 742259,
+            "id": 771001,
             "inherits": "autotools gnomebase gobject-introspection gobject-introspection-data gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "LGPLv2+ & GPLv2+",
@@ -311,7 +311,7 @@
             "pv": "1.9.0",
             "section": "base",
             "summary": "Library tasked with managing, extracting and handling media art caches",
-            "updated": "2018-10-09T19:10:49+0000"
+            "updated": "2018-10-14T12:10:05+0000"
         },
         {
             "bbclassextend": "",
@@ -321,7 +321,7 @@
             "filename": "libsrtp_1.6.0.bb",
             "filepath": "recipes-support/libsrtp",
             "homepage": "https://github.com/cisco/libsrtp",
-            "id": 742260,
+            "id": 771002,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "BSD-3-Clause",
@@ -330,7 +330,7 @@
             "pv": "1.6.0",
             "section": "libs",
             "summary": "",
-            "updated": "2018-10-09T19:10:49+0000"
+            "updated": "2018-10-14T12:10:06+0000"
         },
         {
             "bbclassextend": "",
@@ -340,7 +340,7 @@
             "filename": "gst-instruments_git.bb",
             "filepath": "recipes-support/gst-instruments",
             "homepage": "https://github.com/kirushyk/gst-instruments",
-            "id": 742261,
+            "id": 771003,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "LGPL-3.0",
@@ -349,7 +349,7 @@
             "pv": "git",
             "section": "multimedia",
             "summary": "Profiling utilities for GStreamer 1.0 pipelines",
-            "updated": "2018-10-09T19:10:50+0000"
+            "updated": "2018-10-14T12:10:06+0000"
         },
         {
             "bbclassextend": "",
@@ -359,7 +359,7 @@
             "filename": "crossguid.bb",
             "filepath": "recipes-support/crossguid",
             "homepage": "https://github.com/graeme-hill/crossguid",
-            "id": 742262,
+            "id": 771004,
             "inherits": "",
             "layerbranch": 836715,
             "license": "MIT",
@@ -368,7 +368,7 @@
             "pv": "0.0+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-09T19:10:50+0000"
+            "updated": "2018-10-14T12:10:06+0000"
         },
         {
             "bbclassextend": "",
@@ -378,7 +378,7 @@
             "filename": "liboil_0.3.17.bb",
             "filepath": "recipes-support/liboil",
             "homepage": "http://liboil.freedesktop.org/",
-            "id": 742263,
+            "id": 771005,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "BSD",
@@ -387,7 +387,7 @@
             "pv": "0.3.17",
             "section": "base",
             "summary": "Library of simple functions optimized for various CPUs",
-            "updated": "2018-10-09T19:10:50+0000"
+            "updated": "2018-10-14T12:10:06+0000"
         },
         {
             "bbclassextend": "",
@@ -397,7 +397,7 @@
             "filename": "bigbuckbunny-480p.bb",
             "filepath": "recipes-multimedia/sample-content",
             "homepage": "",
-            "id": 742264,
+            "id": 771006,
             "inherits": "allarch",
             "layerbranch": 836715,
             "license": "CC-BY-3.0",
@@ -406,7 +406,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Big Buck Bunny movie - 480P",
-            "updated": "2018-10-09T19:10:50+0000"
+            "updated": "2018-10-14T12:10:06+0000"
         },
         {
             "bbclassextend": "",
@@ -416,7 +416,7 @@
             "filename": "bigbuckbunny-720p.bb",
             "filepath": "recipes-multimedia/sample-content",
             "homepage": "",
-            "id": 742265,
+            "id": 771007,
             "inherits": "allarch",
             "layerbranch": 836715,
             "license": "CC-BY-3.0",
@@ -425,7 +425,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Big Buck Bunny movie - 720P",
-            "updated": "2018-10-09T19:10:50+0000"
+            "updated": "2018-10-14T12:10:06+0000"
         },
         {
             "bbclassextend": "",
@@ -435,7 +435,7 @@
             "filename": "tearsofsteel-1080p.bb",
             "filepath": "recipes-multimedia/sample-content",
             "homepage": "",
-            "id": 742266,
+            "id": 771008,
             "inherits": "allarch",
             "layerbranch": 836715,
             "license": "CC-BY-3.0",
@@ -444,7 +444,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Tears of Steel movie - 1080P",
-            "updated": "2018-10-09T19:10:50+0000"
+            "updated": "2018-10-14T12:10:06+0000"
         },
         {
             "bbclassextend": "",
@@ -454,7 +454,7 @@
             "filename": "bigbuckbunny-1080p.bb",
             "filepath": "recipes-multimedia/sample-content",
             "homepage": "",
-            "id": 742267,
+            "id": 771009,
             "inherits": "allarch",
             "layerbranch": 836715,
             "license": "CC-BY-3.0",
@@ -463,7 +463,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Big Buck Bunny movie - 1080P",
-            "updated": "2018-10-09T19:10:50+0000"
+            "updated": "2018-10-14T12:10:07+0000"
         },
         {
             "bbclassextend": "",
@@ -473,7 +473,7 @@
             "filename": "dcadec_0.2.0.bb",
             "filepath": "recipes-multimedia/dca",
             "homepage": "",
-            "id": 742268,
+            "id": 771010,
             "inherits": "lib_package",
             "layerbranch": 836715,
             "license": "LGPLv2.1",
@@ -482,7 +482,7 @@
             "pv": "0.2.0",
             "section": "base",
             "summary": "DTS Coherent Acoustics decoder with support for HD extensions",
-            "updated": "2018-10-09T19:10:50+0000"
+            "updated": "2018-10-14T12:10:07+0000"
         },
         {
             "bbclassextend": "",
@@ -492,7 +492,7 @@
             "filename": "vorbis-tools_1.4.0.bb",
             "filepath": "recipes-multimedia/vorbis-tools",
             "homepage": "http://www.vorbis.com/",
-            "id": 742269,
+            "id": 771011,
             "inherits": "autotools gettext pkgconfig siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "GPLv2",
@@ -501,7 +501,7 @@
             "pv": "1.4.0",
             "section": "multimedia",
             "summary": "Vorbis Tools",
-            "updated": "2018-10-09T19:10:51+0000"
+            "updated": "2018-10-14T12:10:07+0000"
         },
         {
             "bbclassextend": "",
@@ -511,7 +511,7 @@
             "filename": "tremor_20150107.bb",
             "filepath": "recipes-multimedia/tremor",
             "homepage": "",
-            "id": 742270,
+            "id": 771012,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "BSD",
@@ -520,7 +520,7 @@
             "pv": "20150107",
             "section": "libs",
             "summary": "Fixed-point decoder",
-            "updated": "2018-10-09T19:10:51+0000"
+            "updated": "2018-10-14T12:10:07+0000"
         },
         {
             "bbclassextend": "",
@@ -530,7 +530,7 @@
             "filename": "minidlna_1.2.1.bb",
             "filepath": "recipes-multimedia/minidlna",
             "homepage": "",
-            "id": 742271,
+            "id": 771013,
             "inherits": "autotools autotools-brokensep gettext siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 836715,
             "license": "GPL-2.0|BSD",
@@ -539,7 +539,7 @@
             "pv": "1.2.1",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-09T19:10:51+0000"
+            "updated": "2018-10-14T12:10:07+0000"
         },
         {
             "bbclassextend": "",
@@ -549,7 +549,7 @@
             "filename": "libde265_1.0.2.bb",
             "filepath": "recipes-multimedia/libde265",
             "homepage": "http://www.libde265.org/",
-            "id": 742272,
+            "id": 771014,
             "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "LGPLv3",
@@ -558,7 +558,7 @@
             "pv": "1.0.2",
             "section": "libs/multimedia",
             "summary": "",
-            "updated": "2018-10-09T19:10:51+0000"
+            "updated": "2018-10-14T12:10:07+0000"
         },
         {
             "bbclassextend": "",
@@ -568,7 +568,7 @@
             "filename": "libavc1394_0.5.4.bb",
             "filepath": "recipes-multimedia/libavc1394",
             "homepage": "http://sourceforge.net/projects/libavc1394/",
-            "id": 742273,
+            "id": 771015,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "LGPLv2.1",
@@ -577,7 +577,7 @@
             "pv": "0.5.4",
             "section": "libs/multimedia",
             "summary": "",
-            "updated": "2018-10-09T19:10:51+0000"
+            "updated": "2018-10-14T12:10:07+0000"
         },
         {
             "bbclassextend": "",
@@ -587,7 +587,7 @@
             "filename": "webrtc-audio-processing_0.3.bb",
             "filepath": "recipes-multimedia/webrtc-audio-processing",
             "homepage": "https://www.freedesktop.org/software/pulseaudio/webrtc-audio-processing/",
-            "id": 742274,
+            "id": 771016,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "BSD-3-Clause",
@@ -596,7 +596,7 @@
             "pv": "0.3",
             "section": "audio",
             "summary": "",
-            "updated": "2018-10-09T19:10:51+0000"
+            "updated": "2018-10-14T12:10:08+0000"
         },
         {
             "bbclassextend": "native",
@@ -606,7 +606,7 @@
             "filename": "projucer-native_git.bb",
             "filepath": "recipes-multimedia/juce",
             "homepage": "http://juce.com/",
-            "id": 742275,
+            "id": 771017,
             "inherits": "native nopackages pkgconfig relocatable",
             "layerbranch": 836715,
             "license": "GPLv3",
@@ -615,7 +615,7 @@
             "pv": "5.0.1",
             "section": "utils",
             "summary": "JUCE's Projucer",
-            "updated": "2018-10-09T19:10:51+0000"
+            "updated": "2018-10-14T12:10:08+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -625,7 +625,7 @@
             "filename": "nativesdk-projucer_git.bb",
             "filepath": "recipes-multimedia/juce",
             "homepage": "http://juce.com/",
-            "id": 742276,
+            "id": 771018,
             "inherits": "nativesdk pkgconfig",
             "layerbranch": 836715,
             "license": "GPLv3",
@@ -634,7 +634,7 @@
             "pv": "5.0.1",
             "section": "utils",
             "summary": "JUCE's Projucer",
-            "updated": "2018-10-09T19:10:52+0000"
+            "updated": "2018-10-14T12:10:08+0000"
         },
         {
             "bbclassextend": "",
@@ -644,7 +644,7 @@
             "filename": "tinyalsa.bb",
             "filepath": "recipes-multimedia/tinyalsa",
             "homepage": "https://github.com/tinyalsa/tinyalsa",
-            "id": 742277,
+            "id": 771019,
             "inherits": "cmake",
             "layerbranch": 836715,
             "license": "BSD-3-Clause",
@@ -653,7 +653,7 @@
             "pv": "1.1.1+gitX",
             "section": "libs/multimedia",
             "summary": "",
-            "updated": "2018-10-09T19:10:52+0000"
+            "updated": "2018-10-14T12:10:08+0000"
         },
         {
             "bbclassextend": "",
@@ -663,7 +663,7 @@
             "filename": "libdvbpsi_1.3.0.bb",
             "filepath": "recipes-multimedia/libdvbpsi",
             "homepage": "http://www.videolan.org/developers/libdvbpsi.html",
-            "id": 742278,
+            "id": 771020,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "LGPLv2.1",
@@ -672,7 +672,7 @@
             "pv": "1.3.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-09T19:10:52+0000"
+            "updated": "2018-10-14T12:10:08+0000"
         },
         {
             "bbclassextend": "",
@@ -682,7 +682,7 @@
             "filename": "libmusicbrainz_git.bb",
             "filepath": "recipes-multimedia/musicbrainz",
             "homepage": "http://musicbrainz.org",
-            "id": 742279,
+            "id": 771021,
             "inherits": "cmake pkgconfig",
             "layerbranch": 836715,
             "license": "LGPLv2.1+",
@@ -691,7 +691,7 @@
             "pv": "5.1.0+gitX",
             "section": "base",
             "summary": "MusicBrainz client library",
-            "updated": "2018-10-09T19:10:52+0000"
+            "updated": "2018-10-14T12:10:08+0000"
         },
         {
             "bbclassextend": "",
@@ -701,7 +701,7 @@
             "filename": "openal-soft_1.15.1.bb",
             "filepath": "recipes-multimedia/openal",
             "homepage": "http://kcat.strangesoft.net/openal.html",
-            "id": 742280,
+            "id": 771022,
             "inherits": "cmake",
             "layerbranch": 836715,
             "license": "GPLv2",
@@ -710,7 +710,7 @@
             "pv": "1.15.1",
             "section": "base",
             "summary": "OpenAL is a cross-platform 3D audio API",
-            "updated": "2018-10-09T19:10:52+0000"
+            "updated": "2018-10-14T12:10:09+0000"
         },
         {
             "bbclassextend": "",
@@ -720,7 +720,7 @@
             "filename": "alsa-equal_0.6.bb",
             "filepath": "recipes-multimedia/alsa-equal",
             "homepage": "https://web.archive.org/web/20161105202833/http://thedigitalmachine.net/alsaequal.html",
-            "id": 742281,
+            "id": 771023,
             "inherits": "",
             "layerbranch": 836715,
             "license": "LGPL-2.1",
@@ -729,7 +729,7 @@
             "pv": "0.6",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-09T19:10:52+0000"
+            "updated": "2018-10-14T12:10:09+0000"
         },
         {
             "bbclassextend": "",
@@ -739,7 +739,7 @@
             "filename": "fluidsynth_1.1.11.bb",
             "filepath": "recipes-multimedia/fluidsynth",
             "homepage": "http://www.fluidsynth.org/",
-            "id": 742282,
+            "id": 771024,
             "inherits": "cmake lib_package pkgconfig",
             "layerbranch": 836715,
             "license": "LGPL-2.1",
@@ -748,7 +748,7 @@
             "pv": "1.1.11",
             "section": "libs/multimedia",
             "summary": "Fluidsynth is a software synthesizer",
-            "updated": "2018-10-09T19:10:53+0000"
+            "updated": "2018-10-14T12:10:09+0000"
         },
         {
             "bbclassextend": "",
@@ -758,7 +758,7 @@
             "filename": "cdparanoia_10.2.bb",
             "filepath": "recipes-multimedia/cdparanoia",
             "homepage": "https://www.xiph.org/",
-            "id": 742283,
+            "id": 771025,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "LGPLv2.1",
@@ -767,7 +767,7 @@
             "pv": "10.2",
             "section": "multimedia",
             "summary": "cdparanoia library",
-            "updated": "2018-10-09T19:10:53+0000"
+            "updated": "2018-10-14T12:10:09+0000"
         },
         {
             "bbclassextend": "",
@@ -777,7 +777,7 @@
             "filename": "libiec61883_1.2.0.bb",
             "filepath": "recipes-multimedia/libiec61883",
             "homepage": "https://ieee1394.wiki.kernel.org/index.php/Libraries#libiec61883",
-            "id": 742284,
+            "id": 771026,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "LGPLv2.1",
@@ -786,7 +786,7 @@
             "pv": "1.2.0",
             "section": "libs/multimedia",
             "summary": "",
-            "updated": "2018-10-09T19:10:53+0000"
+            "updated": "2018-10-14T12:10:09+0000"
         },
         {
             "bbclassextend": "",
@@ -796,7 +796,7 @@
             "filename": "libsquish_git.bb",
             "filepath": "recipes-multimedia/libsquish",
             "homepage": "",
-            "id": 742285,
+            "id": 771027,
             "inherits": "",
             "layerbranch": 836715,
             "license": "MIT",
@@ -805,7 +805,7 @@
             "pv": "1.10+gitX",
             "section": "base",
             "summary": "The squish library (abbreviated to libsquish) is an open source DXT compression library written in C++ ",
-            "updated": "2018-10-09T19:10:53+0000"
+            "updated": "2018-10-14T12:10:09+0000"
         },
         {
             "bbclassextend": "",
@@ -815,7 +815,7 @@
             "filename": "caps_0.9.24.bb",
             "filepath": "recipes-multimedia/caps",
             "homepage": "http://quitte.de/dsp/caps.html",
-            "id": 742286,
+            "id": 771028,
             "inherits": "",
             "layerbranch": 836715,
             "license": "GPL-3",
@@ -824,7 +824,7 @@
             "pv": "0.9.24",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-09T19:10:53+0000"
+            "updated": "2018-10-14T12:10:09+0000"
         },
         {
             "bbclassextend": "",
@@ -834,7 +834,7 @@
             "filename": "streamripper_1.64.6.bb",
             "filepath": "recipes-multimedia/streamripper",
             "homepage": "http://streamripper.sourceforge.net",
-            "id": 742287,
+            "id": 771029,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "GPLv2",
@@ -843,7 +843,7 @@
             "pv": "1.64.6",
             "section": "base",
             "summary": "download online streams into audio files",
-            "updated": "2018-10-09T19:10:53+0000"
+            "updated": "2018-10-14T12:10:09+0000"
         },
         {
             "bbclassextend": "",
@@ -853,7 +853,7 @@
             "filename": "sox_14.4.2.bb",
             "filepath": "recipes-multimedia/sox",
             "homepage": "http://sox.sourceforge.net",
-            "id": 742288,
+            "id": 771030,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "GPLv2 & LGPLv2.1",
@@ -862,7 +862,7 @@
             "pv": "14.4.2",
             "section": "audio",
             "summary": "",
-            "updated": "2018-10-09T19:10:54+0000"
+            "updated": "2018-10-14T12:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -872,7 +872,7 @@
             "filename": "rtmpdump_2.4.bb",
             "filepath": "recipes-multimedia/rtmpdump",
             "homepage": "http://rtmpdump.mplayerhq.hu/",
-            "id": 742289,
+            "id": 771031,
             "inherits": "autotools autotools-brokensep siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "GPLv2",
@@ -881,7 +881,7 @@
             "pv": "2.4",
             "section": "base",
             "summary": "RTMP Dump",
-            "updated": "2018-10-09T19:10:54+0000"
+            "updated": "2018-10-14T12:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -891,7 +891,7 @@
             "filename": "opencore-amr_0.1.3.bb",
             "filepath": "recipes-multimedia/opencore-amr",
             "homepage": "http://sourceforge.net/projects/opencore-amr/",
-            "id": 742290,
+            "id": 771032,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "Apache-2.0",
@@ -900,7 +900,7 @@
             "pv": "0.1.3",
             "section": "libs",
             "summary": "",
-            "updated": "2018-10-09T19:10:54+0000"
+            "updated": "2018-10-14T12:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -910,7 +910,7 @@
             "filename": "vo-aacenc_0.1.3.bb",
             "filepath": "recipes-multimedia/opencore-amr",
             "homepage": "http://sourceforge.net/projects/opencore-amr/",
-            "id": 742291,
+            "id": 771033,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "Apache-2.0",
@@ -919,7 +919,7 @@
             "pv": "0.1.3",
             "section": "libs",
             "summary": "",
-            "updated": "2018-10-09T19:10:54+0000"
+            "updated": "2018-10-14T12:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -929,7 +929,7 @@
             "filename": "vo-amrwbenc_0.1.3.bb",
             "filepath": "recipes-multimedia/opencore-amr",
             "homepage": "http://sourceforge.net/projects/opencore-amr/",
-            "id": 742292,
+            "id": 771034,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "Apache-2.0",
@@ -938,7 +938,7 @@
             "pv": "0.1.3",
             "section": "libs",
             "summary": "",
-            "updated": "2018-10-09T19:10:54+0000"
+            "updated": "2018-10-14T12:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -948,7 +948,7 @@
             "filename": "openh264_1.7.0.bb",
             "filepath": "recipes-multimedia/openh264",
             "homepage": "http://www.openh264.org/",
-            "id": 742293,
+            "id": 771035,
             "inherits": "",
             "layerbranch": 836715,
             "license": "BSD-2-Clause",
@@ -957,7 +957,7 @@
             "pv": "1.7.0",
             "section": "libs/multimedia",
             "summary": "",
-            "updated": "2018-10-09T19:10:54+0000"
+            "updated": "2018-10-14T12:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -967,7 +967,7 @@
             "filename": "mpd_0.20.21.bb",
             "filepath": "recipes-multimedia/musicpd",
             "homepage": "http://www.musicpd.org",
-            "id": 742294,
+            "id": 771036,
             "inherits": "autotools pkgconfig siteconfig siteinfo systemd useradd useradd_base",
             "layerbranch": 836715,
             "license": "GPLv2",
@@ -976,7 +976,7 @@
             "pv": "0.20.21",
             "section": "base",
             "summary": "Music Player Daemon",
-            "updated": "2018-10-09T19:10:54+0000"
+            "updated": "2018-10-14T12:10:10+0000"
         },
         {
             "bbclassextend": "",
@@ -986,7 +986,7 @@
             "filename": "libmpdclient_2.15.bb",
             "filepath": "recipes-multimedia/musicpd",
             "homepage": "https://www.musicpd.org/libs/libmpdclient/",
-            "id": 742295,
+            "id": 771037,
             "inherits": "meson python3-dir python3native siteinfo",
             "layerbranch": 836715,
             "license": "BSD",
@@ -995,7 +995,7 @@
             "pv": "2.15",
             "section": "base",
             "summary": "C client library for the Music Player Daemon",
-            "updated": "2018-10-09T19:10:55+0000"
+            "updated": "2018-10-14T12:10:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1005,7 +1005,7 @@
             "filename": "mpc_0.30.bb",
             "filepath": "recipes-multimedia/musicpd",
             "homepage": "https://www.musicpd.org/clients/mpc/",
-            "id": 742296,
+            "id": 771038,
             "inherits": "meson python3-dir python3native siteinfo",
             "layerbranch": 836715,
             "license": "GPLv2",
@@ -1014,7 +1014,7 @@
             "pv": "0.30",
             "section": "base",
             "summary": "A minimalist command line interface to the Music Player Daemon",
-            "updated": "2018-10-09T19:10:55+0000"
+            "updated": "2018-10-14T12:10:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1024,7 +1024,7 @@
             "filename": "libmpd_11.8.17.bb",
             "filepath": "recipes-multimedia/musicpd",
             "homepage": "http://sourceforge.net/projects/musicpd",
-            "id": 742297,
+            "id": 771039,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "GPLv2",
@@ -1033,7 +1033,7 @@
             "pv": "11.8.17",
             "section": "base",
             "summary": "Music Player Daemon library",
-            "updated": "2018-10-09T19:10:55+0000"
+            "updated": "2018-10-14T12:10:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1043,7 +1043,7 @@
             "filename": "ncmpc_0.32.bb",
             "filepath": "recipes-multimedia/musicpd",
             "homepage": "https://www.musicpd.org/clients/ncmpc/",
-            "id": 742298,
+            "id": 771040,
             "inherits": "meson python3-dir python3native siteinfo",
             "layerbranch": 836715,
             "license": "GPLv2",
@@ -1052,7 +1052,7 @@
             "pv": "0.32",
             "section": "base",
             "summary": "A curses client for the Music Player Daemon",
-            "updated": "2018-10-09T19:10:55+0000"
+            "updated": "2018-10-14T12:10:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1062,7 +1062,7 @@
             "filename": "dleyna-core_0.6.0.bb",
             "filepath": "recipes-multimedia/dleyna",
             "homepage": "https://01.org/dleyna/",
-            "id": 742299,
+            "id": 771041,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "LGPLv2.1+",
@@ -1071,7 +1071,7 @@
             "pv": "0.6.0",
             "section": "base",
             "summary": "Utility functions for dLeyna libraries",
-            "updated": "2018-10-09T19:10:55+0000"
+            "updated": "2018-10-14T12:10:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1081,7 +1081,7 @@
             "filename": "dleyna-connector-dbus_0.3.0.bb",
             "filepath": "recipes-multimedia/dleyna",
             "homepage": "https://01.org/dleyna/",
-            "id": 742300,
+            "id": 771042,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "LGPLv2.1+",
@@ -1090,7 +1090,7 @@
             "pv": "0.3.0",
             "section": "base",
             "summary": "D-Bus connector for dLeyna libraries",
-            "updated": "2018-10-09T19:10:55+0000"
+            "updated": "2018-10-14T12:10:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1100,7 +1100,7 @@
             "filename": "dleyna-renderer_0.6.0.bb",
             "filepath": "recipes-multimedia/dleyna",
             "homepage": "https://01.org/dleyna/",
-            "id": 742301,
+            "id": 771043,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "LGPLv2.1+",
@@ -1109,7 +1109,7 @@
             "pv": "0.6.0",
             "section": "base",
             "summary": "DLNA renderer libraries",
-            "updated": "2018-10-09T19:10:56+0000"
+            "updated": "2018-10-14T12:10:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1119,7 +1119,7 @@
             "filename": "dleyna-server_0.6.0.bb",
             "filepath": "recipes-multimedia/dleyna",
             "homepage": "https://01.org/dleyna/",
-            "id": 742302,
+            "id": 771044,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "LGPLv2.1+",
@@ -1128,7 +1128,7 @@
             "pv": "0.6.0",
             "section": "base",
             "summary": "DLNA server libraries",
-            "updated": "2018-10-09T19:10:56+0000"
+            "updated": "2018-10-14T12:10:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1138,7 +1138,7 @@
             "filename": "gst-plugins-gl_0.10.3.bb",
             "filepath": "recipes-multimedia/gstreamer-0.10",
             "homepage": "http://gstreamer.freedesktop.org/",
-            "id": 742303,
+            "id": 771045,
             "inherits": "autotools distro_features_check gettext gobject-introspection gobject-introspection-data pkgconfig python3-dir python3native siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "GPLv2+ & LGPLv2+ & LGPLv2.1+ ",
@@ -1147,7 +1147,7 @@
             "pv": "0.10.3",
             "section": "multimedia",
             "summary": "Plugins for the GStreamer multimedia framework",
-            "updated": "2018-10-09T19:10:56+0000"
+            "updated": "2018-10-14T12:10:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1157,7 +1157,7 @@
             "filename": "gst-plugins-base_0.10.36.bb",
             "filepath": "recipes-multimedia/gstreamer-0.10",
             "homepage": "http://gstreamer.freedesktop.org/",
-            "id": 742304,
+            "id": 771046,
             "inherits": "autotools gettext gobject-introspection gobject-introspection-data pkgconfig python3-dir python3native siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "GPLv2+ & LGPLv2+",
@@ -1166,7 +1166,7 @@
             "pv": "0.10.36",
             "section": "multimedia",
             "summary": "Plugins for the GStreamer multimedia framework",
-            "updated": "2018-10-09T19:10:56+0000"
+            "updated": "2018-10-14T12:10:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1176,7 +1176,7 @@
             "filename": "gst-meta-base_0.10.bb",
             "filepath": "recipes-multimedia/gstreamer-0.10",
             "homepage": "",
-            "id": 742305,
+            "id": 771047,
             "inherits": "",
             "layerbranch": 836715,
             "license": "MIT",
@@ -1185,7 +1185,7 @@
             "pv": "0.10",
             "section": "base",
             "summary": "GStreamer package groups",
-            "updated": "2018-10-09T19:10:56+0000"
+            "updated": "2018-10-14T12:10:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1195,7 +1195,7 @@
             "filename": "gst-fluendo-mpegdemux_0.10.85.bb",
             "filepath": "recipes-multimedia/gstreamer-0.10",
             "homepage": "https://core.fluendo.com/gstreamer/trac/wiki",
-            "id": 742306,
+            "id": 771048,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "MPLv1.1",
@@ -1204,7 +1204,7 @@
             "pv": "0.10.85",
             "section": "multimedia",
             "summary": "Fluendo MPEG Transport Stream and Program Stream demuxer for GStreamer",
-            "updated": "2018-10-09T19:10:57+0000"
+            "updated": "2018-10-14T12:10:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1214,7 +1214,7 @@
             "filename": "gst-rtsp_0.10.8.bb",
             "filepath": "recipes-multimedia/gstreamer-0.10",
             "homepage": "",
-            "id": 742307,
+            "id": 771049,
             "inherits": "autotools gettext python-dir pythonnative siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "LGPLv2+",
@@ -1223,7 +1223,7 @@
             "pv": "0.10.8",
             "section": "base",
             "summary": "GStreamer RTSP server",
-            "updated": "2018-10-09T19:10:57+0000"
+            "updated": "2018-10-14T12:10:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1233,7 +1233,7 @@
             "filename": "gst-openmax_0.10.1.bb",
             "filepath": "recipes-multimedia/gstreamer-0.10",
             "homepage": "http://freedesktop.org/wiki/GstOpenMAX",
-            "id": 742308,
+            "id": 771050,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "LGPLv2.1",
@@ -1242,7 +1242,7 @@
             "pv": "0.10.1",
             "section": "base",
             "summary": "GStreamer plug-in for communication with OpenMAX IL components",
-            "updated": "2018-10-09T19:10:57+0000"
+            "updated": "2018-10-14T12:10:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1252,7 +1252,7 @@
             "filename": "gst-fluendo-mp3_0.10.31.bb",
             "filepath": "recipes-multimedia/gstreamer-0.10",
             "homepage": "https://core.fluendo.com/gstreamer/trac/wiki",
-            "id": 742309,
+            "id": 771051,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "MIT",
@@ -1261,7 +1261,7 @@
             "pv": "0.10.31",
             "section": "multimedia",
             "summary": "Fluendo closed-format mp3 GStreamer plug-in",
-            "updated": "2018-10-09T19:10:57+0000"
+            "updated": "2018-10-14T12:10:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1271,7 +1271,7 @@
             "filename": "gstreamer_0.10.36.bb",
             "filepath": "recipes-multimedia/gstreamer-0.10",
             "homepage": "http://gstreamer.freedesktop.org/",
-            "id": 742310,
+            "id": 771052,
             "inherits": "autotools gettext pkgconfig siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "LGPLv2+",
@@ -1280,7 +1280,7 @@
             "pv": "0.10.36",
             "section": "multimedia",
             "summary": "GStreamer multimedia framework",
-            "updated": "2018-10-09T19:10:57+0000"
+            "updated": "2018-10-14T12:10:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1290,7 +1290,7 @@
             "filename": "gst-plugins-ugly_0.10.19.bb",
             "filepath": "recipes-multimedia/gstreamer-0.10",
             "homepage": "http://gstreamer.freedesktop.org/",
-            "id": 742311,
+            "id": 771053,
             "inherits": "autotools gettext gobject-introspection gobject-introspection-data pkgconfig python3-dir python3native siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "GPLv2+ & LGPLv2.1+ & LGPLv2+",
@@ -1299,7 +1299,7 @@
             "pv": "0.10.19",
             "section": "multimedia",
             "summary": "Plugins for the GStreamer multimedia framework",
-            "updated": "2018-10-09T19:10:57+0000"
+            "updated": "2018-10-14T12:10:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1309,7 +1309,7 @@
             "filename": "gst-plugins-good_0.10.31.bb",
             "filepath": "recipes-multimedia/gstreamer-0.10",
             "homepage": "http://gstreamer.freedesktop.org/",
-            "id": 742312,
+            "id": 771054,
             "inherits": "autotools gconf gettext gobject-introspection gobject-introspection-data pkgconfig python3-dir python3native siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "GPLv2+ & LGPLv2.1+",
@@ -1318,7 +1318,7 @@
             "pv": "0.10.31",
             "section": "multimedia",
             "summary": "Plugins for the GStreamer multimedia framework",
-            "updated": "2018-10-09T19:10:58+0000"
+            "updated": "2018-10-14T12:10:13+0000"
         },
         {
             "bbclassextend": "",
@@ -1328,7 +1328,7 @@
             "filename": "gst-plugins-bad_0.10.23.bb",
             "filepath": "recipes-multimedia/gstreamer-0.10",
             "homepage": "http://gstreamer.freedesktop.org/",
-            "id": 742313,
+            "id": 771055,
             "inherits": "autotools gettext gobject-introspection gobject-introspection-data gsettings pkgconfig python3-dir python3native siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "GPLv2+ & LGPLv2+ & LGPLv2.1+ ",
@@ -1337,7 +1337,7 @@
             "pv": "0.10.23",
             "section": "multimedia",
             "summary": "Plugins for the GStreamer multimedia framework",
-            "updated": "2018-10-09T19:10:58+0000"
+            "updated": "2018-10-14T12:10:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1347,7 +1347,7 @@
             "filename": "schroedinger_1.0.11.bb",
             "filepath": "recipes-multimedia/schroedinger",
             "homepage": "http://schrodinger.sourceforge.net/",
-            "id": 742314,
+            "id": 771056,
             "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "MPL-1.1 | GPLv2 | LGPLv2 | MIT",
@@ -1356,7 +1356,7 @@
             "pv": "1.0.11",
             "section": "base",
             "summary": "Dirac compressed video encoder/decoder",
-            "updated": "2018-10-09T19:10:58+0000"
+            "updated": "2018-10-14T12:10:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1366,7 +1366,7 @@
             "filename": "gstd_1.0.bb",
             "filepath": "recipes-multimedia/gstreamer-1.0",
             "homepage": "https://developer.ridgerun.com/wiki/index.php?title=Gstd-1.0",
-            "id": 742315,
+            "id": 771057,
             "inherits": "autotools gettext gtk-doc pkgconfig python3-dir python3native qemu siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "GPLv2+",
@@ -1375,7 +1375,7 @@
             "pv": "1.0",
             "section": "multimedia",
             "summary": "GStreamer framework for controlling audio and video streaming using TCP connection messages",
-            "updated": "2018-10-09T19:10:58+0000"
+            "updated": "2018-10-14T12:10:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1385,7 +1385,7 @@
             "filename": "gst-shark_0.2.1.bb",
             "filepath": "recipes-multimedia/gstreamer-1.0",
             "homepage": "https://developer.ridgerun.com/wiki/index.php?title=GstShark",
-            "id": 742316,
+            "id": 771058,
             "inherits": "autotools gettext siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "GPLv2+",
@@ -1394,7 +1394,7 @@
             "pv": "0.2.1",
             "section": "multimedia",
             "summary": "Gst-Shark Tracers",
-            "updated": "2018-10-09T19:10:58+0000"
+            "updated": "2018-10-14T12:10:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1404,7 +1404,7 @@
             "filename": "gerbera_git.bb",
             "filepath": "recipes-multimedia/gerbera",
             "homepage": "",
-            "id": 742317,
+            "id": 771059,
             "inherits": "cmake systemd",
             "layerbranch": 836715,
             "license": "GPLv2",
@@ -1413,7 +1413,7 @@
             "pv": "1.0+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-09T19:10:59+0000"
+            "updated": "2018-10-14T12:10:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1423,7 +1423,7 @@
             "filename": "opusfile_0.10.bb",
             "filepath": "recipes-multimedia/opusfile",
             "homepage": "https://www.opus-codec.org/",
-            "id": 742318,
+            "id": 771060,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "BSD-3-Clause",
@@ -1432,7 +1432,7 @@
             "pv": "0.10",
             "section": "audio",
             "summary": "",
-            "updated": "2018-10-09T19:10:59+0000"
+            "updated": "2018-10-14T12:10:14+0000"
         },
         {
             "bbclassextend": "",
@@ -1442,7 +1442,7 @@
             "filename": "faac_1.29.bb",
             "filepath": "recipes-multimedia/faac",
             "homepage": "http://www.audiocoding.com/faac.html",
-            "id": 742319,
+            "id": 771061,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "LGPLv2+",
@@ -1451,7 +1451,7 @@
             "pv": "1.29",
             "section": "libs",
             "summary": "Freeware Advanced Audio Coder (MPEG2-AAC, MPEG4-AAC)",
-            "updated": "2018-10-09T19:10:59+0000"
+            "updated": "2018-10-14T12:10:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1461,7 +1461,7 @@
             "filename": "libopenmpt_0.3.10.bb",
             "filepath": "recipes-multimedia/libopenmpt",
             "homepage": "https://lib.openmpt.org/libopenmpt/",
-            "id": 742320,
+            "id": 771062,
             "inherits": "autotools pkgconfig ptest siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "BSD-3-Clause",
@@ -1470,7 +1470,7 @@
             "pv": "0.3.10",
             "section": "libs",
             "summary": "C and C++ cross-platform library for decoding tracked music files (modules)",
-            "updated": "2018-10-09T19:10:59+0000"
+            "updated": "2018-10-14T12:10:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1480,7 +1480,7 @@
             "filename": "libao_1.2.0.bb",
             "filepath": "recipes-multimedia/libao",
             "homepage": "https://www.xiph.org/ao/",
-            "id": 742321,
+            "id": 771063,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "GPLv2",
@@ -1489,7 +1489,7 @@
             "pv": "1.2.0",
             "section": "multimedia",
             "summary": "Cross-platform audio output library and plugins",
-            "updated": "2018-10-09T19:10:59+0000"
+            "updated": "2018-10-14T12:10:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1499,7 +1499,7 @@
             "filename": "vlc_2.2.2.bb",
             "filepath": "recipes-multimedia/vlc",
             "homepage": "http://www.videolan.org",
-            "id": 742322,
+            "id": 771064,
             "inherits": "autotools distro_features_check gettext pkgconfig siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "GPL-2.0",
@@ -1508,7 +1508,7 @@
             "pv": "2.2.2",
             "section": "multimedia",
             "summary": "",
-            "updated": "2018-10-09T19:10:00+0000"
+            "updated": "2018-10-14T12:10:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1518,7 +1518,7 @@
             "filename": "libdvdcss_1.3.0.bb",
             "filepath": "recipes-multimedia/vlc",
             "homepage": "",
-            "id": 742323,
+            "id": 771065,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "GPLv2",
@@ -1527,7 +1527,7 @@
             "pv": "1.3.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-09T19:10:00+0000"
+            "updated": "2018-10-14T12:10:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1537,7 +1537,7 @@
             "filename": "libdvdnav_5.0.3.bb",
             "filepath": "recipes-multimedia/libdvdnav",
             "homepage": "",
-            "id": 742324,
+            "id": 771066,
             "inherits": "autotools binconfig lib_package pkgconfig siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "GPLv2+",
@@ -1546,7 +1546,7 @@
             "pv": "5.0.3",
             "section": "libs/multimedia",
             "summary": "library for DVD navigation features",
-            "updated": "2018-10-09T19:10:00+0000"
+            "updated": "2018-10-14T12:10:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1556,7 +1556,7 @@
             "filename": "libdc1394_git.bb",
             "filepath": "recipes-multimedia/libdc1394",
             "homepage": "http://sourceforge.net/projects/libdc1394/",
-            "id": 742325,
+            "id": 771067,
             "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo",
             "layerbranch": 836715,
             "license": "LGPL-2.0",
@@ -1565,7 +1565,7 @@
             "pv": "2.2.5+gitrX",
             "section": "libs",
             "summary": "Capture and control API for IIDC compliant cameras",
-            "updated": "2018-10-09T19:10:00+0000"
+            "updated": "2018-10-14T12:10:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1575,7 +1575,7 @@
             "filename": "libebml_1.3.0.bb",
             "filepath": "recipes-mkv/libebml",
             "homepage": "",
-            "id": 742326,
+            "id": 771068,
             "inherits": "dos2unix",
             "layerbranch": 836715,
             "license": "LGPLv2.1",
@@ -1584,7 +1584,7 @@
             "pv": "1.3.0",
             "section": "base",
             "summary": "libebml is a C++ libary to parse EBML files",
-            "updated": "2018-10-09T19:10:01+0000"
+            "updated": "2018-10-14T12:10:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1594,7 +1594,7 @@
             "filename": "libmatroska_1.4.1.bb",
             "filepath": "recipes-mkv/libmatroska",
             "homepage": "",
-            "id": 742327,
+            "id": 771069,
             "inherits": "",
             "layerbranch": 836715,
             "license": "LGPLv2.1",
@@ -1603,7 +1603,7 @@
             "pv": "1.4.1",
             "section": "base",
             "summary": "libmatroska is a C++ libary to parse Matroska files (.mkv and .mka)",
-            "updated": "2018-10-09T19:10:01+0000"
+            "updated": "2018-10-14T12:10:16+0000"
         }
     ],
     "wrtemplates": []

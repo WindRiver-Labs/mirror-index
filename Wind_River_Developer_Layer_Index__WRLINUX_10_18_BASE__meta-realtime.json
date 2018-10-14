@@ -22,15 +22,15 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20181007",
+            "actual_branch": "wr-10.18-20181010",
             "branch": 100,
             "collection": "core",
             "id": 836626,
             "layer": 1,
-            "updated": "2018-10-09T19:10:50+0000",
-            "vcs_last_commit": "2018-10-09T06:10:19+0000",
-            "vcs_last_fetch": "2018-10-09T19:10:50+0000",
-            "vcs_last_rev": "5678c3fa80c8a2f00dc2d29e779a4acad87298d9",
+            "updated": "2018-10-14T12:10:15+0000",
+            "vcs_last_commit": "2018-10-11T08:10:17+0000",
+            "vcs_last_fetch": "2018-10-14T12:10:15+0000",
+            "vcs_last_rev": "69876d5d219d5aa858a35d3ecd6844f4b7b72d50",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -41,9 +41,9 @@
             "collection": "realtime",
             "id": 836719,
             "layer": 48,
-            "updated": "2018-10-09T19:10:31+0000",
+            "updated": "2018-10-14T12:10:44+0000",
             "vcs_last_commit": "2018-10-08T06:10:12+0000",
-            "vcs_last_fetch": "2018-10-09T19:10:31+0000",
+            "vcs_last_fetch": "2018-10-14T12:10:44+0000",
             "vcs_last_rev": "76b0ce6b914c442088657c627a325e82d66678b9",
             "vcs_subdir": "",
             "version": "1",
@@ -112,7 +112,7 @@
             "filename": "latencytop_0.5.bb",
             "filepath": "recipes-kernel/latencytop",
             "homepage": "http://www.latencytop.org/",
-            "id": 742412,
+            "id": 771154,
             "inherits": "pkgconfig",
             "layerbranch": 836719,
             "license": "GPLv2",
@@ -121,7 +121,7 @@
             "pv": "0.5",
             "section": "base",
             "summary": "Linux tool for measuring and fixing latency",
-            "updated": "2018-10-09T19:10:30+0000"
+            "updated": "2018-10-14T12:10:43+0000"
         },
         {
             "bbclassextend": "",
@@ -131,7 +131,7 @@
             "filename": "rt-app.bb",
             "filepath": "recipes-tools/rt-app",
             "homepage": "",
-            "id": 742413,
+            "id": 771155,
             "inherits": "autotools gettext pkgconfig siteconfig siteinfo",
             "layerbranch": 836719,
             "license": "GPLv2",
@@ -140,7 +140,7 @@
             "pv": "1.0",
             "section": "devel",
             "summary": "",
-            "updated": "2018-10-09T19:10:30+0000"
+            "updated": "2018-10-14T12:10:43+0000"
         },
         {
             "bbclassextend": "",
@@ -150,7 +150,7 @@
             "filename": "schedtool-dl.bb",
             "filepath": "recipes-tools/schedtool-dl",
             "homepage": "",
-            "id": 742414,
+            "id": 771156,
             "inherits": "",
             "layerbranch": 836719,
             "license": "GPLv2",
@@ -159,7 +159,7 @@
             "pv": "1.0",
             "section": "devel",
             "summary": "",
-            "updated": "2018-10-09T19:10:31+0000"
+            "updated": "2018-10-14T12:10:43+0000"
         },
         {
             "bbclassextend": "",
@@ -169,7 +169,7 @@
             "filename": "core-image-rt-extended.bb",
             "filepath": "recipes-extended/images",
             "homepage": "",
-            "id": 742415,
+            "id": 771157,
             "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 836719,
             "license": "MIT",
@@ -178,7 +178,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-10-09T19:10:31+0000"
+            "updated": "2018-10-14T12:10:44+0000"
         }
     ],
     "wrtemplates": []

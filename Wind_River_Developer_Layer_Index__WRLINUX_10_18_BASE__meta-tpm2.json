@@ -22,29 +22,29 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20181007",
+            "actual_branch": "wr-10.18-20181010",
             "branch": 100,
             "collection": "core",
             "id": 836626,
             "layer": 1,
-            "updated": "2018-10-09T19:10:50+0000",
-            "vcs_last_commit": "2018-10-09T06:10:19+0000",
-            "vcs_last_fetch": "2018-10-09T19:10:50+0000",
-            "vcs_last_rev": "5678c3fa80c8a2f00dc2d29e779a4acad87298d9",
+            "updated": "2018-10-14T12:10:15+0000",
+            "vcs_last_commit": "2018-10-11T08:10:17+0000",
+            "vcs_last_fetch": "2018-10-14T12:10:15+0000",
+            "vcs_last_rev": "69876d5d219d5aa858a35d3ecd6844f4b7b72d50",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180927",
+            "actual_branch": "wr-10.18-20181010",
             "branch": 100,
             "collection": "tpm2",
             "id": 836732,
             "layer": 152,
-            "updated": "2018-10-09T19:10:22+0000",
-            "vcs_last_commit": "2018-10-08T07:10:55+0000",
-            "vcs_last_fetch": "2018-10-09T19:10:22+0000",
-            "vcs_last_rev": "36d85d0b0d5535cb9c2743e114516c7d36776215",
+            "updated": "2018-10-14T12:10:36+0000",
+            "vcs_last_commit": "2018-10-10T01:10:41+0000",
+            "vcs_last_fetch": "2018-10-14T12:10:36+0000",
+            "vcs_last_rev": "555826550ea4412ff15a3878714d9b729431c379",
             "vcs_subdir": "meta-tpm2",
             "version": null,
             "yp_compatible_version": null
@@ -112,7 +112,7 @@
             "filename": "packagegroup-tpm2.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 742379,
+            "id": 771121,
             "inherits": "allarch packagegroup",
             "layerbranch": 836732,
             "license": "MIT",
@@ -121,7 +121,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-09T19:10:20+0000"
+            "updated": "2018-10-14T12:10:34+0000"
         },
         {
             "bbclassextend": "",
@@ -131,7 +131,7 @@
             "filename": "packagegroup-tpm2-initramfs.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 742380,
+            "id": 771122,
             "inherits": "allarch packagegroup",
             "layerbranch": 836732,
             "license": "MIT",
@@ -140,7 +140,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-09T19:10:20+0000"
+            "updated": "2018-10-14T12:10:34+0000"
         },
         {
             "bbclassextend": "native",
@@ -150,7 +150,7 @@
             "filename": "python-beautifulsoup4_4.4.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/beautifulsoup4/",
-            "id": 742381,
+            "id": 771123,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
             "layerbranch": 836732,
             "license": "Apache-2.0",
@@ -159,7 +159,7 @@
             "pv": "4.4.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-10-09T19:10:20+0000"
+            "updated": "2018-10-14T12:10:34+0000"
         },
         {
             "bbclassextend": "",
@@ -169,7 +169,7 @@
             "filename": "tpm2simulator-native_git.bb",
             "filepath": "recipes-devtools/tpm2simulator",
             "homepage": "",
-            "id": 742382,
+            "id": 771124,
             "inherits": "cmake lib_package native nopackages python-dir pythonnative relocatable",
             "layerbranch": 836732,
             "license": "BSD-2-Clause",
@@ -178,7 +178,7 @@
             "pv": "1.38+gitX",
             "section": "base",
             "summary": "TPM 2.0 Simulator Extraction Script",
-            "updated": "2018-10-09T19:10:20+0000"
+            "updated": "2018-10-14T12:10:34+0000"
         },
         {
             "bbclassextend": "",
@@ -188,7 +188,7 @@
             "filename": "tpm2-tss_git.bb",
             "filepath": "recipes-tpm/tpm2-tss",
             "homepage": "https://github.com/tpm2-software/tpm2-tss",
-            "id": 742383,
+            "id": 771125,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 836732,
             "license": "BSD-2-Clause",
@@ -197,7 +197,7 @@
             "pv": "git.X",
             "section": "security/tpm",
             "summary": "The TCG TPM2 Software Stack",
-            "updated": "2018-10-09T19:10:21+0000"
+            "updated": "2018-10-14T12:10:34+0000"
         },
         {
             "bbclassextend": "",
@@ -207,7 +207,7 @@
             "filename": "tpm2-tss_2.0.0.bb",
             "filepath": "recipes-tpm/tpm2-tss",
             "homepage": "https://github.com/tpm2-software/tpm2-tss",
-            "id": 742384,
+            "id": 771126,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 836732,
             "license": "BSD-2-Clause",
@@ -216,7 +216,7 @@
             "pv": "2.0.0",
             "section": "security/tpm",
             "summary": "The TCG TPM2 Software Stack",
-            "updated": "2018-10-09T19:10:21+0000"
+            "updated": "2018-10-14T12:10:35+0000"
         },
         {
             "bbclassextend": "",
@@ -226,7 +226,7 @@
             "filename": "tpm2-abrmd_git.bb",
             "filepath": "recipes-tpm/tpm2-abrmd",
             "homepage": "https://github.com/tpm2-software/tpm2-abrmd",
-            "id": 742385,
+            "id": 771127,
             "inherits": "autotools pkgconfig siteconfig siteinfo systemd update-rc.d useradd useradd_base",
             "layerbranch": 836732,
             "license": "BSD-2-Clause",
@@ -235,7 +235,7 @@
             "pv": "git.X",
             "section": "security/tpm",
             "summary": "TPM2 Access Broker & Resource Manager",
-            "updated": "2018-10-09T19:10:21+0000"
+            "updated": "2018-10-14T12:10:35+0000"
         },
         {
             "bbclassextend": "",
@@ -245,7 +245,7 @@
             "filename": "tpm2-abrmd_2.0.1.bb",
             "filepath": "recipes-tpm/tpm2-abrmd",
             "homepage": "https://github.com/tpm2-software/tpm2-abrmd",
-            "id": 742386,
+            "id": 771128,
             "inherits": "autotools pkgconfig siteconfig siteinfo systemd update-rc.d useradd useradd_base",
             "layerbranch": 836732,
             "license": "BSD-2-Clause",
@@ -254,7 +254,7 @@
             "pv": "2.0.1",
             "section": "security/tpm",
             "summary": "TPM2 Access Broker & Resource Manager",
-            "updated": "2018-10-09T19:10:21+0000"
+            "updated": "2018-10-14T12:10:35+0000"
         },
         {
             "bbclassextend": "",
@@ -264,7 +264,7 @@
             "filename": "tpm2-tools_git.bb",
             "filepath": "recipes-tpm/tpm2-tools",
             "homepage": "https://github.com/tpm2-software/tpm2-tools",
-            "id": 742387,
+            "id": 771129,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 836732,
             "license": "BSD",
@@ -273,7 +273,7 @@
             "pv": "git.X",
             "section": "security/tpm",
             "summary": "Tools for TPM2",
-            "updated": "2018-10-09T19:10:21+0000"
+            "updated": "2018-10-14T12:10:35+0000"
         },
         {
             "bbclassextend": "",
@@ -283,7 +283,7 @@
             "filename": "tpm2-tools_3.1.1.bb",
             "filepath": "recipes-tpm/tpm2-tools",
             "homepage": "https://github.com/tpm2-software/tpm2-tools",
-            "id": 742388,
+            "id": 771130,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 836732,
             "license": "BSD",
@@ -292,7 +292,7 @@
             "pv": "3.1.1",
             "section": "security/tpm",
             "summary": "Tools for TPM2",
-            "updated": "2018-10-09T19:10:22+0000"
+            "updated": "2018-10-14T12:10:36+0000"
         }
     ],
     "wrtemplates": []

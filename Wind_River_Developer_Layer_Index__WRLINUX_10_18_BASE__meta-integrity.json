@@ -22,43 +22,43 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20181007",
+            "actual_branch": "wr-10.18-20181010",
             "branch": 100,
             "collection": "core",
             "id": 836626,
             "layer": 1,
-            "updated": "2018-10-09T19:10:50+0000",
-            "vcs_last_commit": "2018-10-09T06:10:19+0000",
-            "vcs_last_fetch": "2018-10-09T19:10:50+0000",
-            "vcs_last_rev": "5678c3fa80c8a2f00dc2d29e779a4acad87298d9",
+            "updated": "2018-10-14T12:10:15+0000",
+            "vcs_last_commit": "2018-10-11T08:10:17+0000",
+            "vcs_last_fetch": "2018-10-14T12:10:15+0000",
+            "vcs_last_rev": "69876d5d219d5aa858a35d3ecd6844f4b7b72d50",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180927",
+            "actual_branch": "wr-10.18-20181010",
             "branch": 100,
             "collection": "integrity",
             "id": 836726,
             "layer": 128,
-            "updated": "2018-10-09T19:10:10+0000",
-            "vcs_last_commit": "2018-10-08T07:10:55+0000",
-            "vcs_last_fetch": "2018-10-09T19:10:10+0000",
-            "vcs_last_rev": "36d85d0b0d5535cb9c2743e114516c7d36776215",
+            "updated": "2018-10-14T12:10:18+0000",
+            "vcs_last_commit": "2018-10-10T01:10:41+0000",
+            "vcs_last_fetch": "2018-10-14T12:10:18+0000",
+            "vcs_last_rev": "555826550ea4412ff15a3878714d9b729431c379",
             "vcs_subdir": "meta-integrity",
             "version": null,
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180927",
+            "actual_branch": "wr-10.18-20181010",
             "branch": 100,
             "collection": "signing-key",
             "id": 836727,
             "layer": 129,
-            "updated": "2018-10-09T19:10:34+0000",
-            "vcs_last_commit": "2018-10-08T07:10:55+0000",
-            "vcs_last_fetch": "2018-10-09T19:10:34+0000",
-            "vcs_last_rev": "36d85d0b0d5535cb9c2743e114516c7d36776215",
+            "updated": "2018-10-14T12:10:46+0000",
+            "vcs_last_commit": "2018-10-10T01:10:41+0000",
+            "vcs_last_fetch": "2018-10-14T12:10:46+0000",
+            "vcs_last_rev": "555826550ea4412ff15a3878714d9b729431c379",
             "vcs_subdir": "meta-signing-key",
             "version": null,
             "yp_compatible_version": null
@@ -162,7 +162,7 @@
             "filename": "keyutils_git.bb",
             "filepath": "recipes-support/keyutils",
             "homepage": "",
-            "id": 742876,
+            "id": 771618,
             "inherits": "autotools autotools-brokensep siteconfig siteinfo",
             "layerbranch": 836726,
             "license": "GPLv2",
@@ -171,7 +171,7 @@
             "pv": "1.5.10+gitX",
             "section": "base",
             "summary": "Linux Key Management Utilities",
-            "updated": "2018-10-09T19:10:09+0000"
+            "updated": "2018-10-14T12:10:17+0000"
         },
         {
             "bbclassextend": "",
@@ -181,7 +181,7 @@
             "filename": "ima-policy_0.1.bb",
             "filepath": "recipes-support/ima-policy",
             "homepage": "",
-            "id": 742877,
+            "id": 771619,
             "inherits": "",
             "layerbranch": 836726,
             "license": "MIT",
@@ -190,7 +190,7 @@
             "pv": "0.1",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-09T19:10:09+0000"
+            "updated": "2018-10-14T12:10:17+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -200,7 +200,7 @@
             "filename": "ima-evm-utils_git.bb",
             "filepath": "recipes-support/ima-evm-utils",
             "homepage": "",
-            "id": 742878,
+            "id": 771620,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 836726,
             "license": "GPLv2",
@@ -209,7 +209,7 @@
             "pv": "1.0+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-09T19:10:09+0000"
+            "updated": "2018-10-14T12:10:17+0000"
         },
         {
             "bbclassextend": "",
@@ -219,7 +219,7 @@
             "filename": "ima-inspect_0.11.bb",
             "filepath": "recipes-support/ima-inspect",
             "homepage": "",
-            "id": 742879,
+            "id": 771621,
             "inherits": "autotools pkgconfig siteconfig siteinfo",
             "layerbranch": 836726,
             "license": "GPLv2+",
@@ -228,7 +228,7 @@
             "pv": "0.11",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-09T19:10:09+0000"
+            "updated": "2018-10-14T12:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -238,7 +238,7 @@
             "filename": "packagegroup-ima-initramfs.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 742880,
+            "id": 771622,
             "inherits": "",
             "layerbranch": 836726,
             "license": "MIT",
@@ -247,7 +247,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-09T19:10:10+0000"
+            "updated": "2018-10-14T12:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -257,7 +257,7 @@
             "filename": "packagegroup-ima.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 742881,
+            "id": 771623,
             "inherits": "",
             "layerbranch": 836726,
             "license": "MIT",
@@ -266,7 +266,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-09T19:10:10+0000"
+            "updated": "2018-10-14T12:10:18+0000"
         },
         {
             "bbclassextend": "",
@@ -276,7 +276,7 @@
             "filename": "initrdscripts-ima.bb",
             "filepath": "recipes-core/initrdscripts",
             "homepage": "",
-            "id": 742882,
+            "id": 771624,
             "inherits": "",
             "layerbranch": 836726,
             "license": "MIT",
@@ -285,7 +285,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-09T19:10:10+0000"
+            "updated": "2018-10-14T12:10:18+0000"
         }
     ],
     "wrtemplates": []

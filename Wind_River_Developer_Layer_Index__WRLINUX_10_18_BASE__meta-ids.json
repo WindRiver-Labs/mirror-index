@@ -22,43 +22,43 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20181007",
+            "actual_branch": "wr-10.18-20181010",
             "branch": 100,
             "collection": "core",
             "id": 836626,
             "layer": 1,
-            "updated": "2018-10-09T19:10:50+0000",
-            "vcs_last_commit": "2018-10-09T06:10:19+0000",
-            "vcs_last_fetch": "2018-10-09T19:10:50+0000",
-            "vcs_last_rev": "5678c3fa80c8a2f00dc2d29e779a4acad87298d9",
+            "updated": "2018-10-14T12:10:15+0000",
+            "vcs_last_commit": "2018-10-11T08:10:17+0000",
+            "vcs_last_fetch": "2018-10-14T12:10:15+0000",
+            "vcs_last_rev": "69876d5d219d5aa858a35d3ecd6844f4b7b72d50",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20181007",
+            "actual_branch": "wr-10.18-20181010",
             "branch": 100,
             "collection": "networking-layer",
             "id": 836711,
             "layer": 11,
-            "updated": "2018-10-09T19:10:48+0000",
-            "vcs_last_commit": "2018-10-08T01:10:54+0000",
-            "vcs_last_fetch": "2018-10-09T19:10:48+0000",
-            "vcs_last_rev": "113b79e03cc8c546e8b7506518902da309a0efed",
+            "updated": "2018-10-14T12:10:53+0000",
+            "vcs_last_commit": "2018-10-11T00:10:06+0000",
+            "vcs_last_fetch": "2018-10-14T12:10:53+0000",
+            "vcs_last_rev": "0325978daa1252e91e4e1c984238214617dac854",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20180927",
+            "actual_branch": "wr-10.18-20181010",
             "branch": 100,
             "collection": "ids",
             "id": 836730,
             "layer": 150,
-            "updated": "2018-10-09T19:10:11+0000",
-            "vcs_last_commit": "2018-10-08T07:10:55+0000",
-            "vcs_last_fetch": "2018-10-09T19:10:11+0000",
-            "vcs_last_rev": "36d85d0b0d5535cb9c2743e114516c7d36776215",
+            "updated": "2018-10-14T12:10:14+0000",
+            "vcs_last_commit": "2018-10-10T01:10:41+0000",
+            "vcs_last_fetch": "2018-10-14T12:10:14+0000",
+            "vcs_last_rev": "555826550ea4412ff15a3878714d9b729431c379",
             "vcs_subdir": "meta-ids",
             "version": null,
             "yp_compatible_version": null
@@ -150,7 +150,7 @@
             "filename": "mtree_git.bb",
             "filepath": "recipes-ids/mtree",
             "homepage": "",
-            "id": 743143,
+            "id": 771885,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 836730,
             "license": "BSD",
@@ -159,7 +159,7 @@
             "pv": "1.0.3+gitX",
             "section": "utils",
             "summary": "BSD directory hierarchy mapping tool",
-            "updated": "2018-10-09T19:10:11+0000"
+            "updated": "2018-10-14T12:10:14+0000"
         },
         {
             "bbclassextend": "",
@@ -169,7 +169,7 @@
             "filename": "packagegroup-ids.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 743144,
+            "id": 771886,
             "inherits": "allarch packagegroup",
             "layerbranch": 836730,
             "license": "MIT",
@@ -178,7 +178,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-09T19:10:11+0000"
+            "updated": "2018-10-14T12:10:14+0000"
         }
     ],
     "wrtemplates": []
