@@ -9,12 +9,13 @@
     "branches": [
         {
             "bitbake_branch": "wr-10.17-20180620",
+            "comparison": false,
             "id": 48,
             "name": "WRLINUX_10_17_BASE",
             "short_description": "Wind River Linux 10_17 Baseline",
             "sort_priority": 9,
             "update_environment": null,
-            "updated": "2018-06-26T22:06:30+0000",
+            "updated": "2018-06-27T03:06:30+0000",
             "updates_enabled": true
         }
     ],
@@ -26,9 +27,9 @@
             "collection": "core",
             "id": 165030,
             "layer": 1,
-            "updated": "2018-08-29T22:08:13+0000",
-            "vcs_last_commit": "2018-08-29T22:08:08+0000",
-            "vcs_last_fetch": "2018-08-29T22:08:13+0000",
+            "updated": "2018-08-30T03:08:13+0000",
+            "vcs_last_commit": "2018-08-30T03:08:08+0000",
+            "vcs_last_fetch": "2018-08-30T03:08:13+0000",
             "vcs_last_rev": "c554c0c15d5ab68de8fa8b2aa313ca434ece6e57",
             "vcs_subdir": "meta",
             "version": "11",
@@ -40,9 +41,9 @@
             "collection": "meta-initramfs",
             "id": 165074,
             "layer": 4,
-            "updated": "2018-08-14T03:08:13+0000",
-            "vcs_last_commit": "2017-10-18T01:10:28+0000",
-            "vcs_last_fetch": "2018-08-14T03:08:13+0000",
+            "updated": "2018-08-14T08:08:13+0000",
+            "vcs_last_commit": "2017-10-18T06:10:28+0000",
+            "vcs_last_fetch": "2018-08-14T08:08:13+0000",
             "vcs_last_rev": "94e9e03da4d5539963d6f536f03c5d3cb0e1d4f1",
             "vcs_subdir": "meta-initramfs",
             "version": null,
@@ -65,7 +66,7 @@
     ],
     "layerItems": [
         {
-            "classic": false,
+            "comparison": false,
             "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
             "id": 1,
             "index_preference": 1000,
@@ -74,7 +75,7 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2018-05-30T18:05:28+0000",
+            "updated": "2018-05-30T23:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
             "vcs_web_commit_url": "",
@@ -83,7 +84,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "This layer contains the metadata necessary to build the klibc library and\r\nutilities (shared and static) plus other tools useful for the creation of\r\nsmall-sized initramfs.",
             "id": 4,
             "index_preference": 800,
@@ -92,7 +93,7 @@
             "name": "meta-initramfs",
             "status": "P",
             "summary": "klibc library and related utilities for building an initramfs",
-            "updated": "2018-05-30T17:05:49+0000",
+            "updated": "2018-05-30T22:05:49+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_commit_url": "",
@@ -120,7 +121,7 @@
             "pv": "2.0.2",
             "section": "kernel/userland",
             "summary": "Kexec tools, statically compiled against klibc",
-            "updated": "2018-08-14T03:08:11+0000"
+            "updated": "2018-08-14T08:08:11+0000"
         },
         {
             "bbclassextend": "",
@@ -139,7 +140,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Extremely basic live image init script",
-            "updated": "2018-08-14T03:08:11+0000"
+            "updated": "2018-08-14T08:08:11+0000"
         },
         {
             "bbclassextend": "",
@@ -158,7 +159,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Initramfs image for kexecboot kernel",
-            "updated": "2018-08-14T03:08:11+0000"
+            "updated": "2018-08-14T08:08:11+0000"
         },
         {
             "bbclassextend": "",
@@ -177,7 +178,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Initramfs image for kexecboot kernel (klibc-static binaries)",
-            "updated": "2018-08-14T03:08:11+0000"
+            "updated": "2018-08-14T08:08:11+0000"
         },
         {
             "bbclassextend": "",
@@ -196,7 +197,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-08-14T03:08:11+0000"
+            "updated": "2018-08-14T08:08:11+0000"
         },
         {
             "bbclassextend": "klibc",
@@ -215,7 +216,7 @@
             "pv": "0.6+gitX",
             "section": "base",
             "summary": "kexecboot linux-as-bootloader",
-            "updated": "2018-08-14T03:08:12+0000"
+            "updated": "2018-08-14T08:08:12+0000"
         },
         {
             "bbclassextend": "",
@@ -234,7 +235,7 @@
             "pv": "0.2",
             "section": "base",
             "summary": "Configuration files for kexecboot",
-            "updated": "2018-08-14T03:08:12+0000"
+            "updated": "2018-08-14T08:08:12+0000"
         },
         {
             "bbclassextend": "",
@@ -253,7 +254,7 @@
             "pv": "045+git39c9b67f86145953aa30def9d77c68597a4ccfe8",
             "section": "base",
             "summary": "Initramfs generator using udev",
-            "updated": "2018-08-14T03:08:12+0000"
+            "updated": "2018-08-14T08:08:12+0000"
         },
         {
             "bbclassextend": "",
@@ -272,7 +273,7 @@
             "pv": "2.0.4",
             "section": "libs",
             "summary": "klibc utils for initramfs",
-            "updated": "2018-08-14T03:08:12+0000"
+            "updated": "2018-08-14T08:08:12+0000"
         },
         {
             "bbclassextend": "",
@@ -291,7 +292,7 @@
             "pv": "2.0.4",
             "section": "libs",
             "summary": "The klcc crosscompiler for klibc",
-            "updated": "2018-08-14T03:08:12+0000"
+            "updated": "2018-08-14T08:08:12+0000"
         },
         {
             "bbclassextend": "",
@@ -310,7 +311,7 @@
             "pv": "2.0.4",
             "section": "libs",
             "summary": "klibc utils for initramfs statically compiled",
-            "updated": "2018-08-14T03:08:12+0000"
+            "updated": "2018-08-14T08:08:12+0000"
         },
         {
             "bbclassextend": "",
@@ -329,7 +330,7 @@
             "pv": "2.0.4",
             "section": "libs",
             "summary": "klibc, a small C library for use with initramfs",
-            "updated": "2018-08-14T03:08:12+0000"
+            "updated": "2018-08-14T08:08:12+0000"
         },
         {
             "bbclassextend": "",
@@ -348,7 +349,7 @@
             "pv": "1.5.2",
             "section": "base",
             "summary": "UBI utils statically compiled against klibc",
-            "updated": "2018-08-14T03:08:13+0000"
+            "updated": "2018-08-14T08:08:13+0000"
         },
         {
             "bbclassextend": "",
@@ -367,7 +368,7 @@
             "pv": "8.40",
             "section": "base",
             "summary": "A command line tool for updating and displaying info about boot loaders",
-            "updated": "2018-08-14T03:08:13+0000"
+            "updated": "2018-08-14T08:08:13+0000"
         }
     ],
     "wrtemplates": []

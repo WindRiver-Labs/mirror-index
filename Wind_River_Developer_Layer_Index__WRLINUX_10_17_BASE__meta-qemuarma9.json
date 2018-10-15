@@ -9,12 +9,13 @@
     "branches": [
         {
             "bitbake_branch": "wr-10.17-20180620",
+            "comparison": false,
             "id": 48,
             "name": "WRLINUX_10_17_BASE",
             "short_description": "Wind River Linux 10_17 Baseline",
             "sort_priority": 9,
             "update_environment": null,
-            "updated": "2018-06-26T22:06:30+0000",
+            "updated": "2018-06-27T03:06:30+0000",
             "updates_enabled": true
         }
     ],
@@ -26,9 +27,9 @@
             "collection": "core",
             "id": 165030,
             "layer": 1,
-            "updated": "2018-08-29T22:08:13+0000",
-            "vcs_last_commit": "2018-08-29T22:08:08+0000",
-            "vcs_last_fetch": "2018-08-29T22:08:13+0000",
+            "updated": "2018-08-30T03:08:13+0000",
+            "vcs_last_commit": "2018-08-30T03:08:08+0000",
+            "vcs_last_fetch": "2018-08-30T03:08:13+0000",
             "vcs_last_rev": "c554c0c15d5ab68de8fa8b2aa313ca434ece6e57",
             "vcs_subdir": "meta",
             "version": "11",
@@ -40,9 +41,9 @@
             "collection": "qemuarma9",
             "id": 288304,
             "layer": 229,
-            "updated": "2018-08-14T03:08:35+0000",
-            "vcs_last_commit": "2017-11-27T00:11:20+0000",
-            "vcs_last_fetch": "2018-08-14T03:08:35+0000",
+            "updated": "2018-08-14T08:08:35+0000",
+            "vcs_last_commit": "2017-11-27T06:11:20+0000",
+            "vcs_last_fetch": "2018-08-14T08:08:35+0000",
             "vcs_last_rev": "dac480cdbdc517461fede0d91e58cb28a944c681",
             "vcs_subdir": "",
             "version": "1",
@@ -59,7 +60,7 @@
     ],
     "layerItems": [
         {
-            "classic": false,
+            "comparison": false,
             "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
             "id": 1,
             "index_preference": 1000,
@@ -68,7 +69,7 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2018-05-30T18:05:28+0000",
+            "updated": "2018-05-30T23:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
             "vcs_web_commit_url": "",
@@ -77,7 +78,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "QEMU Arm A9 BSP",
             "id": 229,
             "index_preference": 0,
@@ -86,7 +87,7 @@
             "name": "meta-qemuarma9",
             "status": "P",
             "summary": "QEMU Arm A9 BSP",
-            "updated": "2018-05-30T17:05:08+0000",
+            "updated": "2018-05-30T22:05:08+0000",
             "usage_url": "",
             "vcs_url": "#BASE_URL#/meta-qemuarma9",
             "vcs_web_commit_url": "",
@@ -101,7 +102,7 @@
             "id": 12143,
             "layerbranch": 288304,
             "name": "qemuarma9",
-            "updated": "2018-08-14T03:08:35+0000"
+            "updated": "2018-08-14T08:08:35+0000"
         }
     ],
     "recipes": [],

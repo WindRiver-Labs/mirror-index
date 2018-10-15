@@ -9,12 +9,13 @@
     "branches": [
         {
             "bitbake_branch": "wr-10.17-20180620",
+            "comparison": false,
             "id": 48,
             "name": "WRLINUX_10_17_BASE",
             "short_description": "Wind River Linux 10_17 Baseline",
             "sort_priority": 9,
             "update_environment": null,
-            "updated": "2018-06-26T22:06:30+0000",
+            "updated": "2018-06-27T03:06:30+0000",
             "updates_enabled": true
         }
     ],
@@ -26,9 +27,9 @@
             "collection": "core",
             "id": 165030,
             "layer": 1,
-            "updated": "2018-08-29T22:08:13+0000",
-            "vcs_last_commit": "2018-08-29T22:08:08+0000",
-            "vcs_last_fetch": "2018-08-29T22:08:13+0000",
+            "updated": "2018-08-30T03:08:13+0000",
+            "vcs_last_commit": "2018-08-30T03:08:08+0000",
+            "vcs_last_fetch": "2018-08-30T03:08:13+0000",
             "vcs_last_rev": "c554c0c15d5ab68de8fa8b2aa313ca434ece6e57",
             "vcs_subdir": "meta",
             "version": "11",
@@ -40,9 +41,9 @@
             "collection": "openembedded-layer",
             "id": 165076,
             "layer": 7,
-            "updated": "2018-08-14T03:08:05+0000",
-            "vcs_last_commit": "2018-05-29T22:05:57+0000",
-            "vcs_last_fetch": "2018-08-14T03:08:05+0000",
+            "updated": "2018-08-14T08:08:05+0000",
+            "vcs_last_commit": "2018-05-30T03:05:57+0000",
+            "vcs_last_fetch": "2018-08-14T08:08:05+0000",
             "vcs_last_rev": "6d02ece73068e403a0d36978aa0a5a0419cfbfa0",
             "vcs_subdir": "meta-oe",
             "version": "1",
@@ -54,9 +55,9 @@
             "collection": "networking-layer",
             "id": 165079,
             "layer": 11,
-            "updated": "2018-08-15T05:08:17+0000",
-            "vcs_last_commit": "2018-08-15T04:08:25+0000",
-            "vcs_last_fetch": "2018-08-15T05:08:17+0000",
+            "updated": "2018-08-15T10:08:17+0000",
+            "vcs_last_commit": "2018-08-15T09:08:25+0000",
+            "vcs_last_fetch": "2018-08-15T10:08:17+0000",
             "vcs_last_rev": "2ec0b759a6a938cafbbb80a69c05b4f65e677a58",
             "vcs_subdir": "meta-networking",
             "version": "1",
@@ -68,9 +69,9 @@
             "collection": "meta-python",
             "id": 165080,
             "layer": 12,
-            "updated": "2018-08-14T03:08:15+0000",
-            "vcs_last_commit": "2017-12-24T23:12:48+0000",
-            "vcs_last_fetch": "2018-08-14T03:08:15+0000",
+            "updated": "2018-08-14T08:08:15+0000",
+            "vcs_last_commit": "2017-12-25T05:12:48+0000",
+            "vcs_last_fetch": "2018-08-14T08:08:15+0000",
             "vcs_last_rev": "4b81f9b6ab2d867eb01ca1ab2c86bd4ecadec80b",
             "vcs_subdir": "meta-python",
             "version": "1",
@@ -82,9 +83,9 @@
             "collection": "meta-hdc",
             "id": 617561,
             "layer": 239,
-            "updated": "2018-08-14T03:08:12+0000",
-            "vcs_last_commit": "2018-05-22T22:05:00+0000",
-            "vcs_last_fetch": "2018-08-14T03:08:12+0000",
+            "updated": "2018-08-14T08:08:12+0000",
+            "vcs_last_commit": "2018-05-23T03:05:00+0000",
+            "vcs_last_fetch": "2018-08-14T08:08:12+0000",
             "vcs_last_rev": "bdd3389f6227112bf22ecc8861cfac9c8a2c44d9",
             "vcs_subdir": "",
             "version": "1",
@@ -125,7 +126,7 @@
     ],
     "layerItems": [
         {
-            "classic": false,
+            "comparison": false,
             "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
             "id": 1,
             "index_preference": 1000,
@@ -134,7 +135,7 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2018-05-30T18:05:28+0000",
+            "updated": "2018-05-30T23:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
             "vcs_web_commit_url": "",
@@ -143,7 +144,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "Additional shared OE metadata",
             "id": 7,
             "index_preference": 0,
@@ -152,7 +153,7 @@
             "name": "meta-oe",
             "status": "P",
             "summary": "Additional shared OE metadata",
-            "updated": "2018-05-30T17:05:13+0000",
+            "updated": "2018-05-30T22:05:13+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_commit_url": "",
@@ -161,7 +162,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "This layer is intended to be a central point for networking-related\r\npackages and configuration.  It should be useful directly on top of\r\noe-core and compliments meta-openembedded.  It should be primarily useful\r\nto the following groups:",
             "id": 11,
             "index_preference": 800,
@@ -170,7 +171,7 @@
             "name": "meta-networking",
             "status": "P",
             "summary": "Networking-related packages and configuration",
-            "updated": "2018-05-30T17:05:09+0000",
+            "updated": "2018-05-30T22:05:09+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_commit_url": "",
@@ -179,7 +180,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "PYTHON Language related items",
             "id": 12,
             "index_preference": 800,
@@ -188,7 +189,7 @@
             "name": "meta-python",
             "status": "P",
             "summary": "PYTHON Language related items",
-            "updated": "2018-05-30T17:05:58+0000",
+            "updated": "2018-05-30T22:05:58+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_commit_url": "",
@@ -197,7 +198,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "Device Cloud (DC) is a cloud/device platform that accelerates\r\ndevice to cloud and cloud to cloud interaction.  This meta layer integrates\r\na Python implementation that is designed to be run on the device side and can be\r\nused for device actuation, management, sending telemetry, remote\r\nconsole etc.\r\n\r\nThe Python agent for DC is designed for quick deployment on any \r\nplatform that supports Python.  The continuous deployment model uses\r\n\"pip\" to install and update the latest modules.  Any application that\r\nwants to use DC cloud services can import the \"device_cloud\" module and \r\nbegin using the DC APIs.",
             "id": 239,
             "index_preference": 0,
@@ -206,7 +207,7 @@
             "name": "meta-device-cloud",
             "status": "P",
             "summary": "HDC python agent",
-            "updated": "2018-05-30T17:05:31+0000",
+            "updated": "2018-05-30T22:05:31+0000",
             "usage_url": "",
             "vcs_url": "#BASE_URL#/meta-device-cloud",
             "vcs_web_commit_url": "",
@@ -234,7 +235,7 @@
             "pv": "1.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-08-14T03:08:11+0000"
+            "updated": "2018-08-14T08:08:11+0000"
         },
         {
             "bbclassextend": "",
@@ -253,7 +254,7 @@
             "pv": "1.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2018-08-14T03:08:11+0000"
+            "updated": "2018-08-14T08:08:11+0000"
         },
         {
             "bbclassextend": "",
@@ -272,7 +273,7 @@
             "pv": "3.3",
             "section": "devel/python",
             "summary": "An implementation of the WebSocket Protocol (RFC 6455)",
-            "updated": "2018-08-14T03:08:11+0000"
+            "updated": "2018-08-14T08:08:11+0000"
         },
         {
             "bbclassextend": "",
@@ -291,7 +292,7 @@
             "pv": "1.0",
             "section": "devel/python",
             "summary": "WebSocket client for python. hybi13 is supported.",
-            "updated": "2018-08-14T03:08:12+0000"
+            "updated": "2018-08-14T08:08:12+0000"
         },
         {
             "bbclassextend": "",
@@ -310,7 +311,7 @@
             "pv": "1.0",
             "section": "devel/python",
             "summary": "WebSocket client for python. hybi13 is supported.",
-            "updated": "2018-08-14T03:08:12+0000"
+            "updated": "2018-08-14T08:08:12+0000"
         }
     ],
     "wrtemplates": []

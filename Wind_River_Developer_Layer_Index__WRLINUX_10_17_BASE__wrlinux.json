@@ -9,12 +9,13 @@
     "branches": [
         {
             "bitbake_branch": "wr-10.17-20180620",
+            "comparison": false,
             "id": 48,
             "name": "WRLINUX_10_17_BASE",
             "short_description": "Wind River Linux 10_17 Baseline",
             "sort_priority": 9,
             "update_environment": null,
-            "updated": "2018-06-26T22:06:30+0000",
+            "updated": "2018-06-27T03:06:30+0000",
             "updates_enabled": true
         }
     ],
@@ -26,9 +27,9 @@
             "collection": "core",
             "id": 165030,
             "layer": 1,
-            "updated": "2018-08-29T22:08:13+0000",
-            "vcs_last_commit": "2018-08-29T22:08:08+0000",
-            "vcs_last_fetch": "2018-08-29T22:08:13+0000",
+            "updated": "2018-08-30T03:08:13+0000",
+            "vcs_last_commit": "2018-08-30T03:08:08+0000",
+            "vcs_last_fetch": "2018-08-30T03:08:13+0000",
             "vcs_last_rev": "c554c0c15d5ab68de8fa8b2aa313ca434ece6e57",
             "vcs_subdir": "meta",
             "version": "11",
@@ -40,9 +41,9 @@
             "collection": "wr-template",
             "id": 165069,
             "layer": 55,
-            "updated": "2018-08-14T03:08:55+0000",
-            "vcs_last_commit": "2018-05-29T02:05:35+0000",
-            "vcs_last_fetch": "2018-08-14T03:08:55+0000",
+            "updated": "2018-08-14T08:08:55+0000",
+            "vcs_last_commit": "2018-05-29T07:05:35+0000",
+            "vcs_last_fetch": "2018-08-14T08:08:55+0000",
             "vcs_last_rev": "5d7d576c4fb4e37ef33db851bc8af51a886155f8",
             "vcs_subdir": "",
             "version": "1",
@@ -54,10 +55,10 @@
             "collection": "wrlinux",
             "id": 166260,
             "layer": 49,
-            "updated": "2018-09-20T21:09:12+0000",
-            "vcs_last_commit": "2018-09-20T21:09:09+0000",
-            "vcs_last_fetch": "2018-09-20T21:09:12+0000",
-            "vcs_last_rev": "04280ff51fcdd59c39ab068956629e796f6115bc",
+            "updated": "2018-10-12T00:10:12+0000",
+            "vcs_last_commit": "2018-10-12T00:10:20+0000",
+            "vcs_last_fetch": "2018-10-12T00:10:12+0000",
+            "vcs_last_rev": "961428429c1b9d6d025d029d0ab74270c7a27c40",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": null
@@ -139,7 +140,7 @@
     ],
     "layerItems": [
         {
-            "classic": false,
+            "comparison": false,
             "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
             "id": 1,
             "index_preference": 1000,
@@ -148,7 +149,7 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2018-05-30T18:05:28+0000",
+            "updated": "2018-05-30T23:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
             "vcs_web_commit_url": "",
@@ -157,7 +158,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "This layer provides the Wind River Linux distribution definitions, \r\ndistribution-specific integration and bug fixes, and other wrlinux components.",
             "id": 49,
             "index_preference": 900,
@@ -166,7 +167,7 @@
             "name": "wrlinux",
             "status": "P",
             "summary": "Wind River Linux distribution definitions",
-            "updated": "2018-05-30T17:05:16+0000",
+            "updated": "2018-05-30T22:05:16+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/wrlinux",
             "vcs_web_commit_url": "",
@@ -175,7 +176,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "This layer provides template processing support to OpenEmbedded.  Wind River\r\ntemplates are a mechanism that permit various configurations to be enabled\r\nwith a simple setting.",
             "id": 55,
             "index_preference": 900,
@@ -184,7 +185,7 @@
             "name": "wr-template",
             "status": "P",
             "summary": "Wind River Template Support",
-            "updated": "2018-05-30T17:05:28+0000",
+            "updated": "2018-05-30T22:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/wr-template",
             "vcs_web_commit_url": "",
@@ -212,7 +213,7 @@
             "pv": "1.0",
             "section": "x11",
             "summary": "Wind River Linux Desktop Themes",
-            "updated": "2018-09-10T20:09:11+0000"
+            "updated": "2018-09-11T01:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -231,7 +232,7 @@
             "pv": "20100310+gitX",
             "section": "base",
             "summary": "inject PCIE AER errors on the software level",
-            "updated": "2018-09-10T20:09:11+0000"
+            "updated": "2018-09-11T01:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -250,7 +251,7 @@
             "pv": "1.0",
             "section": "vdso test",
             "summary": " Vdso test Tool",
-            "updated": "2018-09-10T20:09:11+0000"
+            "updated": "2018-09-11T01:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -269,7 +270,7 @@
             "pv": "20131218+gitX",
             "section": "base",
             "summary": "MCE test suite",
-            "updated": "2018-09-10T20:09:11+0000"
+            "updated": "2018-09-11T01:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -288,7 +289,7 @@
             "pv": "2.3a",
             "section": "base",
             "summary": "Intel Processor Counter Monitor",
-            "updated": "2018-09-10T20:09:11+0000"
+            "updated": "2018-09-11T01:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -307,7 +308,7 @@
             "pv": "3.4",
             "section": "base",
             "summary": "Frequency and Idle power monitoring tools for Linux",
-            "updated": "2018-09-10T20:09:12+0000"
+            "updated": "2018-09-11T01:09:12+0000"
         },
         {
             "bbclassextend": "",
@@ -326,7 +327,7 @@
             "pv": "0.0.1",
             "section": "base",
             "summary": "Cross Memory Attach test case (cma)",
-            "updated": "2018-09-10T20:09:12+0000"
+            "updated": "2018-09-11T01:09:12+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -345,7 +346,7 @@
             "pv": "1.0+gitX",
             "section": "base",
             "summary": "Credential storage for utilities that implement the askpass interface",
-            "updated": "2018-09-10T20:09:10+0000"
+            "updated": "2018-09-11T01:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -364,7 +365,7 @@
             "pv": "1.0",
             "section": "x11/wm",
             "summary": "All packages for full XFCE installation",
-            "updated": "2018-09-10T20:09:10+0000"
+            "updated": "2018-09-11T01:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -383,7 +384,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-09-10T20:09:10+0000"
+            "updated": "2018-09-11T01:09:10+0000"
         },
         {
             "bbclassextend": "",
@@ -402,7 +403,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Tools to replace busybox",
-            "updated": "2018-09-10T20:09:11+0000"
+            "updated": "2018-09-11T01:09:11+0000"
         },
         {
             "bbclassextend": "",
@@ -421,7 +422,7 @@
             "pv": "2016.03",
             "section": "base",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2018-09-10T20:09:11+0000"
+            "updated": "2018-09-11T01:09:11+0000"
         }
     ],
     "wrtemplates": [
@@ -430,224 +431,224 @@
             "id": 27637,
             "layerbranch": 166260,
             "name": "feature/security-flags",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "description": "",
             "id": 27638,
             "layerbranch": 166260,
             "name": "feature/ntp428p11",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "description": "Enable common Managed Build Project (mbp) settings",
             "id": 27639,
             "layerbranch": 166260,
             "name": "feature/mbp-project",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "description": "Add packagegroup-self-hosted to the image",
             "id": 27640,
             "layerbranch": 166260,
             "name": "feature/self-hosted",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "description": "",
             "id": 27641,
             "layerbranch": 166260,
             "name": "feature/kernel-hardening",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "description": "Add gcc-sanitizers to image",
             "id": 27642,
             "layerbranch": 166260,
             "name": "feature/gcc-sanitizers",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "description": "Enable package-test functionality",
             "id": 27643,
             "layerbranch": 166260,
             "name": "feature/ptest",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "description": "Include kernel-dev and kernel-devsrc in SDK",
             "id": 27644,
             "layerbranch": 166260,
             "name": "feature/kernel-dev",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "description": "Enable Wayland image",
             "id": 27645,
             "layerbranch": 166260,
             "name": "feature/weston-graphics",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "description": "Enable archiver class and original src mode",
             "id": 27646,
             "layerbranch": 166260,
             "name": "feature/archiver",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "description": "Set the default syslog to sysklogd",
             "id": 27647,
             "layerbranch": 166260,
             "name": "feature/sysklogd",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "description": "Enable readonly-root filesystem",
             "id": 27648,
             "layerbranch": 166260,
             "name": "feature/readonly-root",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "description": "No longer supported",
             "id": 27649,
             "layerbranch": 166260,
             "name": "feature/python-device-cloud",
-            "updated": "2018-08-26T21:08:13+0000"
+            "updated": "2018-08-27T02:08:13+0000"
         },
         {
             "description": "",
             "id": 27650,
             "layerbranch": 166260,
             "name": "feature/ntp",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "description": "Add on-target package management to image",
             "id": 27651,
             "layerbranch": 166260,
             "name": "feature/package-management",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "description": "Add valgrind to the image",
             "id": 27652,
             "layerbranch": 166260,
             "name": "feature/valgrind",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "description": "Add system and process monitoring utilities to the image",
             "id": 27653,
             "layerbranch": 166260,
             "name": "feature/system-stats",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "description": "",
             "id": 27654,
             "layerbranch": 166260,
             "name": "feature/rpm-local-keys",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "description": "Enable qemu to use native SDL libraries",
             "id": 27655,
             "layerbranch": 166260,
             "name": "feature/qemu-sdl",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "description": "Enable Data Plane Development Kit (DPDK)",
             "id": 27656,
             "layerbranch": 166260,
             "name": "feature/dpdk",
-            "updated": "2018-09-20T02:09:11+0000"
+            "updated": "2018-09-20T07:09:11+0000"
         },
         {
             "description": "Add sftp-server to the image",
             "id": 27657,
             "layerbranch": 166260,
             "name": "feature/sftp-server",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "description": "Enable Xwayland image",
             "id": 27658,
             "layerbranch": 166260,
             "name": "feature/xwayland-weston-graphics",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "description": "Add dev packages to image",
             "id": 27659,
             "layerbranch": 166260,
             "name": "feature/dev-pkgs",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "description": "Add gdb and gdbserver to image",
             "id": 27660,
             "layerbranch": 166260,
             "name": "feature/gdb",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "description": "Enable on-target software development",
             "id": 27661,
             "layerbranch": 166260,
             "name": "feature/target-toolchain",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "description": "",
             "id": 27662,
             "layerbranch": 166260,
             "name": "feature/rpm-required-sig",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "description": "Add gdbserver to image",
             "id": 27663,
             "layerbranch": 166260,
             "name": "feature/gdbserver",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "description": "",
             "id": 27664,
             "layerbranch": 166260,
             "name": "feature/wr-profiling-kernel-overrides",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "description": "No longer supported",
             "id": 27665,
             "layerbranch": 166260,
             "name": "feature/python3-device-cloud",
-            "updated": "2018-08-26T21:08:13+0000"
+            "updated": "2018-08-27T02:08:13+0000"
         },
         {
             "description": "",
             "id": 27666,
             "layerbranch": 166260,
             "name": "feature/gperftools",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "description": "",
             "id": 28219,
             "layerbranch": 166260,
             "name": "feature/ntp428p12",
-            "updated": "2018-08-15T05:08:19+0000"
+            "updated": "2018-08-15T10:08:19+0000"
         },
         {
             "description": "",
             "id": 28229,
             "layerbranch": 166260,
             "name": "feature/ecryptfs",
-            "updated": "2018-08-22T01:08:09+0000"
+            "updated": "2018-08-22T06:08:09+0000"
         }
     ]
 }

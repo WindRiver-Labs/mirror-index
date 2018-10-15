@@ -9,12 +9,13 @@
     "branches": [
         {
             "bitbake_branch": "wr-10.17-20180620",
+            "comparison": false,
             "id": 48,
             "name": "WRLINUX_10_17_BASE",
             "short_description": "Wind River Linux 10_17 Baseline",
             "sort_priority": 9,
             "update_environment": null,
-            "updated": "2018-06-26T22:06:30+0000",
+            "updated": "2018-06-27T03:06:30+0000",
             "updates_enabled": true
         }
     ],
@@ -26,9 +27,9 @@
             "collection": "core",
             "id": 165030,
             "layer": 1,
-            "updated": "2018-08-29T22:08:13+0000",
-            "vcs_last_commit": "2018-08-29T22:08:08+0000",
-            "vcs_last_fetch": "2018-08-29T22:08:13+0000",
+            "updated": "2018-08-30T03:08:13+0000",
+            "vcs_last_commit": "2018-08-30T03:08:08+0000",
+            "vcs_last_fetch": "2018-08-30T03:08:13+0000",
             "vcs_last_rev": "c554c0c15d5ab68de8fa8b2aa313ca434ece6e57",
             "vcs_subdir": "meta",
             "version": "11",
@@ -40,9 +41,9 @@
             "collection": "intel",
             "id": 165167,
             "layer": 166,
-            "updated": "2018-08-15T22:08:14+0000",
-            "vcs_last_commit": "2018-08-15T21:08:26+0000",
-            "vcs_last_fetch": "2018-08-15T22:08:14+0000",
+            "updated": "2018-08-16T03:08:14+0000",
+            "vcs_last_commit": "2018-08-16T02:08:26+0000",
+            "vcs_last_fetch": "2018-08-16T03:08:14+0000",
             "vcs_last_rev": "6ea936b90d97e85409cb0e30aeb0637f334de84a",
             "vcs_subdir": "",
             "version": "4",
@@ -65,7 +66,7 @@
     ],
     "layerItems": [
         {
-            "classic": false,
+            "comparison": false,
             "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
             "id": 1,
             "index_preference": 1000,
@@ -74,7 +75,7 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2018-05-30T18:05:28+0000",
+            "updated": "2018-05-30T23:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
             "vcs_web_commit_url": "",
@@ -83,7 +84,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "Official layer for Intel platform/board support. This layer itself (at the top level) contains common components, and then there are sub-layers for each BSP which are listed individually in this index.\r\n\r\nThis layer includes support for DPDK.",
             "id": 166,
             "index_preference": 0,
@@ -92,7 +93,7 @@
             "name": "meta-intel",
             "status": "P",
             "summary": "Intel board support common layer",
-            "updated": "2018-05-30T17:05:55+0000",
+            "updated": "2018-05-30T22:05:55+0000",
             "usage_url": "",
             "vcs_url": "#BASE_URL#/meta-intel",
             "vcs_web_commit_url": "",
@@ -107,21 +108,21 @@
             "id": 12140,
             "layerbranch": 165167,
             "name": "intel-quark",
-            "updated": "2018-08-14T03:08:25+0000"
+            "updated": "2018-08-14T08:08:25+0000"
         },
         {
             "description": " 32 bit Intel Core 2 CPU (and later) with MMX, SSE, SSE2, SSE3, and SSSE3 instruction set support. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
             "id": 12141,
             "layerbranch": 165167,
             "name": "intel-core2-32",
-            "updated": "2018-08-14T03:08:25+0000"
+            "updated": "2018-08-14T08:08:25+0000"
         },
         {
             "description": " 64 bit Intel Core i7 CPU (and later) with MMX, SSE, SSE2, SSE3, and SSSE3 instruction set support. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
             "id": 12142,
             "layerbranch": 165167,
             "name": "intel-corei7-64",
-            "updated": "2018-08-14T03:08:25+0000"
+            "updated": "2018-08-14T08:08:25+0000"
         }
     ],
     "recipes": [
@@ -142,7 +143,7 @@
             "pv": "1.19",
             "section": "x11/apps",
             "summary": "Intel GPU tools",
-            "updated": "2018-08-14T03:08:25+0000"
+            "updated": "2018-08-14T08:08:25+0000"
         },
         {
             "bbclassextend": "",
@@ -161,7 +162,7 @@
             "pv": "1.1.5",
             "section": "x11/drivers",
             "summary": "X.Org X server -- ASpeed Technologies graphics driver",
-            "updated": "2018-08-14T03:08:25+0000"
+            "updated": "2018-08-14T08:08:25+0000"
         },
         {
             "bbclassextend": "",
@@ -180,7 +181,7 @@
             "pv": "1.6.5",
             "section": "x11/drivers",
             "summary": "X.Org X server -- Matrox MGA display driver",
-            "updated": "2018-08-14T03:08:25+0000"
+            "updated": "2018-08-14T08:08:25+0000"
         },
         {
             "bbclassextend": "",
@@ -199,7 +200,7 @@
             "pv": "30",
             "section": "kernel",
             "summary": "Intel Wireless LinuxCore kernel driver",
-            "updated": "2018-08-14T03:08:25+0000"
+            "updated": "2018-08-14T08:08:25+0000"
         },
         {
             "bbclassextend": "",
@@ -218,7 +219,7 @@
             "pv": "4.1.2",
             "section": "kernel/network",
             "summary": "ixgbevf kernel driver for Intel Magnolia Park 10GbE",
-            "updated": "2018-08-14T03:08:26+0000"
+            "updated": "2018-08-14T08:08:26+0000"
         },
         {
             "bbclassextend": "",
@@ -237,7 +238,7 @@
             "pv": "5.1.3",
             "section": "kernel/network",
             "summary": "ixgbe kernel driver for Intel Magnolia Park 10GbE",
-            "updated": "2018-08-14T03:08:26+0000"
+            "updated": "2018-08-14T08:08:26+0000"
         },
         {
             "bbclassextend": "",
@@ -256,7 +257,7 @@
             "pv": "4.9.47+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-08-14T03:08:26+0000"
+            "updated": "2018-08-14T08:08:26+0000"
         },
         {
             "bbclassextend": "",
@@ -275,7 +276,7 @@
             "pv": "4.9.47+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2018-08-14T03:08:26+0000"
+            "updated": "2018-08-14T08:08:26+0000"
         },
         {
             "bbclassextend": "",
@@ -294,7 +295,7 @@
             "pv": "0.8-gitX",
             "section": "base",
             "summary": "",
-            "updated": "2018-08-14T03:08:26+0000"
+            "updated": "2018-08-14T08:08:26+0000"
         },
         {
             "bbclassextend": "",
@@ -313,7 +314,7 @@
             "pv": "1.8.3",
             "section": "base",
             "summary": "VA driver for Intel G45 & HD Graphics family",
-            "updated": "2018-08-14T03:08:26+0000"
+            "updated": "2018-08-14T08:08:26+0000"
         },
         {
             "bbclassextend": "",
@@ -332,7 +333,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-08-14T03:08:26+0000"
+            "updated": "2018-08-14T08:08:26+0000"
         },
         {
             "bbclassextend": "",
@@ -351,7 +352,7 @@
             "pv": "1.2.0",
             "section": "base",
             "summary": "Yami is media infrastructure base on libva",
-            "updated": "2018-08-14T03:08:26+0000"
+            "updated": "2018-08-14T08:08:26+0000"
         },
         {
             "bbclassextend": "",
@@ -370,7 +371,7 @@
             "pv": "1.2.0",
             "section": "base",
             "summary": "Applications and Scripts for libyami.",
-            "updated": "2018-08-14T03:08:26+0000"
+            "updated": "2018-08-14T08:08:26+0000"
         },
         {
             "bbclassextend": "",
@@ -389,7 +390,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-08-14T03:08:27+0000"
+            "updated": "2018-08-14T08:08:27+0000"
         },
         {
             "bbclassextend": "",
@@ -408,7 +409,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-08-14T03:08:27+0000"
+            "updated": "2018-08-14T08:08:27+0000"
         },
         {
             "bbclassextend": "",
@@ -427,7 +428,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Intel gma500_gfx fix for certain hardware",
-            "updated": "2018-08-14T03:08:27+0000"
+            "updated": "2018-08-14T08:08:27+0000"
         },
         {
             "bbclassextend": "",
@@ -446,7 +447,7 @@
             "pv": "1.6",
             "section": "base",
             "summary": "Linux thermal daemon",
-            "updated": "2018-08-14T03:08:27+0000"
+            "updated": "2018-08-14T08:08:27+0000"
         },
         {
             "bbclassextend": "",
@@ -465,7 +466,7 @@
             "pv": "1.1+gitX",
             "section": "base",
             "summary": "",
-            "updated": "2018-08-14T03:08:27+0000"
+            "updated": "2018-08-14T08:08:27+0000"
         },
         {
             "bbclassextend": "",
@@ -484,7 +485,7 @@
             "pv": "7.1.20",
             "section": "base",
             "summary": "",
-            "updated": "2018-08-14T03:08:27+0000"
+            "updated": "2018-08-14T08:08:27+0000"
         },
         {
             "bbclassextend": "",
@@ -503,7 +504,7 @@
             "pv": "8.0.0-7",
             "section": "base",
             "summary": "",
-            "updated": "2018-08-14T03:08:27+0000"
+            "updated": "2018-08-14T08:08:27+0000"
         },
         {
             "bbclassextend": "",
@@ -522,7 +523,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Central RMC Database",
-            "updated": "2018-08-14T03:08:27+0000"
+            "updated": "2018-08-14T08:08:27+0000"
         },
         {
             "bbclassextend": "",
@@ -541,7 +542,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "RMC (Runtime Machine Configuration) EFI library",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "bbclassextend": "native",
@@ -560,7 +561,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "RMC (Runtime Machine Configuration)",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "bbclassextend": "",
@@ -579,7 +580,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "bbclassextend": "",
@@ -598,7 +599,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A tiny image just capable of allowing a device to boot from RAM, this image recipe generates an image file which rather boots from initrd than from storage, it achieves this by using wic to pick up th",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "bbclassextend": "native",
@@ -617,7 +618,7 @@
             "pv": "2.1.2",
             "section": "base",
             "summary": "Update Intel CPU microcode",
-            "updated": "2018-08-14T03:08:28+0000"
+            "updated": "2018-08-14T08:08:28+0000"
         },
         {
             "bbclassextend": "",
@@ -636,7 +637,7 @@
             "pv": "20180807",
             "section": "base",
             "summary": "Intel Processor Microcode Datafile for Linux",
-            "updated": "2018-08-15T22:08:14+0000"
+            "updated": "2018-08-16T03:08:14+0000"
         },
         {
             "bbclassextend": "",
@@ -655,7 +656,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-08-14T03:08:29+0000"
+            "updated": "2018-08-14T08:08:29+0000"
         },
         {
             "bbclassextend": "",
@@ -674,7 +675,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2018-08-14T03:08:29+0000"
+            "updated": "2018-08-14T08:08:29+0000"
         }
     ],
     "wrtemplates": []

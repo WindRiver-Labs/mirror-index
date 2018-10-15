@@ -9,12 +9,13 @@
     "branches": [
         {
             "bitbake_branch": "wr-10.17-20180620",
+            "comparison": false,
             "id": 48,
             "name": "WRLINUX_10_17_BASE",
             "short_description": "Wind River Linux 10_17 Baseline",
             "sort_priority": 9,
             "update_environment": null,
-            "updated": "2018-06-26T22:06:30+0000",
+            "updated": "2018-06-27T03:06:30+0000",
             "updates_enabled": true
         }
     ],
@@ -26,9 +27,9 @@
             "collection": "core",
             "id": 165030,
             "layer": 1,
-            "updated": "2018-08-29T22:08:13+0000",
-            "vcs_last_commit": "2018-08-29T22:08:08+0000",
-            "vcs_last_fetch": "2018-08-29T22:08:13+0000",
+            "updated": "2018-08-30T03:08:13+0000",
+            "vcs_last_commit": "2018-08-30T03:08:08+0000",
+            "vcs_last_fetch": "2018-08-30T03:08:13+0000",
             "vcs_last_rev": "c554c0c15d5ab68de8fa8b2aa313ca434ece6e57",
             "vcs_subdir": "meta",
             "version": "11",
@@ -40,9 +41,9 @@
             "collection": "wr-template",
             "id": 165069,
             "layer": 55,
-            "updated": "2018-08-14T03:08:55+0000",
-            "vcs_last_commit": "2018-05-29T02:05:35+0000",
-            "vcs_last_fetch": "2018-08-14T03:08:55+0000",
+            "updated": "2018-08-14T08:08:55+0000",
+            "vcs_last_commit": "2018-05-29T07:05:35+0000",
+            "vcs_last_fetch": "2018-08-14T08:08:55+0000",
             "vcs_last_rev": "5d7d576c4fb4e37ef33db851bc8af51a886155f8",
             "vcs_subdir": "",
             "version": "1",
@@ -59,7 +60,7 @@
     ],
     "layerItems": [
         {
-            "classic": false,
+            "comparison": false,
             "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
             "id": 1,
             "index_preference": 1000,
@@ -68,7 +69,7 @@
             "name": "openembedded-core",
             "status": "P",
             "summary": "Core Metadata",
-            "updated": "2018-05-30T18:05:28+0000",
+            "updated": "2018-05-30T23:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
             "vcs_web_commit_url": "",
@@ -77,7 +78,7 @@
             "vcs_web_url": ""
         },
         {
-            "classic": false,
+            "comparison": false,
             "description": "This layer provides template processing support to OpenEmbedded.  Wind River\r\ntemplates are a mechanism that permit various configurations to be enabled\r\nwith a simple setting.",
             "id": 55,
             "index_preference": 900,
@@ -86,7 +87,7 @@
             "name": "wr-template",
             "status": "P",
             "summary": "Wind River Template Support",
-            "updated": "2018-05-30T17:05:28+0000",
+            "updated": "2018-05-30T22:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/wr-template",
             "vcs_web_commit_url": "",
