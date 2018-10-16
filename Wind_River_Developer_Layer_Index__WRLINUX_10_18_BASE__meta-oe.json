@@ -8,43 +8,43 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20181007",
+            "bitbake_branch": "wr-10.18-20181015",
             "comparison": false,
             "id": 100,
             "name": "WRLINUX_10_18_BASE",
             "short_description": "Wind River Linux 10_18 Baseline",
             "sort_priority": 8,
             "update_environment": null,
-            "updated": "2018-10-08T19:10:12+0000",
+            "updated": "2018-10-15T19:10:07+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20181010",
+            "actual_branch": "wr-10.18-20181015",
             "branch": 100,
             "collection": "core",
             "id": 836626,
             "layer": 1,
-            "updated": "2018-10-14T12:10:15+0000",
-            "vcs_last_commit": "2018-10-11T08:10:17+0000",
-            "vcs_last_fetch": "2018-10-14T12:10:15+0000",
-            "vcs_last_rev": "69876d5d219d5aa858a35d3ecd6844f4b7b72d50",
+            "updated": "2018-10-15T19:10:23+0000",
+            "vcs_last_commit": "2018-10-15T04:10:26+0000",
+            "vcs_last_fetch": "2018-10-15T19:10:23+0000",
+            "vcs_last_rev": "15734f8963130e3d3e7713a07283ada9037e3846",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20181010",
+            "actual_branch": "wr-10.18-20181015",
             "branch": 100,
             "collection": "openembedded-layer",
             "id": 836708,
             "layer": 7,
-            "updated": "2018-10-14T12:10:18+0000",
-            "vcs_last_commit": "2018-10-10T01:10:31+0000",
-            "vcs_last_fetch": "2018-10-14T12:10:18+0000",
-            "vcs_last_rev": "fdcfce03fc58e093df7ccf5aa55d160cf773f4d0",
+            "updated": "2018-10-15T19:10:29+0000",
+            "vcs_last_commit": "2018-10-15T04:10:08+0000",
+            "vcs_last_fetch": "2018-10-15T19:10:29+0000",
+            "vcs_last_rev": "472ff0a9bae961838418f1ba6150a7006041e8a8",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
@@ -2806,25 +2806,6 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "Blueman is a GTK+ Bluetooth Manager",
-            "filename": "blueman_git.bb",
-            "filepath": "recipes-connectivity/blueman",
-            "homepage": "",
-            "id": 769949,
-            "inherits": "autotools gsettings gtk-icon-cache python3-dir python3native siteconfig siteinfo systemd",
-            "layerbranch": 836708,
-            "license": "GPLv3",
-            "pn": "blueman",
-            "provides": "blueman ",
-            "pv": "2.0.5+gitX",
-            "section": "base",
-            "summary": "",
-            "updated": "2018-10-14T12:10:48+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
             "description": "WvDial is a program that makes it easy to connect your Linux workstation to the Internet.",
             "filename": "wvdial_1.61.bb",
             "filepath": "recipes-connectivity/wvdial",
@@ -3187,7 +3168,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The core analysis suite is a self-contained tool that can be used toinvestigate either live systems, kernel core dumps created from thenetdump, diskdump and kdump packages from Red Hat Linux, the mcore kernel patchoffered by Mission Critical Linux, or the LKCD kernel patch.",
-            "filename": "crash_7.2.3.bb",
+            "filename": "crash_7.2.4.bb",
             "filepath": "recipes-kernel/crash",
             "homepage": "http://people.redhat.com/anderson",
             "id": 769969,
@@ -3196,10 +3177,10 @@
             "license": "GPLv3",
             "pn": "crash",
             "provides": "crash ",
-            "pv": "7.2.3",
+            "pv": "7.2.4",
             "section": "devel",
             "summary": "Kernel analysis utility for live systems, netdump, diskdump, kdump, LKCD or mcore dumpfiles",
-            "updated": "2018-10-14T12:10:51+0000"
+            "updated": "2018-10-15T19:10:28+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -4190,7 +4171,7 @@
             "updated": "2018-10-14T12:10:01+0000"
         },
         {
-            "bbclassextend": "native",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "The gflags package contains a C++ library that implements commandline flags processing. It includes built-in support for standard types such as string and the ability to define flags in the source file in which they are used",
@@ -4206,7 +4187,7 @@
             "pv": "2.2.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-14T12:10:01+0000"
+            "updated": "2018-10-15T19:10:29+0000"
         },
         {
             "bbclassextend": "",
@@ -5030,19 +5011,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "The glog library implements application-level logging. This library provides logging APIs based on C++-style streams and various helper macros.",
-            "filename": "glog_0.3.4.bb",
+            "filename": "glog_0.3.5.bb",
             "filepath": "recipes-support/glog",
             "homepage": "https://github.com/google/glog",
             "id": 770066,
-            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "inherits": "cmake",
             "layerbranch": 836708,
             "license": "BSD-3-Clause",
             "pn": "glog",
             "provides": "glog ",
-            "pv": "0.3.4",
+            "pv": "0.3.5",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-14T12:10:08+0000"
+            "updated": "2018-10-15T19:10:29+0000"
         },
         {
             "bbclassextend": "",
@@ -6695,7 +6676,7 @@
             "pv": "2.4.46",
             "section": "libs",
             "summary": "OpenLDAP Directory Service",
-            "updated": "2018-10-14T12:10:24+0000"
+            "updated": "2018-10-15T19:10:29+0000"
         },
         {
             "bbclassextend": "",
@@ -11171,7 +11152,7 @@
             "filepath": "recipes-devtools/nodejs",
             "homepage": "http://nodejs.org",
             "id": 770389,
-            "inherits": "",
+            "inherits": "pkgconfig",
             "layerbranch": 836708,
             "license": "MIT & BSD & Artistic-2.0",
             "pn": "nodejs",
@@ -11179,7 +11160,7 @@
             "pv": "8.12.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-14T12:10:05+0000"
+            "updated": "2018-10-15T19:10:28+0000"
         },
         {
             "bbclassextend": "native",
@@ -11214,10 +11195,10 @@
             "license": "MIT",
             "pn": "nlohmann-json",
             "provides": "nlohmann-json ",
-            "pv": "3.2.0+gitX",
+            "pv": "3.3.0+gitX",
             "section": "libs",
             "summary": "JSON for modern C++",
-            "updated": "2018-10-14T12:10:05+0000"
+            "updated": "2018-10-15T19:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -12278,10 +12259,10 @@
             "license": "Apache-2.0",
             "pn": "dbus-broker",
             "provides": "dbus-broker ",
-            "pv": "13+gitX",
+            "pv": "16+gitX",
             "section": "base",
             "summary": "dbus broker",
-            "updated": "2018-10-14T12:10:17+0000"
+            "updated": "2018-10-15T19:10:28+0000"
         },
         {
             "bbclassextend": "",
@@ -12510,6 +12491,44 @@
             "section": "base",
             "summary": "A user tool to support sleeping some number of microseconds",
             "updated": "2018-10-14T12:10:18+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "nvme-cli_1.6.bb",
+            "filepath": "recipes-bsp/nvme-cli",
+            "homepage": "https://github.com/linux-nvme/nvme-cli",
+            "id": 776539,
+            "inherits": "bash-completion",
+            "layerbranch": 836708,
+            "license": "GPLv2",
+            "pn": "nvme-cli",
+            "provides": "nvme-cli ",
+            "pv": "1.6+gitX",
+            "section": "console/utils",
+            "summary": "NVMe management command line interface",
+            "updated": "2018-10-15T19:10:29+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "valijson_git.bb",
+            "filepath": "recipes-devtools/valijson",
+            "homepage": "https://github.com/tristanpenman/valijson",
+            "id": 776540,
+            "inherits": "cmake",
+            "layerbranch": 836708,
+            "license": "BSD-2-Clause",
+            "pn": "valijson",
+            "provides": "valijson ",
+            "pv": "0.1+gitX",
+            "section": "base",
+            "summary": "Header-only C++ library for JSON Schema validation",
+            "updated": "2018-10-15T19:10:29+0000"
         }
     ],
     "wrtemplates": []

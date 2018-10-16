@@ -8,71 +8,71 @@
     },
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20181007",
+            "bitbake_branch": "wr-10.18-20181015",
             "comparison": false,
             "id": 100,
             "name": "WRLINUX_10_18_BASE",
             "short_description": "Wind River Linux 10_18 Baseline",
             "sort_priority": 8,
             "update_environment": null,
-            "updated": "2018-10-08T19:10:12+0000",
+            "updated": "2018-10-15T19:10:07+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20181010",
+            "actual_branch": "wr-10.18-20181015",
             "branch": 100,
             "collection": "core",
             "id": 836626,
             "layer": 1,
-            "updated": "2018-10-14T12:10:15+0000",
-            "vcs_last_commit": "2018-10-11T08:10:17+0000",
-            "vcs_last_fetch": "2018-10-14T12:10:15+0000",
-            "vcs_last_rev": "69876d5d219d5aa858a35d3ecd6844f4b7b72d50",
+            "updated": "2018-10-15T19:10:23+0000",
+            "vcs_last_commit": "2018-10-15T04:10:26+0000",
+            "vcs_last_fetch": "2018-10-15T19:10:23+0000",
+            "vcs_last_rev": "15734f8963130e3d3e7713a07283ada9037e3846",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20181010",
+            "actual_branch": "wr-10.18-20181015",
             "branch": 100,
             "collection": "openembedded-layer",
             "id": 836708,
             "layer": 7,
-            "updated": "2018-10-14T12:10:18+0000",
-            "vcs_last_commit": "2018-10-10T01:10:31+0000",
-            "vcs_last_fetch": "2018-10-14T12:10:18+0000",
-            "vcs_last_rev": "fdcfce03fc58e093df7ccf5aa55d160cf773f4d0",
+            "updated": "2018-10-15T19:10:29+0000",
+            "vcs_last_commit": "2018-10-15T04:10:08+0000",
+            "vcs_last_fetch": "2018-10-15T19:10:29+0000",
+            "vcs_last_rev": "472ff0a9bae961838418f1ba6150a7006041e8a8",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20181010",
+            "actual_branch": "wr-10.18-20181015",
             "branch": 100,
             "collection": "networking-layer",
             "id": 836711,
             "layer": 11,
-            "updated": "2018-10-14T12:10:53+0000",
-            "vcs_last_commit": "2018-10-11T00:10:06+0000",
-            "vcs_last_fetch": "2018-10-14T12:10:53+0000",
-            "vcs_last_rev": "0325978daa1252e91e4e1c984238214617dac854",
+            "updated": "2018-10-15T19:10:49+0000",
+            "vcs_last_commit": "2018-10-15T04:10:08+0000",
+            "vcs_last_fetch": "2018-10-15T19:10:49+0000",
+            "vcs_last_rev": "17a20a9292bcc868d9bbf1ae7e85aeab13749bcd",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": null
         },
         {
-            "actual_branch": "wr-10.18-20181010",
+            "actual_branch": "wr-10.18-20181015",
             "branch": 100,
             "collection": "meta-python",
             "id": 836712,
             "layer": 12,
-            "updated": "2018-10-14T12:10:49+0000",
-            "vcs_last_commit": "2018-10-10T01:10:31+0000",
-            "vcs_last_fetch": "2018-10-14T12:10:49+0000",
-            "vcs_last_rev": "fdcfce03fc58e093df7ccf5aa55d160cf773f4d0",
+            "updated": "2018-10-15T19:10:35+0000",
+            "vcs_last_commit": "2018-10-15T04:10:05+0000",
+            "vcs_last_fetch": "2018-10-15T19:10:35+0000",
+            "vcs_last_rev": "6682aaecd3ea7e8adc6efffe21183246d70d6502",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": null
@@ -577,7 +577,7 @@
             "pv": "3.18",
             "section": "net",
             "summary": "Wireless Central Regulatory Domain Agent",
-            "updated": "2018-10-14T12:10:24+0000"
+            "updated": "2018-10-15T19:10:48+0000"
         },
         {
             "bbclassextend": "",
@@ -2176,7 +2176,7 @@
             "updated": "2018-10-14T12:10:39+0000"
         },
         {
-            "bbclassextend": "native",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
@@ -2192,7 +2192,7 @@
             "pv": "1.14.0+gitrX",
             "section": "libs",
             "summary": "c-ares is a C library that resolves names asynchronously.",
-            "updated": "2018-10-14T12:10:40+0000"
+            "updated": "2018-10-15T19:10:48+0000"
         },
         {
             "bbclassextend": "",
@@ -2522,19 +2522,19 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "openvpn_2.4.4.bb",
+            "filename": "openvpn_2.4.6.bb",
             "filepath": "recipes-support/openvpn",
             "homepage": "http://openvpn.sourceforge.net",
             "id": 771748,
-            "inherits": "autotools siteconfig siteinfo systemd",
+            "inherits": "autotools siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 836711,
             "license": "GPLv2",
             "pn": "openvpn",
             "provides": "openvpn ",
-            "pv": "2.4.4",
+            "pv": "2.4.6",
             "section": "net",
             "summary": "A full-featured SSL VPN solution via tun device.",
-            "updated": "2018-10-14T12:10:43+0000"
+            "updated": "2018-10-15T19:10:48+0000"
         },
         {
             "bbclassextend": "",
@@ -2693,7 +2693,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "Postfix is Wietse Venema's mail server that started life at IBM research as an alternative to the widely-used Sendmail program. Postfix attempts to be fast, easy to administer, and secure. The outsidei has a definite Sendmail-ish flavor, but the inside is completely different.",
-            "filename": "postfix_3.2.6.bb",
+            "filename": "postfix_3.3.1.bb",
             "filepath": "recipes-daemons/postfix",
             "homepage": "http://www.postfix.org",
             "id": 771757,
@@ -2702,10 +2702,10 @@
             "license": "IPL-1.0 | EPL-2.0",
             "pn": "postfix",
             "provides": "postfix ",
-            "pv": "3.2.6",
+            "pv": "3.3.1",
             "section": "mail",
             "summary": "Postfix Mail Transport Agent",
-            "updated": "2018-10-14T12:10:45+0000"
+            "updated": "2018-10-15T19:10:49+0000"
         },
         {
             "bbclassextend": "",
@@ -3427,7 +3427,7 @@
             "pv": "1.14.1",
             "section": "libs",
             "summary": "",
-            "updated": "2018-10-14T12:10:52+0000"
+            "updated": "2018-10-15T19:10:48+0000"
         },
         {
             "bbclassextend": "",
@@ -3599,6 +3599,25 @@
             "section": "net",
             "summary": "",
             "updated": "2018-10-14T12:10:53+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Babel is a loop-avoiding distance-vector routing protocol for IPv6 and IPv4 with fast convergence properties. It is based on the ideas in DSDV, AODV and Cisco's EIGRP, but is designed to work well not only in wired networks but also in wireless mesh networks, and has been extended with support for overlay networks. Babel is in the process of becoming an IETF Standard. ",
+            "filename": "babeld_1.8.3.bb",
+            "filepath": "recipes-protocols/babeld",
+            "homepage": "https://www.irif.fr/~jch/software/babel/",
+            "id": 776541,
+            "inherits": "",
+            "layerbranch": 836711,
+            "license": "MIT",
+            "pn": "babeld",
+            "provides": "babeld ",
+            "pv": "1.8.3",
+            "section": "net",
+            "summary": "Babel is a loop-avoiding distance-vector routing protocol",
+            "updated": "2018-10-15T19:10:49+0000"
         }
     ],
     "wrtemplates": []
