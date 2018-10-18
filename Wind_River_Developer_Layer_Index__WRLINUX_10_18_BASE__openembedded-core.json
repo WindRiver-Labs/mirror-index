@@ -35,10 +35,10 @@
             "collection": "core",
             "id": 836626,
             "layer": 1,
-            "updated": "2018-10-16T02:10:53+0000",
-            "vcs_last_commit": "2018-10-16T00:10:52+0000",
-            "vcs_last_fetch": "2018-10-16T02:10:53+0000",
-            "vcs_last_rev": "3d922388af30386ce1d6251aa3c5b93110d8ff77",
+            "updated": "2018-10-17T16:10:56+0000",
+            "vcs_last_commit": "2018-10-17T16:10:30+0000",
+            "vcs_last_fetch": "2018-10-17T16:10:56+0000",
+            "vcs_last_rev": "9ae8cd2eda530aa32228218457793d01504cff63",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": null
@@ -2440,7 +2440,7 @@
             "pv": "5.0.0",
             "section": "base",
             "summary": "Weston, a Wayland compositor",
-            "updated": "2018-10-14T12:10:39+0000"
+            "updated": "2018-10-17T16:10:55+0000"
         },
         {
             "bbclassextend": "",
@@ -2744,7 +2744,7 @@
             "pv": "18.1.9",
             "section": "x11",
             "summary": "A free implementation of the OpenGL API  (OpenGL only, no EGL/GLES)",
-            "updated": "2018-10-14T12:10:42+0000"
+            "updated": "2018-10-17T16:10:56+0000"
         },
         {
             "bbclassextend": "",
@@ -2801,7 +2801,7 @@
             "pv": "18.1.9",
             "section": "x11",
             "summary": "A free implementation of the OpenGL API",
-            "updated": "2018-10-14T12:10:42+0000"
+            "updated": "2018-10-17T16:10:56+0000"
         },
         {
             "bbclassextend": "",
@@ -5784,7 +5784,7 @@
             "pv": "1.14.2",
             "section": "multimedia",
             "summary": "GStreamer 1.0 multimedia framework",
-            "updated": "2018-10-16T02:10:45+0000"
+            "updated": "2018-10-17T16:10:56+0000"
         },
         {
             "bbclassextend": "",
@@ -12814,7 +12814,7 @@
             "pv": "239",
             "section": "base/shell",
             "summary": "A System and service manager",
-            "updated": "2018-10-15T19:10:11+0000"
+            "updated": "2018-10-17T16:10:55+0000"
         },
         {
             "bbclassextend": "",
@@ -15076,6 +15076,25 @@
             "section": "base",
             "summary": "Simple GTK+ Text Editor",
             "updated": "2018-10-14T12:10:15+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Systemd may require slightly different configuration for different machines.  For example, qemu machines require a longer DefaultTimeoutStartSec setting.",
+            "filename": "systemd-conf.bb",
+            "filepath": "recipes-core/systemd",
+            "homepage": "http://www.freedesktop.org/wiki/Software/systemd",
+            "id": 776571,
+            "inherits": "",
+            "layerbranch": 836626,
+            "license": "GPLv2 & LGPLv2.1",
+            "pn": "systemd-conf",
+            "provides": "systemd-conf ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "Systemd system configuration",
+            "updated": "2018-10-17T16:10:56+0000"
         }
     ],
     "wrtemplates": []
