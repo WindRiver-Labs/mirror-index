@@ -31,32 +31,32 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.18-20181015",
+            "bitbake_branch": "wr-10.18-20181022",
             "comparison": false,
             "id": 100,
             "name": "WRLINUX_10_18_BASE",
             "short_description": "Wind River Linux 10_18 Baseline",
             "sort_priority": 8,
             "update_environment": null,
-            "updated": "2018-10-15T19:10:07+0000",
+            "updated": "2018-10-23T03:10:40+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.18-20181015",
+            "actual_branch": "wr-10.18-20181022",
             "branch": 100,
             "collection": "core",
             "id": 836626,
             "layer": 1,
-            "updated": "2018-10-19T10:10:51+0000",
-            "vcs_last_commit": "2018-10-18T19:10:30+0000",
-            "vcs_last_fetch": "2018-10-19T10:10:51+0000",
-            "vcs_last_rev": "ee08b57ec1b2759154713a5e32d83a42b7c6d7b3",
+            "updated": "2018-10-23T03:10:56+0000",
+            "vcs_last_commit": "2018-10-22T01:10:23+0000",
+            "vcs_last_fetch": "2018-10-23T03:10:56+0000",
+            "vcs_last_rev": "8d07e38133fc1ef7fefca46b7409c0382b4cb7b2",
             "vcs_subdir": "meta",
             "version": "11",
-            "yp_compatible_version": null
+            "yp_compatible_version": 3
         },
         {
             "actual_branch": "",
@@ -78,13 +78,13 @@
             "collection": "wrlinux",
             "id": 836705,
             "layer": 49,
-            "updated": "2018-10-19T10:10:58+0000",
-            "vcs_last_commit": "2018-10-19T10:10:02+0000",
-            "vcs_last_fetch": "2018-10-19T10:10:58+0000",
-            "vcs_last_rev": "ff3234a5e609c026a98557d90bf65fcbd3e8a26a",
+            "updated": "2018-10-23T03:10:49+0000",
+            "vcs_last_commit": "2018-10-23T03:10:15+0000",
+            "vcs_last_fetch": "2018-10-23T03:10:49+0000",
+            "vcs_last_rev": "badb461c2df681f0f9af9e87375b280847aaa922",
             "vcs_subdir": "",
             "version": "2",
-            "yp_compatible_version": null
+            "yp_compatible_version": 2
         }
     ],
     "layerDependencies": [
@@ -242,7 +242,7 @@
             "pv": "1.0",
             "section": "x11",
             "summary": "Wind River Linux Desktop Themes",
-            "updated": "2018-10-18T13:10:28+0000"
+            "updated": "2018-10-23T03:10:46+0000"
         },
         {
             "bbclassextend": "",
@@ -261,7 +261,7 @@
             "pv": "20100310+gitX",
             "section": "base",
             "summary": "inject PCIE AER errors on the software level",
-            "updated": "2018-10-15T11:10:49+0000"
+            "updated": "2018-10-23T03:10:47+0000"
         },
         {
             "bbclassextend": "",
@@ -280,7 +280,7 @@
             "pv": "1.0",
             "section": "vdso test",
             "summary": " Vdso test Tool",
-            "updated": "2018-10-15T11:10:49+0000"
+            "updated": "2018-10-23T03:10:47+0000"
         },
         {
             "bbclassextend": "",
@@ -299,7 +299,7 @@
             "pv": "20131218+gitX",
             "section": "base",
             "summary": "MCE test suite",
-            "updated": "2018-10-15T11:10:49+0000"
+            "updated": "2018-10-23T03:10:47+0000"
         },
         {
             "bbclassextend": "",
@@ -318,7 +318,7 @@
             "pv": "2.3a",
             "section": "base",
             "summary": "Intel Processor Counter Monitor",
-            "updated": "2018-10-15T11:10:49+0000"
+            "updated": "2018-10-23T03:10:47+0000"
         },
         {
             "bbclassextend": "",
@@ -337,7 +337,7 @@
             "pv": "0.0.1",
             "section": "base",
             "summary": "Cross Memory Attach test case (cma)",
-            "updated": "2018-10-15T11:10:49+0000"
+            "updated": "2018-10-23T03:10:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -356,7 +356,7 @@
             "pv": "1.0+gitX",
             "section": "base",
             "summary": "Credential storage for utilities that implement the askpass interface",
-            "updated": "2018-10-15T11:10:50+0000"
+            "updated": "2018-10-23T03:10:48+0000"
         },
         {
             "bbclassextend": "",
@@ -375,7 +375,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-15T11:10:50+0000"
+            "updated": "2018-10-23T03:10:48+0000"
         },
         {
             "bbclassextend": "",
@@ -394,7 +394,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-15T11:10:50+0000"
+            "updated": "2018-10-23T03:10:48+0000"
         },
         {
             "bbclassextend": "",
@@ -413,7 +413,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-15T11:10:50+0000"
+            "updated": "2018-10-23T03:10:48+0000"
         },
         {
             "bbclassextend": "",
@@ -432,7 +432,7 @@
             "pv": "1.0",
             "section": "x11/wm",
             "summary": "All packages for full XFCE installation",
-            "updated": "2018-10-15T11:10:50+0000"
+            "updated": "2018-10-23T03:10:48+0000"
         },
         {
             "bbclassextend": "",
@@ -451,7 +451,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-17T16:10:04+0000"
+            "updated": "2018-10-23T03:10:48+0000"
         },
         {
             "bbclassextend": "",
@@ -470,7 +470,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Tools to replace busybox",
-            "updated": "2018-10-15T11:10:51+0000"
+            "updated": "2018-10-23T03:10:49+0000"
         },
         {
             "bbclassextend": "",
@@ -489,7 +489,7 @@
             "pv": "2016.03",
             "section": "base",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2018-10-15T11:10:51+0000"
+            "updated": "2018-10-23T03:10:49+0000"
         }
     ],
     "wrtemplates": [
