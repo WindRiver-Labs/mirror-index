@@ -27,6 +27,27 @@
             "image_url": "",
             "link_url": "",
             "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
         }
     ],
     "branches": [
@@ -50,13 +71,13 @@
             "collection": "core",
             "id": 836626,
             "layer": 1,
-            "updated": "2018-10-23T03:10:56+0000",
-            "vcs_last_commit": "2018-10-22T01:10:23+0000",
-            "vcs_last_fetch": "2018-10-23T03:10:56+0000",
-            "vcs_last_rev": "8d07e38133fc1ef7fefca46b7409c0382b4cb7b2",
+            "updated": "2018-10-28T23:10:12+0000",
+            "vcs_last_commit": "2018-10-28T23:10:03+0000",
+            "vcs_last_fetch": "2018-10-28T23:10:12+0000",
+            "vcs_last_rev": "068c9e231d738f92c81085ead3fa87f54719acbd",
             "vcs_subdir": "meta",
             "version": "11",
-            "yp_compatible_version": 3
+            "yp_compatible_version": 2
         },
         {
             "actual_branch": "wr-10.18-20180925",
@@ -64,13 +85,13 @@
             "collection": "meta-mingw",
             "id": 836720,
             "layer": 50,
-            "updated": "2018-10-19T10:10:54+0000",
+            "updated": "2018-10-24T03:10:44+0000",
             "vcs_last_commit": "2018-10-18T18:10:50+0000",
-            "vcs_last_fetch": "2018-10-19T10:10:54+0000",
+            "vcs_last_fetch": "2018-10-24T03:10:44+0000",
             "vcs_last_rev": "ccbdd8efe538fc46f214d4d24977f3519c294c5d",
             "vcs_subdir": "",
             "version": null,
-            "yp_compatible_version": null
+            "yp_compatible_version": 3
         }
     ],
     "layerDependencies": [
@@ -135,7 +156,7 @@
             "filename": "libiconv_1.14.bb",
             "filepath": "recipes-support/libiconv",
             "homepage": "http://www.gnu.org/software/libiconv",
-            "id": 771161,
+            "id": 801967,
             "inherits": "autotools gettext pkgconfig siteconfig siteinfo",
             "layerbranch": 836720,
             "license": "LGPLv3",
@@ -144,7 +165,7 @@
             "pv": "1.14",
             "section": "libs",
             "summary": "Character encoding support library",
-            "updated": "2018-10-14T12:10:48+0000"
+            "updated": "2018-10-24T03:10:44+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -154,7 +175,7 @@
             "filename": "pthreads-win32_2.9.1.bb",
             "filepath": "recipes-devtools/pthreads-win32",
             "homepage": "http://www.sourceware.org/pthreads-win32",
-            "id": 771162,
+            "id": 801968,
             "inherits": "",
             "layerbranch": 836720,
             "license": "LGPLv2.1",
@@ -163,7 +184,7 @@
             "pv": "2.9.1",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-14T12:10:48+0000"
+            "updated": "2018-10-24T03:10:44+0000"
         },
         {
             "bbclassextend": "",
@@ -173,7 +194,7 @@
             "filename": "nativesdk-mingw-w64-runtime_5.0.3.bb",
             "filepath": "recipes-devtools/mingw-w64",
             "homepage": "",
-            "id": 771163,
+            "id": 801969,
             "inherits": "autotools nativesdk siteconfig siteinfo",
             "layerbranch": 836720,
             "license": "ZPL-2.1",
@@ -182,7 +203,7 @@
             "pv": "5.0.3",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-14T12:10:48+0000"
+            "updated": "2018-10-24T03:10:44+0000"
         },
         {
             "bbclassextend": "",
@@ -192,7 +213,7 @@
             "filename": "nativesdk-mingw-w64-headers_5.0.3.bb",
             "filepath": "recipes-devtools/mingw-w64",
             "homepage": "",
-            "id": 771164,
+            "id": 801970,
             "inherits": "autotools nativesdk siteconfig siteinfo",
             "layerbranch": 836720,
             "license": "ZPL-2.1",
@@ -201,7 +222,7 @@
             "pv": "5.0.3",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-14T12:10:48+0000"
+            "updated": "2018-10-24T03:10:44+0000"
         }
     ],
     "wrtemplates": []
