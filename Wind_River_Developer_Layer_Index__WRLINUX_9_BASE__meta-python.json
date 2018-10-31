@@ -27,9 +27,9 @@
             "collection": "core",
             "id": 56,
             "layer": 1,
-            "updated": "2018-10-16T03:10:13+0000",
+            "updated": "2018-10-30T01:10:36+0000",
             "vcs_last_commit": "2018-10-16T02:10:52+0000",
-            "vcs_last_fetch": "2018-10-16T03:10:13+0000",
+            "vcs_last_fetch": "2018-10-30T01:10:36+0000",
             "vcs_last_rev": "1cdcce224070279b85271c97adc5f517b3a9fe10",
             "vcs_subdir": "meta",
             "version": "9",
@@ -41,9 +41,9 @@
             "collection": "openembedded-layer",
             "id": 68,
             "layer": 7,
-            "updated": "2018-06-22T19:06:57+0000",
-            "vcs_last_commit": "2018-01-08T07:01:45+0000",
-            "vcs_last_fetch": "2018-06-22T19:06:57+0000",
+            "updated": "2018-10-30T01:10:09+0000",
+            "vcs_last_commit": "2018-01-07T23:01:45+0000",
+            "vcs_last_fetch": "2018-10-30T01:10:09+0000",
             "vcs_last_rev": "2a14a0fb044fe493c5a07b75aec3c14def00acaf",
             "vcs_subdir": "meta-oe",
             "version": "1",
@@ -55,9 +55,9 @@
             "collection": "meta-python",
             "id": 70,
             "layer": 12,
-            "updated": "2018-06-22T19:06:00+0000",
-            "vcs_last_commit": "2018-03-19T06:03:06+0000",
-            "vcs_last_fetch": "2018-06-22T19:06:00+0000",
+            "updated": "2018-10-30T01:10:57+0000",
+            "vcs_last_commit": "2018-03-18T23:03:06+0000",
+            "vcs_last_fetch": "2018-10-30T01:10:57+0000",
             "vcs_last_rev": "493869d3e9d0e24a0d4c9390e48248074a893f02",
             "vcs_subdir": "meta-python",
             "version": "1",
@@ -150,7 +150,7 @@
             "filename": "gateone_git.bb",
             "filepath": "recipes-connectivity/gateone",
             "homepage": "http://liftoffsoftware.com/Products/GateOne",
-            "id": 218612,
+            "id": 834041,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative systemd update-rc.d",
             "layerbranch": 70,
             "license": "AGPL-3.0",
@@ -159,7 +159,7 @@
             "pv": "1.2+gitX",
             "section": "base",
             "summary": "HTML5 (plugin-free) web-based terminal emulator and SSH client",
-            "updated": "2017-06-09T06:06:43+0000"
+            "updated": "2018-10-30T01:10:29+0000"
         },
         {
             "bbclassextend": "",
@@ -169,7 +169,7 @@
             "filename": "python-txws_0.9.1.bb",
             "filepath": "recipes-connectivity/python-txws",
             "homepage": "https://github.com/MostAwesomeDude/txWS",
-            "id": 218613,
+            "id": 834042,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -178,7 +178,7 @@
             "pv": "0.9.1",
             "section": "base",
             "summary": "Twisted Web Sockets",
-            "updated": "2017-06-09T06:06:43+0000"
+            "updated": "2018-10-30T01:10:29+0000"
         },
         {
             "bbclassextend": "",
@@ -188,7 +188,7 @@
             "filename": "python-thrift_0.9.3.bb",
             "filepath": "recipes-connectivity/python-thrift",
             "homepage": "",
-            "id": 218614,
+            "id": 834043,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -197,7 +197,7 @@
             "pv": "0.9.3",
             "section": "devel/python",
             "summary": "Python bindings for the Apache Thrift RPC system",
-            "updated": "2017-06-09T06:06:43+0000"
+            "updated": "2018-10-30T01:10:29+0000"
         },
         {
             "bbclassextend": "",
@@ -207,7 +207,7 @@
             "filename": "python-pyro4_4.39.bb",
             "filepath": "recipes-connectivity/python-pyro4",
             "homepage": "",
-            "id": 218615,
+            "id": 834044,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -216,7 +216,7 @@
             "pv": "4.39",
             "section": "devel/python",
             "summary": "Python Remote Objects",
-            "updated": "2017-06-09T06:06:43+0000"
+            "updated": "2018-10-30T01:10:29+0000"
         },
         {
             "bbclassextend": "",
@@ -226,7 +226,7 @@
             "filename": "python-pyephem_3.7.6.0.bb",
             "filepath": "recipes-extended/python-pyephem",
             "homepage": "http://rhodesmill.org/pyephem/",
-            "id": 218616,
+            "id": 834045,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "LGPL-3.0",
@@ -235,7 +235,7 @@
             "pv": "3.7.6.0",
             "section": "devel/python",
             "summary": "PyEphem astronomical calculations",
-            "updated": "2017-06-09T06:06:43+0000"
+            "updated": "2018-10-30T01:10:29+0000"
         },
         {
             "bbclassextend": " native",
@@ -245,7 +245,7 @@
             "filename": "python-pyparted_3.10.7.bb",
             "filepath": "recipes-extended/python-pyparted",
             "homepage": "https://github.com/rhinstaller/pyparted",
-            "id": 218617,
+            "id": 834046,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative",
             "layerbranch": 70,
             "license": "GPL-2.0+",
@@ -254,7 +254,7 @@
             "pv": "3.10.7+gitX",
             "section": "base",
             "summary": "Python bindings for libparted",
-            "updated": "2017-06-09T06:06:43+0000"
+            "updated": "2018-10-30T01:10:29+0000"
         },
         {
             "bbclassextend": "",
@@ -264,7 +264,7 @@
             "filename": "python3-redis_2.10.5.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://github.com/andymccurdy/redis-py",
-            "id": 218618,
+            "id": 834047,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "MIT",
@@ -273,7 +273,7 @@
             "pv": "2.10.5",
             "section": "devel/python",
             "summary": "Python client for Redis key-value store",
-            "updated": "2017-06-09T06:06:43+0000"
+            "updated": "2018-10-30T01:10:29+0000"
         },
         {
             "bbclassextend": "",
@@ -283,7 +283,7 @@
             "filename": "python-webdav_0.1.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://sourceforge.net/projects/pythonwebdavlib/",
-            "id": 218619,
+            "id": 834048,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -292,7 +292,7 @@
             "pv": "0.1.2",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:44+0000"
+            "updated": "2018-10-30T01:10:29+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -302,7 +302,7 @@
             "filename": "python3-cryptography_1.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218620,
+            "id": 834049,
             "inherits": "distutils-common-base distutils3 distutils3-base ptest pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "Apache-2.0 | BSD",
@@ -311,7 +311,7 @@
             "pv": "1.4",
             "section": "devel/python",
             "summary": "Provides cryptographic recipes and primitives to python developers",
-            "updated": "2017-06-09T06:06:44+0000"
+            "updated": "2018-10-30T01:10:30+0000"
         },
         {
             "bbclassextend": "",
@@ -321,7 +321,7 @@
             "filename": "python-pyusb_1.0.0b2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pyusb.sourceforge.net/",
-            "id": 218621,
+            "id": 834050,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative",
             "layerbranch": 70,
             "license": "BSD",
@@ -330,7 +330,7 @@
             "pv": "1.0.0b2",
             "section": "devel/python",
             "summary": "PyUSB provides USB access on the Python language",
-            "updated": "2017-06-09T06:06:44+0000"
+            "updated": "2018-10-30T01:10:30+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -340,7 +340,7 @@
             "filename": "python-urllib3_1.18.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/shazow/urllib3",
-            "id": 218622,
+            "id": 834051,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -349,7 +349,7 @@
             "pv": "1.18",
             "section": "devel/python",
             "summary": "Python HTTP library with thread-safe connection pooling, file post support, sanity friendly, and more",
-            "updated": "2017-06-09T06:06:44+0000"
+            "updated": "2018-10-30T01:10:30+0000"
         },
         {
             "bbclassextend": "native",
@@ -359,7 +359,7 @@
             "filename": "python-vcversioner_2.16.0.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/habnabit/vcversioner",
-            "id": 218623,
+            "id": 834052,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "ISC",
@@ -368,7 +368,7 @@
             "pv": "2.16.0.0",
             "section": "devel/python",
             "summary": "Python vcversioner, automagically update the project's version",
-            "updated": "2017-06-09T06:06:44+0000"
+            "updated": "2018-10-30T01:10:30+0000"
         },
         {
             "bbclassextend": "",
@@ -378,7 +378,7 @@
             "filename": "python-pyinotify_0.9.6.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218624,
+            "id": 834053,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -387,7 +387,7 @@
             "pv": "0.9.6",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:44+0000"
+            "updated": "2018-10-30T01:10:30+0000"
         },
         {
             "bbclassextend": "native",
@@ -397,7 +397,7 @@
             "filename": "python-m2crypto_0.23.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://chandlerproject.org/bin/view/Projects/MeTooCrypto",
-            "id": 218625,
+            "id": 834054,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools siteinfo",
             "layerbranch": 70,
             "license": "BSD",
@@ -406,7 +406,7 @@
             "pv": "0.23.0",
             "section": "devel/python",
             "summary": "A Python crypto and SSL toolkit",
-            "updated": "2017-06-09T06:06:44+0000"
+            "updated": "2018-10-30T01:10:30+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -416,7 +416,7 @@
             "filename": "python3-strict-rfc3339_0.7.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218626,
+            "id": 834055,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "GPLv3",
@@ -425,7 +425,7 @@
             "pv": "0.7",
             "section": "devel/python",
             "summary": "Strict, simple, lightweight RFC3339 function.s",
-            "updated": "2017-06-09T06:06:44+0000"
+            "updated": "2018-10-30T01:10:31+0000"
         },
         {
             "bbclassextend": "",
@@ -435,7 +435,7 @@
             "filename": "python-daemonize_2.4.7.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218627,
+            "id": 834056,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -444,7 +444,7 @@
             "pv": "2.4.7",
             "section": "devel/python",
             "summary": "Library to enable your code run as a daemon process on Unix-like systems",
-            "updated": "2017-06-09T06:06:45+0000"
+            "updated": "2018-10-30T01:10:31+0000"
         },
         {
             "bbclassextend": "",
@@ -454,7 +454,7 @@
             "filename": "python-psutil_4.2.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218628,
+            "id": 834057,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -463,7 +463,7 @@
             "pv": "4.2.0",
             "section": "devel/python",
             "summary": "A cross-platform process and system utilities module for Python",
-            "updated": "2017-06-09T06:06:45+0000"
+            "updated": "2018-10-30T01:10:31+0000"
         },
         {
             "bbclassextend": "",
@@ -473,7 +473,7 @@
             "filename": "python-blinker_1.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218629,
+            "id": 834058,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -482,7 +482,7 @@
             "pv": "1.4",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:45+0000"
+            "updated": "2018-10-30T01:10:31+0000"
         },
         {
             "bbclassextend": "",
@@ -492,7 +492,7 @@
             "filename": "python-itsdangerous_0.24.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://github.com/mitsuhiko/itsdangerous",
-            "id": 218630,
+            "id": 834059,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD-3-Clause",
@@ -501,7 +501,7 @@
             "pv": "0.24",
             "section": "devel/python",
             "summary": "Various helpers to pass trusted data to untrusted environments and back.",
-            "updated": "2017-06-09T06:06:45+0000"
+            "updated": "2018-10-30T01:10:31+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -511,7 +511,7 @@
             "filename": "python-cryptography-vectors_1.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218631,
+            "id": 834060,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "Apache-2.0 | BSD",
@@ -520,7 +520,7 @@
             "pv": "1.4",
             "section": "devel/python",
             "summary": "Test vectors for the cryptography package.",
-            "updated": "2017-06-09T06:06:45+0000"
+            "updated": "2018-10-30T01:10:31+0000"
         },
         {
             "bbclassextend": "",
@@ -530,7 +530,7 @@
             "filename": "python3-flask-pymongo_0.4.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/mitsuhiko/flask/",
-            "id": 218632,
+            "id": 834061,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "BSD",
@@ -539,7 +539,7 @@
             "pv": "0.4.1",
             "section": "devel/python",
             "summary": "PyMongo support for Flask applications",
-            "updated": "2017-06-09T06:06:45+0000"
+            "updated": "2018-10-30T01:10:31+0000"
         },
         {
             "bbclassextend": "",
@@ -549,7 +549,7 @@
             "filename": "python3-dateutil_2.5.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://dateutil.readthedocs.org",
-            "id": 218633,
+            "id": 834062,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "BSD-3-Clause",
@@ -558,7 +558,7 @@
             "pv": "2.5.3",
             "section": "devel/python",
             "summary": "Extensions to the standard Python datetime module",
-            "updated": "2017-06-09T06:06:45+0000"
+            "updated": "2018-10-30T01:10:31+0000"
         },
         {
             "bbclassextend": "",
@@ -568,7 +568,7 @@
             "filename": "python-prettytable_0.7.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://code.google.com/p/prettytable",
-            "id": 218634,
+            "id": 834063,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -577,7 +577,7 @@
             "pv": "0.7.2",
             "section": "base",
             "summary": "Python library for displaying tabular data in a ASCII table format",
-            "updated": "2017-06-09T06:06:45+0000"
+            "updated": "2018-10-30T01:10:32+0000"
         },
         {
             "bbclassextend": "",
@@ -587,7 +587,7 @@
             "filename": "python-pymisp_2.4.51.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/MISP/PyMISP",
-            "id": 218635,
+            "id": 834064,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD-2-Clause",
@@ -596,7 +596,7 @@
             "pv": "2.4.51.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:45+0000"
+            "updated": "2018-10-30T01:10:32+0000"
         },
         {
             "bbclassextend": "",
@@ -606,7 +606,7 @@
             "filename": "python-gdata_1.2.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://code.google.com/p/gdata-python-client/",
-            "id": 218636,
+            "id": 834065,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -615,7 +615,7 @@
             "pv": "1.2.4",
             "section": "devel/python",
             "summary": "Google Data APIs Python Client Library",
-            "updated": "2017-06-09T06:06:45+0000"
+            "updated": "2018-10-30T01:10:32+0000"
         },
         {
             "bbclassextend": "native",
@@ -625,7 +625,7 @@
             "filename": "python-epydoc_3.0.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://epydoc.sourceforge.net/",
-            "id": 218637,
+            "id": 834066,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative",
             "layerbranch": 70,
             "license": "MIT",
@@ -634,7 +634,7 @@
             "pv": "3.0.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:45+0000"
+            "updated": "2018-10-30T01:10:32+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -644,7 +644,7 @@
             "filename": "python-click_6.6.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://click.pocoo.org/",
-            "id": 218638,
+            "id": 834067,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -653,7 +653,7 @@
             "pv": "6.6",
             "section": "devel/python",
             "summary": "A simple wrapper around optparse for powerful command line utilities.",
-            "updated": "2017-06-09T06:06:46+0000"
+            "updated": "2018-10-30T01:10:32+0000"
         },
         {
             "bbclassextend": "",
@@ -663,7 +663,7 @@
             "filename": "python-parse_1.6.6.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218639,
+            "id": 834068,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -672,7 +672,7 @@
             "pv": "1.6.6",
             "section": "devel/python",
             "summary": "Parse strings using a specification based on the Python format() syntax",
-            "updated": "2017-06-09T06:06:46+0000"
+            "updated": "2018-10-30T01:10:32+0000"
         },
         {
             "bbclassextend": "",
@@ -682,7 +682,7 @@
             "filename": "python3-xlrd_1.0.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.python-excel.org/",
-            "id": 218640,
+            "id": 834069,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "BSD",
@@ -691,7 +691,7 @@
             "pv": "1.0.0",
             "section": "devel/python",
             "summary": "Library for developers to extract data from Microsoft Excel (tm) spreadsheet files",
-            "updated": "2017-06-09T06:06:46+0000"
+            "updated": "2018-10-30T01:10:32+0000"
         },
         {
             "bbclassextend": "",
@@ -701,7 +701,7 @@
             "filename": "python-tornado_4.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.tornadoweb.org/en/stable/",
-            "id": 218641,
+            "id": 834070,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -710,7 +710,7 @@
             "pv": "4.3",
             "section": "devel/python",
             "summary": "Tornado is an open source version of the scalable, non-blocking web server and tools that power FriendFeed.",
-            "updated": "2017-06-09T06:06:46+0000"
+            "updated": "2018-10-30T01:10:32+0000"
         },
         {
             "bbclassextend": "",
@@ -720,7 +720,7 @@
             "filename": "python-paho-mqtt_1.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218642,
+            "id": 834071,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "EPL-1.0",
@@ -729,7 +729,7 @@
             "pv": "1.1",
             "section": "devel/python",
             "summary": "MQTT version 3.1/3.1.1 client library",
-            "updated": "2017-06-09T06:06:46+0000"
+            "updated": "2018-10-30T01:10:33+0000"
         },
         {
             "bbclassextend": "",
@@ -739,7 +739,7 @@
             "filename": "python-pyudev_0.20.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218643,
+            "id": 834072,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "GPLv2",
@@ -748,7 +748,7 @@
             "pv": "0.20.0",
             "section": "devel/python",
             "summary": "A libudev binding",
-            "updated": "2017-06-09T06:06:46+0000"
+            "updated": "2018-10-30T01:10:33+0000"
         },
         {
             "bbclassextend": "",
@@ -758,7 +758,7 @@
             "filename": "python-ujson_1.35.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218644,
+            "id": 834073,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -767,17 +767,17 @@
             "pv": "1.35",
             "section": "devel/python",
             "summary": "Ultra fast JSON encoder and decoder for Python",
-            "updated": "2017-06-09T06:06:46+0000"
+            "updated": "2018-10-30T01:10:33+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "Passlib is a password hashing library for Python 2 & 3, which provides cross-platform implementations of over 30 password hashing algorithms, as well as a framework for managing existing password hashes. It\u2019s designed to be useful for a wide range of tasks, from verifying a hash found in /etc/shadow, to providing full-strength password hashing for multi-user applications.",
+            "description": "Passlib is a password hashing library for Python 2 & 3, which provides cross-platform implementations of over 30 password hashing algorithms, as well as a framework for managing existing password hashes. It\u00e2\u0080\u0099s designed to be useful for a wide range of tasks, from verifying a hash found in /etc/shadow, to providing full-strength password hashing for multi-user applications.",
             "filename": "python3-passlib_1.6.5.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://bitbucket.org/ecollins/passlib",
-            "id": 218645,
+            "id": 834074,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "BSD",
@@ -786,7 +786,7 @@
             "pv": "1.6.5",
             "section": "devel/python",
             "summary": "comprehensive password hashing framework supporting over 30 schemes",
-            "updated": "2017-06-09T06:06:46+0000"
+            "updated": "2018-10-30T01:10:33+0000"
         },
         {
             "bbclassextend": "",
@@ -796,7 +796,7 @@
             "filename": "python-pep8_1.7.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/dreamhost/cliff",
-            "id": 218646,
+            "id": 834075,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -805,7 +805,7 @@
             "pv": "1.7.0",
             "section": "devel/python",
             "summary": "Python style guide checker",
-            "updated": "2017-06-09T06:06:46+0000"
+            "updated": "2018-10-30T01:10:33+0000"
         },
         {
             "bbclassextend": "",
@@ -815,7 +815,7 @@
             "filename": "python-visitor_0.1.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218647,
+            "id": 834076,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -824,7 +824,7 @@
             "pv": "0.1.3",
             "section": "devel/python",
             "summary": "A tiny pythonic visitor implementation.",
-            "updated": "2017-06-09T06:06:46+0000"
+            "updated": "2018-10-30T01:10:33+0000"
         },
         {
             "bbclassextend": "",
@@ -834,7 +834,7 @@
             "filename": "python-ipaddress_1.0.16.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/phihag/ipaddress",
-            "id": 218648,
+            "id": 834077,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "Python-2.0",
@@ -843,7 +843,7 @@
             "pv": "1.0.16",
             "section": "devel/python",
             "summary": "Python 3.3+'s ipaddress for Python 2.6, 2.7, 3.2.",
-            "updated": "2017-06-09T06:06:46+0000"
+            "updated": "2018-10-30T01:10:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -853,7 +853,7 @@
             "filename": "python-requests_2.11.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://python-requests.org",
-            "id": 218649,
+            "id": 834078,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -862,7 +862,7 @@
             "pv": "2.11.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:46+0000"
+            "updated": "2018-10-30T01:10:34+0000"
         },
         {
             "bbclassextend": "",
@@ -872,7 +872,7 @@
             "filename": "python-dateutil_2.5.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://dateutil.readthedocs.org",
-            "id": 218650,
+            "id": 834079,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD-3-Clause",
@@ -881,7 +881,7 @@
             "pv": "2.5.3",
             "section": "devel/python",
             "summary": "Extensions to the standard Python datetime module",
-            "updated": "2017-06-09T06:06:46+0000"
+            "updated": "2018-10-30T01:10:34+0000"
         },
         {
             "bbclassextend": "",
@@ -891,7 +891,7 @@
             "filename": "python-gevent_0.13.8.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.gevent.org",
-            "id": 218651,
+            "id": 834080,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT & BSD",
@@ -900,7 +900,7 @@
             "pv": "0.13.8",
             "section": "devel/python",
             "summary": "A coroutine-based Python networking library",
-            "updated": "2017-06-09T06:06:47+0000"
+            "updated": "2018-10-30T01:10:34+0000"
         },
         {
             "bbclassextend": "",
@@ -910,7 +910,7 @@
             "filename": "python-autobahn_0.8.6.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://autobahn.ws/python",
-            "id": 218652,
+            "id": 834081,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -919,7 +919,7 @@
             "pv": "0.8.6",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:47+0000"
+            "updated": "2018-10-30T01:10:34+0000"
         },
         {
             "bbclassextend": "",
@@ -929,7 +929,7 @@
             "filename": "python-pyalsaaudio_0.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218653,
+            "id": 834082,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative",
             "layerbranch": 70,
             "license": "PSF",
@@ -938,7 +938,7 @@
             "pv": "0.4",
             "section": "devel/python",
             "summary": "Support for the Linux 2.6.x ALSA Sound System",
-            "updated": "2017-06-09T06:06:47+0000"
+            "updated": "2018-10-30T01:10:34+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -948,7 +948,7 @@
             "filename": "python3-iso8601_0.1.11.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218654,
+            "id": 834083,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "MIT",
@@ -957,7 +957,7 @@
             "pv": "0.1.11",
             "section": "devel/python",
             "summary": "Simple module to parse ISO 8601 dates",
-            "updated": "2017-06-09T06:06:47+0000"
+            "updated": "2018-10-30T01:10:34+0000"
         },
         {
             "bbclassextend": "",
@@ -967,7 +967,7 @@
             "filename": "python3-pymongo_3.3.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://github.com/mongodb/mongo-python-driver",
-            "id": 218655,
+            "id": 834084,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -976,7 +976,7 @@
             "pv": "3.3.0",
             "section": "devel/python",
             "summary": "Python driver for MongoDB <http://www.mongodb.org>",
-            "updated": "2017-06-09T06:06:47+0000"
+            "updated": "2018-10-30T01:10:34+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -986,7 +986,7 @@
             "filename": "python-wcwidth_0.1.7.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218656,
+            "id": 834085,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -995,7 +995,7 @@
             "pv": "0.1.7",
             "section": "devel/python",
             "summary": "Library for building powerful interactive command lines in Python",
-            "updated": "2017-06-09T06:06:47+0000"
+            "updated": "2018-10-30T01:10:34+0000"
         },
         {
             "bbclassextend": "",
@@ -1005,7 +1005,7 @@
             "filename": "python-pyroute2_0.3.22.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218657,
+            "id": 834086,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "GPLv2 & Apache-2.0",
@@ -1014,7 +1014,7 @@
             "pv": "0.3.22",
             "section": "devel/python",
             "summary": "A pure Python netlink and Linux network configuration library",
-            "updated": "2017-06-09T06:06:47+0000"
+            "updated": "2018-10-30T01:10:35+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -1024,7 +1024,7 @@
             "filename": "python-django_1.9.7.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.djangoproject.com/",
-            "id": 218658,
+            "id": 834087,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD-3-Clause",
@@ -1033,7 +1033,7 @@
             "pv": "1.9.7",
             "section": "devel/python",
             "summary": "A high-level Python Web framework",
-            "updated": "2017-06-09T06:06:47+0000"
+            "updated": "2018-10-30T01:10:35+0000"
         },
         {
             "bbclassextend": "native",
@@ -1043,7 +1043,7 @@
             "filename": "python3-vcversioner_2.16.0.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/habnabit/vcversioner",
-            "id": 218659,
+            "id": 834088,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "ISC",
@@ -1052,7 +1052,7 @@
             "pv": "2.16.0.0",
             "section": "devel/python",
             "summary": "Python vcversioner, automagically update the project's version",
-            "updated": "2017-06-09T06:06:47+0000"
+            "updated": "2018-10-30T01:10:35+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1062,7 +1062,7 @@
             "filename": "python3-pretend_1.0.8.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218660,
+            "id": 834089,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "BSD",
@@ -1071,7 +1071,7 @@
             "pv": "1.0.8",
             "section": "devel/python",
             "summary": "A library for stubbing in Python",
-            "updated": "2017-06-09T06:06:48+0000"
+            "updated": "2018-10-30T01:10:35+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1081,7 +1081,7 @@
             "filename": "python-six_1.10.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218661,
+            "id": 834090,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -1090,7 +1090,7 @@
             "pv": "1.10.0",
             "section": "devel/python",
             "summary": "Python 2 and 3 compatibility library",
-            "updated": "2017-06-09T06:06:48+0000"
+            "updated": "2018-10-30T01:10:35+0000"
         },
         {
             "bbclassextend": "",
@@ -1100,7 +1100,7 @@
             "filename": "python-pyparsing_2.1.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pyparsing.wikispaces.com/",
-            "id": 218662,
+            "id": 834091,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -1109,7 +1109,7 @@
             "pv": "2.1.4",
             "section": "devel/python",
             "summary": "Python parsing module",
-            "updated": "2017-06-09T06:06:48+0000"
+            "updated": "2018-10-30T01:10:35+0000"
         },
         {
             "bbclassextend": "native",
@@ -1119,7 +1119,7 @@
             "filename": "python-setuptools-scm_1.11.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218663,
+            "id": 834092,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -1128,7 +1128,7 @@
             "pv": "1.11.1",
             "section": "devel/python",
             "summary": "the blessed package to manage your versions by scm tags",
-            "updated": "2018-03-19T07:03:58+0000"
+            "updated": "2018-10-30T01:10:36+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1138,7 +1138,7 @@
             "filename": "python3-pytest_3.0.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218664,
+            "id": 834093,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "MIT",
@@ -1147,7 +1147,7 @@
             "pv": "3.0.1",
             "section": "devel/python",
             "summary": "Simple powerful teting with python",
-            "updated": "2017-06-09T06:06:48+0000"
+            "updated": "2018-10-30T01:10:36+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1157,7 +1157,7 @@
             "filename": "python3-six_1.10.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218665,
+            "id": 834094,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "MIT",
@@ -1166,7 +1166,7 @@
             "pv": "1.10.0",
             "section": "devel/python",
             "summary": "Python 2 and 3 compatibility library",
-            "updated": "2017-06-09T06:06:48+0000"
+            "updated": "2018-10-30T01:10:36+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1176,7 +1176,7 @@
             "filename": "python-pretend_1.0.8.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218666,
+            "id": 834095,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -1185,7 +1185,7 @@
             "pv": "1.0.8",
             "section": "devel/python",
             "summary": "A library for stubbing in Python",
-            "updated": "2017-06-09T06:06:48+0000"
+            "updated": "2018-10-30T01:10:36+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1195,7 +1195,7 @@
             "filename": "python3-cryptography-vectors_1.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218667,
+            "id": 834096,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "Apache-2.0 | BSD",
@@ -1204,7 +1204,7 @@
             "pv": "1.4",
             "section": "devel/python",
             "summary": "Test vectors for the cryptography package.",
-            "updated": "2017-06-09T06:06:49+0000"
+            "updated": "2018-10-30T01:10:36+0000"
         },
         {
             "bbclassextend": "",
@@ -1214,7 +1214,7 @@
             "filename": "python-mock_2.0.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218668,
+            "id": 834097,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -1223,7 +1223,7 @@
             "pv": "2.0.0",
             "section": "devel/python",
             "summary": "A Python Mocking and Patching Library for Testing",
-            "updated": "2017-06-09T06:06:49+0000"
+            "updated": "2018-10-30T01:10:37+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -1233,7 +1233,7 @@
             "filename": "python-bitarray_0.8.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/ilanschnell/bitarray",
-            "id": 218669,
+            "id": 834098,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "PSF",
@@ -1242,7 +1242,7 @@
             "pv": "0.8.1",
             "section": "devel/python",
             "summary": "A high-level Python efficient arrays of booleans -- C extension",
-            "updated": "2017-06-09T06:06:49+0000"
+            "updated": "2018-10-30T01:10:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1252,7 +1252,7 @@
             "filename": "python-pybind11_1.8.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/wjakob/pybind11",
-            "id": 218670,
+            "id": 834099,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD-2-Clause",
@@ -1261,17 +1261,17 @@
             "pv": "1.8.1",
             "section": "devel/python",
             "summary": "Seamless operability between C++11 and Python",
-            "updated": "2017-06-09T06:06:49+0000"
+            "updated": "2018-10-30T01:10:37+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "Flask-Login provides user session management for Flask. It handles the common tasks of logging in, logging out, and remembering your users\u2019 sessions over extended periods of time.",
+            "description": "Flask-Login provides user session management for Flask. It handles the common tasks of logging in, logging out, and remembering your users\u00e2\u0080\u0099 sessions over extended periods of time.",
             "filename": "python-flask-login_0.3.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": " https://github.com/maxcountryman/flask-login",
-            "id": 218671,
+            "id": 834100,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -1280,7 +1280,7 @@
             "pv": "0.3.2",
             "section": "devel/python",
             "summary": "User session management for Flask",
-            "updated": "2017-06-09T06:06:49+0000"
+            "updated": "2018-10-30T01:10:37+0000"
         },
         {
             "bbclassextend": "",
@@ -1290,7 +1290,7 @@
             "filename": "python3-jinja2_2.8.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218672,
+            "id": 834101,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "BSD-3-Clause",
@@ -1299,7 +1299,7 @@
             "pv": "2.8",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:49+0000"
+            "updated": "2018-10-30T01:10:37+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -1309,7 +1309,7 @@
             "filename": "python3-beautifulsoup4_4.5.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": " https://www.crummy.com/software/BeautifulSoup/bs4",
-            "id": 218673,
+            "id": 834102,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "MIT",
@@ -1318,7 +1318,7 @@
             "pv": "4.5.1",
             "section": "devel/python",
             "summary": "Screen-scraping library",
-            "updated": "2017-06-20T03:06:32+0000"
+            "updated": "2018-10-30T01:10:37+0000"
         },
         {
             "bbclassextend": "native",
@@ -1328,7 +1328,7 @@
             "filename": "python3-cython_0.24.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218674,
+            "id": 834103,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -1337,7 +1337,7 @@
             "pv": "0.24.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:49+0000"
+            "updated": "2018-10-30T01:10:37+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1347,7 +1347,7 @@
             "filename": "python3-requests_2.11.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://python-requests.org",
-            "id": 218675,
+            "id": 834104,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -1356,7 +1356,7 @@
             "pv": "2.11.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:49+0000"
+            "updated": "2018-10-30T01:10:38+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1366,7 +1366,7 @@
             "filename": "python3-lxml_3.6.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://codespeak.net/lxml",
-            "id": 218676,
+            "id": 834105,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "BSD & GPLv2 & MIT & PSF",
@@ -1375,7 +1375,7 @@
             "pv": "3.6.4",
             "section": "devel/python",
             "summary": "Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.",
-            "updated": "2017-06-09T06:06:50+0000"
+            "updated": "2018-10-30T01:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1385,7 +1385,7 @@
             "filename": "python-pyserial_3.1.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218677,
+            "id": 834106,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -1394,7 +1394,7 @@
             "pv": "3.1.1",
             "section": "devel/python",
             "summary": "Serial Port Support for Python",
-            "updated": "2017-06-09T06:06:50+0000"
+            "updated": "2018-10-30T01:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1404,7 +1404,7 @@
             "filename": "python-markupsafe_0.23.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://github.com/mitsuhiko/markupsafe",
-            "id": 218678,
+            "id": 834107,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD-3-Clause",
@@ -1413,7 +1413,7 @@
             "pv": "0.23",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:50+0000"
+            "updated": "2018-10-30T01:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1423,7 +1423,7 @@
             "filename": "python-pyhamcrest_1.9.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218679,
+            "id": 834108,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -1432,7 +1432,7 @@
             "pv": "1.9.0",
             "section": "devel/python",
             "summary": "Hamcrest framework for matcher objects",
-            "updated": "2017-06-09T06:06:50+0000"
+            "updated": "2018-10-30T01:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1442,7 +1442,7 @@
             "filename": "python-imaging_1.1.7.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218680,
+            "id": 834109,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative",
             "layerbranch": 70,
             "license": "MIT",
@@ -1451,7 +1451,7 @@
             "pv": "1.1.7",
             "section": "devel/python",
             "summary": "Python Imaging Library (PIL)",
-            "updated": "2017-06-09T06:06:50+0000"
+            "updated": "2018-10-30T01:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1461,7 +1461,7 @@
             "filename": "python-ldap_2.3.9.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.python-ldap.org/",
-            "id": 218681,
+            "id": 834110,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "Python-style",
@@ -1470,7 +1470,7 @@
             "pv": "2.3.9",
             "section": "devel/python",
             "summary": "LDAP client API for Python, C wrapper module around OpenLDAP 2.x with an object-oriented API",
-            "updated": "2017-06-09T06:06:50+0000"
+            "updated": "2018-10-30T01:10:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1480,7 +1480,7 @@
             "filename": "python-pyrex_0.9.9.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218682,
+            "id": 834111,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -1489,7 +1489,7 @@
             "pv": "0.9.9",
             "section": "devel/python",
             "summary": "Language for writing Python extension modules",
-            "updated": "2017-06-09T06:06:50+0000"
+            "updated": "2018-10-30T01:10:38+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1499,7 +1499,7 @@
             "filename": "python-functools32_3.2.3-2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218683,
+            "id": 834112,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "PSF",
@@ -1508,17 +1508,17 @@
             "pv": "3.2.3-2",
             "section": "devel/python",
             "summary": "Backport of the functools module from Python 3.2.3 for use on 2.7 and PyPy.",
-            "updated": "2017-06-09T06:06:50+0000"
+            "updated": "2018-10-30T01:10:39+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "Flask-Login provides user session management for Flask. It handles the common tasks of logging in, logging out, and remembering your users\u2019 sessions over extended periods of time.",
+            "description": "Flask-Login provides user session management for Flask. It handles the common tasks of logging in, logging out, and remembering your users\u00e2\u0080\u0099 sessions over extended periods of time.",
             "filename": "python3-flask-login_0.3.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": " https://github.com/maxcountryman/flask-login",
-            "id": 218684,
+            "id": 834113,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "MIT",
@@ -1527,7 +1527,7 @@
             "pv": "0.3.2",
             "section": "devel/python",
             "summary": "User session management for Flask",
-            "updated": "2017-06-09T06:06:50+0000"
+            "updated": "2018-10-30T01:10:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1537,7 +1537,7 @@
             "filename": "python-pylint_1.6.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.pylint.org/",
-            "id": 218685,
+            "id": 834114,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "GPLv2",
@@ -1546,7 +1546,7 @@
             "pv": "1.6.4",
             "section": "devel/python",
             "summary": "Pylint is a Python source code analyzer",
-            "updated": "2017-06-09T06:06:50+0000"
+            "updated": "2018-10-30T01:10:39+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -1556,7 +1556,7 @@
             "filename": "python3-django_1.9.7.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.djangoproject.com/",
-            "id": 218686,
+            "id": 834115,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "BSD-3-Clause",
@@ -1565,7 +1565,7 @@
             "pv": "1.9.7",
             "section": "devel/python",
             "summary": "A high-level Python Web framework",
-            "updated": "2017-06-09T06:06:50+0000"
+            "updated": "2018-10-30T01:10:39+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1575,7 +1575,7 @@
             "filename": "python3-webcolors_1.5.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218687,
+            "id": 834116,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "BSD",
@@ -1584,7 +1584,7 @@
             "pv": "1.5",
             "section": "devel/python",
             "summary": "Simple Python module for working with HTML/CSS color definitions.",
-            "updated": "2017-06-09T06:06:51+0000"
+            "updated": "2018-10-30T01:10:39+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1594,7 +1594,7 @@
             "filename": "python-jsonschema_2.5.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218688,
+            "id": 834117,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -1603,7 +1603,7 @@
             "pv": "2.5.1",
             "section": "devel/python",
             "summary": "An implementation of JSON Schema validation for Python",
-            "updated": "2017-06-09T06:06:51+0000"
+            "updated": "2018-10-30T01:10:40+0000"
         },
         {
             "bbclassextend": "",
@@ -1613,7 +1613,7 @@
             "filename": "python-unidiff_0.5.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://github.com/matiasb/python-unidiff",
-            "id": 218689,
+            "id": 834118,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -1622,7 +1622,7 @@
             "pv": "0.5.2",
             "section": "devel/python",
             "summary": "Unified diff parsing/metadata extraction library",
-            "updated": "2017-06-09T06:06:51+0000"
+            "updated": "2018-10-30T01:10:40+0000"
         },
         {
             "bbclassextend": "",
@@ -1632,7 +1632,7 @@
             "filename": "python-jsonpatch_1.14.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/stefankoegl/python-json-patch",
-            "id": 218690,
+            "id": 834119,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -1641,7 +1641,7 @@
             "pv": "1.14",
             "section": "devel/python",
             "summary": "Appling JSON patches in Python 2.6+ and 3.x",
-            "updated": "2017-06-09T06:06:51+0000"
+            "updated": "2018-10-30T01:10:40+0000"
         },
         {
             "bbclassextend": "",
@@ -1651,7 +1651,7 @@
             "filename": "python-jsonpointer_1.10.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/stefankoegl/python-json-pointer",
-            "id": 218691,
+            "id": 834120,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -1660,7 +1660,7 @@
             "pv": "1.10",
             "section": "devel/python",
             "summary": "Resolve JSON Pointers in Python",
-            "updated": "2017-06-09T06:06:51+0000"
+            "updated": "2018-10-30T01:10:40+0000"
         },
         {
             "bbclassextend": "",
@@ -1670,7 +1670,7 @@
             "filename": "python-wtforms_2.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/WTForms",
-            "id": 218692,
+            "id": 834121,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -1679,7 +1679,7 @@
             "pv": "2.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:51+0000"
+            "updated": "2018-10-30T01:10:40+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1689,7 +1689,7 @@
             "filename": "python3-pycparser_2.14.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218693,
+            "id": 834122,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "BSD-3-Clause",
@@ -1698,7 +1698,7 @@
             "pv": "2.14",
             "section": "devel/python",
             "summary": "Parser of the C language, written in pure Python",
-            "updated": "2017-06-09T06:06:51+0000"
+            "updated": "2018-10-30T01:10:40+0000"
         },
         {
             "bbclassextend": "",
@@ -1708,7 +1708,7 @@
             "filename": "python3-feedformatter_0.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://code.google.com/p/feedformatter/",
-            "id": 218694,
+            "id": 834123,
             "inherits": "distutils-common-base distutils3 distutils3-base python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "BSD",
@@ -1717,17 +1717,17 @@
             "pv": "0.4",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:51+0000"
+            "updated": "2018-10-30T01:10:40+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "Passlib is a password hashing library for Python 2 & 3, which provides cross-platform implementations of over 30 password hashing algorithms, as well as a framework for managing existing password hashes. It\u2019s designed to be useful for a wide range of tasks, from verifying a hash found in /etc/shadow, to providing full-strength password hashing for multi-user applications.",
+            "description": "Passlib is a password hashing library for Python 2 & 3, which provides cross-platform implementations of over 30 password hashing algorithms, as well as a framework for managing existing password hashes. It\u00e2\u0080\u0099s designed to be useful for a wide range of tasks, from verifying a hash found in /etc/shadow, to providing full-strength password hashing for multi-user applications.",
             "filename": "python-passlib_1.6.5.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://bitbucket.org/ecollins/passlib",
-            "id": 218695,
+            "id": 834124,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -1736,7 +1736,7 @@
             "pv": "1.6.5",
             "section": "devel/python",
             "summary": "comprehensive password hashing framework supporting over 30 schemes",
-            "updated": "2017-06-09T06:06:51+0000"
+            "updated": "2018-10-30T01:10:40+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1746,7 +1746,7 @@
             "filename": "python-cryptography_1.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218696,
+            "id": 834125,
             "inherits": "distutils distutils-base distutils-common-base ptest pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "Apache-2.0 | BSD",
@@ -1755,7 +1755,7 @@
             "pv": "1.4",
             "section": "devel/python",
             "summary": "Provides cryptographic recipes and primitives to python developers",
-            "updated": "2017-06-09T06:06:52+0000"
+            "updated": "2018-10-30T01:10:41+0000"
         },
         {
             "bbclassextend": "",
@@ -1765,7 +1765,7 @@
             "filename": "python-monotonic_1.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218697,
+            "id": 834126,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -1774,7 +1774,7 @@
             "pv": "1.2",
             "section": "devel/python",
             "summary": "An implementation of time.monotonic() for Python 2.0 through 3.2",
-            "updated": "2017-06-09T06:06:52+0000"
+            "updated": "2018-10-30T01:10:41+0000"
         },
         {
             "bbclassextend": "",
@@ -1784,7 +1784,7 @@
             "filename": "python-matplotlib_1.1.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218698,
+            "id": 834127,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative",
             "layerbranch": 70,
             "license": "PSF",
@@ -1793,7 +1793,7 @@
             "pv": "1.1.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:52+0000"
+            "updated": "2018-10-30T01:10:41+0000"
         },
         {
             "bbclassextend": "",
@@ -1803,7 +1803,7 @@
             "filename": "python-redis_2.10.5.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://github.com/andymccurdy/redis-py",
-            "id": 218699,
+            "id": 834128,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -1812,7 +1812,7 @@
             "pv": "2.10.5",
             "section": "devel/python",
             "summary": "Python client for Redis key-value store",
-            "updated": "2017-06-09T06:06:52+0000"
+            "updated": "2018-10-30T01:10:41+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1822,7 +1822,7 @@
             "filename": "python-py_1.4.31.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218700,
+            "id": 834129,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -1831,7 +1831,7 @@
             "pv": "1.4.31",
             "section": "devel/python",
             "summary": "Library with cross-python path, ini-parsing, io, code, log facilities",
-            "updated": "2017-06-09T06:06:52+0000"
+            "updated": "2018-10-30T01:10:41+0000"
         },
         {
             "bbclassextend": "",
@@ -1841,7 +1841,7 @@
             "filename": "python-jinja2_2.8.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218701,
+            "id": 834130,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD-3-Clause",
@@ -1850,7 +1850,7 @@
             "pv": "2.8",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:52+0000"
+            "updated": "2018-10-30T01:10:41+0000"
         },
         {
             "bbclassextend": "",
@@ -1860,7 +1860,7 @@
             "filename": "python-smbus_3.1.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218702,
+            "id": 834131,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative",
             "layerbranch": 70,
             "license": "GPLv2",
@@ -1869,7 +1869,7 @@
             "pv": "3.1.1",
             "section": "base",
             "summary": "Set of i2c tools for linux - Python module",
-            "updated": "2017-06-09T06:06:52+0000"
+            "updated": "2018-10-30T01:10:41+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1879,7 +1879,7 @@
             "filename": "python-idna_2.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/kjd/idna",
-            "id": 218703,
+            "id": 834132,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD-3-Clause & Python-2.0 & Unicode",
@@ -1888,7 +1888,7 @@
             "pv": "2.1",
             "section": "devel/python",
             "summary": "Internationalised Domain Names in Applications",
-            "updated": "2017-06-09T06:06:52+0000"
+            "updated": "2018-10-30T01:10:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1898,7 +1898,7 @@
             "filename": "python-flask-bcrypt_0.7.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218704,
+            "id": 834133,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -1907,7 +1907,7 @@
             "pv": "0.7.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:52+0000"
+            "updated": "2018-10-30T01:10:42+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1917,7 +1917,7 @@
             "filename": "python-prompt-toolkit_1.0.7.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218705,
+            "id": 834134,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -1926,7 +1926,7 @@
             "pv": "1.0.7",
             "section": "devel/python",
             "summary": "Library for building powerful interactive command lines in Python",
-            "updated": "2017-06-09T06:06:53+0000"
+            "updated": "2018-10-30T01:10:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1936,7 +1936,7 @@
             "filename": "python-singledispatch_3.4.0.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218706,
+            "id": 834135,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -1945,7 +1945,7 @@
             "pv": "3.4.0.3",
             "section": "devel/python",
             "summary": "functools.singledispatch from Python 3.4",
-            "updated": "2017-06-09T06:06:53+0000"
+            "updated": "2018-10-30T01:10:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1955,7 +1955,7 @@
             "filename": "python3-pybind11_1.8.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/wjakob/pybind11",
-            "id": 218707,
+            "id": 834136,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "BSD-2-Clause",
@@ -1964,7 +1964,7 @@
             "pv": "1.8.1",
             "section": "devel/python",
             "summary": "Seamless operability between C++11 and Python",
-            "updated": "2017-06-09T06:06:53+0000"
+            "updated": "2018-10-30T01:10:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1974,7 +1974,7 @@
             "filename": "python-cmd2_0.6.9.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://packages.python.org/cmd2/",
-            "id": 218708,
+            "id": 834137,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -1983,7 +1983,7 @@
             "pv": "0.6.9",
             "section": "devel/python",
             "summary": "Extra features for standard library's cmd module",
-            "updated": "2017-06-09T06:06:53+0000"
+            "updated": "2018-10-30T01:10:42+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1993,7 +1993,7 @@
             "filename": "python-certifi_2016.9.26.bb",
             "filepath": "recipes-devtools/python",
             "homepage": " http://certifi.io/",
-            "id": 218709,
+            "id": 834138,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "ISC",
@@ -2002,7 +2002,7 @@
             "pv": "2016.9.26",
             "section": "devel/python",
             "summary": "Python package for providing Mozilla's CA Bundle.",
-            "updated": "2017-06-09T06:06:53+0000"
+            "updated": "2018-10-30T01:10:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2012,7 +2012,7 @@
             "filename": "python-dbus_1.2.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.freedesktop.org/Software/dbus",
-            "id": 218710,
+            "id": 834139,
             "inherits": "autotools distutils-base distutils-common-base pkgconfig python-dir pythonnative siteconfig siteinfo",
             "layerbranch": 70,
             "license": "MIT",
@@ -2021,7 +2021,7 @@
             "pv": "1.2.4",
             "section": "devel/python",
             "summary": "Python bindings for the DBus inter-process communication system",
-            "updated": "2017-06-09T06:06:53+0000"
+            "updated": "2018-10-30T01:10:43+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2031,7 +2031,7 @@
             "filename": "python-ndg-httpsclient_0.4.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://python-requests.org",
-            "id": 218711,
+            "id": 834140,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -2040,7 +2040,7 @@
             "pv": "0.4.2",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:53+0000"
+            "updated": "2018-10-30T01:10:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2050,7 +2050,7 @@
             "filename": "python-flask-bootstrap_3.3.6.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218712,
+            "id": 834141,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -2059,7 +2059,7 @@
             "pv": "3.3.6.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:53+0000"
+            "updated": "2018-10-30T01:10:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2069,7 +2069,7 @@
             "filename": "python-tornado-redis_2.4.18.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/leporo/tornado-redis",
-            "id": 218713,
+            "id": 834142,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -2078,7 +2078,7 @@
             "pv": "2.4.18",
             "section": "devel/python",
             "summary": "Tornado-Redis is an asyncronous Redis client for the Tornado Web Server",
-            "updated": "2017-06-09T06:06:53+0000"
+            "updated": "2018-10-30T01:10:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2088,7 +2088,7 @@
             "filename": "python-werkzeug_0.11.11.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://werkzeug.pocoo.org/",
-            "id": 218714,
+            "id": 834143,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -2097,7 +2097,7 @@
             "pv": "0.11.11",
             "section": "devel/python",
             "summary": "The Swiss Army knife of Python web development",
-            "updated": "2017-06-09T06:06:53+0000"
+            "updated": "2018-10-30T01:10:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2107,7 +2107,7 @@
             "filename": "python-msgpack_0.4.7.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218715,
+            "id": 834144,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -2116,7 +2116,7 @@
             "pv": "0.4.7",
             "section": "devel/python",
             "summary": "MessagePack (de)serializer",
-            "updated": "2017-06-09T06:06:54+0000"
+            "updated": "2018-10-30T01:10:43+0000"
         },
         {
             "bbclassextend": "",
@@ -2126,7 +2126,7 @@
             "filename": "python-dbusmock_0.16.7.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218716,
+            "id": 834145,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "GPL-3.0",
@@ -2135,7 +2135,7 @@
             "pv": "0.16.7",
             "section": "devel/python",
             "summary": "With this program/Python library you can easily create mock objects on D-Bus",
-            "updated": "2017-06-09T06:06:54+0000"
+            "updated": "2018-10-30T01:10:43+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2145,7 +2145,7 @@
             "filename": "python3-idna_2.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/kjd/idna",
-            "id": 218717,
+            "id": 834146,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "BSD-3-Clause & Python-2.0 & Unicode",
@@ -2154,7 +2154,7 @@
             "pv": "2.1",
             "section": "devel/python",
             "summary": "Internationalised Domain Names in Applications",
-            "updated": "2017-06-09T06:06:54+0000"
+            "updated": "2018-10-30T01:10:44+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2164,7 +2164,7 @@
             "filename": "python-pytest_3.0.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218718,
+            "id": 834147,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -2173,7 +2173,7 @@
             "pv": "3.0.1",
             "section": "devel/python",
             "summary": "Simple powerful teting with python",
-            "updated": "2017-06-09T06:06:54+0000"
+            "updated": "2018-10-30T01:10:44+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2183,7 +2183,7 @@
             "filename": "python-cffi_1.8.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218719,
+            "id": 834148,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -2192,7 +2192,7 @@
             "pv": "1.8.3",
             "section": "devel/python",
             "summary": "Foreign Function Interface for Python calling C code",
-            "updated": "2017-06-09T06:06:54+0000"
+            "updated": "2018-10-30T01:10:44+0000"
         },
         {
             "bbclassextend": "",
@@ -2202,7 +2202,7 @@
             "filename": "python-feedparser_5.2.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218720,
+            "id": 834149,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD-2-Clause",
@@ -2211,7 +2211,7 @@
             "pv": "5.2.1",
             "section": "devel/python",
             "summary": "Python Atom and RSS feed parser",
-            "updated": "2017-06-09T06:06:54+0000"
+            "updated": "2018-10-30T01:10:44+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2221,7 +2221,7 @@
             "filename": "python-webcolors_1.5.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218721,
+            "id": 834150,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -2230,7 +2230,7 @@
             "pv": "1.5",
             "section": "devel/python",
             "summary": "Simple Python module for working with HTML/CSS color definitions.",
-            "updated": "2017-06-09T06:06:54+0000"
+            "updated": "2018-10-30T01:10:44+0000"
         },
         {
             "bbclassextend": "",
@@ -2240,7 +2240,7 @@
             "filename": "python-pytz_2016.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": " http://pythonhosted.org/pytz",
-            "id": 218722,
+            "id": 834151,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -2249,7 +2249,7 @@
             "pv": "2016.4",
             "section": "devel/python",
             "summary": "World timezone definitions, modern and historical",
-            "updated": "2017-06-09T06:06:54+0000"
+            "updated": "2018-10-30T01:10:45+0000"
         },
         {
             "bbclassextend": "",
@@ -2259,7 +2259,7 @@
             "filename": "python-zopeinterface_4.2.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218723,
+            "id": 834152,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "ZPL-2.1",
@@ -2268,7 +2268,7 @@
             "pv": "4.2.0",
             "section": "devel/python",
             "summary": "Interface definitions for Zope products",
-            "updated": "2017-06-09T06:06:54+0000"
+            "updated": "2018-10-30T01:10:45+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2278,7 +2278,7 @@
             "filename": "python-pyasn1_0.1.9.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pyasn1.sourceforge.net/",
-            "id": 218724,
+            "id": 834153,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD-2-Clause",
@@ -2287,7 +2287,7 @@
             "pv": "0.1.9",
             "section": "devel/python",
             "summary": "Python library implementing ASN.1 types.",
-            "updated": "2017-06-09T06:06:55+0000"
+            "updated": "2018-10-30T01:10:45+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -2297,7 +2297,7 @@
             "filename": "python-pip_8.1.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218725,
+            "id": 834154,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT & LGPL-2.1",
@@ -2306,7 +2306,7 @@
             "pv": "8.1.2",
             "section": "devel/python",
             "summary": "PIP is a tool for installing and managing Python packages",
-            "updated": "2017-06-09T06:06:55+0000"
+            "updated": "2018-10-30T01:10:45+0000"
         },
         {
             "bbclassextend": "",
@@ -2316,7 +2316,7 @@
             "filename": "python-ldap_2.4.10.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.python-ldap.org/",
-            "id": 218726,
+            "id": 834155,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "PSF",
@@ -2325,7 +2325,7 @@
             "pv": "2.4.10",
             "section": "devel/python",
             "summary": "Provides a wrapper in Python to LDAP",
-            "updated": "2017-06-09T06:06:55+0000"
+            "updated": "2018-10-30T01:10:45+0000"
         },
         {
             "bbclassextend": "",
@@ -2335,7 +2335,7 @@
             "filename": "python-pyrex-native_0.9.9.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218727,
+            "id": 834156,
             "inherits": "distutils distutils-base distutils-common-base native nopackages python-dir pythonnative relocatable",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -2344,7 +2344,7 @@
             "pv": "0.9.9",
             "section": "devel/python",
             "summary": "Language for writing Python extension modules",
-            "updated": "2017-06-09T06:06:55+0000"
+            "updated": "2018-10-30T01:10:45+0000"
         },
         {
             "bbclassextend": "",
@@ -2354,7 +2354,7 @@
             "filename": "python-yappi_0.94.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://yappi.googlecode.com/",
-            "id": 218728,
+            "id": 834157,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -2363,7 +2363,7 @@
             "pv": "0.94",
             "section": "devel/python",
             "summary": "Yet Another Python Profiler",
-            "updated": "2017-06-09T06:06:55+0000"
+            "updated": "2018-10-30T01:10:45+0000"
         },
         {
             "bbclassextend": "",
@@ -2373,7 +2373,7 @@
             "filename": "python3-decorator_4.0.10.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218729,
+            "id": 834158,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "BSD",
@@ -2382,7 +2382,7 @@
             "pv": "4.0.10",
             "section": "devel/python",
             "summary": "Python decorator utilities",
-            "updated": "2017-06-09T06:06:55+0000"
+            "updated": "2018-10-30T01:10:46+0000"
         },
         {
             "bbclassextend": "",
@@ -2392,7 +2392,7 @@
             "filename": "python3-pymisp_2.4.51.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/MISP/PyMISP",
-            "id": 218730,
+            "id": 834159,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "BSD-2-Clause",
@@ -2401,7 +2401,7 @@
             "pv": "2.4.51.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:55+0000"
+            "updated": "2018-10-30T01:10:46+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2411,7 +2411,7 @@
             "filename": "python-strict-rfc3339_0.7.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218731,
+            "id": 834160,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "GPLv3",
@@ -2420,7 +2420,7 @@
             "pv": "0.7",
             "section": "devel/python",
             "summary": "Strict, simple, lightweight RFC3339 function.s",
-            "updated": "2017-06-09T06:06:55+0000"
+            "updated": "2018-10-30T01:10:46+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2430,7 +2430,7 @@
             "filename": "python-lxml_3.6.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://codespeak.net/lxml",
-            "id": 218732,
+            "id": 834161,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD & GPLv2 & MIT & PSF",
@@ -2439,7 +2439,7 @@
             "pv": "3.6.4",
             "section": "devel/python",
             "summary": "Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.",
-            "updated": "2017-06-09T06:06:55+0000"
+            "updated": "2018-10-30T01:10:46+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -2449,7 +2449,7 @@
             "filename": "python-django-south_1.0.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://south.aeracode.org/",
-            "id": 218733,
+            "id": 834162,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -2458,7 +2458,7 @@
             "pv": "1.0.2",
             "section": "devel/python",
             "summary": "Migrations for Django",
-            "updated": "2017-06-09T06:06:56+0000"
+            "updated": "2018-10-30T01:10:46+0000"
         },
         {
             "bbclassextend": "native",
@@ -2468,7 +2468,7 @@
             "filename": "python-cython_0.24.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218734,
+            "id": 834163,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -2477,7 +2477,7 @@
             "pv": "0.24.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:56+0000"
+            "updated": "2018-10-30T01:10:47+0000"
         },
         {
             "bbclassextend": "",
@@ -2487,7 +2487,7 @@
             "filename": "python-mccabe_0.4.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/dreamhost/cliff",
-            "id": 218735,
+            "id": 834164,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -2496,7 +2496,7 @@
             "pv": "0.4.0",
             "section": "devel/python",
             "summary": "McCabe checker, plugin for flake8",
-            "updated": "2017-06-09T06:06:56+0000"
+            "updated": "2018-10-30T01:10:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2506,7 +2506,7 @@
             "filename": "python3-jsonschema_2.5.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218736,
+            "id": 834165,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "MIT",
@@ -2515,17 +2515,17 @@
             "pv": "2.5.1",
             "section": "devel/python",
             "summary": "An implementation of JSON Schema validation for Python",
-            "updated": "2017-06-09T06:06:56+0000"
+            "updated": "2018-10-30T01:10:47+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "Flask is a microframework for Python based on Werkzeug, Jinja 2 and good intentions. And before you ask: It\u2019s BSD licensed!",
+            "description": "Flask is a microframework for Python based on Werkzeug, Jinja 2 and good intentions. And before you ask: It\u00e2\u0080\u0099s BSD licensed!",
             "filename": "python-flask_0.11.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/mitsuhiko/flask/",
-            "id": 218737,
+            "id": 834166,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -2534,7 +2534,7 @@
             "pv": "0.11.1",
             "section": "devel/python",
             "summary": "A microframework based on Werkzeug, Jinja2 and good intentions",
-            "updated": "2017-06-09T06:06:56+0000"
+            "updated": "2018-10-30T01:10:47+0000"
         },
         {
             "bbclassextend": "",
@@ -2544,7 +2544,7 @@
             "filename": "python-flask-pymongo_0.4.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/mitsuhiko/flask/",
-            "id": 218738,
+            "id": 834167,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -2553,7 +2553,7 @@
             "pv": "0.4.1",
             "section": "devel/python",
             "summary": "PyMongo support for Flask applications",
-            "updated": "2017-06-09T06:06:56+0000"
+            "updated": "2018-10-30T01:10:47+0000"
         },
         {
             "bbclassextend": "native",
@@ -2563,7 +2563,7 @@
             "filename": "python-pytest-runner_2.8.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218739,
+            "id": 834168,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -2572,7 +2572,7 @@
             "pv": "2.8",
             "section": "devel/python",
             "summary": "Invoke py.test as distutils command with dependency resolution",
-            "updated": "2018-03-19T07:03:58+0000"
+            "updated": "2018-10-30T01:10:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2582,7 +2582,7 @@
             "filename": "python-pyopenssl_16.1.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218740,
+            "id": 834169,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -2591,7 +2591,7 @@
             "pv": "16.1.0",
             "section": "devel/python",
             "summary": "Simple Python wrapper around the OpenSSL library",
-            "updated": "2017-06-09T06:06:56+0000"
+            "updated": "2018-10-30T01:10:47+0000"
         },
         {
             "bbclassextend": "",
@@ -2601,7 +2601,7 @@
             "filename": "python-dominate_2.2.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218741,
+            "id": 834170,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "LGPLv3",
@@ -2610,7 +2610,7 @@
             "pv": "2.2.1",
             "section": "devel/python",
             "summary": "Dominate is a Python library for creating and manipulating HTML documents using an elegant DOM API.",
-            "updated": "2017-06-09T06:06:56+0000"
+            "updated": "2018-10-30T01:10:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2620,7 +2620,7 @@
             "filename": "python3-ndg-httpsclient_0.4.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://python-requests.org",
-            "id": 218742,
+            "id": 834171,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "BSD",
@@ -2629,7 +2629,7 @@
             "pv": "0.4.2",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:57+0000"
+            "updated": "2018-10-30T01:10:48+0000"
         },
         {
             "bbclassextend": "",
@@ -2639,7 +2639,7 @@
             "filename": "python-twisted_13.2.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.twistedmatrix.com",
-            "id": 218743,
+            "id": 834172,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -2648,7 +2648,7 @@
             "pv": "13.2.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:57+0000"
+            "updated": "2018-10-30T01:10:48+0000"
         },
         {
             "bbclassextend": "",
@@ -2658,7 +2658,7 @@
             "filename": "python-whoosh_2.7.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218744,
+            "id": 834173,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -2667,7 +2667,7 @@
             "pv": "2.7.4",
             "section": "devel/python",
             "summary": "Fast, pure-Python full text indexing, search, and spell checking library.",
-            "updated": "2017-06-09T06:06:57+0000"
+            "updated": "2018-10-30T01:10:48+0000"
         },
         {
             "bbclassextend": "",
@@ -2677,7 +2677,7 @@
             "filename": "python-cloudeebus_0.6.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/01org/cloudeebus",
-            "id": 218745,
+            "id": 834174,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -2686,7 +2686,7 @@
             "pv": "0.6.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:57+0000"
+            "updated": "2018-10-30T01:10:48+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2696,7 +2696,7 @@
             "filename": "python-iso8601_0.1.11.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218746,
+            "id": 834175,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -2705,7 +2705,7 @@
             "pv": "0.1.11",
             "section": "devel/python",
             "summary": "Simple module to parse ISO 8601 dates",
-            "updated": "2017-06-09T06:06:57+0000"
+            "updated": "2018-10-30T01:10:48+0000"
         },
         {
             "bbclassextend": "",
@@ -2715,7 +2715,7 @@
             "filename": "python3-tornado_4.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.tornadoweb.org/en/stable/",
-            "id": 218747,
+            "id": 834176,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -2724,7 +2724,7 @@
             "pv": "4.3",
             "section": "devel/python",
             "summary": "Tornado is an open source version of the scalable, non-blocking web server and tools that power FriendFeed.",
-            "updated": "2017-06-09T06:06:57+0000"
+            "updated": "2018-10-30T01:10:48+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -2734,7 +2734,7 @@
             "filename": "python3-pip_8.1.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218748,
+            "id": 834177,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "MIT & LGPL-2.1",
@@ -2743,7 +2743,7 @@
             "pv": "8.1.2",
             "section": "devel/python",
             "summary": "PIP is a tool for installing and managing Python packages",
-            "updated": "2017-06-09T06:06:57+0000"
+            "updated": "2018-10-30T01:10:49+0000"
         },
         {
             "bbclassextend": "",
@@ -2753,7 +2753,7 @@
             "filename": "python-sparts_0.7.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218749,
+            "id": 834178,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD-3-Clause",
@@ -2762,7 +2762,7 @@
             "pv": "0.7.3",
             "section": "devel/python",
             "summary": "Library for rapid service prototyping with minimal boilerplate",
-            "updated": "2017-06-09T06:06:57+0000"
+            "updated": "2018-10-30T01:10:49+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2772,7 +2772,7 @@
             "filename": "python3-py_1.4.31.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218750,
+            "id": 834179,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "MIT",
@@ -2781,7 +2781,7 @@
             "pv": "1.4.31",
             "section": "devel/python",
             "summary": "Library with cross-python path, ini-parsing, io, code, log facilities",
-            "updated": "2017-06-09T06:06:57+0000"
+            "updated": "2018-10-30T01:10:49+0000"
         },
         {
             "bbclassextend": "",
@@ -2791,7 +2791,7 @@
             "filename": "python-funcsigs_1.0.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://funcsigs.readthedocs.org",
-            "id": 218751,
+            "id": 834180,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -2800,7 +2800,7 @@
             "pv": "1.0.2",
             "section": "devel/python",
             "summary": "Python function signatures from PEP362 for Python 2.6, 2.7 and 3.2+",
-            "updated": "2017-06-09T06:06:57+0000"
+            "updated": "2018-10-30T01:10:49+0000"
         },
         {
             "bbclassextend": "nativesdk",
@@ -2810,7 +2810,7 @@
             "filename": "python3-pytz_2016.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": " http://pythonhosted.org/pytz",
-            "id": 218752,
+            "id": 834181,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "MIT",
@@ -2819,7 +2819,7 @@
             "pv": "2016.4",
             "section": "devel/python",
             "summary": "World timezone definitions, modern and historical",
-            "updated": "2017-06-20T03:06:32+0000"
+            "updated": "2018-10-30T01:10:49+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2829,7 +2829,7 @@
             "filename": "python3-click_6.6.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://click.pocoo.org/",
-            "id": 218753,
+            "id": 834182,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "BSD",
@@ -2838,7 +2838,7 @@
             "pv": "6.6",
             "section": "devel/python",
             "summary": "A simple wrapper around optparse for powerful command line utilities.",
-            "updated": "2017-06-09T06:06:58+0000"
+            "updated": "2018-10-30T01:10:49+0000"
         },
         {
             "bbclassextend": "",
@@ -2848,7 +2848,7 @@
             "filename": "python-paste_2.0.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pythonpaste.org/",
-            "id": 218754,
+            "id": 834183,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -2857,7 +2857,7 @@
             "pv": "2.0.3",
             "section": "devel/python",
             "summary": "Tools for using a Web Server Gateway Interface stack",
-            "updated": "2017-06-09T06:06:58+0000"
+            "updated": "2018-10-30T01:10:49+0000"
         },
         {
             "bbclassextend": "",
@@ -2867,7 +2867,7 @@
             "filename": "python-pyflakes_1.2.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/dreamhost/cliff",
-            "id": 218755,
+            "id": 834184,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -2876,7 +2876,7 @@
             "pv": "1.2.3",
             "section": "devel/python",
             "summary": "passive checker of Python programs",
-            "updated": "2017-06-09T06:06:58+0000"
+            "updated": "2018-10-30T01:10:49+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2886,7 +2886,7 @@
             "filename": "python3-cffi_1.8.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218756,
+            "id": 834185,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "MIT",
@@ -2895,7 +2895,7 @@
             "pv": "1.8.3",
             "section": "devel/python",
             "summary": "Foreign Function Interface for Python calling C code",
-            "updated": "2017-06-09T06:06:58+0000"
+            "updated": "2018-10-30T01:10:50+0000"
         },
         {
             "bbclassextend": "",
@@ -2905,7 +2905,7 @@
             "filename": "python3-pyinotify_0.9.6.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218757,
+            "id": 834186,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "MIT",
@@ -2914,7 +2914,7 @@
             "pv": "0.9.6",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:58+0000"
+            "updated": "2018-10-30T01:10:50+0000"
         },
         {
             "bbclassextend": "",
@@ -2924,7 +2924,7 @@
             "filename": "python-feedformatter_0.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://code.google.com/p/feedformatter/",
-            "id": 218758,
+            "id": 834187,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -2933,7 +2933,7 @@
             "pv": "0.4",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:58+0000"
+            "updated": "2018-10-30T01:10:50+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2943,7 +2943,7 @@
             "filename": "python3-urllib3_1.18.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/shazow/urllib3",
-            "id": 218759,
+            "id": 834188,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "MIT",
@@ -2952,7 +2952,7 @@
             "pv": "1.18",
             "section": "devel/python",
             "summary": "Python HTTP library with thread-safe connection pooling, file post support, sanity friendly, and more",
-            "updated": "2017-06-09T06:06:58+0000"
+            "updated": "2018-10-30T01:10:50+0000"
         },
         {
             "bbclassextend": "",
@@ -2962,7 +2962,7 @@
             "filename": "python-slip-dbus_0.6.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://nphilipp.fedorapeople.org/python-slip/",
-            "id": 218760,
+            "id": 834189,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "GPLv2+",
@@ -2971,7 +2971,7 @@
             "pv": "0.6.0",
             "section": "devel/python",
             "summary": "Convenience functions for dbus services in Python 2.x",
-            "updated": "2017-06-09T06:06:58+0000"
+            "updated": "2018-10-30T01:10:50+0000"
         },
         {
             "bbclassextend": "",
@@ -2981,7 +2981,7 @@
             "filename": "python3-markupsafe_0.23.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://github.com/mitsuhiko/markupsafe",
-            "id": 218761,
+            "id": 834190,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "BSD-3-Clause",
@@ -2990,7 +2990,7 @@
             "pv": "0.23",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:59+0000"
+            "updated": "2018-10-30T01:10:50+0000"
         },
         {
             "bbclassextend": "",
@@ -3000,7 +3000,7 @@
             "filename": "python-flask-wtf_0.12.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218762,
+            "id": 834191,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -3009,7 +3009,7 @@
             "pv": "0.12",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:59+0000"
+            "updated": "2018-10-30T01:10:50+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3019,7 +3019,7 @@
             "filename": "python-pycparser_2.14.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218763,
+            "id": 834192,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD-3-Clause",
@@ -3028,7 +3028,7 @@
             "pv": "2.14",
             "section": "devel/python",
             "summary": "Parser of the C language, written in pure Python",
-            "updated": "2017-06-09T06:06:59+0000"
+            "updated": "2018-10-30T01:10:51+0000"
         },
         {
             "bbclassextend": "",
@@ -3038,7 +3038,7 @@
             "filename": "python-behave_1.2.5.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218764,
+            "id": 834193,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -3047,7 +3047,7 @@
             "pv": "1.2.5",
             "section": "devel/python",
             "summary": "A behavior-driven development framework, Python style",
-            "updated": "2017-06-09T06:06:59+0000"
+            "updated": "2018-10-30T01:10:51+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3057,7 +3057,7 @@
             "filename": "python3-wcwidth_0.1.7.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218765,
+            "id": 834194,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "MIT",
@@ -3066,7 +3066,7 @@
             "pv": "0.1.7",
             "section": "devel/python",
             "summary": "Library for building powerful interactive command lines in Python",
-            "updated": "2017-06-09T06:06:59+0000"
+            "updated": "2018-10-30T01:10:51+0000"
         },
         {
             "bbclassextend": "",
@@ -3076,7 +3076,7 @@
             "filename": "python-html5lib_0.9999999.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218766,
+            "id": 834195,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -3085,7 +3085,7 @@
             "pv": "0.9999999",
             "section": "devel/python",
             "summary": "HTML parser based on the WHATWG HTML specifcation",
-            "updated": "2017-06-09T06:06:59+0000"
+            "updated": "2018-10-30T01:10:51+0000"
         },
         {
             "bbclassextend": "",
@@ -3095,7 +3095,7 @@
             "filename": "python-netaddr_0.7.18.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218767,
+            "id": 834196,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -3104,7 +3104,7 @@
             "pv": "0.7.18",
             "section": "devel/python",
             "summary": "A network address manipulation library for Python.",
-            "updated": "2017-06-09T06:06:59+0000"
+            "updated": "2018-10-30T01:10:51+0000"
         },
         {
             "bbclassextend": "",
@@ -3114,7 +3114,7 @@
             "filename": "python-decorator_4.0.10.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218768,
+            "id": 834197,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -3123,7 +3123,7 @@
             "pv": "4.0.10",
             "section": "devel/python",
             "summary": "Python decorator utilities",
-            "updated": "2017-06-09T06:06:59+0000"
+            "updated": "2018-10-30T01:10:51+0000"
         },
         {
             "bbclassextend": "",
@@ -3133,7 +3133,7 @@
             "filename": "python3-whoosh_2.7.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218769,
+            "id": 834198,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "BSD",
@@ -3142,7 +3142,7 @@
             "pv": "2.7.4",
             "section": "devel/python",
             "summary": "Fast, pure-Python full text indexing, search, and spell checking library.",
-            "updated": "2017-06-09T06:06:59+0000"
+            "updated": "2018-10-30T01:10:51+0000"
         },
         {
             "bbclassextend": "native",
@@ -3152,7 +3152,7 @@
             "filename": "python-snakefood_1.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://furius.ca/snakefood",
-            "id": 218770,
+            "id": 834199,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "GPL-2.0",
@@ -3161,7 +3161,7 @@
             "pv": "1.4",
             "section": "devel/python",
             "summary": "Dependency graphing for Python",
-            "updated": "2017-06-09T06:06:59+0000"
+            "updated": "2018-10-30T01:10:52+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3171,7 +3171,7 @@
             "filename": "python3-progress_1.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://github.com/verigak/progress/",
-            "id": 218771,
+            "id": 834200,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "ISC",
@@ -3180,7 +3180,7 @@
             "pv": "1.2",
             "section": "devel/python",
             "summary": "Easy progress reporting for Python",
-            "updated": "2017-06-09T06:06:00+0000"
+            "updated": "2018-10-30T01:10:52+0000"
         },
         {
             "bbclassextend": "",
@@ -3190,7 +3190,7 @@
             "filename": "python-networkx_1.11.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218772,
+            "id": 834201,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -3199,7 +3199,7 @@
             "pv": "1.11",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:00+0000"
+            "updated": "2018-10-30T01:10:52+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3209,7 +3209,7 @@
             "filename": "python3-rfc3987_1.3.7.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218773,
+            "id": 834202,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "GPLv3+",
@@ -3218,7 +3218,7 @@
             "pv": "1.3.7",
             "section": "devel/python",
             "summary": "Parsing and validation of URIs (RFC 3986) and IRIs (RFC 3987)",
-            "updated": "2017-06-09T06:06:00+0000"
+            "updated": "2018-10-30T01:10:52+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3228,7 +3228,7 @@
             "filename": "python-progress_1.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://github.com/verigak/progress/",
-            "id": 218774,
+            "id": 834203,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "ISC",
@@ -3237,7 +3237,7 @@
             "pv": "1.2",
             "section": "devel/python",
             "summary": "Easy progress reporting for Python",
-            "updated": "2017-06-09T06:06:00+0000"
+            "updated": "2018-10-30T01:10:52+0000"
         },
         {
             "bbclassextend": "",
@@ -3247,7 +3247,7 @@
             "filename": "python-bcrypt_3.1.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218775,
+            "id": 834204,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -3256,7 +3256,7 @@
             "pv": "3.1.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:00+0000"
+            "updated": "2018-10-30T01:10:53+0000"
         },
         {
             "bbclassextend": "",
@@ -3266,7 +3266,7 @@
             "filename": "python3-werkzeug_0.11.11.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://werkzeug.pocoo.org/",
-            "id": 218776,
+            "id": 834205,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "BSD",
@@ -3275,7 +3275,7 @@
             "pv": "0.11.11",
             "section": "devel/python",
             "summary": "The Swiss Army knife of Python web development",
-            "updated": "2017-06-09T06:06:00+0000"
+            "updated": "2018-10-30T01:10:53+0000"
         },
         {
             "bbclassextend": "",
@@ -3285,7 +3285,7 @@
             "filename": "pyrtm_0.4.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218777,
+            "id": 834206,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -3294,7 +3294,7 @@
             "pv": "0.4.2",
             "section": "devel/python",
             "summary": "Python interface for Remember The Milk API",
-            "updated": "2017-06-09T06:06:00+0000"
+            "updated": "2018-10-30T01:10:53+0000"
         },
         {
             "bbclassextend": "",
@@ -3304,7 +3304,7 @@
             "filename": "python-backports-abc_0.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218778,
+            "id": 834207,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "PSF",
@@ -3313,7 +3313,7 @@
             "pv": "0.4",
             "section": "devel/python",
             "summary": "collections.abc from Python 3.4",
-            "updated": "2017-06-09T06:06:00+0000"
+            "updated": "2018-10-30T01:10:53+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3323,7 +3323,7 @@
             "filename": "python-rfc3987_1.3.7.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218779,
+            "id": 834208,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "GPLv3+",
@@ -3332,7 +3332,7 @@
             "pv": "1.3.7",
             "section": "devel/python",
             "summary": "Parsing and validation of URIs (RFC 3986) and IRIs (RFC 3987)",
-            "updated": "2017-06-09T06:06:00+0000"
+            "updated": "2018-10-30T01:10:53+0000"
         },
         {
             "bbclassextend": "",
@@ -3342,7 +3342,7 @@
             "filename": "python-flask-navigation_0.2.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218780,
+            "id": 834209,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -3351,7 +3351,7 @@
             "pv": "0.2.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:01+0000"
+            "updated": "2018-10-30T01:10:53+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3361,7 +3361,7 @@
             "filename": "python3-pyopenssl_16.1.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218781,
+            "id": 834210,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -3370,7 +3370,7 @@
             "pv": "16.1.0",
             "section": "devel/python",
             "summary": "Simple Python wrapper around the OpenSSL library",
-            "updated": "2017-06-09T06:06:01+0000"
+            "updated": "2018-10-30T01:10:53+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3380,7 +3380,7 @@
             "filename": "python-pysocks_1.5.7.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://python-requests.org",
-            "id": 218782,
+            "id": 834211,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -3389,17 +3389,17 @@
             "pv": "1.5.7",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:01+0000"
+            "updated": "2018-10-30T01:10:54+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "Flask is a microframework for Python based on Werkzeug, Jinja 2 and good intentions. And before you ask: It\u2019s BSD licensed!",
+            "description": "Flask is a microframework for Python based on Werkzeug, Jinja 2 and good intentions. And before you ask: It\u00e2\u0080\u0099s BSD licensed!",
             "filename": "python3-flask_0.11.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/mitsuhiko/flask/",
-            "id": 218783,
+            "id": 834212,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "BSD",
@@ -3408,7 +3408,7 @@
             "pv": "0.11.1",
             "section": "devel/python",
             "summary": "A microframework based on Werkzeug, Jinja2 and good intentions",
-            "updated": "2017-06-09T06:06:01+0000"
+            "updated": "2018-10-30T01:10:54+0000"
         },
         {
             "bbclassextend": "",
@@ -3418,7 +3418,7 @@
             "filename": "python-vobject_0.9.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://vobject.skyhouseconsulting.com/",
-            "id": 218784,
+            "id": 834213,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -3427,7 +3427,7 @@
             "pv": "0.9.2",
             "section": "devel/python",
             "summary": "Python package for parsing and generating vCard and vCalendar files",
-            "updated": "2017-06-09T06:06:01+0000"
+            "updated": "2018-10-30T01:10:54+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3437,7 +3437,7 @@
             "filename": "python3-prompt-toolkit_1.0.7.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218785,
+            "id": 834214,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "BSD",
@@ -3446,7 +3446,7 @@
             "pv": "1.0.7",
             "section": "devel/python",
             "summary": "Library for building powerful interactive command lines in Python",
-            "updated": "2017-06-09T06:06:01+0000"
+            "updated": "2018-10-30T01:10:54+0000"
         },
         {
             "bbclassextend": "",
@@ -3456,7 +3456,7 @@
             "filename": "python3-pyserial_3.1.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218786,
+            "id": 834215,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "BSD",
@@ -3465,7 +3465,7 @@
             "pv": "3.1.1",
             "section": "devel/python",
             "summary": "Serial Port Support for Python",
-            "updated": "2017-06-09T06:06:01+0000"
+            "updated": "2018-10-30T01:10:54+0000"
         },
         {
             "bbclassextend": "",
@@ -3475,7 +3475,7 @@
             "filename": "python-chardet_2.3.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218787,
+            "id": 834216,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "LGPLv2.1",
@@ -3484,7 +3484,7 @@
             "pv": "2.3.0",
             "section": "devel/python",
             "summary": "Universal encoding detector for Python 2 and 3",
-            "updated": "2017-06-09T06:06:01+0000"
+            "updated": "2018-10-30T01:10:54+0000"
         },
         {
             "bbclassextend": "native",
@@ -3494,7 +3494,7 @@
             "filename": "python-pyyaml_3.12.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.pyyaml.org",
-            "id": 218788,
+            "id": 834217,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative",
             "layerbranch": 70,
             "license": "MIT",
@@ -3503,7 +3503,7 @@
             "pv": "3.12",
             "section": "devel/python",
             "summary": "Python support for YAML",
-            "updated": "2017-06-09T06:06:01+0000"
+            "updated": "2018-10-30T01:10:55+0000"
         },
         {
             "bbclassextend": "",
@@ -3513,7 +3513,7 @@
             "filename": "python-pyzmq_14.7.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://zeromq.org/bindings:python",
-            "id": 218789,
+            "id": 834218,
             "inherits": "distutils distutils-base distutils-common-base pkgconfig pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -3522,7 +3522,7 @@
             "pv": "14.7.0",
             "section": "devel/python",
             "summary": "Pyzmq provides Zero message queue access for the Python language",
-            "updated": "2017-06-09T06:06:02+0000"
+            "updated": "2018-10-30T01:10:55+0000"
         },
         {
             "bbclassextend": "",
@@ -3532,7 +3532,7 @@
             "filename": "python-greenlet_0.4.9.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218790,
+            "id": 834219,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative",
             "layerbranch": 70,
             "license": "MIT & PSF",
@@ -3541,7 +3541,7 @@
             "pv": "0.4.9",
             "section": "devel/python",
             "summary": "Python lightweight in-process concurrent programming",
-            "updated": "2017-06-09T06:06:02+0000"
+            "updated": "2018-10-30T01:10:55+0000"
         },
         {
             "bbclassextend": "",
@@ -3551,7 +3551,7 @@
             "filename": "python-flask-sqlalchemy_2.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218791,
+            "id": 834220,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -3560,7 +3560,7 @@
             "pv": "2.1",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:02+0000"
+            "updated": "2018-10-30T01:10:55+0000"
         },
         {
             "bbclassextend": "",
@@ -3570,7 +3570,7 @@
             "filename": "python-evdev_0.6.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/gvalkov/python-evdev",
-            "id": 218792,
+            "id": 834221,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -3579,7 +3579,7 @@
             "pv": "0.6.4",
             "section": "devel/python",
             "summary": "Python evdev lib",
-            "updated": "2017-06-09T06:06:02+0000"
+            "updated": "2018-10-30T01:10:55+0000"
         },
         {
             "bbclassextend": "",
@@ -3589,7 +3589,7 @@
             "filename": "python3-itsdangerous_0.24.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://github.com/mitsuhiko/itsdangerous",
-            "id": 218793,
+            "id": 834222,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "BSD-3-Clause",
@@ -3598,7 +3598,7 @@
             "pv": "0.24",
             "section": "devel/python",
             "summary": "Various helpers to pass trusted data to untrusted environments and back.",
-            "updated": "2017-06-09T06:06:02+0000"
+            "updated": "2018-10-30T01:10:55+0000"
         },
         {
             "bbclassextend": "",
@@ -3608,7 +3608,7 @@
             "filename": "python-backports-ssl_3.5.0.1.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218794,
+            "id": 834223,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "GPLv2",
@@ -3617,7 +3617,7 @@
             "pv": "3.5.0.1",
             "section": "devel/python",
             "summary": "The ssl.match_hostname() function from Python 3.4",
-            "updated": "2017-06-09T06:06:02+0000"
+            "updated": "2018-10-30T01:10:55+0000"
         },
         {
             "bbclassextend": "",
@@ -3627,7 +3627,7 @@
             "filename": "python-sqlalchemy_0.7.9.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.sqlalchemy.org/",
-            "id": 218795,
+            "id": 834224,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -3636,7 +3636,7 @@
             "pv": "0.7.9",
             "section": "base",
             "summary": "",
-            "updated": "2017-06-09T06:06:02+0000"
+            "updated": "2018-10-30T01:10:55+0000"
         },
         {
             "bbclassextend": "",
@@ -3646,7 +3646,7 @@
             "filename": "python-xlrd_1.0.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.python-excel.org/",
-            "id": 218796,
+            "id": 834225,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -3655,7 +3655,7 @@
             "pv": "1.0.0",
             "section": "devel/python",
             "summary": "Library for developers to extract data from Microsoft Excel (tm) spreadsheet files",
-            "updated": "2017-06-09T06:06:02+0000"
+            "updated": "2018-10-30T01:10:55+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3665,7 +3665,7 @@
             "filename": "python-cheetah_2.4.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218797,
+            "id": 834226,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -3674,7 +3674,7 @@
             "pv": "2.4.4",
             "section": "devel/python",
             "summary": "Python template engine and code generation tool",
-            "updated": "2017-06-09T06:06:02+0000"
+            "updated": "2018-10-30T01:10:56+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3684,7 +3684,7 @@
             "filename": "python3-certifi_2016.9.26.bb",
             "filepath": "recipes-devtools/python",
             "homepage": " http://certifi.io/",
-            "id": 218798,
+            "id": 834227,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "ISC",
@@ -3693,7 +3693,7 @@
             "pv": "2016.9.26",
             "section": "devel/python",
             "summary": "Python package for providing Mozilla's CA Bundle.",
-            "updated": "2017-06-09T06:06:02+0000"
+            "updated": "2018-10-30T01:10:56+0000"
         },
         {
             "bbclassextend": "",
@@ -3703,7 +3703,7 @@
             "filename": "python-pam_1.8.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218799,
+            "id": 834228,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "MIT",
@@ -3712,7 +3712,7 @@
             "pv": "1.8.2",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:03+0000"
+            "updated": "2018-10-30T01:10:56+0000"
         },
         {
             "bbclassextend": "native",
@@ -3722,7 +3722,7 @@
             "filename": "python-pbr_1.10.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.python.org/pypi/pbr",
-            "id": 218800,
+            "id": 834229,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -3731,7 +3731,7 @@
             "pv": "1.10.0",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:03+0000"
+            "updated": "2018-10-30T01:10:56+0000"
         },
         {
             "bbclassextend": "",
@@ -3741,7 +3741,7 @@
             "filename": "python-pymongo_3.3.0.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://github.com/mongodb/mongo-python-driver",
-            "id": 218801,
+            "id": 834230,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "Apache-2.0",
@@ -3750,7 +3750,7 @@
             "pv": "3.3.0",
             "section": "devel/python",
             "summary": "Python driver for MongoDB <http://www.mongodb.org>",
-            "updated": "2017-06-09T06:06:03+0000"
+            "updated": "2018-10-30T01:10:56+0000"
         },
         {
             "bbclassextend": "",
@@ -3760,7 +3760,7 @@
             "filename": "python-parse-type_0.3.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218802,
+            "id": 834231,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD",
@@ -3769,7 +3769,7 @@
             "pv": "0.3.4",
             "section": "devel/python",
             "summary": "Simplifies building parse types based on the parse module",
-            "updated": "2017-06-09T06:06:03+0000"
+            "updated": "2018-10-30T01:10:56+0000"
         },
         {
             "bbclassextend": "",
@@ -3779,7 +3779,7 @@
             "filename": "python-enum34_1.1.6.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218803,
+            "id": 834232,
             "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "BSD-3-Clause",
@@ -3788,7 +3788,7 @@
             "pv": "1.1.6",
             "section": "devel/python",
             "summary": "backport of Python 3.4's enum package",
-            "updated": "2017-06-09T06:06:03+0000"
+            "updated": "2018-10-30T01:10:56+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3798,7 +3798,7 @@
             "filename": "python3-pyasn1_0.1.9.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://pyasn1.sourceforge.net/",
-            "id": 218804,
+            "id": 834233,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "BSD-2-Clause",
@@ -3807,7 +3807,7 @@
             "pv": "0.1.9",
             "section": "devel/python",
             "summary": "Python library implementing ASN.1 types.",
-            "updated": "2017-06-09T06:06:03+0000"
+            "updated": "2018-10-30T01:10:57+0000"
         },
         {
             "bbclassextend": "",
@@ -3817,7 +3817,7 @@
             "filename": "python-numeric_24.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "",
-            "id": 218805,
+            "id": 834234,
             "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative",
             "layerbranch": 70,
             "license": "PSF & LLNL",
@@ -3826,7 +3826,7 @@
             "pv": "24.2",
             "section": "devel/python",
             "summary": "A sophisticated Numeric Processing Package for Python",
-            "updated": "2017-06-09T06:06:03+0000"
+            "updated": "2018-10-30T01:10:57+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3836,7 +3836,7 @@
             "filename": "python3-pysocks_1.5.7.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://python-requests.org",
-            "id": 218806,
+            "id": 834235,
             "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
             "layerbranch": 70,
             "license": "BSD",
@@ -3845,7 +3845,7 @@
             "pv": "1.5.7",
             "section": "devel/python",
             "summary": "",
-            "updated": "2017-06-09T06:06:03+0000"
+            "updated": "2018-10-30T01:10:57+0000"
         },
         {
             "bbclassextend": "",
@@ -3855,7 +3855,7 @@
             "filename": "python-pygpgme_0.3.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://launchpad.net/pygpgme",
-            "id": 218807,
+            "id": 834236,
             "inherits": "distutils distutils-base distutils-common-base ptest pypi python-dir pythonnative setuptools",
             "layerbranch": 70,
             "license": "LGPL-2.1",
@@ -3864,7 +3864,7 @@
             "pv": "0.3",
             "section": "devel/python",
             "summary": "A Python module for working with OpenPGP messages",
-            "updated": "2017-06-09T06:06:03+0000"
+            "updated": "2018-10-30T01:10:57+0000"
         }
     ],
     "wrtemplates": []
