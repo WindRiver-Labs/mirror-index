@@ -1,0 +1,114 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_18_BASE_UPDATE0000",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_18_BASE_UPDATE0000",
+            "comparison": false,
+            "id": 102,
+            "name": "WRLINUX_10_18_BASE_UPDATE0000",
+            "short_description": "",
+            "sort_priority": null,
+            "update_environment": null,
+            "updated": "2018-10-09T16:10:27+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 102,
+            "collection": "overc-dl",
+            "id": 837241,
+            "layer": 252,
+            "updated": "2018-10-14T13:10:31+0000",
+            "vcs_last_commit": "2018-10-05T15:10:56+0000",
+            "vcs_last_fetch": "2018-10-14T13:10:31+0000",
+            "vcs_last_rev": "30a4904dacb630604d6934f8b409e3152b691b54",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": null
+        }
+    ],
+    "layerDependencies": [],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "Meta OverC download layer",
+            "id": 252,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "meta-overc-dl",
+            "status": "P",
+            "summary": "Meta OverC download layer",
+            "updated": "2018-09-21T00:09:08+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-overc-dl",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/meta-overc-dl/commit/id=%hash%",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [],
+    "wrtemplates": []
+}
