@@ -1,0 +1,170 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_18_BASE_UPDATE0001",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_18_BASE_UPDATE0001",
+            "comparison": false,
+            "id": 109,
+            "name": "WRLINUX_10_18_BASE_UPDATE0001",
+            "short_description": "WRLinux 10_18 Base Update 0001",
+            "sort_priority": 8,
+            "update_environment": null,
+            "updated": "2018-11-15T08:11:18+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 109,
+            "collection": "yoctobsp",
+            "id": 838493,
+            "layer": 58,
+            "updated": "2018-11-15T09:11:25+0000",
+            "vcs_last_commit": "2018-10-30T20:10:13+0000",
+            "vcs_last_fetch": "2018-11-15T09:11:25+0000",
+            "vcs_last_rev": "867cafe4195d61b1276a755a9418485998be937b",
+            "vcs_subdir": "meta-yocto-bsp",
+            "version": "4",
+            "yp_compatible_version": 2
+        }
+    ],
+    "layerDependencies": [],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "Yocto Project BSPs for reference hardware.  These BSPs are best-effort support in Wind River Linux.",
+            "id": 58,
+            "index_preference": 800,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-yocto-bsp",
+            "status": "P",
+            "summary": "BSP layer for Yocto Project reference hardware",
+            "updated": "2018-05-30T22:05:48+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-yocto",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [
+        {
+            "description": "",
+            "id": 14309,
+            "layerbranch": 838493,
+            "name": "mpc8315e-rdb",
+            "updated": "2018-11-15T09:11:24+0000"
+        },
+        {
+            "description": "Reference machine configuration for http://beagleboard.org/bone and http://beagleboard.org/black boards",
+            "id": 14310,
+            "layerbranch": 838493,
+            "name": "beaglebone-yocto",
+            "updated": "2018-11-15T09:11:24+0000"
+        },
+        {
+            "description": " generic X86 (32-bit) PCs. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
+            "id": 14311,
+            "layerbranch": 838493,
+            "name": "genericx86",
+            "updated": "2018-11-15T09:11:24+0000"
+        },
+        {
+            "description": "Edgerouter",
+            "id": 14312,
+            "layerbranch": 838493,
+            "name": "edgerouter",
+            "updated": "2018-11-15T09:11:24+0000"
+        },
+        {
+            "description": " generic X86_64 (64-bit) PCs and servers. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
+            "id": 14313,
+            "layerbranch": 838493,
+            "name": "genericx86-64",
+            "updated": "2018-11-15T09:11:24+0000"
+        }
+    ],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Avoid inserting gma500_gfx module for certain hardware devices.",
+            "filename": "gma500-gfx-check_1.0.bb",
+            "filepath": "recipes-bsp/gma500-gfx-check",
+            "homepage": "",
+            "id": 856148,
+            "inherits": "",
+            "layerbranch": 838493,
+            "license": "GPLv2",
+            "pn": "gma500-gfx-check",
+            "provides": "gma500-gfx-check ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "Intel gma500_gfx fix for certain hardware",
+            "updated": "2018-11-15T09:11:25+0000"
+        }
+    ],
+    "wrtemplates": []
+}

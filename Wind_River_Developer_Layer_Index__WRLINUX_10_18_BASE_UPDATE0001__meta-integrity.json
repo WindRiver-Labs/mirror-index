@@ -1,0 +1,343 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_18_BASE_UPDATE0001",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_18_BASE_UPDATE0001",
+            "comparison": false,
+            "id": 109,
+            "name": "WRLINUX_10_18_BASE_UPDATE0001",
+            "short_description": "WRLinux 10_18 Base Update 0001",
+            "sort_priority": 8,
+            "update_environment": null,
+            "updated": "2018-11-15T08:11:18+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 109,
+            "collection": "core",
+            "id": 838531,
+            "layer": 1,
+            "updated": "2018-11-15T09:11:40+0000",
+            "vcs_last_commit": "2018-11-07T08:11:00+0000",
+            "vcs_last_fetch": "2018-11-15T09:11:40+0000",
+            "vcs_last_rev": "744dcd12c4899f1627b455da39ffe451a865ec0e",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 2
+        },
+        {
+            "actual_branch": "",
+            "branch": 109,
+            "collection": "signing-key",
+            "id": 838545,
+            "layer": 129,
+            "updated": "2018-11-15T10:11:32+0000",
+            "vcs_last_commit": "2018-11-07T01:11:19+0000",
+            "vcs_last_fetch": "2018-11-15T10:11:32+0000",
+            "vcs_last_rev": "a242f241e3e649187574770e9a426c37cac9df3a",
+            "vcs_subdir": "meta-signing-key",
+            "version": null,
+            "yp_compatible_version": 3
+        },
+        {
+            "actual_branch": "",
+            "branch": 109,
+            "collection": "integrity",
+            "id": 838556,
+            "layer": 128,
+            "updated": "2018-11-15T10:11:09+0000",
+            "vcs_last_commit": "2018-11-07T01:11:19+0000",
+            "vcs_last_fetch": "2018-11-15T10:11:09+0000",
+            "vcs_last_rev": "a242f241e3e649187574770e9a426c37cac9df3a",
+            "vcs_subdir": "meta-integrity",
+            "version": null,
+            "yp_compatible_version": 3
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 44421,
+            "layerbranch": 838556,
+            "required": true
+        },
+        {
+            "dependency": 129,
+            "id": 44422,
+            "layerbranch": 838556,
+            "required": true
+        },
+        {
+            "dependency": 122,
+            "id": 44423,
+            "layerbranch": 838556,
+            "required": false
+        },
+        {
+            "dependency": 151,
+            "id": 44424,
+            "layerbranch": 838556,
+            "required": false
+        },
+        {
+            "dependency": 152,
+            "id": 44425,
+            "layerbranch": 838556,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer provides the IMA components",
+            "id": 128,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-integrity",
+            "status": "P",
+            "summary": "IMA components",
+            "updated": "2018-05-30T22:05:59+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-secure-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer provides sample keys, by default, are used by build system to sign bootloader,\r\nkernel, IMA signature, RPM and so on. It is used for development and demonstration. The user must know what the risk is to use the sample keys in the product.",
+            "id": 129,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-signing-key",
+            "status": "P",
+            "summary": "User Key Store",
+            "updated": "2018-05-30T22:05:44+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-secure-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Keyutils is a set of utilities for managing the key retention facility in the kernel, which can be used by filesystems, block devices and more to gain and retain the authorization and encryption keys required to perform secure operations.",
+            "filename": "keyutils_git.bb",
+            "filepath": "recipes-support/keyutils",
+            "homepage": "",
+            "id": 858392,
+            "inherits": "autotools autotools-brokensep siteconfig siteinfo",
+            "layerbranch": 838556,
+            "license": "GPLv2",
+            "pn": "keyutils",
+            "provides": "keyutils ",
+            "pv": "1.5.10+gitX",
+            "section": "base",
+            "summary": "Linux Key Management Utilities",
+            "updated": "2018-11-15T10:11:08+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "The default external IMA policy",
+            "filename": "ima-policy_0.1.bb",
+            "filepath": "recipes-support/ima-policy",
+            "homepage": "",
+            "id": 858393,
+            "inherits": "",
+            "layerbranch": 838556,
+            "license": "MIT",
+            "pn": "ima-policy",
+            "provides": "ima-policy ",
+            "pv": "0.1",
+            "section": "base",
+            "summary": "",
+            "updated": "2018-11-15T10:11:08+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "ima-evm-utils_git.bb",
+            "filepath": "recipes-support/ima-evm-utils",
+            "homepage": "",
+            "id": 858394,
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "layerbranch": 838556,
+            "license": "GPLv2",
+            "pn": "ima-evm-utils",
+            "provides": "ima-evm-utils ",
+            "pv": "1.0+gitX",
+            "section": "base",
+            "summary": "",
+            "updated": "2018-11-15T10:11:08+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "ima-inspect_0.11.bb",
+            "filepath": "recipes-support/ima-inspect",
+            "homepage": "",
+            "id": 858395,
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "layerbranch": 838556,
+            "license": "GPLv2+",
+            "pn": "ima-inspect",
+            "provides": "ima-inspect ",
+            "pv": "0.11",
+            "section": "base",
+            "summary": "",
+            "updated": "2018-11-15T10:11:09+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Linux Integrity Measurement Architecture (IMA) subsystem for initramfs",
+            "filename": "packagegroup-ima-initramfs.bb",
+            "filepath": "recipes-base/packagegroups",
+            "homepage": "",
+            "id": 858396,
+            "inherits": "",
+            "layerbranch": 838556,
+            "license": "MIT",
+            "pn": "packagegroup-ima-initramfs",
+            "provides": "packagegroup-ima-initramfs ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "",
+            "updated": "2018-11-15T10:11:09+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Linux Integrity Measurement Architecture (IMA) subsystem",
+            "filename": "packagegroup-ima.bb",
+            "filepath": "recipes-base/packagegroups",
+            "homepage": "",
+            "id": 858397,
+            "inherits": "",
+            "layerbranch": 838556,
+            "license": "MIT",
+            "pn": "packagegroup-ima",
+            "provides": "packagegroup-ima ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "",
+            "updated": "2018-11-15T10:11:09+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "The initrd script for Linux Integrity Measurement Architecture (IMA)",
+            "filename": "initrdscripts-ima.bb",
+            "filepath": "recipes-core/initrdscripts",
+            "homepage": "",
+            "id": 858398,
+            "inherits": "",
+            "layerbranch": 838556,
+            "license": "MIT",
+            "pn": "initrdscripts-ima",
+            "provides": "initrdscripts-ima ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "",
+            "updated": "2018-11-15T10:11:09+0000"
+        }
+    ],
+    "wrtemplates": []
+}
