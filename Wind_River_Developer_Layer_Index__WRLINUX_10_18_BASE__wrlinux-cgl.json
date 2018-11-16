@@ -72,11 +72,11 @@
     ],
     "distros": [
         {
-            "description": "Wind River Linux CGL",
-            "id": 3924,
+            "description": "Wind River Linux (Carrier Grade Linux distribution)",
+            "id": 4288,
             "layerbranch": 836760,
             "name": "wrlinux-cgl",
-            "updated": "2018-10-24T03:10:50+0000"
+            "updated": "2018-11-15T10:11:19+0000"
         }
     ],
     "layerBranches": [
@@ -114,10 +114,10 @@
             "collection": "wrlinux",
             "id": 836705,
             "layer": 49,
-            "updated": "2018-11-14T18:11:16+0000",
-            "vcs_last_commit": "2018-11-14T18:11:16+0000",
-            "vcs_last_fetch": "2018-11-14T18:11:16+0000",
-            "vcs_last_rev": "e66db669b6947c29ff57269555ece315b5466b96",
+            "updated": "2018-11-15T10:11:06+0000",
+            "vcs_last_commit": "2018-11-15T08:11:14+0000",
+            "vcs_last_fetch": "2018-11-15T10:11:06+0000",
+            "vcs_last_rev": "fe8bad60c2d34570e50773b96f6df41639038200",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 2
@@ -184,9 +184,9 @@
             "collection": "webserver",
             "id": 836710,
             "layer": 10,
-            "updated": "2018-10-31T19:10:02+0000",
+            "updated": "2018-11-15T10:11:01+0000",
             "vcs_last_commit": "2018-10-30T20:10:11+0000",
-            "vcs_last_fetch": "2018-10-31T19:10:02+0000",
+            "vcs_last_fetch": "2018-11-15T10:11:01+0000",
             "vcs_last_rev": "2558fdccc75a0069074d0b0439c43b1684759372",
             "vcs_subdir": "meta-webserver",
             "version": "1",
@@ -268,9 +268,9 @@
             "collection": "security",
             "id": 836716,
             "layer": 18,
-            "updated": "2018-11-06T09:11:17+0000",
+            "updated": "2018-11-15T10:11:52+0000",
             "vcs_last_commit": "2018-11-06T09:11:59+0000",
-            "vcs_last_fetch": "2018-11-06T09:11:17+0000",
+            "vcs_last_fetch": "2018-11-15T10:11:52+0000",
             "vcs_last_rev": "5fc7fe768156fef379949921ce51d780ec7ec9cc",
             "vcs_subdir": "",
             "version": null,
@@ -352,9 +352,9 @@
             "collection": "wrlinux-distro",
             "id": 836758,
             "layer": 164,
-            "updated": "2018-10-24T19:10:26+0000",
+            "updated": "2018-11-15T10:11:16+0000",
             "vcs_last_commit": "2018-10-24T18:10:01+0000",
-            "vcs_last_fetch": "2018-10-24T19:10:26+0000",
+            "vcs_last_fetch": "2018-11-15T10:11:16+0000",
             "vcs_last_rev": "895df92f2fdd9e653bd1b0025fe3f39b93d4ce42",
             "vcs_subdir": "wrlinux-distro",
             "version": "1",
@@ -366,9 +366,9 @@
             "collection": "wrlinux-cgl",
             "id": 836760,
             "layer": 176,
-            "updated": "2018-10-24T19:10:29+0000",
+            "updated": "2018-11-15T10:11:21+0000",
             "vcs_last_commit": "2018-10-24T18:10:43+0000",
-            "vcs_last_fetch": "2018-10-24T19:10:29+0000",
+            "vcs_last_fetch": "2018-11-15T10:11:21+0000",
             "vcs_last_rev": "b7e9e99f4d789826b1576fddc83f23f04b239116",
             "vcs_subdir": "wrlinux-cgl",
             "version": "1",
@@ -893,7 +893,7 @@
             "filename": "monit_4.9.bb",
             "filepath": "recipes-cgl/monit",
             "homepage": "http://mmonit.com/monit/",
-            "id": 803010,
+            "id": 862706,
             "inherits": "autotools autotools-brokensep siteconfig siteinfo systemd update-rc.d",
             "layerbranch": 836760,
             "license": "GPLv2",
@@ -902,7 +902,7 @@
             "pv": "4.9",
             "section": "base",
             "summary": "Monit is a tool used for system monitoring and error recovery",
-            "updated": "2018-10-24T03:10:51+0000"
+            "updated": "2018-11-15T10:11:19+0000"
         },
         {
             "bbclassextend": " ",
@@ -912,7 +912,7 @@
             "filename": "vrf_1.1.bb",
             "filepath": "recipes-cgl/vrf",
             "homepage": "",
-            "id": 803011,
+            "id": 862707,
             "inherits": "autotools siteconfig siteinfo",
             "layerbranch": 836760,
             "license": "GPLv2",
@@ -921,7 +921,7 @@
             "pv": "1.1",
             "section": "network",
             "summary": "Virtual Route Forwarding foundation package",
-            "updated": "2018-10-24T03:10:51+0000"
+            "updated": "2018-11-15T10:11:20+0000"
         },
         {
             "bbclassextend": " ",
@@ -931,7 +931,7 @@
             "filename": "ipsec-test_1.0.bb",
             "filepath": "recipes-cut/ipsec-test",
             "homepage": "",
-            "id": 803012,
+            "id": 862708,
             "inherits": "",
             "layerbranch": 836760,
             "license": "windriver",
@@ -940,7 +940,7 @@
             "pv": "1.0",
             "section": "apps",
             "summary": "ipsec-test",
-            "updated": "2018-10-24T03:10:51+0000"
+            "updated": "2018-11-15T10:11:20+0000"
         },
         {
             "bbclassextend": " ",
@@ -950,7 +950,7 @@
             "filename": "gen-coredump_1.0.bb",
             "filepath": "recipes-cut/gen-coredump",
             "homepage": "",
-            "id": 803013,
+            "id": 862709,
             "inherits": "",
             "layerbranch": 836760,
             "license": "windriver",
@@ -959,7 +959,7 @@
             "pv": "1.0",
             "section": "apps",
             "summary": "gen-coredump",
-            "updated": "2018-10-24T03:10:51+0000"
+            "updated": "2018-11-15T10:11:20+0000"
         },
         {
             "bbclassextend": " ",
@@ -969,7 +969,7 @@
             "filename": "cyclictest_1.0.bb",
             "filepath": "recipes-cut/cyclictest",
             "homepage": "",
-            "id": 803014,
+            "id": 862710,
             "inherits": "",
             "layerbranch": 836760,
             "license": "windriver",
@@ -978,7 +978,7 @@
             "pv": "1.0",
             "section": "apps",
             "summary": "cyclictest",
-            "updated": "2018-10-24T03:10:51+0000"
+            "updated": "2018-11-15T10:11:20+0000"
         },
         {
             "bbclassextend": " ",
@@ -988,7 +988,7 @@
             "filename": "saftest_1.0.8.bb",
             "filepath": "recipes-cut/saftest",
             "homepage": "http://saftest.sourceforge.net/",
-            "id": 803015,
+            "id": 862711,
             "inherits": "",
             "layerbranch": 836760,
             "license": "GPL-2.0",
@@ -997,7 +997,7 @@
             "pv": "1.0.8",
             "section": "apps",
             "summary": "HPI Conformance Test Suite",
-            "updated": "2018-10-24T03:10:52+0000"
+            "updated": "2018-11-15T10:11:20+0000"
         },
         {
             "bbclassextend": " ",
@@ -1007,7 +1007,7 @@
             "filename": "cgl-unittest_1.0.bb",
             "filepath": "recipes-cut/cgl-unittest",
             "homepage": "",
-            "id": 803016,
+            "id": 862712,
             "inherits": "",
             "layerbranch": 836760,
             "license": "windriver",
@@ -1016,7 +1016,7 @@
             "pv": "1.0",
             "section": "apps",
             "summary": "cgl-unittest",
-            "updated": "2018-10-24T03:10:52+0000"
+            "updated": "2018-11-15T10:11:20+0000"
         },
         {
             "bbclassextend": " ",
@@ -1026,7 +1026,7 @@
             "filename": "wrlinux-image-glibc-cgl.bb",
             "filepath": "recipes-base/images",
             "homepage": "",
-            "id": 803017,
+            "id": 862713,
             "inherits": "core-image image image-fs_finalize image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 836760,
             "license": "MIT",
@@ -1035,7 +1035,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-24T03:10:52+0000"
+            "updated": "2018-11-15T10:11:21+0000"
         },
         {
             "bbclassextend": " ",
@@ -1045,7 +1045,7 @@
             "filename": "packagegroup-wr-core-networking.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 803018,
+            "id": 862714,
             "inherits": "",
             "layerbranch": 836760,
             "license": "MIT",
@@ -1054,7 +1054,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-24T03:10:52+0000"
+            "updated": "2018-11-15T10:11:21+0000"
         },
         {
             "bbclassextend": " ",
@@ -1064,7 +1064,7 @@
             "filename": "packagegroup-wr-core-cut.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 803019,
+            "id": 862715,
             "inherits": "",
             "layerbranch": 836760,
             "license": "MIT",
@@ -1073,7 +1073,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-24T03:10:52+0000"
+            "updated": "2018-11-15T10:11:21+0000"
         },
         {
             "bbclassextend": " ",
@@ -1083,7 +1083,7 @@
             "filename": "packagegroup-wr-core-cgl.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 803020,
+            "id": 862716,
             "inherits": "",
             "layerbranch": 836760,
             "license": "MIT",
@@ -1092,107 +1092,107 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-24T03:10:52+0000"
+            "updated": "2018-11-15T10:11:21+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "Enable disk quota support",
-            "id": 31094,
+            "id": 33905,
             "layerbranch": 836760,
             "name": "feature/quota",
-            "updated": "2018-10-24T03:10:50+0000"
+            "updated": "2018-11-15T10:11:19+0000"
         },
         {
             "description": "Enable cluster support for lvm2",
-            "id": 31095,
+            "id": 33906,
             "layerbranch": 836760,
             "name": "feature/clvm",
-            "updated": "2018-10-24T03:10:50+0000"
+            "updated": "2018-11-15T10:11:19+0000"
         },
         {
             "description": "Enable 'mip6' support",
-            "id": 31096,
+            "id": 33907,
             "layerbranch": 836760,
             "name": "feature/mip6",
-            "updated": "2018-10-24T03:10:50+0000"
+            "updated": "2018-11-15T10:11:19+0000"
         },
         {
             "description": "Enable libcap-ng",
-            "id": 31097,
+            "id": 33908,
             "layerbranch": 836760,
             "name": "feature/libcap-ng",
-            "updated": "2018-10-24T03:10:50+0000"
+            "updated": "2018-11-15T10:11:19+0000"
         },
         {
             "description": "Enable the various CGL protocol templates",
-            "id": 31098,
+            "id": 33909,
             "layerbranch": 836760,
             "name": "feature/protocols",
-            "updated": "2018-10-24T03:10:50+0000"
+            "updated": "2018-11-15T10:11:19+0000"
         },
         {
             "description": "Enable ipmi",
-            "id": 31099,
+            "id": 33910,
             "layerbranch": 836760,
             "name": "feature/ipmi",
-            "updated": "2018-10-24T03:10:50+0000"
+            "updated": "2018-11-15T10:11:19+0000"
         },
         {
             "description": "Enable all CGL related templates",
-            "id": 31100,
+            "id": 33911,
             "layerbranch": 836760,
             "name": "feature/cgl-full",
-            "updated": "2018-10-24T03:10:50+0000"
+            "updated": "2018-11-15T10:11:19+0000"
         },
         {
             "description": "",
-            "id": 31101,
+            "id": 33912,
             "layerbranch": 836760,
             "name": "feature/ocfs2",
-            "updated": "2018-10-24T03:10:50+0000"
+            "updated": "2018-11-15T10:11:19+0000"
         },
         {
             "description": "Enable the CGL Unit Tests",
-            "id": 31102,
+            "id": 33913,
             "layerbranch": 836760,
             "name": "feature/cut",
-            "updated": "2018-10-24T03:10:50+0000"
+            "updated": "2018-11-15T10:11:19+0000"
         },
         {
             "description": "Enable ATA over Ethernet",
-            "id": 31103,
+            "id": 33914,
             "layerbranch": 836760,
             "name": "feature/aoe",
-            "updated": "2018-10-24T03:10:50+0000"
+            "updated": "2018-11-15T10:11:19+0000"
         },
         {
             "description": "Enable ldap",
-            "id": 31104,
+            "id": 33915,
             "layerbranch": 836760,
             "name": "feature/ldap",
-            "updated": "2018-10-24T03:10:50+0000"
+            "updated": "2018-11-15T10:11:19+0000"
         },
         {
             "description": "Enable VRF (Virtual Routing and Forwarding)",
-            "id": 31105,
+            "id": 33916,
             "layerbranch": 836760,
             "name": "feature/vrf",
-            "updated": "2018-10-24T03:10:50+0000"
+            "updated": "2018-11-15T10:11:19+0000"
         },
         {
             "description": "Enable net-snmp-support",
-            "id": 31106,
+            "id": 33917,
             "layerbranch": 836760,
             "name": "feature/snmp",
-            "updated": "2018-10-24T03:10:50+0000"
+            "updated": "2018-11-15T10:11:19+0000"
         },
         {
             "description": "Enable 'sasl' support",
-            "id": 31107,
+            "id": 33918,
             "layerbranch": 836760,
             "name": "feature/sasl",
-            "updated": "2018-10-24T03:10:50+0000"
+            "updated": "2018-11-15T10:11:19+0000"
         }
     ]
 }

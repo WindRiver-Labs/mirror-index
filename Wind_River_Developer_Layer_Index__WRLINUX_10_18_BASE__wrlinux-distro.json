@@ -72,39 +72,39 @@
     ],
     "distros": [
         {
-            "description": "Wind River Linux development",
-            "id": 3918,
+            "description": "Wind River Linux (Busybox Based Distribution)",
+            "id": 4283,
             "layerbranch": 836758,
             "name": "wrlinux-small",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
-            "description": "Wind River Linuxtiny development",
-            "id": 3919,
+            "description": "Wind River Linux (Example minimal distribution, will require customization)",
+            "id": 4284,
             "layerbranch": 836758,
             "name": "wrlinux-tiny",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
-            "description": "Wind River Linuxtiny development",
-            "id": 3920,
+            "description": "Wind River Linux (Full Featured Distribution)",
+            "id": 4285,
             "layerbranch": 836758,
             "name": "wrlinux",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
-            "description": "Wind River Linuxtiny development",
-            "id": 3921,
+            "description": "Wind River Linux (Full Featured Distribution with Sato)",
+            "id": 4286,
             "layerbranch": 836758,
             "name": "wrlinux-std-sato",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
             "description": "Wind River Linux (Anaconda-based Target Installer)",
-            "id": 3922,
+            "id": 4287,
             "layerbranch": 836758,
             "name": "wrlinux-installer",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         }
     ],
     "layerBranches": [
@@ -142,10 +142,10 @@
             "collection": "wrlinux",
             "id": 836705,
             "layer": 49,
-            "updated": "2018-11-14T18:11:16+0000",
-            "vcs_last_commit": "2018-11-14T18:11:16+0000",
-            "vcs_last_fetch": "2018-11-14T18:11:16+0000",
-            "vcs_last_rev": "e66db669b6947c29ff57269555ece315b5466b96",
+            "updated": "2018-11-15T10:11:06+0000",
+            "vcs_last_commit": "2018-11-15T08:11:14+0000",
+            "vcs_last_fetch": "2018-11-15T10:11:06+0000",
+            "vcs_last_rev": "fe8bad60c2d34570e50773b96f6df41639038200",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 2
@@ -212,9 +212,9 @@
             "collection": "webserver",
             "id": 836710,
             "layer": 10,
-            "updated": "2018-10-31T19:10:02+0000",
+            "updated": "2018-11-15T10:11:01+0000",
             "vcs_last_commit": "2018-10-30T20:10:11+0000",
-            "vcs_last_fetch": "2018-10-31T19:10:02+0000",
+            "vcs_last_fetch": "2018-11-15T10:11:01+0000",
             "vcs_last_rev": "2558fdccc75a0069074d0b0439c43b1684759372",
             "vcs_subdir": "meta-webserver",
             "version": "1",
@@ -324,9 +324,9 @@
             "collection": "wrlinux-distro",
             "id": 836758,
             "layer": 164,
-            "updated": "2018-10-24T19:10:26+0000",
+            "updated": "2018-11-15T10:11:16+0000",
             "vcs_last_commit": "2018-10-24T18:10:01+0000",
-            "vcs_last_fetch": "2018-10-24T19:10:26+0000",
+            "vcs_last_fetch": "2018-11-15T10:11:16+0000",
             "vcs_last_rev": "895df92f2fdd9e653bd1b0025fe3f39b93d4ce42",
             "vcs_subdir": "wrlinux-distro",
             "version": "1",
@@ -785,7 +785,7 @@
             "filename": "kernel-initramfs-image.bb",
             "filepath": "recipes-kernel/images",
             "homepage": "",
-            "id": 802966,
+            "id": 862679,
             "inherits": "kernel-arch kernelsrc linux-kernel-base",
             "layerbranch": 836758,
             "license": "GPLv2",
@@ -794,7 +794,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Initramfs kernel boot",
-            "updated": "2018-10-24T03:10:39+0000"
+            "updated": "2018-11-15T10:11:12+0000"
         },
         {
             "bbclassextend": "     ",
@@ -804,7 +804,7 @@
             "filename": "wrlinux-image-glibc-std.bb",
             "filepath": "recipes-base/images",
             "homepage": "",
-            "id": 802967,
+            "id": 862680,
             "inherits": "core-image image image-fs_finalize image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 836758,
             "license": "MIT",
@@ -813,7 +813,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-24T03:10:39+0000"
+            "updated": "2018-11-15T10:11:12+0000"
         },
         {
             "bbclassextend": "     ",
@@ -823,7 +823,7 @@
             "filename": "wrlinux-image-glibc-core.bb",
             "filepath": "recipes-base/images",
             "homepage": "",
-            "id": 802968,
+            "id": 862681,
             "inherits": "core-image image image-fs_finalize image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 836758,
             "license": "MIT",
@@ -832,7 +832,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-24T03:10:39+0000"
+            "updated": "2018-11-15T10:11:12+0000"
         },
         {
             "bbclassextend": "     ",
@@ -842,7 +842,7 @@
             "filename": "wrlinux-image-minimal-initramfs.bb",
             "filepath": "recipes-base/images",
             "homepage": "",
-            "id": 802969,
+            "id": 862682,
             "inherits": "core-image image image-fs_finalize image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 836758,
             "license": "MIT",
@@ -851,7 +851,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-24T03:10:39+0000"
+            "updated": "2018-11-15T10:11:13+0000"
         },
         {
             "bbclassextend": "     ",
@@ -861,7 +861,7 @@
             "filename": "wrlinux-image-glibc-small.bb",
             "filepath": "recipes-base/images",
             "homepage": "",
-            "id": 802970,
+            "id": 862683,
             "inherits": "core-image image image-fs_finalize image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 836758,
             "license": "MIT",
@@ -870,7 +870,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-24T03:10:39+0000"
+            "updated": "2018-11-15T10:11:13+0000"
         },
         {
             "bbclassextend": "     ",
@@ -880,7 +880,7 @@
             "filename": "wrlinux-image-glibc-std-sato.bb",
             "filepath": "recipes-base/images",
             "homepage": "",
-            "id": 802971,
+            "id": 862684,
             "inherits": "core-image image image-fs_finalize image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 836758,
             "license": "MIT",
@@ -889,7 +889,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-24T03:10:40+0000"
+            "updated": "2018-11-15T10:11:13+0000"
         },
         {
             "bbclassextend": "     ",
@@ -899,7 +899,7 @@
             "filename": "wrlinux-image-tiny-initramfs.bb",
             "filepath": "recipes-base/images",
             "homepage": "",
-            "id": 802972,
+            "id": 862685,
             "inherits": "core-image image image-fs_finalize image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 836758,
             "license": "MIT",
@@ -908,7 +908,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-24T03:10:40+0000"
+            "updated": "2018-11-15T10:11:13+0000"
         },
         {
             "bbclassextend": "     ",
@@ -918,7 +918,7 @@
             "filename": "packagegroup-wr-core-lsb-graphics-plus.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 802973,
+            "id": 862686,
             "inherits": "distro_features_check",
             "layerbranch": 836758,
             "license": "MIT",
@@ -927,7 +927,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-24T03:10:40+0000"
+            "updated": "2018-11-15T10:11:13+0000"
         },
         {
             "bbclassextend": "     ",
@@ -937,7 +937,7 @@
             "filename": "packagegroup-wr-core-net.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 802974,
+            "id": 862687,
             "inherits": "",
             "layerbranch": 836758,
             "license": "MIT",
@@ -946,7 +946,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-24T03:10:40+0000"
+            "updated": "2018-11-15T10:11:14+0000"
         },
         {
             "bbclassextend": "     ",
@@ -956,7 +956,7 @@
             "filename": "packagegroup-wr-core-sys-util.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 802975,
+            "id": 862688,
             "inherits": "",
             "layerbranch": 836758,
             "license": "MIT",
@@ -965,7 +965,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-24T03:10:40+0000"
+            "updated": "2018-11-15T10:11:14+0000"
         },
         {
             "bbclassextend": "     ",
@@ -975,7 +975,7 @@
             "filename": "packagegroup-wr-core-libs-extended.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 802976,
+            "id": 862689,
             "inherits": "",
             "layerbranch": 836758,
             "license": "MIT",
@@ -984,7 +984,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-24T03:10:40+0000"
+            "updated": "2018-11-15T10:11:14+0000"
         },
         {
             "bbclassextend": "     ",
@@ -994,7 +994,7 @@
             "filename": "packagegroup-wr-core-interactive.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 802977,
+            "id": 862690,
             "inherits": "",
             "layerbranch": 836758,
             "license": "MIT",
@@ -1003,7 +1003,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-24T03:10:41+0000"
+            "updated": "2018-11-15T10:11:14+0000"
         },
         {
             "bbclassextend": "     ",
@@ -1013,7 +1013,7 @@
             "filename": "packagegroup-wr-core-lsb-more.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 802978,
+            "id": 862691,
             "inherits": "distro_features_check",
             "layerbranch": 836758,
             "license": "MIT",
@@ -1022,7 +1022,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-24T03:10:41+0000"
+            "updated": "2018-11-15T10:11:14+0000"
         },
         {
             "bbclassextend": "     ",
@@ -1032,7 +1032,7 @@
             "filename": "packagegroup-wr-core-dhcp.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 802979,
+            "id": 862692,
             "inherits": "",
             "layerbranch": 836758,
             "license": "MIT",
@@ -1041,7 +1041,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-24T03:10:41+0000"
+            "updated": "2018-11-15T10:11:14+0000"
         },
         {
             "bbclassextend": "     ",
@@ -1051,7 +1051,7 @@
             "filename": "packagegroup-wr-base.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 802980,
+            "id": 862693,
             "inherits": "",
             "layerbranch": 836758,
             "license": "MIT",
@@ -1060,7 +1060,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-24T03:10:41+0000"
+            "updated": "2018-11-15T10:11:14+0000"
         },
         {
             "bbclassextend": "     ",
@@ -1070,7 +1070,7 @@
             "filename": "packagegroup-wr-core-mail.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 802981,
+            "id": 862694,
             "inherits": "",
             "layerbranch": 836758,
             "license": "MIT",
@@ -1079,7 +1079,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-24T03:10:41+0000"
+            "updated": "2018-11-15T10:11:14+0000"
         },
         {
             "bbclassextend": "     ",
@@ -1089,7 +1089,7 @@
             "filename": "packagegroup-wr-core-python.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 802982,
+            "id": 862695,
             "inherits": "",
             "layerbranch": 836758,
             "license": "MIT",
@@ -1098,7 +1098,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-24T03:10:41+0000"
+            "updated": "2018-11-15T10:11:15+0000"
         },
         {
             "bbclassextend": "     ",
@@ -1108,7 +1108,7 @@
             "filename": "packagegroup-wr-core-security.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 802983,
+            "id": 862696,
             "inherits": "",
             "layerbranch": 836758,
             "license": "MIT",
@@ -1117,7 +1117,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-24T03:10:41+0000"
+            "updated": "2018-11-15T10:11:15+0000"
         },
         {
             "bbclassextend": "     ",
@@ -1127,7 +1127,7 @@
             "filename": "packagegroup-wr-lsbtest.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 802984,
+            "id": 862697,
             "inherits": "",
             "layerbranch": 836758,
             "license": "MIT",
@@ -1136,7 +1136,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-24T03:10:41+0000"
+            "updated": "2018-11-15T10:11:15+0000"
         },
         {
             "bbclassextend": "     ",
@@ -1146,7 +1146,7 @@
             "filename": "packagegroup-wr-core-perl.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 802985,
+            "id": 862698,
             "inherits": "",
             "layerbranch": 836758,
             "license": "MIT",
@@ -1155,7 +1155,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-24T03:10:42+0000"
+            "updated": "2018-11-15T10:11:15+0000"
         },
         {
             "bbclassextend": "     ",
@@ -1165,7 +1165,7 @@
             "filename": "packagegroup-wr-core-util.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 802986,
+            "id": 862699,
             "inherits": "",
             "layerbranch": 836758,
             "license": "MIT",
@@ -1174,7 +1174,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-24T03:10:42+0000"
+            "updated": "2018-11-15T10:11:15+0000"
         },
         {
             "bbclassextend": "     ",
@@ -1184,7 +1184,7 @@
             "filename": "packagegroup-wr-bsps.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 802987,
+            "id": 862700,
             "inherits": "packagegroup",
             "layerbranch": 836758,
             "license": "",
@@ -1193,7 +1193,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Packages required by bsp",
-            "updated": "2018-10-24T03:10:42+0000"
+            "updated": "2018-11-15T10:11:15+0000"
         },
         {
             "bbclassextend": "     ",
@@ -1203,7 +1203,7 @@
             "filename": "packagegroup-wr-core-db.bb",
             "filepath": "recipes-base/packagegroups",
             "homepage": "",
-            "id": 802988,
+            "id": 862701,
             "inherits": "",
             "layerbranch": 836758,
             "license": "MIT",
@@ -1212,7 +1212,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-24T03:10:42+0000"
+            "updated": "2018-11-15T10:11:15+0000"
         },
         {
             "bbclassextend": "     ",
@@ -1222,7 +1222,7 @@
             "filename": "wr-init_1.0.bb",
             "filepath": "recipes-core/wr-init",
             "homepage": "",
-            "id": 802989,
+            "id": 862702,
             "inherits": "update-rc.d",
             "layerbranch": 836758,
             "license": "MIT",
@@ -1231,7 +1231,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-24T03:10:42+0000"
+            "updated": "2018-11-15T10:11:16+0000"
         },
         {
             "bbclassextend": "     ",
@@ -1241,7 +1241,7 @@
             "filename": "tiny-init.bb",
             "filepath": "recipes-core/tiny-init",
             "homepage": "",
-            "id": 802990,
+            "id": 862703,
             "inherits": "",
             "layerbranch": 836758,
             "license": "MIT",
@@ -1250,7 +1250,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "glibc-tiny init",
-            "updated": "2018-10-24T03:10:42+0000"
+            "updated": "2018-11-15T10:11:16+0000"
         },
         {
             "bbclassextend": "     ",
@@ -1260,7 +1260,7 @@
             "filename": "wrlinux-image-initramfs.bb",
             "filepath": "recipes-core/images",
             "homepage": "",
-            "id": 802991,
+            "id": 862704,
             "inherits": "core-image image image-fs_finalize image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 836758,
             "license": "MIT",
@@ -1269,7 +1269,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-24T03:10:43+0000"
+            "updated": "2018-11-15T10:11:16+0000"
         },
         {
             "bbclassextend": "     ",
@@ -1279,7 +1279,7 @@
             "filename": "packagegroup-core-boot-wrs.bb",
             "filepath": "recipes-core/packagegroups",
             "homepage": "",
-            "id": 802992,
+            "id": 862705,
             "inherits": "",
             "layerbranch": 836758,
             "license": "MIT",
@@ -1288,380 +1288,380 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-10-24T03:10:43+0000"
+            "updated": "2018-11-15T10:11:16+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 31036,
+            "id": 33852,
             "layerbranch": 836758,
             "name": "feature/lttng",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
             "description": "",
-            "id": 31037,
+            "id": 33853,
             "layerbranch": 836758,
             "name": "feature/demo",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
             "description": "",
-            "id": 31038,
+            "id": 33854,
             "layerbranch": 836758,
             "name": "feature/kvm",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
             "description": "",
-            "id": 31039,
+            "id": 33855,
             "layerbranch": 836758,
             "name": "feature/pts",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
             "description": "",
-            "id": 31040,
+            "id": 33856,
             "layerbranch": 836758,
             "name": "feature/lxc",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
             "description": "",
-            "id": 31041,
+            "id": 33857,
             "layerbranch": 836758,
             "name": "feature/tpm2",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
             "description": "",
-            "id": 31042,
+            "id": 33858,
             "layerbranch": 836758,
             "name": "feature/ldconfig",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
             "description": "",
-            "id": 31043,
+            "id": 33859,
             "layerbranch": 836758,
             "name": "feature/test",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
             "description": "",
-            "id": 31044,
+            "id": 33860,
             "layerbranch": 836758,
             "name": "feature/mariadb",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
             "description": "",
-            "id": 31045,
+            "id": 33861,
             "layerbranch": 836758,
             "name": "feature/wr-theme-gray",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
             "description": "",
-            "id": 31046,
+            "id": 33862,
             "layerbranch": 836758,
             "name": "feature/syslog-ng",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
             "description": "",
-            "id": 31047,
+            "id": 33863,
             "layerbranch": 836758,
             "name": "feature/lsbtesting",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
             "description": "",
-            "id": 31048,
+            "id": 33864,
             "layerbranch": 836758,
             "name": "feature/edac",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
             "description": "",
-            "id": 31049,
+            "id": 33865,
             "layerbranch": 836758,
             "name": "feature/pam-tally2",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
             "description": "",
-            "id": 31050,
+            "id": 33866,
             "layerbranch": 836758,
             "name": "feature/ids-basic",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
             "description": "",
-            "id": 31051,
+            "id": 33867,
             "layerbranch": 836758,
             "name": "feature/nfsd",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
             "description": "",
-            "id": 31052,
+            "id": 33868,
             "layerbranch": 836758,
             "name": "feature/yaffs2-utils",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
             "description": "",
-            "id": 31053,
+            "id": 33869,
             "layerbranch": 836758,
             "name": "feature/full_nohz",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
             "description": "",
-            "id": 31054,
+            "id": 33870,
             "layerbranch": 836758,
             "name": "feature/initramfs-install",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
             "description": "",
-            "id": 31055,
+            "id": 33871,
             "layerbranch": 836758,
             "name": "feature/encrypted-storage",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
             "description": "",
-            "id": 31056,
+            "id": 33872,
             "layerbranch": 836758,
             "name": "feature/efi-secure-boot",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
             "description": "",
-            "id": 31057,
+            "id": 33873,
             "layerbranch": 836758,
             "name": "feature/initramfs",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
             "description": "",
-            "id": 31058,
+            "id": 33874,
             "layerbranch": 836758,
             "name": "feature/openssl-no-weak-ciphers",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
             "description": "",
-            "id": 31059,
+            "id": 33875,
             "layerbranch": 836758,
             "name": "feature/ips",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
             "description": "",
-            "id": 31060,
+            "id": 33876,
             "layerbranch": 836758,
             "name": "feature/firewall",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
             "description": "",
-            "id": 31061,
+            "id": 33877,
             "layerbranch": 836758,
             "name": "feature/network-bond-libteam",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
             "description": "",
-            "id": 31062,
+            "id": 33878,
             "layerbranch": 836758,
             "name": "feature/krb5",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
             "description": "",
-            "id": 31063,
+            "id": 33879,
             "layerbranch": 836758,
             "name": "feature/session-manager",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:11+0000"
         },
         {
             "description": "",
-            "id": 31064,
+            "id": 33880,
             "layerbranch": 836758,
             "name": "feature/ima",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:12+0000"
         },
         {
             "description": "",
-            "id": 31065,
+            "id": 33881,
             "layerbranch": 836758,
             "name": "feature/systemdebug",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:12+0000"
         },
         {
             "description": "",
-            "id": 31066,
+            "id": 33882,
             "layerbranch": 836758,
             "name": "feature/task-scheduler",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:12+0000"
         },
         {
             "description": "",
-            "id": 31067,
+            "id": 33883,
             "layerbranch": 836758,
             "name": "feature/benchmark",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:12+0000"
         },
         {
             "description": "",
-            "id": 31068,
+            "id": 33884,
             "layerbranch": 836758,
             "name": "feature/tpm",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:12+0000"
         },
         {
             "description": "",
-            "id": 31069,
+            "id": 33885,
             "layerbranch": 836758,
             "name": "feature/criu",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:12+0000"
         },
         {
             "description": "",
-            "id": 31070,
+            "id": 33886,
             "layerbranch": 836758,
             "name": "feature/dhcp-server-kea",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:12+0000"
         },
         {
             "description": "",
-            "id": 31071,
+            "id": 33887,
             "layerbranch": 836758,
             "name": "feature/selinux",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:12+0000"
         },
         {
             "description": "",
-            "id": 31072,
+            "id": 33888,
             "layerbranch": 836758,
             "name": "feature/posix-timers",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:12+0000"
         },
         {
             "description": "",
-            "id": 31073,
+            "id": 33889,
             "layerbranch": 836758,
             "name": "feature/nfc",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:12+0000"
         },
         {
             "description": "",
-            "id": 31074,
+            "id": 33890,
             "layerbranch": 836758,
             "name": "feature/kdump",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:12+0000"
         },
         {
             "description": "",
-            "id": 31075,
+            "id": 33891,
             "layerbranch": 836758,
             "name": "feature/initramfs-integrated",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:12+0000"
         },
         {
             "description": "",
-            "id": 31076,
+            "id": 33892,
             "layerbranch": 836758,
             "name": "feature/kexec",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:12+0000"
         },
         {
             "description": "",
-            "id": 31077,
+            "id": 33893,
             "layerbranch": 836758,
             "name": "feature/debug",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:12+0000"
         },
         {
             "description": "",
-            "id": 31078,
+            "id": 33894,
             "layerbranch": 836758,
             "name": "feature/agent-proxy",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:12+0000"
         },
         {
             "description": "",
-            "id": 31079,
+            "id": 33895,
             "layerbranch": 836758,
             "name": "feature/bpf",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:12+0000"
         },
         {
             "description": "",
-            "id": 31080,
+            "id": 33896,
             "layerbranch": 836758,
             "name": "feature/libhugetlbfs",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:12+0000"
         },
         {
             "description": "",
-            "id": 31081,
+            "id": 33897,
             "layerbranch": 836758,
             "name": "feature/xfce",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:12+0000"
         },
         {
             "description": "",
-            "id": 31082,
+            "id": 33898,
             "layerbranch": 836758,
             "name": "feature/wr-theme-blue",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:12+0000"
         },
         {
             "description": "",
-            "id": 31083,
+            "id": 33899,
             "layerbranch": 836758,
             "name": "feature/ipv6",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:12+0000"
         },
         {
             "description": "",
-            "id": 31084,
+            "id": 33900,
             "layerbranch": 836758,
             "name": "feature/software-entropy",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:12+0000"
         },
         {
             "description": "",
-            "id": 31085,
+            "id": 33901,
             "layerbranch": 836758,
             "name": "feature/LAMP",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:12+0000"
         },
         {
             "description": "Enable BSP extras packages support",
-            "id": 31086,
+            "id": 33902,
             "layerbranch": 836758,
             "name": "feature/bsp-extras",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:12+0000"
         },
         {
             "description": "",
-            "id": 31087,
+            "id": 33903,
             "layerbranch": 836758,
             "name": "feature/iotop",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:12+0000"
         },
         {
             "description": "",
-            "id": 31088,
+            "id": 33904,
             "layerbranch": 836758,
             "name": "feature/pam-wheel",
-            "updated": "2018-10-24T03:10:38+0000"
+            "updated": "2018-11-15T10:11:12+0000"
         }
     ]
 }
