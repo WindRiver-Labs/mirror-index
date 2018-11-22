@@ -1,0 +1,128 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_9_BASE_RCPL0019",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_9_BASE_RCPL0019",
+            "comparison": false,
+            "id": 104,
+            "name": "WRLINUX_9_BASE_RCPL0019",
+            "short_description": "WRLinux 9 Base RCPL 0019",
+            "sort_priority": 10,
+            "update_environment": null,
+            "updated": "2018-10-22T19:10:40+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 104,
+            "collection": "core",
+            "id": 837440,
+            "layer": 1,
+            "updated": "2018-11-22T01:11:01+0000",
+            "vcs_last_commit": "2018-11-13T18:11:13+0000",
+            "vcs_last_fetch": "2018-11-22T01:11:01+0000",
+            "vcs_last_rev": "545c2911e45a65a9843615bfe0fd289feb29d81e",
+            "vcs_subdir": "meta",
+            "version": "9",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "",
+            "branch": 104,
+            "collection": "systemd-layer",
+            "id": 837442,
+            "layer": 6,
+            "updated": "2018-10-30T02:10:11+0000",
+            "vcs_last_commit": "2016-11-29T01:11:42+0000",
+            "vcs_last_fetch": "2018-10-30T02:10:11+0000",
+            "vcs_last_rev": "69bdbf665a32b784cd1fc2b30e74aa3f9faf191b",
+            "vcs_subdir": "meta-systemd",
+            "version": null,
+            "yp_compatible_version": null
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 43343,
+            "layerbranch": 837442,
+            "required": true
+        },
+        {
+            "dependency": 74,
+            "id": 43344,
+            "layerbranch": 837442,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "systemd package changes for meta-openembedded related components",
+            "id": 6,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-systemd",
+            "status": "P",
+            "summary": "systemd related support",
+            "updated": "2018-05-30T22:05:23+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "systemd-machine-units_1.0.bb",
+            "filepath": "recipes-core/systemd",
+            "homepage": "",
+            "id": 841844,
+            "inherits": "systemd",
+            "layerbranch": 837442,
+            "license": "MIT",
+            "pn": "systemd-machine-units",
+            "provides": "systemd-machine-units ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "Machine specific systemd units",
+            "updated": "2018-10-30T02:10:11+0000"
+        }
+    ],
+    "wrtemplates": []
+}
