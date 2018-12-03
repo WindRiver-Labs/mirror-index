@@ -1,0 +1,369 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_17_BASE_UPDATE0013",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_17_BASE_UPDATE0013",
+            "comparison": false,
+            "id": 107,
+            "name": "WRLINUX_10_17_BASE_UPDATE0013",
+            "short_description": "WRLinux 10_17 Base Update 0013",
+            "sort_priority": 9,
+            "update_environment": null,
+            "updated": "2018-10-23T18:10:03+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 107,
+            "collection": "core",
+            "id": 838094,
+            "layer": 1,
+            "updated": "2018-10-29T21:10:44+0000",
+            "vcs_last_commit": "2018-10-29T20:10:17+0000",
+            "vcs_last_fetch": "2018-10-29T21:10:44+0000",
+            "vcs_last_rev": "b817407d56bd09dcd4e50b8beb4ba77e0893670d",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 8
+        },
+        {
+            "actual_branch": "",
+            "branch": 107,
+            "collection": "openembedded-layer",
+            "id": 838096,
+            "layer": 7,
+            "updated": "2018-10-23T18:10:15+0000",
+            "vcs_last_commit": "2018-05-29T20:05:57+0000",
+            "vcs_last_fetch": "2018-10-23T18:10:15+0000",
+            "vcs_last_rev": "6d02ece73068e403a0d36978aa0a5a0419cfbfa0",
+            "vcs_subdir": "meta-oe",
+            "version": "1",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "",
+            "branch": 107,
+            "collection": "meta-python",
+            "id": 838099,
+            "layer": 12,
+            "updated": "2018-10-23T18:10:27+0000",
+            "vcs_last_commit": "2017-12-24T21:12:48+0000",
+            "vcs_last_fetch": "2018-10-23T18:10:27+0000",
+            "vcs_last_rev": "4b81f9b6ab2d867eb01ca1ab2c86bd4ecadec80b",
+            "vcs_subdir": "meta-python",
+            "version": "1",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "",
+            "branch": 107,
+            "collection": "networking-layer",
+            "id": 838120,
+            "layer": 11,
+            "updated": "2018-10-23T18:10:46+0000",
+            "vcs_last_commit": "2018-08-15T02:08:25+0000",
+            "vcs_last_fetch": "2018-10-23T18:10:46+0000",
+            "vcs_last_rev": "2ec0b759a6a938cafbbb80a69c05b4f65e677a58",
+            "vcs_subdir": "meta-networking",
+            "version": "1",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "",
+            "branch": 107,
+            "collection": "meta-hdc",
+            "id": 838128,
+            "layer": 239,
+            "updated": "2018-10-23T18:10:38+0000",
+            "vcs_last_commit": "2018-05-22T20:05:00+0000",
+            "vcs_last_fetch": "2018-10-23T18:10:38+0000",
+            "vcs_last_rev": "bdd3389f6227112bf22ecc8861cfac9c8a2c44d9",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": null
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 43922,
+            "layerbranch": 838128,
+            "required": true
+        },
+        {
+            "dependency": 12,
+            "id": 43923,
+            "layerbranch": 838128,
+            "required": true
+        },
+        {
+            "dependency": 11,
+            "id": 43924,
+            "layerbranch": 838128,
+            "required": true
+        },
+        {
+            "dependency": 7,
+            "id": 43925,
+            "layerbranch": 838128,
+            "required": true
+        },
+        {
+            "dependency": 238,
+            "id": 43926,
+            "layerbranch": 838128,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Additional shared OE metadata",
+            "id": 7,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-oe",
+            "status": "P",
+            "summary": "Additional shared OE metadata",
+            "updated": "2018-05-30T22:05:13+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer is intended to be a central point for networking-related\r\npackages and configuration.  It should be useful directly on top of\r\noe-core and compliments meta-openembedded.  It should be primarily useful\r\nto the following groups:",
+            "id": 11,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-networking",
+            "status": "P",
+            "summary": "Networking-related packages and configuration",
+            "updated": "2018-05-30T22:05:09+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "PYTHON Language related items",
+            "id": 12,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-python",
+            "status": "P",
+            "summary": "PYTHON Language related items",
+            "updated": "2018-05-30T22:05:58+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Device Cloud (DC) is a cloud/device platform that accelerates\r\ndevice to cloud and cloud to cloud interaction.  This meta layer integrates\r\na Python implementation that is designed to be run on the device side and can be\r\nused for device actuation, management, sending telemetry, remote\r\nconsole etc.\r\n\r\nThe Python agent for DC is designed for quick deployment on any \r\nplatform that supports Python.  The continuous deployment model uses\r\n\"pip\" to install and update the latest modules.  Any application that\r\nwants to use DC cloud services can import the \"device_cloud\" module and \r\nbegin using the DC APIs.",
+            "id": 239,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "meta-device-cloud",
+            "status": "P",
+            "summary": "HDC python agent",
+            "updated": "2018-05-30T22:05:31+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-device-cloud",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Python library for Helix Device Cloud",
+            "filename": "python3-device-cloud_1.0.bb",
+            "filepath": "recipes-iot/python",
+            "homepage": "https://github.com/Wind-River/device-cloud-python.git",
+            "id": 796223,
+            "inherits": "distro_features_check distutils distutils-base distutils-common-base python-dir pythonnative setuptools systemd update-rc.d useradd useradd_base",
+            "layerbranch": 838128,
+            "license": "Apache-2.0",
+            "pn": "python3-device-cloud",
+            "provides": "python3-device-cloud ",
+            "pv": "1.0",
+            "section": "devel/python",
+            "summary": "",
+            "updated": "2018-10-23T18:10:38+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Python library for Helix Device Cloud",
+            "filename": "python-device-cloud_1.0.bb",
+            "filepath": "recipes-iot/python",
+            "homepage": "https://github.com/Wind-River/device-cloud-python.git",
+            "id": 796224,
+            "inherits": "distro_features_check distutils distutils-base distutils-common-base python-dir pythonnative setuptools systemd update-rc.d useradd useradd_base",
+            "layerbranch": 838128,
+            "license": "Apache-2.0",
+            "pn": "python-device-cloud",
+            "provides": "python-device-cloud ",
+            "pv": "1.0",
+            "section": "devel/python",
+            "summary": "",
+            "updated": "2018-10-23T18:10:38+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "python3-websockets_3.3.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://github.com/aaugustin/websockets",
+            "id": 796225,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 838128,
+            "license": "BSD-3-Clause",
+            "pn": "python3-websockets",
+            "provides": "python3-websockets ",
+            "pv": "3.3",
+            "section": "devel/python",
+            "summary": "An implementation of the WebSocket Protocol (RFC 6455)",
+            "updated": "2018-10-23T18:10:38+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "python-websocket-client_1.0.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://github.com/websocket-client/websocket-client.git",
+            "id": 796226,
+            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
+            "layerbranch": 838128,
+            "license": "LGPL-3.0",
+            "pn": "python-websocket-client",
+            "provides": "python-websocket-client ",
+            "pv": "1.0",
+            "section": "devel/python",
+            "summary": "WebSocket client for python. hybi13 is supported.",
+            "updated": "2018-10-23T18:10:38+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "python3-websocket-client_1.0.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://github.com/websocket-client/websocket-client.git",
+            "id": 796227,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 838128,
+            "license": "LGPL-3.0",
+            "pn": "python3-websocket-client",
+            "provides": "python3-websocket-client ",
+            "pv": "1.0",
+            "section": "devel/python",
+            "summary": "WebSocket client for python. hybi13 is supported.",
+            "updated": "2018-10-23T18:10:38+0000"
+        }
+    ],
+    "wrtemplates": []
+}
