@@ -86,10 +86,10 @@
             "collection": "core",
             "id": 836626,
             "layer": 1,
-            "updated": "2018-11-07T09:11:12+0000",
-            "vcs_last_commit": "2018-11-07T08:11:00+0000",
-            "vcs_last_fetch": "2018-11-07T09:11:12+0000",
-            "vcs_last_rev": "744dcd12c4899f1627b455da39ffe451a865ec0e",
+            "updated": "2018-12-03T01:12:24+0000",
+            "vcs_last_commit": "2018-12-02T21:12:34+0000",
+            "vcs_last_fetch": "2018-12-03T01:12:24+0000",
+            "vcs_last_rev": "2a4880d5bc2f56b326256e768501c6a2dd586ac0",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
@@ -670,7 +670,7 @@
             "updated": "2018-10-24T03:10:54+0000"
         },
         {
-            "bbclassextend": "native",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org/enter_bug.cgi?product=xorg",
             "description": "The Intrinsics are a programming library tailored to the special requirements of user interface construction within a network window system, specifically the X Window System. The Intrinsics and a widget set make up an X Toolkit. The Intrinsics provide the base mechanism necessary to build a wide variety of interoperating widget sets and application environments. The Intrinsics are a layer on top of Xlib, the C Library X Interface. They extend the fundamental abstractions provided by the X Window System while still remaining independent of any particular user interface policy or style.",
@@ -686,7 +686,7 @@
             "pv": "1.1.5",
             "section": "x11/libs",
             "summary": "Xt: X Toolkit Intrinsics library",
-            "updated": "2018-10-24T03:10:54+0000"
+            "updated": "2018-12-03T01:12:23+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -708,7 +708,7 @@
             "updated": "2018-10-24T03:10:55+0000"
         },
         {
-            "bbclassextend": "native",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org/enter_bug.cgi?product=xorg",
             "description": "Xft was designed to provide good support for scalable fonts, and to do so efficiently.  Unlike the core fonts system, it supports features such as anti-aliasing and sub-pixel rasterisation. Perhaps more importantly, it gives applications full control over the way glyphs are rendered, making fine typesetting and WYSIWIG display possible. Finally, it allows applications to use fonts that are not installed system-wide for displaying documents with embedded fonts.  Xft is not compatible with the core fonts system: usage of Xft requires fairly extensive changes to toolkits (user-interface libraries).",
@@ -724,7 +724,7 @@
             "pv": "2.3.2",
             "section": "x11/libs",
             "summary": "XFt: X FreeType libary",
-            "updated": "2018-10-24T03:10:55+0000"
+            "updated": "2018-12-03T01:12:23+0000"
         },
         {
             "bbclassextend": "",
@@ -1183,7 +1183,7 @@
             "updated": "2018-10-24T03:10:02+0000"
         },
         {
-            "bbclassextend": "native",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org/enter_bug.cgi?product=xorg",
             "description": "The Inter-Client Exchange (ICE) protocol provides a generic framework for building protocols on top of reliable, byte-stream transport connections. It provides basic mechanisms for setting up and shutting down connections, for performing authentication, for negotiating versions, and for reporting errors. ",
@@ -1199,7 +1199,7 @@
             "pv": "1.0.9",
             "section": "x11/libs",
             "summary": "ICE: Inter-Client Exchange library",
-            "updated": "2018-10-24T03:10:02+0000"
+            "updated": "2018-12-03T01:12:22+0000"
         },
         {
             "bbclassextend": "native",
@@ -1316,7 +1316,7 @@
             "updated": "2018-10-24T03:10:04+0000"
         },
         {
-            "bbclassextend": "native",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org/enter_bug.cgi?product=xorg",
             "description": "The Session Management Library (SMlib) is a low-level \\\"C\\\" language interface to XSMP.  The purpose of the X Session Management Protocol (XSMP) is to provide a uniform mechanism for users to save and restore their sessions.  A session is a group of clients, each of which has a particular state.",
@@ -1332,7 +1332,7 @@
             "pv": "1.2.2",
             "section": "x11/libs",
             "summary": "SM: Session Management library",
-            "updated": "2018-10-24T03:10:04+0000"
+            "updated": "2018-12-03T01:12:23+0000"
         },
         {
             "bbclassextend": "",
@@ -2627,7 +2627,7 @@
             "updated": "2018-10-24T03:10:19+0000"
         },
         {
-            "bbclassextend": "native",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "https://bugs.freedesktop.org/enter_bug.cgi?product=fontconfig",
             "description": "Fontconfig is a font configuration and customization library, which does not depend on the X Window System. It is designed to locate fonts within the system and select them according to requirements specified by applications. Fontconfig is not a rasterization library, nor does it impose a particular rasterization library on the application. The X-specific library 'Xft' uses fontconfig along with freetype to specify and rasterize fonts.",
@@ -2643,7 +2643,7 @@
             "pv": "2.12.6",
             "section": "libs",
             "summary": "Generic font configuration library",
-            "updated": "2018-10-24T03:10:19+0000"
+            "updated": "2018-12-03T01:12:22+0000"
         },
         {
             "bbclassextend": "",
@@ -9977,7 +9977,7 @@
             "pv": "3.5.6",
             "section": "devel/python",
             "summary": "The Python Programming Language",
-            "updated": "2018-10-24T03:10:56+0000"
+            "updated": "2018-12-03T01:12:20+0000"
         },
         {
             "bbclassextend": "native",
@@ -10205,7 +10205,7 @@
             "pv": "2.7.15",
             "section": "devel/python",
             "summary": "The Python Programming Language",
-            "updated": "2018-10-24T03:10:00+0000"
+            "updated": "2018-12-03T01:12:21+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -10281,7 +10281,7 @@
             "pv": "3.5.6",
             "section": "devel/python",
             "summary": "The Python Programming Language",
-            "updated": "2018-10-24T03:10:01+0000"
+            "updated": "2018-12-03T01:12:21+0000"
         },
         {
             "bbclassextend": "native",
