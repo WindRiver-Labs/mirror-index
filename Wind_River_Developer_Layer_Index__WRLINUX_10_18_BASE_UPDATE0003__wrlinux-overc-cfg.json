@@ -1,0 +1,114 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_18_BASE_UPDATE0003",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_18_BASE_UPDATE0003",
+            "comparison": false,
+            "id": 118,
+            "name": "WRLINUX_10_18_BASE_UPDATE0003",
+            "short_description": "WRLinux 10_18 Base Update 0003",
+            "sort_priority": 8,
+            "update_environment": null,
+            "updated": "2018-12-19T09:12:21+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 118,
+            "collection": "wrlinux-overc-cfg",
+            "id": 840370,
+            "layer": 270,
+            "updated": "2019-01-10T03:01:47+0000",
+            "vcs_last_commit": "2019-01-10T03:01:33+0000",
+            "vcs_last_fetch": "2019-01-10T03:01:47+0000",
+            "vcs_last_rev": "906141f28beb74cd0a9969891f53e43afcf05c9c",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 2
+        }
+    ],
+    "layerDependencies": [],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "Wind River Linux OverC configuration elements, including supported hash and PR values.",
+            "id": 270,
+            "index_preference": 0,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "wrlinux-overc-cfg",
+            "status": "P",
+            "summary": "wrlinux-overc configuration",
+            "updated": "2018-10-09T10:10:51+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/wrlinux-overc-cfg",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/wrlinux-overc-cfg/commit/id=%hash%",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [],
+    "wrtemplates": []
+}
