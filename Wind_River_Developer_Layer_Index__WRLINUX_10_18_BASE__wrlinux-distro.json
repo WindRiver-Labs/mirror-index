@@ -90,7 +90,7 @@
             "id": 4407,
             "layerbranch": 836758,
             "name": "wrlinux",
-            "updated": "2018-12-03T10:12:38+0000"
+            "updated": "2019-01-10T00:01:18+0000"
         },
         {
             "description": "Wind River Linux (Full Featured Distribution with Sato)",
@@ -114,10 +114,10 @@
             "collection": "core",
             "id": 836626,
             "layer": 1,
-            "updated": "2018-12-25T01:12:13+0000",
-            "vcs_last_commit": "2018-12-25T01:12:07+0000",
-            "vcs_last_fetch": "2018-12-25T01:12:13+0000",
-            "vcs_last_rev": "d668d479102f62b6d0badad76966f30a63bcdcfb",
+            "updated": "2019-01-06T17:01:50+0000",
+            "vcs_last_commit": "2019-01-06T17:01:55+0000",
+            "vcs_last_fetch": "2019-01-06T17:01:50+0000",
+            "vcs_last_rev": "aede0d031905736bfa9ae7a28086707f8ca5be65",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
@@ -142,10 +142,10 @@
             "collection": "wrlinux",
             "id": 836705,
             "layer": 49,
-            "updated": "2018-12-21T01:12:13+0000",
-            "vcs_last_commit": "2018-12-21T01:12:09+0000",
-            "vcs_last_fetch": "2018-12-21T01:12:13+0000",
-            "vcs_last_rev": "e894bca0d5660da3c83b254e85b367a451146c36",
+            "updated": "2019-01-10T02:01:13+0000",
+            "vcs_last_commit": "2019-01-10T02:01:09+0000",
+            "vcs_last_fetch": "2019-01-10T02:01:13+0000",
+            "vcs_last_rev": "7fd0302d27130955f3b92c6f2d0f6e6aeab469ee",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 2
@@ -324,10 +324,10 @@
             "collection": "wrlinux-distro",
             "id": 836758,
             "layer": 164,
-            "updated": "2018-12-12T20:12:19+0000",
-            "vcs_last_commit": "2018-12-12T18:12:04+0000",
-            "vcs_last_fetch": "2018-12-12T20:12:19+0000",
-            "vcs_last_rev": "b234214d58abad2eb8efa6322da4a703c578648f",
+            "updated": "2019-01-10T00:01:23+0000",
+            "vcs_last_commit": "2019-01-10T00:01:31+0000",
+            "vcs_last_fetch": "2019-01-10T00:01:23+0000",
+            "vcs_last_rev": "bfbd838342756e71b432c77476a0c0fa3f52b02b",
             "vcs_subdir": "wrlinux-distro",
             "version": "1",
             "yp_compatible_version": 2
@@ -778,7 +778,7 @@
     "machines": [],
     "recipes": [
         {
-            "bbclassextend": "     ",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "This package provides a compressed cpio image used for an initial ram disk for the kernel boot. Additionally, a kernel bundled with initramfs is included as well whenever feature/initramfs-install configured. ",
@@ -794,11 +794,11 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Initramfs kernel boot",
-            "updated": "2018-12-03T10:12:39+0000"
+            "updated": "2019-01-10T00:01:18+0000"
         },
         {
-            "bbclassextend": "     ",
-            "blacklisted": "not buildable with wrlinux-tiny",
+            "bbclassextend": " ",
+            "blacklisted": "",
             "bugtracker": "",
             "description": "An image which approximates WRLinux glibc-std without graphics.",
             "filename": "wrlinux-image-glibc-std.bb",
@@ -813,11 +813,11 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-03T10:12:39+0000"
+            "updated": "2019-01-10T00:01:19+0000"
         },
         {
-            "bbclassextend": "     ",
-            "blacklisted": "not buildable with wrlinux-tiny",
+            "bbclassextend": " ",
+            "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux GNU-based (non-busybox) core root filesystem",
             "filename": "wrlinux-image-glibc-core.bb",
@@ -832,10 +832,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-03T10:12:39+0000"
+            "updated": "2019-01-10T00:01:19+0000"
         },
         {
-            "bbclassextend": "     ",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Small image capable of booting a device. The kernel includes the Minimal RAM-based Initial Root Filesystem (initramfs), which finds the first 'init' program more efficiently.",
@@ -851,7 +851,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-03T10:12:39+0000"
+            "updated": "2019-01-10T00:01:19+0000"
         },
         {
             "bbclassextend": "",
@@ -873,8 +873,8 @@
             "updated": "2018-12-06T01:12:17+0000"
         },
         {
-            "bbclassextend": "     ",
-            "blacklisted": "not buildable with wrlinux-tiny",
+            "bbclassextend": " ",
+            "blacklisted": "",
             "bugtracker": "",
             "description": "An image which approximates WRLinux glibc-std without graphics.",
             "filename": "wrlinux-image-glibc-std-sato.bb",
@@ -889,10 +889,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-03T10:12:40+0000"
+            "updated": "2019-01-10T00:01:20+0000"
         },
         {
-            "bbclassextend": "     ",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Tiny image capable of booting a device. The kernel includes the Minimal RAM-based Initial Root Filesystem (initramfs), which finds the first 'init' program more efficiently. core-image-tiny-initramfs doesn't actually generate an image but rather generates boot and rootfs artifacts that can subsequently be picked up by external image generation tools such as wic.",
@@ -908,10 +908,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-03T10:12:40+0000"
+            "updated": "2019-01-10T00:01:20+0000"
         },
         {
-            "bbclassextend": "     ",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux core package group: lsb-graphics-plus",
@@ -927,10 +927,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-03T10:12:40+0000"
+            "updated": "2019-01-10T00:01:20+0000"
         },
         {
-            "bbclassextend": "     ",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux core package group: net",
@@ -946,10 +946,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-03T10:12:40+0000"
+            "updated": "2019-01-10T00:01:18+0000"
         },
         {
-            "bbclassextend": "     ",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux core package group: sys-util",
@@ -965,10 +965,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-03T10:12:40+0000"
+            "updated": "2019-01-10T00:01:20+0000"
         },
         {
-            "bbclassextend": "     ",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux core package group: libs-extended",
@@ -984,10 +984,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-03T10:12:40+0000"
+            "updated": "2019-01-10T00:01:20+0000"
         },
         {
-            "bbclassextend": "     ",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux core package group: interactive",
@@ -1003,10 +1003,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-03T10:12:41+0000"
+            "updated": "2019-01-10T00:01:21+0000"
         },
         {
-            "bbclassextend": "     ",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux core package group: lsb-more",
@@ -1022,10 +1022,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-03T10:12:41+0000"
+            "updated": "2019-01-10T00:01:21+0000"
         },
         {
-            "bbclassextend": "     ",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux core package group: python",
@@ -1041,10 +1041,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-03T10:12:41+0000"
+            "updated": "2019-01-10T00:01:21+0000"
         },
         {
-            "bbclassextend": "     ",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Core packages for Linux/GNU (non-busybox) runtime images",
@@ -1060,10 +1060,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-03T10:12:41+0000"
+            "updated": "2019-01-10T00:01:21+0000"
         },
         {
-            "bbclassextend": "     ",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux core package group: mail",
@@ -1079,10 +1079,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-03T10:12:41+0000"
+            "updated": "2019-01-10T00:01:21+0000"
         },
         {
-            "bbclassextend": "     ",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux core package group: python",
@@ -1098,10 +1098,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-03T10:12:41+0000"
+            "updated": "2019-01-10T00:01:21+0000"
         },
         {
-            "bbclassextend": "     ",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux core package group: security",
@@ -1117,10 +1117,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-03T10:12:41+0000"
+            "updated": "2019-01-10T00:01:21+0000"
         },
         {
-            "bbclassextend": "     ",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux core package group: lsbtest",
@@ -1136,10 +1136,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-03T10:12:42+0000"
+            "updated": "2019-01-10T00:01:21+0000"
         },
         {
-            "bbclassextend": "     ",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux core package group: perl",
@@ -1155,10 +1155,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-03T10:12:42+0000"
+            "updated": "2019-01-10T00:01:21+0000"
         },
         {
-            "bbclassextend": "     ",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux core package group: util",
@@ -1174,10 +1174,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-03T10:12:42+0000"
+            "updated": "2019-01-10T00:01:22+0000"
         },
         {
-            "bbclassextend": "     ",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
@@ -1193,10 +1193,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Packages required by bsp",
-            "updated": "2018-12-03T10:12:42+0000"
+            "updated": "2019-01-10T00:01:22+0000"
         },
         {
-            "bbclassextend": "     ",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Wind River Linux core package group: db",
@@ -1212,10 +1212,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-03T10:12:42+0000"
+            "updated": "2019-01-10T00:01:22+0000"
         },
         {
-            "bbclassextend": "     ",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Basic rc.local facility for wrlinux",
@@ -1231,10 +1231,10 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-03T10:12:42+0000"
+            "updated": "2019-01-10T00:01:22+0000"
         },
         {
-            "bbclassextend": "     ",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Basic init system for glibc-tiny",
@@ -1250,7 +1250,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "glibc-tiny init",
-            "updated": "2018-12-03T10:12:42+0000"
+            "updated": "2019-01-10T00:01:23+0000"
         },
         {
             "bbclassextend": "",
@@ -1272,7 +1272,7 @@
             "updated": "2018-12-06T01:12:18+0000"
         },
         {
-            "bbclassextend": "     ",
+            "bbclassextend": " ",
             "blacklisted": "",
             "bugtracker": "",
             "description": "Package Group for wrlinux - minimal bootable image",
@@ -1288,7 +1288,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-03T10:12:43+0000"
+            "updated": "2019-01-10T00:01:23+0000"
         }
     ],
     "wrtemplates": [
@@ -1619,7 +1619,7 @@
             "id": 35074,
             "layerbranch": 836758,
             "name": "feature/xfce",
-            "updated": "2018-12-07T01:12:18+0000"
+            "updated": "2019-01-10T00:01:18+0000"
         },
         {
             "description": "",
