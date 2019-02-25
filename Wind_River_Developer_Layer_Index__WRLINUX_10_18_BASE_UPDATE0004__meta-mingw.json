@@ -1,0 +1,236 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_18_BASE_UPDATE0004",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_18_BASE_UPDATE0004",
+            "comparison": false,
+            "id": 120,
+            "name": "WRLINUX_10_18_BASE_UPDATE0004",
+            "short_description": "WRLinux 10_18 Base Update 0004",
+            "sort_priority": 8,
+            "update_environment": null,
+            "updated": "2019-01-23T01:01:54+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 120,
+            "collection": "core",
+            "id": 840795,
+            "layer": 1,
+            "updated": "2019-02-25T03:02:48+0000",
+            "vcs_last_commit": "2019-02-25T02:02:29+0000",
+            "vcs_last_fetch": "2019-02-25T03:02:48+0000",
+            "vcs_last_rev": "e6cdbc6840d9cee549fe673167e5ff77d3838036",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 2
+        },
+        {
+            "actual_branch": "",
+            "branch": 120,
+            "collection": "meta-mingw",
+            "id": 840810,
+            "layer": 50,
+            "updated": "2019-01-23T01:01:00+0000",
+            "vcs_last_commit": "2018-11-14T19:11:37+0000",
+            "vcs_last_fetch": "2019-01-23T01:01:00+0000",
+            "vcs_last_rev": "b99daaf4f55825c01fd513bc8802b9ddb0dd1970",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": 3
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 47004,
+            "layerbranch": 840810,
+            "required": true
+        },
+        {
+            "dependency": 82,
+            "id": 47005,
+            "layerbranch": 840810,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "OpenEmbedded meta layer for mingw based SDKs",
+            "id": 50,
+            "index_preference": 700,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-mingw",
+            "status": "P",
+            "summary": "Support to build MinGW based SDKs",
+            "updated": "2018-05-30T22:05:54+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-mingw",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "GNU libiconv - libiconv is for you if your application needs to support multiple character encodings, but that support lacks from your system.",
+            "filename": "libiconv_1.14.bb",
+            "filepath": "recipes-support/libiconv",
+            "homepage": "http://www.gnu.org/software/libiconv",
+            "id": 900410,
+            "inherits": "autotools gettext pkgconfig siteconfig siteinfo",
+            "layerbranch": 840810,
+            "license": "LGPLv3",
+            "pn": "libiconv",
+            "provides": "libiconv virtual/libiconv",
+            "pv": "1.14",
+            "section": "libs",
+            "summary": "Character encoding support library",
+            "updated": "2019-01-23T01:01:59+0000"
+        },
+        {
+            "bbclassextend": "nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "A Win32 implementation of the POSIX standard threads API",
+            "filename": "pthreads-win32_2.9.1.bb",
+            "filepath": "recipes-devtools/pthreads-win32",
+            "homepage": "http://www.sourceware.org/pthreads-win32",
+            "id": 900411,
+            "inherits": "",
+            "layerbranch": 840810,
+            "license": "LGPLv2.1",
+            "pn": "pthreads-win32",
+            "provides": "pthreads-win32 ",
+            "pv": "2.9.1",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-01-23T01:01:59+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Runtime libraries from MinGW-w64 project",
+            "filename": "nativesdk-mingw-w64-runtime_5.0.3.bb",
+            "filepath": "recipes-devtools/mingw-w64",
+            "homepage": "",
+            "id": 900412,
+            "inherits": "autotools nativesdk siteconfig siteinfo",
+            "layerbranch": 840810,
+            "license": "ZPL-2.1",
+            "pn": "nativesdk-mingw-w64-runtime",
+            "provides": "nativesdk-mingw-w64-runtime  virtual/nativesdk-libc virtual/nativesdk-x86_64-oesdk-linux-libc-initial virtual/nativesdk-x86_64-oesdk-linux-libc-for-gcc virtual/nativesdk-libintl",
+            "pv": "5.0.3",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-01-23T01:01:59+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Header files from the MingGW-w64 project",
+            "filename": "nativesdk-mingw-w64-headers_5.0.3.bb",
+            "filepath": "recipes-devtools/mingw-w64",
+            "homepage": "",
+            "id": 900413,
+            "inherits": "autotools nativesdk siteconfig siteinfo",
+            "layerbranch": 840810,
+            "license": "ZPL-2.1",
+            "pn": "nativesdk-mingw-w64-headers",
+            "provides": "nativesdk-mingw-w64-headers ",
+            "pv": "5.0.3",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-01-23T01:01:00+0000"
+        }
+    ],
+    "wrtemplates": []
+}

@@ -1,0 +1,236 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_18_BASE_UPDATE0004",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_18_BASE_UPDATE0004",
+            "comparison": false,
+            "id": 120,
+            "name": "WRLINUX_10_18_BASE_UPDATE0004",
+            "short_description": "WRLinux 10_18 Base Update 0004",
+            "sort_priority": 8,
+            "update_environment": null,
+            "updated": "2019-01-23T01:01:54+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 120,
+            "collection": "core",
+            "id": 840795,
+            "layer": 1,
+            "updated": "2019-02-25T03:02:48+0000",
+            "vcs_last_commit": "2019-02-25T02:02:29+0000",
+            "vcs_last_fetch": "2019-02-25T03:02:48+0000",
+            "vcs_last_rev": "e6cdbc6840d9cee549fe673167e5ff77d3838036",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 2
+        },
+        {
+            "actual_branch": "",
+            "branch": 120,
+            "collection": "realtime",
+            "id": 840808,
+            "layer": 48,
+            "updated": "2019-01-23T01:01:54+0000",
+            "vcs_last_commit": "2018-10-08T06:10:12+0000",
+            "vcs_last_fetch": "2019-01-23T01:01:54+0000",
+            "vcs_last_rev": "76b0ce6b914c442088657c627a325e82d66678b9",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 4
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 47000,
+            "layerbranch": 840808,
+            "required": true
+        },
+        {
+            "dependency": 265,
+            "id": 47001,
+            "layerbranch": 840808,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer is intended to be a central point for realtime related kernel and\r\nsystem development. It also contains utilities, and configuration useful for\r\ntuning a realtime system. It should be useful directly on top of oe-core.  It\r\nshould be primarily useful to the following groups:",
+            "id": 48,
+            "index_preference": 900,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-realtime",
+            "status": "P",
+            "summary": "Realtime related kernel components",
+            "updated": "2018-05-30T22:05:35+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-realtime",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "latencytop_0.5.bb",
+            "filepath": "recipes-kernel/latencytop",
+            "homepage": "http://www.latencytop.org/",
+            "id": 900403,
+            "inherits": "pkgconfig",
+            "layerbranch": 840808,
+            "license": "GPLv2",
+            "pn": "latencytop",
+            "provides": "latencytop ",
+            "pv": "0.5",
+            "section": "base",
+            "summary": "Linux tool for measuring and fixing latency",
+            "updated": "2019-01-23T01:01:53+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "rt-app is a test application that starts multiple periodic threads in order to simulate a real-time periodic load",
+            "filename": "rt-app.bb",
+            "filepath": "recipes-tools/rt-app",
+            "homepage": "",
+            "id": 900404,
+            "inherits": "autotools gettext pkgconfig siteconfig siteinfo",
+            "layerbranch": 840808,
+            "license": "GPLv2",
+            "pn": "rt-app",
+            "provides": "rt-app ",
+            "pv": "1.0",
+            "section": "devel",
+            "summary": "",
+            "updated": "2019-01-23T01:01:53+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "schedtool-dl (scheduler test tool) for deadline scheduler",
+            "filename": "schedtool-dl.bb",
+            "filepath": "recipes-tools/schedtool-dl",
+            "homepage": "",
+            "id": 900405,
+            "inherits": "",
+            "layerbranch": 840808,
+            "license": "GPLv2",
+            "pn": "schedtool-dl",
+            "provides": "schedtool-dl ",
+            "pv": "1.0",
+            "section": "devel",
+            "summary": "",
+            "updated": "2019-01-23T01:01:53+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "A small image just capable of allowing a device to boot and is suitable for development work.",
+            "filename": "core-image-rt-extended.bb",
+            "filepath": "recipes-extended/images",
+            "homepage": "",
+            "id": 900406,
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "layerbranch": 840808,
+            "license": "MIT",
+            "pn": "core-image-rt-extended",
+            "provides": "core-image-rt-extended ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "A small image just capable of allowing a device to boot.",
+            "updated": "2019-01-23T01:01:54+0000"
+        }
+    ],
+    "wrtemplates": []
+}
