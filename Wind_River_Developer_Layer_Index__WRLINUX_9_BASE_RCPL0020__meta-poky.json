@@ -1,0 +1,151 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_9_BASE_RCPL0020",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_9_BASE_RCPL0020",
+            "comparison": false,
+            "id": 115,
+            "name": "WRLINUX_9_BASE_RCPL0020",
+            "short_description": "WRLinux 9 Base RCPL 0020",
+            "sort_priority": 10,
+            "update_environment": null,
+            "updated": "2018-12-12T17:12:48+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [
+        {
+            "description": "Poky (Yocto Project Reference Distro)",
+            "id": 4649,
+            "layerbranch": 839760,
+            "name": "poky-tiny",
+            "updated": "2018-12-12T23:12:14+0000"
+        },
+        {
+            "description": "Poky (Yocto Project Reference Distro)",
+            "id": 4650,
+            "layerbranch": 839760,
+            "name": "poky-bleeding",
+            "updated": "2018-12-12T23:12:14+0000"
+        },
+        {
+            "description": "Poky (Yocto Project Reference Distro)",
+            "id": 4651,
+            "layerbranch": 839760,
+            "name": "poky-lsb",
+            "updated": "2018-12-12T23:12:14+0000"
+        },
+        {
+            "description": "Poky (Yocto Project Reference Distro)",
+            "id": 4652,
+            "layerbranch": 839760,
+            "name": "poky",
+            "updated": "2018-12-12T23:12:14+0000"
+        }
+    ],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 115,
+            "collection": "core",
+            "id": 839741,
+            "layer": 1,
+            "updated": "2019-03-05T02:03:52+0000",
+            "vcs_last_commit": "2019-03-05T01:03:54+0000",
+            "vcs_last_fetch": "2019-03-05T02:03:52+0000",
+            "vcs_last_rev": "4d3bb28aa89b1f275d43cd26f61f7af7f081af04",
+            "vcs_subdir": "meta",
+            "version": "9",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "",
+            "branch": 115,
+            "collection": "yocto",
+            "id": 839760,
+            "layer": 59,
+            "updated": "2018-12-12T23:12:14+0000",
+            "vcs_last_commit": "2017-01-11T09:01:16+0000",
+            "vcs_last_fetch": "2018-12-12T23:12:14+0000",
+            "vcs_last_rev": "6602215d67cf5d75752e2156a79ddab69a400bee",
+            "vcs_subdir": "meta-poky",
+            "version": "3",
+            "yp_compatible_version": null
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 45984,
+            "layerbranch": 839760,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Poky is an integration of various components to form a complete prepackaged\r\nbuild system and development environment. It features support for building\r\ncustomised embedded device style images. There are reference demo images\r\nfeaturing a X11/Matchbox/GTK themed UI called Sato. The system supports\r\ncross-architecture application development using QEMU emulation and a\r\nstandalone toolchain and SDK with IDE integration.",
+            "id": 59,
+            "index_preference": 800,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "meta-poky",
+            "status": "P",
+            "summary": "Poky reference distribution for the Yocto Project",
+            "updated": "2018-05-30T22:05:36+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-yocto",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Basic init system for poky-tiny",
+            "filename": "tiny-init.bb",
+            "filepath": "recipes-core/tiny-init",
+            "homepage": "",
+            "id": 884412,
+            "inherits": "",
+            "layerbranch": 839760,
+            "license": "MIT",
+            "pn": "tiny-init",
+            "provides": "tiny-init ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "Poky-tiny init",
+            "updated": "2018-12-12T23:12:14+0000"
+        }
+    ],
+    "wrtemplates": []
+}
