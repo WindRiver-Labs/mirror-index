@@ -59,29 +59,29 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.17-20180620",
+            "bitbake_branch": "wr-10.17-20190225",
             "comparison": false,
             "id": 48,
             "name": "WRLINUX_10_17_BASE",
             "short_description": "Wind River Linux 10_17 Baseline",
             "sort_priority": 9,
             "update_environment": null,
-            "updated": "2018-06-27T03:06:30+0000",
+            "updated": "2019-02-27T21:02:14+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.17-20180620",
+            "actual_branch": "wr-10.17-20190225",
             "branch": 48,
             "collection": "core",
             "id": 165030,
             "layer": 1,
-            "updated": "2018-12-16T22:12:17+0000",
-            "vcs_last_commit": "2018-12-16T19:12:55+0000",
-            "vcs_last_fetch": "2018-12-16T22:12:17+0000",
-            "vcs_last_rev": "0d7731e3b6963707c1dc03bc02ded5a17fd5be1c",
+            "updated": "2019-03-11T19:03:40+0000",
+            "vcs_last_commit": "2019-03-11T19:03:33+0000",
+            "vcs_last_fetch": "2019-03-11T19:03:40+0000",
+            "vcs_last_rev": "a01aadf0ae42b2a6a9df7770532f509d52d0e511",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 8
@@ -92,9 +92,9 @@
             "collection": "openembedded-layer",
             "id": 165076,
             "layer": 7,
-            "updated": "2018-12-12T01:12:43+0000",
+            "updated": "2019-02-26T21:02:23+0000",
             "vcs_last_commit": "2018-05-29T20:05:57+0000",
-            "vcs_last_fetch": "2018-12-12T01:12:43+0000",
+            "vcs_last_fetch": "2019-02-26T21:02:23+0000",
             "vcs_last_rev": "6d02ece73068e403a0d36978aa0a5a0419cfbfa0",
             "vcs_subdir": "meta-oe",
             "version": "1",
@@ -106,9 +106,9 @@
             "collection": "perl-layer",
             "id": 165081,
             "layer": 13,
-            "updated": "2018-12-12T01:12:02+0000",
+            "updated": "2019-02-26T22:02:29+0000",
             "vcs_last_commit": "2017-10-17T23:10:28+0000",
-            "vcs_last_fetch": "2018-12-12T01:12:02+0000",
+            "vcs_last_fetch": "2019-02-26T22:02:29+0000",
             "vcs_last_rev": "f09a3b9f43c51f7055afee9126a770f44d4b5cb3",
             "vcs_subdir": "meta-perl",
             "version": "1",
@@ -120,9 +120,9 @@
             "collection": "signing-key",
             "id": 165184,
             "layer": 129,
-            "updated": "2018-12-12T01:12:45+0000",
+            "updated": "2019-02-26T22:02:18+0000",
             "vcs_last_commit": "2017-10-13T00:10:50+0000",
-            "vcs_last_fetch": "2018-12-12T01:12:45+0000",
+            "vcs_last_fetch": "2019-02-26T22:02:18+0000",
             "vcs_last_rev": "6dd44178fc5cbb6275032d30ccbe348776c89f64",
             "vcs_subdir": "meta-signing-key",
             "version": null,
@@ -134,9 +134,9 @@
             "collection": "secure-core",
             "id": 165195,
             "layer": 149,
-            "updated": "2018-12-12T01:12:52+0000",
+            "updated": "2019-02-26T22:02:27+0000",
             "vcs_last_commit": "2017-09-25T00:09:27+0000",
-            "vcs_last_fetch": "2018-12-12T01:12:52+0000",
+            "vcs_last_fetch": "2019-02-26T22:02:27+0000",
             "vcs_last_rev": "6dff36ef09e5ea6b87f872ba5ae10c9e7af87fa2",
             "vcs_subdir": "meta",
             "version": null,
@@ -148,9 +148,9 @@
             "collection": "efi-secure-boot",
             "id": 166272,
             "layer": 126,
-            "updated": "2018-12-12T01:12:53+0000",
+            "updated": "2019-02-26T22:02:43+0000",
             "vcs_last_commit": "2018-06-20T20:06:57+0000",
-            "vcs_last_fetch": "2018-12-12T01:12:53+0000",
+            "vcs_last_fetch": "2019-02-26T22:02:43+0000",
             "vcs_last_rev": "fbecc5a08a00fbb99c850cd7b48f9b1a67800b01",
             "vcs_subdir": "meta-efi-secure-boot",
             "version": null,
@@ -324,7 +324,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2018-12-12T01:12:52+0000"
+            "updated": "2019-02-26T22:02:42+0000"
         },
         {
             "bbclassextend": "",
@@ -343,7 +343,7 @@
             "pv": "0.3.0+gitX",
             "section": "base",
             "summary": "The utility to manipulate machines owner keys which managed in shim",
-            "updated": "2018-12-12T01:12:52+0000"
+            "updated": "2019-02-26T22:02:42+0000"
         },
         {
             "bbclassextend": "",
@@ -362,7 +362,7 @@
             "pv": "1.7.0+gitX",
             "section": "base",
             "summary": "Tools to support reading and manipulating the UEFI signature database",
-            "updated": "2018-12-12T01:12:52+0000"
+            "updated": "2019-02-26T22:02:42+0000"
         },
         {
             "bbclassextend": "",
@@ -381,7 +381,7 @@
             "pv": "1.7.0+gitX",
             "section": "base",
             "summary": "Tools to support reading and manipulating the UEFI signature database",
-            "updated": "2018-12-12T01:12:52+0000"
+            "updated": "2019-02-26T22:02:43+0000"
         },
         {
             "bbclassextend": "",
@@ -400,7 +400,7 @@
             "pv": "12+gitX",
             "section": "bootloaders",
             "summary": "shim is a trivial EFI application.",
-            "updated": "2018-12-12T01:12:53+0000"
+            "updated": "2019-02-26T22:02:43+0000"
         },
         {
             "bbclassextend": "",
@@ -419,7 +419,7 @@
             "pv": "0.4.5+gitX",
             "section": "bootloaders",
             "summary": "The bootloader capable of authenticating the PE and non-PE files.",
-            "updated": "2018-12-12T01:12:53+0000"
+            "updated": "2019-02-26T22:02:43+0000"
         },
         {
             "bbclassextend": "",
@@ -438,7 +438,7 @@
             "pv": "0.6+gitX",
             "section": "base",
             "summary": "Utilities for signing UEFI binaries for use with secure boot",
-            "updated": "2018-12-12T01:12:53+0000"
+            "updated": "2019-02-26T22:02:43+0000"
         },
         {
             "bbclassextend": "native",
@@ -457,7 +457,7 @@
             "pv": "0.3.2+gitX",
             "section": "devel",
             "summary": "A generic signing tool framework",
-            "updated": "2018-12-12T01:12:53+0000"
+            "updated": "2019-02-26T22:02:43+0000"
         }
     ],
     "wrtemplates": []

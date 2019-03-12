@@ -59,29 +59,29 @@
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.17-20180620",
+            "bitbake_branch": "wr-10.17-20190225",
             "comparison": false,
             "id": 48,
             "name": "WRLINUX_10_17_BASE",
             "short_description": "Wind River Linux 10_17 Baseline",
             "sort_priority": 9,
             "update_environment": null,
-            "updated": "2018-06-27T03:06:30+0000",
+            "updated": "2019-02-27T21:02:14+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.17-20180620",
+            "actual_branch": "wr-10.17-20190225",
             "branch": 48,
             "collection": "yoctobsp",
             "id": 165182,
             "layer": 58,
-            "updated": "2018-12-12T01:12:36+0000",
-            "vcs_last_commit": "2018-10-29T20:10:17+0000",
-            "vcs_last_fetch": "2018-12-12T01:12:36+0000",
-            "vcs_last_rev": "9fce3c369db83689906e6bedc05e17e632289e4b",
+            "updated": "2019-02-27T21:02:51+0000",
+            "vcs_last_commit": "2019-02-25T01:02:38+0000",
+            "vcs_last_fetch": "2019-02-27T21:02:51+0000",
+            "vcs_last_rev": "4ff4d01f5fc90a6450d3fcf5bb5256465828d469",
             "vcs_subdir": "meta-yocto-bsp",
             "version": "3",
             "yp_compatible_version": 8
@@ -111,38 +111,38 @@
     "machines": [
         {
             "description": " http://beagleboard.org/bone and http://beagleboard.org/black boards",
-            "id": 14594,
+            "id": 16247,
             "layerbranch": 165182,
             "name": "beaglebone",
-            "updated": "2018-12-12T01:12:36+0000"
+            "updated": "2019-02-26T21:02:44+0000"
         },
         {
             "description": "",
-            "id": 14595,
+            "id": 16248,
             "layerbranch": 165182,
             "name": "mpc8315e-rdb",
-            "updated": "2018-12-12T01:12:36+0000"
+            "updated": "2019-02-26T21:02:44+0000"
         },
         {
             "description": " generic X86 (32-bit) PCs. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
-            "id": 14596,
+            "id": 16249,
             "layerbranch": 165182,
             "name": "genericx86",
-            "updated": "2018-12-12T01:12:36+0000"
+            "updated": "2019-02-26T21:02:44+0000"
         },
         {
             "description": "Edgerouter",
-            "id": 14597,
+            "id": 16250,
             "layerbranch": 165182,
             "name": "edgerouter",
-            "updated": "2018-12-12T01:12:36+0000"
+            "updated": "2019-02-26T21:02:44+0000"
         },
         {
             "description": " generic X86_64 (64-bit) PCs and servers. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
-            "id": 14598,
+            "id": 16251,
             "layerbranch": 165182,
             "name": "genericx86-64",
-            "updated": "2018-12-12T01:12:36+0000"
+            "updated": "2019-02-26T21:02:44+0000"
         }
     ],
     "recipes": [
@@ -163,7 +163,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Intel gma500_gfx fix for certain hardware",
-            "updated": "2018-12-12T01:12:36+0000"
+            "updated": "2019-02-26T21:02:44+0000"
         }
     ],
     "wrtemplates": []
