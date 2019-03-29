@@ -1,0 +1,173 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_17_BASE_UPDATE0015",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_17_BASE_UPDATE0015",
+            "comparison": false,
+            "id": 122,
+            "name": "WRLINUX_10_17_BASE_UPDATE0015",
+            "short_description": "WRLinux 10_17 Base Update 0015",
+            "sort_priority": 9,
+            "update_environment": null,
+            "updated": "2019-02-25T23:02:44+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 122,
+            "collection": "core",
+            "id": 841199,
+            "layer": 1,
+            "updated": "2019-03-28T02:03:20+0000",
+            "vcs_last_commit": "2019-03-27T02:03:47+0000",
+            "vcs_last_fetch": "2019-03-28T02:03:20+0000",
+            "vcs_last_rev": "34226369e21cf2217dfdb6271cb654c9a2f6cac1",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 8
+        },
+        {
+            "actual_branch": "",
+            "branch": 122,
+            "collection": "signing-key",
+            "id": 841213,
+            "layer": 129,
+            "updated": "2019-02-26T22:02:24+0000",
+            "vcs_last_commit": "2017-10-13T00:10:50+0000",
+            "vcs_last_fetch": "2019-02-26T22:02:24+0000",
+            "vcs_last_rev": "6dd44178fc5cbb6275032d30ccbe348776c89f64",
+            "vcs_subdir": "meta-signing-key",
+            "version": null,
+            "yp_compatible_version": null
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 47518,
+            "layerbranch": 841213,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer provides sample keys, by default, are used by build system to sign bootloader,\r\nkernel, IMA signature, RPM and so on. It is used for development and demonstration. The user must know what the risk is to use the sample keys in the product.",
+            "id": 129,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-signing-key",
+            "status": "P",
+            "summary": "User Key Store",
+            "updated": "2018-05-30T22:05:44+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-secure-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Key store for key installation",
+            "filename": "key-store_0.1.bb",
+            "filepath": "recipes-support/key-store",
+            "homepage": "",
+            "id": 907024,
+            "inherits": "user-key-store",
+            "layerbranch": 841213,
+            "license": "MIT",
+            "pn": "key-store",
+            "provides": "key-store ",
+            "pv": "0.1",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-02-26T22:02:24+0000"
+        }
+    ],
+    "wrtemplates": []
+}
