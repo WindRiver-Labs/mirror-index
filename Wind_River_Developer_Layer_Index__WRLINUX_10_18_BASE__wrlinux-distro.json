@@ -55,6 +55,20 @@
             "image_url": "",
             "link_url": "",
             "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
         }
     ],
     "branches": [
@@ -114,10 +128,10 @@
             "collection": "core",
             "id": 836626,
             "layer": 1,
-            "updated": "2019-03-05T19:03:23+0000",
-            "vcs_last_commit": "2019-02-25T02:02:29+0000",
-            "vcs_last_fetch": "2019-03-05T19:03:23+0000",
-            "vcs_last_rev": "e6cdbc6840d9cee549fe673167e5ff77d3838036",
+            "updated": "2019-03-28T20:03:35+0000",
+            "vcs_last_commit": "2019-03-28T19:03:20+0000",
+            "vcs_last_fetch": "2019-03-28T20:03:35+0000",
+            "vcs_last_rev": "337affdcc70da9960c0faf67be35f12b2c0abd20",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
@@ -142,10 +156,10 @@
             "collection": "wrlinux",
             "id": 836705,
             "layer": 49,
-            "updated": "2019-03-24T20:03:26+0000",
-            "vcs_last_commit": "2019-03-24T19:03:13+0000",
-            "vcs_last_fetch": "2019-03-24T20:03:26+0000",
-            "vcs_last_rev": "bb88dbe9ec68d4f4ec93d2f0ee1dec0e709bc9bf",
+            "updated": "2019-04-07T23:04:22+0000",
+            "vcs_last_commit": "2019-04-07T23:04:10+0000",
+            "vcs_last_fetch": "2019-04-07T23:04:22+0000",
+            "vcs_last_rev": "8908a7cb1903bcfa62d0af2ed6a4c2c895e3bca6",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 2
@@ -324,10 +338,10 @@
             "collection": "wrlinux-distro",
             "id": 836758,
             "layer": 164,
-            "updated": "2019-03-19T01:03:25+0000",
-            "vcs_last_commit": "2019-03-19T01:03:59+0000",
-            "vcs_last_fetch": "2019-03-19T01:03:25+0000",
-            "vcs_last_rev": "0780975b269057ce4fb6dae4f7ceb902cc759a69",
+            "updated": "2019-03-28T20:03:53+0000",
+            "vcs_last_commit": "2019-03-28T19:03:23+0000",
+            "vcs_last_fetch": "2019-03-28T20:03:53+0000",
+            "vcs_last_rev": "8192524cbc11e68b0e2e81c21becddf2cced66b9",
             "vcs_subdir": "wrlinux-distro",
             "version": "1",
             "yp_compatible_version": 2
@@ -843,7 +857,7 @@
             "filepath": "recipes-base/images",
             "homepage": "",
             "id": 876101,
-            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image",
             "layerbranch": 836758,
             "license": "MIT",
             "pn": "wrlinux-image-minimal-initramfs",
@@ -851,7 +865,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-05T20:03:29+0000"
+            "updated": "2019-03-27T02:03:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1475,7 +1489,7 @@
             "id": 39475,
             "layerbranch": 836758,
             "name": "feature/efi-secure-boot",
-            "updated": "2019-03-05T20:03:34+0000"
+            "updated": "2019-03-28T20:03:53+0000"
         },
         {
             "description": "",
@@ -1707,6 +1721,13 @@
             "layerbranch": 836758,
             "name": "feature/pam-wheel",
             "updated": "2019-03-05T20:03:35+0000"
+        },
+        {
+            "description": "",
+            "id": 41826,
+            "layerbranch": 836758,
+            "name": "feature/ostree",
+            "updated": "2019-03-28T20:03:53+0000"
         }
     ]
 }
