@@ -1,0 +1,188 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_17_BASE_UPDATE0016",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 12,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior"
+        },
+        {
+            "description": "",
+            "id": 14,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_17_BASE_UPDATE0016",
+            "comparison": false,
+            "id": 131,
+            "name": "WRLINUX_10_17_BASE_UPDATE0016",
+            "short_description": "WRLinux 10_17 Base Update 0016",
+            "sort_priority": 9,
+            "update_environment": null,
+            "updated": "2019-04-09T22:04:02+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 131,
+            "collection": "openstack-controller-deploy-layer",
+            "id": 843128,
+            "layer": 159,
+            "updated": "2019-04-15T23:04:39+0000",
+            "vcs_last_commit": "2017-10-09T01:10:07+0000",
+            "vcs_last_fetch": "2019-04-15T23:04:39+0000",
+            "vcs_last_rev": "080518ea6fc04f84eb58be9d7a5c5fbe727b58c8",
+            "vcs_subdir": "meta-openstack-controller-deploy",
+            "version": null,
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "",
+            "branch": 131,
+            "collection": "openstack-controller-test-config-layer",
+            "id": 843129,
+            "layer": 160,
+            "updated": "2019-04-15T23:04:43+0000",
+            "vcs_last_commit": "2017-10-09T01:10:07+0000",
+            "vcs_last_fetch": "2019-04-15T23:04:43+0000",
+            "vcs_last_rev": "080518ea6fc04f84eb58be9d7a5c5fbe727b58c8",
+            "vcs_subdir": "meta-openstack-controller-test-config",
+            "version": null,
+            "yp_compatible_version": null
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 159,
+            "id": 49711,
+            "layerbranch": 843129,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "Provides support configuring and deploying the recipes to create a controller node.",
+            "id": 159,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-openstack-controller-deploy",
+            "status": "P",
+            "summary": "Support configuring and deploying the recipes to create a controller node",
+            "updated": "2018-05-30T22:05:54+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-cloud-services",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Provides support configuring and deploying the recipes to setup/configure system to prepare for running openstack tests, e.g. tempest testsuite.",
+            "id": 160,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-openstack-controller-test-config",
+            "status": "P",
+            "summary": "Support for preparing to run openstack tests",
+            "updated": "2018-05-30T22:05:40+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-cloud-services",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [],
+    "wrtemplates": []
+}

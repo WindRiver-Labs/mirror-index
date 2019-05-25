@@ -1,0 +1,378 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_17_BASE_UPDATE0016",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 12,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior"
+        },
+        {
+            "description": "",
+            "id": 14,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_17_BASE_UPDATE0016",
+            "comparison": false,
+            "id": 131,
+            "name": "WRLINUX_10_17_BASE_UPDATE0016",
+            "short_description": "WRLinux 10_17 Base Update 0016",
+            "sort_priority": 9,
+            "update_environment": null,
+            "updated": "2019-04-09T22:04:02+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 131,
+            "collection": "core",
+            "id": 843080,
+            "layer": 1,
+            "updated": "2019-05-23T19:05:13+0000",
+            "vcs_last_commit": "2019-05-23T18:05:18+0000",
+            "vcs_last_fetch": "2019-05-23T19:05:13+0000",
+            "vcs_last_rev": "03e452e0ffac3aed9f7a3e9d6d34100ecbe056e6",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 8
+        },
+        {
+            "actual_branch": "",
+            "branch": 131,
+            "collection": "openembedded-layer",
+            "id": 843082,
+            "layer": 7,
+            "updated": "2019-04-15T23:04:44+0000",
+            "vcs_last_commit": "2018-05-29T20:05:57+0000",
+            "vcs_last_fetch": "2019-04-15T23:04:44+0000",
+            "vcs_last_rev": "6d02ece73068e403a0d36978aa0a5a0419cfbfa0",
+            "vcs_subdir": "meta-oe",
+            "version": "1",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "",
+            "branch": 131,
+            "collection": "cloud-services-layer",
+            "id": 843095,
+            "layer": 141,
+            "updated": "2019-04-15T23:04:11+0000",
+            "vcs_last_commit": "2018-09-09T20:09:36+0000",
+            "vcs_last_fetch": "2019-04-15T23:04:11+0000",
+            "vcs_last_rev": "69d853f3ae3a3ed00c3759b32a007e8001160cb2",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "",
+            "branch": 131,
+            "collection": "networking-layer",
+            "id": 843106,
+            "layer": 11,
+            "updated": "2019-04-15T23:04:53+0000",
+            "vcs_last_commit": "2019-02-21T02:02:50+0000",
+            "vcs_last_fetch": "2019-04-15T23:04:53+0000",
+            "vcs_last_rev": "288402450c39b6fb072b8c84f5d7932b6933038b",
+            "vcs_subdir": "meta-networking",
+            "version": "1",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "",
+            "branch": 131,
+            "collection": "virtualization-layer",
+            "id": 843111,
+            "layer": 45,
+            "updated": "2019-04-15T23:04:04+0000",
+            "vcs_last_commit": "2019-04-14T22:04:37+0000",
+            "vcs_last_fetch": "2019-04-15T23:04:04+0000",
+            "vcs_last_rev": "4dee3957c282a9d5264484a8a5248f5041067a22",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "",
+            "branch": 131,
+            "collection": "openstack-layer",
+            "id": 843119,
+            "layer": 155,
+            "updated": "2019-04-15T23:04:05+0000",
+            "vcs_last_commit": "2017-10-20T02:10:55+0000",
+            "vcs_last_fetch": "2019-04-15T23:04:05+0000",
+            "vcs_last_rev": "b3f8014e5003266b082fe15b65cc29122a035921",
+            "vcs_subdir": "meta-openstack",
+            "version": null,
+            "yp_compatible_version": null
+        },
+        {
+            "actual_branch": "",
+            "branch": 131,
+            "collection": "openstack-swift-deploy-layer",
+            "id": 843132,
+            "layer": 162,
+            "updated": "2019-04-15T23:04:54+0000",
+            "vcs_last_commit": "2017-10-09T01:10:07+0000",
+            "vcs_last_fetch": "2019-04-15T23:04:54+0000",
+            "vcs_last_rev": "080518ea6fc04f84eb58be9d7a5c5fbe727b58c8",
+            "vcs_subdir": "meta-openstack-swift-deploy",
+            "version": null,
+            "yp_compatible_version": null
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 141,
+            "id": 49720,
+            "layerbranch": 843132,
+            "required": true
+        },
+        {
+            "dependency": 1,
+            "id": 49721,
+            "layerbranch": 843132,
+            "required": true
+        },
+        {
+            "dependency": 11,
+            "id": 49722,
+            "layerbranch": 843132,
+            "required": true
+        },
+        {
+            "dependency": 7,
+            "id": 49723,
+            "layerbranch": 843132,
+            "required": true
+        },
+        {
+            "dependency": 155,
+            "id": 49724,
+            "layerbranch": 843132,
+            "required": true
+        },
+        {
+            "dependency": 45,
+            "id": 49725,
+            "layerbranch": 843132,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Additional shared OE metadata",
+            "id": 7,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-oe",
+            "status": "P",
+            "summary": "Additional shared OE metadata",
+            "updated": "2018-05-30T22:05:13+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer is intended to be a central point for networking-related\r\npackages and configuration.  It should be useful directly on top of\r\noe-core and compliments meta-openembedded.  It should be primarily useful\r\nto the following groups:",
+            "id": 11,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-networking",
+            "status": "P",
+            "summary": "Networking-related packages and configuration",
+            "updated": "2018-05-30T22:05:09+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer provides lxc package build for Wind River Linux.  It\r\nis required by most other layers that Wind River provides.",
+            "id": 45,
+            "index_preference": 900,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-virtualization",
+            "status": "P",
+            "summary": "Virtualization related components",
+            "updated": "2018-05-30T22:05:12+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-virtualization",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "meta cloud services",
+            "id": 141,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-cloud-services",
+            "status": "P",
+            "summary": "meta cloud services",
+            "updated": "2018-05-30T22:05:35+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-cloud-services",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Support for building the packages from the OpenStack project.  It includes recipes for nova, glance, keystone, cinder, quantum, swift and horizon components.",
+            "id": 155,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-openstack",
+            "status": "P",
+            "summary": "Support for building the packages from the OpenStack project",
+            "updated": "2018-05-30T22:05:03+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-cloud-services",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Provides support configuring and deploying the recipes to deploy OpenStack Swift.",
+            "id": 162,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-openstack-swift-deploy",
+            "status": "P",
+            "summary": "Support configuring and deploying the recipes to deploy OpenStack Swift",
+            "updated": "2018-05-30T22:05:10+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-cloud-services",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [],
+    "wrtemplates": []
+}
