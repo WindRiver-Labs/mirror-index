@@ -141,10 +141,10 @@
             "collection": "networking-layer",
             "id": 836711,
             "layer": 11,
-            "updated": "2019-03-05T20:03:06+0000",
-            "vcs_last_commit": "2018-12-03T00:12:55+0000",
-            "vcs_last_fetch": "2019-03-05T20:03:06+0000",
-            "vcs_last_rev": "f40146afebec737c8e5d561faac913a811f22844",
+            "updated": "2019-05-27T18:05:38+0000",
+            "vcs_last_commit": "2019-05-27T18:05:31+0000",
+            "vcs_last_fetch": "2019-05-27T18:05:38+0000",
+            "vcs_last_rev": "8584579e2b7534de9ceacbe4ed029870164b9dcd",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 3
@@ -3723,6 +3723,25 @@
             "section": "net",
             "summary": "",
             "updated": "2019-03-05T20:03:06+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "The Network Time Protocol (NTP) is used to synchronize the time of a computer client or server to another server or reference time source, such as a radio or satellite receiver or modem.",
+            "filename": "ntp_4.2.8p13.bb",
+            "filepath": "recipes-support/ntp",
+            "homepage": "http://support.ntp.org",
+            "id": 951504,
+            "inherits": "autotools pkgconfig siteconfig siteinfo systemd update-alternatives update-rc.d useradd useradd_base",
+            "layerbranch": 836711,
+            "license": "NTP",
+            "pn": "ntp",
+            "provides": "ntp ",
+            "pv": "4.2.8p13",
+            "section": "net",
+            "summary": "Network Time Protocol daemon and utilities",
+            "updated": "2019-05-27T18:05:38+0000"
         }
     ],
     "wrtemplates": []
