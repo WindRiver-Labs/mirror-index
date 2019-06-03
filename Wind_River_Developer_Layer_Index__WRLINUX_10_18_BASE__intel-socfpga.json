@@ -1,0 +1,287 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_18_BASE",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 12,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior"
+        },
+        {
+            "description": "",
+            "id": 14,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "wr-10.18-20190214",
+            "comparison": false,
+            "id": 100,
+            "name": "WRLINUX_10_18_BASE",
+            "short_description": "Wind River Linux 10_18 Baseline",
+            "sort_priority": 8,
+            "update_environment": null,
+            "updated": "2019-02-18T18:02:07+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "wr-10.18-20190214",
+            "branch": 100,
+            "collection": "core",
+            "id": 836626,
+            "layer": 1,
+            "updated": "2019-05-23T18:05:19+0000",
+            "vcs_last_commit": "2019-05-23T18:05:53+0000",
+            "vcs_last_fetch": "2019-05-23T18:05:19+0000",
+            "vcs_last_rev": "8c8a22eb86ce2042e79305475391747bf6d4cf31",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 2
+        },
+        {
+            "actual_branch": "",
+            "branch": 100,
+            "collection": "wrlinux",
+            "id": 836705,
+            "layer": 49,
+            "updated": "2019-05-28T01:05:22+0000",
+            "vcs_last_commit": "2019-05-28T01:05:11+0000",
+            "vcs_last_fetch": "2019-05-28T01:05:22+0000",
+            "vcs_last_rev": "0d932f3d5c17c576a3e596f98d02c07c9cefda49",
+            "vcs_subdir": "",
+            "version": "2",
+            "yp_compatible_version": 2
+        },
+        {
+            "actual_branch": "",
+            "branch": 100,
+            "collection": "intel-socfpga",
+            "id": 836941,
+            "layer": 118,
+            "updated": "2019-03-05T20:03:24+0000",
+            "vcs_last_commit": "2018-12-19T17:12:53+0000",
+            "vcs_last_fetch": "2019-03-05T20:03:24+0000",
+            "vcs_last_rev": "de814ac4e558346c8619087b3833b90effabe75c",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 2
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 42801,
+            "layerbranch": 836941,
+            "required": true
+        },
+        {
+            "dependency": 49,
+            "id": 42802,
+            "layerbranch": 836941,
+            "required": true
+        },
+        {
+            "dependency": 237,
+            "id": 42803,
+            "layerbranch": 836941,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer provides the Wind River Linux distribution definitions, \r\ndistribution-specific integration and bug fixes, and other wrlinux components.",
+            "id": 49,
+            "index_preference": 900,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "wrlinux",
+            "status": "P",
+            "summary": "Wind River Linux distribution definitions",
+            "updated": "2018-05-30T22:05:16+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wrlinux",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Intel socfpga BSP",
+            "id": 118,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "intel-socfpga",
+            "status": "P",
+            "summary": "Intel socfpga BSP",
+            "updated": "2018-05-30T22:05:42+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/intel-socfpga",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [
+        {
+            "description": " Intel Stratix 10 SoC",
+            "id": 16787,
+            "layerbranch": 836941,
+            "name": "intel-socfpga-64",
+            "updated": "2019-03-05T20:03:24+0000"
+        }
+    ],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "u-boot-socfpga_2017.09.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
+            "id": 803021,
+            "inherits": "deploy uboot-config uboot-extlinux-config uboot-sign",
+            "layerbranch": 836941,
+            "license": "GPLv2+",
+            "pn": "u-boot-socfpga",
+            "provides": "u-boot-socfpga virtual/bootloader",
+            "pv": "2017.09",
+            "section": "bootloaders",
+            "summary": "Universal Boot Loader for embedded devices",
+            "updated": "2019-03-05T20:03:23+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "intel-rsu_git.bb",
+            "filepath": "recipes-bsp/intel-rsu",
+            "homepage": "https://github.com/altera-opensource/intel-rsu",
+            "id": 803022,
+            "inherits": "autotools siteconfig siteinfo",
+            "layerbranch": 836941,
+            "license": "GPLv2+",
+            "pn": "intel-rsu",
+            "provides": "intel-rsu ",
+            "pv": "1.0.0",
+            "section": "intel-rsu",
+            "summary": "Intel Remote System Update Tool",
+            "updated": "2019-03-05T20:03:24+0000"
+        }
+    ],
+    "wrtemplates": [
+        {
+            "description": "",
+            "id": 39454,
+            "layerbranch": 836941,
+            "name": "default",
+            "updated": "2019-03-05T20:03:24+0000"
+        }
+    ]
+}
