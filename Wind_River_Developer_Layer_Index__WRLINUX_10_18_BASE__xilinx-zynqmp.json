@@ -99,9 +99,9 @@
             "id": 100,
             "name": "WRLINUX_10_18_BASE",
             "short_description": "Wind River Linux 10_18 Baseline",
-            "sort_priority": 8,
+            "sort_priority": 9800,
             "update_environment": null,
-            "updated": "2019-02-18T18:02:07+0000",
+            "updated": "2019-06-03T09:06:09+0000",
             "updates_enabled": true
         }
     ],
@@ -113,10 +113,10 @@
             "collection": "core",
             "id": 836626,
             "layer": 1,
-            "updated": "2019-05-23T18:05:19+0000",
-            "vcs_last_commit": "2019-05-23T18:05:53+0000",
-            "vcs_last_fetch": "2019-05-23T18:05:19+0000",
-            "vcs_last_rev": "8c8a22eb86ce2042e79305475391747bf6d4cf31",
+            "updated": "2019-06-11T20:06:41+0000",
+            "vcs_last_commit": "2019-06-10T22:06:38+0000",
+            "vcs_last_fetch": "2019-06-11T20:06:41+0000",
+            "vcs_last_rev": "931f3536f67923877ea98ad2b0e7b564578e74a5",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
@@ -127,10 +127,10 @@
             "collection": "wrlinux",
             "id": 836705,
             "layer": 49,
-            "updated": "2019-05-28T01:05:22+0000",
-            "vcs_last_commit": "2019-05-28T01:05:11+0000",
-            "vcs_last_fetch": "2019-05-28T01:05:22+0000",
-            "vcs_last_rev": "0d932f3d5c17c576a3e596f98d02c07c9cefda49",
+            "updated": "2019-06-12T00:06:24+0000",
+            "vcs_last_commit": "2019-06-12T00:06:18+0000",
+            "vcs_last_fetch": "2019-06-12T00:06:24+0000",
+            "vcs_last_rev": "b34d4bb7a32fe4bc15e92a418455aae400d9a6a6",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 2
@@ -141,10 +141,10 @@
             "collection": "wr-xilinx-zynqmp",
             "id": 840605,
             "layer": 83,
-            "updated": "2019-05-14T20:05:41+0000",
-            "vcs_last_commit": "2019-05-14T19:05:21+0000",
-            "vcs_last_fetch": "2019-05-14T20:05:41+0000",
-            "vcs_last_rev": "07da7951d746c307298beaeb2faf817abc8d9e0f",
+            "updated": "2019-06-11T20:06:21+0000",
+            "vcs_last_commit": "2019-06-10T18:06:54+0000",
+            "vcs_last_fetch": "2019-06-11T20:06:21+0000",
+            "vcs_last_rev": "7508e5d93a44ebf89ae2f655b39cead3b2ef401e",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 2
@@ -229,10 +229,10 @@
     "machines": [
         {
             "description": " Zynq Ultrascale+ MPSoC",
-            "id": 16785,
+            "id": 20567,
             "layerbranch": 840605,
             "name": "xilinx-zynqmp",
-            "updated": "2019-03-05T20:03:10+0000"
+            "updated": "2019-06-11T20:06:20+0000"
         }
     ],
     "recipes": [
@@ -244,7 +244,7 @@
             "filename": "libmali-xlnx_git.bb",
             "filepath": "recipes-graphics/libgles",
             "homepage": "",
-            "id": 897668,
+            "id": 971098,
             "inherits": "",
             "layerbranch": 840605,
             "license": "Proprietary",
@@ -253,7 +253,7 @@
             "pv": "r7p0-00rel0",
             "section": "base",
             "summary": "",
-            "updated": "2019-03-05T20:03:10+0000"
+            "updated": "2019-06-11T20:06:21+0000"
         },
         {
             "bbclassextend": "",
@@ -263,7 +263,7 @@
             "filename": "xf86-video-armsoc_git.bb",
             "filepath": "recipes-graphics/xorg-driver",
             "homepage": "http://www.x.org",
-            "id": 897669,
+            "id": 971099,
             "inherits": "autotools distro_features_check pkgconfig siteconfig siteinfo",
             "layerbranch": 840605,
             "license": "MIT-X & GPLv2+",
@@ -272,7 +272,7 @@
             "pv": "1.4.1+gitX",
             "section": "x11/drivers",
             "summary": "X.Org X server -- Xilinx ARM SOC display driver",
-            "updated": "2019-03-05T20:03:10+0000"
+            "updated": "2019-06-11T20:06:21+0000"
         },
         {
             "bbclassextend": "",
@@ -282,7 +282,7 @@
             "filename": "kernel-module-mali.bb",
             "filepath": "recipes-graphics/mali",
             "homepage": "",
-            "id": 897670,
+            "id": 971100,
             "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
             "layerbranch": 840605,
             "license": "GPLv2",
@@ -291,35 +291,16 @@
             "pv": "r7p0-00rel0",
             "section": "kernel/modules",
             "summary": "A Mali 400 Linux Kernel module",
-            "updated": "2019-03-05T20:03:10+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "u-boot-xlnx_2018.3.bb",
-            "filepath": "zynqmp-secure-boot/recipes-bsp/u-boot",
-            "homepage": "",
-            "id": 951422,
-            "inherits": "deploy uboot-config uboot-extlinux-config uboot-sign",
-            "layerbranch": 840605,
-            "license": "GPLv2+",
-            "pn": "u-boot-xlnx",
-            "provides": "u-boot-xlnx virtual/bootloader",
-            "pv": "v2018.01-xilinx-v2018.3+gitX",
-            "section": "base",
-            "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2019-05-07T23:05:22+0000"
+            "updated": "2019-06-11T20:06:21+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 39452,
+            "id": 46949,
             "layerbranch": 840605,
             "name": "default",
-            "updated": "2019-03-05T20:03:10+0000"
+            "updated": "2019-06-11T20:06:20+0000"
         }
     ]
 }
