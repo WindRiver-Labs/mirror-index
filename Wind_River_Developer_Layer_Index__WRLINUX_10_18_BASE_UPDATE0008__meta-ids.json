@@ -1,0 +1,271 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_18_BASE_UPDATE0008",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 12,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior"
+        },
+        {
+            "description": "",
+            "id": 14,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_18_BASE_UPDATE0008",
+            "comparison": false,
+            "id": 137,
+            "name": "WRLINUX_10_18_BASE_UPDATE0008",
+            "short_description": "WRLinux 10_18 Base Update 0008",
+            "sort_priority": 9800,
+            "update_environment": null,
+            "updated": "2019-06-10T15:06:52+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 137,
+            "collection": "core",
+            "id": 844345,
+            "layer": 1,
+            "updated": "2019-06-20T01:06:38+0000",
+            "vcs_last_commit": "2019-06-19T23:06:41+0000",
+            "vcs_last_fetch": "2019-06-20T01:06:38+0000",
+            "vcs_last_rev": "ee0cb964cf38423ede9e8abe1a2e2ebdb52c5c1b",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 2
+        },
+        {
+            "actual_branch": "",
+            "branch": 137,
+            "collection": "networking-layer",
+            "id": 844370,
+            "layer": 11,
+            "updated": "2019-06-10T15:06:21+0000",
+            "vcs_last_commit": "2019-05-27T18:05:31+0000",
+            "vcs_last_fetch": "2019-06-10T15:06:21+0000",
+            "vcs_last_rev": "8584579e2b7534de9ceacbe4ed029870164b9dcd",
+            "vcs_subdir": "meta-networking",
+            "version": "1",
+            "yp_compatible_version": 3
+        },
+        {
+            "actual_branch": "",
+            "branch": 137,
+            "collection": "ids",
+            "id": 844373,
+            "layer": 150,
+            "updated": "2019-06-10T15:06:51+0000",
+            "vcs_last_commit": "2018-11-07T01:11:40+0000",
+            "vcs_last_fetch": "2019-06-10T15:06:51+0000",
+            "vcs_last_rev": "0e87af902168c7efc5ddeee0de8f9b62f388403f",
+            "vcs_subdir": "meta-ids",
+            "version": null,
+            "yp_compatible_version": 3
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 51207,
+            "layerbranch": 844373,
+            "required": true
+        },
+        {
+            "dependency": 11,
+            "id": 51208,
+            "layerbranch": 844373,
+            "required": true
+        },
+        {
+            "dependency": 153,
+            "id": 51209,
+            "layerbranch": 844373,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer is intended to be a central point for networking-related\r\npackages and configuration.  It should be useful directly on top of\r\noe-core and compliments meta-openembedded.  It should be primarily useful\r\nto the following groups:",
+            "id": 11,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-networking",
+            "status": "P",
+            "summary": "Networking-related packages and configuration",
+            "updated": "2018-05-30T22:05:09+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Functions for Intrusion Detection System (IDS)",
+            "id": 150,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-ids",
+            "status": "P",
+            "summary": "Functions for Intrusion Detection System (IDS)",
+            "updated": "2018-05-30T22:05:24+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-secure-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "mtree compares a file hierarchy against a specification, creates a specification for a file hierarchy, or modifies a specification.",
+            "filename": "mtree_git.bb",
+            "filepath": "recipes-ids/mtree",
+            "homepage": "",
+            "id": 957668,
+            "inherits": "autotools siteconfig siteinfo",
+            "layerbranch": 844373,
+            "license": "BSD",
+            "pn": "mtree",
+            "provides": "mtree ",
+            "pv": "1.0.3+gitX",
+            "section": "utils",
+            "summary": "BSD directory hierarchy mapping tool",
+            "updated": "2019-06-10T15:06:51+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Packagegroup for Intrusion Detection System (IDS) utilities.",
+            "filename": "packagegroup-ids.bb",
+            "filepath": "recipes-base/packagegroups",
+            "homepage": "",
+            "id": 957669,
+            "inherits": "allarch packagegroup",
+            "layerbranch": 844373,
+            "license": "MIT",
+            "pn": "packagegroup-ids",
+            "provides": "packagegroup-ids ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-06-10T15:06:51+0000"
+        }
+    ],
+    "wrtemplates": []
+}
