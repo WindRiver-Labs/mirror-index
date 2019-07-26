@@ -1,0 +1,354 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_18_BASE_UPDATE0009",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 12,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior"
+        },
+        {
+            "description": "",
+            "id": 14,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_18_BASE_UPDATE0009",
+            "comparison": false,
+            "id": 144,
+            "name": "WRLINUX_10_18_BASE_UPDATE0009",
+            "short_description": "WRLinux 10_18 Base Update 0009",
+            "sort_priority": 9800,
+            "update_environment": null,
+            "updated": "2019-07-09T19:07:20+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 144,
+            "collection": "core",
+            "id": 846156,
+            "layer": 1,
+            "updated": "2019-07-25T00:07:53+0000",
+            "vcs_last_commit": "2019-07-22T19:07:10+0000",
+            "vcs_last_fetch": "2019-07-25T00:07:53+0000",
+            "vcs_last_rev": "b00d7086333d367a881181e9c48de84aacd56770",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 2
+        },
+        {
+            "actual_branch": "",
+            "branch": 144,
+            "collection": "intel",
+            "id": 846175,
+            "layer": 166,
+            "updated": "2019-07-11T02:07:10+0000",
+            "vcs_last_commit": "2018-10-30T20:10:11+0000",
+            "vcs_last_fetch": "2019-07-11T02:07:10+0000",
+            "vcs_last_rev": "71268cffca8f7a9d1474aa4c8f1f8cfb174b2b9d",
+            "vcs_subdir": "",
+            "version": "5",
+            "yp_compatible_version": 3
+        },
+        {
+            "actual_branch": "",
+            "branch": 144,
+            "collection": "wrlinux",
+            "id": 846201,
+            "layer": 49,
+            "updated": "2019-07-25T19:07:25+0000",
+            "vcs_last_commit": "2019-07-25T02:07:16+0000",
+            "vcs_last_fetch": "2019-07-25T19:07:25+0000",
+            "vcs_last_rev": "887d47a1c9c36de7b8620ecb33fc671553e59d40",
+            "vcs_subdir": "",
+            "version": "2",
+            "yp_compatible_version": 2
+        },
+        {
+            "actual_branch": "",
+            "branch": 144,
+            "collection": "intel-x86",
+            "id": 846209,
+            "layer": 32,
+            "updated": "2019-07-11T19:07:21+0000",
+            "vcs_last_commit": "2019-07-10T18:07:16+0000",
+            "vcs_last_fetch": "2019-07-11T19:07:21+0000",
+            "vcs_last_rev": "ef1b5031aabbe20a7b2d62fb0530063949caca60",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 2
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 52928,
+            "layerbranch": 846209,
+            "required": true
+        },
+        {
+            "dependency": 166,
+            "id": 52929,
+            "layerbranch": 846209,
+            "required": true
+        },
+        {
+            "dependency": 49,
+            "id": 52930,
+            "layerbranch": 846209,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Common BSP, also known as intel-x86-32/64, provide a few carefully selected tune options and generic hardware support to cover the majority of current Intel CPUs and devices.  See the README.hardware for more information.",
+            "id": 32,
+            "index_preference": 100,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "intel-x86",
+            "status": "P",
+            "summary": "Common Intel x86 BSP",
+            "updated": "2018-05-30T22:05:07+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/intel-x86",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer provides the Wind River Linux distribution definitions, \r\ndistribution-specific integration and bug fixes, and other wrlinux components.",
+            "id": 49,
+            "index_preference": 900,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "wrlinux",
+            "status": "P",
+            "summary": "Wind River Linux distribution definitions",
+            "updated": "2018-05-30T22:05:16+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wrlinux",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Official layer for Intel platform/board support. This layer itself (at the top level) contains common components, and then there are sub-layers for each BSP which are listed individually in this index.\r\n\r\nThis layer includes support for DPDK.",
+            "id": 166,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-intel",
+            "status": "P",
+            "summary": "Intel board support common layer",
+            "updated": "2018-05-30T22:05:55+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-intel",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [
+        {
+            "description": " Intel X86 (64bit) PCs and servers",
+            "id": 21178,
+            "layerbranch": 846209,
+            "name": "intel-x86-64",
+            "updated": "2019-07-11T02:07:11+0000"
+        },
+        {
+            "description": " Intel Haswell CPU (64bit)",
+            "id": 21179,
+            "layerbranch": 846209,
+            "name": "intel-haswell-64",
+            "updated": "2019-07-11T02:07:11+0000"
+        },
+        {
+            "description": " Intel Skylake CPU (64bit) with AVX-512 enabled",
+            "id": 21180,
+            "layerbranch": 846209,
+            "name": "intel-skylake-avx512-64",
+            "updated": "2019-07-11T02:07:11+0000"
+        },
+        {
+            "description": " Intel X86 (32bit) PCs and servers",
+            "id": 21181,
+            "layerbranch": 846209,
+            "name": "intel-x86-32",
+            "updated": "2019-07-11T02:07:11+0000"
+        },
+        {
+            "description": " Intel Skylake CPU (64bit)",
+            "id": 21182,
+            "layerbranch": 846209,
+            "name": "intel-skylake-64",
+            "updated": "2019-07-11T02:07:11+0000"
+        }
+    ],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "TMON is conceived as a tool to help visualize, tune, and test the complex thermal subsystem",
+            "filename": "tmon_1.0.bb",
+            "filepath": "recipes-kernel/tmon",
+            "homepage": "",
+            "id": 986407,
+            "inherits": "",
+            "layerbranch": 846209,
+            "license": "GPLv2",
+            "pn": "tmon",
+            "provides": "tmon ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "A Monitoring and Testing Tool for Linux kernel thermal subsystem",
+            "updated": "2019-07-11T02:07:11+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "rtl8723bs-bt_git.bb",
+            "filepath": "recipes-bsp/rtl8723bs",
+            "homepage": "",
+            "id": 986408,
+            "inherits": "",
+            "layerbranch": 846209,
+            "license": "GPLv2",
+            "pn": "rtl8723bs-bt",
+            "provides": "rtl8723bs-bt ",
+            "pv": "git",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-07-11T19:07:21+0000"
+        }
+    ],
+    "wrtemplates": [
+        {
+            "description": "",
+            "id": 47947,
+            "layerbranch": 846209,
+            "name": "feature/intel-persistent-memory",
+            "updated": "2019-07-11T02:07:11+0000"
+        },
+        {
+            "description": "",
+            "id": 47948,
+            "layerbranch": 846209,
+            "name": "default",
+            "updated": "2019-07-11T02:07:12+0000"
+        }
+    ]
+}

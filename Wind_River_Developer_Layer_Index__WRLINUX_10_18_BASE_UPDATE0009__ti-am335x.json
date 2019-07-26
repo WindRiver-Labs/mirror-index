@@ -1,0 +1,319 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_18_BASE_UPDATE0009",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 12,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior"
+        },
+        {
+            "description": "",
+            "id": 14,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_18_BASE_UPDATE0009",
+            "comparison": false,
+            "id": 144,
+            "name": "WRLINUX_10_18_BASE_UPDATE0009",
+            "short_description": "WRLinux 10_18 Base Update 0009",
+            "sort_priority": 9800,
+            "update_environment": null,
+            "updated": "2019-07-09T19:07:20+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 144,
+            "collection": "core",
+            "id": 846156,
+            "layer": 1,
+            "updated": "2019-07-25T00:07:53+0000",
+            "vcs_last_commit": "2019-07-22T19:07:10+0000",
+            "vcs_last_fetch": "2019-07-25T00:07:53+0000",
+            "vcs_last_rev": "b00d7086333d367a881181e9c48de84aacd56770",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 2
+        },
+        {
+            "actual_branch": "",
+            "branch": 144,
+            "collection": "wrlinux",
+            "id": 846201,
+            "layer": 49,
+            "updated": "2019-07-25T19:07:25+0000",
+            "vcs_last_commit": "2019-07-25T02:07:16+0000",
+            "vcs_last_fetch": "2019-07-25T19:07:25+0000",
+            "vcs_last_rev": "887d47a1c9c36de7b8620ecb33fc671553e59d40",
+            "vcs_subdir": "",
+            "version": "2",
+            "yp_compatible_version": 2
+        },
+        {
+            "actual_branch": "",
+            "branch": 144,
+            "collection": "wr-ti-am335x",
+            "id": 846208,
+            "layer": 212,
+            "updated": "2019-07-11T02:07:06+0000",
+            "vcs_last_commit": "2019-06-02T18:06:40+0000",
+            "vcs_last_fetch": "2019-07-11T02:07:06+0000",
+            "vcs_last_rev": "e916b200656f69057b65778ef604fca79344e0ec",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 2
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 52926,
+            "layerbranch": 846208,
+            "required": true
+        },
+        {
+            "dependency": 49,
+            "id": 52927,
+            "layerbranch": 846208,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer provides the Wind River Linux distribution definitions, \r\ndistribution-specific integration and bug fixes, and other wrlinux components.",
+            "id": 49,
+            "index_preference": 900,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "wrlinux",
+            "status": "P",
+            "summary": "Wind River Linux distribution definitions",
+            "updated": "2018-05-30T22:05:16+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wrlinux",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "TI am335x EVMSK",
+            "id": 212,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "ti-am335x",
+            "status": "P",
+            "summary": "TI am335x-based boards",
+            "updated": "2018-05-30T22:05:30+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/ti-am335x",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [
+        {
+            "description": " TI AM335x SoC",
+            "id": 21177,
+            "layerbranch": 846208,
+            "name": "ti-am335x",
+            "updated": "2019-07-11T02:07:06+0000"
+        }
+    ],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Userspace libraries for PowerVR SGX chipset on TI SoCs",
+            "filename": "ti-sgx-ddk-um_1.14.3699939.bb",
+            "filepath": "recipes-graphics/libgles",
+            "homepage": "https://git.ti.com/graphics/omap5-sgx-ddk-um-linux",
+            "id": 986403,
+            "inherits": "update-rc.d",
+            "layerbranch": 846208,
+            "license": "TI-TSPA",
+            "pn": "ti-sgx-ddk-um",
+            "provides": "ti-sgx-ddk-um  virtual/egl virtual/libgles1 virtual/libgles2 omap5-sgx-ddk-um-linux",
+            "pv": "1.14.3699939",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-07-11T02:07:06+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "libgbm_10.0.0.bb",
+            "filepath": "recipes-graphics/gbm",
+            "homepage": "http://git.ti.com/glsdk/libgbm.git",
+            "id": 986404,
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "layerbranch": 846208,
+            "license": "MIT",
+            "pn": "libgbm",
+            "provides": "libgbm  virtual/libgbm",
+            "pv": "10.0.0",
+            "section": "base",
+            "summary": "Userspace interface for the kernel GBM services",
+            "updated": "2019-07-11T02:07:06+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Shared Transport Line Discipline User Mode initialisation Manager Daemon",
+            "filename": "uim_git.bb",
+            "filepath": "recipes-connectivity/uim",
+            "homepage": "",
+            "id": 986405,
+            "inherits": "",
+            "layerbranch": 846208,
+            "license": "GPLv2+",
+            "pn": "uim",
+            "provides": "uim ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-07-11T02:07:06+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Kernel drivers for the PowerVR SGX chipset found in the TI SoCs",
+            "filename": "omapdrm-pvr_1.14.bb",
+            "filepath": "recipes-bsp/powervr-drivers",
+            "homepage": "https://git.ti.com/graphics/omap5-sgx-ddk-linux",
+            "id": 986406,
+            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
+            "layerbranch": 846208,
+            "license": "MIT | GPLv2",
+            "pn": "omapdrm-pvr",
+            "provides": "omapdrm-pvr ",
+            "pv": "1.14",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-07-11T02:07:06+0000"
+        }
+    ],
+    "wrtemplates": [
+        {
+            "description": "",
+            "id": 47946,
+            "layerbranch": 846208,
+            "name": "default",
+            "updated": "2019-07-11T02:07:06+0000"
+        }
+    ]
+}

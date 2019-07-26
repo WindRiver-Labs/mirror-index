@@ -1,0 +1,461 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_18_BASE_UPDATE0009",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 12,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior"
+        },
+        {
+            "description": "",
+            "id": 14,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_18_BASE_UPDATE0009",
+            "comparison": false,
+            "id": 144,
+            "name": "WRLINUX_10_18_BASE_UPDATE0009",
+            "short_description": "WRLinux 10_18 Base Update 0009",
+            "sort_priority": 9800,
+            "update_environment": null,
+            "updated": "2019-07-09T19:07:20+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 144,
+            "collection": "core",
+            "id": 846156,
+            "layer": 1,
+            "updated": "2019-07-25T00:07:53+0000",
+            "vcs_last_commit": "2019-07-22T19:07:10+0000",
+            "vcs_last_fetch": "2019-07-25T00:07:53+0000",
+            "vcs_last_rev": "b00d7086333d367a881181e9c48de84aacd56770",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 2
+        },
+        {
+            "actual_branch": "",
+            "branch": 144,
+            "collection": "openembedded-layer",
+            "id": 846158,
+            "layer": 7,
+            "updated": "2019-07-11T02:07:40+0000",
+            "vcs_last_commit": "2019-05-07T00:05:49+0000",
+            "vcs_last_fetch": "2019-07-11T02:07:40+0000",
+            "vcs_last_rev": "2129bb68f27206ace48bf0da82c116773f5248da",
+            "vcs_subdir": "meta-oe",
+            "version": "1",
+            "yp_compatible_version": 3
+        },
+        {
+            "actual_branch": "",
+            "branch": 144,
+            "collection": "perl-layer",
+            "id": 846162,
+            "layer": 13,
+            "updated": "2019-07-11T02:07:15+0000",
+            "vcs_last_commit": "2018-10-30T20:10:11+0000",
+            "vcs_last_fetch": "2019-07-11T02:07:15+0000",
+            "vcs_last_rev": "2558fdccc75a0069074d0b0439c43b1684759372",
+            "vcs_subdir": "meta-perl",
+            "version": "1",
+            "yp_compatible_version": 3
+        },
+        {
+            "actual_branch": "",
+            "branch": 144,
+            "collection": "signing-key",
+            "id": 846170,
+            "layer": 129,
+            "updated": "2019-07-11T02:07:33+0000",
+            "vcs_last_commit": "2018-11-07T01:11:19+0000",
+            "vcs_last_fetch": "2019-07-11T02:07:33+0000",
+            "vcs_last_rev": "a242f241e3e649187574770e9a426c37cac9df3a",
+            "vcs_subdir": "meta-signing-key",
+            "version": null,
+            "yp_compatible_version": 3
+        },
+        {
+            "actual_branch": "",
+            "branch": 144,
+            "collection": "secure-core",
+            "id": 846172,
+            "layer": 149,
+            "updated": "2019-07-11T02:07:48+0000",
+            "vcs_last_commit": "2019-03-28T19:03:55+0000",
+            "vcs_last_fetch": "2019-07-11T02:07:48+0000",
+            "vcs_last_rev": "8b4cf8fbc2ea0fed6700b12b83f8f0a9c51fe9c8",
+            "vcs_subdir": "meta",
+            "version": null,
+            "yp_compatible_version": 3
+        },
+        {
+            "actual_branch": "",
+            "branch": 144,
+            "collection": "efi-secure-boot",
+            "id": 846191,
+            "layer": 126,
+            "updated": "2019-07-11T02:07:40+0000",
+            "vcs_last_commit": "2019-03-28T19:03:54+0000",
+            "vcs_last_fetch": "2019-07-11T02:07:40+0000",
+            "vcs_last_rev": "fed176e69465cee54e1c9bb0916bd5fd41823e7f",
+            "vcs_subdir": "meta-efi-secure-boot",
+            "version": null,
+            "yp_compatible_version": 3
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 52830,
+            "layerbranch": 846191,
+            "required": true
+        },
+        {
+            "dependency": 7,
+            "id": 52831,
+            "layerbranch": 846191,
+            "required": true
+        },
+        {
+            "dependency": 13,
+            "id": 52832,
+            "layerbranch": 846191,
+            "required": true
+        },
+        {
+            "dependency": 149,
+            "id": 52833,
+            "layerbranch": 846191,
+            "required": true
+        },
+        {
+            "dependency": 129,
+            "id": 52834,
+            "layerbranch": 846191,
+            "required": true
+        },
+        {
+            "dependency": 120,
+            "id": 52835,
+            "layerbranch": 846191,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Additional shared OE metadata",
+            "id": 7,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-oe",
+            "status": "P",
+            "summary": "Additional shared OE metadata",
+            "updated": "2018-05-30T22:05:13+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "PERL language and related items",
+            "id": 13,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-perl",
+            "status": "P",
+            "summary": "PERL language and related items",
+            "updated": "2018-05-30T22:05:45+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer provides secure boot components",
+            "id": 126,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-efi-secure-boot",
+            "status": "P",
+            "summary": "Secure boot components",
+            "updated": "2018-05-30T22:05:28+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-secure-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer provides sample keys, by default, are used by build system to sign bootloader,\r\nkernel, IMA signature, RPM and so on. It is used for development and demonstration. The user must know what the risk is to use the sample keys in the product.",
+            "id": 129,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-signing-key",
+            "status": "P",
+            "summary": "User Key Store",
+            "updated": "2018-05-30T22:05:44+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-secure-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer consists of the following sub-layers: meta-efi-secure-boot, meta-integrity, meta-encrypted-storage, meta-signing-key, meta-tpm and meta-tpm2.",
+            "id": 149,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-secure-core",
+            "status": "P",
+            "summary": "Provide the use cases for the Linux applications on secure boot, integrity and encryption",
+            "updated": "2018-05-30T22:05:37+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-secure-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "EFI Secure Boot packages for secure-environment.",
+            "filename": "packagegroup-efi-secure-boot.bb",
+            "filepath": "recipes-base/packagegroups",
+            "homepage": "",
+            "id": 985872,
+            "inherits": "",
+            "layerbranch": 846191,
+            "license": "MIT",
+            "pn": "packagegroup-efi-secure-boot",
+            "provides": "packagegroup-efi-secure-boot ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-07-11T02:07:39+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "mokutil_git.bb",
+            "filepath": "recipes-extended/mokutil",
+            "homepage": "",
+            "id": 985873,
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "layerbranch": 846191,
+            "license": "GPLv3",
+            "pn": "mokutil",
+            "provides": "mokutil ",
+            "pv": "0.3.0+gitX",
+            "section": "base",
+            "summary": "The utility to manipulate machines owner keys which managed in shim",
+            "updated": "2019-07-11T02:07:39+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "From the EFI Tools package in the Linux user-space, it's now possible to read and manipulate the UEFI signatures database via the new efi-readvar and efi-updatevar commands. Aside from needing efitools 1.4, the EFIVARFS file-system is also needed, which was only introduced in the Linux 3.8 kernel. ",
+            "filename": "efitools_git.bb",
+            "filepath": "recipes-bsp/efitools",
+            "homepage": "",
+            "id": 985874,
+            "inherits": "deploy perlnative user-key-store",
+            "layerbranch": 846191,
+            "license": "GPLv2",
+            "pn": "efitools",
+            "provides": "efitools ",
+            "pv": "1.7.0+gitX",
+            "section": "base",
+            "summary": "Tools to support reading and manipulating the UEFI signature database",
+            "updated": "2019-07-11T02:07:39+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "From the EFI Tools package in the Linux user-space, it's now possible to read and manipulate the UEFI signatures database via the new efi-readvar and efi-updatevar commands. Aside from needing efitools 1.4, the EFIVARFS file-system is also needed, which was only introduced in the Linux 3.8 kernel. ",
+            "filename": "efitools-native_git.bb",
+            "filepath": "recipes-bsp/efitools",
+            "homepage": "",
+            "id": 985875,
+            "inherits": "native nopackages perlnative relocatable",
+            "layerbranch": 846191,
+            "license": "GPLv2",
+            "pn": "efitools-native",
+            "provides": "efitools-native ",
+            "pv": "1.7.0+gitX",
+            "section": "base",
+            "summary": "Tools to support reading and manipulating the UEFI signature database",
+            "updated": "2019-07-11T02:07:40+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "shim is a trivial EFI application that, when run, attempts to open and execute another application. It will initially attempt to do this via the standard EFI LoadImage() and StartImage() calls. If these fail (because secure boot is enabled and the binary is not signed with an appropriate key, for instance) it will then validate the binary against a built-in certificate. If this succeeds and if the binary or signing key are not blacklisted then shim will relocate and execute the binary.",
+            "filename": "shim_git.bb",
+            "filepath": "recipes-bsp/shim",
+            "homepage": "https://github.com/rhinstaller/shim.git",
+            "id": 985876,
+            "inherits": "deploy user-key-store",
+            "layerbranch": 846191,
+            "license": "BSD-2-Clause",
+            "pn": "shim",
+            "provides": "shim ",
+            "pv": "12+gitX",
+            "section": "bootloaders",
+            "summary": "shim is a trivial EFI application.",
+            "updated": "2019-07-11T02:07:40+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "The SELoader is designed to authenticate the non-PE files, such as grub configuration, initrd, grub modules, which cannot be verified by the MOK Verify Protocol registered by shim loader. In order to conveniently authenticate the PE file with gBS->LoadImage() and gBS->StartImage(), the SELoader hooks EFI Security2 Architectural Protocol and employs MOK Verify Protocol to verify the PE file. If only UEFI Secure Boot is enabled, the SELoader just simplily calls gBS->LoadImage() and gBS->StartImage() to allow BIOS to verify PE file. The SELoader publishes MOK2 Verify Protocol which provides a flexible interface to allow the bootloader to verify the file, file buffer or memory buffer without knowing the file format. ",
+            "filename": "seloader_git.bb",
+            "filepath": "recipes-bsp/seloader",
+            "homepage": "https://github.com/jiazhang0/SELoader",
+            "id": 985877,
+            "inherits": "deploy user-key-store",
+            "layerbranch": 846191,
+            "license": "BSD-3-Clause",
+            "pn": "seloader",
+            "provides": "seloader ",
+            "pv": "0.4.6+gitX",
+            "section": "bootloaders",
+            "summary": "The bootloader capable of authenticating the PE and non-PE files.",
+            "updated": "2019-07-11T02:07:40+0000"
+        }
+    ],
+    "wrtemplates": []
+}

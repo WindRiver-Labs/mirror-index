@@ -1,0 +1,224 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_18_BASE_UPDATE0009",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 12,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior"
+        },
+        {
+            "description": "",
+            "id": 14,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_18_BASE_UPDATE0009",
+            "comparison": false,
+            "id": 144,
+            "name": "WRLINUX_10_18_BASE_UPDATE0009",
+            "short_description": "WRLinux 10_18 Base Update 0009",
+            "sort_priority": 9800,
+            "update_environment": null,
+            "updated": "2019-07-09T19:07:20+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 144,
+            "collection": "freescale-layer",
+            "id": 846179,
+            "layer": 231,
+            "updated": "2019-07-11T02:07:47+0000",
+            "vcs_last_commit": "2019-05-27T18:05:19+0000",
+            "vcs_last_fetch": "2019-07-11T02:07:47+0000",
+            "vcs_last_rev": "29c14d430dbbc4a1368cf698d5645f5e75bb6344",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": 4
+        },
+        {
+            "actual_branch": "",
+            "branch": 144,
+            "collection": "wr-nxp-ls1046",
+            "id": 846185,
+            "layer": 163,
+            "updated": "2019-07-11T02:07:37+0000",
+            "vcs_last_commit": "2019-06-03T07:06:25+0000",
+            "vcs_last_fetch": "2019-07-11T02:07:37+0000",
+            "vcs_last_rev": "fa43a7c1bd2a8188f097baf347ab2fd8e955dd2d",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 2
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 231,
+            "id": 52805,
+            "layerbranch": 846185,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "BSP nxp-ls1046 support nxp-ls1046 RDB board base on NXP SDK2.0-1703",
+            "id": 163,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "nxp-ls1046",
+            "status": "P",
+            "summary": "BSP nxp-ls1046 support nxp-ls1046 RDB board base on NXP SDK2.0-1703",
+            "updated": "2018-05-30T22:05:52+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/nxp-ls1046",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer provides support for Freescale's platforms for use with\r\nOpenEmbedded and/or Yocto.",
+            "id": 231,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-freescale",
+            "status": "P",
+            "summary": "This layer provides support for Freescale's platforms for use with OpenEmbedded and/or Yocto.",
+            "updated": "2018-05-30T22:05:30+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-freescale",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [
+        {
+            "description": " a nxp-ls1046",
+            "id": 21169,
+            "layerbranch": 846185,
+            "name": "nxp-ls1046",
+            "updated": "2019-07-11T02:07:37+0000"
+        }
+    ],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "u-boot-uenv_1.0.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "",
+            "id": 985729,
+            "inherits": "deploy",
+            "layerbranch": 846185,
+            "license": "MIT",
+            "pn": "u-boot-uenv",
+            "provides": "u-boot-uenv ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "U-Boot boot.scr SD boot environment generation for nxp-ls1046a rdb targets",
+            "updated": "2019-07-11T02:07:37+0000"
+        }
+    ],
+    "wrtemplates": [
+        {
+            "description": "",
+            "id": 47908,
+            "layerbranch": 846185,
+            "name": "default",
+            "updated": "2019-07-11T02:07:37+0000"
+        }
+    ]
+}

@@ -1,0 +1,306 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_18_BASE_UPDATE0009",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 12,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior"
+        },
+        {
+            "description": "",
+            "id": 14,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_18_BASE_UPDATE0009",
+            "comparison": false,
+            "id": 144,
+            "name": "WRLINUX_10_18_BASE_UPDATE0009",
+            "short_description": "WRLinux 10_18 Base Update 0009",
+            "sort_priority": 9800,
+            "update_environment": null,
+            "updated": "2019-07-09T19:07:20+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 144,
+            "collection": "core",
+            "id": 846156,
+            "layer": 1,
+            "updated": "2019-07-25T00:07:53+0000",
+            "vcs_last_commit": "2019-07-22T19:07:10+0000",
+            "vcs_last_fetch": "2019-07-25T00:07:53+0000",
+            "vcs_last_rev": "b00d7086333d367a881181e9c48de84aacd56770",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 2
+        },
+        {
+            "actual_branch": "",
+            "branch": 144,
+            "collection": "wrlinux",
+            "id": 846201,
+            "layer": 49,
+            "updated": "2019-07-25T19:07:25+0000",
+            "vcs_last_commit": "2019-07-25T02:07:16+0000",
+            "vcs_last_fetch": "2019-07-25T19:07:25+0000",
+            "vcs_last_rev": "887d47a1c9c36de7b8620ecb33fc671553e59d40",
+            "vcs_subdir": "",
+            "version": "2",
+            "yp_compatible_version": 2
+        },
+        {
+            "actual_branch": "",
+            "branch": 144,
+            "collection": "wr-xilinx-zynqmp",
+            "id": 846202,
+            "layer": 83,
+            "updated": "2019-07-11T02:07:25+0000",
+            "vcs_last_commit": "2019-06-17T01:06:38+0000",
+            "vcs_last_fetch": "2019-07-11T02:07:25+0000",
+            "vcs_last_rev": "f8c4e230a6ed3205685ea2678adadb428916fcf8",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 2
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 52899,
+            "layerbranch": 846202,
+            "required": true
+        },
+        {
+            "dependency": 49,
+            "id": 52900,
+            "layerbranch": 846202,
+            "required": true
+        },
+        {
+            "dependency": 289,
+            "id": 52901,
+            "layerbranch": 846202,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer provides the Wind River Linux distribution definitions, \r\ndistribution-specific integration and bug fixes, and other wrlinux components.",
+            "id": 49,
+            "index_preference": 900,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "wrlinux",
+            "status": "P",
+            "summary": "Wind River Linux distribution definitions",
+            "updated": "2018-05-30T22:05:16+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wrlinux",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "ZCU102 of Xilinx ZYNQ UltraScale MPSoC",
+            "id": 83,
+            "index_preference": 100,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "xilinx-zynqmp",
+            "status": "P",
+            "summary": "Xilinx ZynqMP",
+            "updated": "2018-05-30T22:05:36+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/xilinx-zynqmp",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [
+        {
+            "description": " Zynq Ultrascale+ MPSoC",
+            "id": 21172,
+            "layerbranch": 846202,
+            "name": "xilinx-zynqmp",
+            "updated": "2019-07-11T02:07:25+0000"
+        }
+    ],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "libGLES for ZynqMP with Mali 400",
+            "filename": "libmali-xlnx_git.bb",
+            "filepath": "recipes-graphics/libgles",
+            "homepage": "",
+            "id": 986322,
+            "inherits": "",
+            "layerbranch": 846202,
+            "license": "Proprietary",
+            "pn": "libmali-xlnx",
+            "provides": "libmali-xlnx  virtual/libgles1 virtual/libgles2 virtual/egl",
+            "pv": "r7p0-00rel0",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-07-11T02:07:25+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "https://bugs.freedesktop.org",
+            "description": "Xilinx ARM SOC display driver ",
+            "filename": "xf86-video-armsoc_git.bb",
+            "filepath": "recipes-graphics/xorg-driver",
+            "homepage": "http://www.x.org",
+            "id": 986323,
+            "inherits": "autotools distro_features_check pkgconfig siteconfig siteinfo",
+            "layerbranch": 846202,
+            "license": "MIT-X & GPLv2+",
+            "pn": "xf86-video-armsoc",
+            "provides": "xf86-video-armsoc ",
+            "pv": "1.4.1+gitX",
+            "section": "x11/drivers",
+            "summary": "X.Org X server -- Xilinx ARM SOC display driver",
+            "updated": "2019-07-11T02:07:25+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "kernel-module-mali.bb",
+            "filepath": "recipes-graphics/mali",
+            "homepage": "",
+            "id": 986324,
+            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
+            "layerbranch": 846202,
+            "license": "GPLv2",
+            "pn": "kernel-module-mali",
+            "provides": "kernel-module-mali ",
+            "pv": "r7p0-00rel0",
+            "section": "kernel/modules",
+            "summary": "A Mali 400 Linux Kernel module",
+            "updated": "2019-07-11T02:07:25+0000"
+        }
+    ],
+    "wrtemplates": [
+        {
+            "description": "",
+            "id": 47942,
+            "layerbranch": 846202,
+            "name": "default",
+            "updated": "2019-07-11T02:07:25+0000"
+        }
+    ]
+}
