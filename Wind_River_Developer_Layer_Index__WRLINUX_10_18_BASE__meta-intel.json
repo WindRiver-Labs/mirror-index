@@ -90,6 +90,13 @@
             "image_url": "",
             "link_url": "",
             "name": "warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
         }
     ],
     "branches": [
@@ -113,9 +120,9 @@
             "collection": "core",
             "id": 836626,
             "layer": 1,
-            "updated": "2019-07-22T19:07:49+0000",
+            "updated": "2019-08-09T00:08:43+0000",
             "vcs_last_commit": "2019-07-22T19:07:10+0000",
-            "vcs_last_fetch": "2019-07-22T19:07:49+0000",
+            "vcs_last_fetch": "2019-08-09T00:08:43+0000",
             "vcs_last_rev": "b00d7086333d367a881181e9c48de84aacd56770",
             "vcs_subdir": "meta",
             "version": "11",
@@ -127,9 +134,9 @@
             "collection": "intel",
             "id": 836743,
             "layer": 166,
-            "updated": "2019-07-11T19:07:14+0000",
+            "updated": "2019-08-09T00:08:42+0000",
             "vcs_last_commit": "2018-10-30T20:10:11+0000",
-            "vcs_last_fetch": "2019-07-11T19:07:14+0000",
+            "vcs_last_fetch": "2019-08-09T00:08:42+0000",
             "vcs_last_rev": "71268cffca8f7a9d1474aa4c8f1f8cfb174b2b9d",
             "vcs_subdir": "",
             "version": "5",
@@ -191,17 +198,17 @@
     "machines": [
         {
             "description": " 32 bit Intel Core 2 CPU (and later) with MMX, SSE, SSE2, SSE3, and SSSE3 instruction set support. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
-            "id": 21289,
+            "id": 22534,
             "layerbranch": 836743,
             "name": "intel-core2-32",
-            "updated": "2019-07-11T19:07:14+0000"
+            "updated": "2019-08-09T00:08:42+0000"
         },
         {
             "description": " 64 bit Intel Core i7 CPU (and later) with MMX, SSE, SSE2, SSE3, and SSSE3 instruction set support. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
-            "id": 21290,
+            "id": 22535,
             "layerbranch": 836743,
             "name": "intel-corei7-64",
-            "updated": "2019-07-11T19:07:14+0000"
+            "updated": "2019-08-09T00:08:42+0000"
         }
     ],
     "recipes": [
@@ -222,7 +229,7 @@
             "pv": "1.23",
             "section": "x11/apps",
             "summary": "Intel GPU tools",
-            "updated": "2019-07-11T19:07:09+0000"
+            "updated": "2019-08-09T00:08:36+0000"
         },
         {
             "bbclassextend": "",
@@ -241,7 +248,7 @@
             "pv": "1.1.5",
             "section": "x11/drivers",
             "summary": "X.Org X server -- ASpeed Technologies graphics driver",
-            "updated": "2019-07-11T19:07:09+0000"
+            "updated": "2019-08-09T00:08:36+0000"
         },
         {
             "bbclassextend": "",
@@ -260,7 +267,7 @@
             "pv": "30",
             "section": "kernel",
             "summary": "Intel Wireless LinuxCore kernel driver",
-            "updated": "2019-07-11T19:07:10+0000"
+            "updated": "2019-08-09T00:08:37+0000"
         },
         {
             "bbclassextend": "",
@@ -279,7 +286,7 @@
             "pv": "5.3.8",
             "section": "kernel/network",
             "summary": "ixgbe kernel driver for Intel Magnolia Park 10GbE",
-            "updated": "2019-07-11T19:07:10+0000"
+            "updated": "2019-08-09T00:08:37+0000"
         },
         {
             "bbclassextend": "",
@@ -298,7 +305,7 @@
             "pv": "4.3.6",
             "section": "kernel/network",
             "summary": "ixgbevf kernel driver for Intel Magnolia Park 10GbE",
-            "updated": "2019-07-11T19:07:10+0000"
+            "updated": "2019-08-09T00:08:37+0000"
         },
         {
             "bbclassextend": "",
@@ -317,7 +324,7 @@
             "pv": "4.9.84+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-07-11T19:07:10+0000"
+            "updated": "2019-08-09T00:08:37+0000"
         },
         {
             "bbclassextend": "",
@@ -336,7 +343,7 @@
             "pv": "4.9.134+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-07-11T19:07:10+0000"
+            "updated": "2019-08-09T00:08:37+0000"
         },
         {
             "bbclassextend": "",
@@ -355,7 +362,7 @@
             "pv": "4.14.68+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-07-11T19:07:10+0000"
+            "updated": "2019-08-09T00:08:38+0000"
         },
         {
             "bbclassextend": "",
@@ -374,7 +381,7 @@
             "pv": "4.14.68+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2019-07-11T19:07:11+0000"
+            "updated": "2019-08-09T00:08:38+0000"
         },
         {
             "bbclassextend": "",
@@ -393,7 +400,7 @@
             "pv": "0.8-gitX",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-11T19:07:11+0000"
+            "updated": "2019-08-09T00:08:38+0000"
         },
         {
             "bbclassextend": "",
@@ -412,7 +419,7 @@
             "pv": "2.2.0",
             "section": "base",
             "summary": "VA driver for Intel G45 & HD Graphics family",
-            "updated": "2019-07-11T19:07:11+0000"
+            "updated": "2019-08-09T00:08:38+0000"
         },
         {
             "bbclassextend": "",
@@ -431,7 +438,7 @@
             "pv": "1.3.1",
             "section": "base",
             "summary": "Applications and Scripts for libyami.",
-            "updated": "2019-07-11T19:07:11+0000"
+            "updated": "2019-08-09T00:08:39+0000"
         },
         {
             "bbclassextend": "",
@@ -450,7 +457,7 @@
             "pv": "1.3.1",
             "section": "base",
             "summary": "Yami is media infrastructure base on libva",
-            "updated": "2019-07-11T19:07:11+0000"
+            "updated": "2019-08-09T00:08:39+0000"
         },
         {
             "bbclassextend": "",
@@ -469,7 +476,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-07-11T19:07:11+0000"
+            "updated": "2019-08-09T00:08:39+0000"
         },
         {
             "bbclassextend": "",
@@ -488,7 +495,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-07-11T19:07:11+0000"
+            "updated": "2019-08-09T00:08:39+0000"
         },
         {
             "bbclassextend": "",
@@ -507,7 +514,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Intel gma500_gfx fix for certain hardware",
-            "updated": "2019-07-11T19:07:11+0000"
+            "updated": "2019-08-09T00:08:39+0000"
         },
         {
             "bbclassextend": "",
@@ -526,7 +533,7 @@
             "pv": "1.8",
             "section": "base",
             "summary": "Linux thermal daemon",
-            "updated": "2019-07-11T19:07:12+0000"
+            "updated": "2019-08-09T00:08:40+0000"
         },
         {
             "bbclassextend": "",
@@ -545,7 +552,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-07-11T19:07:12+0000"
+            "updated": "2019-08-09T00:08:40+0000"
         },
         {
             "bbclassextend": "",
@@ -564,7 +571,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A tiny image just capable of allowing a device to boot from RAM, this image recipe generates an image file which rather boots from initrd than from storage, it achieves this by using wic to pick up th",
-            "updated": "2019-07-11T19:07:13+0000"
+            "updated": "2019-08-09T00:08:40+0000"
         },
         {
             "bbclassextend": "native",
@@ -583,7 +590,7 @@
             "pv": "2.3.1",
             "section": "base",
             "summary": "Update Intel CPU microcode",
-            "updated": "2019-07-11T19:07:13+0000"
+            "updated": "2019-08-09T00:08:41+0000"
         },
         {
             "bbclassextend": "",
@@ -602,7 +609,7 @@
             "pv": "20180807",
             "section": "base",
             "summary": "Intel Processor Microcode Datafile for Linux",
-            "updated": "2019-07-11T19:07:13+0000"
+            "updated": "2019-08-09T00:08:41+0000"
         },
         {
             "bbclassextend": "",
@@ -621,7 +628,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-07-11T19:07:13+0000"
+            "updated": "2019-08-09T00:08:41+0000"
         },
         {
             "bbclassextend": "",
@@ -640,7 +647,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2019-07-11T19:07:14+0000"
+            "updated": "2019-08-09T00:08:42+0000"
         }
     ],
     "wrtemplates": []
