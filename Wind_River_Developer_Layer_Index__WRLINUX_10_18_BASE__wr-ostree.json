@@ -1,0 +1,392 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_18_BASE",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 12,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior"
+        },
+        {
+            "description": "",
+            "id": 14,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "wr-10.18-20190214",
+            "comparison": false,
+            "id": 100,
+            "name": "WRLINUX_10_18_BASE",
+            "short_description": "Wind River Linux 10_18 Baseline",
+            "sort_priority": 9800,
+            "update_environment": null,
+            "updated": "2019-06-03T09:06:09+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "wr-10.18-20190214",
+            "branch": 100,
+            "collection": "core",
+            "id": 836626,
+            "layer": 1,
+            "updated": "2019-08-09T00:08:43+0000",
+            "vcs_last_commit": "2019-07-22T19:07:10+0000",
+            "vcs_last_fetch": "2019-08-09T00:08:43+0000",
+            "vcs_last_rev": "b00d7086333d367a881181e9c48de84aacd56770",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 2
+        },
+        {
+            "actual_branch": "wr-10.18-20181031",
+            "branch": 100,
+            "collection": "openembedded-layer",
+            "id": 836708,
+            "layer": 7,
+            "updated": "2019-08-09T00:08:07+0000",
+            "vcs_last_commit": "2019-05-07T00:05:49+0000",
+            "vcs_last_fetch": "2019-08-09T00:08:07+0000",
+            "vcs_last_rev": "2129bb68f27206ace48bf0da82c116773f5248da",
+            "vcs_subdir": "meta-oe",
+            "version": "1",
+            "yp_compatible_version": 3
+        },
+        {
+            "actual_branch": "wr-10.18-20181031",
+            "branch": 100,
+            "collection": "filesystems-layer",
+            "id": 836709,
+            "layer": 8,
+            "updated": "2019-08-09T00:08:17+0000",
+            "vcs_last_commit": "2018-10-30T20:10:11+0000",
+            "vcs_last_fetch": "2019-08-09T00:08:17+0000",
+            "vcs_last_rev": "2558fdccc75a0069074d0b0439c43b1684759372",
+            "vcs_subdir": "meta-filesystems",
+            "version": "1",
+            "yp_compatible_version": 3
+        },
+        {
+            "actual_branch": "",
+            "branch": 100,
+            "collection": "ostree-layer",
+            "id": 848198,
+            "layer": 292,
+            "updated": "2019-08-12T16:08:47+0000",
+            "vcs_last_commit": "2019-08-12T09:08:31+0000",
+            "vcs_last_fetch": "2019-08-12T16:08:47+0000",
+            "vcs_last_rev": "a5b0945a749b0e009fd57e304c929a5f49c799c2",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": 2
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 53979,
+            "layerbranch": 848198,
+            "required": true
+        },
+        {
+            "dependency": 8,
+            "id": 53980,
+            "layerbranch": 848198,
+            "required": true
+        },
+        {
+            "dependency": 7,
+            "id": 53981,
+            "layerbranch": 848198,
+            "required": true
+        },
+        {
+            "dependency": 293,
+            "id": 53982,
+            "layerbranch": 848198,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Additional shared OE metadata",
+            "id": 7,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-oe",
+            "status": "P",
+            "summary": "Additional shared OE metadata",
+            "updated": "2018-05-30T22:05:13+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Filesystem related libraries and programs.  Includes support for FUSE and related components.",
+            "id": 8,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-filesystems",
+            "status": "P",
+            "summary": "Filesystem related libraries and programs",
+            "updated": "2018-05-30T22:05:59+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "The layer contains ostree package and bbclass to generate ostree type image for rootfs.",
+            "id": 292,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "wr-ostree",
+            "status": "P",
+            "summary": "Support ostree update method",
+            "updated": "2019-08-08T06:08:26+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/wr-ostree",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/wr-ostree.git/commit/id=%hash%",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Example of how to run some postinstall and postrm operations to complete a wrlinux upgrade with ostree",
+            "filename": "ostree-upgrade-mgr_1.0.bb",
+            "filepath": "recipes-support/ostree-upgrade-mgr",
+            "homepage": "",
+            "id": 997184,
+            "inherits": "",
+            "layerbranch": 848198,
+            "license": "GPLv2",
+            "pn": "ostree-upgrade-mgr",
+            "provides": "ostree-upgrade-mgr ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "wrlinux ostree upgrade config manager",
+            "updated": "2019-08-12T16:08:45+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "initramfs-ostree.bb",
+            "filepath": "recipes-sota/initrdscripts",
+            "homepage": "",
+            "id": 997185,
+            "inherits": "",
+            "layerbranch": 848198,
+            "license": "MIT",
+            "pn": "initramfs-ostree",
+            "provides": "initramfs-ostree ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "Basic init for initramfs to mount ostree and pivot root",
+            "updated": "2019-08-12T16:08:46+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Utility to push data to a server",
+            "filename": "sota-tools_git.bb",
+            "filepath": "recipes-sota/sota-tools",
+            "homepage": "",
+            "id": 997186,
+            "inherits": "cmake",
+            "layerbranch": 848198,
+            "license": "MPL-2.0",
+            "pn": "sota-tools",
+            "provides": "sota-tools ",
+            "pv": "git",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-08-12T16:08:46+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "ostree_git.bb",
+            "filepath": "recipes-sota/ostree",
+            "homepage": "",
+            "id": 997187,
+            "inherits": "autotools autotools-brokensep gobject-introspection gobject-introspection-data pkgconfig python3-dir python3native siteconfig siteinfo systemd",
+            "layerbranch": 848198,
+            "license": "GPLv2+",
+            "pn": "ostree",
+            "provides": "ostree ",
+            "pv": "2019.1+gitX",
+            "section": "base",
+            "summary": "Tool for managing bootable, immutable, versioned filesystem trees",
+            "updated": "2019-08-12T16:08:46+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "OSTree initramfs image",
+            "filename": "initramfs-ostree-image.bb",
+            "filepath": "recipes-core/images",
+            "homepage": "",
+            "id": 997188,
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "layerbranch": 848198,
+            "license": "MIT",
+            "pn": "initramfs-ostree-image",
+            "provides": "initramfs-ostree-image ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-08-12T16:08:45+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "u-boot-uenv_2.0.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "",
+            "id": 997204,
+            "inherits": "deploy",
+            "layerbranch": 848198,
+            "license": "MIT",
+            "pn": "u-boot-uenv",
+            "provides": "u-boot-uenv ",
+            "pv": "2.0",
+            "section": "base",
+            "summary": "U-Boot boot.scr SD boot environment generation for ARM targets",
+            "updated": "2019-08-12T16:08:47+0000"
+        }
+    ],
+    "wrtemplates": []
+}

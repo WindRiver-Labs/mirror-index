@@ -115,6 +115,34 @@
     "distros": [],
     "layerBranches": [
         {
+            "actual_branch": "wr-10.18-20190214",
+            "branch": 100,
+            "collection": "core",
+            "id": 836626,
+            "layer": 1,
+            "updated": "2019-08-09T00:08:43+0000",
+            "vcs_last_commit": "2019-07-22T19:07:10+0000",
+            "vcs_last_fetch": "2019-08-09T00:08:43+0000",
+            "vcs_last_rev": "b00d7086333d367a881181e9c48de84aacd56770",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 2
+        },
+        {
+            "actual_branch": "",
+            "branch": 100,
+            "collection": "wrlinux",
+            "id": 836705,
+            "layer": 49,
+            "updated": "2019-08-13T03:08:26+0000",
+            "vcs_last_commit": "2019-08-13T03:08:34+0000",
+            "vcs_last_fetch": "2019-08-13T03:08:26+0000",
+            "vcs_last_rev": "25a3438d2b7170a82d967e308799fbe19770eb01",
+            "vcs_subdir": "",
+            "version": "2",
+            "yp_compatible_version": 2
+        },
+        {
             "actual_branch": "",
             "branch": 100,
             "collection": "freescale-layer",
@@ -131,13 +159,13 @@
         {
             "actual_branch": "",
             "branch": 100,
-            "collection": "wr-nxp-ls1043",
-            "id": 842933,
-            "layer": 294,
-            "updated": "2019-08-09T00:08:09+0000",
-            "vcs_last_commit": "2019-06-02T18:06:24+0000",
-            "vcs_last_fetch": "2019-08-09T00:08:09+0000",
-            "vcs_last_rev": "e108f244435fb3d932d92d2efa41bee1dc058b4c",
+            "collection": "wr-nxp-imx8",
+            "id": 843966,
+            "layer": 271,
+            "updated": "2019-08-09T00:08:15+0000",
+            "vcs_last_commit": "2019-06-19T00:06:13+0000",
+            "vcs_last_fetch": "2019-08-09T00:08:15+0000",
+            "vcs_last_rev": "5296a02ee3fc336656e36a9caf6e553008b2190c",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 2
@@ -145,13 +173,67 @@
     ],
     "layerDependencies": [
         {
-            "dependency": 231,
-            "id": 49555,
-            "layerbranch": 842933,
+            "dependency": 1,
+            "id": 50850,
+            "layerbranch": 843966,
             "required": true
+        },
+        {
+            "dependency": 231,
+            "id": 50851,
+            "layerbranch": 843966,
+            "required": true
+        },
+        {
+            "dependency": 49,
+            "id": 50852,
+            "layerbranch": 843966,
+            "required": true
+        },
+        {
+            "dependency": 297,
+            "id": 51134,
+            "layerbranch": 843966,
+            "required": false
         }
     ],
     "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer provides the Wind River Linux distribution definitions, \r\ndistribution-specific integration and bug fixes, and other wrlinux components.",
+            "id": 49,
+            "index_preference": 900,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "wrlinux",
+            "status": "P",
+            "summary": "Wind River Linux distribution definitions",
+            "updated": "2018-05-30T22:05:16+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wrlinux",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
         {
             "comparison": false,
             "description": "This layer provides support for Freescale's platforms for use with\r\nOpenEmbedded and/or Yocto.",
@@ -172,18 +254,18 @@
         },
         {
             "comparison": false,
-            "description": "BSP nxp-ls1043 support",
-            "id": 294,
+            "description": "The bsp nxp-imx8 machine layer.",
+            "id": 271,
             "index_preference": 0,
             "layer_type": "B",
             "mailing_list_url": "",
-            "name": "nxp-ls1043",
+            "name": "nxp-imx8",
             "status": "P",
-            "summary": "BSP nxp-ls1043 support",
-            "updated": "2019-04-08T23:04:39+0000",
+            "summary": "The bsp nxp-imx8 machine layer.",
+            "updated": "2018-11-12T18:11:35+0000",
             "usage_url": "",
-            "vcs_url": "#BASE_URL#/nxp-ls1043",
-            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/wr-bsps/nxp-ls1043.git/commit/id=%hash%",
+            "vcs_url": "#BASE_URL#/nxp-imx8",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/wr-bsps/nxp-imx8.git/commit/id=%hash%",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -191,41 +273,21 @@
     ],
     "machines": [
         {
-            "description": " a nxp-ls1043",
-            "id": 22593,
-            "layerbranch": 842933,
-            "name": "nxp-ls1043",
-            "updated": "2019-08-09T00:08:09+0000"
+            "description": "nxp-imx8",
+            "id": 22600,
+            "layerbranch": 843966,
+            "name": "nxp-imx8",
+            "updated": "2019-08-09T00:08:15+0000"
         }
     ],
-    "recipes": [
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "u-boot-uenv_1.0.bb",
-            "filepath": "recipes-bsp/u-boot",
-            "homepage": "",
-            "id": 934722,
-            "inherits": "deploy",
-            "layerbranch": 842933,
-            "license": "MIT",
-            "pn": "u-boot-uenv",
-            "provides": "u-boot-uenv ",
-            "pv": "1.0",
-            "section": "base",
-            "summary": "U-Boot boot.scr SD boot environment generation for nxp-ls1043a rdb targets",
-            "updated": "2019-08-09T00:08:08+0000"
-        }
-    ],
+    "recipes": [],
     "wrtemplates": [
         {
             "description": "",
-            "id": 49900,
-            "layerbranch": 842933,
+            "id": 49937,
+            "layerbranch": 843966,
             "name": "default",
-            "updated": "2019-08-09T00:08:09+0000"
+            "updated": "2019-08-09T00:08:15+0000"
         }
     ]
 }
