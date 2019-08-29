@@ -1,0 +1,259 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_18_BASE_UPDATE0010",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 12,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior"
+        },
+        {
+            "description": "",
+            "id": 14,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_18_BASE_UPDATE0010",
+            "comparison": false,
+            "id": 146,
+            "name": "WRLINUX_10_18_BASE_UPDATE0010",
+            "short_description": "WRLinux 10_18 Base Update 0010",
+            "sort_priority": 9800,
+            "update_environment": null,
+            "updated": "2019-08-07T17:08:13+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 146,
+            "collection": "core",
+            "id": 847824,
+            "layer": 1,
+            "updated": "2019-08-29T00:08:43+0000",
+            "vcs_last_commit": "2019-08-26T22:08:04+0000",
+            "vcs_last_fetch": "2019-08-29T00:08:43+0000",
+            "vcs_last_rev": "c509e31e458a73a91de3375d82cd36fa7ceb57c2",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 2
+        },
+        {
+            "actual_branch": "",
+            "branch": 146,
+            "collection": "dpdk",
+            "id": 847844,
+            "layer": 192,
+            "updated": "2019-08-22T00:08:41+0000",
+            "vcs_last_commit": "2019-08-20T00:08:18+0000",
+            "vcs_last_fetch": "2019-08-22T00:08:41+0000",
+            "vcs_last_rev": "66ad1115b3b7572dba9fad827616a3cd06d58e17",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 6
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 53448,
+            "layerbranch": 847844,
+            "required": true
+        },
+        {
+            "dependency": 194,
+            "id": 53449,
+            "layerbranch": 847844,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "DPDK is a set of libraries and drivers for fast packet processing.",
+            "id": 192,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-dpdk",
+            "status": "P",
+            "summary": "dpdk layer",
+            "updated": "2018-05-30T22:05:19+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-dpdk",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Intel(r) Data Plane Development Kit",
+            "filename": "dpdk_18.11.1.bb",
+            "filepath": "recipes-extended/dpdk",
+            "homepage": "http://dpdk.org",
+            "id": 992620,
+            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
+            "layerbranch": 847844,
+            "license": "BSD-3-Clause & LGPLv2.1 & GPLv2",
+            "pn": "dpdk",
+            "provides": "dpdk ",
+            "pv": "18.11.1",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-08-22T00:08:41+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Intel(r) Data Plane Development Kit",
+            "filename": "dpdk_18.05.bb",
+            "filepath": "recipes-extended/dpdk",
+            "homepage": "http://dpdk.org",
+            "id": 992621,
+            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
+            "layerbranch": 847844,
+            "license": "BSD & LGPLv2 & GPLv2",
+            "pn": "dpdk",
+            "provides": "dpdk ",
+            "pv": "18.05",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-08-08T23:08:50+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Intel(r) Data Plane Development Kit",
+            "filename": "dpdk_17.11.3.bb",
+            "filepath": "recipes-extended/dpdk",
+            "homepage": "http://dpdk.org",
+            "id": 992622,
+            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
+            "layerbranch": 847844,
+            "license": "LGPLv2 & GPLv2",
+            "pn": "dpdk",
+            "provides": "dpdk ",
+            "pv": "17.11.3",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-08-08T23:08:50+0000"
+        }
+    ],
+    "wrtemplates": []
+}

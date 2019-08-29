@@ -1,0 +1,259 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_18_BASE_UPDATE0010",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 12,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior"
+        },
+        {
+            "description": "",
+            "id": 14,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_18_BASE_UPDATE0010",
+            "comparison": false,
+            "id": 146,
+            "name": "WRLINUX_10_18_BASE_UPDATE0010",
+            "short_description": "WRLinux 10_18 Base Update 0010",
+            "sort_priority": 9800,
+            "update_environment": null,
+            "updated": "2019-08-07T17:08:13+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 146,
+            "collection": "core",
+            "id": 847824,
+            "layer": 1,
+            "updated": "2019-08-29T00:08:43+0000",
+            "vcs_last_commit": "2019-08-26T22:08:04+0000",
+            "vcs_last_fetch": "2019-08-29T00:08:43+0000",
+            "vcs_last_rev": "c509e31e458a73a91de3375d82cd36fa7ceb57c2",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 2
+        },
+        {
+            "actual_branch": "",
+            "branch": 146,
+            "collection": "signing-key",
+            "id": 847838,
+            "layer": 129,
+            "updated": "2019-08-08T23:08:13+0000",
+            "vcs_last_commit": "2018-11-07T01:11:19+0000",
+            "vcs_last_fetch": "2019-08-08T23:08:13+0000",
+            "vcs_last_rev": "a242f241e3e649187574770e9a426c37cac9df3a",
+            "vcs_subdir": "meta-signing-key",
+            "version": null,
+            "yp_compatible_version": 3
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 53437,
+            "layerbranch": 847838,
+            "required": true
+        },
+        {
+            "dependency": 240,
+            "id": 53438,
+            "layerbranch": 847838,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer provides sample keys, by default, are used by build system to sign bootloader,\r\nkernel, IMA signature, RPM and so on. It is used for development and demonstration. The user must know what the risk is to use the sample keys in the product.",
+            "id": 129,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-signing-key",
+            "status": "P",
+            "summary": "User Key Store",
+            "updated": "2018-05-30T22:05:44+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-secure-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Key store for key installation",
+            "filename": "key-store_0.1.bb",
+            "filepath": "recipes-support/key-store",
+            "homepage": "",
+            "id": 992553,
+            "inherits": "user-key-store",
+            "layerbranch": 847838,
+            "license": "MIT",
+            "pn": "key-store",
+            "provides": "key-store ",
+            "pv": "0.1",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-08-08T23:08:12+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "sbsigntool_git.bb",
+            "filepath": "recipes-devtools/sbsigntool",
+            "homepage": "",
+            "id": 992554,
+            "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo",
+            "layerbranch": 847838,
+            "license": "GPLv3",
+            "pn": "sbsigntool",
+            "provides": "sbsigntool ",
+            "pv": "0.6+gitX",
+            "section": "base",
+            "summary": "Utilities for signing UEFI binaries for use with secure boot",
+            "updated": "2019-08-08T23:08:12+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "This project targets to provide a generic signing framework. This framework separates the signing request and signing process and correspondingly forms the so-called signlet and signaturelet. Each signaturelet only concerns about the details about how to construct the layout of a signature format, and signlet only cares how to construct the signing request. ",
+            "filename": "libsign_git.bb",
+            "filepath": "recipes-devtools/libsign",
+            "homepage": "https://github.com/jiazhang0/libsign",
+            "id": 992555,
+            "inherits": "",
+            "layerbranch": 847838,
+            "license": "BSD-3-Clause",
+            "pn": "libsign",
+            "provides": "libsign ",
+            "pv": "0.3.2+gitX",
+            "section": "devel",
+            "summary": "A generic signing tool framework",
+            "updated": "2019-08-08T23:08:13+0000"
+        }
+    ],
+    "wrtemplates": []
+}

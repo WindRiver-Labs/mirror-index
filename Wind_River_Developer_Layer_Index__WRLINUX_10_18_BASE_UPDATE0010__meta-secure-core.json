@@ -1,0 +1,291 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_18_BASE_UPDATE0010",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 12,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior"
+        },
+        {
+            "description": "",
+            "id": 14,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_18_BASE_UPDATE0010",
+            "comparison": false,
+            "id": 146,
+            "name": "WRLINUX_10_18_BASE_UPDATE0010",
+            "short_description": "WRLinux 10_18 Base Update 0010",
+            "sort_priority": 9800,
+            "update_environment": null,
+            "updated": "2019-08-07T17:08:13+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 146,
+            "collection": "core",
+            "id": 847824,
+            "layer": 1,
+            "updated": "2019-08-29T00:08:43+0000",
+            "vcs_last_commit": "2019-08-26T22:08:04+0000",
+            "vcs_last_fetch": "2019-08-29T00:08:43+0000",
+            "vcs_last_rev": "c509e31e458a73a91de3375d82cd36fa7ceb57c2",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 2
+        },
+        {
+            "actual_branch": "",
+            "branch": 146,
+            "collection": "secure-core",
+            "id": 847840,
+            "layer": 149,
+            "updated": "2019-08-08T23:08:27+0000",
+            "vcs_last_commit": "2019-03-28T19:03:55+0000",
+            "vcs_last_fetch": "2019-08-08T23:08:27+0000",
+            "vcs_last_rev": "8b4cf8fbc2ea0fed6700b12b83f8f0a9c51fe9c8",
+            "vcs_subdir": "meta",
+            "version": null,
+            "yp_compatible_version": 3
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 53441,
+            "layerbranch": 847840,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer consists of the following sub-layers: meta-efi-secure-boot, meta-integrity, meta-encrypted-storage, meta-signing-key, meta-tpm and meta-tpm2.",
+            "id": 149,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-secure-core",
+            "status": "P",
+            "summary": "Provide the use cases for the Linux applications on secure boot, integrity and encryption",
+            "updated": "2018-05-30T22:05:37+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-secure-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "initrdscripts-secure-core.bb",
+            "filepath": "recipes-core/initrdscripts",
+            "homepage": "",
+            "id": 992575,
+            "inherits": "",
+            "layerbranch": 847840,
+            "license": "MIT",
+            "pn": "initrdscripts-secure-core",
+            "provides": "initrdscripts-secure-core ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "Basic init for initramfs to mount and pivot root",
+            "updated": "2019-08-08T23:08:25+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "secure-core-minimal-image.bb",
+            "filepath": "recipes-core/images",
+            "homepage": "",
+            "id": 992576,
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "layerbranch": 847840,
+            "license": "MIT",
+            "pn": "secure-core-minimal-image",
+            "provides": "secure-core-minimal-image ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "The root image of SecureCore.",
+            "updated": "2019-08-08T23:08:26+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "secure-core-image.bb",
+            "filepath": "recipes-core/images",
+            "homepage": "",
+            "id": 992577,
+            "inherits": "core-image extrausers image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo useradd_base",
+            "layerbranch": 847840,
+            "license": "MIT",
+            "pn": "secure-core-image",
+            "provides": "secure-core-image ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "The root image of SecureCore.",
+            "updated": "2019-08-08T23:08:26+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "This package includes the initramfs for the kernel boot. ",
+            "filename": "kernel-initramfs.bb",
+            "filepath": "recipes-core/images",
+            "homepage": "",
+            "id": 992578,
+            "inherits": "kernel-arch linux-kernel-base update-alternatives",
+            "layerbranch": 847840,
+            "license": "MIT",
+            "pn": "kernel-initramfs",
+            "provides": "kernel-initramfs virtual/kernel-initramfs",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "Initramfs kernel boot",
+            "updated": "2019-08-08T23:08:26+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Small image capable of booting a device. The kernel includes the Minimal RAM-based Initial Root Filesystem (initramfs), which finds the first 'init' program more efficiently.",
+            "filename": "secure-core-image-initramfs.bb",
+            "filepath": "recipes-core/images",
+            "homepage": "",
+            "id": 992579,
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "layerbranch": 847840,
+            "license": "MIT",
+            "pn": "secure-core-image-initramfs",
+            "provides": "secure-core-image-initramfs ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-08-08T23:08:27+0000"
+        }
+    ],
+    "wrtemplates": []
+}

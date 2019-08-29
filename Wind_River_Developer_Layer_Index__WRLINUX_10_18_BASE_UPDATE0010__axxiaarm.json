@@ -1,0 +1,339 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_18_BASE_UPDATE0010",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 12,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior"
+        },
+        {
+            "description": "",
+            "id": 14,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_18_BASE_UPDATE0010",
+            "comparison": false,
+            "id": 146,
+            "name": "WRLINUX_10_18_BASE_UPDATE0010",
+            "short_description": "WRLinux 10_18 Base Update 0010",
+            "sort_priority": 9800,
+            "update_environment": null,
+            "updated": "2019-08-07T17:08:13+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 146,
+            "collection": "core",
+            "id": 847824,
+            "layer": 1,
+            "updated": "2019-08-29T00:08:43+0000",
+            "vcs_last_commit": "2019-08-26T22:08:04+0000",
+            "vcs_last_fetch": "2019-08-29T00:08:43+0000",
+            "vcs_last_rev": "c509e31e458a73a91de3375d82cd36fa7ceb57c2",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 2
+        },
+        {
+            "actual_branch": "",
+            "branch": 146,
+            "collection": "wrlinux",
+            "id": 847869,
+            "layer": 49,
+            "updated": "2019-08-29T00:08:48+0000",
+            "vcs_last_commit": "2019-08-26T15:08:57+0000",
+            "vcs_last_fetch": "2019-08-29T00:08:48+0000",
+            "vcs_last_rev": "5b6db1b9d0718aa7ebb397c06de5e5c610bed35d",
+            "vcs_subdir": "",
+            "version": "2",
+            "yp_compatible_version": 2
+        },
+        {
+            "actual_branch": "",
+            "branch": 146,
+            "collection": "wr-axxiaarm",
+            "id": 847874,
+            "layer": 132,
+            "updated": "2019-08-08T23:08:57+0000",
+            "vcs_last_commit": "2019-06-02T18:06:15+0000",
+            "vcs_last_fetch": "2019-08-08T23:08:57+0000",
+            "vcs_last_rev": "ac8e0095b3433b2a9399f60df72d5cbeb8a7b338",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 2
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 53590,
+            "layerbranch": 847874,
+            "required": true
+        },
+        {
+            "dependency": 49,
+            "id": 53591,
+            "layerbranch": 847874,
+            "required": true
+        },
+        {
+            "dependency": 290,
+            "id": 53592,
+            "layerbranch": 847874,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer provides the Wind River Linux distribution definitions, \r\ndistribution-specific integration and bug fixes, and other wrlinux components.",
+            "id": 49,
+            "index_preference": 900,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "wrlinux",
+            "status": "P",
+            "summary": "Wind River Linux distribution definitions",
+            "updated": "2018-05-30T22:05:16+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wrlinux",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Intel axm55xx",
+            "id": 132,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "axxiaarm",
+            "status": "P",
+            "summary": "Intel axm55xx",
+            "updated": "2018-05-30T22:05:16+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/axxiaarm",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [
+        {
+            "description": " Axxia AXM5616 SoC",
+            "id": 22409,
+            "layerbranch": 847874,
+            "name": "axxiaarm64",
+            "updated": "2019-08-08T23:08:57+0000"
+        },
+        {
+            "description": " Axxia AXM5516 SoC",
+            "id": 22410,
+            "layerbranch": 847874,
+            "name": "axxiaarm",
+            "updated": "2019-08-08T23:08:57+0000"
+        }
+    ],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "u-boot-axxia_git.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "",
+            "id": 993695,
+            "inherits": "deploy uboot-config uboot-extlinux-config uboot-sign",
+            "layerbranch": 847874,
+            "license": "GPLv2+",
+            "pn": "u-boot-axxia",
+            "provides": "u-boot-axxia virtual/bootloader",
+            "pv": "2013.01.01+git7125f93af0c0987228b9fb322213af04a36dda58",
+            "section": "base",
+            "summary": "Universal Boot Loader for embedded devices",
+            "updated": "2019-08-08T23:08:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "U-boot bootloader fw_printenv/setenv utils",
+            "filename": "u-boot-fw-utils_git.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "",
+            "id": 993696,
+            "inherits": "uboot-config",
+            "layerbranch": 847874,
+            "license": "GPLv2+",
+            "pn": "u-boot-fw-utils",
+            "provides": "u-boot-fw-utils ",
+            "pv": "2013.01.01+gitINVALID",
+            "section": "bootloader",
+            "summary": "",
+            "updated": "2019-08-08T23:08:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "u-boot-lsi_git.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "",
+            "id": 993697,
+            "inherits": "deploy uboot-config uboot-extlinux-config uboot-sign",
+            "layerbranch": 847874,
+            "license": "GPLv2+",
+            "pn": "u-boot-lsi",
+            "provides": "u-boot-lsi virtual/bootloader",
+            "pv": "2013.01.01+git074d50cff3abc9fd04a87b74edf228d15a216bd8",
+            "section": "base",
+            "summary": "Universal Boot Loader for embedded devices",
+            "updated": "2019-08-08T23:08:57+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "ARM Trusted Firmware",
+            "filename": "atf-axxia_git.bb",
+            "filepath": "recipes-bsp/arm-trusted-firmware",
+            "homepage": "",
+            "id": 993698,
+            "inherits": "deploy",
+            "layerbranch": 847874,
+            "license": "BSD",
+            "pn": "atf-axxia",
+            "provides": "atf-axxia virtual/arm-trusted-firmware",
+            "pv": "1.2-axxia+git159d17501567482a54f8425fc1383ee7f77e1dcb",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-08-08T23:08:57+0000"
+        }
+    ],
+    "wrtemplates": [
+        {
+            "description": "",
+            "id": 49687,
+            "layerbranch": 847874,
+            "name": "default",
+            "updated": "2019-08-08T23:08:57+0000"
+        }
+    ]
+}
