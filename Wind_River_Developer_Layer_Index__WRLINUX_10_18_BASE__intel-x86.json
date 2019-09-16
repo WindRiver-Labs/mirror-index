@@ -120,10 +120,10 @@
             "collection": "core",
             "id": 836626,
             "layer": 1,
-            "updated": "2019-08-26T23:08:21+0000",
-            "vcs_last_commit": "2019-08-26T22:08:04+0000",
-            "vcs_last_fetch": "2019-08-26T23:08:21+0000",
-            "vcs_last_rev": "c509e31e458a73a91de3375d82cd36fa7ceb57c2",
+            "updated": "2019-09-09T23:09:45+0000",
+            "vcs_last_commit": "2019-09-05T11:09:19+0000",
+            "vcs_last_fetch": "2019-09-09T23:09:45+0000",
+            "vcs_last_rev": "2c1113b75b59264efad179e61af706e266247a1c",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
@@ -134,10 +134,10 @@
             "collection": "wrlinux",
             "id": 836705,
             "layer": 49,
-            "updated": "2019-08-27T15:08:46+0000",
-            "vcs_last_commit": "2019-08-26T15:08:57+0000",
-            "vcs_last_fetch": "2019-08-27T15:08:46+0000",
-            "vcs_last_rev": "5b6db1b9d0718aa7ebb397c06de5e5c610bed35d",
+            "updated": "2019-09-11T02:09:26+0000",
+            "vcs_last_commit": "2019-09-11T02:09:22+0000",
+            "vcs_last_fetch": "2019-09-11T02:09:26+0000",
+            "vcs_last_rev": "26edc0caeb3fc38f7aa6deb296d8739366328fa0",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 2
@@ -148,9 +148,9 @@
             "collection": "intel",
             "id": 836743,
             "layer": 166,
-            "updated": "2019-08-09T00:08:42+0000",
+            "updated": "2019-09-09T23:09:45+0000",
             "vcs_last_commit": "2018-10-30T20:10:11+0000",
-            "vcs_last_fetch": "2019-08-09T00:08:42+0000",
+            "vcs_last_fetch": "2019-09-09T23:09:45+0000",
             "vcs_last_rev": "71268cffca8f7a9d1474aa4c8f1f8cfb174b2b9d",
             "vcs_subdir": "",
             "version": "5",
@@ -162,9 +162,9 @@
             "collection": "intel-x86",
             "id": 836757,
             "layer": 32,
-            "updated": "2019-08-15T17:08:25+0000",
+            "updated": "2019-09-09T23:09:20+0000",
             "vcs_last_commit": "2019-08-15T16:08:15+0000",
-            "vcs_last_fetch": "2019-08-15T17:08:24+0000",
+            "vcs_last_fetch": "2019-09-09T23:09:20+0000",
             "vcs_last_rev": "89404cbb496932ad8d6a556b908ef973f81afc12",
             "vcs_subdir": "",
             "version": "1",
@@ -268,38 +268,38 @@
     "machines": [
         {
             "description": " Intel X86 (64bit) PCs and servers",
-            "id": 22603,
+            "id": 24099,
             "layerbranch": 836757,
             "name": "intel-x86-64",
-            "updated": "2019-08-09T00:08:28+0000"
+            "updated": "2019-09-09T23:09:20+0000"
         },
         {
             "description": " Intel Haswell CPU (64bit)",
-            "id": 22604,
+            "id": 24100,
             "layerbranch": 836757,
             "name": "intel-haswell-64",
-            "updated": "2019-08-09T00:08:28+0000"
+            "updated": "2019-09-09T23:09:20+0000"
         },
         {
             "description": " Intel Skylake CPU (64bit) with AVX-512 enabled",
-            "id": 22605,
+            "id": 24101,
             "layerbranch": 836757,
             "name": "intel-skylake-avx512-64",
-            "updated": "2019-08-09T00:08:28+0000"
+            "updated": "2019-09-09T23:09:20+0000"
         },
         {
             "description": " Intel X86 (32bit) PCs and servers",
-            "id": 22606,
+            "id": 24102,
             "layerbranch": 836757,
             "name": "intel-x86-32",
-            "updated": "2019-08-09T00:08:28+0000"
+            "updated": "2019-09-09T23:09:20+0000"
         },
         {
             "description": " Intel Skylake CPU (64bit)",
-            "id": 22607,
+            "id": 24103,
             "layerbranch": 836757,
             "name": "intel-skylake-64",
-            "updated": "2019-08-09T00:08:28+0000"
+            "updated": "2019-09-09T23:09:20+0000"
         }
     ],
     "recipes": [
@@ -320,7 +320,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A Monitoring and Testing Tool for Linux kernel thermal subsystem",
-            "updated": "2019-08-09T00:08:28+0000"
+            "updated": "2019-09-09T23:09:20+0000"
         },
         {
             "bbclassextend": "",
@@ -339,23 +339,23 @@
             "pv": "git",
             "section": "base",
             "summary": "",
-            "updated": "2019-08-09T00:08:28+0000"
+            "updated": "2019-09-09T23:09:20+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 49940,
+            "id": 52409,
             "layerbranch": 836757,
             "name": "feature/intel-persistent-memory",
-            "updated": "2019-08-09T00:08:28+0000"
+            "updated": "2019-09-09T23:09:20+0000"
         },
         {
             "description": "",
-            "id": 49941,
+            "id": 52410,
             "layerbranch": 836757,
             "name": "default",
-            "updated": "2019-08-09T00:08:28+0000"
+            "updated": "2019-09-09T23:09:20+0000"
         }
     ]
 }
