@@ -97,6 +97,27 @@
             "image_url": "",
             "link_url": "",
             "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
         }
     ],
     "branches": [
@@ -120,10 +141,10 @@
             "collection": "core",
             "id": 836626,
             "layer": 1,
-            "updated": "2019-09-09T23:09:45+0000",
-            "vcs_last_commit": "2019-09-05T11:09:19+0000",
-            "vcs_last_fetch": "2019-09-09T23:09:45+0000",
-            "vcs_last_rev": "2c1113b75b59264efad179e61af706e266247a1c",
+            "updated": "2019-10-07T19:10:32+0000",
+            "vcs_last_commit": "2019-10-07T18:10:25+0000",
+            "vcs_last_fetch": "2019-10-07T19:10:32+0000",
+            "vcs_last_rev": "6dd844a52a104908a4bc5c84d51d7fdad1eb185c",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 2
@@ -131,13 +152,27 @@
         {
             "actual_branch": "wr-10.18-20181031",
             "branch": 100,
+            "collection": "meta-python",
+            "id": 836712,
+            "layer": 12,
+            "updated": "2019-09-09T23:09:37+0000",
+            "vcs_last_commit": "2018-10-30T20:10:11+0000",
+            "vcs_last_fetch": "2019-09-09T23:09:37+0000",
+            "vcs_last_rev": "2558fdccc75a0069074d0b0439c43b1684759372",
+            "vcs_subdir": "meta-python",
+            "version": "1",
+            "yp_compatible_version": 3
+        },
+        {
+            "actual_branch": "wr-10.18-20181031",
+            "branch": 100,
             "collection": "multimedia-layer",
             "id": 836715,
             "layer": 16,
-            "updated": "2019-09-09T23:09:17+0000",
-            "vcs_last_commit": "2018-10-30T20:10:12+0000",
-            "vcs_last_fetch": "2019-09-09T23:09:17+0000",
-            "vcs_last_rev": "772696f464025ced34cdf507151c7bfe3780d08d",
+            "updated": "2019-09-23T18:09:31+0000",
+            "vcs_last_commit": "2019-09-23T18:09:13+0000",
+            "vcs_last_fetch": "2019-09-23T18:09:31+0000",
+            "vcs_last_rev": "4e39fa6e49ac23edcb9a3dbcf98990b5530b5adc",
             "vcs_subdir": "meta-multimedia",
             "version": "1",
             "yp_compatible_version": 3
@@ -155,6 +190,12 @@
             "id": 42354,
             "layerbranch": 836715,
             "required": false
+        },
+        {
+            "dependency": 12,
+            "id": 56106,
+            "layerbranch": 836715,
+            "required": true
         }
     ],
     "layerItems": [
@@ -171,6 +212,24 @@
             "updated": "2018-05-30T23:05:28+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "PYTHON Language related items",
+            "id": 12,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-python",
+            "status": "P",
+            "summary": "PYTHON Language related items",
+            "updated": "2018-05-30T22:05:58+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
             "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
