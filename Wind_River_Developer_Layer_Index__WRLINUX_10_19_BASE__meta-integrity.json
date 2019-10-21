@@ -1,0 +1,446 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_19_BASE",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 12,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "wr-10.19-20191007",
+            "comparison": false,
+            "id": 158,
+            "name": "WRLINUX_10_19_BASE",
+            "short_description": "Wind River Linux 10_19 Baseline",
+            "sort_priority": null,
+            "update_environment": null,
+            "updated": "2019-10-09T00:10:32+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "wr-10.19-20191015",
+            "branch": 158,
+            "collection": "core",
+            "id": 852955,
+            "layer": 1,
+            "updated": "2019-10-21T02:10:31+0000",
+            "vcs_last_commit": "2019-10-21T01:10:53+0000",
+            "vcs_last_fetch": "2019-10-21T02:10:31+0000",
+            "vcs_last_rev": "6492190b51c0234e4bfbc72e789a861f3c806252",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 102
+        },
+        {
+            "actual_branch": "wr-10.19-20191015",
+            "branch": 158,
+            "collection": "openembedded-layer",
+            "id": 853237,
+            "layer": 7,
+            "updated": "2019-10-16T23:10:22+0000",
+            "vcs_last_commit": "2019-10-16T22:10:56+0000",
+            "vcs_last_fetch": "2019-10-16T23:10:22+0000",
+            "vcs_last_rev": "e22413810926e8768bc44e2f30844185f82b57aa",
+            "vcs_subdir": "meta-oe",
+            "version": "1",
+            "yp_compatible_version": 99
+        },
+        {
+            "actual_branch": "wr-10.19-20191007",
+            "branch": 158,
+            "collection": "signing-key",
+            "id": 853248,
+            "layer": 129,
+            "updated": "2019-10-15T03:10:19+0000",
+            "vcs_last_commit": "2019-10-15T02:10:08+0000",
+            "vcs_last_fetch": "2019-10-15T03:10:19+0000",
+            "vcs_last_rev": "beacfa72dd74fcbbd2fb641182cdf120d8b72f46",
+            "vcs_subdir": "meta-signing-key",
+            "version": null,
+            "yp_compatible_version": 99
+        },
+        {
+            "actual_branch": "wr-10.19-20191007",
+            "branch": 158,
+            "collection": "integrity",
+            "id": 853261,
+            "layer": 128,
+            "updated": "2019-10-14T20:10:55+0000",
+            "vcs_last_commit": "2019-10-14T08:10:39+0000",
+            "vcs_last_fetch": "2019-10-14T20:10:55+0000",
+            "vcs_last_rev": "a1dba8a13660189eb2184b7870a61dd83f36d886",
+            "vcs_subdir": "meta-integrity",
+            "version": null,
+            "yp_compatible_version": 99
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 56216,
+            "layerbranch": 853261,
+            "required": true
+        },
+        {
+            "dependency": 7,
+            "id": 56217,
+            "layerbranch": 853261,
+            "required": true
+        },
+        {
+            "dependency": 129,
+            "id": 56218,
+            "layerbranch": 853261,
+            "required": true
+        },
+        {
+            "dependency": 122,
+            "id": 56219,
+            "layerbranch": 853261,
+            "required": false
+        },
+        {
+            "dependency": 151,
+            "id": 56220,
+            "layerbranch": 853261,
+            "required": false
+        },
+        {
+            "dependency": 152,
+            "id": 56221,
+            "layerbranch": 853261,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Additional shared OE metadata",
+            "id": 7,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-oe",
+            "status": "P",
+            "summary": "Additional shared OE metadata",
+            "updated": "2018-05-30T22:05:13+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer provides the IMA components",
+            "id": 128,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-integrity",
+            "status": "P",
+            "summary": "IMA components",
+            "updated": "2018-05-30T22:05:59+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-secure-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer provides sample keys, by default, are used by build system to sign bootloader,\r\nkernel, IMA signature, RPM and so on. It is used for development and demonstration. The user must know what the risk is to use the sample keys in the product.",
+            "id": 129,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-signing-key",
+            "status": "P",
+            "summary": "User Key Store",
+            "updated": "2018-05-30T22:05:44+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-secure-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "The default external IMA policy",
+            "filename": "ima-policy_0.1.bb",
+            "filepath": "recipes-support/ima-policy",
+            "homepage": "",
+            "id": 1031475,
+            "inherits": "",
+            "layerbranch": 853261,
+            "license": "MIT",
+            "pn": "ima-policy",
+            "provides": "ima-policy ",
+            "pv": "0.1",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-10-09T01:10:58+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "ima-evm-utils_git.bb",
+            "filepath": "recipes-support/ima-evm-utils",
+            "homepage": "",
+            "id": 1031476,
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "layerbranch": 853261,
+            "license": "GPLv2",
+            "pn": "ima-evm-utils",
+            "provides": "ima-evm-utils ",
+            "pv": "1.2.1+gitX",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-10-10T23:10:36+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "ima-inspect_0.11.bb",
+            "filepath": "recipes-support/ima-inspect",
+            "homepage": "",
+            "id": 1031477,
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "layerbranch": 853261,
+            "license": "GPLv2+",
+            "pn": "ima-inspect",
+            "provides": "ima-inspect ",
+            "pv": "0.11",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-10-09T01:10:59+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Linux Integrity Measurement Architecture (IMA) subsystem for initramfs",
+            "filename": "packagegroup-ima-initramfs.bb",
+            "filepath": "recipes-base/packagegroups",
+            "homepage": "",
+            "id": 1031478,
+            "inherits": "",
+            "layerbranch": 853261,
+            "license": "MIT",
+            "pn": "packagegroup-ima-initramfs",
+            "provides": "packagegroup-ima-initramfs ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-10-09T01:10:59+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Linux Integrity Measurement Architecture (IMA) subsystem",
+            "filename": "packagegroup-ima.bb",
+            "filepath": "recipes-base/packagegroups",
+            "homepage": "",
+            "id": 1031479,
+            "inherits": "",
+            "layerbranch": 853261,
+            "license": "MIT",
+            "pn": "packagegroup-ima",
+            "provides": "packagegroup-ima ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-10-09T01:10:00+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "The initrd script for Linux Integrity Measurement Architecture (IMA)",
+            "filename": "initrdscripts-ima.bb",
+            "filepath": "recipes-core/initrdscripts",
+            "homepage": "",
+            "id": 1031480,
+            "inherits": "",
+            "layerbranch": 853261,
+            "license": "MIT",
+            "pn": "initrdscripts-ima",
+            "provides": "initrdscripts-ima ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-10-09T01:10:00+0000"
+        }
+    ],
+    "wrtemplates": []
+}

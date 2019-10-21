@@ -1,0 +1,327 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_19_BASE",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 12,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "wr-10.19-20191007",
+            "comparison": false,
+            "id": 158,
+            "name": "WRLINUX_10_19_BASE",
+            "short_description": "Wind River Linux 10_19 Baseline",
+            "sort_priority": null,
+            "update_environment": null,
+            "updated": "2019-10-09T00:10:32+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [
+        {
+            "description": "overc",
+            "id": 6559,
+            "layerbranch": 853282,
+            "name": "overc",
+            "updated": "2019-10-09T01:10:51+0000"
+        }
+    ],
+    "layerBranches": [
+        {
+            "actual_branch": "wr-10.19-20191015",
+            "branch": 158,
+            "collection": "core",
+            "id": 852955,
+            "layer": 1,
+            "updated": "2019-10-21T02:10:31+0000",
+            "vcs_last_commit": "2019-10-21T01:10:53+0000",
+            "vcs_last_fetch": "2019-10-21T02:10:31+0000",
+            "vcs_last_rev": "6492190b51c0234e4bfbc72e789a861f3c806252",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 102
+        },
+        {
+            "actual_branch": "wr-10.19-20191015",
+            "branch": 158,
+            "collection": "xfce-layer",
+            "id": 853270,
+            "layer": 5,
+            "updated": "2019-10-15T00:10:02+0000",
+            "vcs_last_commit": "2019-10-14T08:10:09+0000",
+            "vcs_last_fetch": "2019-10-15T00:10:02+0000",
+            "vcs_last_rev": "cd1b61361f94c3ca5e5dbabf160dd7e197e18d20",
+            "vcs_subdir": "meta-xfce",
+            "version": "1",
+            "yp_compatible_version": 99
+        },
+        {
+            "actual_branch": "wr-10.19-20190923",
+            "branch": 158,
+            "collection": "overc",
+            "id": 853282,
+            "layer": 245,
+            "updated": "2019-10-18T01:10:39+0000",
+            "vcs_last_commit": "2019-10-18T00:10:30+0000",
+            "vcs_last_fetch": "2019-10-18T01:10:39+0000",
+            "vcs_last_rev": "3346dcf49069e0aab1cdfad65e3a66ef9befe704",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 99
+        },
+        {
+            "actual_branch": "wr-10.19-20190923",
+            "branch": 158,
+            "collection": "cube",
+            "id": 853311,
+            "layer": 246,
+            "updated": "2019-10-18T01:10:36+0000",
+            "vcs_last_commit": "2019-10-18T00:10:30+0000",
+            "vcs_last_fetch": "2019-10-18T01:10:36+0000",
+            "vcs_last_rev": "3346dcf49069e0aab1cdfad65e3a66ef9befe704",
+            "vcs_subdir": "meta-cube",
+            "version": "1",
+            "yp_compatible_version": 99
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 56364,
+            "layerbranch": 853282,
+            "required": true
+        },
+        {
+            "dependency": 246,
+            "id": 56365,
+            "layerbranch": 853282,
+            "required": true
+        },
+        {
+            "dependency": 5,
+            "id": 56366,
+            "layerbranch": 853282,
+            "required": true
+        },
+        {
+            "dependency": 252,
+            "id": 56367,
+            "layerbranch": 853282,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "The XFCE Desktop software and related components.",
+            "id": 5,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-xfce",
+            "status": "P",
+            "summary": "XFCE Desktop components",
+            "updated": "2018-05-30T22:05:38+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "OverC distribution layer",
+            "id": 245,
+            "index_preference": 0,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "meta-overc",
+            "status": "P",
+            "summary": "OverC - Container environment",
+            "updated": "2018-08-06T23:08:16+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-overc",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/meta-overc/commit/id=%hash%",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Recipe changes for OverC related cubes (containers)",
+            "id": 246,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "meta-cube",
+            "status": "P",
+            "summary": "Recipe changes for OverC related cubes (containers)",
+            "updated": "2018-08-06T23:08:24+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-overc",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/meta-overc/commit/id=%hash%",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [],
+    "wrtemplates": []
+}
