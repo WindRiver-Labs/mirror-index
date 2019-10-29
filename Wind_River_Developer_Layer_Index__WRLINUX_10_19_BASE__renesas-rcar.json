@@ -154,15 +154,7 @@
             "updates_enabled": true
         }
     ],
-    "distros": [
-        {
-            "description": "overc",
-            "id": 6559,
-            "layerbranch": 853282,
-            "name": "overc",
-            "updated": "2019-10-09T01:10:51+0000"
-        }
-    ],
+    "distros": [],
     "layerBranches": [
         {
             "actual_branch": "wr-10.19-20191015",
@@ -179,72 +171,46 @@
             "yp_compatible_version": 102
         },
         {
-            "actual_branch": "wr-10.19-20191015",
+            "actual_branch": "",
             "branch": 158,
-            "collection": "xfce-layer",
-            "id": 853270,
-            "layer": 5,
-            "updated": "2019-10-15T00:10:02+0000",
-            "vcs_last_commit": "2019-10-14T08:10:09+0000",
-            "vcs_last_fetch": "2019-10-15T00:10:02+0000",
-            "vcs_last_rev": "cd1b61361f94c3ca5e5dbabf160dd7e197e18d20",
-            "vcs_subdir": "meta-xfce",
-            "version": "1",
-            "yp_compatible_version": 99
+            "collection": "wrlinux",
+            "id": 853279,
+            "layer": 49,
+            "updated": "2019-10-29T07:10:28+0000",
+            "vcs_last_commit": "2019-10-29T06:10:20+0000",
+            "vcs_last_fetch": "2019-10-29T07:10:28+0000",
+            "vcs_last_rev": "39a5fd5a4680f31eef31a3422102e8bb9fe0ca89",
+            "vcs_subdir": "",
+            "version": "2",
+            "yp_compatible_version": 101
         },
         {
-            "actual_branch": "wr-10.19-20190923",
+            "actual_branch": "",
             "branch": 158,
-            "collection": "overc",
-            "id": 853282,
-            "layer": 245,
-            "updated": "2019-10-18T01:10:39+0000",
-            "vcs_last_commit": "2019-10-18T00:10:30+0000",
-            "vcs_last_fetch": "2019-10-18T01:10:39+0000",
-            "vcs_last_rev": "3346dcf49069e0aab1cdfad65e3a66ef9befe704",
+            "collection": "wr-renesas-rcar",
+            "id": 853303,
+            "layer": 302,
+            "updated": "2019-10-29T03:10:57+0000",
+            "vcs_last_commit": "2019-10-29T00:10:57+0000",
+            "vcs_last_fetch": "2019-10-29T03:10:57+0000",
+            "vcs_last_rev": "19248f450796e3197adf34adbae0043fd9243f83",
             "vcs_subdir": "",
             "version": "1",
-            "yp_compatible_version": 99
-        },
-        {
-            "actual_branch": "wr-10.19-20190923",
-            "branch": 158,
-            "collection": "cube",
-            "id": 853311,
-            "layer": 246,
-            "updated": "2019-10-18T01:10:36+0000",
-            "vcs_last_commit": "2019-10-18T00:10:30+0000",
-            "vcs_last_fetch": "2019-10-18T01:10:36+0000",
-            "vcs_last_rev": "3346dcf49069e0aab1cdfad65e3a66ef9befe704",
-            "vcs_subdir": "meta-cube",
-            "version": "1",
-            "yp_compatible_version": 99
+            "yp_compatible_version": 102
         }
     ],
     "layerDependencies": [
         {
             "dependency": 1,
-            "id": 56364,
-            "layerbranch": 853282,
+            "id": 56416,
+            "layerbranch": 853303,
             "required": true
         },
         {
-            "dependency": 246,
-            "id": 56365,
-            "layerbranch": 853282,
+            "dependency": 49,
+            "id": 56417,
+            "layerbranch": 853303,
             "required": true
-        },
-        {
-            "dependency": 5,
-            "id": 56366,
-            "layerbranch": 853282,
-            "required": true
-        },
-        {
-            "dependency": 252,
-            "id": 56367,
-            "layerbranch": 853282,
-            "required": false
         }
     ],
     "layerItems": [
@@ -268,17 +234,17 @@
         },
         {
             "comparison": false,
-            "description": "The XFCE Desktop software and related components.",
-            "id": 5,
-            "index_preference": 800,
-            "layer_type": "A",
+            "description": "This layer provides the Wind River Linux distribution definitions, \r\ndistribution-specific integration and bug fixes, and other wrlinux components.",
+            "id": 49,
+            "index_preference": 900,
+            "layer_type": "D",
             "mailing_list_url": "",
-            "name": "meta-xfce",
+            "name": "wrlinux",
             "status": "P",
-            "summary": "XFCE Desktop components",
-            "updated": "2018-05-30T22:05:38+0000",
+            "summary": "Wind River Linux distribution definitions",
+            "updated": "2018-05-30T22:05:16+0000",
             "usage_url": "README",
-            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_url": "#BASE_URL#/wrlinux",
             "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
@@ -286,42 +252,47 @@
         },
         {
             "comparison": false,
-            "description": "OverC distribution layer",
-            "id": 245,
+            "description": "This is the BSP renesas-rcar layer.\r\nThis BSP support for Renesas SoC rcar-h3/m3",
+            "id": 302,
             "index_preference": 0,
-            "layer_type": "D",
+            "layer_type": "B",
             "mailing_list_url": "",
-            "name": "meta-overc",
+            "name": "renesas-rcar",
             "status": "P",
-            "summary": "OverC - Container environment",
-            "updated": "2018-08-06T23:08:16+0000",
+            "summary": "This is the BSP renesas-rcar layer",
+            "updated": "2019-07-23T13:07:26+0000",
             "usage_url": "",
-            "vcs_url": "#BASE_URL#/meta-overc",
-            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/meta-overc/commit/id=%hash%",
-            "vcs_web_file_base_url": "",
-            "vcs_web_tree_base_url": "",
-            "vcs_web_url": ""
-        },
-        {
-            "comparison": false,
-            "description": "Recipe changes for OverC related cubes (containers)",
-            "id": 246,
-            "index_preference": 0,
-            "layer_type": "S",
-            "mailing_list_url": "",
-            "name": "meta-cube",
-            "status": "P",
-            "summary": "Recipe changes for OverC related cubes (containers)",
-            "updated": "2018-08-06T23:08:24+0000",
-            "usage_url": "",
-            "vcs_url": "#BASE_URL#/meta-overc",
-            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/meta-overc/commit/id=%hash%",
+            "vcs_url": "#BASE_URL#/renesas-rcar",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/wr-bsps/renesas-rcar.git/commit/id=%hash%",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
         }
     ],
-    "machines": [],
+    "machines": [
+        {
+            "description": " Renesas R-Car M3 SoC",
+            "id": 24604,
+            "layerbranch": 853303,
+            "name": "renesas-rcar-m3",
+            "updated": "2019-10-09T01:10:24+0000"
+        },
+        {
+            "description": " Renesas R-Car H3 SoC",
+            "id": 24605,
+            "layerbranch": 853303,
+            "name": "renesas-rcar-h3",
+            "updated": "2019-10-16T04:10:22+0000"
+        }
+    ],
     "recipes": [],
-    "wrtemplates": []
+    "wrtemplates": [
+        {
+            "description": "",
+            "id": 53338,
+            "layerbranch": 853303,
+            "name": "default",
+            "updated": "2019-10-09T01:10:24+0000"
+        }
+    ]
 }

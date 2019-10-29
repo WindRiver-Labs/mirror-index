@@ -154,15 +154,7 @@
             "updates_enabled": true
         }
     ],
-    "distros": [
-        {
-            "description": "overc",
-            "id": 6559,
-            "layerbranch": 853282,
-            "name": "overc",
-            "updated": "2019-10-09T01:10:51+0000"
-        }
-    ],
+    "distros": [],
     "layerBranches": [
         {
             "actual_branch": "wr-10.19-20191015",
@@ -179,72 +171,46 @@
             "yp_compatible_version": 102
         },
         {
-            "actual_branch": "wr-10.19-20191015",
+            "actual_branch": "",
             "branch": 158,
-            "collection": "xfce-layer",
-            "id": 853270,
-            "layer": 5,
-            "updated": "2019-10-15T00:10:02+0000",
-            "vcs_last_commit": "2019-10-14T08:10:09+0000",
-            "vcs_last_fetch": "2019-10-15T00:10:02+0000",
-            "vcs_last_rev": "cd1b61361f94c3ca5e5dbabf160dd7e197e18d20",
-            "vcs_subdir": "meta-xfce",
-            "version": "1",
-            "yp_compatible_version": 99
+            "collection": "wrlinux",
+            "id": 853279,
+            "layer": 49,
+            "updated": "2019-10-29T07:10:28+0000",
+            "vcs_last_commit": "2019-10-29T06:10:20+0000",
+            "vcs_last_fetch": "2019-10-29T07:10:28+0000",
+            "vcs_last_rev": "39a5fd5a4680f31eef31a3422102e8bb9fe0ca89",
+            "vcs_subdir": "",
+            "version": "2",
+            "yp_compatible_version": 101
         },
         {
-            "actual_branch": "wr-10.19-20190923",
+            "actual_branch": "",
             "branch": 158,
-            "collection": "overc",
-            "id": 853282,
-            "layer": 245,
-            "updated": "2019-10-18T01:10:39+0000",
-            "vcs_last_commit": "2019-10-18T00:10:30+0000",
-            "vcs_last_fetch": "2019-10-18T01:10:39+0000",
-            "vcs_last_rev": "3346dcf49069e0aab1cdfad65e3a66ef9befe704",
+            "collection": "wr-bcm-2xxx-rpi",
+            "id": 853306,
+            "layer": 142,
+            "updated": "2019-10-24T02:10:27+0000",
+            "vcs_last_commit": "2019-10-24T01:10:25+0000",
+            "vcs_last_fetch": "2019-10-24T02:10:27+0000",
+            "vcs_last_rev": "f85c0ac1ba91bb6807be9f3e2efd1da22b2da204",
             "vcs_subdir": "",
             "version": "1",
-            "yp_compatible_version": 99
-        },
-        {
-            "actual_branch": "wr-10.19-20190923",
-            "branch": 158,
-            "collection": "cube",
-            "id": 853311,
-            "layer": 246,
-            "updated": "2019-10-18T01:10:36+0000",
-            "vcs_last_commit": "2019-10-18T00:10:30+0000",
-            "vcs_last_fetch": "2019-10-18T01:10:36+0000",
-            "vcs_last_rev": "3346dcf49069e0aab1cdfad65e3a66ef9befe704",
-            "vcs_subdir": "meta-cube",
-            "version": "1",
-            "yp_compatible_version": 99
+            "yp_compatible_version": 102
         }
     ],
     "layerDependencies": [
         {
             "dependency": 1,
-            "id": 56364,
-            "layerbranch": 853282,
+            "id": 56422,
+            "layerbranch": 853306,
             "required": true
         },
         {
-            "dependency": 246,
-            "id": 56365,
-            "layerbranch": 853282,
+            "dependency": 49,
+            "id": 56423,
+            "layerbranch": 853306,
             "required": true
-        },
-        {
-            "dependency": 5,
-            "id": 56366,
-            "layerbranch": 853282,
-            "required": true
-        },
-        {
-            "dependency": 252,
-            "id": 56367,
-            "layerbranch": 853282,
-            "required": false
         }
     ],
     "layerItems": [
@@ -268,17 +234,17 @@
         },
         {
             "comparison": false,
-            "description": "The XFCE Desktop software and related components.",
-            "id": 5,
-            "index_preference": 800,
-            "layer_type": "A",
+            "description": "This layer provides the Wind River Linux distribution definitions, \r\ndistribution-specific integration and bug fixes, and other wrlinux components.",
+            "id": 49,
+            "index_preference": 900,
+            "layer_type": "D",
             "mailing_list_url": "",
-            "name": "meta-xfce",
+            "name": "wrlinux",
             "status": "P",
-            "summary": "XFCE Desktop components",
-            "updated": "2018-05-30T22:05:38+0000",
+            "summary": "Wind River Linux distribution definitions",
+            "updated": "2018-05-30T22:05:16+0000",
             "usage_url": "README",
-            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_url": "#BASE_URL#/wrlinux",
             "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
@@ -286,42 +252,79 @@
         },
         {
             "comparison": false,
-            "description": "OverC distribution layer",
-            "id": 245,
+            "description": "Raspberry Pi 3 Board Support Package",
+            "id": 142,
             "index_preference": 0,
-            "layer_type": "D",
+            "layer_type": "B",
             "mailing_list_url": "",
-            "name": "meta-overc",
+            "name": "bcm-2xxx-rpi",
             "status": "P",
-            "summary": "OverC - Container environment",
-            "updated": "2018-08-06T23:08:16+0000",
-            "usage_url": "",
-            "vcs_url": "#BASE_URL#/meta-overc",
-            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/meta-overc/commit/id=%hash%",
-            "vcs_web_file_base_url": "",
-            "vcs_web_tree_base_url": "",
-            "vcs_web_url": ""
-        },
-        {
-            "comparison": false,
-            "description": "Recipe changes for OverC related cubes (containers)",
-            "id": 246,
-            "index_preference": 0,
-            "layer_type": "S",
-            "mailing_list_url": "",
-            "name": "meta-cube",
-            "status": "P",
-            "summary": "Recipe changes for OverC related cubes (containers)",
-            "updated": "2018-08-06T23:08:24+0000",
-            "usage_url": "",
-            "vcs_url": "#BASE_URL#/meta-overc",
-            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/meta-overc/commit/id=%hash%",
+            "summary": "bcm-2xxx-rpi",
+            "updated": "2018-05-30T22:05:21+0000",
+            "usage_url": "http://lxgit.wrs.com/cgit/layers/wr-bsps/bcm-2xxx-rpi",
+            "vcs_url": "#BASE_URL#/bcm-2xxx-rpi",
+            "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
         }
     ],
-    "machines": [],
-    "recipes": [],
-    "wrtemplates": []
+    "machines": [
+        {
+            "description": " a bcm-2xxx-rpi",
+            "id": 24608,
+            "layerbranch": 853306,
+            "name": "bcm-2xxx-rpi4",
+            "updated": "2019-10-22T23:10:21+0000"
+        }
+    ],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "boot-config.bb",
+            "filepath": "recipes-bsp/boot-config",
+            "homepage": "",
+            "id": 1032512,
+            "inherits": "deploy",
+            "layerbranch": 853306,
+            "license": "GPLv2+",
+            "pn": "boot-config",
+            "provides": "boot-config ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "bootloadr configuration",
+            "updated": "2019-10-17T01:10:39+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "rpi-u-boot-scr.bb",
+            "filepath": "recipes-bsp/rpi-u-boot-scr",
+            "homepage": "",
+            "id": 1032513,
+            "inherits": "deploy nopackages",
+            "layerbranch": 853306,
+            "license": "MIT",
+            "pn": "rpi-u-boot-scr",
+            "provides": "rpi-u-boot-scr ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "U-boot boot scripts for Raspberry Pi",
+            "updated": "2019-10-09T01:10:33+0000"
+        }
+    ],
+    "wrtemplates": [
+        {
+            "description": "",
+            "id": 53341,
+            "layerbranch": 853306,
+            "name": "default",
+            "updated": "2019-10-09T01:10:33+0000"
+        }
+    ]
 }
