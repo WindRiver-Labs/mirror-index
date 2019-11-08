@@ -1,0 +1,434 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_19_BASE_UPDATE0000",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 12,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_19_BASE_UPDATE0000",
+            "comparison": false,
+            "id": 160,
+            "name": "WRLINUX_10_19_BASE_UPDATE0000",
+            "short_description": "WRLinux 10_19 Base Update 0000",
+            "sort_priority": null,
+            "update_environment": null,
+            "updated": "2019-10-20T06:10:59+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 160,
+            "collection": "core",
+            "id": 854182,
+            "layer": 1,
+            "updated": "2019-11-08T08:11:20+0000",
+            "vcs_last_commit": "2019-11-07T22:11:20+0000",
+            "vcs_last_fetch": "2019-11-08T08:11:20+0000",
+            "vcs_last_rev": "61cf7fcf5a07031bf9067f6a21659846612e95c0",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 102
+        },
+        {
+            "actual_branch": "",
+            "branch": 160,
+            "collection": "tpm2",
+            "id": 854193,
+            "layer": 152,
+            "updated": "2019-10-20T07:10:31+0000",
+            "vcs_last_commit": "2019-10-14T08:10:39+0000",
+            "vcs_last_fetch": "2019-10-20T07:10:31+0000",
+            "vcs_last_rev": "a1dba8a13660189eb2184b7870a61dd83f36d886",
+            "vcs_subdir": "meta-tpm2",
+            "version": null,
+            "yp_compatible_version": 99
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 56804,
+            "layerbranch": 854193,
+            "required": true
+        },
+        {
+            "dependency": 154,
+            "id": 56805,
+            "layerbranch": 854193,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer enables Trusted Platform Module (TPM 2.0) support, including kernel option changes to enable tpm drivers, and picking up TPM 2.0 packages.",
+            "id": 152,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-tpm2",
+            "status": "P",
+            "summary": "Provide TPM 2.x support",
+            "updated": "2018-05-30T22:05:55+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-secure-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Packagegroup for TPM2 TCG TSS userspace and utilities.",
+            "filename": "packagegroup-tpm2.bb",
+            "filepath": "recipes-base/packagegroups",
+            "homepage": "",
+            "id": 1038555,
+            "inherits": "allarch packagegroup",
+            "layerbranch": 854193,
+            "license": "MIT",
+            "pn": "packagegroup-tpm2",
+            "provides": "packagegroup-tpm2 ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-10-20T07:10:29+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Packagegroup for TPM2 TCG TSS userspace and utilities.",
+            "filename": "packagegroup-tpm2-initramfs.bb",
+            "filepath": "recipes-base/packagegroups",
+            "homepage": "",
+            "id": 1038556,
+            "inherits": "allarch packagegroup",
+            "layerbranch": 854193,
+            "license": "MIT",
+            "pn": "packagegroup-tpm2-initramfs",
+            "provides": "packagegroup-tpm2-initramfs ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-10-20T07:10:29+0000"
+        },
+        {
+            "bbclassextend": "native",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Screen-scraping library",
+            "filename": "python-beautifulsoup4_4.4.1.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "https://pypi.python.org/pypi/beautifulsoup4/",
+            "id": 1038557,
+            "inherits": "distutils distutils-base distutils-common-base python-dir pythonnative setuptools",
+            "layerbranch": 854193,
+            "license": "Apache-2.0",
+            "pn": "python-beautifulsoup4",
+            "provides": "python-beautifulsoup4 ",
+            "pv": "4.4.1",
+            "section": "devel/python",
+            "summary": "",
+            "updated": "2019-10-20T07:10:29+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "The result of the extraction scripts is a complete set of the source files for a Trusted Platform Module (TPM) 2.0 Simulator, which runs under Windows, Linux, as well as Genode (by applying the appropriate patches). ",
+            "filename": "tpm2simulator-native_git.bb",
+            "filepath": "recipes-devtools/tpm2simulator",
+            "homepage": "",
+            "id": 1038558,
+            "inherits": "cmake lib_package native nopackages python-dir pythonnative relocatable",
+            "layerbranch": 854193,
+            "license": "BSD-2-Clause",
+            "pn": "tpm2simulator-native",
+            "provides": "tpm2simulator-native ",
+            "pv": "1.38+gitX",
+            "section": "base",
+            "summary": "TPM 2.0 Simulator Extraction Script",
+            "updated": "2019-10-20T07:10:29+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "The TCG (Trusted Computing Group) Software Stack (TSS) provides a standard API for accessing the functions of the TPM. Application developers can use this software to develop interoperable client applications.",
+            "filename": "tpm2-tss_git.bb",
+            "filepath": "recipes-tpm/tpm2-tss",
+            "homepage": "https://github.com/tpm2-software/tpm2-tss",
+            "id": 1038559,
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "layerbranch": 854193,
+            "license": "BSD-2-Clause",
+            "pn": "tpm2-tss",
+            "provides": "tpm2-tss      libtss2-mu     libtss2-mu-dev     libtss2-mu-staticdev     libtss2-tcti-device     libtss2-tcti-device-dev     libtss2-tcti-device-staticdev     libtss2-tcti-mssim     libtss2-tcti-mssim-dev     libtss2-tcti-mssim-staticdev     libtss2     libtss2-dev     libtss2-staticdev     tpm2-tss     tpm2-tss-doc     tpm2-tss-dbg ",
+            "pv": "git.X",
+            "section": "security/tpm",
+            "summary": "The TCG TPM2 Software Stack",
+            "updated": "2019-10-20T07:10:30+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "The TCG (Trusted Computing Group) Software Stack (TSS) provides a standard API for accessing the functions of the TPM. Application developers can use this software to develop interoperable client applications.",
+            "filename": "tpm2-tss_2.2.3.bb",
+            "filepath": "recipes-tpm/tpm2-tss",
+            "homepage": "https://github.com/tpm2-software/tpm2-tss",
+            "id": 1038560,
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "layerbranch": 854193,
+            "license": "BSD-2-Clause",
+            "pn": "tpm2-tss",
+            "provides": "tpm2-tss      libtss2-mu     libtss2-mu-dev     libtss2-mu-staticdev     libtss2-tcti-device     libtss2-tcti-device-dev     libtss2-tcti-device-staticdev     libtss2-tcti-mssim     libtss2-tcti-mssim-dev     libtss2-tcti-mssim-staticdev     libtss2     libtss2-dev     libtss2-staticdev     tpm2-tss     tpm2-tss-doc     tpm2-tss-dbg ",
+            "pv": "2.2.3",
+            "section": "security/tpm",
+            "summary": "The TCG TPM2 Software Stack",
+            "updated": "2019-10-20T07:10:30+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "This is a system daemon implementing the TPM2 Access Broker (AB) and Resource Manager (RM) specification from the TCG (Trusted Computing Group). The daemon (tpm2-abrmd) is implemented using Glib and the GObject system.",
+            "filename": "tpm2-abrmd_git.bb",
+            "filepath": "recipes-tpm/tpm2-abrmd",
+            "homepage": "https://github.com/tpm2-software/tpm2-abrmd",
+            "id": 1038561,
+            "inherits": "autotools pkgconfig siteconfig siteinfo systemd update-rc.d useradd useradd_base",
+            "layerbranch": 854193,
+            "license": "BSD-2-Clause",
+            "pn": "tpm2-abrmd",
+            "provides": "tpm2-abrmd ",
+            "pv": "git.X",
+            "section": "security/tpm",
+            "summary": "TPM2 Access Broker & Resource Manager",
+            "updated": "2019-10-20T07:10:30+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "This is a system daemon implementing the TPM2 Access Broker (AB) and Resource Manager (RM) specification from the TCG (Trusted Computing Group). The daemon (tpm2-abrmd) is implemented using Glib and the GObject system.",
+            "filename": "tpm2-abrmd_2.0.3.bb",
+            "filepath": "recipes-tpm/tpm2-abrmd",
+            "homepage": "https://github.com/tpm2-software/tpm2-abrmd",
+            "id": 1038562,
+            "inherits": "autotools pkgconfig siteconfig siteinfo systemd update-rc.d useradd useradd_base",
+            "layerbranch": 854193,
+            "license": "BSD-2-Clause",
+            "pn": "tpm2-abrmd",
+            "provides": "tpm2-abrmd ",
+            "pv": "2.0.3",
+            "section": "security/tpm",
+            "summary": "TPM2 Access Broker & Resource Manager",
+            "updated": "2019-10-20T07:10:30+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "This project builds a set of command-line tools for interacting with a TPM (Trusted Platform Module) 2.",
+            "filename": "tpm2-tools_git.bb",
+            "filepath": "recipes-tpm/tpm2-tools",
+            "homepage": "https://github.com/tpm2-software/tpm2-tools",
+            "id": 1038563,
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "layerbranch": 854193,
+            "license": "BSD",
+            "pn": "tpm2-tools",
+            "provides": "tpm2-tools ",
+            "pv": "git.X",
+            "section": "security/tpm",
+            "summary": "Tools for TPM2",
+            "updated": "2019-10-20T07:10:31+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "This project builds a set of command-line tools for interacting with a TPM (Trusted Platform Module) 2.",
+            "filename": "tpm2-tools_3.2.0.bb",
+            "filepath": "recipes-tpm/tpm2-tools",
+            "homepage": "https://github.com/tpm2-software/tpm2-tools",
+            "id": 1038564,
+            "inherits": "autotools pkgconfig siteconfig siteinfo",
+            "layerbranch": 854193,
+            "license": "BSD",
+            "pn": "tpm2-tools",
+            "provides": "tpm2-tools ",
+            "pv": "3.2.0",
+            "section": "security/tpm",
+            "summary": "Tools for TPM2",
+            "updated": "2019-10-20T07:10:31+0000"
+        }
+    ],
+    "wrtemplates": []
+}

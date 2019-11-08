@@ -1,0 +1,298 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_19_BASE_UPDATE0000",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 12,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_19_BASE_UPDATE0000",
+            "comparison": false,
+            "id": 160,
+            "name": "WRLINUX_10_19_BASE_UPDATE0000",
+            "short_description": "WRLinux 10_19 Base Update 0000",
+            "sort_priority": null,
+            "update_environment": null,
+            "updated": "2019-10-20T06:10:59+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 160,
+            "collection": "core",
+            "id": 854182,
+            "layer": 1,
+            "updated": "2019-11-08T08:11:20+0000",
+            "vcs_last_commit": "2019-11-07T22:11:20+0000",
+            "vcs_last_fetch": "2019-11-08T08:11:20+0000",
+            "vcs_last_rev": "61cf7fcf5a07031bf9067f6a21659846612e95c0",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 102
+        },
+        {
+            "actual_branch": "",
+            "branch": 160,
+            "collection": "wrlinux",
+            "id": 854227,
+            "layer": 49,
+            "updated": "2019-11-08T08:11:30+0000",
+            "vcs_last_commit": "2019-11-07T22:11:44+0000",
+            "vcs_last_fetch": "2019-11-08T08:11:30+0000",
+            "vcs_last_rev": "9ea5b421aa0b084e5ebb7ee6f81c47bc07dfc4a5",
+            "vcs_subdir": "",
+            "version": "2",
+            "yp_compatible_version": 101
+        },
+        {
+            "actual_branch": "",
+            "branch": 160,
+            "collection": "wr-renesas-rcar",
+            "id": 854240,
+            "layer": 302,
+            "updated": "2019-10-29T09:10:19+0000",
+            "vcs_last_commit": "2019-10-29T00:10:57+0000",
+            "vcs_last_fetch": "2019-10-29T09:10:19+0000",
+            "vcs_last_rev": "19248f450796e3197adf34adbae0043fd9243f83",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 102
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 57041,
+            "layerbranch": 854240,
+            "required": true
+        },
+        {
+            "dependency": 49,
+            "id": 57042,
+            "layerbranch": 854240,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer provides the Wind River Linux distribution definitions, \r\ndistribution-specific integration and bug fixes, and other wrlinux components.",
+            "id": 49,
+            "index_preference": 900,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "wrlinux",
+            "status": "P",
+            "summary": "Wind River Linux distribution definitions",
+            "updated": "2018-05-30T22:05:16+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wrlinux",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This is the BSP renesas-rcar layer.\r\nThis BSP support for Renesas SoC rcar-h3/m3",
+            "id": 302,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "renesas-rcar",
+            "status": "P",
+            "summary": "This is the BSP renesas-rcar layer",
+            "updated": "2019-07-23T13:07:26+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/renesas-rcar",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/wr-bsps/renesas-rcar.git/commit/id=%hash%",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [
+        {
+            "description": " Renesas R-Car M3 SoC",
+            "id": 24699,
+            "layerbranch": 854240,
+            "name": "renesas-rcar-m3",
+            "updated": "2019-10-20T07:10:06+0000"
+        },
+        {
+            "description": " Renesas R-Car H3 SoC",
+            "id": 24700,
+            "layerbranch": 854240,
+            "name": "renesas-rcar-h3",
+            "updated": "2019-10-20T07:10:06+0000"
+        }
+    ],
+    "recipes": [],
+    "wrtemplates": [
+        {
+            "description": "",
+            "id": 53737,
+            "layerbranch": 854240,
+            "name": "default",
+            "updated": "2019-10-20T07:10:06+0000"
+        }
+    ]
+}

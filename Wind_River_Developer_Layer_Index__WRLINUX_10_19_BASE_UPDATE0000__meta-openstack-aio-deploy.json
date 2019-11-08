@@ -1,0 +1,427 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_19_BASE_UPDATE0000",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 12,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_19_BASE_UPDATE0000",
+            "comparison": false,
+            "id": 160,
+            "name": "WRLINUX_10_19_BASE_UPDATE0000",
+            "short_description": "WRLinux 10_19 Base Update 0000",
+            "sort_priority": null,
+            "update_environment": null,
+            "updated": "2019-10-20T06:10:59+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 160,
+            "collection": "core",
+            "id": 854182,
+            "layer": 1,
+            "updated": "2019-11-08T08:11:20+0000",
+            "vcs_last_commit": "2019-11-07T22:11:20+0000",
+            "vcs_last_fetch": "2019-11-08T08:11:20+0000",
+            "vcs_last_rev": "61cf7fcf5a07031bf9067f6a21659846612e95c0",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 102
+        },
+        {
+            "actual_branch": "",
+            "branch": 160,
+            "collection": "openembedded-layer",
+            "id": 854184,
+            "layer": 7,
+            "updated": "2019-11-06T07:11:05+0000",
+            "vcs_last_commit": "2019-11-05T17:11:41+0000",
+            "vcs_last_fetch": "2019-11-06T07:11:05+0000",
+            "vcs_last_rev": "aa7a017a43000974df05d27287ea0de77897553f",
+            "vcs_subdir": "meta-oe",
+            "version": "1",
+            "yp_compatible_version": 99
+        },
+        {
+            "actual_branch": "",
+            "branch": 160,
+            "collection": "networking-layer",
+            "id": 854211,
+            "layer": 11,
+            "updated": "2019-11-04T07:11:22+0000",
+            "vcs_last_commit": "2019-11-04T01:11:44+0000",
+            "vcs_last_fetch": "2019-11-04T07:11:22+0000",
+            "vcs_last_rev": "c3a42f1de17a36c517e3b676c6048cfbd3f95cd6",
+            "vcs_subdir": "meta-networking",
+            "version": "1",
+            "yp_compatible_version": 99
+        },
+        {
+            "actual_branch": "",
+            "branch": 160,
+            "collection": "cloud-services-layer",
+            "id": 854212,
+            "layer": 141,
+            "updated": "2019-10-20T07:10:57+0000",
+            "vcs_last_commit": "2019-10-16T02:10:12+0000",
+            "vcs_last_fetch": "2019-10-20T07:10:57+0000",
+            "vcs_last_rev": "25beb07b764622a75e944f4699dc98ce2be17b14",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": 99
+        },
+        {
+            "actual_branch": "",
+            "branch": 160,
+            "collection": "virtualization-layer",
+            "id": 854217,
+            "layer": 45,
+            "updated": "2019-10-29T09:10:44+0000",
+            "vcs_last_commit": "2019-10-23T22:10:13+0000",
+            "vcs_last_fetch": "2019-10-29T09:10:44+0000",
+            "vcs_last_rev": "8eb7d71ea64f26a9f7677bdc06e8c4e937434751",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 99
+        },
+        {
+            "actual_branch": "",
+            "branch": 160,
+            "collection": "openstack-layer",
+            "id": 854220,
+            "layer": 155,
+            "updated": "2019-10-20T07:10:19+0000",
+            "vcs_last_commit": "2019-10-16T02:10:12+0000",
+            "vcs_last_fetch": "2019-10-20T07:10:19+0000",
+            "vcs_last_rev": "25beb07b764622a75e944f4699dc98ce2be17b14",
+            "vcs_subdir": "meta-openstack",
+            "version": null,
+            "yp_compatible_version": 99
+        },
+        {
+            "actual_branch": "",
+            "branch": 160,
+            "collection": "openstack-aio-deploy-layer",
+            "id": 854221,
+            "layer": 156,
+            "updated": "2019-10-20T07:10:22+0000",
+            "vcs_last_commit": "2019-10-14T08:10:11+0000",
+            "vcs_last_fetch": "2019-10-20T07:10:22+0000",
+            "vcs_last_rev": "a7e78f2fbc80e4588033a04ff9782f759faafb49",
+            "vcs_subdir": "meta-openstack-aio-deploy",
+            "version": null,
+            "yp_compatible_version": 99
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 141,
+            "id": 56912,
+            "layerbranch": 854221,
+            "required": true
+        },
+        {
+            "dependency": 1,
+            "id": 56913,
+            "layerbranch": 854221,
+            "required": true
+        },
+        {
+            "dependency": 11,
+            "id": 56914,
+            "layerbranch": 854221,
+            "required": true
+        },
+        {
+            "dependency": 7,
+            "id": 56915,
+            "layerbranch": 854221,
+            "required": true
+        },
+        {
+            "dependency": 155,
+            "id": 56916,
+            "layerbranch": 854221,
+            "required": true
+        },
+        {
+            "dependency": 45,
+            "id": 56917,
+            "layerbranch": 854221,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Additional shared OE metadata",
+            "id": 7,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-oe",
+            "status": "P",
+            "summary": "Additional shared OE metadata",
+            "updated": "2018-05-30T22:05:13+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer is intended to be a central point for networking-related\r\npackages and configuration.  It should be useful directly on top of\r\noe-core and compliments meta-openembedded.  It should be primarily useful\r\nto the following groups:",
+            "id": 11,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-networking",
+            "status": "P",
+            "summary": "Networking-related packages and configuration",
+            "updated": "2018-05-30T22:05:09+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer provides lxc package build for Wind River Linux.  It\r\nis required by most other layers that Wind River provides.",
+            "id": 45,
+            "index_preference": 900,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-virtualization",
+            "status": "P",
+            "summary": "Virtualization related components",
+            "updated": "2018-05-30T22:05:12+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-virtualization",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "meta cloud services",
+            "id": 141,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-cloud-services",
+            "status": "P",
+            "summary": "meta cloud services",
+            "updated": "2018-05-30T22:05:35+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-cloud-services",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Support for building the packages from the OpenStack project.  It includes recipes for nova, glance, keystone, cinder, quantum, swift and horizon components.",
+            "id": 155,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-openstack",
+            "status": "P",
+            "summary": "Support for building the packages from the OpenStack project",
+            "updated": "2018-05-30T22:05:03+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-cloud-services",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Provides support configuring and deploying the recipes to create an all-in-one compute/controller node.",
+            "id": 156,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-openstack-aio-deploy",
+            "status": "P",
+            "summary": "Support configuring and deploying the recipes to create an all-in-one compute/controller node",
+            "updated": "2018-05-30T22:05:48+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-cloud-services",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [],
+    "wrtemplates": []
+}
