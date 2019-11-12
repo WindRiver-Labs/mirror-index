@@ -187,13 +187,13 @@
         {
             "actual_branch": "",
             "branch": 100,
-            "collection": "wr-marvell-cn9xxx",
-            "id": 843975,
-            "layer": 296,
-            "updated": "2019-09-09T23:09:44+0000",
-            "vcs_last_commit": "2019-09-03T23:09:59+0000",
-            "vcs_last_fetch": "2019-09-09T23:09:44+0000",
-            "vcs_last_rev": "c7253904c23caf96005b4293e17584fa47843c5c",
+            "collection": "wr-bcm-2xxx-rpi",
+            "id": 846646,
+            "layer": 142,
+            "updated": "2019-09-09T23:09:07+0000",
+            "vcs_last_commit": "2019-08-30T00:08:02+0000",
+            "vcs_last_fetch": "2019-09-09T23:09:07+0000",
+            "vcs_last_rev": "6fb3b40dd98da62b0527c3cc143e9f563274a2d4",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 2
@@ -202,14 +202,14 @@
     "layerDependencies": [
         {
             "dependency": 1,
-            "id": 50863,
-            "layerbranch": 843975,
+            "id": 53301,
+            "layerbranch": 846646,
             "required": true
         },
         {
             "dependency": 49,
-            "id": 50864,
-            "layerbranch": 843975,
+            "id": 53302,
+            "layerbranch": 846646,
             "required": true
         }
     ],
@@ -252,17 +252,17 @@
         },
         {
             "comparison": false,
-            "description": "This layer enables the support for the Marvell cn91xx and cn96xx SoCs.",
-            "id": 296,
+            "description": "Raspberry Pi 3 Board Support Package",
+            "id": 142,
             "index_preference": 0,
             "layer_type": "B",
             "mailing_list_url": "",
-            "name": "marvell-cn9xxx",
+            "name": "bcm-2xxx-rpi",
             "status": "P",
-            "summary": "The BSP for the Marvell CN91xx and CN96xx SoCs",
-            "updated": "2019-06-02T23:06:43+0000",
-            "usage_url": "",
-            "vcs_url": "#BASE_URL#/marvell-cn9xxx",
+            "summary": "bcm-2xxx-rpi",
+            "updated": "2018-05-30T22:05:21+0000",
+            "usage_url": "http://lxgit.wrs.com/cgit/layers/wr-bsps/bcm-2xxx-rpi",
+            "vcs_url": "#BASE_URL#/bcm-2xxx-rpi",
             "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
@@ -271,48 +271,21 @@
     ],
     "machines": [
         {
-            "description": " Marvell CN96xx SoC",
-            "id": 24106,
-            "layerbranch": 843975,
-            "name": "marvell-cn96xx",
-            "updated": "2019-09-09T23:09:44+0000"
-        },
-        {
-            "description": " Marvell CN9130 SoC",
-            "id": 24107,
-            "layerbranch": 843975,
-            "name": "marvell-cn91xx",
-            "updated": "2019-09-09T23:09:44+0000"
+            "description": " a bcm-2xxx-rpi",
+            "id": 24095,
+            "layerbranch": 846646,
+            "name": "bcm-2xxx-rpi",
+            "updated": "2019-09-09T23:09:07+0000"
         }
     ],
-    "recipes": [
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "Marvell User Space SDK.",
-            "filename": "musdk-marvell_rc-19.06.0.bb",
-            "filepath": "recipes-musdk/musdk-marvell",
-            "homepage": "",
-            "id": 951552,
-            "inherits": "autotools autotools-brokensep kernel-arch kernel-module-split module module-base pkgconfig siteconfig siteinfo",
-            "layerbranch": 843975,
-            "license": "BSD",
-            "pn": "musdk-marvell",
-            "provides": "musdk-marvell ",
-            "pv": "rc-19.06.0",
-            "section": "networking",
-            "summary": "MUSDK",
-            "updated": "2019-09-09T23:09:44+0000"
-        }
-    ],
+    "recipes": [],
     "wrtemplates": [
         {
             "description": "",
-            "id": 52470,
-            "layerbranch": 843975,
+            "id": 52405,
+            "layerbranch": 846646,
             "name": "default",
-            "updated": "2019-09-09T23:09:44+0000"
+            "updated": "2019-09-09T23:09:07+0000"
         }
     ]
 }
