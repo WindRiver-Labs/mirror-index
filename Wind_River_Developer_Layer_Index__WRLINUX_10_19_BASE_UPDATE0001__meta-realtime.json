@@ -1,0 +1,358 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_19_BASE_UPDATE0001",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 12,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_19_BASE_UPDATE0001",
+            "comparison": false,
+            "id": 166,
+            "name": "WRLINUX_10_19_BASE_UPDATE0001",
+            "short_description": "WRLinux 10_19 Base Update 0001",
+            "sort_priority": null,
+            "update_environment": null,
+            "updated": "2019-11-08T12:11:01+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 166,
+            "collection": "core",
+            "id": 855938,
+            "layer": 1,
+            "updated": "2019-11-08T12:11:02+0000",
+            "vcs_last_commit": "2019-11-07T22:11:20+0000",
+            "vcs_last_fetch": "2019-11-08T12:11:02+0000",
+            "vcs_last_rev": "61cf7fcf5a07031bf9067f6a21659846612e95c0",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 102
+        },
+        {
+            "actual_branch": "",
+            "branch": 166,
+            "collection": "openembedded-layer",
+            "id": 855940,
+            "layer": 7,
+            "updated": "2019-11-08T12:11:23+0000",
+            "vcs_last_commit": "2019-11-05T17:11:41+0000",
+            "vcs_last_fetch": "2019-11-08T12:11:23+0000",
+            "vcs_last_rev": "aa7a017a43000974df05d27287ea0de77897553f",
+            "vcs_subdir": "meta-oe",
+            "version": "1",
+            "yp_compatible_version": 99
+        },
+        {
+            "actual_branch": "",
+            "branch": 166,
+            "collection": "realtime",
+            "id": 855951,
+            "layer": 48,
+            "updated": "2019-11-08T12:11:00+0000",
+            "vcs_last_commit": "2019-10-14T08:10:27+0000",
+            "vcs_last_fetch": "2019-11-08T12:11:00+0000",
+            "vcs_last_rev": "adb18b84302475cffdf280f9da3cccbcb3a4ff8a",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 99
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 58441,
+            "layerbranch": 855951,
+            "required": true
+        },
+        {
+            "dependency": 7,
+            "id": 58442,
+            "layerbranch": 855951,
+            "required": true
+        },
+        {
+            "dependency": 311,
+            "id": 58443,
+            "layerbranch": 855951,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Additional shared OE metadata",
+            "id": 7,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-oe",
+            "status": "P",
+            "summary": "Additional shared OE metadata",
+            "updated": "2018-05-30T22:05:13+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer is intended to be a central point for realtime related kernel and\r\nsystem development. It also contains utilities, and configuration useful for\r\ntuning a realtime system. It should be useful directly on top of oe-core.  It\r\nshould be primarily useful to the following groups:",
+            "id": 48,
+            "index_preference": 900,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-realtime",
+            "status": "P",
+            "summary": "Realtime related kernel components",
+            "updated": "2018-05-30T22:05:35+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-realtime",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "latencytop_0.5.bb",
+            "filepath": "recipes-kernel/latencytop",
+            "homepage": "http://www.latencytop.org/",
+            "id": 1061159,
+            "inherits": "pkgconfig",
+            "layerbranch": 855951,
+            "license": "GPLv2",
+            "pn": "latencytop",
+            "provides": "latencytop ",
+            "pv": "0.5",
+            "section": "base",
+            "summary": "Linux tool for measuring and fixing latency",
+            "updated": "2019-11-08T12:11:59+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "rt-app is a test application that starts multiple periodic threads in order to simulate a real-time periodic load",
+            "filename": "rt-app.bb",
+            "filepath": "recipes-tools/rt-app",
+            "homepage": "",
+            "id": 1061160,
+            "inherits": "autotools gettext pkgconfig siteconfig siteinfo",
+            "layerbranch": 855951,
+            "license": "GPLv2",
+            "pn": "rt-app",
+            "provides": "rt-app ",
+            "pv": "1.0",
+            "section": "devel",
+            "summary": "",
+            "updated": "2019-11-08T12:11:59+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "schedtool-dl (scheduler test tool) for deadline scheduler",
+            "filename": "schedtool-dl.bb",
+            "filepath": "recipes-tools/schedtool-dl",
+            "homepage": "",
+            "id": 1061161,
+            "inherits": "",
+            "layerbranch": 855951,
+            "license": "GPLv2",
+            "pn": "schedtool-dl",
+            "provides": "schedtool-dl ",
+            "pv": "1.0",
+            "section": "devel",
+            "summary": "",
+            "updated": "2019-11-08T12:11:59+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "A small image just capable of allowing a device to boot and is suitable for development work.",
+            "filename": "core-image-rt-extended.bb",
+            "filepath": "recipes-extended/images",
+            "homepage": "",
+            "id": 1061162,
+            "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "layerbranch": 855951,
+            "license": "MIT",
+            "pn": "core-image-rt-extended",
+            "provides": "core-image-rt-extended ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "A small image just capable of allowing a device to boot.",
+            "updated": "2019-11-08T12:11:00+0000"
+        }
+    ],
+    "wrtemplates": []
+}
