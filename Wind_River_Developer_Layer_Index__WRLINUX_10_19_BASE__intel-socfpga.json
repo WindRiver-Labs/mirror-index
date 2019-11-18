@@ -164,31 +164,51 @@
             "yp_compatible_version": 102
         },
         {
-            "actual_branch": "wr-10.19-20191106",
+            "actual_branch": "",
             "branch": 158,
-            "collection": "dpdk",
-            "id": 853254,
-            "layer": 192,
-            "updated": "2019-11-05T19:11:24+0000",
-            "vcs_last_commit": "2019-10-14T08:10:27+0000",
-            "vcs_last_fetch": "2019-10-14T20:10:31+0000",
-            "vcs_last_rev": "3b3be49693f67b0c81c994562433594914dbf3c5",
+            "collection": "wrlinux",
+            "id": 853279,
+            "layer": 49,
+            "updated": "2019-11-18T00:11:23+0000",
+            "vcs_last_commit": "2019-11-18T00:11:18+0000",
+            "vcs_last_fetch": "2019-11-18T00:11:23+0000",
+            "vcs_last_rev": "72ff8b4fd9ec2a9000b92b396804c8d26d92b056",
+            "vcs_subdir": "",
+            "version": "2",
+            "yp_compatible_version": 101
+        },
+        {
+            "actual_branch": "",
+            "branch": 158,
+            "collection": "intel-socfpga",
+            "id": 856845,
+            "layer": 118,
+            "updated": "2019-11-17T18:11:36+0000",
+            "vcs_last_commit": "2019-11-17T18:11:41+0000",
+            "vcs_last_fetch": "2019-11-17T18:11:36+0000",
+            "vcs_last_rev": "23f4d8975bd9363edea8100fe89022e2ab9849f3",
             "vcs_subdir": "",
             "version": "1",
-            "yp_compatible_version": 103
+            "yp_compatible_version": 100
         }
     ],
     "layerDependencies": [
         {
             "dependency": 1,
-            "id": 56194,
-            "layerbranch": 853254,
+            "id": 59521,
+            "layerbranch": 856845,
             "required": true
         },
         {
-            "dependency": 194,
-            "id": 56195,
-            "layerbranch": 853254,
+            "dependency": 49,
+            "id": 59522,
+            "layerbranch": 856845,
+            "required": true
+        },
+        {
+            "dependency": 237,
+            "id": 59523,
+            "layerbranch": 856845,
             "required": false
         }
     ],
@@ -213,63 +233,97 @@
         },
         {
             "comparison": false,
-            "description": "DPDK is a set of libraries and drivers for fast packet processing.",
-            "id": 192,
-            "index_preference": 0,
-            "layer_type": "A",
+            "description": "This layer provides the Wind River Linux distribution definitions, \r\ndistribution-specific integration and bug fixes, and other wrlinux components.",
+            "id": 49,
+            "index_preference": 900,
+            "layer_type": "D",
             "mailing_list_url": "",
-            "name": "meta-dpdk",
+            "name": "wrlinux",
             "status": "P",
-            "summary": "dpdk layer",
-            "updated": "2018-05-30T22:05:19+0000",
+            "summary": "Wind River Linux distribution definitions",
+            "updated": "2018-05-30T22:05:16+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wrlinux",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Intel socfpga BSP",
+            "id": 118,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "intel-socfpga",
+            "status": "P",
+            "summary": "Intel socfpga BSP",
+            "updated": "2018-05-30T22:05:42+0000",
             "usage_url": "",
-            "vcs_url": "#BASE_URL#/meta-dpdk",
+            "vcs_url": "#BASE_URL#/intel-socfpga",
             "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
         }
     ],
-    "machines": [],
+    "machines": [
+        {
+            "description": " Intel Stratix 10 SoC",
+            "id": 25213,
+            "layerbranch": 856845,
+            "name": "intel-socfpga-64",
+            "updated": "2019-11-17T18:11:35+0000"
+        }
+    ],
     "recipes": [
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "Intel(r) Data Plane Development Kit",
-            "filename": "dpdk_17.11.6.bb",
-            "filepath": "recipes-extended/dpdk",
-            "homepage": "http://dpdk.org",
-            "id": 1031267,
-            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
-            "layerbranch": 853254,
-            "license": "LGPLv2 & GPLv2",
-            "pn": "dpdk",
-            "provides": "dpdk ",
-            "pv": "17.11.6",
-            "section": "base",
-            "summary": "",
-            "updated": "2019-10-11T23:10:24+0000"
+            "description": "",
+            "filename": "u-boot-socfpga_v2019.04.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "https://github.com/altera-opensource/u-boot-socfpga",
+            "id": 1076229,
+            "inherits": "cml1 deploy uboot-config uboot-extlinux-config uboot-sign",
+            "layerbranch": 856845,
+            "license": "GPLv2+",
+            "pn": "u-boot-socfpga",
+            "provides": "u-boot-socfpga virtual/bootloader",
+            "pv": "v2019.04+gitX",
+            "section": "bootloaders",
+            "summary": "Universal Boot Loader for embedded devices",
+            "updated": "2019-11-17T18:11:36+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "description": "Intel(r) Data Plane Development Kit",
-            "filename": "dpdk_18.11.2.bb",
-            "filepath": "recipes-extended/dpdk",
-            "homepage": "http://dpdk.org",
-            "id": 1031268,
-            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
-            "layerbranch": 853254,
-            "license": "BSD-3-Clause & LGPLv2.1 & GPLv2",
-            "pn": "dpdk",
-            "provides": "dpdk ",
-            "pv": "18.11.2",
-            "section": "base",
-            "summary": "",
-            "updated": "2019-10-11T23:10:24+0000"
+            "description": "",
+            "filename": "intel-rsu_git.bb",
+            "filepath": "recipes-bsp/intel-rsu",
+            "homepage": "https://github.com/altera-opensource/intel-rsu",
+            "id": 1076230,
+            "inherits": "autotools siteconfig siteinfo",
+            "layerbranch": 856845,
+            "license": "GPLv2+",
+            "pn": "intel-rsu",
+            "provides": "intel-rsu ",
+            "pv": "1.0.0",
+            "section": "intel-rsu",
+            "summary": "Intel Remote System Update Tool",
+            "updated": "2019-11-17T18:11:36+0000"
         }
     ],
-    "wrtemplates": []
+    "wrtemplates": [
+        {
+            "description": "",
+            "id": 54890,
+            "layerbranch": 856845,
+            "name": "default",
+            "updated": "2019-11-17T18:11:35+0000"
+        }
+    ]
 }

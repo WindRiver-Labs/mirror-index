@@ -79,13 +79,6 @@
         },
         {
             "description": "",
-            "id": 12,
-            "image_url": "",
-            "link_url": "",
-            "name": "sumo thud warrior"
-        },
-        {
-            "description": "",
             "id": 16,
             "image_url": "",
             "link_url": "",
@@ -162,10 +155,10 @@
             "collection": "core",
             "id": 852955,
             "layer": 1,
-            "updated": "2019-11-07T23:11:35+0000",
-            "vcs_last_commit": "2019-11-07T22:11:20+0000",
-            "vcs_last_fetch": "2019-11-07T23:11:35+0000",
-            "vcs_last_rev": "61cf7fcf5a07031bf9067f6a21659846612e95c0",
+            "updated": "2019-11-17T19:11:22+0000",
+            "vcs_last_commit": "2019-11-17T18:11:20+0000",
+            "vcs_last_fetch": "2019-11-17T19:11:22+0000",
+            "vcs_last_rev": "e2731204f1e43f26365fde1b55c711f8f1564492",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 102
@@ -190,10 +183,10 @@
             "collection": "wrlinux",
             "id": 853279,
             "layer": 49,
-            "updated": "2019-11-11T22:11:20+0000",
-            "vcs_last_commit": "2019-11-11T21:11:59+0000",
-            "vcs_last_fetch": "2019-11-11T22:11:20+0000",
-            "vcs_last_rev": "e178be23e4889bd974ad2c06ec8b3051db33809a",
+            "updated": "2019-11-18T00:11:23+0000",
+            "vcs_last_commit": "2019-11-18T00:11:18+0000",
+            "vcs_last_fetch": "2019-11-18T00:11:23+0000",
+            "vcs_last_rev": "72ff8b4fd9ec2a9000b92b396804c8d26d92b056",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 101
@@ -362,7 +355,7 @@
             "pv": "1.0",
             "section": "x11",
             "summary": "Wind River Linux Desktop Themes",
-            "updated": "2019-11-08T13:11:25+0000"
+            "updated": "2019-11-15T06:11:25+0000"
         },
         {
             "bbclassextend": "",
@@ -381,7 +374,7 @@
             "pv": "20100310+gitX",
             "section": "base",
             "summary": "inject PCIE AER errors on the software level",
-            "updated": "2019-11-08T13:11:25+0000"
+            "updated": "2019-11-15T06:11:25+0000"
         },
         {
             "bbclassextend": "",
@@ -400,7 +393,7 @@
             "pv": "1.0",
             "section": "vdso test",
             "summary": " Vdso test Tool",
-            "updated": "2019-11-08T13:11:22+0000"
+            "updated": "2019-11-15T06:11:23+0000"
         },
         {
             "bbclassextend": "",
@@ -419,7 +412,7 @@
             "pv": "2.3a",
             "section": "base",
             "summary": "Intel Processor Counter Monitor",
-            "updated": "2019-11-08T13:11:22+0000"
+            "updated": "2019-11-15T06:11:23+0000"
         },
         {
             "bbclassextend": "",
@@ -438,7 +431,7 @@
             "pv": "0.0.1",
             "section": "base",
             "summary": "Cross Memory Attach test case (cma)",
-            "updated": "2019-11-08T13:11:22+0000"
+            "updated": "2019-11-15T06:11:23+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -457,7 +450,7 @@
             "pv": "1.0+gitX",
             "section": "base",
             "summary": "Credential storage for utilities that implement the askpass interface",
-            "updated": "2019-11-08T13:11:23+0000"
+            "updated": "2019-11-15T06:11:24+0000"
         },
         {
             "bbclassextend": "",
@@ -468,7 +461,7 @@
             "filepath": "dynamic-layers/meta-anaconda/recipes-installer/images",
             "homepage": "",
             "id": 1032388,
-            "inherits": "anaconda_image core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrltemplate_image",
+            "inherits": "anaconda_image core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
             "layerbranch": 853279,
             "license": "MIT",
             "pn": "wrlinux-image-installer-initramfs",
@@ -476,7 +469,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-11-08T13:11:23+0000"
+            "updated": "2019-11-15T06:11:24+0000"
         },
         {
             "bbclassextend": "",
@@ -487,7 +480,7 @@
             "filepath": "dynamic-layers/meta-anaconda/recipes-installer/images",
             "homepage": "",
             "id": 1032389,
-            "inherits": "anaconda_image core-image fs-uuid image image-live image-postinst-intercepts image_types image_types_wic kernel-arch license_image live-vm-common meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo syslinux wrltemplate",
+            "inherits": "anaconda_image core-image fs-uuid image image-live image-postinst-intercepts image_types image_types_wic kernel-arch license_image live-vm-common meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo syslinux",
             "layerbranch": 853279,
             "license": "MIT",
             "pn": "wrlinux-image-installer",
@@ -495,7 +488,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-11-08T13:11:24+0000"
+            "updated": "2019-11-15T06:11:24+0000"
         },
         {
             "bbclassextend": "",
@@ -514,7 +507,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-11-08T13:11:24+0000"
+            "updated": "2019-11-15T06:11:24+0000"
         },
         {
             "bbclassextend": "",
@@ -533,7 +526,7 @@
             "pv": "20131218+gitX",
             "section": "base",
             "summary": "MCE test suite",
-            "updated": "2019-11-08T13:11:24+0000"
+            "updated": "2019-11-15T06:11:24+0000"
         },
         {
             "bbclassextend": "",
@@ -552,7 +545,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2019-11-08T13:11:24+0000"
+            "updated": "2019-11-15T06:11:24+0000"
         },
         {
             "bbclassextend": "",
@@ -571,7 +564,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Tools to replace busybox",
-            "updated": "2019-11-08T13:11:25+0000"
+            "updated": "2019-11-15T06:11:25+0000"
         },
         {
             "bbclassextend": "",
@@ -590,7 +583,7 @@
             "pv": "2016.03",
             "section": "base",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2019-11-08T13:11:25+0000"
+            "updated": "2019-11-15T06:11:25+0000"
         }
     ],
     "wrtemplates": [
