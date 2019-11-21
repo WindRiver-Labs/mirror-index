@@ -180,13 +180,13 @@
         {
             "actual_branch": "",
             "branch": 100,
-            "collection": "wr-renesas-rcar",
-            "id": 846768,
-            "layer": 302,
-            "updated": "2019-10-22T22:10:23+0000",
-            "vcs_last_commit": "2019-10-22T22:10:35+0000",
-            "vcs_last_fetch": "2019-10-22T22:10:23+0000",
-            "vcs_last_rev": "0e0b3d54850a88d69cf2cd4cba00a19d8a4df92e",
+            "collection": "wr-marvell-37xx",
+            "id": 856336,
+            "layer": 324,
+            "updated": "2019-11-13T22:11:10+0000",
+            "vcs_last_commit": "2019-11-07T19:11:52+0000",
+            "vcs_last_fetch": "2019-11-13T22:11:10+0000",
+            "vcs_last_rev": "9c613b47260c31e24f6bbe230c707ce71ab6c7f5",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 2
@@ -195,21 +195,15 @@
     "layerDependencies": [
         {
             "dependency": 1,
-            "id": 53307,
-            "layerbranch": 846768,
+            "id": 58965,
+            "layerbranch": 856336,
             "required": true
         },
         {
             "dependency": 49,
-            "id": 53308,
-            "layerbranch": 846768,
+            "id": 58966,
+            "layerbranch": 856336,
             "required": true
-        },
-        {
-            "dependency": 303,
-            "id": 53309,
-            "layerbranch": 846768,
-            "required": false
         }
     ],
     "layerItems": [
@@ -251,18 +245,18 @@
         },
         {
             "comparison": false,
-            "description": "This is the BSP renesas-rcar layer.\r\nThis BSP support for Renesas SoC rcar-h3/m3",
-            "id": 302,
+            "description": "This layer enables the support for the Marvell 37xx SoCs.",
+            "id": 324,
             "index_preference": 0,
             "layer_type": "B",
             "mailing_list_url": "",
-            "name": "renesas-rcar",
+            "name": "marvell-37xx",
             "status": "P",
-            "summary": "This is the BSP renesas-rcar layer",
-            "updated": "2019-07-23T13:07:26+0000",
+            "summary": "This layer enables the support for the Marvell 37xx SoCs.",
+            "updated": "2019-11-13T22:11:04+0000",
             "usage_url": "",
-            "vcs_url": "#BASE_URL#/renesas-rcar",
-            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/wr-bsps/renesas-rcar.git/commit/id=%hash%",
+            "vcs_url": "#BASE_URL#/marvell-37xx",
+            "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -270,124 +264,13 @@
     ],
     "machines": [
         {
-            "description": " Renesas R-Car M3 SoC",
-            "id": 24108,
-            "layerbranch": 846768,
-            "name": "renesas-rcar-m3",
-            "updated": "2019-09-09T23:09:56+0000"
-        },
-        {
-            "description": " Renesas R-Car H3 SoC",
-            "id": 24109,
-            "layerbranch": 846768,
-            "name": "renesas-rcar-h3",
-            "updated": "2019-09-09T23:09:56+0000"
+            "description": " Marvell 37xx SoC",
+            "id": 25151,
+            "layerbranch": 856336,
+            "name": "marvell-37xx",
+            "updated": "2019-11-13T22:11:10+0000"
         }
     ],
-    "recipes": [
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "OP-TEE OS",
-            "filename": "optee-os_git.bb",
-            "filepath": "recipes-bsp/optee",
-            "homepage": "",
-            "id": 989905,
-            "inherits": "deploy python-dir pythonnative",
-            "layerbranch": 846768,
-            "license": "BSD-2-Clause & BSD-3-Clause",
-            "pn": "optee-os",
-            "provides": "optee-os ",
-            "pv": "3.1.0+renesas+gitX",
-            "section": "base",
-            "summary": "",
-            "updated": "2019-09-09T23:09:55+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "u-boot-renesas_2018.09.bb",
-            "filepath": "recipes-bsp/u-boot-renesas",
-            "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
-            "id": 989906,
-            "inherits": "deploy uboot-config uboot-extlinux-config uboot-sign",
-            "layerbranch": 846768,
-            "license": "GPLv2+",
-            "pn": "u-boot-renesas",
-            "provides": "u-boot-renesas virtual/bootloader",
-            "pv": "v2018.09+gitX",
-            "section": "bootloaders",
-            "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2019-09-09T23:09:55+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "ARM Trusted Firmware",
-            "filename": "arm-trusted-firmware_git.bb",
-            "filepath": "recipes-bsp/arm-trusted-firmware",
-            "homepage": "",
-            "id": 989907,
-            "inherits": "deploy",
-            "layerbranch": 846768,
-            "license": "BSD",
-            "pn": "arm-trusted-firmware",
-            "provides": "arm-trusted-firmware ",
-            "pv": "v1.5+renesas+gitX",
-            "section": "base",
-            "summary": "",
-            "updated": "2019-09-09T23:09:55+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "ti-bt-firmware_git.bb",
-            "filepath": "recipes-bsp/ti-bt-firmware",
-            "homepage": "",
-            "id": 989912,
-            "inherits": "",
-            "layerbranch": 846768,
-            "license": "CLOSED",
-            "pn": "ti-bt-firmware",
-            "provides": "ti-bt-firmware ",
-            "pv": "0.0",
-            "section": "misc",
-            "summary": "Bluetooth firmare files for WL18xx combo modules",
-            "updated": "2019-09-09T23:09:55+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "ti-bt_git.bb",
-            "filepath": "recipes-bsp/ti-bt",
-            "homepage": "",
-            "id": 989913,
-            "inherits": "systemd update-rc.d",
-            "layerbranch": 846768,
-            "license": "GPLv2",
-            "pn": "ti-bt",
-            "provides": "ti-bt ",
-            "pv": "0.1+gitX",
-            "section": "misc",
-            "summary": "UIM tool for WL18xx module",
-            "updated": "2019-09-09T23:09:56+0000"
-        }
-    ],
-    "wrtemplates": [
-        {
-            "description": "",
-            "id": 52476,
-            "layerbranch": 846768,
-            "name": "default",
-            "updated": "2019-09-24T04:09:22+0000"
-        }
-    ]
+    "recipes": [],
+    "wrtemplates": []
 }
