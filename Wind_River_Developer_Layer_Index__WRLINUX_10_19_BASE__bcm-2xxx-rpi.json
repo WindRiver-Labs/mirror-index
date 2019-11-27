@@ -155,10 +155,10 @@
             "collection": "core",
             "id": 852955,
             "layer": 1,
-            "updated": "2019-11-17T19:11:22+0000",
-            "vcs_last_commit": "2019-11-17T18:11:20+0000",
-            "vcs_last_fetch": "2019-11-17T19:11:22+0000",
-            "vcs_last_rev": "e2731204f1e43f26365fde1b55c711f8f1564492",
+            "updated": "2019-11-25T19:11:23+0000",
+            "vcs_last_commit": "2019-11-25T18:11:11+0000",
+            "vcs_last_fetch": "2019-11-25T19:11:23+0000",
+            "vcs_last_rev": "714d96ed68d0026e635bc765bd6a4381d97844d0",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 102
@@ -169,10 +169,10 @@
             "collection": "wrlinux",
             "id": 853279,
             "layer": 49,
-            "updated": "2019-11-18T00:11:23+0000",
-            "vcs_last_commit": "2019-11-18T00:11:18+0000",
-            "vcs_last_fetch": "2019-11-18T00:11:23+0000",
-            "vcs_last_rev": "72ff8b4fd9ec2a9000b92b396804c8d26d92b056",
+            "updated": "2019-11-27T00:11:59+0000",
+            "vcs_last_commit": "2019-11-26T23:11:52+0000",
+            "vcs_last_fetch": "2019-11-27T00:11:59+0000",
+            "vcs_last_rev": "bdb372c09fb2444c9cc62a413caa96833ca1ebce",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 101
@@ -183,10 +183,10 @@
             "collection": "wr-bcm-2xxx-rpi",
             "id": 853306,
             "layer": 142,
-            "updated": "2019-11-06T03:11:20+0000",
-            "vcs_last_commit": "2019-11-06T02:11:16+0000",
-            "vcs_last_fetch": "2019-11-06T03:11:20+0000",
-            "vcs_last_rev": "5814d9da1920b91346e6628b6c6353332651bfc4",
+            "updated": "2019-11-26T23:11:39+0000",
+            "vcs_last_commit": "2019-11-25T21:11:58+0000",
+            "vcs_last_fetch": "2019-11-26T23:11:39+0000",
+            "vcs_last_rev": "3e11a4b6ea57ce2811d98d3e79dd400dcd299ca3",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 102
@@ -204,6 +204,12 @@
             "id": 56423,
             "layerbranch": 853306,
             "required": true
+        },
+        {
+            "dependency": 342,
+            "id": 60175,
+            "layerbranch": 853306,
+            "required": false
         }
     ],
     "layerItems": [
@@ -265,10 +271,10 @@
     "machines": [
         {
             "description": " a bcm-2xxx-rpi",
-            "id": 24608,
+            "id": 25835,
             "layerbranch": 853306,
             "name": "bcm-2xxx-rpi4",
-            "updated": "2019-10-22T23:10:21+0000"
+            "updated": "2019-11-26T23:11:39+0000"
         }
     ],
     "recipes": [
@@ -289,7 +295,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "bootloadr configuration",
-            "updated": "2019-10-17T01:10:39+0000"
+            "updated": "2019-11-26T23:11:39+0000"
         },
         {
             "bbclassextend": "",
@@ -308,16 +314,35 @@
             "pv": "1.0",
             "section": "base",
             "summary": "U-boot boot scripts for Raspberry Pi",
-            "updated": "2019-10-09T01:10:33+0000"
+            "updated": "2019-11-26T23:11:39+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Closed source binary files to help boot the ARM on the BCM2835.",
+            "filename": "bcm2835-bootfiles.bb",
+            "filepath": "recipes-bsp/bootfiles",
+            "homepage": "",
+            "id": 1083971,
+            "inherits": "deploy nopackages",
+            "layerbranch": 853306,
+            "license": "Broadcom-RPi",
+            "pn": "bcm2835-bootfiles",
+            "provides": "bcm2835-bootfiles ",
+            "pv": "20191107",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-11-26T23:11:39+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 53341,
+            "id": 55769,
             "layerbranch": 853306,
             "name": "default",
-            "updated": "2019-10-09T01:10:33+0000"
+            "updated": "2019-11-26T23:11:39+0000"
         }
     ]
 }
