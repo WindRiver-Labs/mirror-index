@@ -1,0 +1,393 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_18_BASE_UPDATE0013",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_18_BASE_UPDATE0013",
+            "comparison": false,
+            "id": 170,
+            "name": "WRLINUX_10_18_BASE_UPDATE0013",
+            "short_description": "WRLinux 10_18 Base Update 0013",
+            "sort_priority": 9800,
+            "update_environment": null,
+            "updated": "2019-11-20T18:11:47+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 170,
+            "collection": "core",
+            "id": 857094,
+            "layer": 1,
+            "updated": "2019-11-21T20:11:45+0000",
+            "vcs_last_commit": "2019-10-24T01:10:31+0000",
+            "vcs_last_fetch": "2019-11-21T20:11:45+0000",
+            "vcs_last_rev": "4668f3b88b08adcc9c4a34a5a5d9a8a50a3fa074",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 2
+        },
+        {
+            "actual_branch": "",
+            "branch": 170,
+            "collection": "wrlinux",
+            "id": 857140,
+            "layer": 49,
+            "updated": "2019-11-28T05:11:16+0000",
+            "vcs_last_commit": "2019-11-28T03:11:16+0000",
+            "vcs_last_fetch": "2019-11-28T05:11:16+0000",
+            "vcs_last_rev": "d310ab324789644c19fbbc9f3412808169f432d4",
+            "vcs_subdir": "",
+            "version": "2",
+            "yp_compatible_version": 2
+        },
+        {
+            "actual_branch": "",
+            "branch": 170,
+            "collection": "wr-renesas-rcar",
+            "id": 857157,
+            "layer": 302,
+            "updated": "2019-11-21T20:11:50+0000",
+            "vcs_last_commit": "2019-10-22T22:10:35+0000",
+            "vcs_last_fetch": "2019-11-21T20:11:50+0000",
+            "vcs_last_rev": "0e0b3d54850a88d69cf2cd4cba00a19d8a4df92e",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 2
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 59781,
+            "layerbranch": 857157,
+            "required": true
+        },
+        {
+            "dependency": 49,
+            "id": 59782,
+            "layerbranch": 857157,
+            "required": true
+        },
+        {
+            "dependency": 303,
+            "id": 59783,
+            "layerbranch": 857157,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer provides the Wind River Linux distribution definitions, \r\ndistribution-specific integration and bug fixes, and other wrlinux components.",
+            "id": 49,
+            "index_preference": 900,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "wrlinux",
+            "status": "P",
+            "summary": "Wind River Linux distribution definitions",
+            "updated": "2018-05-30T22:05:16+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wrlinux",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This is the BSP renesas-rcar layer.\r\nThis BSP support for Renesas SoC rcar-h3/m3",
+            "id": 302,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "renesas-rcar",
+            "status": "P",
+            "summary": "This is the BSP renesas-rcar layer",
+            "updated": "2019-07-23T13:07:26+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/renesas-rcar",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/wr-bsps/renesas-rcar.git/commit/id=%hash%",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [
+        {
+            "description": " Renesas R-Car M3 SoC",
+            "id": 25639,
+            "layerbranch": 857157,
+            "name": "renesas-rcar-m3",
+            "updated": "2019-11-21T20:11:50+0000"
+        },
+        {
+            "description": " Renesas R-Car H3 SoC",
+            "id": 25640,
+            "layerbranch": 857157,
+            "name": "renesas-rcar-h3",
+            "updated": "2019-11-21T20:11:50+0000"
+        }
+    ],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "OP-TEE OS",
+            "filename": "optee-os_git.bb",
+            "filepath": "recipes-bsp/optee",
+            "homepage": "",
+            "id": 1079622,
+            "inherits": "deploy python-dir pythonnative",
+            "layerbranch": 857157,
+            "license": "BSD-2-Clause & BSD-3-Clause",
+            "pn": "optee-os",
+            "provides": "optee-os ",
+            "pv": "3.1.0+renesas+gitX",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-11-21T20:11:49+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "u-boot-renesas_2018.09.bb",
+            "filepath": "recipes-bsp/u-boot-renesas",
+            "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
+            "id": 1079623,
+            "inherits": "deploy uboot-config uboot-extlinux-config uboot-sign",
+            "layerbranch": 857157,
+            "license": "GPLv2+",
+            "pn": "u-boot-renesas",
+            "provides": "u-boot-renesas virtual/bootloader",
+            "pv": "v2018.09+gitX",
+            "section": "bootloaders",
+            "summary": "Universal Boot Loader for embedded devices",
+            "updated": "2019-11-21T20:11:49+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "ARM Trusted Firmware",
+            "filename": "arm-trusted-firmware_git.bb",
+            "filepath": "recipes-bsp/arm-trusted-firmware",
+            "homepage": "",
+            "id": 1079624,
+            "inherits": "deploy",
+            "layerbranch": 857157,
+            "license": "BSD",
+            "pn": "arm-trusted-firmware",
+            "provides": "arm-trusted-firmware ",
+            "pv": "v1.5+renesas+gitX",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-11-21T20:11:49+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "ti-bt_git.bb",
+            "filepath": "recipes-bsp/ti-bt",
+            "homepage": "",
+            "id": 1079625,
+            "inherits": "systemd update-rc.d",
+            "layerbranch": 857157,
+            "license": "GPLv2",
+            "pn": "ti-bt",
+            "provides": "ti-bt ",
+            "pv": "0.1+gitX",
+            "section": "misc",
+            "summary": "UIM tool for WL18xx module",
+            "updated": "2019-11-21T20:11:50+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "",
+            "filename": "ti-bt-firmware_git.bb",
+            "filepath": "recipes-bsp/ti-bt-firmware",
+            "homepage": "",
+            "id": 1079626,
+            "inherits": "",
+            "layerbranch": 857157,
+            "license": "CLOSED",
+            "pn": "ti-bt-firmware",
+            "provides": "ti-bt-firmware ",
+            "pv": "0.0",
+            "section": "misc",
+            "summary": "Bluetooth firmare files for WL18xx combo modules",
+            "updated": "2019-11-21T20:11:50+0000"
+        }
+    ],
+    "wrtemplates": [
+        {
+            "description": "",
+            "id": 55499,
+            "layerbranch": 857157,
+            "name": "default",
+            "updated": "2019-11-21T20:11:50+0000"
+        }
+    ]
+}
