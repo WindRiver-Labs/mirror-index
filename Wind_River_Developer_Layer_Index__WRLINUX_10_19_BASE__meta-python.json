@@ -183,10 +183,10 @@
             "collection": "meta-python",
             "id": 853240,
             "layer": 12,
-            "updated": "2019-11-27T00:11:48+0000",
-            "vcs_last_commit": "2019-11-26T23:11:27+0000",
-            "vcs_last_fetch": "2019-11-27T00:11:48+0000",
-            "vcs_last_rev": "36f46ffc2d481f73677f1fa27eef960527f7185d",
+            "updated": "2019-11-27T23:11:55+0000",
+            "vcs_last_commit": "2019-11-27T23:11:34+0000",
+            "vcs_last_fetch": "2019-11-27T23:11:55+0000",
+            "vcs_last_rev": "de6a4e700fa41287481df90cda7f35af803755cd",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 99
@@ -1149,7 +1149,7 @@
             "blacklisted": "",
             "bugtracker": "",
             "description": "",
-            "filename": "python3-django_1.11.14.bb",
+            "filename": "python3-django_2.2.7.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.djangoproject.com/",
             "id": 1030496,
@@ -1158,10 +1158,10 @@
             "license": "BSD-3-Clause",
             "pn": "python3-django",
             "provides": "python3-django ",
-            "pv": "1.11.14",
+            "pv": "2.2.7",
             "section": "devel/python",
             "summary": "A high-level Python Web framework",
-            "updated": "2019-10-09T01:10:49+0000"
+            "updated": "2019-11-27T23:11:55+0000"
         },
         {
             "bbclassextend": "",
@@ -8533,7 +8533,7 @@
             "pv": "1.11.14",
             "section": "devel/python",
             "summary": "A high-level Python Web framework",
-            "updated": "2019-10-09T01:10:47+0000"
+            "updated": "2019-11-27T23:11:54+0000"
         },
         {
             "bbclassextend": "",
@@ -10757,6 +10757,44 @@
             "section": "devel/python",
             "summary": "A WSGI server for Python",
             "updated": "2019-10-15T00:10:14+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Non-validating SQL parser module",
+            "filename": "python-sqlparse_0.3.0.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "http://pypi.python.org/pypi/sqlparse",
+            "id": 1083982,
+            "inherits": "distutils distutils-base distutils-common-base pypi python-dir pythonnative setuptools",
+            "layerbranch": 853240,
+            "license": "BSD",
+            "pn": "python-sqlparse",
+            "provides": "python-sqlparse ",
+            "pv": "0.3.0",
+            "section": "devel/python",
+            "summary": "",
+            "updated": "2019-11-27T23:11:54+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Non-validating SQL parser module",
+            "filename": "python3-sqlparse_0.3.0.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "http://pypi.python.org/pypi/sqlparse",
+            "id": 1083983,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 853240,
+            "license": "BSD",
+            "pn": "python3-sqlparse",
+            "provides": "python3-sqlparse ",
+            "pv": "0.3.0",
+            "section": "devel/python",
+            "summary": "",
+            "updated": "2019-11-27T23:11:55+0000"
         }
     ],
     "wrtemplates": []
