@@ -1,0 +1,504 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_19_BASE_UPDATE0002",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_19_BASE_UPDATE0002",
+            "comparison": false,
+            "id": 168,
+            "name": "WRLINUX_10_19_BASE_UPDATE0002",
+            "short_description": "WRLinux 10_19 Base Update 0002",
+            "sort_priority": null,
+            "update_environment": null,
+            "updated": "2019-11-15T04:11:36+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [
+        {
+            "description": "Wind River Linux (OverC)",
+            "id": 6736,
+            "layerbranch": 856574,
+            "name": "wrlinux-overc",
+            "updated": "2019-12-10T19:12:26+0000"
+        }
+    ],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 168,
+            "collection": "wrlinux-overc-cfg",
+            "id": 856492,
+            "layer": 270,
+            "updated": "2019-12-10T19:12:02+0000",
+            "vcs_last_commit": "2019-12-10T02:12:47+0000",
+            "vcs_last_fetch": "2019-12-10T19:12:02+0000",
+            "vcs_last_rev": "b6ebf6b688a1ac6d0c99a1725dd70e4ab9e6f592",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 101
+        },
+        {
+            "actual_branch": "",
+            "branch": 168,
+            "collection": "core",
+            "id": 856514,
+            "layer": 1,
+            "updated": "2019-11-27T07:11:45+0000",
+            "vcs_last_commit": "2019-11-25T18:11:11+0000",
+            "vcs_last_fetch": "2019-11-27T07:11:45+0000",
+            "vcs_last_rev": "714d96ed68d0026e635bc765bd6a4381d97844d0",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 102
+        },
+        {
+            "actual_branch": "",
+            "branch": 168,
+            "collection": "selinux",
+            "id": 856522,
+            "layer": 20,
+            "updated": "2019-11-15T05:11:18+0000",
+            "vcs_last_commit": "2019-10-25T02:10:52+0000",
+            "vcs_last_fetch": "2019-11-15T05:11:18+0000",
+            "vcs_last_rev": "f08ed52ebbf95d2f2d952b54bb8b9a88a672a707",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 99
+        },
+        {
+            "actual_branch": "",
+            "branch": 168,
+            "collection": "wr-template",
+            "id": 856532,
+            "layer": 55,
+            "updated": "2019-11-15T05:11:16+0000",
+            "vcs_last_commit": "2019-10-14T08:10:28+0000",
+            "vcs_last_fetch": "2019-11-15T05:11:16+0000",
+            "vcs_last_rev": "a19a8fb456b0e70d068183cb0837c31f456b46b3",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 101
+        },
+        {
+            "actual_branch": "",
+            "branch": 168,
+            "collection": "ostree-layer",
+            "id": 856537,
+            "layer": 292,
+            "updated": "2019-12-10T19:12:23+0000",
+            "vcs_last_commit": "2019-12-06T12:12:27+0000",
+            "vcs_last_fetch": "2019-12-10T19:12:23+0000",
+            "vcs_last_rev": "51b2f2cdce9d90195abbafc4ff57798ce8f60ce1",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": 101
+        },
+        {
+            "actual_branch": "",
+            "branch": 168,
+            "collection": "wrlinux",
+            "id": 856559,
+            "layer": 49,
+            "updated": "2019-12-10T19:12:07+0000",
+            "vcs_last_commit": "2019-12-10T13:12:37+0000",
+            "vcs_last_fetch": "2019-12-10T19:12:07+0000",
+            "vcs_last_rev": "d76d8c3a3d78ae425a2e78080757210fbc3f5b16",
+            "vcs_subdir": "",
+            "version": "2",
+            "yp_compatible_version": 101
+        },
+        {
+            "actual_branch": "",
+            "branch": 168,
+            "collection": "cube",
+            "id": 856560,
+            "layer": 246,
+            "updated": "2019-11-27T07:11:10+0000",
+            "vcs_last_commit": "2019-11-25T23:11:32+0000",
+            "vcs_last_fetch": "2019-11-27T07:11:10+0000",
+            "vcs_last_rev": "ce7ea09ae53b18b8864f1632895059aefbc0b51c",
+            "vcs_subdir": "meta-cube",
+            "version": "1",
+            "yp_compatible_version": 99
+        },
+        {
+            "actual_branch": "",
+            "branch": 168,
+            "collection": "overc",
+            "id": 856573,
+            "layer": 245,
+            "updated": "2019-11-27T07:11:22+0000",
+            "vcs_last_commit": "2019-11-25T23:11:32+0000",
+            "vcs_last_fetch": "2019-11-27T07:11:22+0000",
+            "vcs_last_rev": "ce7ea09ae53b18b8864f1632895059aefbc0b51c",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 99
+        },
+        {
+            "actual_branch": "",
+            "branch": 168,
+            "collection": "wrlinux-overc",
+            "id": 856574,
+            "layer": 251,
+            "updated": "2019-12-10T19:12:26+0000",
+            "vcs_last_commit": "2019-12-10T13:12:37+0000",
+            "vcs_last_fetch": "2019-12-10T19:12:26+0000",
+            "vcs_last_rev": "d76d8c3a3d78ae425a2e78080757210fbc3f5b16",
+            "vcs_subdir": "wrlinux-overc",
+            "version": "1",
+            "yp_compatible_version": 101
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 59238,
+            "layerbranch": 856574,
+            "required": true
+        },
+        {
+            "dependency": 246,
+            "id": 59239,
+            "layerbranch": 856574,
+            "required": true
+        },
+        {
+            "dependency": 292,
+            "id": 59240,
+            "layerbranch": 856574,
+            "required": true
+        },
+        {
+            "dependency": 245,
+            "id": 59241,
+            "layerbranch": 856574,
+            "required": true
+        },
+        {
+            "dependency": 55,
+            "id": 59242,
+            "layerbranch": 856574,
+            "required": true
+        },
+        {
+            "dependency": 49,
+            "id": 59243,
+            "layerbranch": 856574,
+            "required": true
+        },
+        {
+            "dependency": 270,
+            "id": 59244,
+            "layerbranch": 856574,
+            "required": true
+        },
+        {
+            "dependency": 20,
+            "id": 60178,
+            "layerbranch": 856574,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer's purpose is enabling SE Linux support when used with Poky.",
+            "id": 20,
+            "index_preference": 800,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-selinux",
+            "status": "P",
+            "summary": "SE Linux support",
+            "updated": "2018-05-30T22:05:27+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-selinux",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer provides the Wind River Linux distribution definitions, \r\ndistribution-specific integration and bug fixes, and other wrlinux components.",
+            "id": 49,
+            "index_preference": 900,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "wrlinux",
+            "status": "P",
+            "summary": "Wind River Linux distribution definitions",
+            "updated": "2018-05-30T22:05:16+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wrlinux",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer provides template processing support to OpenEmbedded.  Wind River\r\ntemplates are a mechanism that permit various configurations to be enabled\r\nwith a simple setting.",
+            "id": 55,
+            "index_preference": 900,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "wr-template",
+            "status": "P",
+            "summary": "Wind River Template Support",
+            "updated": "2018-05-30T22:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wr-template",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "OverC distribution layer",
+            "id": 245,
+            "index_preference": 0,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "meta-overc",
+            "status": "P",
+            "summary": "OverC - Container environment",
+            "updated": "2018-08-06T23:08:16+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-overc",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/meta-overc/commit/id=%hash%",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Recipe changes for OverC related cubes (containers)",
+            "id": 246,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "meta-cube",
+            "status": "P",
+            "summary": "Recipe changes for OverC related cubes (containers)",
+            "updated": "2018-08-06T23:08:24+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-overc",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/meta-overc/commit/id=%hash%",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Wind River Linux OverC distribution layer",
+            "id": 251,
+            "index_preference": 0,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "wrlinux-overc",
+            "status": "P",
+            "summary": "Wind River Linux OverC distribution layer",
+            "updated": "2018-09-16T19:09:27+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/wrlinux",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/wrlinux/commit/id=%hash%",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Wind River Linux OverC configuration elements, including supported hash and PR values.",
+            "id": 270,
+            "index_preference": 0,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "wrlinux-overc-cfg",
+            "status": "P",
+            "summary": "wrlinux-overc configuration",
+            "updated": "2018-10-09T10:10:51+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/wrlinux-overc-cfg",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/wrlinux-overc-cfg/commit/id=%hash%",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "The layer contains ostree package and bbclass to generate ostree type image for rootfs.",
+            "id": 292,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "wr-ostree",
+            "status": "P",
+            "summary": "Support ostree update method",
+            "updated": "2019-08-08T06:08:26+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/wr-ostree",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/wr-ostree.git/commit/id=%hash%",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [],
+    "wrtemplates": []
+}

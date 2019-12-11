@@ -1,0 +1,370 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_19_BASE_UPDATE0002",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_19_BASE_UPDATE0002",
+            "comparison": false,
+            "id": 168,
+            "name": "WRLINUX_10_19_BASE_UPDATE0002",
+            "short_description": "WRLinux 10_19 Base Update 0002",
+            "sort_priority": null,
+            "update_environment": null,
+            "updated": "2019-11-15T04:11:36+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 168,
+            "collection": "core",
+            "id": 856514,
+            "layer": 1,
+            "updated": "2019-11-27T07:11:45+0000",
+            "vcs_last_commit": "2019-11-25T18:11:11+0000",
+            "vcs_last_fetch": "2019-11-27T07:11:45+0000",
+            "vcs_last_rev": "714d96ed68d0026e635bc765bd6a4381d97844d0",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 102
+        },
+        {
+            "actual_branch": "",
+            "branch": 168,
+            "collection": "openembedded-layer",
+            "id": 856516,
+            "layer": 7,
+            "updated": "2019-11-15T12:11:22+0000",
+            "vcs_last_commit": "2019-11-05T17:11:41+0000",
+            "vcs_last_fetch": "2019-11-15T12:11:22+0000",
+            "vcs_last_rev": "aa7a017a43000974df05d27287ea0de77897553f",
+            "vcs_subdir": "meta-oe",
+            "version": "1",
+            "yp_compatible_version": 99
+        },
+        {
+            "actual_branch": "",
+            "branch": 168,
+            "collection": "tpm2",
+            "id": 856525,
+            "layer": 152,
+            "updated": "2019-11-15T05:11:36+0000",
+            "vcs_last_commit": "2019-10-14T08:10:39+0000",
+            "vcs_last_fetch": "2019-11-15T05:11:36+0000",
+            "vcs_last_rev": "a1dba8a13660189eb2184b7870a61dd83f36d886",
+            "vcs_subdir": "meta-tpm2",
+            "version": null,
+            "yp_compatible_version": 99
+        },
+        {
+            "actual_branch": "",
+            "branch": 168,
+            "collection": "encrypted-storage",
+            "id": 856541,
+            "layer": 127,
+            "updated": "2019-11-15T05:11:50+0000",
+            "vcs_last_commit": "2019-10-14T08:10:39+0000",
+            "vcs_last_fetch": "2019-11-15T05:11:50+0000",
+            "vcs_last_rev": "a1dba8a13660189eb2184b7870a61dd83f36d886",
+            "vcs_subdir": "meta-encrypted-storage",
+            "version": null,
+            "yp_compatible_version": 99
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 59034,
+            "layerbranch": 856541,
+            "required": true
+        },
+        {
+            "dependency": 7,
+            "id": 59035,
+            "layerbranch": 856541,
+            "required": true
+        },
+        {
+            "dependency": 152,
+            "id": 59036,
+            "layerbranch": 856541,
+            "required": true
+        },
+        {
+            "dependency": 121,
+            "id": 59037,
+            "layerbranch": 856541,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Additional shared OE metadata",
+            "id": 7,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-oe",
+            "status": "P",
+            "summary": "Additional shared OE metadata",
+            "updated": "2018-05-30T22:05:13+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/meta-openembedded",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer provides the encrypted storage components",
+            "id": 127,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-encrypted-storage",
+            "status": "P",
+            "summary": "Encrypted storage components",
+            "updated": "2018-05-30T22:05:14+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-secure-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer enables Trusted Platform Module (TPM 2.0) support, including kernel option changes to enable tpm drivers, and picking up TPM 2.0 packages.",
+            "id": 152,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-tpm2",
+            "status": "P",
+            "summary": "Provide TPM 2.x support",
+            "updated": "2018-05-30T22:05:55+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-secure-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "The packages used for luks in initramfs.",
+            "filename": "packagegroup-luks-initramfs.bb",
+            "filepath": "recipes-base/packagegroups",
+            "homepage": "",
+            "id": 1070108,
+            "inherits": "",
+            "layerbranch": 856541,
+            "license": "MIT",
+            "pn": "packagegroup-luks-initramfs",
+            "provides": "packagegroup-luks-initramfs ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-11-15T05:11:49+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "The packages used for LUKS.",
+            "filename": "packagegroup-luks.bb",
+            "filepath": "recipes-base/packagegroups",
+            "homepage": "",
+            "id": 1070109,
+            "inherits": "",
+            "layerbranch": 856541,
+            "license": "MIT",
+            "pn": "packagegroup-luks",
+            "provides": "packagegroup-luks ",
+            "pv": "1.0",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-11-15T05:11:49+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "This project provides with an implementation for creating, persisting and evicting a passphrase with TPM 2.0. The passphrase and its associated primary key are automatically created by RNG engine in TPM. In order to avoid saving the context file, the created passphrase and primary key are always persistent in TPM. ",
+            "filename": "cryptfs-tpm2_git.bb",
+            "filepath": "recipes-tpm/cryptfs-tpm2",
+            "homepage": "https://github.com/WindRiver-OpenSourceLabs/cryptfs-tpm2",
+            "id": 1070110,
+            "inherits": "",
+            "layerbranch": 856541,
+            "license": "BSD-3-Clause",
+            "pn": "cryptfs-tpm2",
+            "provides": "cryptfs-tpm2 ",
+            "pv": "0.7.0+gitX",
+            "section": "security/tpm",
+            "summary": "A tool used to create, persist, evict a passphrase for full-disk-encryption with TPM 2.0",
+            "updated": "2019-11-15T05:11:50+0000"
+        }
+    ],
+    "wrtemplates": []
+}

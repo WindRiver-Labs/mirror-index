@@ -1,0 +1,230 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_19_BASE_UPDATE0002",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_19_BASE_UPDATE0002",
+            "comparison": false,
+            "id": 168,
+            "name": "WRLINUX_10_19_BASE_UPDATE0002",
+            "short_description": "WRLinux 10_19 Base Update 0002",
+            "sort_priority": null,
+            "update_environment": null,
+            "updated": "2019-11-15T04:11:36+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 168,
+            "collection": "core",
+            "id": 856514,
+            "layer": 1,
+            "updated": "2019-11-27T07:11:45+0000",
+            "vcs_last_commit": "2019-11-25T18:11:11+0000",
+            "vcs_last_fetch": "2019-11-27T07:11:45+0000",
+            "vcs_last_rev": "714d96ed68d0026e635bc765bd6a4381d97844d0",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 102
+        },
+        {
+            "actual_branch": "",
+            "branch": 168,
+            "collection": "wr-template",
+            "id": 856532,
+            "layer": 55,
+            "updated": "2019-11-15T05:11:16+0000",
+            "vcs_last_commit": "2019-10-14T08:10:28+0000",
+            "vcs_last_fetch": "2019-11-15T05:11:16+0000",
+            "vcs_last_rev": "a19a8fb456b0e70d068183cb0837c31f456b46b3",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 101
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 59012,
+            "layerbranch": 856532,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer provides template processing support to OpenEmbedded.  Wind River\r\ntemplates are a mechanism that permit various configurations to be enabled\r\nwith a simple setting.",
+            "id": 55,
+            "index_preference": 900,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "wr-template",
+            "status": "P",
+            "summary": "Wind River Template Support",
+            "updated": "2018-05-30T22:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wr-template",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [],
+    "wrtemplates": []
+}

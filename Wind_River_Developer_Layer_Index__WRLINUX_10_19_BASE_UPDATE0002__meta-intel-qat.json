@@ -1,0 +1,313 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_19_BASE_UPDATE0002",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_19_BASE_UPDATE0002",
+            "comparison": false,
+            "id": 168,
+            "name": "WRLINUX_10_19_BASE_UPDATE0002",
+            "short_description": "WRLinux 10_19 Base Update 0002",
+            "sort_priority": null,
+            "update_environment": null,
+            "updated": "2019-11-15T04:11:36+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 168,
+            "collection": "core",
+            "id": 856514,
+            "layer": 1,
+            "updated": "2019-11-27T07:11:45+0000",
+            "vcs_last_commit": "2019-11-25T18:11:11+0000",
+            "vcs_last_fetch": "2019-11-27T07:11:45+0000",
+            "vcs_last_rev": "714d96ed68d0026e635bc765bd6a4381d97844d0",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 102
+        },
+        {
+            "actual_branch": "",
+            "branch": 168,
+            "collection": "intel-qat",
+            "id": 856535,
+            "layer": 193,
+            "updated": "2019-11-15T05:11:27+0000",
+            "vcs_last_commit": "2019-10-14T08:10:26+0000",
+            "vcs_last_fetch": "2019-11-15T05:11:27+0000",
+            "vcs_last_rev": "c32f1950322b338765e42ef43d1aa1b4b3c90321",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 99
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 59016,
+            "layerbranch": 856535,
+            "required": true
+        },
+        {
+            "dependency": 195,
+            "id": 59017,
+            "layerbranch": 856535,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "The Intel QuickAssist Adapter family provides customers with a scalable, flexible, and extendable way to offer Intel QuickAssist Technology crypto acceleration and compression capabilities to their existing product lines.",
+            "id": 193,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-intel-qat",
+            "status": "P",
+            "summary": "intel qat layer",
+            "updated": "2018-05-30T22:05:36+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-intel-qat",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "This software acelerates the data compression algorithm in the zlib software library via the Intel QuickAssist Technology",
+            "filename": "zlib-qat_0.4.7-002.bb",
+            "filepath": "recipes-extended/zlib-qat",
+            "homepage": "http://zlib.net/",
+            "id": 1069902,
+            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
+            "layerbranch": 856535,
+            "license": "Zlib & GPLv2 & BSD",
+            "pn": "zlib-qat",
+            "provides": "zlib-qat ",
+            "pv": "0.4.7-002",
+            "section": "libs",
+            "summary": "Zlib QAT_MEM Memory Management Module for Intel Quick Assist Technology",
+            "updated": "2019-11-15T05:11:27+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "This software acelerates the data compression algorithm in the zlib software library via the Intel QuickAssist Technology",
+            "filename": "zlib-qat_0.4.10-001.bb",
+            "filepath": "recipes-extended/zlib-qat",
+            "homepage": "http://zlib.net/",
+            "id": 1069903,
+            "inherits": "",
+            "layerbranch": 856535,
+            "license": "Zlib & GPLv2 & BSD",
+            "pn": "zlib-qat",
+            "provides": "zlib-qat ",
+            "pv": "0.4.10-001",
+            "section": "libs",
+            "summary": "Zlib QAT_MEM Memory Management Module for Intel Quick Assist Technology",
+            "updated": "2019-11-15T05:11:27+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Intel(r) QuickAssist Technology API",
+            "filename": "qat17_4.2.0-00012.bb",
+            "filepath": "recipes-extended/qat",
+            "homepage": "https://01.org/packet-processing/intel%C2%AE-quickassist-technology-drivers-and-patches",
+            "id": 1069904,
+            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig update-rc.d",
+            "layerbranch": 856535,
+            "license": "BSD & GPLv2",
+            "pn": "qat17",
+            "provides": "qat17  virtual/qat",
+            "pv": "4.2.0-00012",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-11-15T05:11:27+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "description": "Intel(r) QuickAssist Technology API",
+            "filename": "qat16_2.6.0-65.bb",
+            "filepath": "recipes-extended/qat",
+            "homepage": "https://01.org/packet-processing/intel%C2%AE-quickassist-technology-drivers-and-patches",
+            "id": 1069905,
+            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig update-rc.d",
+            "layerbranch": 856535,
+            "license": "BSD & GPLv2",
+            "pn": "qat16",
+            "provides": "qat16  virtual/qat",
+            "pv": "2.6.0-65",
+            "section": "base",
+            "summary": "",
+            "updated": "2019-11-15T05:11:27+0000"
+        }
+    ],
+    "wrtemplates": []
+}
