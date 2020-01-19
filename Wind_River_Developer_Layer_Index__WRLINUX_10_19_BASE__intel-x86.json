@@ -155,9 +155,9 @@
             "collection": "core",
             "id": 852955,
             "layer": 1,
-            "updated": "2020-01-05T18:01:22+0000",
+            "updated": "2020-01-18T20:01:39+0000",
             "vcs_last_commit": "2020-01-05T17:01:51+0000",
-            "vcs_last_fetch": "2020-01-05T18:01:22+0000",
+            "vcs_last_fetch": "2020-01-18T20:01:39+0000",
             "vcs_last_rev": "f382a3c96449bba5100948c713047cdaa3cf5a01",
             "vcs_subdir": "meta",
             "version": "11",
@@ -169,9 +169,9 @@
             "collection": "intel",
             "id": 853247,
             "layer": 166,
-            "updated": "2019-12-23T01:12:39+0000",
+            "updated": "2020-01-18T20:01:31+0000",
             "vcs_last_commit": "2019-10-14T08:10:06+0000",
-            "vcs_last_fetch": "2019-12-23T01:12:39+0000",
+            "vcs_last_fetch": "2020-01-18T20:01:31+0000",
             "vcs_last_rev": "c685e7f9f66fcb57bd0f2da1f87cbbae9f37c5ad",
             "vcs_subdir": "",
             "version": "5",
@@ -183,10 +183,10 @@
             "collection": "wrlinux",
             "id": 853279,
             "layer": 49,
-            "updated": "2020-01-06T18:01:38+0000",
-            "vcs_last_commit": "2020-01-06T18:01:12+0000",
-            "vcs_last_fetch": "2020-01-06T18:01:38+0000",
-            "vcs_last_rev": "75604d47cfafda9cc5d574b6ab403dbf4c18b793",
+            "updated": "2020-01-18T20:01:55+0000",
+            "vcs_last_commit": "2020-01-18T17:01:32+0000",
+            "vcs_last_fetch": "2020-01-18T20:01:55+0000",
+            "vcs_last_rev": "0f24f478bd40fe85369dee22c0c75d56b394d4c3",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 101
@@ -197,9 +197,9 @@
             "collection": "intel-x86",
             "id": 853300,
             "layer": 32,
-            "updated": "2019-12-23T19:12:21+0000",
+            "updated": "2020-01-18T20:01:17+0000",
             "vcs_last_commit": "2019-12-23T18:12:36+0000",
-            "vcs_last_fetch": "2019-12-23T19:12:21+0000",
+            "vcs_last_fetch": "2020-01-18T20:01:17+0000",
             "vcs_last_rev": "a33c877a0d497c44a86deb68ad920329769fdeb7",
             "vcs_subdir": "",
             "version": "1",
@@ -303,31 +303,31 @@
     "machines": [
         {
             "description": " Intel X86 (64bit) PCs and servers",
-            "id": 26393,
+            "id": 26610,
             "layerbranch": 853300,
             "name": "intel-x86-64",
-            "updated": "2019-12-23T01:12:20+0000"
+            "updated": "2020-01-18T20:01:17+0000"
         },
         {
             "description": " Intel Haswell CPU (64bit)",
-            "id": 26394,
+            "id": 26611,
             "layerbranch": 853300,
             "name": "intel-haswell-64",
-            "updated": "2019-12-23T01:12:20+0000"
+            "updated": "2020-01-18T20:01:17+0000"
         },
         {
             "description": " Intel Skylake CPU (64bit) with AVX-512 enabled",
-            "id": 26395,
+            "id": 26612,
             "layerbranch": 853300,
             "name": "intel-skylake-avx512-64",
-            "updated": "2019-12-23T01:12:20+0000"
+            "updated": "2020-01-18T20:01:17+0000"
         },
         {
             "description": " Intel Skylake CPU (64bit)",
-            "id": 26396,
+            "id": 26613,
             "layerbranch": 853300,
             "name": "intel-skylake-64",
-            "updated": "2019-12-23T01:12:20+0000"
+            "updated": "2020-01-18T20:01:17+0000"
         }
     ],
     "recipes": [
@@ -348,7 +348,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A Monitoring and Testing Tool for Linux kernel thermal subsystem",
-            "updated": "2019-12-23T01:12:20+0000"
+            "updated": "2020-01-18T20:01:17+0000"
         },
         {
             "bbclassextend": "",
@@ -367,23 +367,23 @@
             "pv": "git",
             "section": "base",
             "summary": "",
-            "updated": "2019-12-23T01:12:20+0000"
+            "updated": "2020-01-18T20:01:17+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 57130,
+            "id": 57963,
             "layerbranch": 853300,
             "name": "feature/intel-persistent-memory",
-            "updated": "2019-12-23T01:12:20+0000"
+            "updated": "2020-01-18T20:01:17+0000"
         },
         {
             "description": "",
-            "id": 57131,
+            "id": 57964,
             "layerbranch": 853300,
             "name": "default",
-            "updated": "2019-12-23T01:12:20+0000"
+            "updated": "2020-01-18T20:01:17+0000"
         }
     ]
 }
