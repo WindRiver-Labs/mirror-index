@@ -141,40 +141,40 @@
             "id": 158,
             "name": "WRLINUX_10_19_BASE",
             "short_description": "Wind River Linux 10_19 Baseline",
-            "sort_priority": null,
+            "sort_priority": 2,
             "update_environment": null,
-            "updated": "2019-11-05T19:11:24+0000",
+            "updated": "2020-02-14T06:02:36+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "Poky (Yocto Project Reference Distro)",
-            "id": 7151,
+            "id": 7314,
             "layerbranch": 853253,
             "name": "poky-altcfg",
-            "updated": "2020-01-18T20:01:05+0000"
+            "updated": "2020-02-12T23:02:26+0000"
         },
         {
             "description": "Poky (Yocto Project Reference Distro)",
-            "id": 7152,
+            "id": 7315,
             "layerbranch": 853253,
             "name": "poky-tiny",
-            "updated": "2020-01-18T20:01:06+0000"
+            "updated": "2020-02-12T23:02:26+0000"
         },
         {
             "description": "Poky (Yocto Project Reference Distro)",
-            "id": 7153,
+            "id": 7316,
             "layerbranch": 853253,
             "name": "poky-bleeding",
-            "updated": "2020-01-18T20:01:06+0000"
+            "updated": "2020-02-12T23:02:26+0000"
         },
         {
             "description": "Poky (Yocto Project Reference Distro)",
-            "id": 7154,
+            "id": 7317,
             "layerbranch": 853253,
             "name": "poky",
-            "updated": "2020-01-18T20:01:06+0000"
+            "updated": "2020-02-12T23:02:26+0000"
         }
     ],
     "layerBranches": [
@@ -184,10 +184,10 @@
             "collection": "core",
             "id": 852955,
             "layer": 1,
-            "updated": "2020-01-18T20:01:39+0000",
-            "vcs_last_commit": "2020-01-05T17:01:51+0000",
-            "vcs_last_fetch": "2020-01-18T20:01:39+0000",
-            "vcs_last_rev": "f382a3c96449bba5100948c713047cdaa3cf5a01",
+            "updated": "2020-02-13T20:02:35+0000",
+            "vcs_last_commit": "2020-02-12T23:02:24+0000",
+            "vcs_last_fetch": "2020-02-13T20:02:35+0000",
+            "vcs_last_rev": "a7c06fb2761546f74c7748b2853687634d2955df",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 102
@@ -198,9 +198,9 @@
             "collection": "yocto",
             "id": 853253,
             "layer": 59,
-            "updated": "2020-01-18T20:01:06+0000",
+            "updated": "2020-02-12T23:02:26+0000",
             "vcs_last_commit": "2019-10-14T08:10:51+0000",
-            "vcs_last_fetch": "2020-01-18T20:01:06+0000",
+            "vcs_last_fetch": "2020-02-12T23:02:26+0000",
             "vcs_last_rev": "631f2a9399dbb7fa0351915c411cfafdcb9b4613",
             "vcs_subdir": "meta-poky",
             "version": "3",
@@ -272,7 +272,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Poky-tiny init",
-            "updated": "2020-01-18T20:01:05+0000"
+            "updated": "2020-02-12T23:02:26+0000"
         }
     ],
     "wrtemplates": []

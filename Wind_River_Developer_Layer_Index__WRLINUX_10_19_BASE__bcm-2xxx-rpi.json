@@ -141,9 +141,9 @@
             "id": 158,
             "name": "WRLINUX_10_19_BASE",
             "short_description": "Wind River Linux 10_19 Baseline",
-            "sort_priority": null,
+            "sort_priority": 2,
             "update_environment": null,
-            "updated": "2019-11-05T19:11:24+0000",
+            "updated": "2020-02-14T06:02:36+0000",
             "updates_enabled": true
         }
     ],
@@ -155,10 +155,10 @@
             "collection": "core",
             "id": 852955,
             "layer": 1,
-            "updated": "2020-01-18T20:01:39+0000",
-            "vcs_last_commit": "2020-01-05T17:01:51+0000",
-            "vcs_last_fetch": "2020-01-18T20:01:39+0000",
-            "vcs_last_rev": "f382a3c96449bba5100948c713047cdaa3cf5a01",
+            "updated": "2020-02-13T20:02:35+0000",
+            "vcs_last_commit": "2020-02-12T23:02:24+0000",
+            "vcs_last_fetch": "2020-02-13T20:02:35+0000",
+            "vcs_last_rev": "a7c06fb2761546f74c7748b2853687634d2955df",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 102
@@ -169,10 +169,10 @@
             "collection": "wrlinux",
             "id": 853279,
             "layer": 49,
-            "updated": "2020-02-03T19:02:24+0000",
-            "vcs_last_commit": "2020-02-03T18:02:12+0000",
-            "vcs_last_fetch": "2020-02-03T19:02:24+0000",
-            "vcs_last_rev": "ee7ca9506555dcd1b922426a13a92ee6e6ed21a0",
+            "updated": "2020-02-23T21:02:23+0000",
+            "vcs_last_commit": "2020-02-23T20:02:23+0000",
+            "vcs_last_fetch": "2020-02-23T21:02:23+0000",
+            "vcs_last_rev": "b7b4d14b1a5eb61b53f8f1e05261a29faa67dc5e",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 101
@@ -183,10 +183,10 @@
             "collection": "wr-bcm-2xxx-rpi",
             "id": 853306,
             "layer": 142,
-            "updated": "2020-02-06T13:02:29+0000",
-            "vcs_last_commit": "2020-02-05T13:02:06+0000",
-            "vcs_last_fetch": "2020-02-06T13:02:29+0000",
-            "vcs_last_rev": "b955870e3dea26b9ac7a8631d22e4ada5d2b9881",
+            "updated": "2020-02-12T23:02:02+0000",
+            "vcs_last_commit": "2020-02-10T10:02:35+0000",
+            "vcs_last_fetch": "2020-02-12T23:02:02+0000",
+            "vcs_last_rev": "a58984d8c419da04e9edd8c5855cbdf9ab482466",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 102
@@ -271,10 +271,10 @@
     "machines": [
         {
             "description": " a bcm-2xxx-rpi",
-            "id": 26617,
+            "id": 27032,
             "layerbranch": 853306,
             "name": "bcm-2xxx-rpi4",
-            "updated": "2020-02-06T13:02:29+0000"
+            "updated": "2020-02-12T23:02:02+0000"
         }
     ],
     "recipes": [
@@ -295,7 +295,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "bootloadr configuration",
-            "updated": "2020-01-18T20:01:07+0000"
+            "updated": "2020-02-12T23:02:01+0000"
         },
         {
             "bbclassextend": "",
@@ -314,7 +314,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "U-boot boot scripts for Raspberry Pi",
-            "updated": "2020-01-18T20:01:07+0000"
+            "updated": "2020-02-12T23:02:01+0000"
         },
         {
             "bbclassextend": "",
@@ -333,16 +333,16 @@
             "pv": "20191107",
             "section": "base",
             "summary": "",
-            "updated": "2020-01-18T20:01:07+0000"
+            "updated": "2020-02-12T23:02:02+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 58030,
+            "id": 59238,
             "layerbranch": 853306,
             "name": "default",
-            "updated": "2020-01-18T20:01:07+0000"
+            "updated": "2020-02-12T23:02:02+0000"
         }
     ]
 }
