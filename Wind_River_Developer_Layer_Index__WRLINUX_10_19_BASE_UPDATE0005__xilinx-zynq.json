@@ -1,0 +1,284 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_19_BASE_UPDATE0005",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_19_BASE_UPDATE0005",
+            "comparison": false,
+            "id": 183,
+            "name": "WRLINUX_10_19_BASE_UPDATE0005",
+            "short_description": "WRLinux 10_19 Base Update 0005",
+            "sort_priority": 9782,
+            "update_environment": null,
+            "updated": "2020-02-14T06:02:24+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 183,
+            "collection": "core",
+            "id": 862060,
+            "layer": 1,
+            "updated": "2020-02-13T22:02:25+0000",
+            "vcs_last_commit": "2020-02-12T23:02:24+0000",
+            "vcs_last_fetch": "2020-02-13T22:02:25+0000",
+            "vcs_last_rev": "a7c06fb2761546f74c7748b2853687634d2955df",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 102
+        },
+        {
+            "actual_branch": "",
+            "branch": 183,
+            "collection": "wrlinux",
+            "id": 862105,
+            "layer": 49,
+            "updated": "2020-03-01T21:03:46+0000",
+            "vcs_last_commit": "2020-02-27T19:02:51+0000",
+            "vcs_last_fetch": "2020-03-01T21:03:46+0000",
+            "vcs_last_rev": "d4fa56d4aacf695f4bfb841f2427f626eeb8f24f",
+            "vcs_subdir": "",
+            "version": "2",
+            "yp_compatible_version": 101
+        },
+        {
+            "actual_branch": "",
+            "branch": 183,
+            "collection": "wr-xilinx-zynq",
+            "id": 862112,
+            "layer": 112,
+            "updated": "2020-02-13T08:02:12+0000",
+            "vcs_last_commit": "2019-12-29T18:12:34+0000",
+            "vcs_last_fetch": "2020-02-13T08:02:12+0000",
+            "vcs_last_rev": "2ae4c2da08d03b0ea8f3f8fdff44d1843b3e9df4",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 102
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 63131,
+            "layerbranch": 862112,
+            "required": true
+        },
+        {
+            "dependency": 49,
+            "id": 63132,
+            "layerbranch": 862112,
+            "required": true
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer provides the Wind River Linux distribution definitions, \r\ndistribution-specific integration and bug fixes, and other wrlinux components.",
+            "id": 49,
+            "index_preference": 900,
+            "layer_type": "D",
+            "mailing_list_url": "",
+            "name": "wrlinux",
+            "status": "P",
+            "summary": "Wind River Linux distribution definitions",
+            "updated": "2018-05-30T22:05:16+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/wrlinux",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "It is new bsp xilinx-zynq  machine layer.",
+            "id": 112,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "xilinx-zynq",
+            "status": "P",
+            "summary": "xilinx-zynq machine layer",
+            "updated": "2018-05-30T22:05:17+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/xilinx-zynq",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [
+        {
+            "description": " Xilinx Zynq-7000 SoC",
+            "id": 27186,
+            "layerbranch": 862112,
+            "name": "xilinx-zynq",
+            "updated": "2020-02-13T08:02:12+0000"
+        }
+    ],
+    "recipes": [],
+    "wrtemplates": [
+        {
+            "description": "",
+            "id": 59825,
+            "layerbranch": 862112,
+            "name": "default",
+            "updated": "2020-02-13T08:02:12+0000"
+        }
+    ]
+}

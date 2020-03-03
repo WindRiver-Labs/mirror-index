@@ -1,0 +1,264 @@
+{
+    "CFG": {
+        "BRANCH": "WRLINUX_10_19_BASE_UPDATE0005",
+        "CACHE": "config/index-cache/layers_wrs_com",
+        "DESCRIPTION": "Wind River Developer Layer Index",
+        "TYPE": "restapi-web",
+        "URL": "http://layers.wrs.com/layerindex/api/"
+    },
+    "YPCompatibleVersions": [
+        {
+            "description": "",
+            "id": 2,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud wrl"
+        },
+        {
+            "description": "",
+            "id": 3,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud"
+        },
+        {
+            "description": "",
+            "id": 4,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud"
+        },
+        {
+            "description": "",
+            "id": 5,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko"
+        },
+        {
+            "description": "",
+            "id": 6,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko sumo thud"
+        },
+        {
+            "description": "",
+            "id": 7,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud wrl"
+        },
+        {
+            "description": "",
+            "id": 8,
+            "image_url": "",
+            "link_url": "",
+            "name": "rocko wrl"
+        },
+        {
+            "description": "",
+            "id": 9,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior"
+        },
+        {
+            "description": "",
+            "id": 10,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior"
+        },
+        {
+            "description": "",
+            "id": 11,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl"
+        },
+        {
+            "description": "",
+            "id": 16,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo"
+        },
+        {
+            "description": "",
+            "id": 97,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 98,
+            "image_url": "",
+            "link_url": "",
+            "name": "zeus"
+        },
+        {
+            "description": "",
+            "id": 99,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 100,
+            "image_url": "",
+            "link_url": "",
+            "name": "wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 101,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 102,
+            "image_url": "",
+            "link_url": "",
+            "name": "warrior wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 103,
+            "image_url": "",
+            "link_url": "",
+            "name": "sumo thud warrior zeus"
+        }
+    ],
+    "branches": [
+        {
+            "bitbake_branch": "WRLINUX_10_19_BASE_UPDATE0005",
+            "comparison": false,
+            "id": 183,
+            "name": "WRLINUX_10_19_BASE_UPDATE0005",
+            "short_description": "WRLinux 10_19 Base Update 0005",
+            "sort_priority": 9782,
+            "update_environment": null,
+            "updated": "2020-02-14T06:02:24+0000",
+            "updates_enabled": true
+        }
+    ],
+    "distros": [],
+    "layerBranches": [
+        {
+            "actual_branch": "",
+            "branch": 183,
+            "collection": "core",
+            "id": 862060,
+            "layer": 1,
+            "updated": "2020-02-13T22:02:25+0000",
+            "vcs_last_commit": "2020-02-12T23:02:24+0000",
+            "vcs_last_fetch": "2020-02-13T22:02:25+0000",
+            "vcs_last_rev": "a7c06fb2761546f74c7748b2853687634d2955df",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 102
+        },
+        {
+            "actual_branch": "",
+            "branch": 183,
+            "collection": "meta-openssl-one-zero-two",
+            "id": 862075,
+            "layer": 300,
+            "updated": "2020-02-13T08:02:11+0000",
+            "vcs_last_commit": "2019-10-20T18:10:15+0000",
+            "vcs_last_fetch": "2020-02-13T08:02:11+0000",
+            "vcs_last_rev": "a4d5d19cd7a6182658b132eab7a35cec2b591490",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 101
+        }
+    ],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 62942,
+            "layerbranch": 862075,
+            "required": true
+        },
+        {
+            "dependency": 306,
+            "id": 62943,
+            "layerbranch": 862075,
+            "required": false
+        }
+    ],
+    "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer provides the older OpenSSL 1.0.2.  This alternative version  can be used as the default OpenSSL if the older version is required for  some reason.\r\n\r\nThis alternative version is derived from openembedded-core prior to it's removal.",
+            "id": 300,
+            "index_preference": 0,
+            "layer_type": "S",
+            "mailing_list_url": "",
+            "name": "meta-openssl102",
+            "status": "P",
+            "summary": "Provides OpenSSL 1.0.2 and support infrastructure",
+            "updated": "2019-06-26T10:06:42+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-openssl102",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/meta-openssl102.git/commit/id=%hash%",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        }
+    ],
+    "machines": [],
+    "recipes": [
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "http://www.openssl.org/news/vulnerabilities.html",
+            "description": "Secure Socket Layer (SSL) binary and related cryptographic tools.",
+            "filename": "openssl_1.0.2t.bb",
+            "filepath": "recipes-connectivity/openssl",
+            "homepage": "http://www.openssl.org/",
+            "id": 1123433,
+            "inherits": "lib_package manpages multilib_header pkgconfig ptest qemu siteinfo",
+            "layerbranch": 862075,
+            "license": "openssl",
+            "pn": "openssl",
+            "provides": "openssl ",
+            "pv": "1.0.2t",
+            "section": "libs/network",
+            "summary": "Secure Socket Layer",
+            "updated": "2020-02-13T08:02:11+0000"
+        }
+    ],
+    "wrtemplates": [
+        {
+            "description": "Enable OpenSSL 1.0.2 as the system OpenSSL version.",
+            "id": 59731,
+            "layerbranch": 862075,
+            "name": "feature/openssl102",
+            "updated": "2020-02-13T08:02:11+0000"
+        }
+    ]
+}
