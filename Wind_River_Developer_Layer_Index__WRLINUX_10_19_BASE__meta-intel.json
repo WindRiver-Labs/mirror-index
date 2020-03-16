@@ -132,6 +132,20 @@
             "image_url": "",
             "link_url": "",
             "name": "sumo thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 104,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell zeus"
+        },
+        {
+            "description": "",
+            "id": 105,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell"
         }
     ],
     "branches": [
@@ -155,9 +169,9 @@
             "collection": "core",
             "id": 852955,
             "layer": 1,
-            "updated": "2020-02-13T20:02:35+0000",
+            "updated": "2020-03-13T01:03:24+0000",
             "vcs_last_commit": "2020-02-12T23:02:24+0000",
-            "vcs_last_fetch": "2020-02-13T20:02:35+0000",
+            "vcs_last_fetch": "2020-03-13T01:03:24+0000",
             "vcs_last_rev": "a7c06fb2761546f74c7748b2853687634d2955df",
             "vcs_subdir": "meta",
             "version": "11",
@@ -169,9 +183,9 @@
             "collection": "intel",
             "id": 853247,
             "layer": 166,
-            "updated": "2020-02-12T23:02:53+0000",
+            "updated": "2020-03-13T01:03:44+0000",
             "vcs_last_commit": "2019-10-14T08:10:06+0000",
-            "vcs_last_fetch": "2020-02-12T23:02:53+0000",
+            "vcs_last_fetch": "2020-03-13T01:03:44+0000",
             "vcs_last_rev": "c685e7f9f66fcb57bd0f2da1f87cbbae9f37c5ad",
             "vcs_subdir": "",
             "version": "5",
@@ -233,24 +247,24 @@
     "machines": [
         {
             "description": " 32 bit Intel Core 2 CPU (and later) with MMX, SSE, SSE2, SSE3, and SSSE3 instruction set support. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
-            "id": 27021,
+            "id": 27468,
             "layerbranch": 853247,
             "name": "intel-core2-32",
-            "updated": "2020-02-12T23:02:53+0000"
+            "updated": "2020-03-13T01:03:44+0000"
         },
         {
             "description": " 64 bit Intel Core i7 CPU (and later) with MMX, SSE, SSE2, SSE3, and SSSE3 instruction set support. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
-            "id": 27022,
+            "id": 27469,
             "layerbranch": 853247,
             "name": "intel-corei7-64",
-            "updated": "2020-02-12T23:02:53+0000"
+            "updated": "2020-03-13T01:03:44+0000"
         },
         {
             "description": " 64 bit Intel Skylake CPU (and later) with MMX, SSE, SSE2, SSE3, SSE4.1, SSE4.2, AVX, and AVX2 instruction set support. Supports a moderately wide range of drivers that should boot and be usable on \"typical\" hardware.",
-            "id": 27023,
+            "id": 27470,
             "layerbranch": 853247,
             "name": "intel-skylake-64",
-            "updated": "2020-02-12T23:02:53+0000"
+            "updated": "2020-03-13T01:03:44+0000"
         }
     ],
     "recipes": [
@@ -271,7 +285,7 @@
             "pv": "1.24",
             "section": "x11/apps",
             "summary": "Intel GPU tools",
-            "updated": "2020-02-12T23:02:39+0000"
+            "updated": "2020-03-13T01:03:32+0000"
         },
         {
             "bbclassextend": "",
@@ -290,7 +304,7 @@
             "pv": "1.1.5",
             "section": "x11/drivers",
             "summary": "X.Org X server -- ASpeed Technologies graphics driver",
-            "updated": "2020-02-12T23:02:39+0000"
+            "updated": "2020-03-13T01:03:33+0000"
         },
         {
             "bbclassextend": "",
@@ -309,7 +323,7 @@
             "pv": "1.5.108",
             "section": "lib",
             "summary": "Intel Metrics Discovery Application Programming Interface",
-            "updated": "2020-02-12T23:02:40+0000"
+            "updated": "2020-03-13T01:03:33+0000"
         },
         {
             "bbclassextend": "",
@@ -328,7 +342,7 @@
             "pv": "19.2.0",
             "section": "lib",
             "summary": "Intel(R) unified HDCP SDK",
-            "updated": "2020-02-12T23:02:40+0000"
+            "updated": "2020-03-13T01:03:33+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -347,7 +361,7 @@
             "pv": "19.2.3",
             "section": "base",
             "summary": "Intel(R) Graphics Memory Management Library",
-            "updated": "2020-02-12T23:02:41+0000"
+            "updated": "2020-03-13T01:03:33+0000"
         },
         {
             "bbclassextend": "",
@@ -366,7 +380,7 @@
             "pv": "45",
             "section": "kernel",
             "summary": "Intel Wireless LinuxCore kernel driver",
-            "updated": "2020-02-12T23:02:41+0000"
+            "updated": "2020-03-13T01:03:33+0000"
         },
         {
             "bbclassextend": "",
@@ -385,7 +399,7 @@
             "pv": "4.6.1",
             "section": "kernel/network",
             "summary": "ixgbevf kernel driver for Intel Magnolia Park 10GbE",
-            "updated": "2020-02-12T23:02:41+0000"
+            "updated": "2020-03-13T01:03:34+0000"
         },
         {
             "bbclassextend": "",
@@ -404,7 +418,7 @@
             "pv": "5.6.3",
             "section": "kernel/network",
             "summary": "ixgbe kernel driver for Intel Magnolia Park 10GbE",
-            "updated": "2020-02-12T23:02:42+0000"
+            "updated": "2020-03-13T01:03:34+0000"
         },
         {
             "bbclassextend": "",
@@ -423,7 +437,7 @@
             "pv": "4.14.146+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2020-02-12T23:02:42+0000"
+            "updated": "2020-03-13T01:03:34+0000"
         },
         {
             "bbclassextend": "",
@@ -442,7 +456,7 @@
             "pv": "4.19.73+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2020-02-12T23:02:42+0000"
+            "updated": "2020-03-13T01:03:34+0000"
         },
         {
             "bbclassextend": "",
@@ -461,7 +475,7 @@
             "pv": "4.14.139+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2020-02-12T23:02:42+0000"
+            "updated": "2020-03-13T01:03:34+0000"
         },
         {
             "bbclassextend": "",
@@ -480,7 +494,7 @@
             "pv": "5.3-rc4+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2020-02-12T23:02:42+0000"
+            "updated": "2020-03-13T01:03:34+0000"
         },
         {
             "bbclassextend": "",
@@ -499,7 +513,7 @@
             "pv": "4.19.59+gitX",
             "section": "kernel",
             "summary": "Linux kernel",
-            "updated": "2020-02-12T23:02:43+0000"
+            "updated": "2020-03-13T01:03:34+0000"
         },
         {
             "bbclassextend": "",
@@ -518,7 +532,7 @@
             "pv": "1.33",
             "section": "base",
             "summary": "Intel Dynamic Application Loader (DAL) Host Interface",
-            "updated": "2020-02-12T23:02:43+0000"
+            "updated": "2020-03-13T01:03:35+0000"
         },
         {
             "bbclassextend": "",
@@ -537,7 +551,7 @@
             "pv": "0.9.2-gitX",
             "section": "base",
             "summary": "",
-            "updated": "2020-02-12T23:02:43+0000"
+            "updated": "2020-03-13T01:03:35+0000"
         },
         {
             "bbclassextend": "",
@@ -556,7 +570,7 @@
             "pv": "2.0.1",
             "section": "base",
             "summary": "Intel(R) Processor Trace Decoder Library",
-            "updated": "2020-02-12T23:02:44+0000"
+            "updated": "2020-03-13T01:03:35+0000"
         },
         {
             "bbclassextend": "",
@@ -575,7 +589,7 @@
             "pv": "2.27.0",
             "section": "lib",
             "summary": "Intelligent Storage Acceleration Library",
-            "updated": "2020-02-12T23:02:44+0000"
+            "updated": "2020-03-13T01:03:35+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -594,7 +608,7 @@
             "pv": "19.35.13977",
             "section": "base",
             "summary": "The Intel(R) Graphics Compute Runtime for OpenCL(TM)",
-            "updated": "2020-02-12T23:02:44+0000"
+            "updated": "2020-03-13T01:03:36+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -613,7 +627,7 @@
             "pv": "1.0.11",
             "section": "base",
             "summary": "The Intel(R) Graphics Compiler for OpenCL(TM)",
-            "updated": "2020-02-12T23:02:44+0000"
+            "updated": "2020-03-13T01:03:36+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -632,7 +646,7 @@
             "pv": "9.0.0",
             "section": "base",
             "summary": "Common clang is a thin wrapper library around clang",
-            "updated": "2020-02-12T23:02:45+0000"
+            "updated": "2020-03-13T01:03:36+0000"
         },
         {
             "bbclassextend": "",
@@ -651,7 +665,7 @@
             "pv": "2019r2",
             "section": "base",
             "summary": "OpenVINO Model Optimzer",
-            "updated": "2020-02-12T23:02:45+0000"
+            "updated": "2020-03-13T01:03:37+0000"
         },
         {
             "bbclassextend": "",
@@ -670,7 +684,7 @@
             "pv": "2019r2",
             "section": "base",
             "summary": "OpenVINO(TM) Toolkit - Deep Learning Deployment Toolkit",
-            "updated": "2020-02-12T23:02:45+0000"
+            "updated": "2020-03-13T01:03:37+0000"
         },
         {
             "bbclassextend": "",
@@ -689,7 +703,7 @@
             "pv": "1932.0.0.0",
             "section": "base",
             "summary": "Intel(R) Local Managability Service",
-            "updated": "2020-02-12T23:02:46+0000"
+            "updated": "2020-03-13T01:03:37+0000"
         },
         {
             "bbclassextend": "",
@@ -708,7 +722,7 @@
             "pv": "19.2.1",
             "section": "base",
             "summary": "Intel(R) Media SDK for hardware accelerated media processing",
-            "updated": "2020-02-12T23:02:46+0000"
+            "updated": "2020-03-13T01:03:37+0000"
         },
         {
             "bbclassextend": "",
@@ -727,7 +741,7 @@
             "pv": "19.2.1",
             "section": "base",
             "summary": "VA driver for Intel Gen based graphics hardware",
-            "updated": "2020-02-12T23:02:46+0000"
+            "updated": "2020-03-13T01:03:37+0000"
         },
         {
             "bbclassextend": "",
@@ -746,7 +760,7 @@
             "pv": "2.3.0",
             "section": "base",
             "summary": "VA driver for Intel G45 & HD Graphics family",
-            "updated": "2020-02-12T23:02:46+0000"
+            "updated": "2020-03-13T01:03:38+0000"
         },
         {
             "bbclassextend": "",
@@ -765,7 +779,7 @@
             "pv": "1.3.2",
             "section": "base",
             "summary": "Applications and Scripts for libyami.",
-            "updated": "2020-02-12T23:02:46+0000"
+            "updated": "2020-03-13T01:03:38+0000"
         },
         {
             "bbclassextend": "",
@@ -784,7 +798,7 @@
             "pv": "1.3.2",
             "section": "base",
             "summary": "Yami is media infrastructure base on libva",
-            "updated": "2020-02-12T23:02:46+0000"
+            "updated": "2020-03-13T01:03:38+0000"
         },
         {
             "bbclassextend": "",
@@ -803,7 +817,7 @@
             "pv": "17.01.28",
             "section": "base",
             "summary": "Intel\u00c2\u00ae Single Event API",
-            "updated": "2020-02-12T23:02:47+0000"
+            "updated": "2020-03-13T01:03:38+0000"
         },
         {
             "bbclassextend": "",
@@ -822,7 +836,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2020-02-12T23:02:47+0000"
+            "updated": "2020-03-13T01:03:38+0000"
         },
         {
             "bbclassextend": "",
@@ -841,7 +855,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2020-02-12T23:02:47+0000"
+            "updated": "2020-03-13T01:03:38+0000"
         },
         {
             "bbclassextend": "",
@@ -860,7 +874,7 @@
             "pv": "6.5.3",
             "section": "base",
             "summary": "C++ framework for implementing distributed and networked applications",
-            "updated": "2020-02-12T23:02:47+0000"
+            "updated": "2020-03-13T01:03:39+0000"
         },
         {
             "bbclassextend": "",
@@ -879,7 +893,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "Intel gma500_gfx fix for certain hardware",
-            "updated": "2020-02-12T23:02:48+0000"
+            "updated": "2020-03-13T01:03:39+0000"
         },
         {
             "bbclassextend": "",
@@ -898,7 +912,7 @@
             "pv": "1.9",
             "section": "base",
             "summary": "Linux thermal daemon",
-            "updated": "2020-02-12T23:02:48+0000"
+            "updated": "2020-03-13T01:03:39+0000"
         },
         {
             "bbclassextend": "",
@@ -917,7 +931,7 @@
             "pv": "2.1.1",
             "section": "base",
             "summary": "Intel(R) METEE Library",
-            "updated": "2020-02-12T23:02:48+0000"
+            "updated": "2020-03-13T01:03:39+0000"
         },
         {
             "bbclassextend": "",
@@ -936,7 +950,7 @@
             "pv": "0.22.1",
             "section": "base",
             "summary": "nGraph Compiler Stack",
-            "updated": "2020-02-12T23:02:49+0000"
+            "updated": "2020-03-13T01:03:40+0000"
         },
         {
             "bbclassextend": "",
@@ -955,7 +969,7 @@
             "pv": "1.0.2",
             "section": "lib",
             "summary": "Intel Math Kernel Library for Deep Neural Networks",
-            "updated": "2020-02-12T23:02:49+0000"
+            "updated": "2020-03-13T01:03:40+0000"
         },
         {
             "bbclassextend": "",
@@ -974,7 +988,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "",
-            "updated": "2020-02-12T23:02:49+0000"
+            "updated": "2020-03-13T01:03:40+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -993,7 +1007,7 @@
             "pv": "1.2.11.1.jtkv6.3",
             "section": "libs",
             "summary": "Zlib Compression Library (Intel-tuned)",
-            "updated": "2020-02-12T23:02:50+0000"
+            "updated": "2020-03-13T01:03:41+0000"
         },
         {
             "bbclassextend": "",
@@ -1012,7 +1026,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A tiny image just capable of allowing a device to boot from RAM, this image recipe generates an image file which rather boots from initrd than from storage, it achieves this by using wic to pick up th",
-            "updated": "2020-02-12T23:02:50+0000"
+            "updated": "2020-03-13T01:03:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1031,7 +1045,7 @@
             "pv": "1.2.2",
             "section": "lib",
             "summary": "libXCam is a project for extended camera(not limited in camera) features and focus on image quality improvement and video analysis",
-            "updated": "2020-02-12T23:02:51+0000"
+            "updated": "2020-03-13T01:03:42+0000"
         },
         {
             "bbclassextend": "",
@@ -1050,7 +1064,7 @@
             "pv": "20190918",
             "section": "base",
             "summary": "Intel Processor Microcode Datafile for Linux",
-            "updated": "2020-02-12T23:02:51+0000"
+            "updated": "2020-03-13T01:03:42+0000"
         },
         {
             "bbclassextend": "native",
@@ -1069,7 +1083,7 @@
             "pv": "2.3.1",
             "section": "base",
             "summary": "Update Intel CPU microcode",
-            "updated": "2020-02-12T23:02:52+0000"
+            "updated": "2020-03-13T01:03:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1088,7 +1102,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2020-02-12T23:02:52+0000"
+            "updated": "2020-03-13T01:03:43+0000"
         },
         {
             "bbclassextend": "",
@@ -1107,7 +1121,7 @@
             "pv": "1.0",
             "section": "base",
             "summary": "A small image just capable of allowing a device to boot.",
-            "updated": "2020-02-12T23:02:53+0000"
+            "updated": "2020-03-13T01:03:44+0000"
         }
     ],
     "wrtemplates": []

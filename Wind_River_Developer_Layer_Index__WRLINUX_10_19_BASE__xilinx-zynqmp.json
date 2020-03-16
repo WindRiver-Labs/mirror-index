@@ -132,6 +132,20 @@
             "image_url": "",
             "link_url": "",
             "name": "sumo thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 104,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell zeus"
+        },
+        {
+            "description": "",
+            "id": 105,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell"
         }
     ],
     "branches": [
@@ -155,9 +169,9 @@
             "collection": "core",
             "id": 852955,
             "layer": 1,
-            "updated": "2020-02-13T20:02:35+0000",
+            "updated": "2020-03-13T01:03:24+0000",
             "vcs_last_commit": "2020-02-12T23:02:24+0000",
-            "vcs_last_fetch": "2020-02-13T20:02:35+0000",
+            "vcs_last_fetch": "2020-03-13T01:03:24+0000",
             "vcs_last_rev": "a7c06fb2761546f74c7748b2853687634d2955df",
             "vcs_subdir": "meta",
             "version": "11",
@@ -169,10 +183,10 @@
             "collection": "wrlinux",
             "id": 853279,
             "layer": 49,
-            "updated": "2020-02-27T20:02:29+0000",
-            "vcs_last_commit": "2020-02-27T19:02:51+0000",
-            "vcs_last_fetch": "2020-02-27T20:02:29+0000",
-            "vcs_last_rev": "d4fa56d4aacf695f4bfb841f2427f626eeb8f24f",
+            "updated": "2020-03-15T04:03:25+0000",
+            "vcs_last_commit": "2020-03-15T03:03:25+0000",
+            "vcs_last_fetch": "2020-03-15T04:03:25+0000",
+            "vcs_last_rev": "e2a28370f99df8f9161b7065d57a10a84d63ec2a",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 101
@@ -183,10 +197,10 @@
             "collection": "wr-xilinx-zynqmp",
             "id": 853307,
             "layer": 83,
-            "updated": "2020-02-25T17:02:20+0000",
-            "vcs_last_commit": "2020-02-25T17:02:06+0000",
-            "vcs_last_fetch": "2020-02-25T17:02:20+0000",
-            "vcs_last_rev": "3df15098cdb638998b4a4f90f50ff22197ae5c99",
+            "updated": "2020-03-13T01:03:31+0000",
+            "vcs_last_commit": "2020-03-11T05:03:54+0000",
+            "vcs_last_fetch": "2020-03-13T01:03:31+0000",
+            "vcs_last_rev": "68b2c1e9e46a315445da5f701f99f8e1a09b326e",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 101
@@ -271,10 +285,10 @@
     "machines": [
         {
             "description": " Zynq Ultrascale+ MPSoC",
-            "id": 27033,
+            "id": 27480,
             "layerbranch": 853307,
             "name": "xilinx-zynqmp",
-            "updated": "2020-02-12T23:02:18+0000"
+            "updated": "2020-03-13T01:03:31+0000"
         }
     ],
     "recipes": [
@@ -295,7 +309,7 @@
             "pv": "r8p0-01rel0",
             "section": "base",
             "summary": "",
-            "updated": "2020-02-12T23:02:18+0000"
+            "updated": "2020-03-13T01:03:30+0000"
         },
         {
             "bbclassextend": "",
@@ -314,7 +328,7 @@
             "pv": "1.4.1+gitX",
             "section": "x11/drivers",
             "summary": "X.Org X server -- Xilinx ARM SOC display driver",
-            "updated": "2020-02-12T23:02:18+0000"
+            "updated": "2020-03-13T01:03:30+0000"
         },
         {
             "bbclassextend": "",
@@ -333,35 +347,16 @@
             "pv": "r8p0-01rel0",
             "section": "kernel/modules",
             "summary": "A Mali 400 Linux Kernel module",
-            "updated": "2020-02-12T23:02:18+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "description": "",
-            "filename": "u-boot-xlnx_2019.2.bb",
-            "filepath": "zynqmp-secure-boot/recipes-bsp/u-boot",
-            "homepage": "",
-            "id": 1128331,
-            "inherits": "cml1 deploy uboot-config uboot-extlinux-config uboot-sign",
-            "layerbranch": 853307,
-            "license": "GPLv2+",
-            "pn": "u-boot-xlnx",
-            "provides": "u-boot-xlnx virtual/bootloader",
-            "pv": "v2019.01-xilinx-v2019.2+gitX",
-            "section": "base",
-            "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2020-02-13T18:02:21+0000"
+            "updated": "2020-03-13T01:03:31+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 59251,
+            "id": 60465,
             "layerbranch": 853307,
             "name": "default",
-            "updated": "2020-02-12T23:02:18+0000"
+            "updated": "2020-03-13T01:03:31+0000"
         }
     ]
 }
