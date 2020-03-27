@@ -65,13 +65,6 @@
         },
         {
             "description": "",
-            "id": 10,
-            "image_url": "",
-            "link_url": "",
-            "name": "warrior"
-        },
-        {
-            "description": "",
             "id": 11,
             "image_url": "",
             "link_url": "",
@@ -146,33 +139,63 @@
             "image_url": "",
             "link_url": "",
             "name": "dunfell"
+        },
+        {
+            "description": "",
+            "id": 106,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell wrl"
+        },
+        {
+            "description": "",
+            "id": 107,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 108,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 109,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell warrior zeus"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20191106",
+            "bitbake_branch": "wr-10.19-20200305",
             "comparison": false,
+            "hidden": false,
             "id": 158,
             "name": "WRLINUX_10_19_BASE",
             "short_description": "Wind River Linux 10_19 Baseline",
             "sort_priority": 2,
             "update_environment": null,
-            "updated": "2020-02-14T06:02:36+0000",
+            "updated": "2020-03-18T00:03:41+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20191106",
+            "actual_branch": "wr-10.19-20200305",
             "branch": 158,
             "collection": "core",
             "id": 852955,
             "layer": 1,
-            "updated": "2020-03-13T01:03:24+0000",
-            "vcs_last_commit": "2020-02-12T23:02:24+0000",
-            "vcs_last_fetch": "2020-03-13T01:03:24+0000",
-            "vcs_last_rev": "a7c06fb2761546f74c7748b2853687634d2955df",
+            "local_path": "",
+            "updated": "2020-03-26T19:03:37+0000",
+            "vcs_last_commit": "2020-03-16T05:03:36+0000",
+            "vcs_last_fetch": "2020-03-26T19:03:37+0000",
+            "vcs_last_rev": "5d4187b404bd400dd53685b77ff41debab9efa3c",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 102
@@ -183,9 +206,10 @@
             "collection": "wr-template",
             "id": 853252,
             "layer": 55,
-            "updated": "2020-03-13T01:03:11+0000",
+            "local_path": "",
+            "updated": "2020-03-26T19:03:20+0000",
             "vcs_last_commit": "2019-10-14T08:10:28+0000",
-            "vcs_last_fetch": "2020-03-13T01:03:11+0000",
+            "vcs_last_fetch": "2020-03-26T19:03:20+0000",
             "vcs_last_rev": "a19a8fb456b0e70d068183cb0837c31f456b46b3",
             "vcs_subdir": "",
             "version": "1",
@@ -197,10 +221,11 @@
             "collection": "wrlinux",
             "id": 853279,
             "layer": 49,
-            "updated": "2020-03-15T04:03:25+0000",
-            "vcs_last_commit": "2020-03-15T03:03:25+0000",
-            "vcs_last_fetch": "2020-03-15T04:03:25+0000",
-            "vcs_last_rev": "e2a28370f99df8f9161b7065d57a10a84d63ec2a",
+            "local_path": "",
+            "updated": "2020-03-26T19:03:49+0000",
+            "vcs_last_commit": "2020-03-25T23:03:12+0000",
+            "vcs_last_fetch": "2020-03-26T19:03:49+0000",
+            "vcs_last_rev": "17922f84e494cdce25a00963e551b971ee67cfad",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 101
@@ -345,10 +370,10 @@
     "machines": [
         {
             "description": "",
-            "id": 27471,
+            "id": 27488,
             "layerbranch": 853279,
             "name": "qemuarma9",
-            "updated": "2020-03-13T01:03:08+0000"
+            "updated": "2020-03-26T19:03:49+0000"
         }
     ],
     "recipes": [
@@ -356,6 +381,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "This not a full theme for desktop environment, only includes                windriver branded desktop wallpapers and lxdm login theme. ",
             "filename": "wr-themes_1.0.bb",
             "filepath": "recipes-graphics/wr-themes",
@@ -364,17 +390,21 @@
             "inherits": "distro_features_check",
             "layerbranch": 853279,
             "license": "windriver",
+            "pe": "",
             "pn": "wr-themes",
+            "pr": "r0",
             "provides": "wr-themes ",
             "pv": "1.0",
             "section": "x11",
+            "srcrev": "",
             "summary": "Wind River Linux Desktop Themes",
-            "updated": "2020-03-13T01:03:03+0000"
+            "updated": "2020-03-26T19:03:46+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "aer-inject allows to inject PCIE AER errors on the software level into a running Linux kernel. This is intended for validation of the PCIE driver error recovery handler and PCIE AER core handler.",
             "filename": "aer-inject_git.bb",
             "filepath": "recipes-kernel/aer-inject",
@@ -383,17 +413,21 @@
             "inherits": "",
             "layerbranch": 853279,
             "license": "GPLv2",
+            "pe": "1",
             "pn": "aer-inject",
+            "pr": "r1",
             "provides": "aer-inject ",
             "pv": "20100310+gitX",
             "section": "base",
+            "srcrev": "9bd5e2c7886fca72f139cd8402488a2235957d41",
             "summary": "inject PCIE AER errors on the software level",
-            "updated": "2020-03-13T01:03:04+0000"
+            "updated": "2020-03-26T19:03:46+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "the vdso test tool is used for vdso_gettimeofday,vdso_time and vdso_clock_gettime test - vdso_test-x86 is for x86  - vdso_test-x86_64 is for x86-64 ",
             "filename": "vdso-test.bb",
             "filepath": "recipes-kernel/vdso-test",
@@ -402,17 +436,21 @@
             "inherits": "siteinfo",
             "layerbranch": 853279,
             "license": "GPLv2",
+            "pe": "",
             "pn": "vdso-test",
+            "pr": "r0",
             "provides": "vdso-test ",
             "pv": "1.0",
             "section": "vdso test",
+            "srcrev": "",
             "summary": " Vdso test Tool",
-            "updated": "2020-03-13T01:03:04+0000"
+            "updated": "2020-03-26T19:03:46+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "Software that understands and dynamically adjusts to resource utilization of modern processors has performance and power advantages. The Intel Performance Counter Monitor provides sample C++ routines and utilities to estimate the internal resource utilization of the latest Intel Xeon and Core processors and gain a significant performance boost.",
             "filename": "intel-pcm_2.3a.bb",
             "filepath": "recipes-kernel/intel-pcm",
@@ -421,17 +459,21 @@
             "inherits": "",
             "layerbranch": 853279,
             "license": "BSD",
+            "pe": "",
             "pn": "intel-pcm",
+            "pr": "r0",
             "provides": "intel-pcm ",
             "pv": "2.3a",
             "section": "base",
+            "srcrev": "",
             "summary": "Intel Processor Counter Monitor",
-            "updated": "2020-03-13T01:03:04+0000"
+            "updated": "2020-03-26T19:03:46+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "Userspace test code that tests cma.",
             "filename": "cma-test.bb",
             "filepath": "recipes-kernel/cma-test",
@@ -440,17 +482,21 @@
             "inherits": "",
             "layerbranch": 853279,
             "license": "PD",
+            "pe": "",
             "pn": "cma-test",
+            "pr": "r0",
             "provides": "cma-test ",
             "pv": "0.0.1",
             "section": "base",
+            "srcrev": "",
             "summary": "Cross Memory Attach test case (cma)",
-            "updated": "2020-03-13T01:03:04+0000"
+            "updated": "2020-03-26T19:03:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": " ",
             "description": "anspass is a daemon/client utility to save and retrieve     credentials by other utilities that implement the askpass interface.",
             "filename": "anspass_git.bb",
             "filepath": "recipes-support/anspass",
@@ -459,17 +505,21 @@
             "inherits": "autotools autotools-brokensep siteconfig siteinfo",
             "layerbranch": 853279,
             "license": "LGPLv2",
+            "pe": "",
             "pn": "anspass",
+            "pr": "r0",
             "provides": "anspass ",
             "pv": "1.0+gitX",
             "section": "base",
+            "srcrev": "726c141fe582add0addf7d128aa33d1e3c532b56",
             "summary": "Credential storage for utilities that implement the askpass interface",
-            "updated": "2020-03-13T01:03:05+0000"
+            "updated": "2020-03-26T19:03:47+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "The initramfs contains anaconda installer, which supports PXE install (net boot installation)",
             "filename": "wrlinux-image-installer-initramfs.bb",
             "filepath": "dynamic-layers/meta-anaconda/recipes-installer/images",
@@ -478,17 +528,21 @@
             "inherits": "anaconda_image core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrltemplate_image",
             "layerbranch": 853279,
             "license": "MIT",
+            "pe": "",
             "pn": "wrlinux-image-installer-initramfs",
+            "pr": "r0",
             "provides": "wrlinux-image-installer-initramfs ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:05+0000"
+            "updated": "2020-03-26T19:03:47+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "An image with Anaconda to do installation.",
             "filename": "wrlinux-image-installer.bb",
             "filepath": "dynamic-layers/meta-anaconda/recipes-installer/images",
@@ -497,17 +551,21 @@
             "inherits": "anaconda_image core-image fs-uuid image image-live image-postinst-intercepts image_types image_types_wic kernel-arch license_image live-vm-common meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo syslinux wrltemplate",
             "layerbranch": 853279,
             "license": "MIT",
+            "pe": "",
             "pn": "wrlinux-image-installer",
+            "pr": "r0",
             "provides": "wrlinux-image-installer ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:06+0000"
+            "updated": "2020-03-26T19:03:47+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "Wind River logos for branding",
             "filename": "windriver-logos.bb",
             "filepath": "dynamic-layers/meta-anaconda/recipes-installer/logos",
@@ -516,17 +574,21 @@
             "inherits": "allarch",
             "layerbranch": 853279,
             "license": "GPLv2",
+            "pe": "",
             "pn": "windriver-logos",
+            "pr": "r0",
             "provides": "windriver-logos ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:06+0000"
+            "updated": "2020-03-26T19:03:47+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": " ",
             "description": "The MCE test suite is a collection of tools and test scripts for testing the Linux RAS related features, including CPU/Memory error containment and recovery, ACPI/APEI support etc.",
             "filename": "mce-test_git.bb",
             "filepath": "dynamic-layers/openembedded-layer/recipes-kernel/mce-test",
@@ -535,17 +597,21 @@
             "inherits": "autotools autotools-brokensep siteconfig siteinfo",
             "layerbranch": 853279,
             "license": "GPLv2",
+            "pe": "1",
             "pn": "mce-test",
+            "pr": "r2",
             "provides": "mce-test ",
             "pv": "20131218+gitX",
             "section": "base",
+            "srcrev": "b3fdfaa7a025b68f30913c9cc7a8fe4ae9c7ed7f",
             "summary": "MCE test suite",
-            "updated": "2020-03-13T01:03:06+0000"
+            "updated": "2020-03-26T19:03:48+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "A list of commonly used native packages.",
             "filename": "wr-common-packages-native.bb",
             "filepath": "recipes-base/wr-common-packages-native",
@@ -554,17 +620,21 @@
             "inherits": "native nopackages relocatable",
             "layerbranch": 853279,
             "license": "MIT",
+            "pe": "",
             "pn": "wr-common-packages-native",
+            "pr": "r2",
             "provides": "wr-common-packages-native ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:06+0000"
+            "updated": "2020-03-26T19:03:48+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "Tools to replace busybox",
             "filename": "packagegroup-busybox-replacement.bb",
             "filepath": "recipes-base/packagegroups",
@@ -573,17 +643,21 @@
             "inherits": "allarch packagegroup",
             "layerbranch": 853279,
             "license": "",
+            "pe": "",
             "pn": "packagegroup-busybox-replacement",
+            "pr": "r0",
             "provides": "packagegroup-busybox-replacement ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "Tools to replace busybox",
-            "updated": "2020-03-13T01:03:07+0000"
+            "updated": "2020-03-26T19:03:49+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "U-Boot provided by Freescale with focus on  i.MX reference boards.",
             "filename": "u-boot-imx_2016.03.bb",
             "filepath": "recipes-bsp/u-boot",
@@ -592,245 +666,248 @@
             "inherits": "cml1 deploy uboot-config uboot-extlinux-config uboot-sign",
             "layerbranch": 853279,
             "license": "GPLv2+",
+            "pe": "",
             "pn": "u-boot-imx",
+            "pr": "r0",
             "provides": "u-boot-imx virtual/bootloader",
             "pv": "2016.03",
             "section": "base",
+            "srcrev": "a57b13b942d59719e3621179e98bd8a0ab235088",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2020-03-13T01:03:08+0000"
+            "updated": "2020-03-26T19:03:49+0000"
         }
     ],
     "wrtemplates": [
         {
-            "description": "",
-            "id": 60352,
-            "layerbranch": 853279,
-            "name": "feature/ecryptfs",
-            "updated": "2020-03-13T01:03:08+0000"
-        },
-        {
-            "description": "Enable common Managed Build Project (mbp) settings",
-            "id": 60353,
-            "layerbranch": 853279,
-            "name": "feature/mbp-project",
-            "updated": "2020-03-13T01:03:08+0000"
-        },
-        {
-            "description": "Add packagegroup-self-hosted to the image",
-            "id": 60354,
-            "layerbranch": 853279,
-            "name": "feature/self-hosted",
-            "updated": "2020-03-13T01:03:08+0000"
-        },
-        {
-            "description": "",
-            "id": 60355,
-            "layerbranch": 853279,
-            "name": "feature/kernel-hardening",
-            "updated": "2020-03-13T01:03:08+0000"
-        },
-        {
-            "description": "Add gcc-sanitizers to image",
+            "description": "Enable archiver class and original src mode",
             "id": 60356,
             "layerbranch": 853279,
-            "name": "feature/gcc-sanitizers",
-            "updated": "2020-03-13T01:03:08+0000"
+            "name": "feature/archiver",
+            "updated": "2020-03-26T19:03:49+0000"
         },
         {
-            "description": "Enable package-test functionality",
+            "description": "Add dev packages to image",
             "id": 60357,
             "layerbranch": 853279,
-            "name": "feature/ptest",
-            "updated": "2020-03-13T01:03:08+0000"
+            "name": "feature/dev-pkgs",
+            "updated": "2020-03-26T19:03:49+0000"
         },
         {
-            "description": "",
+            "description": "Add kubernetes to the image",
             "id": 60358,
             "layerbranch": 853279,
-            "name": "feature/posix_26",
-            "updated": "2020-03-13T01:03:08+0000"
+            "name": "feature/kubernetes",
+            "updated": "2020-03-26T19:03:49+0000"
         },
         {
-            "description": "This template allows the build to use the linux-dummy kernel, which provides no real kernel, but satisfies dependancies on virtual/kernel. This is useful when the build does not require a kernel, such as when building containers, saving build time as a re",
+            "description": "Add valgrind to the image",
             "id": 60359,
             "layerbranch": 853279,
-            "name": "feature/dummy-kernel",
-            "updated": "2020-03-13T01:03:08+0000"
+            "name": "feature/valgrind",
+            "updated": "2020-03-26T19:03:49+0000"
         },
         {
             "description": "",
             "id": 60360,
             "layerbranch": 853279,
-            "name": "feature/tcpslice",
-            "updated": "2020-03-13T01:03:08+0000"
+            "name": "feature/rpm-required-sig",
+            "updated": "2020-03-26T19:03:49+0000"
         },
         {
-            "description": "Enable archiver class and original src mode",
+            "description": "Enable Xwayland image",
             "id": 60361,
             "layerbranch": 853279,
-            "name": "feature/archiver",
-            "updated": "2020-03-13T01:03:08+0000"
-        },
-        {
-            "description": "Install busybox to rootfs",
-            "id": 60362,
-            "layerbranch": 853279,
-            "name": "feature/busybox",
-            "updated": "2020-03-13T01:03:08+0000"
-        },
-        {
-            "description": "Set the default syslog to sysklogd",
-            "id": 60363,
-            "layerbranch": 853279,
-            "name": "feature/sysklogd",
-            "updated": "2020-03-13T01:03:08+0000"
-        },
-        {
-            "description": "Enable readonly-root filesystem",
-            "id": 60364,
-            "layerbranch": 853279,
-            "name": "feature/readonly-root",
-            "updated": "2020-03-13T01:03:08+0000"
-        },
-        {
-            "description": "",
-            "id": 60365,
-            "layerbranch": 853279,
-            "name": "feature/ntp",
-            "updated": "2020-03-13T01:03:08+0000"
-        },
-        {
-            "description": "Add on-target package management to image",
-            "id": 60366,
-            "layerbranch": 853279,
-            "name": "feature/package-management",
-            "updated": "2020-03-13T01:03:08+0000"
-        },
-        {
-            "description": "Add valgrind to the image",
-            "id": 60367,
-            "layerbranch": 853279,
-            "name": "feature/valgrind",
-            "updated": "2020-03-13T01:03:08+0000"
-        },
-        {
-            "description": "Add system and process monitoring utilities to the image",
-            "id": 60368,
-            "layerbranch": 853279,
-            "name": "feature/system-stats",
-            "updated": "2020-03-13T01:03:08+0000"
-        },
-        {
-            "description": "",
-            "id": 60369,
-            "layerbranch": 853279,
-            "name": "feature/ostree",
-            "updated": "2020-03-13T01:03:08+0000"
-        },
-        {
-            "description": "",
-            "id": 60370,
-            "layerbranch": 853279,
-            "name": "feature/rpm-local-keys",
-            "updated": "2020-03-13T01:03:08+0000"
-        },
-        {
-            "description": "Enable Data Plane Development Kit (DPDK)",
-            "id": 60371,
-            "layerbranch": 853279,
-            "name": "feature/dpdk",
-            "updated": "2020-03-13T01:03:08+0000"
-        },
-        {
-            "description": "Make all QA issues be errors",
-            "id": 60372,
-            "layerbranch": 853279,
-            "name": "feature/strict-qa",
-            "updated": "2020-03-13T01:03:08+0000"
-        },
-        {
-            "description": "Add sftp-server to the image",
-            "id": 60373,
-            "layerbranch": 853279,
-            "name": "feature/sftp-server",
-            "updated": "2020-03-13T01:03:08+0000"
-        },
-        {
-            "description": "Add dev packages to image",
-            "id": 60374,
-            "layerbranch": 853279,
-            "name": "feature/dev-pkgs",
-            "updated": "2020-03-13T01:03:08+0000"
-        },
-        {
-            "description": "Add gdb and gdbserver to image",
-            "id": 60375,
-            "layerbranch": 853279,
-            "name": "feature/gdb",
-            "updated": "2020-03-13T01:03:08+0000"
+            "name": "feature/weston-demo",
+            "updated": "2020-03-26T19:03:49+0000"
         },
         {
             "description": "Enable on-target software development",
-            "id": 60376,
+            "id": 60362,
             "layerbranch": 853279,
             "name": "feature/target-toolchain",
-            "updated": "2020-03-13T01:03:08+0000"
+            "updated": "2020-03-26T19:03:49+0000"
         },
         {
-            "description": "Add kubernetes to the image",
+            "description": "",
+            "id": 60363,
+            "layerbranch": 853279,
+            "name": "feature/tcpslice",
+            "updated": "2020-03-26T19:03:49+0000"
+        },
+        {
+            "description": "",
+            "id": 60364,
+            "layerbranch": 853279,
+            "name": "feature/ostree",
+            "updated": "2020-03-26T19:03:49+0000"
+        },
+        {
+            "description": "Add gdbserver to image",
+            "id": 60365,
+            "layerbranch": 853279,
+            "name": "feature/gdbserver",
+            "updated": "2020-03-26T19:03:49+0000"
+        },
+        {
+            "description": "Enable Data Plane Development Kit (DPDK)",
+            "id": 60366,
+            "layerbranch": 853279,
+            "name": "feature/dpdk",
+            "updated": "2020-03-26T19:03:49+0000"
+        },
+        {
+            "description": "Add on-target package management to image",
+            "id": 60367,
+            "layerbranch": 853279,
+            "name": "feature/package-management",
+            "updated": "2020-03-26T19:03:49+0000"
+        },
+        {
+            "description": "Enable common Managed Build Project (mbp) settings",
+            "id": 60368,
+            "layerbranch": 853279,
+            "name": "feature/mbp-project",
+            "updated": "2020-03-26T19:03:49+0000"
+        },
+        {
+            "description": "Add gdb and gdbserver to image",
+            "id": 60369,
+            "layerbranch": 853279,
+            "name": "feature/gdb",
+            "updated": "2020-03-26T19:03:49+0000"
+        },
+        {
+            "description": "Add system and process monitoring utilities to the image",
+            "id": 60370,
+            "layerbranch": 853279,
+            "name": "feature/system-stats",
+            "updated": "2020-03-26T19:03:49+0000"
+        },
+        {
+            "description": "",
+            "id": 60371,
+            "layerbranch": 853279,
+            "name": "feature/ntp",
+            "updated": "2020-03-26T19:03:49+0000"
+        },
+        {
+            "description": "",
+            "id": 60372,
+            "layerbranch": 853279,
+            "name": "feature/posix_26",
+            "updated": "2020-03-26T19:03:49+0000"
+        },
+        {
+            "description": "Enable package-test functionality",
+            "id": 60373,
+            "layerbranch": 853279,
+            "name": "feature/ptest",
+            "updated": "2020-03-26T19:03:49+0000"
+        },
+        {
+            "description": "",
+            "id": 60374,
+            "layerbranch": 853279,
+            "name": "feature/ecryptfs",
+            "updated": "2020-03-26T19:03:49+0000"
+        },
+        {
+            "description": "enable Distro Feature usrmerge",
+            "id": 60375,
+            "layerbranch": 853279,
+            "name": "feature/usrmerge",
+            "updated": "2020-03-26T19:03:49+0000"
+        },
+        {
+            "description": "",
+            "id": 60376,
+            "layerbranch": 853279,
+            "name": "feature/wr-profiling-kernel-overrides",
+            "updated": "2020-03-26T19:03:49+0000"
+        },
+        {
+            "description": "Add gcc-sanitizers to image",
             "id": 60377,
             "layerbranch": 853279,
-            "name": "feature/kubernetes",
-            "updated": "2020-03-13T01:03:08+0000"
+            "name": "feature/gcc-sanitizers",
+            "updated": "2020-03-26T19:03:49+0000"
         },
         {
             "description": "",
             "id": 60378,
             "layerbranch": 853279,
-            "name": "feature/installer-support",
-            "updated": "2020-03-13T01:03:08+0000"
+            "name": "feature/gperftools",
+            "updated": "2020-03-26T19:03:49+0000"
         },
         {
             "description": "",
             "id": 60379,
             "layerbranch": 853279,
-            "name": "feature/rpm-required-sig",
-            "updated": "2020-03-13T01:03:08+0000"
+            "name": "feature/kernel-hardening",
+            "updated": "2020-03-26T19:03:49+0000"
         },
         {
-            "description": "Add gdbserver to image",
+            "description": "Make all QA issues be errors",
             "id": 60380,
             "layerbranch": 853279,
-            "name": "feature/gdbserver",
-            "updated": "2020-03-13T01:03:08+0000"
+            "name": "feature/strict-qa",
+            "updated": "2020-03-26T19:03:49+0000"
         },
         {
-            "description": "",
+            "description": "Enable readonly-root filesystem",
             "id": 60381,
             "layerbranch": 853279,
-            "name": "feature/wr-profiling-kernel-overrides",
-            "updated": "2020-03-13T01:03:08+0000"
+            "name": "feature/readonly-root",
+            "updated": "2020-03-26T19:03:49+0000"
         },
         {
-            "description": "Enable Xwayland image",
+            "description": "Install busybox to rootfs",
             "id": 60382,
             "layerbranch": 853279,
-            "name": "feature/weston-demo",
-            "updated": "2020-03-13T01:03:08+0000"
+            "name": "feature/busybox",
+            "updated": "2020-03-26T19:03:49+0000"
         },
         {
-            "description": "enable Distro Feature usrmerge",
+            "description": "Add sftp-server to the image",
             "id": 60383,
             "layerbranch": 853279,
-            "name": "feature/usrmerge",
-            "updated": "2020-03-13T01:03:08+0000"
+            "name": "feature/sftp-server",
+            "updated": "2020-03-26T19:03:49+0000"
         },
         {
             "description": "",
             "id": 60384,
             "layerbranch": 853279,
-            "name": "feature/gperftools",
-            "updated": "2020-03-13T01:03:08+0000"
+            "name": "feature/rpm-local-keys",
+            "updated": "2020-03-26T19:03:49+0000"
+        },
+        {
+            "description": "Set the default syslog to sysklogd",
+            "id": 60385,
+            "layerbranch": 853279,
+            "name": "feature/sysklogd",
+            "updated": "2020-03-26T19:03:49+0000"
+        },
+        {
+            "description": "",
+            "id": 60386,
+            "layerbranch": 853279,
+            "name": "feature/installer-support",
+            "updated": "2020-03-26T19:03:49+0000"
+        },
+        {
+            "description": "This template allows the build to use the linux-dummy kernel, which provides no real kernel, but satisfies dependancies on virtual/kernel. This is useful when the build does not require a kernel, such as when building containers, saving build time as a re",
+            "id": 60387,
+            "layerbranch": 853279,
+            "name": "feature/dummy-kernel",
+            "updated": "2020-03-26T19:03:49+0000"
+        },
+        {
+            "description": "Add packagegroup-self-hosted to the image",
+            "id": 60388,
+            "layerbranch": 853279,
+            "name": "feature/self-hosted",
+            "updated": "2020-03-26T19:03:49+0000"
         }
     ]
 }

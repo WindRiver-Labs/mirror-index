@@ -65,13 +65,6 @@
         },
         {
             "description": "",
-            "id": 10,
-            "image_url": "",
-            "link_url": "",
-            "name": "warrior"
-        },
-        {
-            "description": "",
             "id": 11,
             "image_url": "",
             "link_url": "",
@@ -146,69 +139,99 @@
             "image_url": "",
             "link_url": "",
             "name": "dunfell"
+        },
+        {
+            "description": "",
+            "id": 106,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell wrl"
+        },
+        {
+            "description": "",
+            "id": 107,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 108,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 109,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell warrior zeus"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20191106",
+            "bitbake_branch": "wr-10.19-20200305",
             "comparison": false,
+            "hidden": false,
             "id": 158,
             "name": "WRLINUX_10_19_BASE",
             "short_description": "Wind River Linux 10_19 Baseline",
             "sort_priority": 2,
             "update_environment": null,
-            "updated": "2020-02-14T06:02:36+0000",
+            "updated": "2020-03-18T00:03:41+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
-            "description": "Wind River Linux (Example minimal distribution, will require customization)",
+            "description": "Wind River Linux Base",
             "id": 7480,
             "layerbranch": 853281,
-            "name": "wrlinux-tiny",
-            "updated": "2020-03-13T01:03:53+0000"
+            "name": "wrlinux-std-sato",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
-            "description": "Wind River Linux (Full Featured Distribution with Graphic Support)",
+            "description": "Wind River Linuxtiny Base",
             "id": 7481,
             "layerbranch": 853281,
-            "name": "wrlinux-graphics",
-            "updated": "2020-03-13T01:03:53+0000"
+            "name": "wrlinux-tiny",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
-            "description": "Wind River Linux (Full Featured Distribution)",
+            "description": "Wind River Linuxtiny Base",
             "id": 7482,
             "layerbranch": 853281,
-            "name": "wrlinux",
-            "updated": "2020-03-13T01:03:53+0000"
+            "name": "wrlinux-graphics",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
-            "description": "Wind River Linux (Full Featured Distribution with Sato)",
+            "description": "Wind River Linuxtiny Base",
             "id": 7483,
             "layerbranch": 853281,
-            "name": "wrlinux-std-sato",
-            "updated": "2020-03-13T01:03:53+0000"
+            "name": "wrlinux",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "Wind River Linux (Anaconda-based Target Installer)",
             "id": 7484,
             "layerbranch": 853281,
             "name": "wrlinux-installer",
-            "updated": "2020-03-13T01:03:53+0000"
+            "updated": "2020-03-26T19:03:27+0000"
         }
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20191106",
+            "actual_branch": "wr-10.19-20200305",
             "branch": 158,
             "collection": "core",
             "id": 852955,
             "layer": 1,
-            "updated": "2020-03-13T01:03:24+0000",
-            "vcs_last_commit": "2020-02-12T23:02:24+0000",
-            "vcs_last_fetch": "2020-03-13T01:03:24+0000",
-            "vcs_last_rev": "a7c06fb2761546f74c7748b2853687634d2955df",
+            "local_path": "",
+            "updated": "2020-03-26T19:03:37+0000",
+            "vcs_last_commit": "2020-03-16T05:03:36+0000",
+            "vcs_last_fetch": "2020-03-26T19:03:37+0000",
+            "vcs_last_rev": "5d4187b404bd400dd53685b77ff41debab9efa3c",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 102
@@ -219,9 +242,10 @@
             "collection": "meta-initramfs",
             "id": 853236,
             "layer": 4,
-            "updated": "2020-03-13T01:03:31+0000",
+            "local_path": "",
+            "updated": "2020-03-26T19:03:47+0000",
             "vcs_last_commit": "2019-10-14T08:10:09+0000",
-            "vcs_last_fetch": "2020-03-13T01:03:31+0000",
+            "vcs_last_fetch": "2020-03-26T19:03:47+0000",
             "vcs_last_rev": "cd1b61361f94c3ca5e5dbabf160dd7e197e18d20",
             "vcs_subdir": "meta-initramfs",
             "version": null,
@@ -233,9 +257,10 @@
             "collection": "openembedded-layer",
             "id": 853237,
             "layer": 7,
-            "updated": "2020-03-13T01:03:58+0000",
+            "local_path": "",
+            "updated": "2020-03-26T19:03:10+0000",
             "vcs_last_commit": "2019-11-05T17:11:41+0000",
-            "vcs_last_fetch": "2020-03-13T01:03:58+0000",
+            "vcs_last_fetch": "2020-03-26T19:03:10+0000",
             "vcs_last_rev": "aa7a017a43000974df05d27287ea0de77897553f",
             "vcs_subdir": "meta-oe",
             "version": "1",
@@ -247,9 +272,10 @@
             "collection": "filesystems-layer",
             "id": 853238,
             "layer": 8,
-            "updated": "2020-03-13T01:03:09+0000",
+            "local_path": "",
+            "updated": "2020-03-26T19:03:22+0000",
             "vcs_last_commit": "2019-10-14T08:10:09+0000",
-            "vcs_last_fetch": "2020-03-13T01:03:09+0000",
+            "vcs_last_fetch": "2020-03-26T19:03:22+0000",
             "vcs_last_rev": "cd1b61361f94c3ca5e5dbabf160dd7e197e18d20",
             "vcs_subdir": "meta-filesystems",
             "version": "1",
@@ -261,10 +287,11 @@
             "collection": "webserver",
             "id": 853239,
             "layer": 10,
-            "updated": "2020-03-13T01:03:19+0000",
-            "vcs_last_commit": "2019-10-14T08:10:09+0000",
-            "vcs_last_fetch": "2020-03-13T01:03:19+0000",
-            "vcs_last_rev": "cd1b61361f94c3ca5e5dbabf160dd7e197e18d20",
+            "local_path": "",
+            "updated": "2020-03-26T19:03:32+0000",
+            "vcs_last_commit": "2020-03-17T01:03:45+0000",
+            "vcs_last_fetch": "2020-03-26T19:03:32+0000",
+            "vcs_last_rev": "5c6fce596b054c16b10f3580073626275a839b4d",
             "vcs_subdir": "meta-webserver",
             "version": "1",
             "yp_compatible_version": 99
@@ -275,9 +302,10 @@
             "collection": "meta-python",
             "id": 853240,
             "layer": 12,
-            "updated": "2020-03-13T01:03:09+0000",
+            "local_path": "",
+            "updated": "2020-03-26T19:03:06+0000",
             "vcs_last_commit": "2019-11-27T23:11:34+0000",
-            "vcs_last_fetch": "2020-03-13T01:03:09+0000",
+            "vcs_last_fetch": "2020-03-26T19:03:06+0000",
             "vcs_last_rev": "de6a4e700fa41287481df90cda7f35af803755cd",
             "vcs_subdir": "meta-python",
             "version": "1",
@@ -289,9 +317,10 @@
             "collection": "perl-layer",
             "id": 853241,
             "layer": 13,
-            "updated": "2020-03-13T01:03:33+0000",
+            "local_path": "",
+            "updated": "2020-03-26T19:03:27+0000",
             "vcs_last_commit": "2019-10-14T08:10:09+0000",
-            "vcs_last_fetch": "2020-03-13T01:03:33+0000",
+            "vcs_last_fetch": "2020-03-26T19:03:27+0000",
             "vcs_last_rev": "cd1b61361f94c3ca5e5dbabf160dd7e197e18d20",
             "vcs_subdir": "meta-perl",
             "version": "1",
@@ -303,9 +332,10 @@
             "collection": "multimedia-layer",
             "id": 853242,
             "layer": 16,
-            "updated": "2020-03-13T01:03:55+0000",
+            "local_path": "",
+            "updated": "2020-03-26T19:03:51+0000",
             "vcs_last_commit": "2019-10-14T08:10:09+0000",
-            "vcs_last_fetch": "2020-03-13T01:03:55+0000",
+            "vcs_last_fetch": "2020-03-26T19:03:51+0000",
             "vcs_last_rev": "cd1b61361f94c3ca5e5dbabf160dd7e197e18d20",
             "vcs_subdir": "meta-multimedia",
             "version": "1",
@@ -317,9 +347,10 @@
             "collection": "realtime",
             "id": 853250,
             "layer": 48,
-            "updated": "2020-03-13T01:03:49+0000",
+            "local_path": "",
+            "updated": "2020-03-26T19:03:11+0000",
             "vcs_last_commit": "2019-10-14T08:10:27+0000",
-            "vcs_last_fetch": "2020-03-13T01:03:49+0000",
+            "vcs_last_fetch": "2020-03-26T19:03:11+0000",
             "vcs_last_rev": "adb18b84302475cffdf280f9da3cccbcb3a4ff8a",
             "vcs_subdir": "",
             "version": "1",
@@ -331,9 +362,10 @@
             "collection": "wr-template",
             "id": 853252,
             "layer": 55,
-            "updated": "2020-03-13T01:03:11+0000",
+            "local_path": "",
+            "updated": "2020-03-26T19:03:20+0000",
             "vcs_last_commit": "2019-10-14T08:10:28+0000",
-            "vcs_last_fetch": "2020-03-13T01:03:11+0000",
+            "vcs_last_fetch": "2020-03-26T19:03:20+0000",
             "vcs_last_rev": "a19a8fb456b0e70d068183cb0837c31f456b46b3",
             "vcs_subdir": "",
             "version": "1",
@@ -345,9 +377,10 @@
             "collection": "networking-layer",
             "id": 853262,
             "layer": 11,
-            "updated": "2020-03-13T01:03:55+0000",
+            "local_path": "",
+            "updated": "2020-03-26T19:03:30+0000",
             "vcs_last_commit": "2020-01-06T18:01:58+0000",
-            "vcs_last_fetch": "2020-03-13T01:03:55+0000",
+            "vcs_last_fetch": "2020-03-26T19:03:30+0000",
             "vcs_last_rev": "a31b7ea6b462ad55404283e4635efa4394dc957d",
             "vcs_subdir": "meta-networking",
             "version": "1",
@@ -359,9 +392,10 @@
             "collection": "cloud-services-layer",
             "id": 853263,
             "layer": 141,
-            "updated": "2020-03-13T01:03:02+0000",
+            "local_path": "",
+            "updated": "2020-03-26T19:03:53+0000",
             "vcs_last_commit": "2019-11-28T19:11:35+0000",
-            "vcs_last_fetch": "2020-03-13T01:03:02+0000",
+            "vcs_last_fetch": "2020-03-26T19:03:53+0000",
             "vcs_last_rev": "c1b1c5371818ee92613ad326f9602eefdaac5649",
             "vcs_subdir": "",
             "version": null,
@@ -373,9 +407,10 @@
             "collection": "gnome-layer",
             "id": 853264,
             "layer": 15,
-            "updated": "2020-03-13T01:03:13+0000",
+            "local_path": "",
+            "updated": "2020-03-26T19:03:45+0000",
             "vcs_last_commit": "2019-10-14T08:10:09+0000",
-            "vcs_last_fetch": "2020-03-13T01:03:13+0000",
+            "vcs_last_fetch": "2020-03-26T19:03:45+0000",
             "vcs_last_rev": "cd1b61361f94c3ca5e5dbabf160dd7e197e18d20",
             "vcs_subdir": "meta-gnome",
             "version": "1",
@@ -387,9 +422,10 @@
             "collection": "virtualization-layer",
             "id": 853269,
             "layer": 45,
-            "updated": "2020-03-13T01:03:10+0000",
+            "local_path": "",
+            "updated": "2020-03-26T19:03:28+0000",
             "vcs_last_commit": "2020-01-18T17:01:15+0000",
-            "vcs_last_fetch": "2020-03-13T01:03:10+0000",
+            "vcs_last_fetch": "2020-03-26T19:03:28+0000",
             "vcs_last_rev": "833f9dc8c79c59c7d68d9bb602e20f37bb15105e",
             "vcs_subdir": "",
             "version": "1",
@@ -401,9 +437,10 @@
             "collection": "xfce-layer",
             "id": 853270,
             "layer": 5,
-            "updated": "2020-03-13T01:03:50+0000",
+            "local_path": "",
+            "updated": "2020-03-26T19:03:41+0000",
             "vcs_last_commit": "2019-10-14T08:10:09+0000",
-            "vcs_last_fetch": "2020-03-13T01:03:50+0000",
+            "vcs_last_fetch": "2020-03-26T19:03:41+0000",
             "vcs_last_rev": "cd1b61361f94c3ca5e5dbabf160dd7e197e18d20",
             "vcs_subdir": "meta-xfce",
             "version": "1",
@@ -415,10 +452,11 @@
             "collection": "wrlinux",
             "id": 853279,
             "layer": 49,
-            "updated": "2020-03-15T04:03:25+0000",
-            "vcs_last_commit": "2020-03-15T03:03:25+0000",
-            "vcs_last_fetch": "2020-03-15T04:03:25+0000",
-            "vcs_last_rev": "e2a28370f99df8f9161b7065d57a10a84d63ec2a",
+            "local_path": "",
+            "updated": "2020-03-26T19:03:49+0000",
+            "vcs_last_commit": "2020-03-25T23:03:12+0000",
+            "vcs_last_fetch": "2020-03-26T19:03:49+0000",
+            "vcs_last_rev": "17922f84e494cdce25a00963e551b971ee67cfad",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 101
@@ -429,9 +467,10 @@
             "collection": "wrlinux-distro",
             "id": 853281,
             "layer": 164,
-            "updated": "2020-03-13T01:03:54+0000",
+            "local_path": "",
+            "updated": "2020-03-26T19:03:27+0000",
             "vcs_last_commit": "2020-03-11T00:03:38+0000",
-            "vcs_last_fetch": "2020-03-13T01:03:54+0000",
+            "vcs_last_fetch": "2020-03-26T19:03:27+0000",
             "vcs_last_rev": "a48b040d9381204ad683dacf1c14ac74627125bd",
             "vcs_subdir": "wrlinux-distro",
             "version": "1",
@@ -910,6 +949,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "This package provides a compressed cpio image used for an initial ram disk for the kernel boot. Additionally, a kernel bundled with initramfs is included as well whenever feature/initramfs-install configured. ",
             "filename": "kernel-initramfs-image.bb",
             "filepath": "recipes-kernel/images",
@@ -918,17 +958,21 @@
             "inherits": "kernel-arch kernelsrc linux-kernel-base",
             "layerbranch": 853281,
             "license": "GPLv2",
+            "pe": "",
             "pn": "kernel-initramfs-image",
+            "pr": "r0",
             "provides": "kernel-initramfs-image virtual/kernel-initramfs-image",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "Initramfs kernel boot",
-            "updated": "2020-03-13T01:03:43+0000"
+            "updated": "2020-03-26T19:03:18+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "An image which approximates WRLinux glibc-std without graphics.",
             "filename": "wrlinux-image-glibc-std.bb",
             "filepath": "recipes-base/images",
@@ -937,17 +981,21 @@
             "inherits": "core-image deprecate image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 853281,
             "license": "MIT",
+            "pe": "",
             "pn": "wrlinux-image-glibc-std",
+            "pr": "r5",
             "provides": "wrlinux-image-glibc-std ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:44+0000"
+            "updated": "2020-03-26T19:03:19+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "Wind River Linux GNU-based (non-busybox) core root filesystem",
             "filename": "wrlinux-image-glibc-core.bb",
             "filepath": "recipes-base/images",
@@ -956,17 +1004,21 @@
             "inherits": "core-image deprecate image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 853281,
             "license": "MIT",
+            "pe": "",
             "pn": "wrlinux-image-glibc-core",
+            "pr": "r2",
             "provides": "wrlinux-image-glibc-core ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:44+0000"
+            "updated": "2020-03-26T19:03:19+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "An image which approximates WRLinux glibc-std without graphics.",
             "filename": "wrlinux-image-std.bb",
             "filepath": "recipes-base/images",
@@ -975,17 +1027,21 @@
             "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 853281,
             "license": "MIT",
+            "pe": "",
             "pn": "wrlinux-image-std",
+            "pr": "r5",
             "provides": "wrlinux-image-std ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:45+0000"
+            "updated": "2020-03-26T19:03:20+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "A foundational basic image that boots to a console.",
             "filename": "wrlinux-image-small.bb",
             "filepath": "recipes-base/images",
@@ -994,17 +1050,21 @@
             "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 853281,
             "license": "MIT",
+            "pe": "",
             "pn": "wrlinux-image-small",
+            "pr": "r1",
             "provides": "wrlinux-image-small ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:45+0000"
+            "updated": "2020-03-26T19:03:20+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "Small image capable of booting a device. The kernel includes the Minimal RAM-based Initial Root Filesystem (initramfs), which finds the first 'init' program more efficiently.",
             "filename": "wrlinux-image-minimal-initramfs.bb",
             "filepath": "recipes-base/images",
@@ -1013,17 +1073,21 @@
             "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 853281,
             "license": "MIT",
+            "pe": "",
             "pn": "wrlinux-image-minimal-initramfs",
+            "pr": "r0",
             "provides": "wrlinux-image-minimal-initramfs ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:46+0000"
+            "updated": "2020-03-26T19:03:21+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "A foundational basic image that boots to a console.",
             "filename": "wrlinux-image-glibc-small.bb",
             "filepath": "recipes-base/images",
@@ -1032,17 +1096,21 @@
             "inherits": "core-image deprecate image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 853281,
             "license": "MIT",
+            "pe": "",
             "pn": "wrlinux-image-glibc-small",
+            "pr": "r1",
             "provides": "wrlinux-image-glibc-small ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:47+0000"
+            "updated": "2020-03-26T19:03:21+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "An image which approximates WRLinux glibc-std without graphics.",
             "filename": "wrlinux-image-glibc-std-sato.bb",
             "filepath": "recipes-base/images",
@@ -1051,17 +1119,21 @@
             "inherits": "core-image deprecate image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 853281,
             "license": "MIT",
+            "pe": "",
             "pn": "wrlinux-image-glibc-std-sato",
+            "pr": "r1",
             "provides": "wrlinux-image-glibc-std-sato ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:47+0000"
+            "updated": "2020-03-26T19:03:22+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "Tiny image capable of booting a device. The kernel includes the Minimal RAM-based Initial Root Filesystem (initramfs), which finds the first 'init' program more efficiently. core-image-tiny-initramfs doesn't actually generate an image but rather generates boot and rootfs artifacts that can subsequently be picked up by external image generation tools such as wic.",
             "filename": "wrlinux-image-tiny-initramfs.bb",
             "filepath": "recipes-base/images",
@@ -1070,17 +1142,21 @@
             "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 853281,
             "license": "MIT",
+            "pe": "",
             "pn": "wrlinux-image-tiny-initramfs",
+            "pr": "r0",
             "provides": "wrlinux-image-tiny-initramfs ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:47+0000"
+            "updated": "2020-03-26T19:03:22+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "Wind River Linux GNU-based (non-busybox) core root filesystem",
             "filename": "wrlinux-image-core.bb",
             "filepath": "recipes-base/images",
@@ -1089,17 +1165,21 @@
             "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 853281,
             "license": "MIT",
+            "pe": "",
             "pn": "wrlinux-image-core",
+            "pr": "r2",
             "provides": "wrlinux-image-core ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:48+0000"
+            "updated": "2020-03-26T19:03:22+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "An image which approximates WRLinux glibc-std without graphics.",
             "filename": "wrlinux-image-std-sato.bb",
             "filepath": "recipes-base/images",
@@ -1108,17 +1188,21 @@
             "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 853281,
             "license": "MIT",
+            "pe": "",
             "pn": "wrlinux-image-std-sato",
+            "pr": "r1",
             "provides": "wrlinux-image-std-sato ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:48+0000"
+            "updated": "2020-03-26T19:03:23+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "Wind River Linux core package group: net",
             "filename": "packagegroup-wr-core-net.bb",
             "filepath": "recipes-base/packagegroups",
@@ -1127,17 +1211,21 @@
             "inherits": "",
             "layerbranch": 853281,
             "license": "MIT",
+            "pe": "",
             "pn": "packagegroup-wr-core-net",
+            "pr": "r2",
             "provides": "packagegroup-wr-core-net ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:49+0000"
+            "updated": "2020-03-26T19:03:23+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "Wind River Linux core package group: sys-util",
             "filename": "packagegroup-wr-core-sys-util.bb",
             "filepath": "recipes-base/packagegroups",
@@ -1146,17 +1234,21 @@
             "inherits": "",
             "layerbranch": 853281,
             "license": "MIT",
+            "pe": "",
             "pn": "packagegroup-wr-core-sys-util",
+            "pr": "r4",
             "provides": "packagegroup-wr-core-sys-util ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:49+0000"
+            "updated": "2020-03-26T19:03:23+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "Wind River Linux core package group: libs-extended",
             "filename": "packagegroup-wr-core-libs-extended.bb",
             "filepath": "recipes-base/packagegroups",
@@ -1165,17 +1257,21 @@
             "inherits": "",
             "layerbranch": 853281,
             "license": "MIT",
+            "pe": "",
             "pn": "packagegroup-wr-core-libs-extended",
+            "pr": "r0",
             "provides": "packagegroup-wr-core-libs-extended ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:49+0000"
+            "updated": "2020-03-26T19:03:24+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "Wind River Linux core package group: interactive",
             "filename": "packagegroup-wr-core-interactive.bb",
             "filepath": "recipes-base/packagegroups",
@@ -1184,17 +1280,21 @@
             "inherits": "",
             "layerbranch": 853281,
             "license": "MIT",
+            "pe": "",
             "pn": "packagegroup-wr-core-interactive",
+            "pr": "r1",
             "provides": "packagegroup-wr-core-interactive ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:49+0000"
+            "updated": "2020-03-26T19:03:24+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "Wind River Linux core package group: python",
             "filename": "packagegroup-wr-core-dhcp.bb",
             "filepath": "recipes-base/packagegroups",
@@ -1203,17 +1303,21 @@
             "inherits": "",
             "layerbranch": 853281,
             "license": "MIT",
+            "pe": "",
             "pn": "packagegroup-wr-core-dhcp",
+            "pr": "r1",
             "provides": "packagegroup-wr-core-dhcp ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:49+0000"
+            "updated": "2020-03-26T19:03:24+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "Core packages for Linux/GNU (non-busybox) runtime images",
             "filename": "packagegroup-wr-base.bb",
             "filepath": "recipes-base/packagegroups",
@@ -1222,17 +1326,21 @@
             "inherits": "",
             "layerbranch": 853281,
             "license": "MIT",
+            "pe": "",
             "pn": "packagegroup-wr-base",
+            "pr": "r0",
             "provides": "packagegroup-wr-base ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:49+0000"
+            "updated": "2020-03-26T19:03:24+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "Wind River Linux core package group: mail",
             "filename": "packagegroup-wr-core-mail.bb",
             "filepath": "recipes-base/packagegroups",
@@ -1241,17 +1349,21 @@
             "inherits": "",
             "layerbranch": 853281,
             "license": "MIT",
+            "pe": "",
             "pn": "packagegroup-wr-core-mail",
+            "pr": "r0",
             "provides": "packagegroup-wr-core-mail ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:49+0000"
+            "updated": "2020-03-26T19:03:24+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "Wind River Linux core package group: python",
             "filename": "packagegroup-wr-core-python.bb",
             "filepath": "recipes-base/packagegroups",
@@ -1260,17 +1372,21 @@
             "inherits": "",
             "layerbranch": 853281,
             "license": "MIT",
+            "pe": "",
             "pn": "packagegroup-wr-core-python",
+            "pr": "r1",
             "provides": "packagegroup-wr-core-python ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:49+0000"
+            "updated": "2020-03-26T19:03:24+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "Wind River Linux core package group: security",
             "filename": "packagegroup-wr-core-security.bb",
             "filepath": "recipes-base/packagegroups",
@@ -1279,17 +1395,21 @@
             "inherits": "",
             "layerbranch": 853281,
             "license": "MIT",
+            "pe": "",
             "pn": "packagegroup-wr-core-security",
+            "pr": "r2",
             "provides": "packagegroup-wr-core-security ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:50+0000"
+            "updated": "2020-03-26T19:03:25+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "Wind River Linux core package group: perl",
             "filename": "packagegroup-wr-core-perl.bb",
             "filepath": "recipes-base/packagegroups",
@@ -1298,17 +1418,21 @@
             "inherits": "",
             "layerbranch": 853281,
             "license": "MIT",
+            "pe": "",
             "pn": "packagegroup-wr-core-perl",
+            "pr": "r1",
             "provides": "packagegroup-wr-core-perl ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:50+0000"
+            "updated": "2020-03-26T19:03:25+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "Wind River Linux core package group: util",
             "filename": "packagegroup-wr-core-util.bb",
             "filepath": "recipes-base/packagegroups",
@@ -1317,17 +1441,21 @@
             "inherits": "",
             "layerbranch": 853281,
             "license": "MIT",
+            "pe": "",
             "pn": "packagegroup-wr-core-util",
+            "pr": "r3",
             "provides": "packagegroup-wr-core-util ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:50+0000"
+            "updated": "2020-03-26T19:03:25+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "",
             "filename": "packagegroup-wr-bsps.bb",
             "filepath": "recipes-base/packagegroups",
@@ -1336,17 +1464,21 @@
             "inherits": "packagegroup",
             "layerbranch": 853281,
             "license": "",
+            "pe": "",
             "pn": "packagegroup-wr-bsps",
+            "pr": "r0",
             "provides": "packagegroup-wr-bsps packagegroup-wr-bsps packagegroup-wr-bsps-dbg packagegroup-wr-bsps-dev",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "Packages required by bsp",
-            "updated": "2020-03-13T01:03:50+0000"
+            "updated": "2020-03-26T19:03:25+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "Wind River Linux core package group: db",
             "filename": "packagegroup-wr-core-db.bb",
             "filepath": "recipes-base/packagegroups",
@@ -1355,17 +1487,21 @@
             "inherits": "",
             "layerbranch": 853281,
             "license": "MIT",
+            "pe": "",
             "pn": "packagegroup-wr-core-db",
+            "pr": "r0",
             "provides": "packagegroup-wr-core-db ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:51+0000"
+            "updated": "2020-03-26T19:03:25+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "Imports container images listed in containers_to_run.txt into Docker and instructs Docker to run them.",
             "filename": "run-container_0.1.bb",
             "filepath": "recipes-extended/run-container",
@@ -1374,17 +1510,21 @@
             "inherits": "allarch ptest systemd",
             "layerbranch": 853281,
             "license": "MIT",
+            "pe": "",
             "pn": "run-container",
+            "pr": "r0",
             "provides": "run-container ",
             "pv": "0.1",
             "section": "base",
+            "srcrev": "",
             "summary": "Imports container images into Docker",
-            "updated": "2020-03-13T01:03:51+0000"
+            "updated": "2020-03-26T19:03:25+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "Basic rc.local facility for wrlinux",
             "filename": "wr-init_1.0.bb",
             "filepath": "recipes-core/wr-init",
@@ -1393,17 +1533,21 @@
             "inherits": "update-rc.d",
             "layerbranch": 853281,
             "license": "MIT",
+            "pe": "",
             "pn": "wr-init",
+            "pr": "r0",
             "provides": "wr-init ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:51+0000"
+            "updated": "2020-03-26T19:03:25+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "Basic init system for glibc-tiny",
             "filename": "tiny-init.bb",
             "filepath": "recipes-core/tiny-init",
@@ -1412,17 +1556,21 @@
             "inherits": "",
             "layerbranch": 853281,
             "license": "MIT",
+            "pe": "",
             "pn": "tiny-init",
+            "pr": "r3",
             "provides": "tiny-init ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "glibc-tiny init",
-            "updated": "2020-03-13T01:03:51+0000"
+            "updated": "2020-03-26T19:03:26+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "A basic initramfs image that boots to a console.",
             "filename": "wrlinux-image-initramfs.bb",
             "filepath": "recipes-core/images",
@@ -1431,17 +1579,21 @@
             "inherits": "core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrlinux-image wrltemplate_image",
             "layerbranch": 853281,
             "license": "MIT",
+            "pe": "",
             "pn": "wrlinux-image-initramfs",
+            "pr": "r0",
             "provides": "wrlinux-image-initramfs ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:51+0000"
+            "updated": "2020-03-26T19:03:26+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "A systemd system container which will run                 ${WR_SYSTEMD_CONTAINER_APP}.",
             "filename": "wr-systemd-container_1.0.bb",
             "filepath": "recipes-core/images",
@@ -1450,17 +1602,21 @@
             "inherits": "image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wr-systemd-container wrltemplate_image",
             "layerbranch": 853281,
             "license": "",
+            "pe": "",
             "pn": "wr-systemd-container",
+            "pr": "r0",
             "provides": "wr-systemd-container ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "Systemd system container for ${WR_SYSTEMD_CONTAINER_APP}",
-            "updated": "2020-03-13T01:03:52+0000"
+            "updated": "2020-03-26T19:03:26+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "An application container which will run                 ${WR_APP_CONTAINER_APP}.",
             "filename": "wr-app-container_1.0.bb",
             "filepath": "recipes-core/images",
@@ -1469,17 +1625,21 @@
             "inherits": "image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wr-app-container wrltemplate_image",
             "layerbranch": 853281,
             "license": "",
+            "pe": "",
             "pn": "wr-app-container",
+            "pr": "r0",
             "provides": "wr-app-container ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "Application container for ${WR_APP_CONTAINER_APP}",
-            "updated": "2020-03-13T01:03:53+0000"
+            "updated": "2020-03-26T19:03:26+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "Package Group for wrlinux - minimal bootable image",
             "filename": "packagegroup-core-boot-wrs.bb",
             "filepath": "recipes-core/packagegroups",
@@ -1488,406 +1648,388 @@
             "inherits": "",
             "layerbranch": 853281,
             "license": "MIT",
+            "pe": "",
             "pn": "packagegroup-core-boot-wrs",
+            "pr": "r1",
             "provides": "packagegroup-core-boot-wrs ",
             "pv": "1.0",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:53+0000"
+            "updated": "2020-03-26T19:03:27+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 60387,
-            "layerbranch": 853281,
-            "name": "feature/lttng",
-            "updated": "2020-03-13T01:03:53+0000"
-        },
-        {
-            "description": "",
-            "id": 60388,
-            "layerbranch": 853281,
-            "name": "feature/consul",
-            "updated": "2020-03-13T01:03:53+0000"
-        },
-        {
-            "description": "",
-            "id": 60389,
-            "layerbranch": 853281,
-            "name": "feature/libvirt",
-            "updated": "2020-03-13T01:03:53+0000"
-        },
-        {
-            "description": "",
-            "id": 60390,
-            "layerbranch": 853281,
-            "name": "feature/pts",
-            "updated": "2020-03-13T01:03:53+0000"
-        },
-        {
-            "description": "",
-            "id": 60391,
-            "layerbranch": 853281,
-            "name": "feature/lxc",
-            "updated": "2020-03-13T01:03:53+0000"
-        },
-        {
-            "description": "",
-            "id": 60392,
-            "layerbranch": 853281,
-            "name": "feature/tpm2",
-            "updated": "2020-03-13T01:03:53+0000"
-        },
-        {
-            "description": "",
-            "id": 60393,
-            "layerbranch": 853281,
-            "name": "feature/ldconfig",
-            "updated": "2020-03-13T01:03:53+0000"
-        },
-        {
-            "description": "",
             "id": 60394,
             "layerbranch": 853281,
-            "name": "feature/test",
-            "updated": "2020-03-13T01:03:53+0000"
+            "name": "feature/lxc",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60395,
             "layerbranch": 853281,
-            "name": "feature/mariadb",
-            "updated": "2020-03-13T01:03:53+0000"
+            "name": "feature/python-tkinter",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60396,
             "layerbranch": 853281,
-            "name": "feature/wr-theme-gray",
-            "updated": "2020-03-13T01:03:53+0000"
+            "name": "feature/ips",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60397,
             "layerbranch": 853281,
-            "name": "feature/syslog-ng",
-            "updated": "2020-03-13T01:03:53+0000"
+            "name": "feature/yaffs2-utils",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60398,
             "layerbranch": 853281,
-            "name": "feature/edac",
-            "updated": "2020-03-13T01:03:53+0000"
+            "name": "feature/encrypted-storage",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60399,
             "layerbranch": 853281,
-            "name": "feature/pam-tally2",
-            "updated": "2020-03-13T01:03:53+0000"
+            "name": "feature/docker",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60400,
             "layerbranch": 853281,
-            "name": "feature/ids-basic",
-            "updated": "2020-03-13T01:03:53+0000"
+            "name": "feature/initramfs-integrated",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60401,
             "layerbranch": 853281,
-            "name": "feature/nfsd",
-            "updated": "2020-03-13T01:03:53+0000"
+            "name": "feature/LAMP",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60402,
             "layerbranch": 853281,
-            "name": "feature/yaffs2-utils",
-            "updated": "2020-03-13T01:03:53+0000"
+            "name": "feature/ids-basic",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60403,
             "layerbranch": 853281,
-            "name": "feature/full_nohz",
-            "updated": "2020-03-13T01:03:53+0000"
+            "name": "feature/benchmark",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60404,
             "layerbranch": 853281,
-            "name": "feature/initramfs-install",
-            "updated": "2020-03-13T01:03:53+0000"
+            "name": "feature/debug",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60405,
             "layerbranch": 853281,
-            "name": "feature/encrypted-storage",
-            "updated": "2020-03-13T01:03:53+0000"
+            "name": "feature/nfsd",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60406,
             "layerbranch": 853281,
-            "name": "feature/efi-secure-boot",
-            "updated": "2020-03-13T01:03:53+0000"
+            "name": "feature/openssl-no-weak-ciphers",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60407,
             "layerbranch": 853281,
-            "name": "feature/initramfs",
-            "updated": "2020-03-13T01:03:53+0000"
+            "name": "feature/consul",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60408,
             "layerbranch": 853281,
-            "name": "feature/openssl-no-weak-ciphers",
-            "updated": "2020-03-13T01:03:53+0000"
+            "name": "feature/pts",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60409,
             "layerbranch": 853281,
-            "name": "feature/stig",
-            "updated": "2020-03-13T01:03:53+0000"
+            "name": "feature/iotop",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60410,
             "layerbranch": 853281,
-            "name": "feature/ips",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/wr-theme-gray",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60411,
             "layerbranch": 853281,
-            "name": "feature/firewall",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/xfce",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60412,
             "layerbranch": 853281,
-            "name": "feature/network-bond-libteam",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/bpf",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60413,
             "layerbranch": 853281,
-            "name": "feature/krb5",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/nfc",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60414,
             "layerbranch": 853281,
-            "name": "feature/session-manager",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/initramfs-install",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60415,
             "layerbranch": 853281,
-            "name": "feature/ima",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/firewall",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60416,
             "layerbranch": 853281,
-            "name": "feature/python-tkinter",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/initramfs",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60417,
             "layerbranch": 853281,
-            "name": "feature/systemdebug",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/posix-timers",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60418,
             "layerbranch": 853281,
-            "name": "feature/task-scheduler",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/dhcp-server-kea",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
-            "description": "",
+            "description": "Enable BSP extras packages support",
             "id": 60419,
             "layerbranch": 853281,
-            "name": "feature/benchmark",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/bsp-extras",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60420,
             "layerbranch": 853281,
-            "name": "feature/tpm",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/systemdebug",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60421,
             "layerbranch": 853281,
-            "name": "feature/criu",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/tpm",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60422,
             "layerbranch": 853281,
-            "name": "feature/dhcp-server-kea",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/libvirt",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60423,
             "layerbranch": 853281,
-            "name": "feature/selinux",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/syslog-ng",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60424,
             "layerbranch": 853281,
-            "name": "feature/posix-timers",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/test",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60425,
             "layerbranch": 853281,
-            "name": "feature/nfc",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/full_nohz",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
-            "description": "build and include container images in rootfs images",
+            "description": "",
             "id": 60426,
             "layerbranch": 853281,
-            "name": "feature/run-container",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/criu",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60427,
             "layerbranch": 853281,
-            "name": "feature/kdump",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/edac",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60428,
             "layerbranch": 853281,
-            "name": "feature/initramfs-integrated",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/krb5",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60429,
             "layerbranch": 853281,
-            "name": "feature/kexec",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/ipv6",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60430,
             "layerbranch": 853281,
-            "name": "feature/debug",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/tpm2",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60431,
             "layerbranch": 853281,
-            "name": "feature/agent-proxy",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/libhugetlbfs",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60432,
             "layerbranch": 853281,
-            "name": "feature/bpf",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/lttng",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60433,
             "layerbranch": 853281,
-            "name": "feature/libhugetlbfs",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/agent-proxy",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60434,
             "layerbranch": 853281,
-            "name": "feature/xfce",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/network-bond-libteam",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60435,
             "layerbranch": 853281,
-            "name": "feature/wr-theme-blue",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/selinux",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60436,
             "layerbranch": 853281,
-            "name": "feature/ipv6",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/pam-tally2",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60437,
             "layerbranch": 853281,
-            "name": "feature/software-entropy",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/wr-theme-blue",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60438,
             "layerbranch": 853281,
-            "name": "feature/LAMP",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/efi-secure-boot",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
-            "description": "Enable BSP extras packages support",
+            "description": "",
             "id": 60439,
             "layerbranch": 853281,
-            "name": "feature/bsp-extras",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/kexec",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60440,
             "layerbranch": 853281,
-            "name": "feature/iotop",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/ima",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60441,
             "layerbranch": 853281,
-            "name": "feature/pam-wheel",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/software-entropy",
+            "updated": "2020-03-26T19:03:27+0000"
         },
         {
             "description": "",
             "id": 60442,
             "layerbranch": 853281,
-            "name": "feature/docker",
-            "updated": "2020-03-13T01:03:54+0000"
+            "name": "feature/pam-wheel",
+            "updated": "2020-03-26T19:03:27+0000"
+        },
+        {
+            "description": "build and include container images in rootfs images",
+            "id": 60443,
+            "layerbranch": 853281,
+            "name": "feature/run-container",
+            "updated": "2020-03-26T19:03:27+0000"
+        },
+        {
+            "description": "",
+            "id": 60444,
+            "layerbranch": 853281,
+            "name": "feature/kdump",
+            "updated": "2020-03-26T19:03:27+0000"
+        },
+        {
+            "description": "",
+            "id": 60445,
+            "layerbranch": 853281,
+            "name": "feature/stig",
+            "updated": "2020-03-26T19:03:27+0000"
+        },
+        {
+            "description": "",
+            "id": 60446,
+            "layerbranch": 853281,
+            "name": "feature/ldconfig",
+            "updated": "2020-03-26T19:03:27+0000"
         }
     ]
 }

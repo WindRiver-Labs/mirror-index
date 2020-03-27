@@ -65,13 +65,6 @@
         },
         {
             "description": "",
-            "id": 10,
-            "image_url": "",
-            "link_url": "",
-            "name": "warrior"
-        },
-        {
-            "description": "",
             "id": 11,
             "image_url": "",
             "link_url": "",
@@ -146,18 +139,47 @@
             "image_url": "",
             "link_url": "",
             "name": "dunfell"
+        },
+        {
+            "description": "",
+            "id": 106,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell wrl"
+        },
+        {
+            "description": "",
+            "id": 107,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 108,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 109,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell warrior zeus"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20191106",
+            "bitbake_branch": "wr-10.19-20200305",
             "comparison": false,
+            "hidden": false,
             "id": 158,
             "name": "WRLINUX_10_19_BASE",
             "short_description": "Wind River Linux 10_19 Baseline",
             "sort_priority": 2,
             "update_environment": null,
-            "updated": "2020-02-14T06:02:36+0000",
+            "updated": "2020-03-18T00:03:41+0000",
             "updates_enabled": true
         }
     ],
@@ -169,9 +191,10 @@
             "collection": "openstack-controller-deploy-layer",
             "id": 853324,
             "layer": 159,
-            "updated": "2020-03-13T01:03:52+0000",
+            "local_path": "",
+            "updated": "2020-03-26T19:03:44+0000",
             "vcs_last_commit": "2019-10-14T08:10:11+0000",
-            "vcs_last_fetch": "2020-03-13T01:03:52+0000",
+            "vcs_last_fetch": "2020-03-26T19:03:44+0000",
             "vcs_last_rev": "a7e78f2fbc80e4588033a04ff9782f759faafb49",
             "vcs_subdir": "meta-openstack-controller-deploy",
             "version": null,
@@ -183,9 +206,10 @@
             "collection": "openstack-controller-test-config-layer",
             "id": 853325,
             "layer": 160,
-            "updated": "2020-03-13T01:03:36+0000",
+            "local_path": "",
+            "updated": "2020-03-26T19:03:47+0000",
             "vcs_last_commit": "2019-10-14T08:10:11+0000",
-            "vcs_last_fetch": "2020-03-13T01:03:36+0000",
+            "vcs_last_fetch": "2020-03-26T19:03:47+0000",
             "vcs_last_rev": "a7e78f2fbc80e4588033a04ff9782f759faafb49",
             "vcs_subdir": "meta-openstack-controller-test-config",
             "version": null,

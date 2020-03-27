@@ -65,13 +65,6 @@
         },
         {
             "description": "",
-            "id": 10,
-            "image_url": "",
-            "link_url": "",
-            "name": "warrior"
-        },
-        {
-            "description": "",
             "id": 11,
             "image_url": "",
             "link_url": "",
@@ -146,33 +139,63 @@
             "image_url": "",
             "link_url": "",
             "name": "dunfell"
+        },
+        {
+            "description": "",
+            "id": 106,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell wrl"
+        },
+        {
+            "description": "",
+            "id": 107,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 108,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 109,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell warrior zeus"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20191106",
+            "bitbake_branch": "wr-10.19-20200305",
             "comparison": false,
+            "hidden": false,
             "id": 158,
             "name": "WRLINUX_10_19_BASE",
             "short_description": "Wind River Linux 10_19 Baseline",
             "sort_priority": 2,
             "update_environment": null,
-            "updated": "2020-02-14T06:02:36+0000",
+            "updated": "2020-03-18T00:03:41+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20191106",
+            "actual_branch": "wr-10.19-20200305",
             "branch": 158,
             "collection": "core",
             "id": 852955,
             "layer": 1,
-            "updated": "2020-03-13T01:03:24+0000",
-            "vcs_last_commit": "2020-02-12T23:02:24+0000",
-            "vcs_last_fetch": "2020-03-13T01:03:24+0000",
-            "vcs_last_rev": "a7c06fb2761546f74c7748b2853687634d2955df",
+            "local_path": "",
+            "updated": "2020-03-26T19:03:37+0000",
+            "vcs_last_commit": "2020-03-16T05:03:36+0000",
+            "vcs_last_fetch": "2020-03-26T19:03:37+0000",
+            "vcs_last_rev": "5d4187b404bd400dd53685b77ff41debab9efa3c",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 102
@@ -183,9 +206,10 @@
             "collection": "signing-key",
             "id": 853248,
             "layer": 129,
-            "updated": "2020-03-13T01:03:54+0000",
+            "local_path": "",
+            "updated": "2020-03-26T19:03:48+0000",
             "vcs_last_commit": "2019-12-12T21:12:04+0000",
-            "vcs_last_fetch": "2020-03-13T01:03:54+0000",
+            "vcs_last_fetch": "2020-03-26T19:03:48+0000",
             "vcs_last_rev": "cc600355b5da841926232a66ede4da4e5aed2d5c",
             "vcs_subdir": "meta-signing-key",
             "version": null,
@@ -250,6 +274,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "Key store for key installation",
             "filename": "key-store_0.1.bb",
             "filepath": "recipes-support/key-store",
@@ -258,17 +283,21 @@
             "inherits": "user-key-store",
             "layerbranch": 853248,
             "license": "MIT",
+            "pe": "",
             "pn": "key-store",
+            "pr": "r0",
             "provides": "key-store ",
             "pv": "0.1",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:53+0000"
+            "updated": "2020-03-26T19:03:47+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": " ",
             "description": "",
             "filename": "sbsigntool_git.bb",
             "filepath": "recipes-devtools/sbsigntool",
@@ -277,17 +306,21 @@
             "inherits": "autotools autotools-brokensep pkgconfig siteconfig siteinfo",
             "layerbranch": 853248,
             "license": "GPLv3",
+            "pe": "",
             "pn": "sbsigntool",
+            "pr": "r0",
             "provides": "sbsigntool ",
             "pv": "0.6+gitX",
             "section": "base",
+            "srcrev": "951ee95a301674c046f55330cd7460e1314deff2",
             "summary": "Utilities for signing UEFI binaries for use with secure boot",
-            "updated": "2020-03-13T01:03:54+0000"
+            "updated": "2020-03-26T19:03:48+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "This project targets to provide a generic signing framework. This framework separates the signing request and signing process and correspondingly forms the so-called signlet and signaturelet. Each signaturelet only concerns about the details about how to construct the layout of a signature format, and signlet only cares how to construct the signing request. ",
             "filename": "libsign_git.bb",
             "filepath": "recipes-devtools/libsign",
@@ -296,12 +329,15 @@
             "inherits": "",
             "layerbranch": 853248,
             "license": "BSD-3-Clause",
+            "pe": "",
             "pn": "libsign",
+            "pr": "r0",
             "provides": "libsign ",
             "pv": "0.3.2+gitX",
             "section": "devel",
+            "srcrev": "36886d1055db5fd4efd7b5596d1f24e90187f539",
             "summary": "A generic signing tool framework",
-            "updated": "2020-03-13T01:03:54+0000"
+            "updated": "2020-03-26T19:03:48+0000"
         }
     ],
     "wrtemplates": []

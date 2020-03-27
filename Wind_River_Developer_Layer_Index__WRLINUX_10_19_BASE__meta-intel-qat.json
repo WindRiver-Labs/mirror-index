@@ -65,13 +65,6 @@
         },
         {
             "description": "",
-            "id": 10,
-            "image_url": "",
-            "link_url": "",
-            "name": "warrior"
-        },
-        {
-            "description": "",
             "id": 11,
             "image_url": "",
             "link_url": "",
@@ -146,33 +139,63 @@
             "image_url": "",
             "link_url": "",
             "name": "dunfell"
+        },
+        {
+            "description": "",
+            "id": 106,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell wrl"
+        },
+        {
+            "description": "",
+            "id": 107,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell wrl zeus"
+        },
+        {
+            "description": "",
+            "id": 108,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell thud warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 109,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell warrior zeus"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.19-20191106",
+            "bitbake_branch": "wr-10.19-20200305",
             "comparison": false,
+            "hidden": false,
             "id": 158,
             "name": "WRLINUX_10_19_BASE",
             "short_description": "Wind River Linux 10_19 Baseline",
             "sort_priority": 2,
             "update_environment": null,
-            "updated": "2020-02-14T06:02:36+0000",
+            "updated": "2020-03-18T00:03:41+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.19-20191106",
+            "actual_branch": "wr-10.19-20200305",
             "branch": 158,
             "collection": "core",
             "id": 852955,
             "layer": 1,
-            "updated": "2020-03-13T01:03:24+0000",
-            "vcs_last_commit": "2020-02-12T23:02:24+0000",
-            "vcs_last_fetch": "2020-03-13T01:03:24+0000",
-            "vcs_last_rev": "a7c06fb2761546f74c7748b2853687634d2955df",
+            "local_path": "",
+            "updated": "2020-03-26T19:03:37+0000",
+            "vcs_last_commit": "2020-03-16T05:03:36+0000",
+            "vcs_last_fetch": "2020-03-26T19:03:37+0000",
+            "vcs_last_rev": "5d4187b404bd400dd53685b77ff41debab9efa3c",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 102
@@ -183,9 +206,10 @@
             "collection": "intel-qat",
             "id": 853255,
             "layer": 193,
-            "updated": "2020-03-13T01:03:23+0000",
+            "local_path": "",
+            "updated": "2020-03-26T19:03:31+0000",
             "vcs_last_commit": "2019-10-14T08:10:26+0000",
-            "vcs_last_fetch": "2020-03-13T01:03:23+0000",
+            "vcs_last_fetch": "2020-03-26T19:03:31+0000",
             "vcs_last_rev": "c32f1950322b338765e42ef43d1aa1b4b3c90321",
             "vcs_subdir": "",
             "version": "1",
@@ -250,6 +274,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "This software acelerates the data compression algorithm in the zlib software library via the Intel QuickAssist Technology",
             "filename": "zlib-qat_0.4.7-002.bb",
             "filepath": "recipes-extended/zlib-qat",
@@ -258,17 +283,21 @@
             "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
             "layerbranch": 853255,
             "license": "Zlib & GPLv2 & BSD",
+            "pe": "",
             "pn": "zlib-qat",
+            "pr": "r0",
             "provides": "zlib-qat ",
             "pv": "0.4.7-002",
             "section": "libs",
+            "srcrev": "",
             "summary": "Zlib QAT_MEM Memory Management Module for Intel Quick Assist Technology",
-            "updated": "2020-03-13T01:03:22+0000"
+            "updated": "2020-03-26T19:03:31+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "This software acelerates the data compression algorithm in the zlib software library via the Intel QuickAssist Technology",
             "filename": "zlib-qat_0.4.10-001.bb",
             "filepath": "recipes-extended/zlib-qat",
@@ -277,17 +306,21 @@
             "inherits": "",
             "layerbranch": 853255,
             "license": "Zlib & GPLv2 & BSD",
+            "pe": "",
             "pn": "zlib-qat",
+            "pr": "r0",
             "provides": "zlib-qat ",
             "pv": "0.4.10-001",
             "section": "libs",
+            "srcrev": "",
             "summary": "Zlib QAT_MEM Memory Management Module for Intel Quick Assist Technology",
-            "updated": "2020-03-13T01:03:22+0000"
+            "updated": "2020-03-26T19:03:31+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "Intel(r) QuickAssist Technology API",
             "filename": "qat17_4.2.0-00012.bb",
             "filepath": "recipes-extended/qat",
@@ -296,17 +329,21 @@
             "inherits": "kernel-arch kernel-module-split module module-base pkgconfig update-rc.d",
             "layerbranch": 853255,
             "license": "BSD & GPLv2",
+            "pe": "",
             "pn": "qat17",
+            "pr": "r0",
             "provides": "qat17  virtual/qat",
             "pv": "4.2.0-00012",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:22+0000"
+            "updated": "2020-03-26T19:03:31+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
+            "configopts": "",
             "description": "Intel(r) QuickAssist Technology API",
             "filename": "qat16_2.6.0-65.bb",
             "filepath": "recipes-extended/qat",
@@ -315,12 +352,15 @@
             "inherits": "kernel-arch kernel-module-split module module-base pkgconfig update-rc.d",
             "layerbranch": 853255,
             "license": "BSD & GPLv2",
+            "pe": "",
             "pn": "qat16",
+            "pr": "r0",
             "provides": "qat16  virtual/qat",
             "pv": "2.6.0-65",
             "section": "base",
+            "srcrev": "",
             "summary": "",
-            "updated": "2020-03-13T01:03:23+0000"
+            "updated": "2020-03-26T19:03:31+0000"
         }
     ],
     "wrtemplates": []
