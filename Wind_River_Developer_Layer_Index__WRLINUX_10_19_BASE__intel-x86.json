@@ -167,6 +167,13 @@
             "image_url": "",
             "link_url": "",
             "name": "dunfell warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 119,
+            "image_url": "",
+            "link_url": "",
+            "name": "dunfell gatesgarth"
         }
     ],
     "branches": [
@@ -216,16 +223,31 @@
             "yp_compatible_version": 99
         },
         {
+            "actual_branch": "wr-10.19-20191106",
+            "branch": 158,
+            "collection": "intel-qat",
+            "id": 853255,
+            "layer": 193,
+            "local_path": "",
+            "updated": "2020-05-08T20:05:29+0000",
+            "vcs_last_commit": "2020-05-08T20:05:06+0000",
+            "vcs_last_fetch": "2020-05-08T20:05:29+0000",
+            "vcs_last_rev": "67104db81e43274499580c8ba50213ed6fa13048",
+            "vcs_subdir": "",
+            "version": "1",
+            "yp_compatible_version": 99
+        },
+        {
             "actual_branch": "",
             "branch": 158,
             "collection": "wrlinux",
             "id": 853279,
             "layer": 49,
             "local_path": "",
-            "updated": "2020-04-29T02:04:24+0000",
-            "vcs_last_commit": "2020-04-29T01:04:12+0000",
-            "vcs_last_fetch": "2020-04-29T02:04:24+0000",
-            "vcs_last_rev": "d63d9b681c0b6afa269e525d38a048dacc084e97",
+            "updated": "2020-05-11T21:05:27+0000",
+            "vcs_last_commit": "2020-05-11T20:05:14+0000",
+            "vcs_last_fetch": "2020-05-11T21:05:27+0000",
+            "vcs_last_rev": "9da1951c8323d6d712f58e4d772fe2f59107308d",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 101
@@ -237,10 +259,10 @@
             "id": 853300,
             "layer": 32,
             "local_path": "",
-            "updated": "2020-04-24T02:04:47+0000",
-            "vcs_last_commit": "2020-04-10T02:04:59+0000",
-            "vcs_last_fetch": "2020-04-24T02:04:47+0000",
-            "vcs_last_rev": "40e6fa8be136c2c2e6655eb9317b23901f6f3ebd",
+            "updated": "2020-05-08T20:05:34+0000",
+            "vcs_last_commit": "2020-05-08T20:05:32+0000",
+            "vcs_last_fetch": "2020-05-08T20:05:34+0000",
+            "vcs_last_rev": "88d57b22aceb31048afa291273327fd34179bcb7",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 101
@@ -262,6 +284,12 @@
         {
             "dependency": 49,
             "id": 56411,
+            "layerbranch": 853300,
+            "required": true
+        },
+        {
+            "dependency": 193,
+            "id": 66454,
             "layerbranch": 853300,
             "required": true
         }
@@ -334,6 +362,24 @@
             "updated": "2018-05-30T22:05:55+0000",
             "usage_url": "",
             "vcs_url": "#BASE_URL#/meta-intel",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "The Intel QuickAssist Adapter family provides customers with a scalable, flexible, and extendable way to offer Intel QuickAssist Technology crypto acceleration and compression capabilities to their existing product lines.",
+            "id": 193,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-intel-qat",
+            "status": "P",
+            "summary": "intel qat layer",
+            "updated": "2018-05-30T22:05:36+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-intel-qat",
             "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
@@ -432,6 +478,13 @@
             "layerbranch": 853300,
             "name": "default",
             "updated": "2020-04-24T02:04:47+0000"
+        },
+        {
+            "description": "",
+            "id": 64190,
+            "layerbranch": 853300,
+            "name": "feature/intel-qat",
+            "updated": "2020-05-06T20:05:59+0000"
         }
     ]
 }
