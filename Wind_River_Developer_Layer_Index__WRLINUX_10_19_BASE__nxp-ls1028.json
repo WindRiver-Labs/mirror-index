@@ -174,6 +174,13 @@
             "image_url": "",
             "link_url": "",
             "name": "dunfell gatesgarth"
+        },
+        {
+            "description": "",
+            "id": 120,
+            "image_url": "",
+            "link_url": "",
+            "name": "gatesgarth"
         }
     ],
     "branches": [
@@ -199,10 +206,10 @@
             "id": 852955,
             "layer": 1,
             "local_path": "",
-            "updated": "2020-04-24T02:04:41+0000",
-            "vcs_last_commit": "2020-03-16T05:03:36+0000",
-            "vcs_last_fetch": "2020-04-24T02:04:41+0000",
-            "vcs_last_rev": "5d4187b404bd400dd53685b77ff41debab9efa3c",
+            "updated": "2020-05-15T01:05:24+0000",
+            "vcs_last_commit": "2020-05-15T01:05:08+0000",
+            "vcs_last_fetch": "2020-05-15T01:05:24+0000",
+            "vcs_last_rev": "3e29e87df8f03fb12245fd732016c40040d83b7e",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 102
@@ -229,10 +236,10 @@
             "id": 853279,
             "layer": 49,
             "local_path": "",
-            "updated": "2020-05-11T21:05:27+0000",
-            "vcs_last_commit": "2020-05-11T20:05:14+0000",
-            "vcs_last_fetch": "2020-05-11T21:05:27+0000",
-            "vcs_last_rev": "9da1951c8323d6d712f58e4d772fe2f59107308d",
+            "updated": "2020-05-20T23:05:26+0000",
+            "vcs_last_commit": "2020-05-20T22:05:42+0000",
+            "vcs_last_fetch": "2020-05-20T23:05:26+0000",
+            "vcs_last_rev": "b652e731b476f333a3cd19d75633fa1de6997636",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 101
@@ -244,13 +251,28 @@
             "id": 865747,
             "layer": 295,
             "local_path": "",
-            "updated": "2020-04-29T18:04:25+0000",
-            "vcs_last_commit": "2020-04-29T17:04:31+0000",
-            "vcs_last_fetch": "2020-04-29T18:04:25+0000",
-            "vcs_last_rev": "c3a79553346068a315c29ec8c4c2d37e152b6560",
+            "updated": "2020-05-21T01:05:33+0000",
+            "vcs_last_commit": "2020-05-21T01:05:52+0000",
+            "vcs_last_fetch": "2020-05-21T01:05:33+0000",
+            "vcs_last_rev": "6eb5c5f60175a573d29317ad46c5bf0108b85f78",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 101
+        },
+        {
+            "actual_branch": "",
+            "branch": 158,
+            "collection": "freescale-layer",
+            "id": 867899,
+            "layer": 231,
+            "local_path": "",
+            "updated": "2020-05-21T01:05:30+0000",
+            "vcs_last_commit": "2020-05-21T01:05:36+0000",
+            "vcs_last_fetch": "2020-05-21T01:05:30+0000",
+            "vcs_last_rev": "8427ef1143e40ac814054accc5b0de4d6a8fe3bc",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": 97
         }
     ],
     "layerDependencies": [
@@ -275,6 +297,12 @@
         {
             "dependency": 247,
             "id": 66446,
+            "layerbranch": 865747,
+            "required": true
+        },
+        {
+            "dependency": 231,
+            "id": 67564,
             "layerbranch": 865747,
             "required": true
         }
@@ -311,6 +339,24 @@
             "updated": "2018-05-30T22:05:16+0000",
             "usage_url": "README",
             "vcs_url": "#BASE_URL#/wrlinux",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "This layer provides support for Freescale's platforms for use with\r\nOpenEmbedded and/or Yocto.",
+            "id": 231,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-freescale",
+            "status": "P",
+            "summary": "This layer provides support for Freescale's platforms for use with OpenEmbedded and/or Yocto.",
+            "updated": "2018-05-30T22:05:30+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-freescale",
             "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
@@ -393,7 +439,7 @@
             "id": 63545,
             "layerbranch": 865747,
             "name": "default",
-            "updated": "2020-04-28T18:04:22+0000"
+            "updated": "2020-05-14T19:05:45+0000"
         }
     ]
 }
