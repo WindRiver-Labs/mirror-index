@@ -253,37 +253,52 @@
         {
             "actual_branch": "",
             "branch": 158,
-            "collection": "wr-xilinx-zynqmp",
-            "id": 853307,
-            "layer": 83,
+            "collection": "freescale-layer",
+            "id": 867899,
+            "layer": 231,
             "local_path": "",
-            "updated": "2020-04-24T02:04:02+0000",
-            "vcs_last_commit": "2020-03-11T05:03:54+0000",
-            "vcs_last_fetch": "2020-04-24T02:04:02+0000",
-            "vcs_last_rev": "68b2c1e9e46a315445da5f701f99f8e1a09b326e",
+            "updated": "2020-06-02T19:06:31+0000",
+            "vcs_last_commit": "2020-06-02T19:06:50+0000",
+            "vcs_last_fetch": "2020-06-02T19:06:31+0000",
+            "vcs_last_rev": "282278e95e0b6de82d88b15dac1783ccdf0112b7",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": 97
+        },
+        {
+            "actual_branch": "",
+            "branch": 158,
+            "collection": "wr-nxp-ls1043",
+            "id": 868224,
+            "layer": 294,
+            "local_path": "",
+            "updated": "2020-06-03T01:06:38+0000",
+            "vcs_last_commit": "2020-06-03T00:06:20+0000",
+            "vcs_last_fetch": "2020-06-03T01:06:38+0000",
+            "vcs_last_rev": "e0533d79620746d8786cda6b49079eb36103ba3e",
             "vcs_subdir": "",
             "version": "1",
-            "yp_compatible_version": 101
+            "yp_compatible_version": 100
         }
     ],
     "layerDependencies": [
         {
             "dependency": 1,
-            "id": 56424,
-            "layerbranch": 853307,
+            "id": 67572,
+            "layerbranch": 868224,
+            "required": true
+        },
+        {
+            "dependency": 231,
+            "id": 67573,
+            "layerbranch": 868224,
             "required": true
         },
         {
             "dependency": 49,
-            "id": 56425,
-            "layerbranch": 853307,
+            "id": 67574,
+            "layerbranch": 868224,
             "required": true
-        },
-        {
-            "dependency": 289,
-            "id": 56426,
-            "layerbranch": 853307,
-            "required": false
         }
     ],
     "layerItems": [
@@ -325,18 +340,36 @@
         },
         {
             "comparison": false,
-            "description": "ZCU102 of Xilinx ZYNQ UltraScale MPSoC",
-            "id": 83,
-            "index_preference": 100,
+            "description": "This layer provides support for Freescale's platforms for use with\r\nOpenEmbedded and/or Yocto.",
+            "id": 231,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-freescale",
+            "status": "P",
+            "summary": "This layer provides support for Freescale's platforms for use with OpenEmbedded and/or Yocto.",
+            "updated": "2018-05-30T22:05:30+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-freescale",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "BSP nxp-ls1043 support",
+            "id": 294,
+            "index_preference": 0,
             "layer_type": "B",
             "mailing_list_url": "",
-            "name": "xilinx-zynqmp",
+            "name": "nxp-ls1043",
             "status": "P",
-            "summary": "Xilinx ZynqMP",
-            "updated": "2018-05-30T22:05:36+0000",
-            "usage_url": "README",
-            "vcs_url": "#BASE_URL#/xilinx-zynqmp",
-            "vcs_web_commit_url": "",
+            "summary": "BSP nxp-ls1043 support",
+            "updated": "2019-04-08T23:04:39+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/nxp-ls1043",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/wr-bsps/nxp-ls1043.git/commit/id=%hash%",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -344,11 +377,11 @@
     ],
     "machines": [
         {
-            "description": " Zynq Ultrascale+ MPSoC",
-            "id": 28572,
-            "layerbranch": 853307,
-            "name": "xilinx-zynqmp",
-            "updated": "2020-04-24T02:04:02+0000"
+            "description": " a nxp-ls1043",
+            "id": 30413,
+            "layerbranch": 868224,
+            "name": "nxp-ls1043",
+            "updated": "2020-06-03T01:06:38+0000"
         }
     ],
     "recipes": [
@@ -358,77 +391,31 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "kernel-module-mali.bb",
-            "filepath": "recipes-graphics/mali",
+            "filename": "u-boot-uenv_1.0.bb",
+            "filepath": "recipes-bsp/u-boot",
             "homepage": "",
-            "id": 1143398,
-            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig",
-            "layerbranch": 853307,
-            "license": "GPLv2",
+            "id": 1191218,
+            "inherits": "deploy",
+            "layerbranch": 868224,
+            "license": "MIT",
             "pe": "",
-            "pn": "kernel-module-mali",
+            "pn": "u-boot-uenv",
             "pr": "r0",
-            "provides": "kernel-module-mali ",
-            "pv": "r8p0-01rel0",
-            "section": "kernel/modules",
-            "srcrev": "",
-            "summary": "A Mali 400 Linux Kernel module",
-            "updated": "2020-04-24T02:04:02+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "libGLES for ZynqMP with Mali 400",
-            "filename": "libmali-xlnx.bb",
-            "filepath": "recipes-graphics/libgles",
-            "homepage": "",
-            "id": 1143399,
-            "inherits": "distro_features_check",
-            "layerbranch": 853307,
-            "license": "Proprietary",
-            "pe": "",
-            "pn": "libmali-xlnx",
-            "pr": "r0",
-            "provides": "libmali-xlnx  virtual/libgles1 virtual/libgles2 virtual/egl virtual/libgbm",
-            "pv": "r8p0-01rel0",
+            "provides": "u-boot-uenv ",
+            "pv": "1.0",
             "section": "base",
-            "srcrev": "776f095b0b5102e7ffdad70136c5f2461ff94737",
-            "summary": "",
-            "updated": "2020-04-24T02:04:02+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "https://bugs.freedesktop.org",
-            "configopts": " --enable-maintainer-mode ",
-            "description": "Xilinx ARM SOC display driver ",
-            "filename": "xf86-video-armsoc_git.bb",
-            "filepath": "recipes-graphics/xorg-driver",
-            "homepage": "http://www.x.org",
-            "id": 1143400,
-            "inherits": "autotools distro_features_check pkgconfig siteconfig siteinfo",
-            "layerbranch": 853307,
-            "license": "MIT-X & GPLv2+",
-            "pe": "2",
-            "pn": "xf86-video-armsoc",
-            "pr": "r0",
-            "provides": "xf86-video-armsoc ",
-            "pv": "1.4.1+gitX",
-            "section": "x11/drivers",
-            "srcrev": "8bbdb2ae3bb8ef649999a8da33ddbe11a04763b8",
-            "summary": "X.Org X server -- Xilinx ARM SOC display driver",
-            "updated": "2020-04-24T02:04:02+0000"
+            "srcrev": "",
+            "summary": "U-Boot boot.scr SD boot environment generation for nxp-ls1043a rdb targets",
+            "updated": "2020-06-03T01:06:38+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 63462,
-            "layerbranch": 853307,
+            "id": 66339,
+            "layerbranch": 868224,
             "name": "default",
-            "updated": "2020-04-24T02:04:02+0000"
+            "updated": "2020-06-03T01:06:38+0000"
         }
     ]
 }

@@ -142,13 +142,6 @@
         },
         {
             "description": "",
-            "id": 106,
-            "image_url": "",
-            "link_url": "",
-            "name": "dunfell wrl"
-        },
-        {
-            "description": "",
             "id": 107,
             "image_url": "",
             "link_url": "",
@@ -202,6 +195,13 @@
             "image_url": "",
             "link_url": "",
             "name": "gatesgarth warrior zeus"
+        },
+        {
+            "description": "",
+            "id": 275,
+            "image_url": "",
+            "link_url": "",
+            "name": "thud zeus"
         }
     ],
     "branches": [
@@ -221,23 +221,69 @@
     "distros": [],
     "layerBranches": [
         {
+            "actual_branch": "wr-10.19-20200305",
+            "branch": 158,
+            "collection": "core",
+            "id": 852955,
+            "layer": 1,
+            "local_path": "",
+            "updated": "2020-05-15T01:05:24+0000",
+            "vcs_last_commit": "2020-05-15T01:05:08+0000",
+            "vcs_last_fetch": "2020-05-15T01:05:24+0000",
+            "vcs_last_rev": "3e29e87df8f03fb12245fd732016c40040d83b7e",
+            "vcs_subdir": "meta",
+            "version": "11",
+            "yp_compatible_version": 102
+        },
+        {
             "actual_branch": "",
             "branch": 158,
             "collection": "freescale-layer",
             "id": 867899,
             "layer": 231,
             "local_path": "",
-            "updated": "2020-05-21T01:05:30+0000",
-            "vcs_last_commit": "2020-05-21T01:05:36+0000",
-            "vcs_last_fetch": "2020-05-21T01:05:30+0000",
-            "vcs_last_rev": "8427ef1143e40ac814054accc5b0de4d6a8fe3bc",
+            "updated": "2020-06-02T19:06:31+0000",
+            "vcs_last_commit": "2020-06-02T19:06:50+0000",
+            "vcs_last_fetch": "2020-06-02T19:06:31+0000",
+            "vcs_last_rev": "282278e95e0b6de82d88b15dac1783ccdf0112b7",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 97
         }
     ],
-    "layerDependencies": [],
+    "layerDependencies": [
+        {
+            "dependency": 1,
+            "id": 67568,
+            "layerbranch": 867899,
+            "required": true
+        },
+        {
+            "dependency": 232,
+            "id": 67569,
+            "layerbranch": 867899,
+            "required": false
+        }
+    ],
     "layerItems": [
+        {
+            "comparison": false,
+            "description": "OpenEmbedded-Core is a layer containing the core metadata for current versions\r\nof OpenEmbedded. It is distro-less (can build a functional image with\r\nDISTRO = \"nodistro\") and contains only emulated machine support.",
+            "id": 1,
+            "index_preference": 1000,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "openembedded-core",
+            "status": "P",
+            "summary": "Core Metadata",
+            "updated": "2018-05-30T23:05:28+0000",
+            "usage_url": "README",
+            "vcs_url": "#BASE_URL#/oe-core",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
         {
             "comparison": false,
             "description": "This layer provides support for Freescale's platforms for use with\r\nOpenEmbedded and/or Yocto.",
@@ -1154,7 +1200,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "U-Boot based on mainline U-Boot used by FSL Community BSP in order to provide support for some backported features and fixes, or because it was submitted for revision and it takes some time to become part of a stable version, or because it is not applicable for upstreaming.",
-            "filename": "u-boot-fslc_2019.07.bb",
+            "filename": "u-boot-fslc_2020.01.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "",
             "id": 1178187,
@@ -1165,34 +1211,11 @@
             "pn": "u-boot-fslc",
             "pr": "r0",
             "provides": "u-boot-fslc virtual/bootloader u-boot",
-            "pv": "v2019.07+gitX",
+            "pv": "v2020.01+gitX",
             "section": "base",
-            "srcrev": "ca0ab152714540f93bab9347ad5b706a0a54f037",
+            "srcrev": "76594fb45d0de47ba1ea004d2eb1963f799e36c4",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2020-05-20T19:05:31+0000"
-        },
-        {
-            "bbclassextend": "cross",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "",
-            "filename": "u-boot-qoriq-fw-utils_2019.04.bb",
-            "filepath": "recipes-bsp/u-boot",
-            "homepage": "",
-            "id": 1178188,
-            "inherits": "fsl-u-boot-localversion uboot-config",
-            "layerbranch": 867899,
-            "license": "GPLv2 & BSD-3-Clause & BSD-2-Clause & LGPL-2.0 & LGPL-2.1",
-            "pe": "",
-            "pn": "u-boot-qoriq-fw-utils",
-            "pr": "r0",
-            "provides": "u-boot-qoriq-fw-utils  u-boot-fw-utils",
-            "pv": "2019.04+fslgit",
-            "section": "base",
-            "srcrev": "ce862bb2d2aa3b2a69bc580c57dce67d84ac1b99",
-            "summary": "U-Boot bootloader fw_printenv/setenv utilities",
-            "updated": "2020-05-20T19:05:31+0000"
+            "updated": "2020-06-02T19:06:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1200,7 +1223,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "i.MX U-Boot suppporting i.MX reference boards.",
-            "filename": "u-boot-imx_2018.03.bb",
+            "filename": "u-boot-imx_2019.04.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "",
             "id": 1178189,
@@ -1211,34 +1234,11 @@
             "pn": "u-boot-imx",
             "pr": "r0",
             "provides": "u-boot-imx virtual/bootloader u-boot",
-            "pv": "2018.03",
+            "pv": "2019.04",
             "section": "base",
-            "srcrev": "0d6d8807793e74402e23772062469aeb4808dd48",
+            "srcrev": "228843cdf5435d4bd69f42a6015f78761ff4cc0d",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2020-05-20T19:05:31+0000"
-        },
-        {
-            "bbclassextend": "cross",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "",
-            "filename": "u-boot-fslc-fw-utils_2019.07.bb",
-            "filepath": "recipes-bsp/u-boot",
-            "homepage": "",
-            "id": 1178190,
-            "inherits": "fsl-u-boot-localversion uboot-config",
-            "layerbranch": 867899,
-            "license": "GPLv2+",
-            "pe": "",
-            "pn": "u-boot-fslc-fw-utils",
-            "pr": "r0",
-            "provides": "u-boot-fslc-fw-utils  u-boot-fw-utils",
-            "pv": "v2019.07+gitX",
-            "section": "base",
-            "srcrev": "ca0ab152714540f93bab9347ad5b706a0a54f037",
-            "summary": "U-Boot bootloader fw_printenv/setenv utilities",
-            "updated": "2020-05-20T19:05:31+0000"
+            "updated": "2020-06-02T19:06:30+0000"
         },
         {
             "bbclassextend": "",
@@ -1246,7 +1246,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "U-Boot provided by Freescale with focus on QorIQ boards",
-            "filename": "u-boot-qoriq_2019.04.bb",
+            "filename": "u-boot-qoriq_2019.10.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "",
             "id": 1178191,
@@ -1257,11 +1257,11 @@
             "pn": "u-boot-qoriq",
             "pr": "r0",
             "provides": "u-boot-qoriq virtual/bootloader u-boot",
-            "pv": "2019.04+fslgit",
+            "pv": "2019.10+fslgit",
             "section": "base",
-            "srcrev": "ce862bb2d2aa3b2a69bc580c57dce67d84ac1b99",
+            "srcrev": "b0833bd0e26c059277f0673c9887b967f1ea5837",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2020-05-20T19:05:32+0000"
+            "updated": "2020-06-02T19:06:30+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1269,7 +1269,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "U-boot bootloader mxsboot tool",
-            "filename": "u-boot-fslc-mxsboot_2019.07.bb",
+            "filename": "u-boot-fslc-mxsboot_2020.01.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "",
             "id": 1178192,
@@ -1280,11 +1280,11 @@
             "pn": "u-boot-fslc-mxsboot",
             "pr": "r0",
             "provides": "u-boot-fslc-mxsboot u-boot-mxsboot",
-            "pv": "v2019.07+gitX",
+            "pv": "v2020.01+gitX",
             "section": "bootloader",
-            "srcrev": "ca0ab152714540f93bab9347ad5b706a0a54f037",
+            "srcrev": "76594fb45d0de47ba1ea004d2eb1963f799e36c4",
             "summary": "",
-            "updated": "2020-05-20T19:05:32+0000"
+            "updated": "2020-06-02T19:06:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1292,7 +1292,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "i.MX U-Boot suppporting i.MX reference boards.",
-            "filename": "u-boot-imx-mfgtool_2018.03.bb",
+            "filename": "u-boot-imx-mfgtool_2019.04.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "",
             "id": 1178193,
@@ -1303,11 +1303,11 @@
             "pn": "u-boot-imx-mfgtool",
             "pr": "r0",
             "provides": "u-boot-imx-mfgtool u-boot-mfgtool",
-            "pv": "2018.03",
+            "pv": "2019.04",
             "section": "base",
-            "srcrev": "0d6d8807793e74402e23772062469aeb4808dd48",
+            "srcrev": "228843cdf5435d4bd69f42a6015f78761ff4cc0d",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2020-05-20T19:05:32+0000"
+            "updated": "2020-06-02T19:06:30+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1627,9 +1627,9 @@
             "provides": "atf ",
             "pv": "git",
             "section": "base",
-            "srcrev": "85e98b945172118c55f0cea9c1f655b4307e6fab",
+            "srcrev": "4a82c939a0211196e2b80a495f966383803753bb",
             "summary": "",
-            "updated": "2020-05-20T19:05:35+0000"
+            "updated": "2020-06-02T19:06:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1650,9 +1650,9 @@
             "provides": "rcw ",
             "pv": "git",
             "section": "base",
-            "srcrev": "b73c4f6e5ad772aca5a8990f0ccc45d387ee7ac6",
+            "srcrev": "5689bf9c9f087f50aaa0d91b43d8a791fedbedd3",
             "summary": "Reset Configuration Word",
-            "updated": "2020-05-20T19:05:35+0000"
+            "updated": "2020-06-02T19:06:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1698,7 +1698,7 @@
             "section": "BSP",
             "srcrev": "dd0234001713623c79be92b60fa88bc07b07f24f",
             "summary": "",
-            "updated": "2020-05-20T19:05:35+0000"
+            "updated": "2020-06-02T19:06:29+0000"
         },
         {
             "bbclassextend": "",
@@ -2051,7 +2051,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "management-complex_10.18.0.bb",
+            "filename": "management-complex_10.20.4.bb",
             "filepath": "recipes-dpaa2/management-complex",
             "homepage": "",
             "id": 1178226,
@@ -2062,11 +2062,11 @@
             "pn": "management-complex",
             "pr": "r0",
             "provides": "management-complex ",
-            "pv": "10.18.0",
+            "pv": "10.20.4",
             "section": "base",
-            "srcrev": "249c3259accb6ad940cdf09db7d9f7885432ef45",
+            "srcrev": "f73683596a7b72124d67b62e64f3dc2bb36b9321",
             "summary": "DPAA2 Management Complex Firmware",
-            "updated": "2020-05-20T19:05:38+0000"
+            "updated": "2020-06-02T19:06:30+0000"
         },
         {
             "bbclassextend": "",
@@ -2110,9 +2110,9 @@
             "provides": "restool ",
             "pv": "git",
             "section": "base",
-            "srcrev": "55a1f377915176a195a7e96b165ed5447285c464",
+            "srcrev": "f0cec094e4c6d1c975b377203a3bf994ba9325a9",
             "summary": "DPAA2 Resource Manager Tool",
-            "updated": "2020-05-20T19:05:38+0000"
+            "updated": "2020-06-02T19:06:30+0000"
         },
         {
             "bbclassextend": "",
@@ -2373,7 +2373,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Data Plane Development Kit",
-            "filename": "dpdk_18.11.bb",
+            "filename": "dpdk_19.11-20.04.bb",
             "filepath": "recipes-extended/dpdk",
             "homepage": "http://dpdk.org",
             "id": 1178240,
@@ -2384,11 +2384,11 @@
             "pn": "dpdk",
             "pr": "r0",
             "provides": "dpdk ",
-            "pv": "18.11",
+            "pv": "19.11-20.04",
             "section": "base",
-            "srcrev": "a36da6a94243015b228c15b8b9aa1e650fd4b96d",
+            "srcrev": "4110a5fed09fa034963cfc246a6285911ecbd540",
             "summary": "",
-            "updated": "2020-05-20T19:05:39+0000"
+            "updated": "2020-06-02T19:06:31+0000"
         },
         {
             "bbclassextend": "",
@@ -2455,9 +2455,9 @@
             "provides": "dpdkvpp ",
             "pv": "1.0",
             "section": "base",
-            "srcrev": "a36da6a94243015b228c15b8b9aa1e650fd4b96d",
+            "srcrev": "4110a5fed09fa034963cfc246a6285911ecbd540",
             "summary": "",
-            "updated": "2020-05-20T19:05:40+0000"
+            "updated": "2020-06-02T19:06:30+0000"
         },
         {
             "bbclassextend": "",
@@ -3907,6 +3907,52 @@
             "srcrev": "894da2fb7ed5d314ee5c2fc9fd2d9b8b74111596",
             "summary": "Secure Socket Layer",
             "updated": "2020-05-20T19:05:49+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "i.MX U-Boot suppporting i.MX reference boards.",
+            "filename": "u-boot-imx-tools_2019.04.bb",
+            "filepath": "recipes-bsp/u-boot",
+            "homepage": "",
+            "id": 1191213,
+            "inherits": "fsl-u-boot-localversion",
+            "layerbranch": 867899,
+            "license": "GPLv2+",
+            "pe": "",
+            "pn": "u-boot-imx-tools",
+            "pr": "r0",
+            "provides": "u-boot-imx-tools  u-boot-tools",
+            "pv": "2019.04",
+            "section": "base",
+            "srcrev": "228843cdf5435d4bd69f42a6015f78761ff4cc0d",
+            "summary": "",
+            "updated": "2020-06-02T19:06:31+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "management-complex_10.14.1.bb",
+            "filepath": "recipes-dpaa2/management-complex",
+            "homepage": "",
+            "id": 1191214,
+            "inherits": "deploy",
+            "layerbranch": 867899,
+            "license": "NXP-Binary-EULA",
+            "pe": "",
+            "pn": "management-complex",
+            "pr": "r0",
+            "provides": "management-complex ",
+            "pv": "10.14.1",
+            "section": "base",
+            "srcrev": "408110ee632f6291545b0b156cd74e7e3b4612cc",
+            "summary": "DPAA2 Management Complex Firmware",
+            "updated": "2020-06-02T19:06:31+0000"
         }
     ],
     "wrtemplates": []
