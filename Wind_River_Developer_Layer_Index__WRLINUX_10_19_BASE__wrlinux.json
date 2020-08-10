@@ -241,10 +241,10 @@
             "id": 852955,
             "layer": 1,
             "local_path": "",
-            "updated": "2020-07-13T18:07:28+0000",
-            "vcs_last_commit": "2020-07-13T18:07:49+0000",
-            "vcs_last_fetch": "2020-07-13T18:07:28+0000",
-            "vcs_last_rev": "01be71f6b429aff528d57ca5ab13d79a69a71008",
+            "updated": "2020-07-30T22:07:30+0000",
+            "vcs_last_commit": "2020-07-30T22:07:46+0000",
+            "vcs_last_fetch": "2020-07-30T22:07:30+0000",
+            "vcs_last_rev": "16ec299f8d7669be5582ab509bed36296d4bbc1c",
             "vcs_subdir": "meta",
             "version": "11",
             "yp_compatible_version": 102
@@ -271,10 +271,10 @@
             "id": 853279,
             "layer": 49,
             "local_path": "",
-            "updated": "2020-07-20T02:07:27+0000",
-            "vcs_last_commit": "2020-07-20T01:07:23+0000",
-            "vcs_last_fetch": "2020-07-20T02:07:27+0000",
-            "vcs_last_rev": "877343dc7cab871b90b5175bf925ac5c12f4b3be",
+            "updated": "2020-08-07T03:08:29+0000",
+            "vcs_last_commit": "2020-08-07T03:08:16+0000",
+            "vcs_last_fetch": "2020-08-07T03:08:29+0000",
+            "vcs_last_rev": "80e997e86ab45272f6d675fedfa136d6787cb61b",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 101
@@ -447,7 +447,7 @@
             "section": "x11",
             "srcrev": "",
             "summary": "Wind River Linux Desktop Themes",
-            "updated": "2020-07-20T00:07:31+0000"
+            "updated": "2020-08-02T20:08:27+0000"
         },
         {
             "bbclassextend": "",
@@ -470,7 +470,7 @@
             "section": "base",
             "srcrev": "9bd5e2c7886fca72f139cd8402488a2235957d41",
             "summary": "inject PCIE AER errors on the software level",
-            "updated": "2020-07-20T00:07:32+0000"
+            "updated": "2020-08-02T20:08:27+0000"
         },
         {
             "bbclassextend": "",
@@ -493,7 +493,7 @@
             "section": "vdso test",
             "srcrev": "",
             "summary": " Vdso test Tool",
-            "updated": "2020-07-20T00:07:28+0000"
+            "updated": "2020-08-02T20:08:24+0000"
         },
         {
             "bbclassextend": "",
@@ -516,7 +516,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Intel Processor Counter Monitor",
-            "updated": "2020-07-20T00:07:29+0000"
+            "updated": "2020-08-02T20:08:24+0000"
         },
         {
             "bbclassextend": "",
@@ -539,7 +539,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Cross Memory Attach test case (cma)",
-            "updated": "2020-07-20T00:07:29+0000"
+            "updated": "2020-08-02T20:08:25+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -562,7 +562,7 @@
             "section": "base",
             "srcrev": "726c141fe582add0addf7d128aa33d1e3c532b56",
             "summary": "Credential storage for utilities that implement the askpass interface",
-            "updated": "2020-07-20T00:07:29+0000"
+            "updated": "2020-08-02T20:08:25+0000"
         },
         {
             "bbclassextend": "",
@@ -574,7 +574,7 @@
             "filepath": "dynamic-layers/meta-anaconda/recipes-installer/images",
             "homepage": "",
             "id": 1032388,
-            "inherits": "anaconda_image core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "anaconda_image core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrltemplate_image",
             "layerbranch": 853279,
             "license": "MIT",
             "pe": "",
@@ -585,7 +585,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-07-20T00:07:29+0000"
+            "updated": "2020-08-02T20:08:25+0000"
         },
         {
             "bbclassextend": "",
@@ -597,7 +597,7 @@
             "filepath": "dynamic-layers/meta-anaconda/recipes-installer/images",
             "homepage": "",
             "id": 1032389,
-            "inherits": "anaconda_image core-image fs-uuid image image-live image-postinst-intercepts image_types image_types_wic kernel-arch license_image live-vm-common meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo syslinux",
+            "inherits": "anaconda_image core-image fs-uuid image image-live image-postinst-intercepts image_types image_types_wic kernel-arch license_image live-vm-common meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo syslinux wrltemplate",
             "layerbranch": 853279,
             "license": "MIT",
             "pe": "",
@@ -608,7 +608,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-07-20T00:07:30+0000"
+            "updated": "2020-08-02T20:08:25+0000"
         },
         {
             "bbclassextend": "",
@@ -631,7 +631,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-07-20T00:07:30+0000"
+            "updated": "2020-08-02T20:08:26+0000"
         },
         {
             "bbclassextend": "",
@@ -654,7 +654,7 @@
             "section": "base",
             "srcrev": "b3fdfaa7a025b68f30913c9cc7a8fe4ae9c7ed7f",
             "summary": "MCE test suite",
-            "updated": "2020-07-20T00:07:30+0000"
+            "updated": "2020-08-02T20:08:26+0000"
         },
         {
             "bbclassextend": "",
@@ -677,7 +677,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-07-20T00:07:30+0000"
+            "updated": "2020-08-02T20:08:26+0000"
         },
         {
             "bbclassextend": "",
@@ -700,7 +700,30 @@
             "section": "base",
             "srcrev": "",
             "summary": "Tools to replace busybox",
-            "updated": "2020-07-20T00:07:31+0000"
+            "updated": "2020-08-02T20:08:27+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "NXP secure bootloader for qoriq devices",
+            "filename": "secure-boot-qoriq.bb",
+            "filepath": "wrlinux-nxp-secureboot/recipes-bsp/secure-boot",
+            "homepage": "",
+            "id": 1236878,
+            "inherits": "deploy",
+            "layerbranch": 853279,
+            "license": "GPLv2",
+            "pe": "",
+            "pn": "secure-boot-qoriq",
+            "pr": "r0",
+            "provides": "secure-boot-qoriq ",
+            "pv": "1.0",
+            "section": "bootloaders",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2020-08-05T22:08:28+0000"
         }
     ],
     "wrtemplates": [
@@ -793,7 +816,7 @@
             "id": 63439,
             "layerbranch": 853279,
             "name": "feature/dpdk",
-            "updated": "2020-04-24T02:04:57+0000"
+            "updated": "2020-07-31T00:07:28+0000"
         },
         {
             "description": "Add on-target package management to image",
