@@ -256,10 +256,10 @@
             "id": 853237,
             "layer": 7,
             "local_path": "",
-            "updated": "2020-07-03T00:07:32+0000",
-            "vcs_last_commit": "2020-07-02T23:07:09+0000",
-            "vcs_last_fetch": "2020-07-03T00:07:32+0000",
-            "vcs_last_rev": "78a4e85eca20648187180f67df4d455410c65c83",
+            "updated": "2020-08-20T18:08:29+0000",
+            "vcs_last_commit": "2020-08-20T18:08:46+0000",
+            "vcs_last_fetch": "2020-08-20T18:08:29+0000",
+            "vcs_last_rev": "63e4d69ab572211c1ca125207a703446abbaa96d",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 99
@@ -8068,7 +8068,7 @@
             "section": "System Environment/Base",
             "srcrev": "e53631f84a181be371c08e0b961180bff77fd2ab",
             "summary": "mcelog daemon accounts memory and some other errors in various ways.",
-            "updated": "2020-04-24T02:04:19+0000"
+            "updated": "2020-08-13T19:08:37+0000"
         },
         {
             "bbclassextend": "",
@@ -10495,7 +10495,7 @@
             "filepath": "recipes-test/cunit",
             "homepage": "http://cunit.sourceforge.net",
             "id": 1030123,
-            "inherits": "autotools autotools-brokensep siteconfig siteinfo",
+            "inherits": "autotools autotools-brokensep ptest siteconfig siteinfo",
             "layerbranch": 853237,
             "license": "LGPL-2.0",
             "pe": "",
@@ -10506,7 +10506,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:39+0000"
+            "updated": "2020-08-20T18:08:29+0000"
         },
         {
             "bbclassextend": "native nativesdk",
