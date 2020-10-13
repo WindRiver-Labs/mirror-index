@@ -249,10 +249,10 @@
             "id": 853237,
             "layer": 7,
             "local_path": "",
-            "updated": "2020-08-20T18:08:29+0000",
-            "vcs_last_commit": "2020-08-20T18:08:46+0000",
-            "vcs_last_fetch": "2020-08-20T18:08:29+0000",
-            "vcs_last_rev": "63e4d69ab572211c1ca125207a703446abbaa96d",
+            "updated": "2020-09-28T03:09:33+0000",
+            "vcs_last_commit": "2020-09-28T03:09:49+0000",
+            "vcs_last_fetch": "2020-09-28T03:09:33+0000",
+            "vcs_last_rev": "b8e424b8224ae39a34196e7beb048efd1ac9e5e8",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 99
@@ -7466,12 +7466,12 @@
             "updated": "2020-04-24T02:04:13+0000"
         },
         {
-            "bbclassextend": "native",
+            "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                  --with-libz                  --with-libz-prefix=/tmp/tmpw627752d/tmp-glibc/work/core2-32-oe-linux/libssh2/1.8.2-r0/recipe-sysroot/usr/lib                   --without-libgcrypt --with-openssl --with-libssl-prefix=/tmp/tmpw627752d/tmp-glibc/work/core2-32-oe-linux/libssh2/1.8.2-r0/recipe-sysroot/usr/lib",
+            "configopts": "                  --with-libz                  --with-libz-prefix=/tmp/tmp0ycmi7fh/tmp-glibc/work/core2-32-oe-linux/libssh2/1.9.0-r0/recipe-sysroot/usr/lib                     --with-crypto=openssl --with-libssl-prefix=/tmp/tmp0ycmi7fh/tmp-glibc/work/core2-32-oe-linux/libssh2/1.9.0-r0/recipe-sysroot/usr/lib",
             "description": "",
-            "filename": "libssh2_1.8.2.bb",
+            "filename": "libssh2_1.9.0.bb",
             "filepath": "recipes-support/libssh2",
             "homepage": "http://www.libssh2.org/",
             "id": 1029992,
@@ -7482,11 +7482,11 @@
             "pn": "libssh2",
             "pr": "r0",
             "provides": "libssh2 ",
-            "pv": "1.8.2",
+            "pv": "1.9.0",
             "section": "libs",
             "srcrev": "",
             "summary": "A client-side C library implementing the SSH2 protocol",
-            "updated": "2020-04-24T02:04:13+0000"
+            "updated": "2020-09-28T03:09:33+0000"
         },
         {
             "bbclassextend": "",
