@@ -135,13 +135,6 @@
         },
         {
             "description": "",
-            "id": 107,
-            "image_url": "",
-            "link_url": "",
-            "name": "dunfell wrl zeus"
-        },
-        {
-            "description": "",
             "id": 108,
             "image_url": "",
             "link_url": "",
@@ -264,10 +257,10 @@
             "id": 853279,
             "layer": 49,
             "local_path": "",
-            "updated": "2021-01-13T05:01:33+0000",
-            "vcs_last_commit": "2021-01-13T04:01:19+0000",
-            "vcs_last_fetch": "2021-01-13T05:01:33+0000",
-            "vcs_last_rev": "858a9f3d3a63eb4a7e7ce131ce677d47bc976cef",
+            "updated": "2021-02-02T01:02:35+0000",
+            "vcs_last_commit": "2021-02-01T23:02:07+0000",
+            "vcs_last_fetch": "2021-02-02T01:02:35+0000",
+            "vcs_last_rev": "42cbaad3cb6a9fb541b29ef43155e1f2b7b6f8fe",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 101
@@ -440,7 +433,7 @@
             "section": "x11",
             "srcrev": "",
             "summary": "Wind River Linux Desktop Themes",
-            "updated": "2020-12-17T20:12:39+0000"
+            "updated": "2021-02-02T01:02:35+0000"
         },
         {
             "bbclassextend": "",
@@ -463,7 +456,7 @@
             "section": "base",
             "srcrev": "9bd5e2c7886fca72f139cd8402488a2235957d41",
             "summary": "inject PCIE AER errors on the software level",
-            "updated": "2020-12-17T20:12:40+0000"
+            "updated": "2021-02-02T01:02:35+0000"
         },
         {
             "bbclassextend": "",
@@ -486,7 +479,7 @@
             "section": "vdso test",
             "srcrev": "",
             "summary": " Vdso test Tool",
-            "updated": "2020-12-17T20:12:36+0000"
+            "updated": "2021-02-02T01:02:32+0000"
         },
         {
             "bbclassextend": "",
@@ -509,7 +502,7 @@
             "section": "base",
             "srcrev": "4ed054e1b23baf9b282cb8dc243b0a064ad1bd99",
             "summary": "Intel Processor Counter Monitor",
-            "updated": "2020-12-17T20:12:36+0000"
+            "updated": "2021-02-02T01:02:32+0000"
         },
         {
             "bbclassextend": "",
@@ -532,7 +525,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Cross Memory Attach test case (cma)",
-            "updated": "2020-12-17T20:12:36+0000"
+            "updated": "2021-02-02T01:02:32+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -555,7 +548,7 @@
             "section": "base",
             "srcrev": "726c141fe582add0addf7d128aa33d1e3c532b56",
             "summary": "Credential storage for utilities that implement the askpass interface",
-            "updated": "2020-12-17T20:12:37+0000"
+            "updated": "2021-02-02T01:02:33+0000"
         },
         {
             "bbclassextend": "",
@@ -567,7 +560,7 @@
             "filepath": "dynamic-layers/meta-anaconda/recipes-installer/images",
             "homepage": "",
             "id": 1032388,
-            "inherits": "anaconda_image core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo",
+            "inherits": "anaconda_image core-image image image-postinst-intercepts image_types image_types_wic kernel-arch license_image meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo wrltemplate_image",
             "layerbranch": 853279,
             "license": "MIT",
             "pe": "",
@@ -578,7 +571,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-12-17T20:12:37+0000"
+            "updated": "2021-02-02T01:02:33+0000"
         },
         {
             "bbclassextend": "",
@@ -590,7 +583,7 @@
             "filepath": "dynamic-layers/meta-anaconda/recipes-installer/images",
             "homepage": "",
             "id": 1032389,
-            "inherits": "anaconda_image core-image fs-uuid image image-live image-postinst-intercepts image_types image_types_wic kernel-arch license_image live-vm-common meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo syslinux",
+            "inherits": "anaconda_image core-image fs-uuid image image-live image-postinst-intercepts image_types image_types_wic kernel-arch license_image live-vm-common meta populate_sdk_base populate_sdk_ext qemuboot rootfs-postcommands rootfs_ipk siteinfo syslinux wrltemplate",
             "layerbranch": 853279,
             "license": "MIT",
             "pe": "",
@@ -601,7 +594,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-12-17T20:12:37+0000"
+            "updated": "2021-02-02T01:02:33+0000"
         },
         {
             "bbclassextend": "",
@@ -624,7 +617,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-12-17T20:12:38+0000"
+            "updated": "2021-02-02T01:02:33+0000"
         },
         {
             "bbclassextend": "",
@@ -647,7 +640,7 @@
             "section": "base",
             "srcrev": "b3fdfaa7a025b68f30913c9cc7a8fe4ae9c7ed7f",
             "summary": "MCE test suite",
-            "updated": "2020-12-17T20:12:38+0000"
+            "updated": "2021-02-02T01:02:34+0000"
         },
         {
             "bbclassextend": "",
@@ -670,7 +663,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-12-17T20:12:38+0000"
+            "updated": "2021-02-02T01:02:34+0000"
         },
         {
             "bbclassextend": "",
@@ -693,7 +686,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Tools to replace busybox",
-            "updated": "2020-12-17T20:12:39+0000"
+            "updated": "2021-02-02T01:02:35+0000"
         }
     ],
     "wrtemplates": [
