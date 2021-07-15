@@ -242,46 +242,46 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.21-20210516",
+            "actual_branch": "wr-10.21-20210707",
             "branch": 240,
             "collection": "core",
             "id": 885774,
             "layer": 1,
             "local_path": "",
-            "updated": "2021-06-29T21:06:36+0000",
-            "vcs_last_commit": "2021-06-29T20:06:41+0000",
-            "vcs_last_fetch": "2021-06-29T21:06:36+0000",
-            "vcs_last_rev": "4e9440e3d107a7d78e2195d56bdffe5562567eea",
+            "updated": "2021-07-14T19:07:39+0000",
+            "vcs_last_commit": "2021-07-14T18:07:09+0000",
+            "vcs_last_fetch": "2021-07-14T19:07:39+0000",
+            "vcs_last_rev": "1e6cb0fcaf30c25c05fb4a3f7180bc7ac9d5df53",
             "vcs_subdir": "meta",
             "version": "12",
             "yp_compatible_version": 16389
         },
         {
-            "actual_branch": "wr-10.21-20210516",
+            "actual_branch": "wr-10.21-20210707",
             "branch": 240,
             "collection": "openembedded-layer",
             "id": 885776,
             "layer": 7,
             "local_path": "",
-            "updated": "2021-06-04T01:06:37+0000",
-            "vcs_last_commit": "2021-06-04T00:06:48+0000",
-            "vcs_last_fetch": "2021-06-04T01:06:37+0000",
-            "vcs_last_rev": "e5ca78cf89ea1ab6bb537db86372fa10322d0f72",
+            "updated": "2021-07-12T00:07:03+0000",
+            "vcs_last_commit": "2021-07-07T01:07:35+0000",
+            "vcs_last_fetch": "2021-07-12T00:07:03+0000",
+            "vcs_last_rev": "02631ced40b1a72aaa63cc49d4674eafe3b2486d",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 15718
         },
         {
-            "actual_branch": "wr-10.21-20210516",
+            "actual_branch": "wr-10.21-20210707",
             "branch": 240,
             "collection": "meta-python",
             "id": 885779,
             "layer": 12,
             "local_path": "",
-            "updated": "2021-05-18T00:05:24+0000",
-            "vcs_last_commit": "2021-05-17T19:05:24+0000",
-            "vcs_last_fetch": "2021-05-18T00:05:24+0000",
-            "vcs_last_rev": "8092f7fe9895c94a40e320032880be8ba785acca",
+            "updated": "2021-07-12T00:07:18+0000",
+            "vcs_last_commit": "2021-07-07T01:07:35+0000",
+            "vcs_last_fetch": "2021-07-12T00:07:18+0000",
+            "vcs_last_rev": "9645a3b2f4dacc321e1301bb1391d94da17b2c6c",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 15718
@@ -989,7 +989,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "A SoCo fork with fixes for Home Assistant ",
-            "filename": "python3-pysonos_0.0.42.bb",
+            "filename": "python3-pysonos_0.0.43.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://pypi.org/project/pysonos/",
             "id": 1333844,
@@ -1000,11 +1000,11 @@
             "pn": "python3-pysonos",
             "pr": "r0",
             "provides": "python3-pysonos ",
-            "pv": "0.0.42",
+            "pv": "0.0.43",
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-05-18T00:05:53+0000"
+            "updated": "2021-07-12T00:07:18+0000"
         },
         {
             "bbclassextend": "native",
@@ -1196,7 +1196,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "python3-asttokens_2.0.4.bb",
+            "filename": "python3-asttokens_2.0.5.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/gristlabs/asttokens",
             "id": 1333853,
@@ -1207,11 +1207,11 @@
             "pn": "python3-asttokens",
             "pr": "r0",
             "provides": "python3-asttokens ",
-            "pv": "2.0.4",
+            "pv": "2.0.5",
             "section": "devel/python",
             "srcrev": "",
             "summary": "The asttokens module annotates Python abstract syntax trees (ASTs)",
-            "updated": "2021-05-18T00:05:57+0000"
+            "updated": "2021-07-12T00:07:17+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1725,7 +1725,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "python3-django_2.2.22.bb",
+            "filename": "python3-django_2.2.24.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.djangoproject.com/",
             "id": 1333876,
@@ -1736,11 +1736,11 @@
             "pn": "python3-django",
             "pr": "r0",
             "provides": "python3-django ",
-            "pv": "2.2.22",
+            "pv": "2.2.24",
             "section": "devel/python",
             "srcrev": "",
             "summary": "A high-level Python Web framework",
-            "updated": "2021-05-18T00:05:24+0000"
+            "updated": "2021-07-07T01:07:48+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3772,7 +3772,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "python3-django_3.2.bb",
+            "filename": "python3-django_3.2.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://www.djangoproject.com/",
             "id": 1333965,
@@ -3783,11 +3783,11 @@
             "pn": "python3-django",
             "pr": "r0",
             "provides": "python3-django ",
-            "pv": "3.2",
+            "pv": "3.2.4",
             "section": "devel/python",
             "srcrev": "",
             "summary": "A high-level Python Web framework",
-            "updated": "2021-05-18T00:05:37+0000"
+            "updated": "2021-07-12T00:07:17+0000"
         },
         {
             "bbclassextend": "",
@@ -5819,7 +5819,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "python3-cerberus_1.3.3.bb",
+            "filename": "python3-cerberus_1.3.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://docs.python-cerberus.org/",
             "id": 1334054,
@@ -5830,11 +5830,11 @@
             "pn": "python3-cerberus",
             "pr": "r0",
             "provides": "python3-cerberus ",
-            "pv": "1.3.3",
+            "pv": "1.3.4",
             "section": "devel/python",
             "srcrev": "",
             "summary": "Lightweight, extensible schema and data validation tool for Python dictionaries.",
-            "updated": "2021-05-18T00:05:08+0000"
+            "updated": "2021-07-12T00:07:17+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -6026,7 +6026,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "The PyMongo distribution contains tools for interacting with MongoDB database from Python. The bson package is an implementation of the BSON format for Python. The pymongo package is a native Python driver for MongoDB. The gridfs package is a gridfs implementation on top of pymongo.",
-            "filename": "python3-pymongo_3.11.3.bb",
+            "filename": "python3-pymongo_3.11.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://github.com/mongodb/mongo-python-driver",
             "id": 1334063,
@@ -6037,11 +6037,11 @@
             "pn": "python3-pymongo",
             "pr": "r0",
             "provides": "python3-pymongo ",
-            "pv": "3.11.3",
+            "pv": "3.11.4",
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python driver for MongoDB <http://www.mongodb.org>",
-            "updated": "2021-05-18T00:05:11+0000"
+            "updated": "2021-07-12T00:07:17+0000"
         },
         {
             "bbclassextend": "native",
@@ -6762,7 +6762,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Generic open source test atomation framework for acceptancetesting and acceptance test-driven development (ATDD). It has easy-to-usetabular test data syntax and it utilizes the keyword-driven testing approach.Its testing capabilities can be extended by test libraries implemented eitherwith Python or Java, and users can create new higher-level keywords fromexisting ones using the same syntax that is used for creating test cases.",
-            "filename": "python3-robotframework_4.0.1.bb",
+            "filename": "python3-robotframework_4.0.2.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "http://robotframework.org",
             "id": 1334095,
@@ -6773,11 +6773,11 @@
             "pn": "python3-robotframework",
             "pr": "r0",
             "provides": "python3-robotframework ",
-            "pv": "4.0.1",
+            "pv": "4.0.2",
             "section": "devel/python",
             "srcrev": "",
             "summary": "A Python generic test automation framework",
-            "updated": "2021-05-18T00:05:22+0000"
+            "updated": "2021-07-12T00:07:18+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -9200,7 +9200,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "python3-rfc3339-validator_0.1.3.bb",
+            "filename": "python3-rfc3339-validator_0.1.4.bb",
             "filepath": "recipes-devtools/python",
             "homepage": "https://github.com/naimetti/rfc3339-validator",
             "id": 1334201,
@@ -9211,11 +9211,11 @@
             "pn": "python3-rfc3339-validator",
             "pr": "r0",
             "provides": "python3-rfc3339-validator ",
-            "pv": "0.1.3",
+            "pv": "0.1.4",
             "section": "devel/python",
             "srcrev": "",
             "summary": "A pure python RFC3339 validator",
-            "updated": "2021-05-18T00:05:01+0000"
+            "updated": "2021-07-12T00:07:18+0000"
         },
         {
             "bbclassextend": "",
@@ -10649,7 +10649,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "HTTP/2 framing layer for Python",
-            "filename": "python3-hyperframe_6.0.0.bb",
+            "filename": "python3-hyperframe_6.0.1.bb",
             "filepath": "recipes-connectivity/python-hyperframe",
             "homepage": "https://github.com/python-hyper/hyperframe",
             "id": 1334264,
@@ -10660,11 +10660,11 @@
             "pn": "python3-hyperframe",
             "pr": "r0",
             "provides": "python3-hyperframe ",
-            "pv": "6.0.0",
+            "pv": "6.0.1",
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-05-18T00:05:23+0000"
+            "updated": "2021-07-12T00:07:17+0000"
         }
     ],
     "wrtemplates": []

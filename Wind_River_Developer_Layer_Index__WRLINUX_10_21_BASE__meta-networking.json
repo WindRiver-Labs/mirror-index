@@ -242,61 +242,61 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.21-20210516",
+            "actual_branch": "wr-10.21-20210707",
             "branch": 240,
             "collection": "core",
             "id": 885774,
             "layer": 1,
             "local_path": "",
-            "updated": "2021-06-29T21:06:36+0000",
-            "vcs_last_commit": "2021-06-29T20:06:41+0000",
-            "vcs_last_fetch": "2021-06-29T21:06:36+0000",
-            "vcs_last_rev": "4e9440e3d107a7d78e2195d56bdffe5562567eea",
+            "updated": "2021-07-14T19:07:39+0000",
+            "vcs_last_commit": "2021-07-14T18:07:09+0000",
+            "vcs_last_fetch": "2021-07-14T19:07:39+0000",
+            "vcs_last_rev": "1e6cb0fcaf30c25c05fb4a3f7180bc7ac9d5df53",
             "vcs_subdir": "meta",
             "version": "12",
             "yp_compatible_version": 16389
         },
         {
-            "actual_branch": "wr-10.21-20210516",
+            "actual_branch": "wr-10.21-20210707",
             "branch": 240,
             "collection": "openembedded-layer",
             "id": 885776,
             "layer": 7,
             "local_path": "",
-            "updated": "2021-06-04T01:06:37+0000",
-            "vcs_last_commit": "2021-06-04T00:06:48+0000",
-            "vcs_last_fetch": "2021-06-04T01:06:37+0000",
-            "vcs_last_rev": "e5ca78cf89ea1ab6bb537db86372fa10322d0f72",
+            "updated": "2021-07-12T00:07:03+0000",
+            "vcs_last_commit": "2021-07-07T01:07:35+0000",
+            "vcs_last_fetch": "2021-07-12T00:07:03+0000",
+            "vcs_last_rev": "02631ced40b1a72aaa63cc49d4674eafe3b2486d",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 15718
         },
         {
-            "actual_branch": "wr-10.21-20210516",
+            "actual_branch": "wr-10.21-20210707",
             "branch": 240,
             "collection": "meta-python",
             "id": 885779,
             "layer": 12,
             "local_path": "",
-            "updated": "2021-05-18T00:05:24+0000",
-            "vcs_last_commit": "2021-05-17T19:05:24+0000",
-            "vcs_last_fetch": "2021-05-18T00:05:24+0000",
-            "vcs_last_rev": "8092f7fe9895c94a40e320032880be8ba785acca",
+            "updated": "2021-07-12T00:07:18+0000",
+            "vcs_last_commit": "2021-07-07T01:07:35+0000",
+            "vcs_last_fetch": "2021-07-12T00:07:18+0000",
+            "vcs_last_rev": "9645a3b2f4dacc321e1301bb1391d94da17b2c6c",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 15718
         },
         {
-            "actual_branch": "wr-10.21-20210516",
+            "actual_branch": "wr-10.21-20210707",
             "branch": 240,
             "collection": "networking-layer",
             "id": 885804,
             "layer": 11,
             "local_path": "",
-            "updated": "2021-06-15T01:06:01+0000",
-            "vcs_last_commit": "2021-06-15T00:06:45+0000",
-            "vcs_last_fetch": "2021-06-15T01:06:01+0000",
-            "vcs_last_rev": "5c75336c0312f7fcfc840ac37d05aa813a159495",
+            "updated": "2021-07-12T00:07:18+0000",
+            "vcs_last_commit": "2021-07-07T01:07:36+0000",
+            "vcs_last_fetch": "2021-07-12T00:07:18+0000",
+            "vcs_last_rev": "33ff2e1dd267343943076dfff78d25554debf191",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 15718
@@ -587,12 +587,12 @@
             "updated": "2021-05-18T00:05:43+0000"
         },
         {
-            "bbclassextend": "",
+            "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--enable-shared                 --disable-manuals                 --with-defaults                 --with-install-prefix=/tmp/tmph9dkd8us/tmp-glibc/work/core2-32-oe-linux/net-snmp/5.9-r0/image                 --with-persistent-directory=/var/lib/net-snmp                 --with-endianness=little                 --with-mib-modules=' smux'  --without-systemd  --enable-des  --without-elf --enable-ipv6  --without-nl  --disable-embedded-perl --with-perl-modules=no",
+            "configopts": "     --enable-shared     --disable-manuals     --with-defaults     --with-install-prefix=/tmp/tmptffjqfln/tmp-glibc/work/core2-32-oe-linux/net-snmp/5.9.1-r0/image     --with-persistent-directory=/var/lib/net-snmp     --with-endianness=little     --with-mib-modules=' smux'   --enable-des  --without-elf --enable-ipv6  --without-nl  --disable-embedded-perl --with-perl-modules=no  --without-systemd",
             "description": "",
-            "filename": "net-snmp_5.9.bb",
+            "filename": "net-snmp_5.9.1.bb",
             "filepath": "recipes-protocols/net-snmp",
             "homepage": "http://www.net-snmp.org/",
             "id": 1335041,
@@ -603,11 +603,11 @@
             "pn": "net-snmp",
             "pr": "r0",
             "provides": "net-snmp ",
-            "pv": "5.9",
+            "pv": "5.9.1",
             "section": "net",
             "srcrev": "",
             "summary": "Various tools relating to the Simple Network Management Protocol",
-            "updated": "2021-05-18T00:05:44+0000"
+            "updated": "2021-07-12T00:07:15+0000"
         },
         {
             "bbclassextend": "",
@@ -1366,7 +1366,7 @@
             "section": "otherosfs",
             "srcrev": "464a60344a324311a6f5bb326fdf5f422a3c9005",
             "summary": "",
-            "updated": "2021-05-18T00:05:55+0000"
+            "updated": "2021-07-12T00:07:16+0000"
         },
         {
             "bbclassextend": "",
@@ -1535,7 +1535,7 @@
             "bugtracker": "",
             "configopts": " -DENABLE_NETLINK=ON                   -DBUILD_mmdbresolve=OFF                   -DBUILD_randpktdump=OFF                   -DBUILD_androiddump=OFF                   -DBUILD_dcerpcidl2wrs=OFF                   -DM_INCLUDE_DIR=/usr/include                   -DM_LIBRARY=/usr/lib                    -DENABLE_CARES=OFF -DENABLE_GNUTLS=ON -DENABLE_KRB5=OFF -DENABLE_CAP=ON -DENABLE_PCAP=ON -DENABLE_SMI=OFF -DENABLE_LUA=OFF -DENABLE_LZ4=OFF -DENABLE_PLUGINS=OFF -DENABLE_PORTAUDIO=OFF  -DENABLE_QT5=OFF -DBUILD_wireshark=OFF -DENABLE_SBC=ON -DENABLE_ZLIB=OFF",
             "description": "wireshark - a popular network protocol analyzer",
-            "filename": "wireshark_3.4.4.bb",
+            "filename": "wireshark_3.4.6.bb",
             "filepath": "recipes-support/wireshark",
             "homepage": "http://www.wireshark.org",
             "id": 1335082,
@@ -1546,11 +1546,11 @@
             "pn": "wireshark",
             "pr": "r0",
             "provides": "wireshark ",
-            "pv": "3.4.4",
+            "pv": "3.4.6",
             "section": "net",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-05-18T00:05:57+0000"
+            "updated": "2021-07-12T00:07:18+0000"
         },
         {
             "bbclassextend": "",
@@ -2056,7 +2056,7 @@
             "section": "mail",
             "srcrev": "",
             "summary": "Dovecot is an open source IMAP and POP3 email server",
-            "updated": "2021-05-18T00:05:05+0000"
+            "updated": "2021-07-12T00:07:16+0000"
         },
         {
             "bbclassextend": "",
@@ -2361,9 +2361,9 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--with-ssl=/tmp/tmph9dkd8us/tmp-glibc/work/core2-32-oe-linux/fetchmail/6.4.18-r0/recipe-sysroot/usr  --enable-nls",
+            "configopts": "--with-ssl=/tmp/tmptffjqfln/tmp-glibc/work/core2-32-oe-linux/fetchmail/6.4.19-r0/recipe-sysroot/usr  --enable-nls",
             "description": "Fetchmail is a full-featured, robust, well-documented remote-mail retrieval and forwarding utility intended to be used over on-demand TCP/IP links (such as SLIP or PPP connections). It supports every remote-mail protocol now in use on the Internet: POP2, POP3, RPOP, APOP, KPOP, all flavors of IMAP, ETRN, and ODMR. It can even support IPv6 and IPSEC.",
-            "filename": "fetchmail_6.4.18.bb",
+            "filename": "fetchmail_6.4.19.bb",
             "filepath": "recipes-support/fetchmail",
             "homepage": "http://www.fetchmail.info/",
             "id": 1335118,
@@ -2374,11 +2374,11 @@
             "pn": "fetchmail",
             "pr": "r0",
             "provides": "fetchmail ",
-            "pv": "6.4.18",
+            "pv": "6.4.19",
             "section": "mail",
             "srcrev": "",
             "summary": "Fetchmail retrieves mail from remote mail servers and forwards it via SMTP",
-            "updated": "2021-05-18T00:05:09+0000"
+            "updated": "2021-07-12T00:07:16+0000"
         },
         {
             "bbclassextend": "",
@@ -2476,7 +2476,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --with-net-snmp-config=no                  --without-ntpsnmpd                  ac_cv_header_readline_history_h=no                  --with-yielding_select=yes                  --with-locfile=redhat                  --without-rpath                    --enable-linuxcaps --enable-debugging --enable-ipv6 ac_cv_header_dns_sd_h=no --with-openssl-libdir=/tmp/tmph9dkd8us/tmp-glibc/work/core2-32-oe-linux/ntp/4.2.8p15-r0/recipe-sysroot/usr/lib                           --with-openssl-incdir=/tmp/tmph9dkd8us/tmp-glibc/work/core2-32-oe-linux/ntp/4.2.8p15-r0/recipe-sysroot/usr/include                           --with-crypto --without-lineeditlibs --enable-all-clocks",
+            "configopts": " --with-net-snmp-config=no                  --without-ntpsnmpd                  ac_cv_header_readline_history_h=no                  --with-yielding_select=yes                  --with-locfile=redhat                  --without-rpath                    --enable-linuxcaps --enable-debugging --enable-ipv6 ac_cv_header_dns_sd_h=no --with-openssl-libdir=/tmp/tmptffjqfln/tmp-glibc/work/core2-32-oe-linux/ntp/4.2.8p15-r0/recipe-sysroot/usr/lib                           --with-openssl-incdir=/tmp/tmptffjqfln/tmp-glibc/work/core2-32-oe-linux/ntp/4.2.8p15-r0/recipe-sysroot/usr/include                           --with-crypto --without-lineeditlibs --enable-all-clocks",
             "description": "The Network Time Protocol (NTP) is used to synchronize the time of a computer client or server to another server or reference time source, such as a radio or satellite receiver or modem.",
             "filename": "ntp_4.2.8p15.bb",
             "filepath": "recipes-support/ntp",
@@ -2493,7 +2493,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "Network Time Protocol daemon and utilities",
-            "updated": "2021-05-18T00:05:11+0000"
+            "updated": "2021-07-12T00:07:17+0000"
         },
         {
             "bbclassextend": "",
@@ -3237,7 +3237,7 @@
             "bugtracker": "",
             "configopts": " --enable-iproute2 --disable-plugin-auth-pam IPROUTE=/sbin/ip ",
             "description": "",
-            "filename": "openvpn_2.5.1.bb",
+            "filename": "openvpn_2.5.2.bb",
             "filepath": "recipes-support/openvpn",
             "homepage": "https://openvpn.net/",
             "id": 1335156,
@@ -3248,11 +3248,11 @@
             "pn": "openvpn",
             "pr": "r0",
             "provides": "openvpn ",
-            "pv": "2.5.1",
+            "pv": "2.5.2",
             "section": "net",
             "srcrev": "",
             "summary": "A full-featured SSL VPN solution via tun device.",
-            "updated": "2021-05-18T00:05:22+0000"
+            "updated": "2021-07-12T00:07:17+0000"
         },
         {
             "bbclassextend": "",
@@ -3735,7 +3735,7 @@
             "section": "libs",
             "srcrev": "e41cfb986c1b1935770de554872247453fdbb079",
             "summary": "Generic client/server library for SASL authentication",
-            "updated": "2021-05-18T00:05:29+0000"
+            "updated": "2021-07-12T00:07:14+0000"
         },
         {
             "bbclassextend": "",
@@ -3812,7 +3812,7 @@
             "bugtracker": "",
             "configopts": " --with-default-user=squid --enable-auth-basic='DB SASL LDAP '                  --sysconfdir=/etc/squid                  --with-logdir=/var/log/squid                  'PERL=/usr/bin/env perl'  --disable-esi --enable-ipv6  --without-netfilter-conntrack --with-openssl=no --disable-strict-error-checking",
             "description": "A fully-featured http proxy and web-cache daemon for Linux. Squid offers a rich access control, authorization and logging environment to develop web proxy and content serving applications. Squid offers a rich set of traffic optimization options, most of which are enabled by default for simpler installation and high performance. ",
-            "filename": "squid_4.14.bb",
+            "filename": "squid_4.15.bb",
             "filepath": "recipes-daemons/squid",
             "homepage": "http://www.squid-cache.org",
             "id": 1335181,
@@ -3823,11 +3823,11 @@
             "pn": "squid",
             "pr": "r0",
             "provides": "squid ",
-            "pv": "4.14",
+            "pv": "4.15",
             "section": "web",
             "srcrev": "",
             "summary": "A fully-featured http proxy and web-cache daemon for Linux",
-            "updated": "2021-05-18T00:05:30+0000"
+            "updated": "2021-07-12T00:07:15+0000"
         },
         {
             "bbclassextend": "",
@@ -4178,7 +4178,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --enable-fhs                  --with-piddir=/run                  --with-sockets-dir=/run/samba                  --with-modulesdir=/usr/lib/samba                  --with-lockdir=/var/lib/samba                  --with-cachedir=/var/lib/samba                  --disable-rpath-install                  --with-shared-modules=idmap_ad,idmap_rid,idmap_adex,idmap_hash,idmap_tdb2,pdb_tdbsam,pdb_ldap,pdb_ads,pdb_smbpasswd,pdb_wbc_sam,pdb_samba4,auth_unix,auth_wbc,auth_server,auth_netlogond,auth_script,auth_samba4                  --bundled-libraries=heimdal,cmocka,NONE                  --disable-glusterfs                  --with-cluster-support                  --with-profiling-data                  --with-libiconv=/tmp/tmpz9s9hwgl/tmp-glibc/work/core2-32-oe-linux/samba/4.10.18-r0/recipe-sysroot/usr                  --with-pam --with-pammodulesdir=/lib/security                 ",
+            "configopts": " --enable-fhs                  --with-piddir=/run                  --with-sockets-dir=/run/samba                  --with-modulesdir=/usr/lib/samba                  --with-lockdir=/var/lib/samba                  --with-cachedir=/var/lib/samba                  --disable-rpath-install                  --with-shared-modules=idmap_ad,idmap_rid,idmap_adex,idmap_hash,idmap_tdb2,pdb_tdbsam,pdb_ldap,pdb_ads,pdb_smbpasswd,pdb_wbc_sam,pdb_samba4,auth_unix,auth_wbc,auth_server,auth_netlogond,auth_script,auth_samba4                  --bundled-libraries=heimdal,cmocka,NONE                  --disable-glusterfs                  --with-cluster-support                  --with-profiling-data                  --with-libiconv=/tmp/tmptffjqfln/tmp-glibc/work/core2-32-oe-linux/samba/4.10.18-r0/recipe-sysroot/usr                  --with-pam --with-pammodulesdir=/lib/security                 ",
             "description": "",
             "filename": "samba_4.10.18.bb",
             "filepath": "recipes-connectivity/samba",
@@ -4195,7 +4195,7 @@
             "section": "console/network",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-06-09T23:06:35+0000"
+            "updated": "2021-07-12T00:07:14+0000"
         },
         {
             "bbclassextend": "",
@@ -4287,7 +4287,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "Uncomplicated Firewall",
-            "updated": "2021-05-18T00:05:38+0000"
+            "updated": "2021-07-12T00:07:14+0000"
         },
         {
             "bbclassextend": "",
@@ -4778,7 +4778,7 @@
             "bugtracker": "",
             "configopts": "-Ddocs=false -Dintrospection=true ",
             "description": "",
-            "filename": "networkmanager_1.30.2.bb",
+            "filename": "networkmanager_1.30.4.bb",
             "filepath": "recipes-connectivity/networkmanager",
             "homepage": "https://wiki.gnome.org/Projects/NetworkManager",
             "id": 1335223,
@@ -4789,11 +4789,11 @@
             "pn": "networkmanager",
             "pr": "r0",
             "provides": "networkmanager ",
-            "pv": "1.30.2",
+            "pv": "1.30.4",
             "section": "net/misc",
             "srcrev": "",
             "summary": "NetworkManager",
-            "updated": "2021-05-18T00:05:47+0000"
+            "updated": "2021-07-12T00:07:13+0000"
         },
         {
             "bbclassextend": "",

@@ -242,31 +242,31 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.21-20210516",
+            "actual_branch": "wr-10.21-20210707",
             "branch": 240,
             "collection": "core",
             "id": 885774,
             "layer": 1,
             "local_path": "",
-            "updated": "2021-06-29T21:06:36+0000",
-            "vcs_last_commit": "2021-06-29T20:06:41+0000",
-            "vcs_last_fetch": "2021-06-29T21:06:36+0000",
-            "vcs_last_rev": "4e9440e3d107a7d78e2195d56bdffe5562567eea",
+            "updated": "2021-07-14T19:07:39+0000",
+            "vcs_last_commit": "2021-07-14T18:07:09+0000",
+            "vcs_last_fetch": "2021-07-14T19:07:39+0000",
+            "vcs_last_rev": "1e6cb0fcaf30c25c05fb4a3f7180bc7ac9d5df53",
             "vcs_subdir": "meta",
             "version": "12",
             "yp_compatible_version": 16389
         },
         {
-            "actual_branch": "wr-10.21-20210516",
+            "actual_branch": "wr-10.21-20210707",
             "branch": 240,
             "collection": "openembedded-layer",
             "id": 885776,
             "layer": 7,
             "local_path": "",
-            "updated": "2021-06-04T01:06:37+0000",
-            "vcs_last_commit": "2021-06-04T00:06:48+0000",
-            "vcs_last_fetch": "2021-06-04T01:06:37+0000",
-            "vcs_last_rev": "e5ca78cf89ea1ab6bb537db86372fa10322d0f72",
+            "updated": "2021-07-12T00:07:03+0000",
+            "vcs_last_commit": "2021-07-07T01:07:35+0000",
+            "vcs_last_fetch": "2021-07-12T00:07:03+0000",
+            "vcs_last_rev": "02631ced40b1a72aaa63cc49d4674eafe3b2486d",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 15718
@@ -355,7 +355,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DRAPIDJSON_BUILD_DOC=OFF -DRAPIDJSON_BUILD_TESTS=OFF -DRAPIDJSON_BUILD_EXAMPLES=OFF -DLIB_INSTALL_DIR:STRING=/usr/lib ",
+            "configopts": " -DRAPIDJSON_BUILD_DOC=OFF -DRAPIDJSON_BUILD_TESTS=OFF -DRAPIDJSON_BUILD_EXAMPLES=OFF ",
             "description": "",
             "filename": "rapidjson_git.bb",
             "filepath": "recipes-devtools/rapidjson",
@@ -372,7 +372,7 @@
             "section": "libs",
             "srcrev": "0ccdbf364c577803e2a751f5aededce935314313",
             "summary": "A fast JSON parser/generator for C++ with both SAX/DOM style API",
-            "updated": "2021-05-18T00:05:40+0000"
+            "updated": "2021-07-12T00:07:55+0000"
         },
         {
             "bbclassextend": "",
@@ -763,7 +763,7 @@
             "section": "devel",
             "srcrev": "d648bbffedef529220896283fb59e35531c13804",
             "summary": "Trace and analyze execution of a program written in C/C++",
-            "updated": "2021-05-18T00:05:46+0000"
+            "updated": "2021-07-12T00:07:56+0000"
         },
         {
             "bbclassextend": "",
@@ -2910,7 +2910,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "",
-            "filename": "libdvdread_6.1.1.bb",
+            "filename": "libdvdread_6.1.2.bb",
             "filepath": "recipes-multimedia/libdvdread",
             "homepage": "",
             "id": 1333067,
@@ -2921,11 +2921,11 @@
             "pn": "libdvdread",
             "pr": "r0",
             "provides": "libdvdread ",
-            "pv": "6.1.1",
+            "pv": "6.1.2",
             "section": "libs/multimedia",
             "srcrev": "",
             "summary": "DVD access multimeda library",
-            "updated": "2021-05-18T00:05:22+0000"
+            "updated": "2021-07-12T00:07:59+0000"
         },
         {
             "bbclassextend": "",
@@ -4288,24 +4288,24 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "",
+            "configopts": "                      -DTBB_TEST=OFF                     -DCMAKE_BUILD_TYPE=Release                  ",
             "description": "Parallelism library for C++ - runtime files     TBB is a library that helps you leverage multi-core processor     performance without having to be a threading expert. It represents a     higher-level, task-based parallelism that abstracts platform details     and threading mechanism for performance and scalability.",
-            "filename": "tbb_2020.3.bb",
+            "filename": "tbb_2021.2.0.bb",
             "filepath": "recipes-support/tbb",
             "homepage": "https://software.intel.com/en-us/tbb",
             "id": 1333127,
-            "inherits": "",
+            "inherits": "cmake",
             "layerbranch": 885776,
             "license": "Apache-2.0",
             "pe": "1",
             "pn": "tbb",
             "pr": "r0",
             "provides": "tbb ",
-            "pv": "2020.3",
+            "pv": "2021.2.0",
             "section": "base",
-            "srcrev": "eca91f16d7490a8abfdee652dadf457ec820cc37",
+            "srcrev": "2dba2072869a189b9fdab3ffa431d3ea49059a19",
             "summary": "",
-            "updated": "2021-05-18T00:05:41+0000"
+            "updated": "2021-07-12T00:07:01+0000"
         },
         {
             "bbclassextend": "native",
@@ -5593,7 +5593,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Exif, Iptc and XMP metadata manipulation library and tools",
-            "updated": "2021-05-18T00:05:58+0000"
+            "updated": "2021-07-12T00:07:59+0000"
         },
         {
             "bbclassextend": "",
@@ -5975,7 +5975,7 @@
             "id": 1333200,
             "inherits": "cmake",
             "layerbranch": 885776,
-            "license": "MPL-2.0",
+            "license": "MPL-2.0 & Apache-2.0 & BSD-3-Clause & GPLv3 & LGPLv2.1 & MINPACK",
             "pe": "",
             "pn": "libeigen",
             "pr": "r0",
@@ -5984,7 +5984,7 @@
             "section": "base",
             "srcrev": "21ae2afd4edaa1b69782c67a54182d34efe43f9c",
             "summary": "",
-            "updated": "2021-05-18T00:05:03+0000"
+            "updated": "2021-07-12T00:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -6312,7 +6312,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DOPENCV_EXTRA_MODULES_PATH=/tmp/tmpnshqujpq/tmp-glibc/work/core2-32-oe-linux/opencv/4.5.2-r0/contrib/modules     -DWITH_1394=OFF     -DENABLE_PRECOMPILED_HEADERS=OFF     -DCMAKE_SKIP_RPATH=ON     -DOPENCV_ICV_HASH=ad189a940fb60eb71f291321322fe3e8     -DIPPROOT=/tmp/tmpnshqujpq/tmp-glibc/work/core2-32-oe-linux/opencv/4.5.2-r0/ippicv_lnx     -DOPENCV_GENERATE_PKGCONFIG=ON     -DOPENCV_DOWNLOAD_PATH=/tmp/tmpnshqujpq/tmp-glibc/work/core2-32-oe-linux/opencv/4.5.2-r0/downloads     -DOPENCV_ALLOW_DOWNLOADS=OFF     -DENABLE_SSE=1 -DENABLE_SSE2=1 -DENABLE_SSE3=1 -DENABLE_SSSE3=1            -DX86=ON  -DWITH_OPENCLAMDBLAS=OFF -DWITH_OPENCLAMDFFT=OFF -DBUILD_opencv_dnn=OFF -DWITH_EIGEN=ON -DBUILD_opencv_freetype=OFF -DWITH_ADE=ON -Dade_DIR=/tmp/tmpnshqujpq/tmp-glibc/work/core2-32-oe-linux/opencv/4.5.2-r0/recipe-sysroot/usr/lib -DWITH_GPHOTO2=ON -DWITH_GSTREAMER=ON -DWITH_GTK=ON -DWITH_JASPER=OFF -DWITH_JPEG=ON -DWITH_FFMPEG=OFF -DWITH_LIBV4L=ON -DWITH_OPENCL=OFF -DWITH_PNG=ON -DPYTHON3_NUMPY_INCLUDE_DIRS:PATH=/tmp/tmpnshqujpq/tmp-glibc/work/core2-32-oe-linux/opencv/4.5.2-r0/recipe-sysroot/usr/lib/python3.9/site-packages/numpy/core/include -DBUILD_EXAMPLES=ON -DINSTALL_PYTHON_EXAMPLES=ON -DWITH_TBB=ON -DBUILD_TESTS=OFF -DBUILD_opencv_text=OFF -DWITH_TIFF=ON -DWITH_V4L=ON",
+            "configopts": "-DOPENCV_EXTRA_MODULES_PATH=/tmp/tmp1vsuh8nn/tmp-glibc/work/core2-32-oe-linux/opencv/4.5.2-r0/contrib/modules     -DWITH_1394=OFF     -DENABLE_PRECOMPILED_HEADERS=OFF     -DCMAKE_SKIP_RPATH=ON     -DOPENCV_ICV_HASH=ad189a940fb60eb71f291321322fe3e8     -DIPPROOT=/tmp/tmp1vsuh8nn/tmp-glibc/work/core2-32-oe-linux/opencv/4.5.2-r0/ippicv_lnx     -DOPENCV_GENERATE_PKGCONFIG=ON     -DOPENCV_DOWNLOAD_PATH=/tmp/tmp1vsuh8nn/tmp-glibc/work/core2-32-oe-linux/opencv/4.5.2-r0/downloads     -DOPENCV_ALLOW_DOWNLOADS=OFF     -DENABLE_SSE=1 -DENABLE_SSE2=1 -DENABLE_SSE3=1 -DENABLE_SSSE3=1            -DX86=ON  -DWITH_OPENCLAMDBLAS=OFF -DWITH_OPENCLAMDFFT=OFF -DBUILD_opencv_dnn=OFF -DWITH_EIGEN=ON -DBUILD_opencv_freetype=OFF -DWITH_ADE=ON -Dade_DIR=/tmp/tmp1vsuh8nn/tmp-glibc/work/core2-32-oe-linux/opencv/4.5.2-r0/recipe-sysroot/usr/lib -DWITH_GPHOTO2=ON -DWITH_GSTREAMER=ON -DWITH_GTK=ON -DWITH_JASPER=OFF -DWITH_JPEG=ON -DWITH_FFMPEG=OFF -DWITH_LIBV4L=ON -DWITH_OPENCL=OFF -DWITH_PNG=ON -DPYTHON3_NUMPY_INCLUDE_DIRS:PATH=/tmp/tmp1vsuh8nn/tmp-glibc/work/core2-32-oe-linux/opencv/4.5.2-r0/recipe-sysroot/usr/lib/python3.9/site-packages/numpy/core/include -DBUILD_EXAMPLES=ON -DINSTALL_PYTHON_EXAMPLES=ON -DWITH_TBB=ON -DBUILD_TESTS=OFF -DBUILD_opencv_text=OFF -DWITH_TIFF=ON -DWITH_V4L=ON",
             "description": "",
             "filename": "opencv_4.5.2.bb",
             "filepath": "recipes-support/opencv",
@@ -6329,7 +6329,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Opencv : The Open Computer Vision Library",
-            "updated": "2021-05-18T00:05:09+0000"
+            "updated": "2021-07-12T00:07:01+0000"
         },
         {
             "bbclassextend": "",
@@ -7832,22 +7832,22 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Network Security Services (NSS) is a set of libraries designed to support cross-platform development of security-enabled client and server applications. Applications built with NSS can support SSL v2 and v3, TLS, PKCS 5, PKCS 7, PKCS 11, PKCS 12, S/MIME, X.509 v3 certificates, and other security standards.",
-            "filename": "nss_3.63.bb",
+            "filename": "nss_3.64.bb",
             "filepath": "recipes-support/nss",
             "homepage": "http://www.mozilla.org/projects/security/pki/nss/",
             "id": 1333281,
             "inherits": "siteinfo",
             "layerbranch": 885776,
-            "license": "MPL-2.0 | (MPL-2.0 & GPL-2.0+) | (MPL-2.0 & LGPL-2.1+)",
+            "license": "(MPL-2.0 & MIT) | (MPL-2.0 & GPL-2.0+ & MIT) | (MPL-2.0 & LGPL-2.1+ & MIT)",
             "pe": "",
             "pn": "nss",
             "pr": "r0",
             "provides": "nss ",
-            "pv": "3.63",
+            "pv": "3.64",
             "section": "libs",
             "srcrev": "",
             "summary": "Mozilla's SSL and TLS implementation",
-            "updated": "2021-05-18T00:05:34+0000"
+            "updated": "2021-07-12T00:07:00+0000"
         },
         {
             "bbclassextend": "",
@@ -8221,7 +8221,7 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--with-user=                 --with-group=                 --enable-realtime                 --enable-cmdlib                 --enable-pkgconfig                 --with-usrlibdir=/usr/lib                 --with-systemdsystemunitdir=/lib/systemd/system                 --disable-thin_check_needs_check                 --with-thin-check=/usr/sbin/thin_check                 --with-thin-dump=/usr/sbin/thin_dump                 --with-thin-repair=/usr/sbin/thin_repair                 --with-thin-restore=/usr/sbin/thin_restore   --enable-dmeventd --enable-o_direct --disable-readline --disable-selinux --with-thin=internal",
+            "configopts": "--with-user=                 --with-group=                 --enable-realtime                 --enable-cmdlib                 --enable-pkgconfig                 --with-usrlibdir=/usr/lib                 --with-systemdsystemunitdir=/lib/systemd/system                 --disable-thin_check_needs_check                 --with-thin-check=/usr/sbin/thin_check                 --with-thin-dump=/usr/sbin/thin_dump                 --with-thin-repair=/usr/sbin/thin_repair                 --with-thin-restore=/usr/sbin/thin_restore   --enable-dmeventd --enable-o_direct --disable-readline --disable-selinux --with-thin=none",
             "description": "LVM2 is a set of utilities to manage logical volumes in Linux.",
             "filename": "libdevmapper_2.03.11.bb",
             "filepath": "recipes-support/lvm2",
@@ -8238,13 +8238,13 @@
             "section": "utils",
             "srcrev": "3e8bd8d1bd70691f09a170785836aeb4f83154e6",
             "summary": "",
-            "updated": "2021-05-18T00:05:40+0000"
+            "updated": "2021-07-12T00:07:02+0000"
         },
         {
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--with-user=                 --with-group=                 --enable-realtime                 --enable-cmdlib                 --enable-pkgconfig                 --with-usrlibdir=/usr/lib                 --with-systemdsystemunitdir=/lib/systemd/system                 --disable-thin_check_needs_check                 --with-thin-check=/usr/sbin/thin_check                 --with-thin-dump=/usr/sbin/thin_dump                 --with-thin-repair=/usr/sbin/thin_repair                 --with-thin-restore=/usr/sbin/thin_restore   --enable-dmeventd --enable-o_direct --disable-readline --disable-selinux --with-thin=internal --enable-udev_sync --enable-udev_rules --with-udevdir=/lib/udev/rules.d",
+            "configopts": "--with-user=                 --with-group=                 --enable-realtime                 --enable-cmdlib                 --enable-pkgconfig                 --with-usrlibdir=/usr/lib                 --with-systemdsystemunitdir=/lib/systemd/system                 --disable-thin_check_needs_check                 --with-thin-check=/usr/sbin/thin_check                 --with-thin-dump=/usr/sbin/thin_dump                 --with-thin-repair=/usr/sbin/thin_repair                 --with-thin-restore=/usr/sbin/thin_restore   --enable-dmeventd --enable-o_direct --disable-readline --disable-selinux --with-thin=none --enable-udev_sync --enable-udev_rules --with-udevdir=/lib/udev/rules.d",
             "description": "LVM2 is a set of utilities to manage logical volumes in Linux.",
             "filename": "lvm2_2.03.11.bb",
             "filepath": "recipes-support/lvm2",
@@ -8261,7 +8261,7 @@
             "section": "utils",
             "srcrev": "3e8bd8d1bd70691f09a170785836aeb4f83154e6",
             "summary": "",
-            "updated": "2021-05-18T00:05:40+0000"
+            "updated": "2021-07-12T00:07:03+0000"
         },
         {
             "bbclassextend": "native",
@@ -8974,7 +8974,7 @@
             "section": "base/shell",
             "srcrev": "",
             "summary": "UNIX Shell similar to the Korn shell",
-            "updated": "2021-05-18T00:05:51+0000"
+            "updated": "2021-07-12T00:07:59+0000"
         },
         {
             "bbclassextend": "",
@@ -9302,7 +9302,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "                -DBUILD_DRIVER=OFF                 -DUSE_BUNDLED_DEPS=OFF                 -DCREATE_TEST_TARGETS=OFF                 -DDIR_ETC=/etc                 -DLUA_INCLUDE_DIR=/tmp/tmpnshqujpq/tmp-glibc/work/core2-32-oe-linux/sysdig/0.27.1-r0/recipe-sysroot/usr/include/luajit-2.1                 -DLUA_LIBRARY=libluajit-5.1.so  ",
+            "configopts": "                -DBUILD_DRIVER=OFF                 -DUSE_BUNDLED_DEPS=OFF                 -DCREATE_TEST_TARGETS=OFF                 -DDIR_ETC=/etc                 -DLUA_INCLUDE_DIR=/tmp/tmp1vsuh8nn/tmp-glibc/work/core2-32-oe-linux/sysdig/0.27.1-r0/recipe-sysroot/usr/include/luajit-2.1                 -DLUA_LIBRARY=libluajit-5.1.so  ",
             "description": "Sysdig is open source, system-level exploration: capture system state and activity from a running Linux instance, then save, filter and analyze.",
             "filename": "sysdig_git.bb",
             "filepath": "recipes-extended/sysdig",
@@ -9319,7 +9319,7 @@
             "section": "base",
             "srcrev": "67833b2aca06bd9d11cff7cb29f04fbf4ef96cad",
             "summary": "A New System Troubleshooting Tool Built for the Way You Work",
-            "updated": "2021-05-18T00:05:55+0000"
+            "updated": "2021-07-12T00:07:57+0000"
         },
         {
             "bbclassextend": "",
@@ -10009,7 +10009,7 @@
             "section": "base",
             "srcrev": "e9e4b9112083228b8c385ad26924b6c4623f4179",
             "summary": "Versioned Operating System Repository.",
-            "updated": "2021-05-18T00:05:04+0000"
+            "updated": "2021-07-12T00:07:57+0000"
         },
         {
             "bbclassextend": "native",
@@ -10937,7 +10937,7 @@
             "bugtracker": "",
             "configopts": " ",
             "description": "Redis is an open source, advanced key-value store.",
-            "filename": "redis_6.2.1.bb",
+            "filename": "redis_6.2.2.bb",
             "filepath": "recipes-extended/redis",
             "homepage": "http://redis.io",
             "id": 1333416,
@@ -10948,11 +10948,11 @@
             "pn": "redis",
             "pr": "r0",
             "provides": "redis ",
-            "pv": "6.2.1",
+            "pv": "6.2.2",
             "section": "libs",
             "srcrev": "",
             "summary": "Redis key-value store",
-            "updated": "2021-05-18T00:05:18+0000"
+            "updated": "2021-07-12T00:07:57+0000"
         },
         {
             "bbclassextend": "",
@@ -11303,7 +11303,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "      -DHOST_SYS=i686-oe-linux -DBUILD_SYS=x86_64-linux     -DSKIP_TESTS=ON     -DGCC_AR=/tmp/tmpnshqujpq/tmp-glibc/work/core2-32-oe-linux/minifi-cpp/0.7.0-r0/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-gcc-ar     -DGCC_RANLIB=/tmp/tmpnshqujpq/tmp-glibc/work/core2-32-oe-linux/minifi-cpp/0.7.0-r0/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-gcc-ranlib      ",
+            "configopts": "      -DHOST_SYS=i686-oe-linux -DBUILD_SYS=x86_64-linux     -DSKIP_TESTS=ON     -DGCC_AR=/tmp/tmp1vsuh8nn/tmp-glibc/work/core2-32-oe-linux/minifi-cpp/0.7.0-r0/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-gcc-ar     -DGCC_RANLIB=/tmp/tmp1vsuh8nn/tmp-glibc/work/core2-32-oe-linux/minifi-cpp/0.7.0-r0/recipe-sysroot-native/usr/bin/i686-oe-linux/i686-oe-linux-gcc-ranlib      ",
             "description": "MiNiFi--a subproject of Apache NiFi--is a complementary data collection approach that supplements the core tenets of NiFi in dataflow management, focusing on the collection of data at the source of its creation.",
             "filename": "minifi-cpp_0.7.0.bb",
             "filepath": "recipes-extended/minifi-cpp",
@@ -11320,7 +11320,7 @@
             "section": "console/network",
             "srcrev": "aa42957a2e227df41510047cece3cd606dc1cb6a",
             "summary": "A subproject of Apache NiFi to collect data where it originates.",
-            "updated": "2021-05-18T00:05:23+0000"
+            "updated": "2021-07-12T00:07:56+0000"
         },
         {
             "bbclassextend": "",
@@ -12016,9 +12016,9 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --enable-thread-safety --disable-rpath     --datadir=/usr/share/postgresql     --sysconfdir=/etc/postgresql   --with-libxml --enable-nls --with-openssl --without-pam --with-perl --with-python --with-tcl --with-tclconfig=/tmp/tmpnshqujpq/tmp-glibc/work/core2-32-oe-linux/postgresql/13.2-r0/recipe-sysroot/usr/bin/crossscripts --with-uuid=e2fs --enable-nls",
+            "configopts": " --enable-thread-safety --disable-rpath     --datadir=/usr/share/postgresql     --sysconfdir=/etc/postgresql   --with-libxml --enable-nls --with-openssl --without-pam --with-perl --with-python --with-tcl --with-tclconfig=/tmp/tmp1vr5yftd/tmp-glibc/work/core2-32-oe-linux/postgresql/13.3-r0/recipe-sysroot/usr/bin/crossscripts --with-uuid=e2fs --enable-nls",
             "description": "    PostgreSQL is an advanced Object-Relational database management system     (DBMS) that supports almost all SQL constructs (including     transactions, subselects and user-defined types and functions). The     postgresql package includes the client programs and libraries that     you'll need to access a PostgreSQL DBMS server.  These PostgreSQL     client programs are programs that directly manipulate the internal     structure of PostgreSQL databases on a PostgreSQL server. These client     programs can be located on the same machine with the PostgreSQL     server, or may be on a remote machine which accesses a PostgreSQL     server over a network connection. This package contains the docs     in HTML for the whole package, as well as command-line utilities for     managing PostgreSQL databases on a PostgreSQL server.         If you want to manipulate a PostgreSQL database on a local or remote     PostgreSQL server, you need this package. You also need to install     this package if you're installing the postgresql-server package. ",
-            "filename": "postgresql_13.2.bb",
+            "filename": "postgresql_13.3.bb",
             "filepath": "recipes-dbs/postgresql",
             "homepage": "http://www.postgresql.com",
             "id": 1333463,
@@ -12029,11 +12029,11 @@
             "pn": "postgresql",
             "pr": "r0",
             "provides": "postgresql ",
-            "pv": "13.2",
+            "pv": "13.3",
             "section": "base",
             "srcrev": "",
             "summary": "PostgreSQL is a powerful, open source relational database system.",
-            "updated": "2021-05-18T00:05:33+0000"
+            "updated": "2021-07-06T21:07:51+0000"
         },
         {
             "bbclassextend": "",
@@ -12407,7 +12407,7 @@
             "bbclassextend": "",
             "blacklisted": "WRLinux does not support it, blacklist it to workaround failures from yocto-check-layer-wrapper",
             "bugtracker": "",
-            "configopts": "PREFIX=/usr                  DESTDIR=/tmp/tmpnshqujpq/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.4-r0/image                  LIBPATH=/tmp/tmpnshqujpq/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.4-r0/recipe-sysroot/usr/lib                  LINKFLAGS='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed'                  CXXFLAGS=' -O2 -pipe -g -feliminate-unused-debug-types -fmacro-prefix-map=/tmp/tmpnshqujpq/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.4-r0=/usr/src/debug/mongodb/4.4.4-r0                      -fdebug-prefix-map=/tmp/tmpnshqujpq/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.4-r0=/usr/src/debug/mongodb/4.4.4-r0                      -fdebug-prefix-map=/tmp/tmpnshqujpq/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.4-r0/recipe-sysroot=                      -fdebug-prefix-map=/tmp/tmpnshqujpq/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.4-r0/recipe-sysroot-native=  -fvisibility-inlines-hidden'                  TARGET_ARCH=i686                  MONGO_VERSION=4.4.4                  OBJCOPY=i686-oe-linux-objcopy                  --ssl                  --disable-warnings-as-errors                  --use-system-zlib                  --nostrip                  --endian=big                  --wiredtiger=on                  --separate-debug                   --js-engine=none --use-system-pcre --use-system-tcmalloc",
+            "configopts": "PREFIX=/usr                  DESTDIR=/tmp/tmp1vsuh8nn/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.6-r0/image                  LIBPATH=/tmp/tmp1vsuh8nn/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.6-r0/recipe-sysroot/usr/lib                  LINKFLAGS='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed'                  CXXFLAGS=' -O2 -pipe -g -feliminate-unused-debug-types -fmacro-prefix-map=/tmp/tmp1vsuh8nn/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.6-r0=/usr/src/debug/mongodb/4.4.6-r0                      -fdebug-prefix-map=/tmp/tmp1vsuh8nn/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.6-r0=/usr/src/debug/mongodb/4.4.6-r0                      -fdebug-prefix-map=/tmp/tmp1vsuh8nn/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.6-r0/recipe-sysroot=                      -fdebug-prefix-map=/tmp/tmp1vsuh8nn/tmp-glibc/work/core2-32-oe-linux/mongodb/4.4.6-r0/recipe-sysroot-native=  -fvisibility-inlines-hidden'                  TARGET_ARCH=i686                  MONGO_VERSION=4.4.6                  OBJCOPY=i686-oe-linux-objcopy                  --ssl                  --disable-warnings-as-errors                  --use-system-zlib                  --nostrip                  --endian=big                  --wiredtiger=on                  --separate-debug                   --js-engine=none --use-system-pcre --use-system-tcmalloc",
             "description": "",
             "filename": "mongodb_git.bb",
             "filepath": "dynamic-layers/meta-python/recipes-dbs/mongodb",
@@ -12420,11 +12420,11 @@
             "pn": "mongodb",
             "pr": "r0",
             "provides": "mongodb ",
-            "pv": "4.4.4",
+            "pv": "4.4.6",
             "section": "base",
-            "srcrev": "8db30a63db1a9d84bdcad0c83369623f708e0397",
+            "srcrev": "72e66213c2c3eab37d9358d5e78ad7f5c1d0d0d7",
             "summary": "mongodb",
-            "updated": "2021-05-18T00:05:38+0000"
+            "updated": "2021-07-12T00:07:54+0000"
         },
         {
             "bbclassextend": "",
@@ -12700,7 +12700,7 @@
             "section": "base",
             "srcrev": "530b1a0caef39466e16bbd49de5afef89656f03f",
             "summary": "User-space front-end command-line tool for ftrace",
-            "updated": "2021-05-18T00:05:43+0000"
+            "updated": "2021-07-12T00:07:58+0000"
         },
         {
             "bbclassextend": "",
@@ -12769,7 +12769,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Monitoring tools exploiting the performance monitoring events",
-            "updated": "2021-05-18T00:05:44+0000"
+            "updated": "2021-07-12T00:07:58+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -14034,7 +14034,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Simple DirectMedia Layer",
-            "updated": "2021-05-18T00:05:03+0000"
+            "updated": "2021-07-12T00:07:58+0000"
         },
         {
             "bbclassextend": "",
@@ -17300,7 +17300,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Meta-oe ptest packagegroups",
-            "updated": "2021-05-18T00:05:44+0000"
+            "updated": "2021-07-12T00:07:55+0000"
         },
         {
             "bbclassextend": "",
@@ -18956,7 +18956,7 @@
             "section": "kernel/userland",
             "srcrev": "",
             "summary": "User space daemon for extended IEEE 802.11 management",
-            "updated": "2021-05-18T00:05:09+0000"
+            "updated": "2021-07-12T00:07:54+0000"
         },
         {
             "bbclassextend": "",
