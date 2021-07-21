@@ -259,29 +259,14 @@
         {
             "actual_branch": "",
             "branch": 240,
-            "collection": "wrlinux",
-            "id": 885826,
-            "layer": 49,
+            "collection": "wr-deprecated",
+            "id": 890348,
+            "layer": 394,
             "local_path": "",
-            "updated": "2021-07-21T08:07:58+0000",
-            "vcs_last_commit": "2021-07-21T08:07:59+0000",
-            "vcs_last_fetch": "2021-07-21T08:07:58+0000",
-            "vcs_last_rev": "26d939f786022d80f4672ab36d7ac8c16880c56a",
-            "vcs_subdir": "",
-            "version": "2",
-            "yp_compatible_version": 16389
-        },
-        {
-            "actual_branch": "",
-            "branch": 240,
-            "collection": "wr-marvell-cn106xx",
-            "id": 889614,
-            "layer": 393,
-            "local_path": "",
-            "updated": "2021-07-13T02:07:26+0000",
-            "vcs_last_commit": "2021-07-13T01:07:27+0000",
-            "vcs_last_fetch": "2021-07-13T02:07:26+0000",
-            "vcs_last_rev": "f4d361aef2d4f6c93a6b0a7897c966276c8e0d12",
+            "updated": "2021-07-21T08:07:44+0000",
+            "vcs_last_commit": "2021-07-21T08:07:05+0000",
+            "vcs_last_fetch": "2021-07-21T08:07:44+0000",
+            "vcs_last_rev": "5fe6407ee080d857923d2cc6826d3dae5b6b4d00",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 16389
@@ -290,15 +275,15 @@
     "layerDependencies": [
         {
             "dependency": 1,
-            "id": 82593,
-            "layerbranch": 889614,
+            "id": 83175,
+            "layerbranch": 890348,
             "required": true
         },
         {
-            "dependency": 49,
-            "id": 82594,
-            "layerbranch": 889614,
-            "required": true
+            "dependency": 395,
+            "id": 83176,
+            "layerbranch": 890348,
+            "required": false
         }
     ],
     "layerItems": [
@@ -322,53 +307,50 @@
             "vcs_web_url": ""
         },
         {
-            "collection": "wrlinux",
+            "collection": "wr-deprecated",
             "comparison": false,
-            "description": "This layer provides the Wind River Linux distribution definitions, \r\ndistribution-specific integration and bug fixes, and other wrlinux components.",
-            "id": 49,
-            "index_preference": 900,
-            "layer_type": "D",
-            "mailing_list_url": "",
-            "name": "wrlinux",
-            "status": "P",
-            "summary": "Wind River Linux distribution definitions",
-            "updated": "2018-05-30T22:05:16+0000",
-            "usage_url": "README",
-            "vcs_url": "#BASE_URL#/wrlinux",
-            "vcs_web_commit_url": "",
-            "vcs_web_file_base_url": "",
-            "vcs_web_tree_base_url": "",
-            "vcs_web_url": ""
-        },
-        {
-            "collection": "wr-marvell-cn106xx",
-            "comparison": false,
-            "description": "marvell cn106xx BSP",
-            "id": 393,
+            "description": "This layer provides \"deprecated\" components for Wind River Linux. Because \r\nupstream Yocto project will likely remove support on certain features without \r\nnotification, we will have to move these features to this layer to continue \r\nshipping them so that the users will be able to have time to transition to the \r\nreplacement functionalities.",
+            "id": 394,
             "index_preference": 0,
-            "layer_type": "B",
+            "layer_type": "M",
             "mailing_list_url": "",
-            "name": "marvell-cn106xx",
+            "name": "wr-deprecated",
             "status": "P",
-            "summary": "marvell cn106xx BSP",
-            "updated": "2021-07-09T05:07:08+0000",
+            "summary": "wr-deprecated",
+            "updated": "2021-07-21T08:07:32+0000",
             "usage_url": "",
-            "vcs_url": "#BASE_URL#/marvell-cn106xx",
+            "vcs_url": "#BASE_URL#/wr-deprecated",
             "vcs_web_commit_url": "",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
         }
     ],
-    "machines": [
+    "machines": [],
+    "recipes": [
         {
-            "description": " Marvell CN106xx SoC",
-            "id": 37108,
-            "layerbranch": 889614,
-            "name": "marvell-cn106xx",
-            "updated": "2021-07-09T05:07:16+0000"
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "--with-srv-lease-file=/var/lib/dhcp/dhcpd.leases                 --with-srv6-lease-file=/var/lib/dhcp/dhcpd6.leases                 --with-cli-lease-file=/var/lib/dhcp/dhclient.leases                 --with-cli6-lease-file=/var/lib/dhcp/dhclient6.leases                 --enable-paranoia --disable-static                 --with-randomdev=/dev/random                 --enable-libtool                  --without-libxml2",
+            "description": "DHCP (Dynamic Host Configuration Protocol) is a protocol which allows individual devices on an IP network to get their own network configuration information from a server.  DHCP helps make it easier to administer devices.",
+            "filename": "dhcp_4.4.2p1.bb",
+            "filepath": "recipes-connectivity/dhcp",
+            "homepage": "http://www.isc.org/",
+            "id": 1386413,
+            "inherits": "autotools autotools-brokensep siteconfig siteinfo systemd update-rc.d useradd useradd_base",
+            "layerbranch": 890348,
+            "license": "ISC",
+            "pe": "",
+            "pn": "dhcp",
+            "pr": "r0",
+            "provides": "dhcp ",
+            "pv": "4.4.2p1",
+            "section": "console/network",
+            "srcrev": "",
+            "summary": "Internet Software Consortium DHCP package",
+            "updated": "2021-07-21T08:07:44+0000"
         }
     ],
-    "recipes": [],
     "wrtemplates": []
 }
