@@ -256,10 +256,10 @@
             "id": 885774,
             "layer": 1,
             "local_path": "",
-            "updated": "2021-07-26T02:07:27+0000",
-            "vcs_last_commit": "2021-07-26T01:07:19+0000",
-            "vcs_last_fetch": "2021-07-26T02:07:27+0000",
-            "vcs_last_rev": "e1464fd8d7f2ba044cee4d1da1f22d5cd130d431",
+            "updated": "2021-08-05T00:08:27+0000",
+            "vcs_last_commit": "2021-08-04T23:08:02+0000",
+            "vcs_last_fetch": "2021-08-05T00:08:27+0000",
+            "vcs_last_rev": "2f6c3d3815c9ac7a4cc6c78c9655a71e9db16c69",
             "vcs_subdir": "meta",
             "version": "12",
             "yp_compatible_version": 16389
@@ -740,7 +740,7 @@
             "section": "console/utils",
             "srcrev": "87731415de945660b00f02207d8e9d986ef9b82e",
             "summary": "File classification tool",
-            "updated": "2021-05-18T00:05:33+0000"
+            "updated": "2021-07-29T22:07:27+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1316,29 +1316,6 @@
             "srcrev": "",
             "summary": "tool for automating interactive applications according to a script",
             "updated": "2021-05-18T00:05:46+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "  --disable-nls",
-            "description": "mklibs produces cut-down shared libraries that contain only the routines required by a particular set of executables.",
-            "filename": "mklibs-native_0.1.44.bb",
-            "filepath": "recipes-devtools/mklibs",
-            "homepage": "https://launchpad.net/mklibs",
-            "id": 1332168,
-            "inherits": "autotools gettext native nopackages relocatable siteconfig siteinfo",
-            "layerbranch": 885774,
-            "license": "GPLv2+",
-            "pe": "",
-            "pn": "mklibs-native",
-            "pr": "r0",
-            "provides": "mklibs-native ",
-            "pv": "0.1.44",
-            "section": "devel",
-            "srcrev": "",
-            "summary": "Shared library optimisation tool",
-            "updated": "2021-07-12T00:07:36+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2212,7 +2189,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "The Python Programming Language",
-            "updated": "2021-07-12T00:07:05+0000"
+            "updated": "2021-08-03T01:08:41+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -16493,9 +16470,9 @@
             "provides": "netbase ",
             "pv": "6.2",
             "section": "base",
-            "srcrev": "",
+            "srcrev": "1c892c96a078ef28ec1a94681b3a0da7a3d545f7",
             "summary": "Basic TCP/IP networking support",
-            "updated": "2021-05-18T00:05:39+0000"
+            "updated": "2021-08-02T02:08:36+0000"
         },
         {
             "bbclassextend": "",
@@ -17885,7 +17862,7 @@
             "description": "Expat is an XML parser library written in C. It is a stream-oriented parser in which an application registers handlers for things the parser might find in the XML document (like start tags)",
             "filename": "expat_2.2.10.bb",
             "filepath": "recipes-core/expat",
-            "homepage": "http://expat.sourceforge.net/",
+            "homepage": "https://github.com/libexpat/libexpat",
             "id": 1332888,
             "inherits": "cmake lib_package ptest",
             "layerbranch": 885774,
@@ -17898,7 +17875,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "A stream-oriented XML parser library",
-            "updated": "2021-07-12T00:07:57+0000"
+            "updated": "2021-08-02T02:08:36+0000"
         },
         {
             "bbclassextend": "native nativesdk",
