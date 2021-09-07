@@ -328,6 +328,20 @@
             "image_url": "",
             "link_url": "",
             "name": "2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42563,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.1 3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42564,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 wrl"
         }
     ],
     "branches": [
@@ -361,13 +375,13 @@
             "id": 852955,
             "layer": 1,
             "local_path": "",
-            "updated": "2021-04-19T23:04:51+0000",
-            "vcs_last_commit": "2021-04-19T23:04:26+0000",
-            "vcs_last_fetch": "2021-04-19T23:04:51+0000",
-            "vcs_last_rev": "9518f9da7d2f858374dacb15d66dedfc35433089",
+            "updated": "2021-09-03T01:09:36+0000",
+            "vcs_last_commit": "2021-09-03T01:09:20+0000",
+            "vcs_last_fetch": "2021-09-03T01:09:36+0000",
+            "vcs_last_rev": "0872deb7b4faac9d0923a2b4c71be4fe2c1c2370",
             "vcs_subdir": "meta",
             "version": "11",
-            "yp_compatible_version": 102
+            "yp_compatible_version": 42542
         }
     ],
     "layerDependencies": [
@@ -4234,7 +4248,7 @@
             "section": "libs/network",
             "srcrev": "",
             "summary": "Secure Socket Layer",
-            "updated": "2020-04-24T02:04:54+0000"
+            "updated": "2021-09-01T01:09:29+0000"
         },
         {
             "bbclassextend": "",
@@ -14400,7 +14414,7 @@
             "section": "base",
             "srcrev": "a022ef2f1acfd9209a1bf792dda14ae4b0d1b60f",
             "summary": "Target Communication Framework for the Eclipse IDE",
-            "updated": "2020-04-24T02:04:49+0000"
+            "updated": "2021-09-03T01:09:36+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -18242,6 +18256,98 @@
             "srcrev": "",
             "summary": "Firmware files for use with Linux kernel",
             "updated": "2021-04-19T23:04:51+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "http://www.openssl.org/news/vulnerabilities.html",
+            "configopts": "",
+            "description": "Secure Socket Layer (SSL) binary and related cryptographic tools.",
+            "filename": "openssl_1.1.1i.bb",
+            "filepath": "recipes-connectivity/openssl",
+            "homepage": "http://www.openssl.org/",
+            "id": 1410093,
+            "inherits": "lib_package multilib_header multilib_script ptest siteinfo update-alternatives",
+            "layerbranch": 852955,
+            "license": "openssl",
+            "pe": "",
+            "pn": "openssl",
+            "pr": "r0",
+            "provides": "openssl ",
+            "pv": "1.1.1i",
+            "section": "libs/network",
+            "srcrev": "",
+            "summary": "Secure Socket Layer",
+            "updated": "2021-09-01T01:09:29+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "http://www.openssl.org/news/vulnerabilities.html",
+            "configopts": "",
+            "description": "Secure Socket Layer (SSL) binary and related cryptographic tools.",
+            "filename": "openssl_1.1.1j.bb",
+            "filepath": "recipes-connectivity/openssl",
+            "homepage": "http://www.openssl.org/",
+            "id": 1410094,
+            "inherits": "lib_package multilib_header multilib_script ptest siteinfo update-alternatives",
+            "layerbranch": 852955,
+            "license": "openssl",
+            "pe": "",
+            "pn": "openssl",
+            "pr": "r0",
+            "provides": "openssl ",
+            "pv": "1.1.1j",
+            "section": "libs/network",
+            "srcrev": "",
+            "summary": "Secure Socket Layer",
+            "updated": "2021-09-01T01:09:30+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "http://www.openssl.org/news/vulnerabilities.html",
+            "configopts": "",
+            "description": "Secure Socket Layer (SSL) binary and related cryptographic tools.",
+            "filename": "openssl_1.1.1k.bb",
+            "filepath": "recipes-connectivity/openssl",
+            "homepage": "http://www.openssl.org/",
+            "id": 1410095,
+            "inherits": "lib_package multilib_header multilib_script ptest siteinfo update-alternatives",
+            "layerbranch": 852955,
+            "license": "openssl",
+            "pe": "",
+            "pn": "openssl",
+            "pr": "r0",
+            "provides": "openssl ",
+            "pv": "1.1.1k",
+            "section": "libs/network",
+            "srcrev": "",
+            "summary": "Secure Socket Layer",
+            "updated": "2021-09-01T01:09:30+0000"
+        },
+        {
+            "bbclassextend": "native nativesdk",
+            "blacklisted": "",
+            "bugtracker": "http://www.openssl.org/news/vulnerabilities.html",
+            "configopts": "",
+            "description": "Secure Socket Layer (SSL) binary and related cryptographic tools.",
+            "filename": "openssl_1.1.1l.bb",
+            "filepath": "recipes-connectivity/openssl",
+            "homepage": "http://www.openssl.org/",
+            "id": 1410096,
+            "inherits": "lib_package multilib_header multilib_script ptest siteinfo update-alternatives",
+            "layerbranch": 852955,
+            "license": "openssl",
+            "pe": "",
+            "pn": "openssl",
+            "pr": "r0",
+            "provides": "openssl ",
+            "pv": "1.1.1l",
+            "section": "libs/network",
+            "srcrev": "",
+            "summary": "Secure Socket Layer",
+            "updated": "2021-09-01T01:09:30+0000"
         }
     ],
     "wrtemplates": []
