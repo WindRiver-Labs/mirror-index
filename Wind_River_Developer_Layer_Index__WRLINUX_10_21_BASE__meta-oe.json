@@ -314,11 +314,39 @@
             "image_url": "",
             "link_url": "",
             "name": "2.5 2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42561,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42562,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42563,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.1 3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42564,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 wrl"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.21-20210516",
+            "bitbake_branch": "wr-10.21-20210827",
             "comparison": false,
             "hidden": false,
             "id": 240,
@@ -326,38 +354,38 @@
             "short_description": "Wind River Linux 10_21 Baseline",
             "sort_priority": 2,
             "update_environment": null,
-            "updated": "2021-05-16T01:05:22+0000",
+            "updated": "2021-08-31T19:08:49+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.21-20210707",
+            "actual_branch": "wr-10.21-20210827",
             "branch": 240,
             "collection": "core",
             "id": 885774,
             "layer": 1,
             "local_path": "",
-            "updated": "2021-08-20T15:08:50+0000",
-            "vcs_last_commit": "2021-08-20T14:08:02+0000",
-            "vcs_last_fetch": "2021-08-20T15:08:50+0000",
-            "vcs_last_rev": "86b41b464aeda8e36553a94621efff0c6d9d5b83",
+            "updated": "2021-08-31T19:08:12+0000",
+            "vcs_last_commit": "2021-08-26T19:08:03+0000",
+            "vcs_last_fetch": "2021-08-31T19:08:12+0000",
+            "vcs_last_rev": "c527bd91214b42fd31196029bbfc341c8b233fc2",
             "vcs_subdir": "meta",
             "version": "12",
             "yp_compatible_version": 42545
         },
         {
-            "actual_branch": "wr-10.21-20210707",
+            "actual_branch": "wr-10.21-20210827",
             "branch": 240,
             "collection": "openembedded-layer",
             "id": 885776,
             "layer": 7,
             "local_path": "",
-            "updated": "2021-08-18T18:08:41+0000",
-            "vcs_last_commit": "2021-08-18T16:08:11+0000",
-            "vcs_last_fetch": "2021-08-18T18:08:41+0000",
-            "vcs_last_rev": "1c9736d424013567f315487008495186d8baeebe",
+            "updated": "2021-09-06T02:09:26+0000",
+            "vcs_last_commit": "2021-09-06T01:09:39+0000",
+            "vcs_last_fetch": "2021-09-06T02:09:26+0000",
+            "vcs_last_rev": "1733679823f6b8b78708fe1c4470c1578450328f",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42544
@@ -1688,7 +1716,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--with-ssl=/tmp/tmpqbr9msma/tmp-glibc/work/core2-32-oe-linux/ldns/1.7.1-r0/recipe-sysroot/usr                 libtool=i686-oe-linux-libtool  --without-drill",
+            "configopts": "--with-ssl=/tmp/tmpdzdlku3u/tmp-glibc/work/core2-32-oe-linux/ldns/1.7.1-r0/recipe-sysroot/usr                 libtool=i686-oe-linux-libtool  --without-drill",
             "description": "",
             "filename": "ldns_1.7.1.bb",
             "filepath": "recipes-devtools/ldns",
@@ -1705,7 +1733,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "LDNS is a DNS library that facilitates DNS tool programming",
-            "updated": "2021-08-16T01:08:32+0000"
+            "updated": "2021-08-31T19:08:17+0000"
         },
         {
             "bbclassextend": "",
@@ -1757,9 +1785,9 @@
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--enable-mbstring                 --enable-fpm                 --with-libdir=lib                 --with-gettext=/tmp/tmpqbr9msma/tmp-glibc/work/core2-32-oe-linux/php/7.4.16-r0/recipe-sysroot/usr/lib/..                 --with-zlib=/tmp/tmpqbr9msma/tmp-glibc/work/core2-32-oe-linux/php/7.4.16-r0/recipe-sysroot/usr/lib/..                 --with-iconv=/tmp/tmpqbr9msma/tmp-glibc/work/core2-32-oe-linux/php/7.4.16-r0/recipe-sysroot/usr/lib/..                 --with-bz2=/tmp/tmpqbr9msma/tmp-glibc/work/core2-32-oe-linux/php/7.4.16-r0/recipe-sysroot/usr                 --with-config-file-path=/etc/php/apache2-php7                 ac_cv_c_bigendian_php=no                 ac_cv_lib_pam_pam_start=no                 --enable-sockets                        --enable-pcntl                        --enable-shared                        --disable-rpath                        --with-pic                        --libdir=/usr/lib/php7    --with-imap=/tmp/tmpqbr9msma/tmp-glibc/work/core2-32-oe-linux/php/7.4.16-r0/recipe-sysroot                        --with-imap-ssl=/tmp/tmpqbr9msma/tmp-glibc/work/core2-32-oe-linux/php/7.4.16-r0/recipe-sysroot                         --enable-ipv6  --disable-mbregex --with-mysqli=mysqlnd                         --with-pdo-mysql=mysqlnd                          --enable-opcache --with-openssl --without-pgsql  --disable-soap --with-sqlite3=/tmp/tmpqbr9msma/tmp-glibc/work/core2-32-oe-linux/php/7.4.16-r0/recipe-sysroot/usr/lib/..                           --with-pdo-sqlite=/tmp/tmpqbr9msma/tmp-glibc/work/core2-32-oe-linux/php/7.4.16-r0/recipe-sysroot/usr/lib/..                            --with-valgrind=no --enable-nls",
+            "configopts": "--enable-mbstring                 --enable-fpm                 --with-libdir=lib                 --with-gettext=/tmp/tmpdzdlku3u/tmp-glibc/work/core2-32-oe-linux/php/7.4.21-r0/recipe-sysroot/usr/lib/..                 --with-zlib=/tmp/tmpdzdlku3u/tmp-glibc/work/core2-32-oe-linux/php/7.4.21-r0/recipe-sysroot/usr/lib/..                 --with-iconv=/tmp/tmpdzdlku3u/tmp-glibc/work/core2-32-oe-linux/php/7.4.21-r0/recipe-sysroot/usr/lib/..                 --with-bz2=/tmp/tmpdzdlku3u/tmp-glibc/work/core2-32-oe-linux/php/7.4.21-r0/recipe-sysroot/usr                 --with-config-file-path=/etc/php/apache2-php7                 ac_cv_c_bigendian_php=no                 ac_cv_lib_pam_pam_start=no                 --enable-sockets                        --enable-pcntl                        --enable-shared                        --disable-rpath                        --with-pic                        --libdir=/usr/lib/php7    --with-imap=/tmp/tmpdzdlku3u/tmp-glibc/work/core2-32-oe-linux/php/7.4.21-r0/recipe-sysroot                        --with-imap-ssl=/tmp/tmpdzdlku3u/tmp-glibc/work/core2-32-oe-linux/php/7.4.21-r0/recipe-sysroot                         --enable-ipv6  --disable-mbregex --with-mysqli=mysqlnd                         --with-pdo-mysql=mysqlnd                          --enable-opcache --with-openssl --without-pgsql  --disable-soap --with-sqlite3=/tmp/tmpdzdlku3u/tmp-glibc/work/core2-32-oe-linux/php/7.4.21-r0/recipe-sysroot/usr/lib/..                           --with-pdo-sqlite=/tmp/tmpdzdlku3u/tmp-glibc/work/core2-32-oe-linux/php/7.4.21-r0/recipe-sysroot/usr/lib/..                            --with-valgrind=no --enable-nls",
             "description": "",
-            "filename": "php_7.4.16.bb",
+            "filename": "php_7.4.21.bb",
             "filepath": "recipes-devtools/php",
             "homepage": "http://www.php.net",
             "id": 1333013,
@@ -1770,11 +1798,11 @@
             "pn": "php",
             "pr": "r0",
             "provides": "php ",
-            "pv": "7.4.16",
+            "pv": "7.4.21",
             "section": "console/network",
             "srcrev": "",
             "summary": "A server-side, HTML-embedded scripting language",
-            "updated": "2021-08-16T01:08:32+0000"
+            "updated": "2021-08-31T19:08:18+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1935,7 +1963,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "The Perl Database Interface",
-            "updated": "2021-08-16T01:08:34+0000"
+            "updated": "2021-08-31T19:08:17+0000"
         },
         {
             "bbclassextend": "native",
@@ -6267,7 +6295,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "vboxguestdrivers_6.1.18.bb",
+            "filename": "vboxguestdrivers_6.1.26.bb",
             "filepath": "recipes-support/vboxguestdrivers",
             "homepage": "",
             "id": 1333209,
@@ -6278,11 +6306,11 @@
             "pn": "vboxguestdrivers",
             "pr": "r0",
             "provides": "vboxguestdrivers ",
-            "pv": "6.1.18",
+            "pv": "6.1.26",
             "section": "core",
             "srcrev": "",
             "summary": "VirtualBox Linux Guest Drivers",
-            "updated": "2021-08-16T01:08:04+0000"
+            "updated": "2021-09-02T02:09:25+0000"
         },
         {
             "bbclassextend": "",
@@ -7524,7 +7552,7 @@
             "section": "libs",
             "srcrev": "565bf68eccfdbbf22cf5cb6d792e23de564665c7",
             "summary": "Library for interfacing with IIO devices",
-            "updated": "2021-08-16T01:08:13+0000"
+            "updated": "2021-08-31T19:08:19+0000"
         },
         {
             "bbclassextend": "",
@@ -7938,7 +7966,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Mozilla's SSL and TLS implementation",
-            "updated": "2021-08-16T01:08:17+0000"
+            "updated": "2021-08-31T19:08:19+0000"
         },
         {
             "bbclassextend": "",
@@ -8996,7 +9024,7 @@
             "section": "console/utils",
             "srcrev": "ce6d60e7def146c13d0b8bca4642e7401a0a8995",
             "summary": "Interactive process viewer",
-            "updated": "2021-08-16T01:08:25+0000"
+            "updated": "2021-08-31T19:08:18+0000"
         },
         {
             "bbclassextend": "",
@@ -11043,7 +11071,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Redis key-value store",
-            "updated": "2021-08-16T01:08:39+0000"
+            "updated": "2021-08-31T19:08:18+0000"
         },
         {
             "bbclassextend": "",
@@ -12038,9 +12066,9 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DWITH_EMBEDDED_SERVER=ON                  -DWITH_JEMALLOC=no                  -DWITHOUT_TOKUDB=TRUE                  -DCMAKE_DISABLE_FIND_PACKAGE_Boost=TRUE                  -DGROFF=FALSE                  -DNROFF=FALSE                  -DENABLE_DTRACE=FALSE                  -DWITH_PIC=ON                  -DWITH_PCRE=system                  -DINSTALL_LAYOUT=RPM                  -DINSTALL_DOCDIR:PATH=/tmp/tmpqbr9msma/tmp-glibc/work/x86_64-linux/mariadb-native/10.5.9-r0/recipe-sysroot-native/usr/share/doc/mariadb                  -DINSTALL_LIBDIR:PATH=lib                  -DINSTALL_PLUGINDIR:PATH=lib/plugin                  -DINSTALL_SYSCONFDIR:PATH=/tmp/tmpqbr9msma/tmp-glibc/work/x86_64-linux/mariadb-native/10.5.9-r0/recipe-sysroot-native/etc                  -DMYSQL_DATADIR:PATH=/var/mysql                  -DCAT_EXECUTABLE=`which cat`                  -DCMAKE_AR:FILEPATH=ar    -DWITHOUT_AUTH_PAM=TRUE   -DWITH_VALGRIND=FALSE -DWITH_ROCKSDB_ZSTD=OFF",
+            "configopts": "-DWITH_EMBEDDED_SERVER=ON                  -DWITH_JEMALLOC=no                  -DWITHOUT_TOKUDB=TRUE                  -DCMAKE_DISABLE_FIND_PACKAGE_Boost=TRUE                  -DGROFF=FALSE                  -DNROFF=FALSE                  -DENABLE_DTRACE=FALSE                  -DWITH_PIC=ON                  -DWITH_PCRE=system                  -DINSTALL_LAYOUT=RPM                  -DINSTALL_DOCDIR:PATH=/tmp/tmpdzdlku3u/tmp-glibc/work/x86_64-linux/mariadb-native/10.5.11-r0/recipe-sysroot-native/usr/share/doc/mariadb                  -DINSTALL_LIBDIR:PATH=lib                  -DINSTALL_PLUGINDIR:PATH=lib/plugin                  -DINSTALL_SYSCONFDIR:PATH=/tmp/tmpdzdlku3u/tmp-glibc/work/x86_64-linux/mariadb-native/10.5.11-r0/recipe-sysroot-native/etc                  -DMYSQL_DATADIR:PATH=/var/mysql                  -DCAT_EXECUTABLE=`which cat`                  -DCMAKE_AR:FILEPATH=ar    -DWITHOUT_AUTH_PAM=TRUE -DWITH_VALGRIND=FALSE -DWITH_ROCKSDB_ZSTD=OFF",
             "description": "",
-            "filename": "mariadb-native_10.5.9.bb",
+            "filename": "mariadb-native_10.5.11.bb",
             "filepath": "recipes-dbs/mysql",
             "homepage": "http://mariadb.org",
             "id": 1333460,
@@ -12051,11 +12079,11 @@
             "pn": "mariadb-native",
             "pr": "r0",
             "provides": "mariadb-native  mysql5-native",
-            "pv": "10.5.9",
+            "pv": "10.5.11",
             "section": "libs",
             "srcrev": "",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2021-08-16T01:08:45+0000"
+            "updated": "2021-08-31T19:08:16+0000"
         },
         {
             "bbclassextend": "",
@@ -12084,24 +12112,24 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "-DWITH_EMBEDDED_SERVER=ON                  -DWITH_JEMALLOC=no                  -DWITHOUT_TOKUDB=TRUE                  -DCMAKE_DISABLE_FIND_PACKAGE_Boost=TRUE                  -DGROFF=FALSE                  -DNROFF=FALSE                  -DENABLE_DTRACE=FALSE                  -DWITH_PIC=ON                  -DWITH_PCRE=system                  -DINSTALL_LAYOUT=RPM                  -DINSTALL_DOCDIR:PATH=/usr/share/doc/mariadb                  -DINSTALL_LIBDIR:PATH=lib                  -DINSTALL_PLUGINDIR:PATH=lib/plugin                  -DINSTALL_SYSCONFDIR:PATH=/etc                  -DMYSQL_DATADIR:PATH=/var/mysql                  -DCAT_EXECUTABLE=`which cat`                  -DCMAKE_AR:FILEPATH=i686-oe-linux-gcc-ar -DSTACK_DIRECTION=-1    -DWITHOUT_AUTH_PAM=TRUE -DWITH_VALGRIND=FALSE -DWITH_ROCKSDB_ZSTD=OFF",
+            "configopts": "-DCMAKE_CROSSCOMPILING_EMULATOR=/tmp/tmpdzdlku3u/tmp-glibc/work/core2-32-oe-linux/mariadb/10.5.11-r0/qemuwrapper -DWITH_EMBEDDED_SERVER=ON                  -DWITH_JEMALLOC=no                  -DWITHOUT_TOKUDB=TRUE                  -DCMAKE_DISABLE_FIND_PACKAGE_Boost=TRUE                  -DGROFF=FALSE                  -DNROFF=FALSE                  -DENABLE_DTRACE=FALSE                  -DWITH_PIC=ON                  -DWITH_PCRE=system                  -DINSTALL_LAYOUT=RPM                  -DINSTALL_DOCDIR:PATH=/usr/share/doc/mariadb                  -DINSTALL_LIBDIR:PATH=lib                  -DINSTALL_PLUGINDIR:PATH=lib/plugin                  -DINSTALL_SYSCONFDIR:PATH=/etc                  -DMYSQL_DATADIR:PATH=/var/mysql                  -DCAT_EXECUTABLE=`which cat`                  -DCMAKE_AR:FILEPATH=i686-oe-linux-gcc-ar    -DWITHOUT_AUTH_PAM=TRUE -DWITH_VALGRIND=FALSE -DWITH_ROCKSDB_ZSTD=OFF",
             "description": "",
-            "filename": "mariadb_10.5.9.bb",
+            "filename": "mariadb_10.5.11.bb",
             "filepath": "recipes-dbs/mysql",
             "homepage": "http://mariadb.org",
             "id": 1333462,
-            "inherits": "binconfig cmake gettext multilib_script systemd update-alternatives update-rc.d useradd useradd_base",
+            "inherits": "binconfig cmake gettext multilib_script qemu systemd update-alternatives update-rc.d useradd useradd_base",
             "layerbranch": 885776,
             "license": "GPLv2",
             "pe": "",
             "pn": "mariadb",
             "pr": "r0",
             "provides": "mariadb  mysql5 libmysqlclient",
-            "pv": "10.5.9",
+            "pv": "10.5.11",
             "section": "libs",
             "srcrev": "",
             "summary": "A robust, scalable, and reliable SQL server",
-            "updated": "2021-08-16T01:08:46+0000"
+            "updated": "2021-08-31T19:08:17+0000"
         },
         {
             "bbclassextend": "",
@@ -13389,7 +13417,7 @@
             "section": "base",
             "srcrev": "05710ec5032be4c8edafb4109d4d908d31243906",
             "summary": "",
-            "updated": "2021-08-16T01:08:55+0000"
+            "updated": "2021-08-31T19:08:19+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -16310,7 +16338,7 @@
             "section": "x11/wm",
             "srcrev": "88eab6dc16da6e5dd25fe97fbb56b96ef0d58657",
             "summary": "F Virtual Window Manager ",
-            "updated": "2021-08-16T01:08:15+0000"
+            "updated": "2021-08-31T19:08:18+0000"
         },
         {
             "bbclassextend": "native",
@@ -16724,7 +16752,7 @@
             "section": "console/tests",
             "srcrev": "",
             "summary": "System performance benchmark",
-            "updated": "2021-08-16T01:08:18+0000"
+            "updated": "2021-08-31T19:08:17+0000"
         },
         {
             "bbclassextend": "",
@@ -18909,7 +18937,7 @@
             "section": "console/network",
             "srcrev": "",
             "summary": "A network authentication protocol",
-            "updated": "2021-08-16T01:08:32+0000"
+            "updated": "2021-09-06T02:09:26+0000"
         },
         {
             "bbclassextend": "",

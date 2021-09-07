@@ -314,11 +314,39 @@
             "image_url": "",
             "link_url": "",
             "name": "2.5 2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42561,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42562,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42563,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.1 3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42564,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 wrl"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.21-20210516",
+            "bitbake_branch": "wr-10.21-20210827",
             "comparison": false,
             "hidden": false,
             "id": 240,
@@ -326,23 +354,23 @@
             "short_description": "Wind River Linux 10_21 Baseline",
             "sort_priority": 2,
             "update_environment": null,
-            "updated": "2021-05-16T01:05:22+0000",
+            "updated": "2021-08-31T19:08:49+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.21-20210707",
+            "actual_branch": "wr-10.21-20210827",
             "branch": 240,
             "collection": "core",
             "id": 885774,
             "layer": 1,
             "local_path": "",
-            "updated": "2021-08-20T15:08:50+0000",
-            "vcs_last_commit": "2021-08-20T14:08:02+0000",
-            "vcs_last_fetch": "2021-08-20T15:08:50+0000",
-            "vcs_last_rev": "86b41b464aeda8e36553a94621efff0c6d9d5b83",
+            "updated": "2021-08-31T19:08:12+0000",
+            "vcs_last_commit": "2021-08-26T19:08:03+0000",
+            "vcs_last_fetch": "2021-08-31T19:08:12+0000",
+            "vcs_last_rev": "c527bd91214b42fd31196029bbfc341c8b233fc2",
             "vcs_subdir": "meta",
             "version": "12",
             "yp_compatible_version": 42545
@@ -354,10 +382,10 @@
             "id": 885826,
             "layer": 49,
             "local_path": "",
-            "updated": "2021-08-16T01:08:19+0000",
-            "vcs_last_commit": "2021-08-15T23:08:38+0000",
-            "vcs_last_fetch": "2021-08-16T01:08:19+0000",
-            "vcs_last_rev": "a1d15397d3cbe902a1319a5c49af2e1c3ecd7087",
+            "updated": "2021-09-06T21:09:29+0000",
+            "vcs_last_commit": "2021-09-06T20:09:41+0000",
+            "vcs_last_fetch": "2021-09-06T21:09:29+0000",
+            "vcs_last_rev": "d79c21393594251be224f1712c0194d8a0989b3a",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42545
@@ -369,10 +397,10 @@
             "id": 885834,
             "layer": 347,
             "local_path": "",
-            "updated": "2021-08-16T01:08:23+0000",
-            "vcs_last_commit": "2021-08-09T21:08:31+0000",
-            "vcs_last_fetch": "2021-08-16T01:08:23+0000",
-            "vcs_last_rev": "e6214f3b93bd8b817687af38cf1045b9a761e784",
+            "updated": "2021-09-06T07:09:26+0000",
+            "vcs_last_commit": "2021-09-06T03:09:01+0000",
+            "vcs_last_fetch": "2021-09-06T07:09:26+0000",
+            "vcs_last_rev": "2b7c7c804a01c9149999590810b2124dd27e98f5",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42545
@@ -486,9 +514,9 @@
             "provides": "pkcs11-hse  pkcs11-hse",
             "pv": "1.0",
             "section": "base",
-            "srcrev": "551115b2a261073667744db13510393ee76c89c9",
+            "srcrev": "0fc8ecf67d7758ea395dd8bf8db87f787ca82fe8",
             "summary": "",
-            "updated": "2021-08-16T01:08:22+0000"
+            "updated": "2021-08-31T19:08:31+0000"
         },
         {
             "bbclassextend": "",
@@ -532,9 +560,9 @@
             "provides": "u-boot-s32 virtual/bootloader u-boot",
             "pv": "2020.04",
             "section": "base",
-            "srcrev": "61b2dc53d2b6655e5d629da16132ccd72907f83e",
+            "srcrev": "7eba18e1c0b994180e173e9343c7fe50819d9732",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2021-08-16T01:08:22+0000"
+            "updated": "2021-09-06T07:09:26+0000"
         },
         {
             "bbclassextend": "",
@@ -555,9 +583,9 @@
             "provides": "atf-s32g ",
             "pv": "2.3",
             "section": "base",
-            "srcrev": "87dbb869d05399cef3ec596599c8080a090ba17c",
+            "srcrev": "530128801d76c0fbbc0b5b41eb52eb4757c78335",
             "summary": "",
-            "updated": "2021-08-16T01:08:22+0000"
+            "updated": "2021-09-06T07:09:25+0000"
         },
         {
             "bbclassextend": "",
@@ -601,9 +629,9 @@
             "provides": "ipc-shm  kernel-module-ipc-shm-sample kernel-module-ipc-shm-dev kernel-module-ipc-shm-uio",
             "pv": "1.0",
             "section": "base",
-            "srcrev": "c70c0208ec295186eda80608f08994f2f8e5bcb5",
+            "srcrev": "56d3710e01052a94ad9b6f559e0390d77c059277",
             "summary": "Support for Inter-Process(or) Communication over Shared Memory (ipc-shm)",
-            "updated": "2021-08-16T01:08:23+0000"
+            "updated": "2021-09-06T07:09:26+0000"
         },
         {
             "bbclassextend": "",
@@ -634,7 +662,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "pfe_0.9.4.bb",
+            "filename": "pfe_0.9.5.bb",
             "filepath": "recipes-kernel/pfe",
             "homepage": "",
             "id": 1335752,
@@ -645,11 +673,11 @@
             "pn": "pfe",
             "pr": "r0",
             "provides": "pfe ",
-            "pv": "0.9.4",
+            "pv": "0.9.5",
             "section": "base",
-            "srcrev": "3a548033d5126c9354a8529903d0842769718b1e",
+            "srcrev": "919cef634c4300cad72d4f72785b352803b25e23",
             "summary": "Linux driver for the Packet Forwarding Engine hardware",
-            "updated": "2021-08-16T01:08:23+0000"
+            "updated": "2021-09-06T07:09:26+0000"
         }
     ],
     "wrtemplates": [

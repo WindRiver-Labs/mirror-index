@@ -314,11 +314,39 @@
             "image_url": "",
             "link_url": "",
             "name": "2.5 2.6 wrl"
+        },
+        {
+            "description": "",
+            "id": 42561,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42562,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42563,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.7 3.0 3.1 3.2 3.3"
+        },
+        {
+            "description": "",
+            "id": 42564,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0 wrl"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.21-20210516",
+            "bitbake_branch": "wr-10.21-20210827",
             "comparison": false,
             "hidden": false,
             "id": 240,
@@ -326,68 +354,68 @@
             "short_description": "Wind River Linux 10_21 Baseline",
             "sort_priority": 2,
             "update_environment": null,
-            "updated": "2021-05-16T01:05:22+0000",
+            "updated": "2021-08-31T19:08:49+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.21-20210707",
+            "actual_branch": "wr-10.21-20210827",
             "branch": 240,
             "collection": "core",
             "id": 885774,
             "layer": 1,
             "local_path": "",
-            "updated": "2021-08-20T15:08:50+0000",
-            "vcs_last_commit": "2021-08-20T14:08:02+0000",
-            "vcs_last_fetch": "2021-08-20T15:08:50+0000",
-            "vcs_last_rev": "86b41b464aeda8e36553a94621efff0c6d9d5b83",
+            "updated": "2021-08-31T19:08:12+0000",
+            "vcs_last_commit": "2021-08-26T19:08:03+0000",
+            "vcs_last_fetch": "2021-08-31T19:08:12+0000",
+            "vcs_last_rev": "c527bd91214b42fd31196029bbfc341c8b233fc2",
             "vcs_subdir": "meta",
             "version": "12",
             "yp_compatible_version": 42545
         },
         {
-            "actual_branch": "wr-10.21-20210707",
+            "actual_branch": "wr-10.21-20210827",
             "branch": 240,
             "collection": "openembedded-layer",
             "id": 885776,
             "layer": 7,
             "local_path": "",
-            "updated": "2021-08-18T18:08:41+0000",
-            "vcs_last_commit": "2021-08-18T16:08:11+0000",
-            "vcs_last_fetch": "2021-08-18T18:08:41+0000",
-            "vcs_last_rev": "1c9736d424013567f315487008495186d8baeebe",
+            "updated": "2021-09-06T02:09:26+0000",
+            "vcs_last_commit": "2021-09-06T01:09:39+0000",
+            "vcs_last_fetch": "2021-09-06T02:09:26+0000",
+            "vcs_last_rev": "1733679823f6b8b78708fe1c4470c1578450328f",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42544
         },
         {
-            "actual_branch": "wr-10.21-20210707",
+            "actual_branch": "wr-10.21-20210827",
             "branch": 240,
             "collection": "meta-python",
             "id": 885779,
             "layer": 12,
             "local_path": "",
-            "updated": "2021-08-16T01:08:11+0000",
-            "vcs_last_commit": "2021-07-07T01:07:35+0000",
-            "vcs_last_fetch": "2021-08-16T01:08:11+0000",
-            "vcs_last_rev": "9645a3b2f4dacc321e1301bb1391d94da17b2c6c",
+            "updated": "2021-08-31T19:08:28+0000",
+            "vcs_last_commit": "2021-08-26T18:08:56+0000",
+            "vcs_last_fetch": "2021-08-31T19:08:28+0000",
+            "vcs_last_rev": "ef05963deca10f6a2c89c7b04c5a454b022a3381",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 42544
         },
         {
-            "actual_branch": "wr-10.21-20210707",
+            "actual_branch": "wr-10.21-20210827",
             "branch": 240,
             "collection": "networking-layer",
             "id": 885804,
             "layer": 11,
             "local_path": "",
-            "updated": "2021-08-16T01:08:33+0000",
-            "vcs_last_commit": "2021-07-07T01:07:36+0000",
-            "vcs_last_fetch": "2021-08-16T01:08:33+0000",
-            "vcs_last_rev": "33ff2e1dd267343943076dfff78d25554debf191",
+            "updated": "2021-08-31T19:08:03+0000",
+            "vcs_last_commit": "2021-08-26T18:08:56+0000",
+            "vcs_last_fetch": "2021-08-31T19:08:03+0000",
+            "vcs_last_rev": "0890b71e7ca55b0bdafd12f8c9316dd20f123081",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 42544
@@ -681,7 +709,7 @@
             "bbclassextend": "native",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     --enable-shared     --disable-manuals     --with-defaults     --with-install-prefix=/tmp/tmpypj8wk4t/tmp-glibc/work/core2-32-oe-linux/net-snmp/5.9.1-r0/image     --with-persistent-directory=/var/lib/net-snmp     --with-endianness=little     --with-mib-modules=' smux'   --enable-des  --without-elf --enable-ipv6  --without-nl  --disable-embedded-perl --with-perl-modules=no  --without-systemd",
+            "configopts": "     --enable-shared     --disable-manuals     --with-defaults     --with-install-prefix=/tmp/tmpp24eanft/tmp-glibc/work/core2-32-oe-linux/net-snmp/5.9.1-r0/image     --with-persistent-directory=/var/lib/net-snmp     --with-endianness=little     --with-mib-modules=' smux'   --enable-des  --without-elf --enable-ipv6  --without-nl  --disable-embedded-perl --with-perl-modules=no  --without-systemd",
             "description": "",
             "filename": "net-snmp_5.9.1.bb",
             "filepath": "recipes-protocols/net-snmp",
@@ -698,7 +726,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "Various tools relating to the Simple Network Management Protocol",
-            "updated": "2021-08-16T01:08:01+0000"
+            "updated": "2021-08-31T19:08:01+0000"
         },
         {
             "bbclassextend": "",
@@ -836,7 +864,7 @@
             "section": "base",
             "srcrev": "b71bfb87fefb31c4b1a6a7ae351791c90966c3a8",
             "summary": "Open-LLDP",
-            "updated": "2021-08-16T01:08:02+0000"
+            "updated": "2021-08-31T19:08:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1578,9 +1606,9 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --disable-rpath                  --disable-rpath-install                  --bundled-libraries=NONE                  --builtin-libraries=replace                  --disable-silent-rules                  --with-libiconv=/tmp/tmpypj8wk4t/tmp-glibc/work/core2-32-oe-linux/libtalloc/2.3.2-r0/recipe-sysroot/usr                ",
+            "configopts": " --disable-rpath                  --disable-rpath-install                  --bundled-libraries=NONE                  --builtin-libraries=replace                  --disable-silent-rules                  --with-libiconv=/tmp/tmpp24eanft/tmp-glibc/work/core2-32-oe-linux/libtalloc/2.3.3-r0/recipe-sysroot/usr                ",
             "description": "",
-            "filename": "libtalloc_2.3.2.bb",
+            "filename": "libtalloc_2.3.3.bb",
             "filepath": "recipes-support/libtalloc",
             "homepage": "http://talloc.samba.org",
             "id": 1335080,
@@ -1591,11 +1619,11 @@
             "pn": "libtalloc",
             "pr": "r0",
             "provides": "libtalloc ",
-            "pv": "2.3.2",
+            "pv": "2.3.3",
             "section": "libs",
             "srcrev": "",
             "summary": "Hierarchical, reference counted memory pool system with destructors",
-            "updated": "2021-08-16T01:08:07+0000"
+            "updated": "2021-08-31T19:08:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1626,7 +1654,7 @@
             "bugtracker": "",
             "configopts": " -DENABLE_NETLINK=ON                   -DBUILD_mmdbresolve=OFF                   -DBUILD_randpktdump=OFF                   -DBUILD_androiddump=OFF                   -DBUILD_dcerpcidl2wrs=OFF                   -DM_INCLUDE_DIR=/usr/include                   -DM_LIBRARY=/usr/lib                    -DENABLE_CARES=OFF -DENABLE_GNUTLS=ON -DENABLE_KRB5=OFF -DENABLE_CAP=ON -DENABLE_PCAP=ON -DENABLE_SMI=OFF -DENABLE_LUA=OFF -DENABLE_LZ4=OFF -DENABLE_PLUGINS=OFF -DENABLE_PORTAUDIO=OFF  -DENABLE_QT5=OFF -DBUILD_wireshark=OFF -DENABLE_SBC=ON -DENABLE_ZLIB=OFF",
             "description": "wireshark - a popular network protocol analyzer",
-            "filename": "wireshark_3.4.6.bb",
+            "filename": "wireshark_3.4.7.bb",
             "filepath": "recipes-support/wireshark",
             "homepage": "http://www.wireshark.org",
             "id": 1335082,
@@ -1637,11 +1665,11 @@
             "pn": "wireshark",
             "pr": "r0",
             "provides": "wireshark ",
-            "pv": "3.4.6",
+            "pv": "3.4.7",
             "section": "net",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-08-16T01:08:07+0000"
+            "updated": "2021-08-31T19:08:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1917,7 +1945,7 @@
             "section": "libdevel",
             "srcrev": "64929a75e0a7a60d864bd25a9fd97fdf9ac892a2",
             "summary": "A library for deep-packet inspection.",
-            "updated": "2021-08-16T01:08:09+0000"
+            "updated": "2021-08-31T19:08:02+0000"
         },
         {
             "bbclassextend": "",
@@ -2040,7 +2068,7 @@
             "bugtracker": "",
             "configopts": "-DENABLE_EXAMPLES=OFF -DENABLE_APP=ON ",
             "description": "",
-            "filename": "nghttp2_1.43.0.bb",
+            "filename": "nghttp2_1.44.0.bb",
             "filepath": "recipes-support/nghttp2",
             "homepage": "https://nghttp2.org/",
             "id": 1335100,
@@ -2051,11 +2079,11 @@
             "pn": "nghttp2",
             "pr": "r0",
             "provides": "nghttp2 ",
-            "pv": "1.43.0",
+            "pv": "1.44.0",
             "section": "libs",
             "srcrev": "",
             "summary": "HTTP/2 C Library and tools",
-            "updated": "2021-08-16T01:08:10+0000"
+            "updated": "2021-08-31T19:08:02+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2906,7 +2934,7 @@
             "section": "libdevel",
             "srcrev": "592552a165cc569dac7674cb7fc9de3dc829906f",
             "summary": "C++ library for client-side URL transfers",
-            "updated": "2021-08-16T01:08:16+0000"
+            "updated": "2021-08-31T19:08:02+0000"
         },
         {
             "bbclassextend": "",
@@ -3343,7 +3371,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "A full-featured SSL VPN solution via tun device.",
-            "updated": "2021-08-16T01:08:19+0000"
+            "updated": "2021-08-31T19:08:02+0000"
         },
         {
             "bbclassextend": "",
