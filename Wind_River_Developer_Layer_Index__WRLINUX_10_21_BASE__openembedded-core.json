@@ -375,10 +375,10 @@
             "id": 885774,
             "layer": 1,
             "local_path": "",
-            "updated": "2021-08-31T19:08:12+0000",
-            "vcs_last_commit": "2021-08-26T19:08:03+0000",
-            "vcs_last_fetch": "2021-08-31T19:08:12+0000",
-            "vcs_last_rev": "c527bd91214b42fd31196029bbfc341c8b233fc2",
+            "updated": "2021-09-13T00:09:26+0000",
+            "vcs_last_commit": "2021-09-12T23:09:33+0000",
+            "vcs_last_fetch": "2021-09-13T00:09:26+0000",
+            "vcs_last_rev": "13a187a02fde78adf77d319a971e683032531143",
             "vcs_subdir": "meta",
             "version": "12",
             "yp_compatible_version": 42545
@@ -3918,7 +3918,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "Perl scripting language",
-            "updated": "2021-08-16T01:08:57+0000"
+            "updated": "2021-09-10T02:09:30+0000"
         },
         {
             "bbclassextend": "native",
@@ -4562,7 +4562,7 @@
             "section": "base",
             "srcrev": "52eb4c279cd283ed9802dd1ceb686560b22ffb67",
             "summary": "Tools for manipulating SquashFS filesystems",
-            "updated": "2021-08-16T01:08:04+0000"
+            "updated": "2021-09-10T02:09:30+0000"
         },
         {
             "bbclassextend": "native",
@@ -11209,7 +11209,7 @@
             "section": "console/utils",
             "srcrev": "",
             "summary": "Midnight Commander is an ncurses based file manager",
-            "updated": "2021-08-16T01:08:07+0000"
+            "updated": "2021-09-10T02:09:31+0000"
         },
         {
             "bbclassextend": "",
@@ -14291,29 +14291,6 @@
             "section": "libs",
             "srcrev": "1d99b835ec3cd5a7fb2f2a2dd9a615ee2d1f0101",
             "summary": "Vulkan Header files and API registry",
-            "updated": "2021-08-16T01:08:32+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "-DASSIMP_BUILD_ASSIMP_TOOLS=OFF -DASSIMP_BUILD_TESTS=OFF -DASSIMP_LIB_INSTALL_DIR=lib ",
-            "description": "Open Asset Import Library is a portable Open Source library to import                various well-known 3D model formats in a uniform manner.",
-            "filename": "assimp_5.0.1.bb",
-            "filepath": "recipes-graphics/vulkan",
-            "homepage": "http://www.assimp.org/",
-            "id": 1332728,
-            "inherits": "cmake",
-            "layerbranch": 885774,
-            "license": "BSD-3-Clause",
-            "pe": "",
-            "pn": "assimp",
-            "pr": "r0",
-            "provides": "assimp ",
-            "pv": "5.0.1",
-            "section": "devel",
-            "srcrev": "8f0c6b04b2257a520aaab38421b2e090204b69df",
-            "summary": "",
             "updated": "2021-08-16T01:08:32+0000"
         },
         {
@@ -18897,7 +18874,7 @@
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "--with-ncurses-include-dir=/tmp/tmp8hmhcy92/tmp-glibc/work/core2-32-oe-linux/inetutils/2.0-r0/recipe-sysroot/usr/include         inetutils_cv_path_login=/bin/login         --with-libreadline-prefix=/tmp/tmp8hmhcy92/tmp-glibc/work/core2-32-oe-linux/inetutils/2.0-r0/recipe-sysroot/usr/lib         --enable-rpath=no   --enable-ftp --enable-ipv6 --without-pam --enable-ping6 --enable-uucpd --enable-nls --disable-rsh --disable-rshd --disable-rcp         --disable-rlogin --disable-rlogind --disable-rexec --disable-rexecd",
+            "configopts": "--with-ncurses-include-dir=/tmp/tmpyokfqgx3/tmp-glibc/work/core2-32-oe-linux/inetutils/2.0-r0/recipe-sysroot/usr/include         inetutils_cv_path_login=/bin/login         --with-libreadline-prefix=/tmp/tmpyokfqgx3/tmp-glibc/work/core2-32-oe-linux/inetutils/2.0-r0/recipe-sysroot/usr/lib         --enable-rpath=no   --enable-ftp --enable-ipv6 --without-pam --enable-ping6 --enable-uucpd --enable-nls --disable-rsh --disable-rshd --disable-rcp         --disable-rlogin --disable-rlogind --disable-rexec --disable-rexecd",
             "description": "The GNU inetutils are a collection of common networking utilities and servers including ftp, ftpd, rcp, rexec, rlogin, rlogind, rsh, rshd, syslog, syslogd, talk, talkd, telnet, telnetd, tftp, tftpd, and uucpd.",
             "filename": "inetutils_2.0.bb",
             "filepath": "recipes-connectivity/inetutils",
@@ -18914,7 +18891,7 @@
             "section": "net",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-08-16T01:08:07+0000"
+            "updated": "2021-09-13T00:09:26+0000"
         },
         {
             "bbclassextend": "native",
