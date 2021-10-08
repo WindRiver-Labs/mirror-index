@@ -349,11 +349,46 @@
             "image_url": "",
             "link_url": "",
             "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.21-20210827",
+            "bitbake_branch": "wr-10.21-20210924",
             "comparison": false,
             "hidden": false,
             "id": 240,
@@ -361,23 +396,23 @@
             "short_description": "Wind River Linux 10_21 Baseline",
             "sort_priority": 2,
             "update_environment": null,
-            "updated": "2021-08-31T19:08:49+0000",
+            "updated": "2021-09-25T19:09:26+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.21-20210827",
+            "actual_branch": "wr-10.21-20210924",
             "branch": 240,
             "collection": "core",
             "id": 885774,
             "layer": 1,
             "local_path": "",
-            "updated": "2021-09-13T02:09:35+0000",
-            "vcs_last_commit": "2021-09-13T01:09:31+0000",
-            "vcs_last_fetch": "2021-09-13T02:09:35+0000",
-            "vcs_last_rev": "ed1339113510847f277712067975744e620607e8",
+            "updated": "2021-09-29T11:09:26+0000",
+            "vcs_last_commit": "2021-09-29T10:09:44+0000",
+            "vcs_last_fetch": "2021-09-29T11:09:26+0000",
+            "vcs_last_rev": "5363072f615d4397af1db00efae54148fed27c2b",
             "vcs_subdir": "meta",
             "version": "12",
             "yp_compatible_version": 42545
@@ -389,9 +424,9 @@
             "id": 885802,
             "layer": 358,
             "local_path": "",
-            "updated": "2021-08-16T01:08:40+0000",
+            "updated": "2021-09-26T21:09:59+0000",
             "vcs_last_commit": "2021-03-22T23:03:41+0000",
-            "vcs_last_fetch": "2021-08-16T01:08:40+0000",
+            "vcs_last_fetch": "2021-09-26T21:09:59+0000",
             "vcs_last_rev": "6ace9f1cfe143dc4b46e912e0db26fd8c7b9df9c",
             "vcs_subdir": "meta-xilinx-bsp",
             "version": null,
@@ -404,9 +439,9 @@
             "id": 885824,
             "layer": 357,
             "local_path": "",
-            "updated": "2021-08-16T01:08:56+0000",
+            "updated": "2021-09-26T21:09:47+0000",
             "vcs_last_commit": "2021-06-15T01:06:05+0000",
-            "vcs_last_fetch": "2021-08-16T01:08:56+0000",
+            "vcs_last_fetch": "2021-09-26T21:09:47+0000",
             "vcs_last_rev": "fe527e7bddb263dd2b6f751eaafea9143c0cf20f",
             "vcs_subdir": "",
             "version": null,
@@ -419,10 +454,10 @@
             "id": 885826,
             "layer": 49,
             "local_path": "",
-            "updated": "2021-09-16T17:09:34+0000",
-            "vcs_last_commit": "2021-09-16T16:09:32+0000",
-            "vcs_last_fetch": "2021-09-16T17:09:34+0000",
-            "vcs_last_rev": "571ec3d4849466d2422c512b97b29ae1555c0978",
+            "updated": "2021-10-07T21:10:50+0000",
+            "vcs_last_commit": "2021-10-07T19:10:08+0000",
+            "vcs_last_fetch": "2021-10-07T21:10:50+0000",
+            "vcs_last_rev": "5f804785885286ae547057bbb77c512e3efc106f",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42545
@@ -434,9 +469,9 @@
             "id": 885828,
             "layer": 112,
             "local_path": "",
-            "updated": "2021-08-16T01:08:26+0000",
+            "updated": "2021-09-26T21:09:29+0000",
             "vcs_last_commit": "2021-05-20T08:05:45+0000",
-            "vcs_last_fetch": "2021-08-16T01:08:26+0000",
+            "vcs_last_fetch": "2021-09-26T21:09:29+0000",
             "vcs_last_rev": "c94a3bfb35d9427c71bf264c7744f755b527f5b1",
             "vcs_subdir": "",
             "version": "1",
@@ -569,20 +604,20 @@
     "machines": [
         {
             "description": " Xilinx Zynq-7000 SoC",
-            "id": 38563,
+            "id": 39782,
             "layerbranch": 885828,
             "name": "xilinx-zynq",
-            "updated": "2021-08-16T01:08:26+0000"
+            "updated": "2021-09-26T21:09:29+0000"
         }
     ],
     "recipes": [],
     "wrtemplates": [
         {
             "description": "",
-            "id": 78738,
+            "id": 80066,
             "layerbranch": 885828,
             "name": "default",
-            "updated": "2021-08-16T01:08:26+0000"
+            "updated": "2021-09-26T21:09:29+0000"
         }
     ]
 }

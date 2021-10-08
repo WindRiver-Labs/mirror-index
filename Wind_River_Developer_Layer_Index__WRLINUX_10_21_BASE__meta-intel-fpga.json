@@ -349,11 +349,46 @@
             "image_url": "",
             "link_url": "",
             "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.21-20210827",
+            "bitbake_branch": "wr-10.21-20210924",
             "comparison": false,
             "hidden": false,
             "id": 240,
@@ -361,26 +396,26 @@
             "short_description": "Wind River Linux 10_21 Baseline",
             "sort_priority": 2,
             "update_environment": null,
-            "updated": "2021-08-31T19:08:49+0000",
+            "updated": "2021-09-25T19:09:26+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.21-20210516",
+            "actual_branch": "wr-10.21-20210924",
             "branch": 240,
             "collection": "meta-intel-fpga",
             "id": 885763,
             "layer": 380,
             "local_path": "",
-            "updated": "2021-08-16T01:08:39+0000",
-            "vcs_last_commit": "2021-04-28T08:04:22+0000",
-            "vcs_last_fetch": "2021-08-16T01:08:39+0000",
-            "vcs_last_rev": "cbf8646732fc1fd8fa21812986dd7c7e8a2f7d79",
+            "updated": "2021-09-26T21:09:16+0000",
+            "vcs_last_commit": "2021-09-22T20:09:18+0000",
+            "vcs_last_fetch": "2021-09-26T21:09:16+0000",
+            "vcs_last_rev": "9e86036cfaeab53b562f228001a5d26918c08795",
             "vcs_subdir": "",
             "version": null,
-            "yp_compatible_version": 42544
+            "yp_compatible_version": 42567
         }
     ],
     "layerDependencies": [],
@@ -407,60 +442,88 @@
     ],
     "machines": [
         {
+            "description": " Stratix 10 SoCFPGA",
+            "id": 39644,
+            "layerbranch": 885763,
+            "name": "stratix10-extra",
+            "updated": "2021-09-26T21:09:16+0000"
+        },
+        {
+            "description": "Additional machine configuration for the Agilex SoCFPGA",
+            "id": 39645,
+            "layerbranch": 885763,
+            "name": "agilex-extra",
+            "updated": "2021-09-26T21:09:16+0000"
+        },
+        {
             "description": " nios2 machines",
-            "id": 38429,
+            "id": 39646,
             "layerbranch": 885763,
             "name": "10m50",
-            "updated": "2021-08-16T01:08:39+0000"
+            "updated": "2021-09-26T21:09:16+0000"
         },
         {
             "description": " Stratix 10 SoCFPGA",
-            "id": 38430,
+            "id": 39647,
             "layerbranch": 885763,
             "name": "stratix10",
-            "updated": "2021-08-16T01:08:39+0000"
+            "updated": "2021-09-26T21:09:16+0000"
         },
         {
             "description": " N5X eASIC devices",
-            "id": 38431,
+            "id": 39648,
             "layerbranch": 885763,
             "name": "n5x",
-            "updated": "2021-08-16T01:08:39+0000"
-        },
-        {
-            "description": " Agilex SoCFPGA",
-            "id": 38432,
-            "layerbranch": 885763,
-            "name": "agilex",
-            "updated": "2021-08-16T01:08:39+0000"
-        },
-        {
-            "description": " Arria 10 SoCFPGA",
-            "id": 38433,
-            "layerbranch": 885763,
-            "name": "arria10",
-            "updated": "2021-08-16T01:08:39+0000"
-        },
-        {
-            "description": " nios2 machines",
-            "id": 38434,
-            "layerbranch": 885763,
-            "name": "generic-nios2",
-            "updated": "2021-08-16T01:08:39+0000"
+            "updated": "2021-09-26T21:09:16+0000"
         },
         {
             "description": " Cyclone V SoC\"",
-            "id": 38435,
+            "id": 39649,
+            "layerbranch": 885763,
+            "name": "cyclone5-extra",
+            "updated": "2021-09-26T21:09:16+0000"
+        },
+        {
+            "description": " Agilex SoCFPGA",
+            "id": 39650,
+            "layerbranch": 885763,
+            "name": "agilex",
+            "updated": "2021-09-26T21:09:16+0000"
+        },
+        {
+            "description": " Arria 10 SoCFPGA",
+            "id": 39651,
+            "layerbranch": 885763,
+            "name": "arria10",
+            "updated": "2021-09-26T21:09:16+0000"
+        },
+        {
+            "description": " nios2 machines",
+            "id": 39652,
+            "layerbranch": 885763,
+            "name": "generic-nios2",
+            "updated": "2021-09-26T21:09:16+0000"
+        },
+        {
+            "description": " Arria 10 SoCFPGA",
+            "id": 39653,
+            "layerbranch": 885763,
+            "name": "arria10-extra",
+            "updated": "2021-09-26T21:09:16+0000"
+        },
+        {
+            "description": " Cyclone V SoC\"",
+            "id": 39654,
             "layerbranch": 885763,
             "name": "cyclone5",
-            "updated": "2021-08-16T01:08:39+0000"
+            "updated": "2021-09-26T21:09:16+0000"
         },
         {
             "description": " Arria V SoC\"",
-            "id": 38436,
+            "id": 39655,
             "layerbranch": 885763,
             "name": "arria5",
-            "updated": "2021-08-16T01:08:39+0000"
+            "updated": "2021-09-26T21:09:16+0000"
         }
     ],
     "recipes": [
@@ -470,7 +533,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "u-boot-socfpga_v2020.07.bb",
+            "filename": "u-boot-socfpga_v2021.07.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
             "id": 1332114,
@@ -481,11 +544,11 @@
             "pn": "u-boot-socfpga",
             "pr": "r0",
             "provides": "u-boot-socfpga virtual/bootloader",
-            "pv": "v2020.07+gitX",
+            "pv": "v2021.07+gitX",
             "section": "bootloaders",
-            "srcrev": "35d7cfb999540fae0b69b2ea73d75d80aec311c3",
+            "srcrev": "cf044ae836127edb59c06ca93c8de3ab887b61b4",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2021-08-16T01:08:38+0000"
+            "updated": "2021-09-26T21:09:15+0000"
         },
         {
             "bbclassextend": "",
@@ -506,9 +569,9 @@
             "provides": "u-boot-socfpga virtual/bootloader",
             "pv": "v2020.10+gitX",
             "section": "bootloaders",
-            "srcrev": "ced41867be2d09f4a8af2cc33f45c8ee7a67c6fe",
+            "srcrev": "584a2391639d89cff6476bbfbdf7d9c666970661",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2021-08-16T01:08:38+0000"
+            "updated": "2021-09-26T21:09:15+0000"
         },
         {
             "bbclassextend": "",
@@ -529,9 +592,9 @@
             "provides": "u-boot-socfpga virtual/bootloader",
             "pv": "v2021.01+gitX",
             "section": "bootloaders",
-            "srcrev": "60ef4c2b458d73e83bbfac819c8020a36b2a088e",
+            "srcrev": "c11f4e161a2d86a3657fbbc21f87bc4afb815eb9",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2021-08-16T01:08:39+0000"
+            "updated": "2021-09-26T21:09:15+0000"
         },
         {
             "bbclassextend": "",
@@ -539,7 +602,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "",
-            "filename": "u-boot-socfpga_v2020.04.bb",
+            "filename": "u-boot-socfpga_v2021.04.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
             "id": 1332117,
@@ -550,11 +613,11 @@
             "pn": "u-boot-socfpga",
             "pr": "r0",
             "provides": "u-boot-socfpga virtual/bootloader",
-            "pv": "v2020.04+gitX",
+            "pv": "v2021.04+gitX",
             "section": "bootloaders",
-            "srcrev": "a08578af64180d0724a9721a154d929b785b309b",
+            "srcrev": "fcb08e4ed98723cfe2e9521e6cf91f8781507d43",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2021-08-16T01:08:39+0000"
+            "updated": "2021-09-26T21:09:16+0000"
         },
         {
             "bbclassextend": "",
@@ -575,9 +638,9 @@
             "provides": "arm-trusted-firmware  arm-trusted-firmware",
             "pv": "v2.4",
             "section": "base",
-            "srcrev": "a85a93ebdc0bb80a06343bc436e9f2a81aff2b09",
+            "srcrev": "36746cb98a1978dc74a2626c4459d1456a399b05",
             "summary": "",
-            "updated": "2021-08-16T01:08:39+0000"
+            "updated": "2021-09-26T21:09:16+0000"
         },
         {
             "bbclassextend": "",
@@ -600,7 +663,7 @@
             "section": "base",
             "srcrev": "7009a0d7a0a0c7c8fa5834958dfdd8ee60cbf21d",
             "summary": "",
-            "updated": "2021-08-16T01:08:39+0000"
+            "updated": "2021-09-26T21:09:16+0000"
         },
         {
             "bbclassextend": "",
@@ -608,7 +671,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Linux Kernel for Intel SoCFPGA",
-            "filename": "linux-socfpga_5.10.bb",
+            "filename": "linux-socfpga_5.13.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "https://www.yoctoproject.org/",
             "id": 1332120,
@@ -619,11 +682,11 @@
             "pn": "linux-socfpga",
             "pr": "r0",
             "provides": "linux-socfpga  virtual/kernel",
-            "pv": "5.10+gitX",
+            "pv": "5.13+gitX",
             "section": "kernel",
-            "srcrev": "da9b4c9dda7a0aed01206af935bc6e37c1e831a0",
+            "srcrev": "18949eab641a962d44ada603fb9e8831f45895a9",
             "summary": "Linux kernel",
-            "updated": "2021-08-16T01:08:39+0000"
+            "updated": "2021-09-26T21:09:16+0000"
         },
         {
             "bbclassextend": "",
@@ -644,9 +707,9 @@
             "provides": "linux-socfpga-ltsi  virtual/kernel",
             "pv": "4.14.130-ltsi+gitX",
             "section": "kernel",
-            "srcrev": "cae629555019eb0d3f63d9e8e639a982e994e80f",
+            "srcrev": "78cbce0ccbde7be002b398037659538a4fd0a3e3",
             "summary": "Linux kernel",
-            "updated": "2021-08-16T01:08:39+0000"
+            "updated": "2021-09-26T21:09:16+0000"
         },
         {
             "bbclassextend": "",
@@ -654,7 +717,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Linux Kernel for Intel SoCFPGA",
-            "filename": "linux-socfpga_5.9.bb",
+            "filename": "linux-socfpga_5.12.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "https://www.yoctoproject.org/",
             "id": 1332122,
@@ -665,34 +728,11 @@
             "pn": "linux-socfpga",
             "pr": "r0",
             "provides": "linux-socfpga  virtual/kernel",
-            "pv": "5.9+gitX",
+            "pv": "5.12+gitX",
             "section": "kernel",
-            "srcrev": "32755eb9998c75d10467925bdd7e353330057577",
+            "srcrev": "302a60c614ffb9aa10eab4a2adb8babc73cc8c61",
             "summary": "Linux kernel",
-            "updated": "2021-08-16T01:08:39+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "Linux Kernel for Intel SoCFPGA",
-            "filename": "linux-socfpga_5.8.bb",
-            "filepath": "recipes-kernel/linux",
-            "homepage": "https://www.yoctoproject.org/",
-            "id": 1332123,
-            "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
-            "layerbranch": 885763,
-            "license": "GPLv2",
-            "pe": "",
-            "pn": "linux-socfpga",
-            "pr": "r0",
-            "provides": "linux-socfpga  virtual/kernel",
-            "pv": "5.8+gitX",
-            "section": "kernel",
-            "srcrev": "eb446787abdf0428c0057da2d88daabc39a32393",
-            "summary": "Linux kernel",
-            "updated": "2021-08-16T01:08:39+0000"
+            "updated": "2021-09-26T21:09:16+0000"
         },
         {
             "bbclassextend": "",
@@ -715,7 +755,7 @@
             "section": "kernel",
             "srcrev": "652711a08dbe255d0aa3c2dd7231d6c6bfc61817",
             "summary": "Linux kernel",
-            "updated": "2021-08-16T01:08:39+0000"
+            "updated": "2021-09-26T21:09:16+0000"
         },
         {
             "bbclassextend": "",
@@ -736,9 +776,9 @@
             "provides": "linux-socfpga  virtual/kernel",
             "pv": "5.11+gitX",
             "section": "kernel",
-            "srcrev": "164aa6229f7024bc6f8984e7b820e607e8234f61",
+            "srcrev": "27e8b9142bfe1aab0494e08692214f3438a4ea67",
             "summary": "Linux kernel",
-            "updated": "2021-08-16T01:08:39+0000"
+            "updated": "2021-09-26T21:09:16+0000"
         },
         {
             "bbclassextend": "",
@@ -757,11 +797,34 @@
             "pn": "linux-socfpga-lts",
             "pr": "r0",
             "provides": "linux-socfpga-lts  virtual/kernel",
-            "pv": "5.4.104-lts+gitX",
+            "pv": "5.4.124-lts+gitX",
             "section": "kernel",
-            "srcrev": "c7bfe97dd00781aee819c4cb0a75bed549f9037f",
+            "srcrev": "d68144779f2b613cbd1eb892b6e06aeffff54009",
             "summary": "Linux kernel",
-            "updated": "2021-08-16T01:08:39+0000"
+            "updated": "2021-09-26T21:09:16+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Linux Kernel for Intel SoCFPGA",
+            "filename": "linux-socfpga-lts_5.10.bb",
+            "filepath": "recipes-kernel/linux",
+            "homepage": "https://www.yoctoproject.org/",
+            "id": 1418622,
+            "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
+            "layerbranch": 885763,
+            "license": "GPLv2",
+            "pe": "",
+            "pn": "linux-socfpga-lts",
+            "pr": "r0",
+            "provides": "linux-socfpga-lts  virtual/kernel",
+            "pv": "5.10.50-lts+gitX",
+            "section": "kernel",
+            "srcrev": "1807da3569b8e03a60967b5906be0eb834611c71",
+            "summary": "Linux kernel",
+            "updated": "2021-09-26T21:09:16+0000"
         }
     ],
     "wrtemplates": []

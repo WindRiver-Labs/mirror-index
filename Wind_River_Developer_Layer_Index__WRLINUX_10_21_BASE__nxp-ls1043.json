@@ -433,16 +433,31 @@
             "yp_compatible_version": 42545
         },
         {
+            "actual_branch": "wr-10.21-20210924",
+            "branch": 240,
+            "collection": "freescale-layer",
+            "id": 890571,
+            "layer": 231,
+            "local_path": "",
+            "updated": "2021-09-26T21:09:18+0000",
+            "vcs_last_commit": "2021-09-23T19:09:15+0000",
+            "vcs_last_fetch": "2021-09-26T21:09:18+0000",
+            "vcs_last_rev": "9f24b54c1ab224091c76f8ffb5ecd54c048d4fd6",
+            "vcs_subdir": "",
+            "version": null,
+            "yp_compatible_version": 42552
+        },
+        {
             "actual_branch": "",
             "branch": 240,
-            "collection": "wr-nxp-imx8",
-            "id": 885838,
-            "layer": 271,
+            "collection": "wr-nxp-ls1043",
+            "id": 893920,
+            "layer": 294,
             "local_path": "",
-            "updated": "2021-09-26T21:09:45+0000",
-            "vcs_last_commit": "2021-09-14T22:09:57+0000",
-            "vcs_last_fetch": "2021-09-26T21:09:45+0000",
-            "vcs_last_rev": "ee090ca52ed1fd464e6cff69509896bf435b0c37",
+            "updated": "2021-09-29T18:09:25+0000",
+            "vcs_last_commit": "2021-09-29T17:09:54+0000",
+            "vcs_last_fetch": "2021-09-29T18:09:25+0000",
+            "vcs_last_rev": "b84753d10a646169048686c4a2d0cd4dbc07e3c6",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42545
@@ -451,14 +466,20 @@
     "layerDependencies": [
         {
             "dependency": 1,
-            "id": 79342,
-            "layerbranch": 885838,
+            "id": 85704,
+            "layerbranch": 893920,
+            "required": true
+        },
+        {
+            "dependency": 231,
+            "id": 85705,
+            "layerbranch": 893920,
             "required": true
         },
         {
             "dependency": 49,
-            "id": 79343,
-            "layerbranch": 885838,
+            "id": 85706,
+            "layerbranch": 893920,
             "required": true
         }
     ],
@@ -502,20 +523,39 @@
             "vcs_web_url": ""
         },
         {
-            "collection": "wr-nxp-imx8",
+            "collection": "freescale-layer",
             "comparison": false,
-            "description": "The bsp nxp-imx8 machine layer.",
-            "id": 271,
+            "description": "This layer provides support for Freescale's platforms for use with\r\nOpenEmbedded and/or Yocto.",
+            "id": 231,
+            "index_preference": 0,
+            "layer_type": "A",
+            "mailing_list_url": "",
+            "name": "meta-freescale",
+            "status": "P",
+            "summary": "This layer provides support for Freescale's platforms for use with OpenEmbedded and/or Yocto.",
+            "updated": "2018-05-30T22:05:30+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-freescale",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
+        },
+        {
+            "collection": "wr-nxp-ls1043",
+            "comparison": false,
+            "description": "BSP nxp-ls1043 support",
+            "id": 294,
             "index_preference": 0,
             "layer_type": "B",
             "mailing_list_url": "",
-            "name": "nxp-imx8",
+            "name": "nxp-ls1043",
             "status": "P",
-            "summary": "The bsp nxp-imx8 machine layer.",
-            "updated": "2018-11-12T18:11:35+0000",
+            "summary": "BSP nxp-ls1043 support",
+            "updated": "2019-04-08T23:04:39+0000",
             "usage_url": "",
-            "vcs_url": "#BASE_URL#/nxp-imx8",
-            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/wr-bsps/nxp-imx8.git/commit/id=%hash%",
+            "vcs_url": "#BASE_URL#/nxp-ls1043",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/wr-bsps/nxp-ls1043.git/commit/id=%hash%",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -523,21 +563,21 @@
     ],
     "machines": [
         {
-            "description": "nxp-imx8",
-            "id": 39789,
-            "layerbranch": 885838,
-            "name": "nxp-imx8",
-            "updated": "2021-09-26T21:09:45+0000"
+            "description": " a nxp-ls1043",
+            "id": 39790,
+            "layerbranch": 893920,
+            "name": "nxp-ls1043",
+            "updated": "2021-09-26T21:09:49+0000"
         }
     ],
     "recipes": [],
     "wrtemplates": [
         {
             "description": "",
-            "id": 80152,
-            "layerbranch": 885838,
+            "id": 80153,
+            "layerbranch": 893920,
             "name": "default",
-            "updated": "2021-09-26T21:09:45+0000"
+            "updated": "2021-09-26T21:09:49+0000"
         }
     ]
 }

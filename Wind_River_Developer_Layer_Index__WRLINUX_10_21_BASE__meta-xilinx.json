@@ -349,11 +349,46 @@
             "image_url": "",
             "link_url": "",
             "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.21-20210827",
+            "bitbake_branch": "wr-10.21-20210924",
             "comparison": false,
             "hidden": false,
             "id": 240,
@@ -361,38 +396,38 @@
             "short_description": "Wind River Linux 10_21 Baseline",
             "sort_priority": 2,
             "update_environment": null,
-            "updated": "2021-08-31T19:08:49+0000",
+            "updated": "2021-09-25T19:09:26+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.21-20210827",
+            "actual_branch": "wr-10.21-20210924",
             "branch": 240,
             "collection": "core",
             "id": 885774,
             "layer": 1,
             "local_path": "",
-            "updated": "2021-09-13T02:09:35+0000",
-            "vcs_last_commit": "2021-09-13T01:09:31+0000",
-            "vcs_last_fetch": "2021-09-13T02:09:35+0000",
-            "vcs_last_rev": "ed1339113510847f277712067975744e620607e8",
+            "updated": "2021-09-29T11:09:26+0000",
+            "vcs_last_commit": "2021-09-29T10:09:44+0000",
+            "vcs_last_fetch": "2021-09-29T11:09:26+0000",
+            "vcs_last_rev": "5363072f615d4397af1db00efae54148fed27c2b",
             "vcs_subdir": "meta",
             "version": "12",
             "yp_compatible_version": 42545
         },
         {
-            "actual_branch": "wr-10.21-20210827",
+            "actual_branch": "wr-10.21-20210924",
             "branch": 240,
             "collection": "openembedded-layer",
             "id": 885776,
             "layer": 7,
             "local_path": "",
-            "updated": "2021-09-16T01:09:39+0000",
-            "vcs_last_commit": "2021-09-16T00:09:48+0000",
-            "vcs_last_fetch": "2021-09-16T01:09:39+0000",
-            "vcs_last_rev": "58570a8b91454f0496e2b1236437fb8ba18cbf6f",
+            "updated": "2021-09-29T01:09:48+0000",
+            "vcs_last_commit": "2021-09-29T00:09:20+0000",
+            "vcs_last_fetch": "2021-09-29T01:09:48+0000",
+            "vcs_last_rev": "e931dc18e6fe97e986eb0c1c80e33f3e96d9cedf",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42544
@@ -404,9 +439,9 @@
             "id": 885802,
             "layer": 358,
             "local_path": "",
-            "updated": "2021-08-16T01:08:40+0000",
+            "updated": "2021-09-26T21:09:59+0000",
             "vcs_last_commit": "2021-03-22T23:03:41+0000",
-            "vcs_last_fetch": "2021-08-16T01:08:40+0000",
+            "vcs_last_fetch": "2021-09-26T21:09:59+0000",
             "vcs_last_rev": "6ace9f1cfe143dc4b46e912e0db26fd8c7b9df9c",
             "vcs_subdir": "meta-xilinx-bsp",
             "version": null,
@@ -495,304 +530,304 @@
     "machines": [
         {
             "description": "zynqmp devices",
-            "id": 38506,
+            "id": 39725,
             "layerbranch": 885802,
             "name": "zynqmp-generic",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "Machine support for ZCU106 Evaluation Board.",
-            "id": 38507,
+            "id": 39726,
             "layerbranch": 885802,
             "name": "zcu106-zynqmp",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "MicroBlaze QEMU machine support ('petalogix-ml605' model)",
-            "id": 38508,
+            "id": 39727,
             "layerbranch": 885802,
             "name": "ml605-qemu-microblazeel",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "Machine support for ZCU1285 Evaluation Board.",
-            "id": 38509,
+            "id": 39728,
             "layerbranch": 885802,
             "name": "zcu1285-zynqmp",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "",
-            "id": 38510,
+            "id": 39729,
             "layerbranch": 885802,
             "name": "microblaze-tc",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "Machine support for ZC702 Evaluation Board.",
-            "id": 38511,
+            "id": 39730,
             "layerbranch": 885802,
             "name": "zc702-zynq7",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "Machine support for ZedBoard. (http://www.zedboard.org/)",
-            "id": 38512,
+            "id": 39731,
             "layerbranch": 885802,
             "name": "zedboard-zynq7",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "vmk180-versal",
-            "id": 38513,
+            "id": 39732,
             "layerbranch": 885802,
             "name": "vmk180-versal",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "",
-            "id": 38514,
+            "id": 39733,
             "layerbranch": 885802,
             "name": "cortexa72-versal",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "Machine support for microZed. (http://www.microzed.org/)",
-            "id": 38515,
+            "id": 39734,
             "layerbranch": 885802,
             "name": "microzed-zynq7",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "versal devices",
-            "id": 38516,
+            "id": 39735,
             "layerbranch": 885802,
             "name": "versal-generic",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "Machine support for Ultra96 Evaluation Board.",
-            "id": 38517,
+            "id": 39736,
             "layerbranch": 885802,
             "name": "ultra96-zynqmp",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "",
-            "id": 38518,
+            "id": 39737,
             "layerbranch": 885802,
             "name": "cortexr5-versal",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "",
-            "id": 38519,
+            "id": 39738,
             "layerbranch": 885802,
             "name": "aarch32-tc",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "Generic Zynq Device",
-            "id": 38520,
+            "id": 39739,
             "layerbranch": 885802,
             "name": "zynq-generic",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "Machine support for ZCU216 Evaluation Board.",
-            "id": 38521,
+            "id": 39740,
             "layerbranch": 885802,
             "name": "zcu216-zynqmp",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "Machine support for ZCU111 Evaluation Board.",
-            "id": 38522,
+            "id": 39741,
             "layerbranch": 885802,
             "name": "zcu111-zynqmp",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "vck-sc-zynqmp",
-            "id": 38523,
+            "id": 39742,
             "layerbranch": 885802,
             "name": "vck-sc-zynqmp",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "v350-versal",
-            "id": 38524,
+            "id": 39743,
             "layerbranch": 885802,
             "name": "v350-versal",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "Machine support for ZCU208 Evaluation Board.",
-            "id": 38525,
+            "id": 39744,
             "layerbranch": 885802,
             "name": "zcu208-zynqmp",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "",
-            "id": 38526,
+            "id": 39745,
             "layerbranch": 885802,
             "name": "microblaze-pmu",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "",
-            "id": 38527,
+            "id": 39746,
             "layerbranch": 885802,
             "name": "versal-mb",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "Machine support for ZCU104 Evaluation Board.",
-            "id": 38528,
+            "id": 39747,
             "layerbranch": 885802,
             "name": "zcu104-zynqmp",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "Machine support for ZC706 Evaluation Board.",
-            "id": 38529,
+            "id": 39748,
             "layerbranch": 885802,
             "name": "zc706-zynq7",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "vck-versal",
-            "id": 38530,
+            "id": 39749,
             "layerbranch": 885802,
             "name": "vck190-versal",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "Machine support for zybo-linux-bd project.",
-            "id": 38531,
+            "id": 39750,
             "layerbranch": 885802,
             "name": "zybo-linux-bd-zynq7",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "Machine supporting the architectures in the ZCU102 evaluation board.",
-            "id": 38532,
+            "id": 39751,
             "layerbranch": 885802,
             "name": "system-zcu102",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "",
-            "id": 38533,
+            "id": 39752,
             "layerbranch": 885802,
             "name": "arm-rm-tc",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "Machine support for ZYBO.",
-            "id": 38534,
+            "id": 39753,
             "layerbranch": 885802,
             "name": "zybo-zynq7",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "",
-            "id": 38535,
+            "id": 39754,
             "layerbranch": 885802,
             "name": "cortexa53-zynqmp",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "vck500-versal",
-            "id": 38536,
+            "id": 39755,
             "layerbranch": 885802,
             "name": "vck5000-versal",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "Machine support for ZCU1275 Evaluation Board.",
-            "id": 38537,
+            "id": 39756,
             "layerbranch": 885802,
             "name": "zcu1275-zynqmp",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "",
-            "id": 38538,
+            "id": 39757,
             "layerbranch": 885802,
             "name": "cortexr5-zynqmp",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "Machine support for picoZed. (http://www.picozed.org/)",
-            "id": 38539,
+            "id": 39758,
             "layerbranch": 885802,
             "name": "picozed-zynq7",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "",
-            "id": 38540,
+            "id": 39759,
             "layerbranch": 885802,
             "name": "microblaze-plm",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "",
-            "id": 38541,
+            "id": 39760,
             "layerbranch": 885802,
             "name": "cortexa9-zynq",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "vc-p-a2197-versal",
-            "id": 38542,
+            "id": 39761,
             "layerbranch": 885802,
             "name": "vc-p-a2197-00-versal",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "Machine support for Xilinx KC705 Embedded Kit.",
-            "id": 38543,
+            "id": 39762,
             "layerbranch": 885802,
             "name": "kc705-microblazeel",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "Machine support for ZCU102 Evaluation Board.",
-            "id": 38544,
+            "id": 39763,
             "layerbranch": 885802,
             "name": "zcu102-zynqmp",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "Machine support for ZC1254 Evaluation Board.",
-            "id": 38545,
+            "id": 39764,
             "layerbranch": 885802,
             "name": "zc1254-zynqmp",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "",
-            "id": 38546,
+            "id": 39765,
             "layerbranch": 885802,
             "name": "aarch64-tc",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "MicroBlaze QEMU machine support ('petalogix-s3adsp1800' model)",
-            "id": 38547,
+            "id": 39766,
             "layerbranch": 885802,
             "name": "s3adsp1800-qemu-microblazeeb",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "description": "Zynq QEMU machine support ('xilinx-zynq-a9' model)",
-            "id": 38548,
+            "id": 39767,
             "layerbranch": 885802,
             "name": "qemu-zynq7",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         }
     ],
     "recipes": [
@@ -817,13 +852,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "Building and installing flash strip utility",
-            "updated": "2021-08-16T01:08:37+0000"
+            "updated": "2021-09-26T21:09:56+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     --prefix=/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr     --bindir=/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/bin     --includedir=/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/include     --libdir=/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/lib     --mandir=/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/share/man     --datadir=/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/share     --docdir=/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/share/doc/qemu-xilinx-system     --sysconfdir=/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/etc     --libexecdir=/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/libexec     --localstatedir=/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/var     --with-confsuffix=/qemu-xilinx-system     --disable-strip     --disable-werror     --extra-cflags='-isystem/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/include -O2 -pipe'     --extra-ldflags='-L/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/lib                         -L/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/lib                         -Wl,--enable-new-dtags                         -Wl,-rpath-link,/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/lib                         -Wl,-rpath-link,/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/lib                         -Wl,-rpath,/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/lib                         -Wl,-rpath,/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/lib                         -Wl,-O1 -fuse-ld=bfd'     --with-git=/bin/false     --disable-git-update      --disable-linux-aio --audio-drv-list='oss alsa' --disable-attr --disable-bzip2 --disable-curses --enable-fdt --enable-gcrypt --disable-glusterfs --disable-opengl --disable-gnutls --disable-gtk --disable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libudev --disable-libusb --disable-libxml2 --disable-lzo --disable-nettle --disable-smartcard --disable-numa --disable-pie --disable-rbd --disable-sdl --disable-seccomp --disable-snappy --disable-spice --disable-libssh --disable-usb-redir --enable-trace-backend=nop --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-png --disable-vnc-sasl --disable-vte --disable-xen --disable-xfsctl --disable-xkbcommon      --python=/tmp/tmpnh_dnzei/tmp-glibc/hosttools/python3 --with-git=/bin/false --disable-git-update --target-list=aarch64-softmmu,arm-softmmu,microblaze-softmmu,microblazeel-softmmu,x86_64-softmmu",
+            "configopts": "     --prefix=/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr     --bindir=/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/bin     --includedir=/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/include     --libdir=/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/lib     --mandir=/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/share/man     --datadir=/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/share     --docdir=/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/share/doc/qemu-xilinx-system     --sysconfdir=/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/etc     --libexecdir=/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/libexec     --localstatedir=/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/var     --with-confsuffix=/qemu-xilinx-system     --disable-strip     --disable-werror     --extra-cflags='-isystem/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/include -O2 -pipe'     --extra-ldflags='-L/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/lib                         -L/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/lib                         -Wl,--enable-new-dtags                         -Wl,-rpath-link,/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/lib                         -Wl,-rpath-link,/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/lib                         -Wl,-rpath,/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/lib                         -Wl,-rpath,/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-system-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/lib                         -Wl,-O1 -fuse-ld=bfd'     --with-git=/bin/false     --disable-git-update      --disable-linux-aio --audio-drv-list='oss alsa' --disable-attr --disable-bzip2 --disable-curses --enable-fdt --enable-gcrypt --disable-glusterfs --disable-opengl --disable-gnutls --disable-gtk --disable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libudev --disable-libusb --disable-libxml2 --disable-lzo --disable-nettle --disable-smartcard --disable-numa --disable-pie --disable-rbd --disable-sdl --disable-seccomp --disable-snappy --disable-spice --disable-libssh --disable-usb-redir --enable-trace-backend=nop --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-png --disable-vnc-sasl --disable-vte --disable-xen --disable-xfsctl --disable-xkbcommon      --python=/tmp/tmpzv4_kb_u/tmp-glibc/hosttools/python3 --with-git=/bin/false --disable-git-update --target-list=aarch64-softmmu,arm-softmmu,microblaze-softmmu,microblazeel-softmmu,x86_64-softmmu",
             "description": "QEMU is a hosted virtual machine monitor: it emulates the machine's processor through dynamic binary translation and provides a set of different hardware and device models for the machine, enabling it to run a variety of guest operating systems",
             "filename": "qemu-xilinx-system-native_2020.2.bb",
             "filepath": "recipes-devtools/qemu",
@@ -840,13 +875,13 @@
             "section": "base",
             "srcrev": "7587ea953e89657e47fb62a1b7d6f95bbc59a58f",
             "summary": "Xilinx's fork of a fast open source processor emulator",
-            "updated": "2021-08-16T01:08:37+0000"
+            "updated": "2021-09-26T21:09:56+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     --prefix=/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr     --bindir=/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/bin     --includedir=/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/include     --libdir=/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/lib     --mandir=/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/share/man     --datadir=/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/share     --docdir=/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/share/doc/qemu-xilinx     --sysconfdir=/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/etc     --libexecdir=/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/libexec     --localstatedir=/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/var     --with-confsuffix=/qemu-xilinx     --disable-strip     --disable-werror     --extra-cflags='-isystem/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/include -O2 -pipe'     --extra-ldflags='-L/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/lib                         -L/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/lib                         -Wl,--enable-new-dtags                         -Wl,-rpath-link,/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/lib                         -Wl,-rpath-link,/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/lib                         -Wl,-rpath,/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/lib                         -Wl,-rpath,/tmp/tmpnh_dnzei/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/lib                         -Wl,-O1 -fuse-ld=bfd'     --with-git=/bin/false     --disable-git-update      --disable-linux-aio --disable-attr --disable-bzip2 --disable-curses --enable-fdt --enable-gcrypt --disable-glusterfs --disable-opengl --disable-gnutls --disable-gtk --disable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libudev --disable-libusb --disable-libxml2 --disable-lzo --disable-nettle --disable-smartcard --disable-numa --disable-pie --disable-rbd --disable-sdl --disable-seccomp --disable-snappy --disable-spice --disable-libssh --disable-usb-redir --enable-trace-backend=nop --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-png --disable-vnc-sasl --disable-vte --disable-xen --disable-xfsctl --disable-xkbcommon      --python=/tmp/tmpnh_dnzei/tmp-glibc/hosttools/python3 --with-git=/bin/false --disable-git-update --target-list=aarch64-linux-user,arm-linux-user,microblaze-linux-user,microblazeel-linux-user,x86_64-linux-user --disable-tools --disable-blobs --disable-guest-agent",
+            "configopts": "     --prefix=/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr     --bindir=/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/bin     --includedir=/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/include     --libdir=/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/lib     --mandir=/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/share/man     --datadir=/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/share     --docdir=/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/share/doc/qemu-xilinx     --sysconfdir=/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/etc     --libexecdir=/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/libexec     --localstatedir=/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/var     --with-confsuffix=/qemu-xilinx     --disable-strip     --disable-werror     --extra-cflags='-isystem/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/include -O2 -pipe'     --extra-ldflags='-L/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/lib                         -L/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/lib                         -Wl,--enable-new-dtags                         -Wl,-rpath-link,/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/lib                         -Wl,-rpath-link,/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/lib                         -Wl,-rpath,/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/usr/lib                         -Wl,-rpath,/tmp/tmpzv4_kb_u/tmp-glibc/work/x86_64-linux/qemu-xilinx-native/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native/lib                         -Wl,-O1 -fuse-ld=bfd'     --with-git=/bin/false     --disable-git-update      --disable-linux-aio --disable-attr --disable-bzip2 --disable-curses --enable-fdt --enable-gcrypt --disable-glusterfs --disable-opengl --disable-gnutls --disable-gtk --disable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libudev --disable-libusb --disable-libxml2 --disable-lzo --disable-nettle --disable-smartcard --disable-numa --disable-pie --disable-rbd --disable-sdl --disable-seccomp --disable-snappy --disable-spice --disable-libssh --disable-usb-redir --enable-trace-backend=nop --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-png --disable-vnc-sasl --disable-vte --disable-xen --disable-xfsctl --disable-xkbcommon      --python=/tmp/tmpzv4_kb_u/tmp-glibc/hosttools/python3 --with-git=/bin/false --disable-git-update --target-list=aarch64-linux-user,arm-linux-user,microblaze-linux-user,microblazeel-linux-user,x86_64-linux-user --disable-tools --disable-blobs --disable-guest-agent",
             "description": "QEMU is a hosted virtual machine monitor: it emulates the machine's processor through dynamic binary translation and provides a set of different hardware and device models for the machine, enabling it to run a variety of guest operating systems",
             "filename": "qemu-xilinx-native_2020.2.bb",
             "filepath": "recipes-devtools/qemu",
@@ -863,7 +898,7 @@
             "section": "base",
             "srcrev": "7587ea953e89657e47fb62a1b7d6f95bbc59a58f",
             "summary": "Xilinx's fork of a fast open source processor emulator",
-            "updated": "2021-08-16T01:08:37+0000"
+            "updated": "2021-09-26T21:09:56+0000"
         },
         {
             "bbclassextend": "",
@@ -886,7 +921,7 @@
             "section": "base",
             "srcrev": "0097f0f651d67b3a8495693e9e17c443948d3c77",
             "summary": "Xilinx's hardware device trees required for QEMU",
-            "updated": "2021-08-16T01:08:37+0000"
+            "updated": "2021-09-26T21:09:56+0000"
         },
         {
             "bbclassextend": "",
@@ -909,13 +944,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "Helper scripts for executing a multi-arch instance of Xilinx QEMU",
-            "updated": "2021-08-16T01:08:37+0000"
+            "updated": "2021-09-26T21:09:56+0000"
         },
         {
             "bbclassextend": "nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     --prefix=/usr     --bindir=/usr/bin     --includedir=/usr/include     --libdir=/usr/lib     --mandir=/usr/share/man     --datadir=/usr/share     --docdir=/usr/share/doc/qemu-xilinx     --sysconfdir=/etc     --libexecdir=/usr/libexec     --localstatedir=/var     --with-confsuffix=/qemu-xilinx     --disable-strip     --disable-werror     --extra-cflags=' -O2 -pipe -g -feliminate-unused-debug-types -fmacro-prefix-map=/tmp/tmpnh_dnzei/tmp-glibc/work/core2-32-oe-linux/qemu-xilinx/v5.1.0-xilinx-v2020.2+gitX-r0=/usr/src/debug/qemu-xilinx/v5.1.0-xilinx-v2020.2+gitX-r0                      -fdebug-prefix-map=/tmp/tmpnh_dnzei/tmp-glibc/work/core2-32-oe-linux/qemu-xilinx/v5.1.0-xilinx-v2020.2+gitX-r0=/usr/src/debug/qemu-xilinx/v5.1.0-xilinx-v2020.2+gitX-r0                      -fdebug-prefix-map=/tmp/tmpnh_dnzei/tmp-glibc/work/core2-32-oe-linux/qemu-xilinx/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot=                      -fdebug-prefix-map=/tmp/tmpnh_dnzei/tmp-glibc/work/core2-32-oe-linux/qemu-xilinx/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native= '     --extra-ldflags='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed'     --with-git=/bin/false     --disable-git-update      --disable-linux-aio --disable-attr --disable-bzip2 --disable-curses --enable-fdt --enable-gcrypt --disable-glusterfs --disable-opengl --disable-gnutls --disable-gtk --disable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libudev --disable-libusb --disable-libxml2 --disable-lzo --disable-nettle --disable-smartcard --disable-numa --disable-pie --disable-rbd --disable-sdl --disable-seccomp --disable-snappy --disable-spice --disable-libssh --disable-usb-redir --enable-trace-backend=nop --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-png --disable-vnc-sasl --disable-vte --disable-xen --disable-xfsctl --disable-xkbcommon      --python=/tmp/tmpnh_dnzei/tmp-glibc/hosttools/python3 --with-git=/bin/false --disable-git-update --target-list=aarch64-linux-user,aarch64-softmmu,arm-linux-user,arm-softmmu,microblaze-linux-user,microblaze-softmmu,microblazeel-linux-user,microblazeel-softmmu,x86_64-linux-user,x86_64-softmmu",
+            "configopts": "     --prefix=/usr     --bindir=/usr/bin     --includedir=/usr/include     --libdir=/usr/lib     --mandir=/usr/share/man     --datadir=/usr/share     --docdir=/usr/share/doc/qemu-xilinx     --sysconfdir=/etc     --libexecdir=/usr/libexec     --localstatedir=/var     --with-confsuffix=/qemu-xilinx     --disable-strip     --disable-werror     --extra-cflags=' -O2 -pipe -g -feliminate-unused-debug-types -fmacro-prefix-map=/tmp/tmpzv4_kb_u/tmp-glibc/work/core2-32-oe-linux/qemu-xilinx/v5.1.0-xilinx-v2020.2+gitX-r0=/usr/src/debug/qemu-xilinx/v5.1.0-xilinx-v2020.2+gitX-r0                      -fdebug-prefix-map=/tmp/tmpzv4_kb_u/tmp-glibc/work/core2-32-oe-linux/qemu-xilinx/v5.1.0-xilinx-v2020.2+gitX-r0=/usr/src/debug/qemu-xilinx/v5.1.0-xilinx-v2020.2+gitX-r0                      -fdebug-prefix-map=/tmp/tmpzv4_kb_u/tmp-glibc/work/core2-32-oe-linux/qemu-xilinx/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot=                      -fdebug-prefix-map=/tmp/tmpzv4_kb_u/tmp-glibc/work/core2-32-oe-linux/qemu-xilinx/v5.1.0-xilinx-v2020.2+gitX-r0/recipe-sysroot-native= '     --extra-ldflags='-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed'     --with-git=/bin/false     --disable-git-update      --disable-linux-aio --disable-attr --disable-bzip2 --disable-curses --enable-fdt --enable-gcrypt --disable-glusterfs --disable-opengl --disable-gnutls --disable-gtk --disable-kvm --disable-cap-ng --disable-curl --disable-libiscsi --disable-libudev --disable-libusb --disable-libxml2 --disable-lzo --disable-nettle --disable-smartcard --disable-numa --disable-pie --disable-rbd --disable-sdl --disable-seccomp --disable-snappy --disable-spice --disable-libssh --disable-usb-redir --enable-trace-backend=nop --disable-vhost-net --disable-virglrenderer --disable-virtfs --disable-vnc-jpeg --disable-vnc-png --disable-vnc-sasl --disable-vte --disable-xen --disable-xfsctl --disable-xkbcommon      --python=/tmp/tmpzv4_kb_u/tmp-glibc/hosttools/python3 --with-git=/bin/false --disable-git-update --target-list=aarch64-linux-user,aarch64-softmmu,arm-linux-user,arm-softmmu,microblaze-linux-user,microblaze-softmmu,microblazeel-linux-user,microblazeel-softmmu,x86_64-linux-user,x86_64-softmmu",
             "description": "QEMU is a hosted virtual machine monitor: it emulates the machine's processor through dynamic binary translation and provides a set of different hardware and device models for the machine, enabling it to run a variety of guest operating systems",
             "filename": "qemu-xilinx_2020.2.bb",
             "filepath": "recipes-devtools/qemu",
@@ -932,7 +967,7 @@
             "section": "base",
             "srcrev": "7587ea953e89657e47fb62a1b7d6f95bbc59a58f",
             "summary": "Xilinx's fork of a fast open source processor emulator",
-            "updated": "2021-08-16T01:08:38+0000"
+            "updated": "2021-09-26T21:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -955,7 +990,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Helper utilities needed by the runqemu script",
-            "updated": "2021-08-16T01:08:38+0000"
+            "updated": "2021-09-26T21:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -978,7 +1013,7 @@
             "section": "bsp",
             "srcrev": "",
             "summary": "Xilinx Platform Headers",
-            "updated": "2021-08-16T01:08:38+0000"
+            "updated": "2021-09-26T21:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1001,7 +1036,7 @@
             "section": "bsp",
             "srcrev": "",
             "summary": "KC705 Pre-built Bitstream",
-            "updated": "2021-08-16T01:08:38+0000"
+            "updated": "2021-09-26T21:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1024,7 +1059,7 @@
             "section": "base",
             "srcrev": "bb4660c33aa7ea64f78b2682bf0efd56765197d6",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2021-08-16T01:08:38+0000"
+            "updated": "2021-09-26T21:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1047,7 +1082,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "U-Boot uEnv.txt SD boot environment generation for Zynq targets",
-            "updated": "2021-08-16T01:08:38+0000"
+            "updated": "2021-09-26T21:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1070,7 +1105,7 @@
             "section": "base",
             "srcrev": "aebea9d20a5aa32857f320c07ca8f9fd1b3dec1f",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2021-08-16T01:08:38+0000"
+            "updated": "2021-09-26T21:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1093,7 +1128,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "U-boot boot scripts for Xilinx devices",
-            "updated": "2021-08-16T01:08:38+0000"
+            "updated": "2021-09-26T21:09:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1116,7 +1151,7 @@
             "section": "bsp",
             "srcrev": "",
             "summary": "PMU ROM for QEMU",
-            "updated": "2021-08-16T01:08:38+0000"
+            "updated": "2021-09-26T21:09:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1139,7 +1174,7 @@
             "section": "bsp",
             "srcrev": "",
             "summary": "Xilinx BSP device trees",
-            "updated": "2021-08-16T01:08:38+0000"
+            "updated": "2021-09-26T21:09:58+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1162,7 +1197,7 @@
             "section": "base",
             "srcrev": "465e32423aa6ba2d71f51c4ae0602cfeb022af08",
             "summary": "Building and installing bootgen",
-            "updated": "2021-08-16T01:08:39+0000"
+            "updated": "2021-09-26T21:09:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1185,7 +1220,7 @@
             "section": "base",
             "srcrev": "e6eea88b14aaf456c49f9c7e6747584224648cb9",
             "summary": "",
-            "updated": "2021-08-16T01:08:39+0000"
+            "updated": "2021-09-26T21:09:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1208,7 +1243,7 @@
             "section": "base",
             "srcrev": "b82de3783fe66ee72f28b51313e8b42827d3f202",
             "summary": "Control Software for VCU",
-            "updated": "2021-08-16T01:08:39+0000"
+            "updated": "2021-09-26T21:09:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1231,7 +1266,7 @@
             "section": "kernel/modules",
             "srcrev": "844d4c4292e08ad8c3f22ac78e9a937395c1db4b",
             "summary": "Linux kernel module for Video Code Unit",
-            "updated": "2021-08-16T01:08:39+0000"
+            "updated": "2021-09-26T21:09:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1254,7 +1289,7 @@
             "section": "base",
             "srcrev": "4e9daf282a12ecba19fe12f296a31315f6a6bd2d",
             "summary": "OpenMAX Integration layer for VCU",
-            "updated": "2021-08-16T01:08:39+0000"
+            "updated": "2021-09-26T21:09:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1277,7 +1312,7 @@
             "section": "base",
             "srcrev": "4e0bb53eba9ad84bf113a2efc12a4539e980f2c9",
             "summary": "Firmware for VCU",
-            "updated": "2021-08-16T01:08:39+0000"
+            "updated": "2021-09-26T21:09:58+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1300,7 +1335,7 @@
             "section": "bootloader",
             "srcrev": "f4389167a200c5d41ee276ff9ad67d01ef6f0aec",
             "summary": "Device tree lopper",
-            "updated": "2021-08-16T01:08:39+0000"
+            "updated": "2021-09-26T21:09:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1323,7 +1358,7 @@
             "section": "kernel/modules",
             "srcrev": "a3a7dfe17cf610fd4186b11638e1ce6b78dc958a",
             "summary": "Xilinx DisplayPort Linux Kernel module",
-            "updated": "2021-08-16T01:08:39+0000"
+            "updated": "2021-09-26T21:09:58+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1346,7 +1381,7 @@
             "section": "bootloader",
             "srcrev": "60e0db3d65a1218b0d5a29474e769f28a18e3ca6",
             "summary": "Device Tree Compiler",
-            "updated": "2021-08-16T01:08:39+0000"
+            "updated": "2021-09-26T21:09:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1369,7 +1404,7 @@
             "section": "kernel/modules",
             "srcrev": "2cbacc12910bab236e491c5aa44999fa16cbaea9",
             "summary": "Xilinx HDMI Linux Kernel module",
-            "updated": "2021-08-16T01:08:39+0000"
+            "updated": "2021-09-26T21:09:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1392,7 +1427,7 @@
             "section": "kernel",
             "srcrev": "84fb0cc65aae5970471cbc54b0c89009b9b904af",
             "summary": "Linux kernel",
-            "updated": "2021-08-16T01:08:39+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1415,7 +1450,7 @@
             "section": "kernel",
             "srcrev": "62ea514294a0c9a80455e51f1f4de36e66e8c546",
             "summary": "Linux kernel",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1438,7 +1473,7 @@
             "section": "base",
             "srcrev": "f19a872233fbfe2eb933f25fa3d9a780ced774e5",
             "summary": "Xilinx Runtime(XRT) libraries",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1461,7 +1496,7 @@
             "section": "base",
             "srcrev": "f19a872233fbfe2eb933f25fa3d9a780ced774e5",
             "summary": "Xilinx Runtime(XRT) driver module",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1484,7 +1519,7 @@
             "section": "kernel/modules",
             "srcrev": "",
             "summary": "A Mali 400 Linux Kernel module",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1507,7 +1542,7 @@
             "section": "base",
             "srcrev": "da73805e3e011382c4d014ac10037cd193aaa9a0",
             "summary": "",
-            "updated": "2021-08-16T01:08:40+0000"
+            "updated": "2021-09-26T21:09:59+0000"
         }
     ],
     "wrtemplates": []

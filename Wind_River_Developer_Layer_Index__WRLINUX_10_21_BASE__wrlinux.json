@@ -349,11 +349,46 @@
             "image_url": "",
             "link_url": "",
             "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.21-20210827",
+            "bitbake_branch": "wr-10.21-20210924",
             "comparison": false,
             "hidden": false,
             "id": 240,
@@ -361,23 +396,23 @@
             "short_description": "Wind River Linux 10_21 Baseline",
             "sort_priority": 2,
             "update_environment": null,
-            "updated": "2021-08-31T19:08:49+0000",
+            "updated": "2021-09-25T19:09:26+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.21-20210827",
+            "actual_branch": "wr-10.21-20210924",
             "branch": 240,
             "collection": "core",
             "id": 885774,
             "layer": 1,
             "local_path": "",
-            "updated": "2021-09-13T02:09:35+0000",
-            "vcs_last_commit": "2021-09-13T01:09:31+0000",
-            "vcs_last_fetch": "2021-09-13T02:09:35+0000",
-            "vcs_last_rev": "ed1339113510847f277712067975744e620607e8",
+            "updated": "2021-09-29T11:09:26+0000",
+            "vcs_last_commit": "2021-09-29T10:09:44+0000",
+            "vcs_last_fetch": "2021-09-29T11:09:26+0000",
+            "vcs_last_rev": "5363072f615d4397af1db00efae54148fed27c2b",
             "vcs_subdir": "meta",
             "version": "12",
             "yp_compatible_version": 42545
@@ -389,10 +424,10 @@
             "id": 885785,
             "layer": 55,
             "local_path": "",
-            "updated": "2021-08-16T01:08:04+0000",
-            "vcs_last_commit": "2021-03-22T23:03:42+0000",
-            "vcs_last_fetch": "2021-08-16T01:08:04+0000",
-            "vcs_last_rev": "5f6ae2d45f3159d1002266653ecfa7532ebc507c",
+            "updated": "2021-09-26T21:09:17+0000",
+            "vcs_last_commit": "2021-09-22T02:09:38+0000",
+            "vcs_last_fetch": "2021-09-26T21:09:17+0000",
+            "vcs_last_rev": "5815e60443c83cb7ece70b46cd2b86df8a6ceabe",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42545
@@ -404,9 +439,9 @@
             "id": 885798,
             "layer": 343,
             "local_path": "",
-            "updated": "2021-08-16T01:08:05+0000",
+            "updated": "2021-09-26T21:09:21+0000",
             "vcs_last_commit": "2021-07-07T01:07:52+0000",
-            "vcs_last_fetch": "2021-08-16T01:08:05+0000",
+            "vcs_last_fetch": "2021-09-26T21:09:21+0000",
             "vcs_last_rev": "3215ce45bd68675e6508349ff633e9843d6300c9",
             "vcs_subdir": "",
             "version": "1",
@@ -419,10 +454,10 @@
             "id": 885826,
             "layer": 49,
             "local_path": "",
-            "updated": "2021-09-16T17:09:34+0000",
-            "vcs_last_commit": "2021-09-16T16:09:32+0000",
-            "vcs_last_fetch": "2021-09-16T17:09:34+0000",
-            "vcs_last_rev": "571ec3d4849466d2422c512b97b29ae1555c0978",
+            "updated": "2021-10-07T21:10:50+0000",
+            "vcs_last_commit": "2021-10-07T19:10:08+0000",
+            "vcs_last_fetch": "2021-10-07T21:10:50+0000",
+            "vcs_last_rev": "5f804785885286ae547057bbb77c512e3efc106f",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42545
@@ -621,7 +656,7 @@
             "section": "base",
             "srcrev": "102d844ce052c6dec6c56ee1d471bde72a1b4633",
             "summary": "Build Result Compare Script",
-            "updated": "2021-09-16T01:09:53+0000"
+            "updated": "2021-10-07T21:10:49+0000"
         },
         {
             "bbclassextend": "",
@@ -644,7 +679,7 @@
             "section": "base",
             "srcrev": "5890b72bd68673738b38e67019dadcbcaf643ed8",
             "summary": "Provide wic tool",
-            "updated": "2021-09-16T01:09:53+0000"
+            "updated": "2021-10-07T21:10:49+0000"
         },
         {
             "bbclassextend": "",
@@ -667,7 +702,7 @@
             "section": "base",
             "srcrev": "5890b72bd68673738b38e67019dadcbcaf643ed8",
             "summary": "Provide wic tool",
-            "updated": "2021-09-16T01:09:53+0000"
+            "updated": "2021-10-07T21:10:49+0000"
         },
         {
             "bbclassextend": "",
@@ -690,7 +725,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Load and Run container images into Docker",
-            "updated": "2021-09-16T01:09:53+0000"
+            "updated": "2021-10-07T21:10:49+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -713,7 +748,7 @@
             "section": "base",
             "srcrev": "5efa06acfb3bb4e65d2711cf5255970948e047cf",
             "summary": "The umoci modifies Open Container images.",
-            "updated": "2021-09-16T01:09:53+0000"
+            "updated": "2021-10-07T21:10:49+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -736,7 +771,7 @@
             "section": "base",
             "srcrev": "67abbb3cefbdc876447583d5ea45e76bf441eba7",
             "summary": "Work with remote images registries - retrieving information, images, signing content",
-            "updated": "2021-09-16T01:09:53+0000"
+            "updated": "2021-10-07T21:10:49+0000"
         },
         {
             "bbclassextend": "",
@@ -759,7 +794,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-09-16T01:09:54+0000"
+            "updated": "2021-10-07T21:10:49+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -782,7 +817,7 @@
             "section": "base",
             "srcrev": "726c141fe582add0addf7d128aa33d1e3c532b56",
             "summary": "Credential storage for utilities that implement the askpass interface",
-            "updated": "2021-09-16T01:09:54+0000"
+            "updated": "2021-10-07T21:10:50+0000"
         },
         {
             "bbclassextend": "",
@@ -805,7 +840,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-09-16T01:09:54+0000"
+            "updated": "2021-10-07T21:10:50+0000"
         },
         {
             "bbclassextend": "",
@@ -828,7 +863,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-09-16T01:09:54+0000"
+            "updated": "2021-10-07T21:10:50+0000"
         },
         {
             "bbclassextend": "",
@@ -851,7 +886,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-09-16T01:09:54+0000"
+            "updated": "2021-10-07T21:10:50+0000"
         },
         {
             "bbclassextend": "",
@@ -874,7 +909,7 @@
             "section": "x11",
             "srcrev": "",
             "summary": "Wind River Linux Desktop Themes",
-            "updated": "2021-09-16T01:09:54+0000"
+            "updated": "2021-10-07T21:10:50+0000"
         },
         {
             "bbclassextend": "",
@@ -897,7 +932,7 @@
             "section": "x11",
             "srcrev": "e2b9adf4885cc4ed600cd9bccb77e0df8ff549aa",
             "summary": "Chromium Virtual Keyboard",
-            "updated": "2021-09-16T01:09:54+0000"
+            "updated": "2021-10-07T21:10:50+0000"
         },
         {
             "bbclassextend": "",
@@ -920,7 +955,7 @@
             "section": "x11",
             "srcrev": "",
             "summary": "Wind River Linux Kiosk",
-            "updated": "2021-09-16T01:09:54+0000"
+            "updated": "2021-10-07T21:10:50+0000"
         },
         {
             "bbclassextend": "",
@@ -943,7 +978,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "initramfs-framework module for resize rootfs on wic image",
-            "updated": "2021-09-16T01:09:51+0000"
+            "updated": "2021-10-07T21:10:48+0000"
         },
         {
             "bbclassextend": "",
@@ -966,7 +1001,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-09-16T01:09:51+0000"
+            "updated": "2021-10-07T21:10:48+0000"
         },
         {
             "bbclassextend": "",
@@ -989,7 +1024,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-09-16T01:09:52+0000"
+            "updated": "2021-10-07T21:10:48+0000"
         },
         {
             "bbclassextend": "",
@@ -1012,345 +1047,345 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-09-16T01:09:52+0000"
+            "updated": "2021-10-07T21:10:48+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "Add azure to the filesystem",
-            "id": 78689,
+            "id": 80017,
             "layerbranch": 885826,
             "name": "feature/azure",
-            "updated": "2021-09-16T01:09:51+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Enable archiver class and original src mode",
-            "id": 78690,
+            "id": 80018,
             "layerbranch": 885826,
             "name": "feature/archiver",
-            "updated": "2021-08-16T01:08:18+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Add kiosk mode to chromium",
-            "id": 78691,
+            "id": 80019,
             "layerbranch": 885826,
             "name": "feature/chromium-web-kiosk",
-            "updated": "2021-08-16T01:08:18+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Add aws to the filesystem",
-            "id": 78692,
+            "id": 80020,
             "layerbranch": 885826,
             "name": "feature/aws",
-            "updated": "2021-09-16T01:09:51+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Add chromium to the image",
-            "id": 78693,
+            "id": 80021,
             "layerbranch": 885826,
             "name": "feature/chromium",
-            "updated": "2021-08-16T01:08:18+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Add dev packages to image",
-            "id": 78694,
+            "id": 80022,
             "layerbranch": 885826,
             "name": "feature/dev-pkgs",
-            "updated": "2021-08-16T01:08:18+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Adds unit testing frameworks",
-            "id": 78695,
+            "id": 80023,
             "layerbranch": 885826,
             "name": "feature/unit-test",
-            "updated": "2021-08-16T01:08:18+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Add kubernetes to the image",
-            "id": 78696,
+            "id": 80024,
             "layerbranch": 885826,
             "name": "feature/kubernetes",
-            "updated": "2021-08-31T19:08:16+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Add valgrind to the image",
-            "id": 78697,
+            "id": 80025,
             "layerbranch": 885826,
             "name": "feature/valgrind",
-            "updated": "2021-08-16T01:08:18+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "",
-            "id": 78698,
+            "id": 80026,
             "layerbranch": 885826,
             "name": "feature/rpm-required-sig",
-            "updated": "2021-08-16T01:08:18+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Force users to update passwords when next time serial or graphical login",
-            "id": 78699,
+            "id": 80027,
             "layerbranch": 885826,
             "name": "feature/passwd-expire",
-            "updated": "2021-08-16T01:08:18+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "",
-            "id": 78700,
+            "id": 80028,
             "layerbranch": 885826,
             "name": "feature/atf-s32g",
-            "updated": "2021-08-16T01:08:18+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Adds grpc to the image",
-            "id": 78701,
+            "id": 80029,
             "layerbranch": 885826,
             "name": "feature/grpc",
-            "updated": "2021-08-16T01:08:18+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Enable f2fs kernel options and user-space utility",
-            "id": 78702,
+            "id": 80030,
             "layerbranch": 885826,
             "name": "feature/f2fstools",
-            "updated": "2021-08-16T01:08:18+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Enable Xwayland image",
-            "id": 78703,
+            "id": 80031,
             "layerbranch": 885826,
             "name": "feature/weston-demo",
-            "updated": "2021-08-16T01:08:18+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Enable on-target software development",
-            "id": 78704,
+            "id": 80032,
             "layerbranch": 885826,
             "name": "feature/target-toolchain",
-            "updated": "2021-08-16T01:08:18+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "",
-            "id": 78705,
+            "id": 80033,
             "layerbranch": 885826,
             "name": "feature/tcpslice",
-            "updated": "2021-08-16T01:08:18+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Enable DISABLE_STATIC option via no-static-libs.inc",
-            "id": 78706,
+            "id": 80034,
             "layerbranch": 885826,
             "name": "feature/no-static-libs",
-            "updated": "2021-08-16T01:08:18+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "",
-            "id": 78707,
+            "id": 80035,
             "layerbranch": 885826,
             "name": "feature/ostree",
-            "updated": "2021-08-16T01:08:18+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Add tensorflow to the image",
-            "id": 78708,
+            "id": 80036,
             "layerbranch": 885826,
             "name": "feature/tensorflow",
-            "updated": "2021-08-16T01:08:18+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Add gdbserver to image",
-            "id": 78709,
+            "id": 80037,
             "layerbranch": 885826,
             "name": "feature/gdbserver",
-            "updated": "2021-08-16T01:08:18+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Enable Data Plane Development Kit (DPDK)",
-            "id": 78710,
+            "id": 80038,
             "layerbranch": 885826,
             "name": "feature/dpdk",
-            "updated": "2021-09-01T02:09:26+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Add on-target package management to image",
-            "id": 78711,
+            "id": 80039,
             "layerbranch": 885826,
             "name": "feature/package-management",
-            "updated": "2021-08-16T01:08:19+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Enable common Managed Build Project (mbp) settings",
-            "id": 78712,
+            "id": 80040,
             "layerbranch": 885826,
             "name": "feature/mbp-project",
-            "updated": "2021-08-16T01:08:19+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Add gdb and gdbserver to image",
-            "id": 78713,
+            "id": 80041,
             "layerbranch": 885826,
             "name": "feature/gdb",
-            "updated": "2021-08-16T01:08:19+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "",
-            "id": 78714,
+            "id": 80042,
             "layerbranch": 885826,
             "name": "feature/opencv",
-            "updated": "2021-08-16T01:08:19+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Add system and process monitoring utilities to the image",
-            "id": 78715,
+            "id": 80043,
             "layerbranch": 885826,
             "name": "feature/system-stats",
-            "updated": "2021-08-16T01:08:19+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Add nftables to the image",
-            "id": 78716,
+            "id": 80044,
             "layerbranch": 885826,
             "name": "feature/nftables",
-            "updated": "2021-08-16T01:08:19+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "",
-            "id": 78717,
+            "id": 80045,
             "layerbranch": 885826,
             "name": "feature/ntp",
-            "updated": "2021-08-16T01:08:19+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "",
-            "id": 78718,
+            "id": 80046,
             "layerbranch": 885826,
             "name": "feature/posix_26",
-            "updated": "2021-08-16T01:08:19+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Enable package-test functionality",
-            "id": 78719,
+            "id": 80047,
             "layerbranch": 885826,
             "name": "feature/ptest",
-            "updated": "2021-08-31T19:08:16+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "",
-            "id": 78720,
+            "id": 80048,
             "layerbranch": 885826,
             "name": "feature/ecryptfs",
-            "updated": "2021-08-16T01:08:19+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "enable Distro Feature usrmerge",
-            "id": 78721,
+            "id": 80049,
             "layerbranch": 885826,
             "name": "feature/usrmerge",
-            "updated": "2021-08-16T01:08:19+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "",
-            "id": 78722,
+            "id": 80050,
             "layerbranch": 885826,
             "name": "feature/wr-profiling-kernel-overrides",
-            "updated": "2021-08-16T01:08:19+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Add gcc-sanitizers to image",
-            "id": 78723,
+            "id": 80051,
             "layerbranch": 885826,
             "name": "feature/gcc-sanitizers",
-            "updated": "2021-08-16T01:08:19+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "",
-            "id": 78724,
+            "id": 80052,
             "layerbranch": 885826,
             "name": "feature/gperftools",
-            "updated": "2021-08-16T01:08:19+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Kernel Hardening Features",
-            "id": 78725,
+            "id": 80053,
             "layerbranch": 885826,
             "name": "feature/kernel-hardening",
-            "updated": "2021-08-16T01:08:19+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Make all QA issues be errors",
-            "id": 78726,
+            "id": 80054,
             "layerbranch": 885826,
             "name": "feature/strict-qa",
-            "updated": "2021-08-16T01:08:19+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Enable readonly-root filesystem",
-            "id": 78727,
+            "id": 80055,
             "layerbranch": 885826,
             "name": "feature/readonly-root",
-            "updated": "2021-08-16T01:08:19+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "",
-            "id": 78728,
+            "id": 80056,
             "layerbranch": 885826,
             "name": "feature/lat",
-            "updated": "2021-08-16T01:08:19+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Install busybox to rootfs",
-            "id": 78729,
+            "id": 80057,
             "layerbranch": 885826,
             "name": "feature/busybox",
-            "updated": "2021-08-16T01:08:19+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Add sftp-server and the OpenSSH SSH server to the image",
-            "id": 78730,
+            "id": 80058,
             "layerbranch": 885826,
             "name": "feature/sftp-server",
-            "updated": "2021-08-16T01:08:19+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "",
-            "id": 78731,
+            "id": 80059,
             "layerbranch": 885826,
             "name": "feature/chrony",
-            "updated": "2021-08-16T01:08:19+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "",
-            "id": 78732,
+            "id": 80060,
             "layerbranch": 885826,
             "name": "feature/rpm-local-keys",
-            "updated": "2021-08-16T01:08:19+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Set the default syslog to sysklogd",
-            "id": 78733,
+            "id": 80061,
             "layerbranch": 885826,
             "name": "feature/sysklogd",
-            "updated": "2021-08-16T01:08:19+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "",
-            "id": 78734,
+            "id": 80062,
             "layerbranch": 885826,
             "name": "feature/installer-support",
-            "updated": "2021-08-16T01:08:19+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "This template allows the build to use the linux-dummy kernel, which provides no real kernel, but satisfies dependancies on virtual/kernel. This is useful when the build does not require a kernel, such as when building containers, saving build time as a re",
-            "id": 78735,
+            "id": 80063,
             "layerbranch": 885826,
             "name": "feature/dummy-kernel",
-            "updated": "2021-08-16T01:08:19+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "description": "Add packagegroup-self-hosted to the image",
-            "id": 78736,
+            "id": 80064,
             "layerbranch": 885826,
             "name": "feature/self-hosted",
-            "updated": "2021-08-16T01:08:19+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         }
     ]
 }

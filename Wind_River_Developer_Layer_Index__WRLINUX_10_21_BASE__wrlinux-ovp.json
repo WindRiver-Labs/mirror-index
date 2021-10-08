@@ -349,11 +349,46 @@
             "image_url": "",
             "link_url": "",
             "name": "2.5 2.6 2.7 3.0"
+        },
+        {
+            "description": "",
+            "id": 42566,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.4"
+        },
+        {
+            "description": "",
+            "id": 42567,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.2 3.3 3.4"
+        },
+        {
+            "description": "",
+            "id": 42568,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0"
+        },
+        {
+            "description": "",
+            "id": 42569,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.0"
+        },
+        {
+            "description": "",
+            "id": 42570,
+            "image_url": "",
+            "link_url": "",
+            "name": "2.6 3.0 wrl"
         }
     ],
     "branches": [
         {
-            "bitbake_branch": "wr-10.21-20210827",
+            "bitbake_branch": "wr-10.21-20210924",
             "comparison": false,
             "hidden": false,
             "id": 240,
@@ -361,31 +396,31 @@
             "short_description": "Wind River Linux 10_21 Baseline",
             "sort_priority": 2,
             "update_environment": null,
-            "updated": "2021-08-31T19:08:49+0000",
+            "updated": "2021-09-25T19:09:26+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
-            "description": "Wind River Linux OVP Base",
-            "id": 9436,
+            "description": "Wind River Linux OVP LTS",
+            "id": 9559,
             "layerbranch": 885850,
             "name": "wrlinux-ovp",
-            "updated": "2021-08-16T01:08:58+0000"
+            "updated": "2021-09-26T21:09:20+0000"
         }
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.21-20210827",
+            "actual_branch": "wr-10.21-20210924",
             "branch": 240,
             "collection": "core",
             "id": 885774,
             "layer": 1,
             "local_path": "",
-            "updated": "2021-09-13T02:09:35+0000",
-            "vcs_last_commit": "2021-09-13T01:09:31+0000",
-            "vcs_last_fetch": "2021-09-13T02:09:35+0000",
-            "vcs_last_rev": "ed1339113510847f277712067975744e620607e8",
+            "updated": "2021-09-29T11:09:26+0000",
+            "vcs_last_commit": "2021-09-29T10:09:44+0000",
+            "vcs_last_fetch": "2021-09-29T11:09:26+0000",
+            "vcs_last_rev": "5363072f615d4397af1db00efae54148fed27c2b",
             "vcs_subdir": "meta",
             "version": "12",
             "yp_compatible_version": 42545
@@ -397,9 +432,9 @@
             "id": 885783,
             "layer": 48,
             "local_path": "",
-            "updated": "2021-08-16T01:08:56+0000",
+            "updated": "2021-09-26T21:09:08+0000",
             "vcs_last_commit": "2021-07-07T01:07:30+0000",
-            "vcs_last_fetch": "2021-08-16T01:08:56+0000",
+            "vcs_last_fetch": "2021-09-26T21:09:08+0000",
             "vcs_last_rev": "79242f9b72aa2527f56f8336246fd2899ca50ed6",
             "vcs_subdir": "",
             "version": "1",
@@ -412,25 +447,25 @@
             "id": 885785,
             "layer": 55,
             "local_path": "",
-            "updated": "2021-08-16T01:08:04+0000",
-            "vcs_last_commit": "2021-03-22T23:03:42+0000",
-            "vcs_last_fetch": "2021-08-16T01:08:04+0000",
-            "vcs_last_rev": "5f6ae2d45f3159d1002266653ecfa7532ebc507c",
+            "updated": "2021-09-26T21:09:17+0000",
+            "vcs_last_commit": "2021-09-22T02:09:38+0000",
+            "vcs_last_fetch": "2021-09-26T21:09:17+0000",
+            "vcs_last_rev": "5815e60443c83cb7ece70b46cd2b86df8a6ceabe",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42545
         },
         {
-            "actual_branch": "wr-10.21-20210827",
+            "actual_branch": "wr-10.21-20210924",
             "branch": 240,
             "collection": "virtualization-layer",
             "id": 885807,
             "layer": 45,
             "local_path": "",
-            "updated": "2021-09-09T02:09:25+0000",
-            "vcs_last_commit": "2021-09-09T01:09:41+0000",
-            "vcs_last_fetch": "2021-09-09T02:09:25+0000",
-            "vcs_last_rev": "d31f0d1997a274f60eae87f925c95dcf17c340f2",
+            "updated": "2021-09-26T21:09:48+0000",
+            "vcs_last_commit": "2021-09-23T19:09:57+0000",
+            "vcs_last_fetch": "2021-09-26T21:09:48+0000",
+            "vcs_last_rev": "77fe8516cb1d75aaee92123af02ec5a0fb4338ef",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42544
@@ -442,10 +477,10 @@
             "id": 885826,
             "layer": 49,
             "local_path": "",
-            "updated": "2021-09-16T17:09:34+0000",
-            "vcs_last_commit": "2021-09-16T16:09:32+0000",
-            "vcs_last_fetch": "2021-09-16T17:09:34+0000",
-            "vcs_last_rev": "571ec3d4849466d2422c512b97b29ae1555c0978",
+            "updated": "2021-10-07T21:10:50+0000",
+            "vcs_last_commit": "2021-10-07T19:10:08+0000",
+            "vcs_last_fetch": "2021-10-07T21:10:50+0000",
+            "vcs_last_rev": "5f804785885286ae547057bbb77c512e3efc106f",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42545
@@ -457,10 +492,10 @@
             "id": 885830,
             "layer": 164,
             "local_path": "",
-            "updated": "2021-09-16T01:09:13+0000",
-            "vcs_last_commit": "2021-09-16T00:09:14+0000",
-            "vcs_last_fetch": "2021-09-16T01:09:13+0000",
-            "vcs_last_rev": "460c246fb4e30422f823406958df7ff743ff556e",
+            "updated": "2021-09-26T21:09:10+0000",
+            "vcs_last_commit": "2021-09-25T19:09:08+0000",
+            "vcs_last_fetch": "2021-09-26T21:09:10+0000",
+            "vcs_last_rev": "bc3a3e19c93eb4338bb10218ff48c91f00a12f88",
             "vcs_subdir": "wrlinux-distro",
             "version": "1",
             "yp_compatible_version": 42545
@@ -472,9 +507,9 @@
             "id": 885844,
             "layer": 141,
             "local_path": "",
-            "updated": "2021-08-16T01:08:46+0000",
+            "updated": "2021-09-26T21:09:16+0000",
             "vcs_last_commit": "2021-07-07T02:07:52+0000",
-            "vcs_last_fetch": "2021-08-16T01:08:46+0000",
+            "vcs_last_fetch": "2021-09-26T21:09:16+0000",
             "vcs_last_rev": "4266e778433cc5aeae064292dd91377a2bb046a1",
             "vcs_subdir": "",
             "version": null,
@@ -487,9 +522,9 @@
             "id": 885848,
             "layer": 192,
             "local_path": "",
-            "updated": "2021-08-16T01:08:44+0000",
+            "updated": "2021-09-26T21:09:59+0000",
             "vcs_last_commit": "2021-07-27T23:07:01+0000",
-            "vcs_last_fetch": "2021-08-16T01:08:44+0000",
+            "vcs_last_fetch": "2021-09-26T21:09:59+0000",
             "vcs_last_rev": "38f43b01165232368b21f12c654c6a97a5cfd0b4",
             "vcs_subdir": "",
             "version": "1",
@@ -502,9 +537,9 @@
             "id": 885850,
             "layer": 170,
             "local_path": "",
-            "updated": "2021-08-16T01:08:58+0000",
+            "updated": "2021-09-26T21:09:20+0000",
             "vcs_last_commit": "2021-07-15T23:07:47+0000",
-            "vcs_last_fetch": "2021-08-16T01:08:58+0000",
+            "vcs_last_fetch": "2021-09-26T21:09:20+0000",
             "vcs_last_rev": "20e211ae6805c458d2ed724b80a1603bddbcfc44",
             "vcs_subdir": "wrlinux-ovp",
             "version": "1",
@@ -763,7 +798,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-08-16T01:08:56+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "bbclassextend": "",
@@ -786,7 +821,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-08-16T01:08:57+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "bbclassextend": "",
@@ -809,7 +844,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-08-16T01:08:57+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "bbclassextend": "",
@@ -832,7 +867,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-08-16T01:08:57+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "bbclassextend": "",
@@ -855,7 +890,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-08-16T01:08:57+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "bbclassextend": "",
@@ -878,7 +913,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-08-16T01:08:57+0000"
+            "updated": "2021-09-26T21:09:18+0000"
         },
         {
             "bbclassextend": "",
@@ -901,7 +936,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-08-16T01:08:57+0000"
+            "updated": "2021-09-26T21:09:19+0000"
         },
         {
             "bbclassextend": "",
@@ -924,7 +959,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-08-16T01:08:57+0000"
+            "updated": "2021-09-26T21:09:19+0000"
         },
         {
             "bbclassextend": "",
@@ -947,7 +982,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-08-16T01:08:57+0000"
+            "updated": "2021-09-26T21:09:19+0000"
         },
         {
             "bbclassextend": "",
@@ -970,7 +1005,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-08-16T01:08:57+0000"
+            "updated": "2021-09-26T21:09:19+0000"
         },
         {
             "bbclassextend": "",
@@ -993,7 +1028,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-08-16T01:08:57+0000"
+            "updated": "2021-09-26T21:09:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1016,7 +1051,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-08-16T01:08:57+0000"
+            "updated": "2021-09-26T21:09:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1039,7 +1074,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-08-16T01:08:58+0000"
+            "updated": "2021-09-26T21:09:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1062,7 +1097,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-08-16T01:08:58+0000"
+            "updated": "2021-09-26T21:09:19+0000"
         },
         {
             "bbclassextend": "",
@@ -1085,51 +1120,51 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-08-16T01:08:58+0000"
+            "updated": "2021-09-26T21:09:20+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "Tune kernel options for reducing lantency for real-time kernel of host system",
-            "id": 78805,
+            "id": 80133,
             "layerbranch": 885850,
             "name": "feature/rt-latency-host",
-            "updated": "2021-08-16T01:08:58+0000"
+            "updated": "2021-09-26T21:09:20+0000"
         },
         {
             "description": "Enable guest image for wrlinux-ovp distribution.",
-            "id": 78806,
+            "id": 80134,
             "layerbranch": 885850,
             "name": "feature/kernel-ovp-guest",
-            "updated": "2021-08-16T01:08:58+0000"
+            "updated": "2021-09-26T21:09:20+0000"
         },
         {
             "description": "Tune kernel options for reducing lantency for real-time kernel of guest system",
-            "id": 78807,
+            "id": 80135,
             "layerbranch": 885850,
             "name": "feature/rt-latency-guest",
-            "updated": "2021-08-16T01:08:58+0000"
+            "updated": "2021-09-26T21:09:20+0000"
         },
         {
             "description": "Tune kernel options for real-time kernel for host system",
-            "id": 78808,
+            "id": 80136,
             "layerbranch": 885850,
             "name": "feature/host-rt-tune",
-            "updated": "2021-08-16T01:08:58+0000"
+            "updated": "2021-09-26T21:09:20+0000"
         },
         {
             "description": "Tune kernel options for real-time kernel for guest system",
-            "id": 78809,
+            "id": 80137,
             "layerbranch": 885850,
             "name": "feature/guest-rt-tune",
-            "updated": "2021-08-16T01:08:58+0000"
+            "updated": "2021-09-26T21:09:20+0000"
         },
         {
             "description": "Add notice for building host or guest systems for distro wrlinux-ovp",
-            "id": 78810,
+            "id": 80138,
             "layerbranch": 885850,
             "name": "default",
-            "updated": "2021-08-16T01:08:58+0000"
+            "updated": "2021-09-26T21:09:20+0000"
         }
     ]
 }
