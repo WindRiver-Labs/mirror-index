@@ -409,10 +409,10 @@
             "id": 885774,
             "layer": 1,
             "local_path": "",
-            "updated": "2021-10-18T03:10:38+0000",
-            "vcs_last_commit": "2021-10-18T02:10:08+0000",
-            "vcs_last_fetch": "2021-10-18T03:10:38+0000",
-            "vcs_last_rev": "5ef7c0c06bd894e7c100d1b9f6b99841b7f67369",
+            "updated": "2021-11-01T00:11:21+0000",
+            "vcs_last_commit": "2021-10-26T20:10:53+0000",
+            "vcs_last_fetch": "2021-11-01T00:11:21+0000",
+            "vcs_last_rev": "abe7ee8031e9327f3db427db7420638d6880c679",
             "vcs_subdir": "meta",
             "version": "12",
             "yp_compatible_version": 42545
@@ -424,9 +424,9 @@
             "id": 885793,
             "layer": 193,
             "local_path": "",
-            "updated": "2021-09-26T21:09:03+0000",
+            "updated": "2021-11-01T00:11:45+0000",
             "vcs_last_commit": "2021-04-18T19:04:25+0000",
-            "vcs_last_fetch": "2021-09-26T21:09:03+0000",
+            "vcs_last_fetch": "2021-11-01T00:11:45+0000",
             "vcs_last_rev": "cf1c9b47852b9bcc085bb273440620a43bf97038",
             "vcs_subdir": "",
             "version": "1",
@@ -439,9 +439,9 @@
             "id": 885821,
             "layer": 166,
             "local_path": "",
-            "updated": "2021-09-26T21:09:02+0000",
+            "updated": "2021-11-01T00:11:30+0000",
             "vcs_last_commit": "2021-09-23T19:09:47+0000",
-            "vcs_last_fetch": "2021-09-26T21:09:02+0000",
+            "vcs_last_fetch": "2021-11-01T00:11:30+0000",
             "vcs_last_rev": "76794b516357136097e525025ea35c953d7f4a41",
             "vcs_subdir": "",
             "version": "5",
@@ -454,10 +454,10 @@
             "id": 885826,
             "layer": 49,
             "local_path": "",
-            "updated": "2021-10-18T22:10:45+0000",
-            "vcs_last_commit": "2021-10-18T21:10:48+0000",
-            "vcs_last_fetch": "2021-10-18T22:10:45+0000",
-            "vcs_last_rev": "94459cb41104bdfa942cfa99a751172a0a061343",
+            "updated": "2021-11-01T02:11:55+0000",
+            "vcs_last_commit": "2021-11-01T00:11:07+0000",
+            "vcs_last_fetch": "2021-11-01T02:11:55+0000",
+            "vcs_last_rev": "9201743b11f9485a79b2d1096c5b3a5006d8a146",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42545
@@ -469,9 +469,9 @@
             "id": 885836,
             "layer": 32,
             "local_path": "",
-            "updated": "2021-09-28T22:09:27+0000",
+            "updated": "2021-11-01T00:11:34+0000",
             "vcs_last_commit": "2021-09-28T20:09:20+0000",
-            "vcs_last_fetch": "2021-09-28T22:09:27+0000",
+            "vcs_last_fetch": "2021-11-01T00:11:34+0000",
             "vcs_last_rev": "2e8d3dd0b382a68c6bc09c8e38f47c90ffcdf7b4",
             "vcs_subdir": "",
             "version": "1",
@@ -604,10 +604,10 @@
     "machines": [
         {
             "description": " Intel X86 (64bit) PCs and servers",
-            "id": 39796,
+            "id": 41079,
             "layerbranch": 885836,
             "name": "intel-x86-64",
-            "updated": "2021-09-26T21:09:20+0000"
+            "updated": "2021-11-01T00:11:34+0000"
         }
     ],
     "recipes": [
@@ -632,7 +632,7 @@
             "section": "base",
             "srcrev": "07cda47e386f7bece859323f55b5a6a0df51c63b",
             "summary": "",
-            "updated": "2021-09-26T21:09:19+0000"
+            "updated": "2021-11-01T00:11:34+0000"
         },
         {
             "bbclassextend": "",
@@ -655,58 +655,58 @@
             "section": "base",
             "srcrev": "",
             "summary": "A Monitoring and Testing Tool for Linux kernel thermal subsystem",
-            "updated": "2021-09-26T21:09:20+0000"
+            "updated": "2021-11-01T00:11:34+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "Install \"require\" features together such as:",
-            "id": 80157,
+            "id": 81504,
             "layerbranch": 885836,
             "name": "feature/intel-x86-dev",
-            "updated": "2021-09-26T21:09:20+0000"
+            "updated": "2021-11-01T00:11:34+0000"
         },
         {
             "description": "Install intel-speed-select to rootfs",
-            "id": 80158,
+            "id": 81505,
             "layerbranch": 885836,
             "name": "feature/intel-sst",
-            "updated": "2021-09-26T21:09:20+0000"
+            "updated": "2021-11-01T00:11:34+0000"
         },
         {
             "description": "Add QAT drivers to the image",
-            "id": 80159,
+            "id": 81506,
             "layerbranch": 885836,
             "name": "feature/intel-qat",
-            "updated": "2021-09-26T21:09:20+0000"
+            "updated": "2021-11-01T00:11:34+0000"
         },
         {
             "description": "Add TSN support to the image",
-            "id": 80160,
+            "id": 81507,
             "layerbranch": 885836,
             "name": "feature/intel-tsn",
-            "updated": "2021-09-26T21:09:20+0000"
+            "updated": "2021-11-01T00:11:34+0000"
         },
         {
             "description": "Install ndctl pmdk to rootfs, add pmem support to the image",
-            "id": 80161,
+            "id": 81508,
             "layerbranch": 885836,
             "name": "feature/intel-persistent-memory",
-            "updated": "2021-09-26T21:09:20+0000"
+            "updated": "2021-11-01T00:11:34+0000"
         },
         {
             "description": "Add Intel TCC to the image",
-            "id": 80162,
+            "id": 81509,
             "layerbranch": 885836,
             "name": "feature/intel-tcc",
-            "updated": "2021-09-28T22:09:27+0000"
+            "updated": "2021-11-01T00:11:34+0000"
         },
         {
             "description": "",
-            "id": 80163,
+            "id": 81510,
             "layerbranch": 885836,
             "name": "default",
-            "updated": "2021-09-26T21:09:20+0000"
+            "updated": "2021-11-01T00:11:34+0000"
         }
     ]
 }
