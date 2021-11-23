@@ -409,10 +409,10 @@
             "id": 885774,
             "layer": 1,
             "local_path": "",
-            "updated": "2021-11-14T20:11:38+0000",
-            "vcs_last_commit": "2021-11-14T19:11:26+0000",
-            "vcs_last_fetch": "2021-11-14T20:11:38+0000",
-            "vcs_last_rev": "199e1694ba84857c7860bf9052afc5f522ec2168",
+            "updated": "2021-11-18T00:11:37+0000",
+            "vcs_last_commit": "2021-11-17T23:11:02+0000",
+            "vcs_last_fetch": "2021-11-18T00:11:37+0000",
+            "vcs_last_rev": "c492c629b9101faf3dd0df2ef9f1338709da73ba",
             "vcs_subdir": "meta",
             "version": "12",
             "yp_compatible_version": 42545
@@ -454,10 +454,10 @@
             "id": 885826,
             "layer": 49,
             "local_path": "",
-            "updated": "2021-11-10T20:11:13+0000",
-            "vcs_last_commit": "2021-11-10T19:11:54+0000",
-            "vcs_last_fetch": "2021-11-10T20:11:13+0000",
-            "vcs_last_rev": "ced7f8ee725e5577f4619131f0ba2e569679e18a",
+            "updated": "2021-11-22T11:11:41+0000",
+            "vcs_last_commit": "2021-11-22T10:11:18+0000",
+            "vcs_last_fetch": "2021-11-22T11:11:41+0000",
+            "vcs_last_rev": "b4d3dd47ee1a1f1a965f10710aeb872cd5064eba",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42545
@@ -469,10 +469,10 @@
             "id": 885827,
             "layer": 83,
             "local_path": "",
-            "updated": "2021-11-01T00:11:41+0000",
-            "vcs_last_commit": "2021-10-20T20:10:43+0000",
-            "vcs_last_fetch": "2021-11-01T00:11:41+0000",
-            "vcs_last_rev": "004992605f01b02495c3020f138d9b7c5cb53cec",
+            "updated": "2021-11-19T19:11:41+0000",
+            "vcs_last_commit": "2021-11-19T06:11:06+0000",
+            "vcs_last_fetch": "2021-11-19T19:11:41+0000",
+            "vcs_last_rev": "c6c35dd7454741219b2394ae1d3e1f5e585529e4",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42545
@@ -616,7 +616,31 @@
             "updated": "2021-11-01T00:11:41+0000"
         }
     ],
-    "recipes": [],
+    "recipes": [
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "",
+            "filename": "u-boot-xlnx_2019.2.bb",
+            "filepath": "zynqmp-secure-boot/recipes-bsp/u-boot",
+            "homepage": "",
+            "id": 1443561,
+            "inherits": "cml1 deploy python3-dir python3native uboot-config uboot-extlinux-config uboot-sign",
+            "layerbranch": 885827,
+            "license": "GPLv2+",
+            "pe": "",
+            "pn": "u-boot-xlnx",
+            "pr": "r0",
+            "provides": "u-boot-xlnx virtual/bootloader",
+            "pv": "v2019.01-xilinx-v2019.2+gitX",
+            "section": "base",
+            "srcrev": "dc61275b1d505f6a236de1c5b0f35485914d2bcc",
+            "summary": "Universal Boot Loader for embedded devices",
+            "updated": "2021-11-19T19:11:41+0000"
+        }
+    ],
     "wrtemplates": [
         {
             "description": "",
