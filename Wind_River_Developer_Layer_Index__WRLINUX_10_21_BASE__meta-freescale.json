@@ -403,31 +403,31 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.21-20210924",
+            "actual_branch": "wr-10.21-20211124",
             "branch": 240,
             "collection": "core",
             "id": 885774,
             "layer": 1,
             "local_path": "",
-            "updated": "2021-11-24T02:11:30+0000",
-            "vcs_last_commit": "2021-11-23T22:11:00+0000",
-            "vcs_last_fetch": "2021-11-24T02:11:30+0000",
-            "vcs_last_rev": "d3d057fc9fb661be9ee9bcf0b016bf75a554f85e",
+            "updated": "2021-12-07T19:12:58+0000",
+            "vcs_last_commit": "2021-12-07T18:12:57+0000",
+            "vcs_last_fetch": "2021-12-07T19:12:58+0000",
+            "vcs_last_rev": "1af4226207781f77a88f3f552736784d4cf5337a",
             "vcs_subdir": "meta",
             "version": "12",
             "yp_compatible_version": 42545
         },
         {
-            "actual_branch": "wr-10.21-20210924",
+            "actual_branch": "wr-10.21-20211124",
             "branch": 240,
             "collection": "freescale-layer",
             "id": 890571,
             "layer": 231,
             "local_path": "",
-            "updated": "2021-11-01T00:11:13+0000",
-            "vcs_last_commit": "2021-10-21T01:10:35+0000",
-            "vcs_last_fetch": "2021-11-01T00:11:13+0000",
-            "vcs_last_rev": "b9895768bdf3bd1dbd2d721fb04c6e0e68d9b688",
+            "updated": "2021-11-30T00:11:48+0000",
+            "vcs_last_commit": "2021-11-23T17:11:35+0000",
+            "vcs_last_fetch": "2021-11-30T00:11:48+0000",
+            "vcs_last_rev": "6159d791f39d0ca35a07f7ac46219a50a87fe846",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42552
@@ -598,7 +598,7 @@
             "id": 40965,
             "layerbranch": 890571,
             "name": "imx8qm-mek",
-            "updated": "2021-11-01T00:11:13+0000"
+            "updated": "2021-11-30T00:11:47+0000"
         },
         {
             "description": " NXP i.MX6UL EVK",
@@ -717,7 +717,7 @@
             "id": 40982,
             "layerbranch": 890571,
             "name": "imx8mp-lpddr4-evk",
-            "updated": "2021-11-01T00:11:13+0000"
+            "updated": "2021-11-30T00:11:47+0000"
         },
         {
             "description": " NXP QorIQ LS1 Tower System",
@@ -892,7 +892,7 @@
             "id": 41007,
             "layerbranch": 890571,
             "name": "imx6ullevk",
-            "updated": "2021-11-01T00:11:13+0000"
+            "updated": "2021-11-30T00:11:47+0000"
         }
     ],
     "recipes": [
@@ -3378,7 +3378,7 @@
             "section": "base",
             "srcrev": "5b2559d9d66b0b9561fc42dd8007dfe4569573df",
             "summary": "Kernel loadable module for Vivante GPU",
-            "updated": "2021-11-01T00:11:08+0000"
+            "updated": "2021-11-30T00:11:48+0000"
         },
         {
             "bbclassextend": "",
@@ -3524,7 +3524,7 @@
             "bugtracker": "",
             "configopts": "",
             "description": "Linux Kernel provided by NXP as the part of release distribution. Main focus is set on i.MX Family Reference Boards. It includes support for many NXP Proprietary IPs (GPU, VPU, IPU). Latest stable Kernel patchlevel is applied and maintained by Community.",
-            "filename": "linux-fslc-imx_5.4.bb",
+            "filename": "linux-fslc-imx_5.10.bb",
             "filepath": "recipes-kernel/linux",
             "homepage": "",
             "id": 1386557,
@@ -3535,11 +3535,11 @@
             "pn": "linux-fslc-imx",
             "pr": "r0",
             "provides": "linux-fslc-imx  virtual/kernel",
-            "pv": "5.4.134+gitX",
+            "pv": "5.10.69+gitX",
             "section": "base",
-            "srcrev": "e3b082933caab27829e775606708381fe1b7c3ba",
+            "srcrev": "54bd61ba352bffaf33ee2c956f140a565c9e2201",
             "summary": "Linux Kernel provided by NXP and supported by Community",
-            "updated": "2021-11-01T00:11:09+0000"
+            "updated": "2021-11-30T00:11:48+0000"
         },
         {
             "bbclassextend": "",
@@ -3604,11 +3604,11 @@
             "pn": "linux-imx-mfgtool",
             "pr": "r0",
             "provides": "linux-imx-mfgtool linux-mfgtool",
-            "pv": "5.10.35+gitX",
+            "pv": "5.10.52+gitX",
             "section": "base",
-            "srcrev": "ef3f2cfc6010c13feb40cfb7fd7490832cf86f45",
+            "srcrev": "a11753a89ec610768301d4070e10b8bd60fde8cd",
             "summary": "Linux Kernel provided and supported by NXP",
-            "updated": "2021-11-01T00:11:09+0000"
+            "updated": "2021-11-30T00:11:48+0000"
         },
         {
             "bbclassextend": "",
@@ -3627,11 +3627,11 @@
             "pn": "linux-imx",
             "pr": "r0",
             "provides": "linux-imx  virtual/kernel",
-            "pv": "5.10.35+gitX",
+            "pv": "5.10.52+gitX",
             "section": "base",
-            "srcrev": "ef3f2cfc6010c13feb40cfb7fd7490832cf86f45",
+            "srcrev": "a11753a89ec610768301d4070e10b8bd60fde8cd",
             "summary": "Linux Kernel provided and supported by NXP",
-            "updated": "2021-11-01T00:11:10+0000"
+            "updated": "2021-11-30T00:11:48+0000"
         },
         {
             "bbclassextend": "",
@@ -3654,7 +3654,7 @@
             "section": "base",
             "srcrev": "ef3f2cfc6010c13feb40cfb7fd7490832cf86f45",
             "summary": "Installs i.MX-specific kernel headers",
-            "updated": "2021-11-01T00:11:10+0000"
+            "updated": "2021-11-30T00:11:48+0000"
         },
         {
             "bbclassextend": "",

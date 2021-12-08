@@ -403,19 +403,19 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.21-20210924",
+            "actual_branch": "wr-10.21-20211124",
             "branch": 240,
             "collection": "meta-intel-fpga",
             "id": 885763,
             "layer": 380,
             "local_path": "",
-            "updated": "2021-11-01T00:11:18+0000",
-            "vcs_last_commit": "2021-09-22T20:09:18+0000",
-            "vcs_last_fetch": "2021-11-01T00:11:18+0000",
-            "vcs_last_rev": "9e86036cfaeab53b562f228001a5d26918c08795",
+            "updated": "2021-11-30T00:11:20+0000",
+            "vcs_last_commit": "2021-10-05T20:10:11+0000",
+            "vcs_last_fetch": "2021-11-30T00:11:20+0000",
+            "vcs_last_rev": "b45695a8450db5aff1147ad6a4fd6ce39de34d91",
             "vcs_subdir": "",
             "version": null,
-            "yp_compatible_version": 42567
+            "yp_compatible_version": 42544
         }
     ],
     "layerDependencies": [],
@@ -546,32 +546,9 @@
             "provides": "u-boot-socfpga virtual/bootloader",
             "pv": "v2021.07+gitX",
             "section": "bootloaders",
-            "srcrev": "cf044ae836127edb59c06ca93c8de3ab887b61b4",
+            "srcrev": "32c055643799e4109aff8a5f9ea76ea0389a6e10",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2021-11-01T00:11:16+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "",
-            "filename": "u-boot-socfpga_v2020.10.bb",
-            "filepath": "recipes-bsp/u-boot",
-            "homepage": "http://www.denx.de/wiki/U-Boot/WebHome",
-            "id": 1332115,
-            "inherits": "cml1 deploy python3-dir python3native uboot-config uboot-extlinux-config uboot-sign",
-            "layerbranch": 885763,
-            "license": "GPLv2+",
-            "pe": "1",
-            "pn": "u-boot-socfpga",
-            "pr": "r0",
-            "provides": "u-boot-socfpga virtual/bootloader",
-            "pv": "v2020.10+gitX",
-            "section": "bootloaders",
-            "srcrev": "584a2391639d89cff6476bbfbdf7d9c666970661",
-            "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2021-11-01T00:11:16+0000"
+            "updated": "2021-11-30T00:11:19+0000"
         },
         {
             "bbclassextend": "",
@@ -615,9 +592,9 @@
             "provides": "u-boot-socfpga virtual/bootloader",
             "pv": "v2021.04+gitX",
             "section": "bootloaders",
-            "srcrev": "fcb08e4ed98723cfe2e9521e6cf91f8781507d43",
+            "srcrev": "bdc9a4409de9cef4408eebd81196fd63887ac78f",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2021-11-01T00:11:17+0000"
+            "updated": "2021-11-30T00:11:19+0000"
         },
         {
             "bbclassextend": "",
@@ -638,9 +615,9 @@
             "provides": "arm-trusted-firmware  arm-trusted-firmware",
             "pv": "v2.4",
             "section": "base",
-            "srcrev": "36746cb98a1978dc74a2626c4459d1456a399b05",
+            "srcrev": "c841485a3730ba9193afc35b88b161ab0b30eaf7",
             "summary": "",
-            "updated": "2021-11-01T00:11:17+0000"
+            "updated": "2021-11-30T00:11:19+0000"
         },
         {
             "bbclassextend": "",
@@ -684,32 +661,9 @@
             "provides": "linux-socfpga  virtual/kernel",
             "pv": "5.13+gitX",
             "section": "kernel",
-            "srcrev": "18949eab641a962d44ada603fb9e8831f45895a9",
+            "srcrev": "d91a80a66076c0863ff934537da8f860a75ab618",
             "summary": "Linux kernel",
-            "updated": "2021-11-01T00:11:17+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "Linux Kernel for Intel SoCFPGA",
-            "filename": "linux-socfpga-ltsi_4.14.130.bb",
-            "filepath": "recipes-kernel/linux",
-            "homepage": "https://www.yoctoproject.org/",
-            "id": 1332121,
-            "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
-            "layerbranch": 885763,
-            "license": "GPLv2",
-            "pe": "",
-            "pn": "linux-socfpga-ltsi",
-            "pr": "r0",
-            "provides": "linux-socfpga-ltsi  virtual/kernel",
-            "pv": "4.14.130-ltsi+gitX",
-            "section": "kernel",
-            "srcrev": "78cbce0ccbde7be002b398037659538a4fd0a3e3",
-            "summary": "Linux kernel",
-            "updated": "2021-11-01T00:11:18+0000"
+            "updated": "2021-11-30T00:11:20+0000"
         },
         {
             "bbclassextend": "",
@@ -730,32 +684,9 @@
             "provides": "linux-socfpga  virtual/kernel",
             "pv": "5.12+gitX",
             "section": "kernel",
-            "srcrev": "302a60c614ffb9aa10eab4a2adb8babc73cc8c61",
+            "srcrev": "4b159443997466eb36133c59e7aaef4e76f62f4a",
             "summary": "Linux kernel",
-            "updated": "2021-11-01T00:11:18+0000"
-        },
-        {
-            "bbclassextend": "",
-            "blacklisted": "",
-            "bugtracker": "",
-            "configopts": "",
-            "description": "Linux Kernel for Intel SoCFPGA",
-            "filename": "linux-socfpga-ltsi-rt_4.14.126.bb",
-            "filepath": "recipes-kernel/linux",
-            "homepage": "https://www.yoctoproject.org/",
-            "id": 1332124,
-            "inherits": "cml1 deploy image-artifact-names kernel kernel-arch kernel-artifact-names kernel-devicetree kernel-module-split kernel-uboot kernel-uimage kernel-yocto linux-kernel-base",
-            "layerbranch": 885763,
-            "license": "GPLv2",
-            "pe": "",
-            "pn": "linux-socfpga-ltsi-rt",
-            "pr": "r0",
-            "provides": "linux-socfpga-ltsi-rt  virtual/kernel",
-            "pv": "4.14.126-ltsi-rt+gitX",
-            "section": "kernel",
-            "srcrev": "652711a08dbe255d0aa3c2dd7231d6c6bfc61817",
-            "summary": "Linux kernel",
-            "updated": "2021-11-01T00:11:18+0000"
+            "updated": "2021-11-30T00:11:20+0000"
         },
         {
             "bbclassextend": "",
@@ -799,9 +730,9 @@
             "provides": "linux-socfpga-lts  virtual/kernel",
             "pv": "5.4.124-lts+gitX",
             "section": "kernel",
-            "srcrev": "d68144779f2b613cbd1eb892b6e06aeffff54009",
+            "srcrev": "d4d238db6ebb2a39863f296b1f1fab34c89fefb5",
             "summary": "Linux kernel",
-            "updated": "2021-11-01T00:11:18+0000"
+            "updated": "2021-11-30T00:11:20+0000"
         },
         {
             "bbclassextend": "",
@@ -820,11 +751,11 @@
             "pn": "linux-socfpga-lts",
             "pr": "r0",
             "provides": "linux-socfpga-lts  virtual/kernel",
-            "pv": "5.10.50-lts+gitX",
+            "pv": "5.10.60-lts+gitX",
             "section": "kernel",
-            "srcrev": "1807da3569b8e03a60967b5906be0eb834611c71",
+            "srcrev": "c35d63f9c7e450605ef20834d2613f845f0c3388",
             "summary": "Linux kernel",
-            "updated": "2021-11-01T00:11:18+0000"
+            "updated": "2021-11-30T00:11:20+0000"
         }
     ],
     "wrtemplates": []

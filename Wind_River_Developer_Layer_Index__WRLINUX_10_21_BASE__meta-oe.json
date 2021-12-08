@@ -403,31 +403,31 @@
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.21-20210924",
+            "actual_branch": "wr-10.21-20211124",
             "branch": 240,
             "collection": "core",
             "id": 885774,
             "layer": 1,
             "local_path": "",
-            "updated": "2021-11-24T02:11:30+0000",
-            "vcs_last_commit": "2021-11-23T22:11:00+0000",
-            "vcs_last_fetch": "2021-11-24T02:11:30+0000",
-            "vcs_last_rev": "d3d057fc9fb661be9ee9bcf0b016bf75a554f85e",
+            "updated": "2021-12-07T19:12:58+0000",
+            "vcs_last_commit": "2021-12-07T18:12:57+0000",
+            "vcs_last_fetch": "2021-12-07T19:12:58+0000",
+            "vcs_last_rev": "1af4226207781f77a88f3f552736784d4cf5337a",
             "vcs_subdir": "meta",
             "version": "12",
             "yp_compatible_version": 42545
         },
         {
-            "actual_branch": "wr-10.21-20210924",
+            "actual_branch": "wr-10.21-20211124",
             "branch": 240,
             "collection": "openembedded-layer",
             "id": 885776,
             "layer": 7,
             "local_path": "",
-            "updated": "2021-11-10T01:11:33+0000",
-            "vcs_last_commit": "2021-11-10T00:11:14+0000",
-            "vcs_last_fetch": "2021-11-10T01:11:33+0000",
-            "vcs_last_rev": "07f552dd82beb337451fe52849dde456df310e1e",
+            "updated": "2021-12-08T02:12:42+0000",
+            "vcs_last_commit": "2021-12-08T01:12:24+0000",
+            "vcs_last_fetch": "2021-12-08T02:12:42+0000",
+            "vcs_last_rev": "8c52fad6615ceca85c8c74509607a4a71b216b2b",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42544
@@ -602,7 +602,7 @@
             "section": "console/utils",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-11-01T00:11:46+0000"
+            "updated": "2021-11-30T00:11:04+0000"
         },
         {
             "bbclassextend": "",
@@ -5938,7 +5938,7 @@
             "section": "base",
             "srcrev": "6f5db0aed26bf8cf2700d4ffe90a9bd3436ac728",
             "summary": "versatile resource statics tool",
-            "updated": "2021-11-01T00:11:57+0000"
+            "updated": "2021-11-30T00:11:05+0000"
         },
         {
             "bbclassextend": "",
@@ -5967,9 +5967,9 @@
             "bbclassextend": "native nativesdk",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "  --disable-rpath                   --with-jpeg=/tmp/tmpas448abt/tmp-glibc/work/core2-32-oe-linux/gd/2.3.2-r0/recipe-sysroot/usr/lib/..                   --with-freetype=yes                   --without-fontconfig                   --without-webp                   --without-xpm                   --without-x                   --enable-nls",
+            "configopts": "  --disable-rpath                   --with-jpeg=/tmp/tmpx6766qu1/tmp-glibc/work/core2-32-oe-linux/gd/2.3.3-r0/recipe-sysroot/usr/lib/..                   --with-freetype=yes                   --without-fontconfig                   --without-webp                   --without-xpm                   --without-x                   --enable-nls",
             "description": "The gd graphics library allows your code to quickly draw images complete with lines, arcs, text, multiple colors, cut and paste from other images, and flood fills, and to write out the result as a PNG or JPEG file. This is particularly useful in Web applications, where PNG and JPEG are two of the formats accepted for inline images by most browsers. Note that gd is not a paint program.",
-            "filename": "gd_2.3.2.bb",
+            "filename": "gd_2.3.3.bb",
             "filepath": "recipes-support/gd",
             "homepage": "http://libgd.github.io/",
             "id": 1333193,
@@ -5980,11 +5980,11 @@
             "pn": "gd",
             "pr": "r0",
             "provides": "gd  gd-tools",
-            "pv": "2.3.2",
+            "pv": "2.3.3",
             "section": "libs",
-            "srcrev": "2e40f55bfb460fc9d8cbcd290a0c9eb908d5af7e",
+            "srcrev": "b5319a41286107b53daa0e08e402aa1819764bdc",
             "summary": "gd is a library used to create PNG, JPEG, or WBMP images",
-            "updated": "2021-11-01T00:11:58+0000"
+            "updated": "2021-11-30T00:11:05+0000"
         },
         {
             "bbclassextend": "",
@@ -6927,7 +6927,7 @@
             "section": "libs/network",
             "srcrev": "3ee12c6d569977cf1cd30d0da77807a07aa77158",
             "summary": "Library for controlling team network device",
-            "updated": "2021-11-01T00:11:11+0000"
+            "updated": "2021-12-08T02:12:42+0000"
         },
         {
             "bbclassextend": "native",
@@ -7594,7 +7594,7 @@
             "section": "libs",
             "srcrev": "565bf68eccfdbbf22cf5cb6d792e23de564665c7",
             "summary": "Library for interfacing with IIO devices",
-            "updated": "2021-11-01T00:11:20+0000"
+            "updated": "2021-11-30T00:11:05+0000"
         },
         {
             "bbclassextend": "",
@@ -9166,7 +9166,7 @@
             "bugtracker": "",
             "configopts": " --bindir=/bin ",
             "description": "",
-            "filename": "dash_0.5.11.3.bb",
+            "filename": "dash_0.5.11.5.bb",
             "filepath": "recipes-shells/dash",
             "homepage": "http://gondor.apana.org.au/~herbert/dash/",
             "id": 1333332,
@@ -9177,11 +9177,11 @@
             "pn": "dash",
             "pr": "r0",
             "provides": "dash ",
-            "pv": "0.5.11.3",
+            "pv": "0.5.11.5",
             "section": "System Environment/Shells",
             "srcrev": "",
             "summary": "Small and fast POSIX-compliant shell",
-            "updated": "2021-11-01T00:11:42+0000"
+            "updated": "2021-11-30T00:11:05+0000"
         },
         {
             "bbclassextend": "",
@@ -10929,7 +10929,7 @@
             "section": "devel/lib",
             "srcrev": "c50869272b54bf4b4bc3825e8c3332a54678b43f",
             "summary": "",
-            "updated": "2021-11-01T00:11:03+0000"
+            "updated": "2021-12-07T01:12:32+0000"
         },
         {
             "bbclassextend": "",
@@ -11228,7 +11228,7 @@
             "section": "base",
             "srcrev": "eb66451df280f95a9a12e78b151b8d867e1b78ed",
             "summary": "Linux CAN network development utilities",
-            "updated": "2021-11-01T00:11:08+0000"
+            "updated": "2021-11-30T00:11:04+0000"
         },
         {
             "bbclassextend": "",
@@ -13076,7 +13076,7 @@
             "bugtracker": "",
             "configopts": " --enable-nls",
             "description": "The core analysis suite is a self-contained tool that can be used toinvestigate either live systems, kernel core dumps created from thenetdump, diskdump and kdump packages from Red Hat Linux, the mcore kernel patchoffered by Mission Critical Linux, or the LKCD kernel patch.",
-            "filename": "crash_7.2.9.bb",
+            "filename": "crash_7.3.0.bb",
             "filepath": "recipes-kernel/crash",
             "homepage": "http://people.redhat.com/anderson",
             "id": 1333502,
@@ -13087,11 +13087,11 @@
             "pn": "crash",
             "pr": "r0",
             "provides": "crash ",
-            "pv": "7.2.9",
+            "pv": "7.3.0",
             "section": "devel",
-            "srcrev": "a25aa4b649d339dd25c20d5413d81b851a77e0b2",
+            "srcrev": "2a3e546942ab560f050ab77e8c7828b06513b3f0",
             "summary": "Kernel analysis utility for live systems, netdump, diskdump, kdump, LKCD or mcore dumpfiles",
-            "updated": "2021-11-01T00:11:32+0000"
+            "updated": "2021-11-30T00:11:05+0000"
         },
         {
             "bbclassextend": "",
@@ -18358,7 +18358,7 @@
             "section": "libs/network",
             "srcrev": "5c7ee43bd70ee09a7170ddd55b9fdbdef69e9080",
             "summary": "",
-            "updated": "2021-11-01T00:11:38+0000"
+            "updated": "2021-11-30T00:11:04+0000"
         },
         {
             "bbclassextend": "",
