@@ -424,13 +424,13 @@
             "id": 853255,
             "layer": 193,
             "local_path": "",
-            "updated": "2021-04-21T23:04:58+0000",
-            "vcs_last_commit": "2021-04-21T23:04:04+0000",
-            "vcs_last_fetch": "2021-04-21T23:04:58+0000",
-            "vcs_last_rev": "85e51b490faf9890420b2744ad40b956f07fee64",
+            "updated": "2021-12-09T22:12:33+0000",
+            "vcs_last_commit": "2021-12-09T22:12:44+0000",
+            "vcs_last_fetch": "2021-12-09T22:12:33+0000",
+            "vcs_last_rev": "05e266d056edc37f672eb295d7c62a13c86595a4",
             "vcs_subdir": "",
             "version": "1",
-            "yp_compatible_version": 99
+            "yp_compatible_version": 42561
         }
     ],
     "layerDependencies": [
@@ -578,6 +578,29 @@
             "srcrev": "",
             "summary": "",
             "updated": "2020-04-24T02:04:23+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "Intel(r) QuickAssist Technology API",
+            "filename": "qat17_4.15.0-00011.bb",
+            "filepath": "recipes-extended/qat",
+            "homepage": "https://01.org/packet-processing/intel%C2%AE-quickassist-technology-drivers-and-patches",
+            "id": 1466835,
+            "inherits": "kernel-arch kernel-module-split module module-base pkgconfig update-rc.d",
+            "layerbranch": 853255,
+            "license": "BSD & GPLv2",
+            "pe": "",
+            "pn": "qat17",
+            "pr": "r0",
+            "provides": "qat17  virtual/qat",
+            "pv": "4.15.0-00011",
+            "section": "base",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2021-12-09T22:12:33+0000"
         }
     ],
     "wrtemplates": []

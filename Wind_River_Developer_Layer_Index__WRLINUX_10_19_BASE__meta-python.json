@@ -439,13 +439,13 @@
             "id": 853240,
             "layer": 12,
             "local_path": "",
-            "updated": "2021-05-17T20:05:15+0000",
-            "vcs_last_commit": "2021-05-17T19:05:51+0000",
-            "vcs_last_fetch": "2021-05-17T20:05:15+0000",
-            "vcs_last_rev": "b67f031c2a4e9f39d213281be925655776dc8897",
+            "updated": "2021-12-02T23:12:44+0000",
+            "vcs_last_commit": "2021-12-02T23:12:20+0000",
+            "vcs_last_fetch": "2021-12-02T23:12:44+0000",
+            "vcs_last_rev": "97f78c5a2a650e56f5d04c24c722f2f098fb24d9",
             "vcs_subdir": "meta-python",
             "version": "1",
-            "yp_compatible_version": 99
+            "yp_compatible_version": 42561
         }
     ],
     "layerDependencies": [
@@ -13174,7 +13174,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Meta-oe ptest packagegroups",
-            "updated": "2020-04-24T02:04:54+0000"
+            "updated": "2021-12-02T23:12:44+0000"
         },
         {
             "bbclassextend": "",
@@ -13313,6 +13313,29 @@
             "srcrev": "",
             "summary": "passive checker of Python programs",
             "updated": "2021-05-17T20:05:15+0000"
+        },
+        {
+            "bbclassextend": "",
+            "blacklisted": "",
+            "bugtracker": "",
+            "configopts": "",
+            "description": "POSIX IPC primitives (semaphores, shared memory and message queues) for Python",
+            "filename": "python3-posix-ipc_1.0.5.bb",
+            "filepath": "recipes-devtools/python",
+            "homepage": "http://semanchuk.com/philip/posix_ipc/",
+            "id": 1458275,
+            "inherits": "distutils-common-base distutils3 distutils3-base pypi python3-dir python3native setuptools3",
+            "layerbranch": 853240,
+            "license": "BSD",
+            "pe": "",
+            "pn": "python3-posix-ipc",
+            "pr": "r0",
+            "provides": "python3-posix-ipc ",
+            "pv": "1.0.5",
+            "section": "devel/python",
+            "srcrev": "",
+            "summary": "",
+            "updated": "2021-12-02T23:12:44+0000"
         }
     ],
     "wrtemplates": []
