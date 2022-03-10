@@ -205,13 +205,6 @@
         },
         {
             "description": "",
-            "id": 42543,
-            "image_url": "",
-            "link_url": "",
-            "name": "3.4 wrl"
-        },
-        {
-            "description": "",
             "id": 42544,
             "image_url": "",
             "link_url": "",
@@ -237,13 +230,6 @@
             "image_url": "",
             "link_url": "",
             "name": "3.4"
-        },
-        {
-            "description": "",
-            "id": 42548,
-            "image_url": "",
-            "link_url": "",
-            "name": "3.1 3.3 3.4"
         },
         {
             "description": "",
@@ -391,6 +377,34 @@
             "image_url": "",
             "link_url": "",
             "name": "3.4 3.5"
+        },
+        {
+            "description": "",
+            "id": 42573,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.5"
+        },
+        {
+            "description": "",
+            "id": 42574,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.5 wrl"
+        },
+        {
+            "description": "",
+            "id": 42575,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 3.5"
+        },
+        {
+            "description": "",
+            "id": 42576,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 3.5"
         }
     ],
     "branches": [
@@ -401,25 +415,25 @@
             "id": 240,
             "name": "WRLINUX_10_21_BASE",
             "short_description": "Wind River Linux 10_21 Baseline",
-            "sort_priority": 16,
+            "sort_priority": 17,
             "update_environment": null,
-            "updated": "2022-02-22T07:02:23+0000",
+            "updated": "2022-03-10T07:03:28+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.21-20211124",
+            "actual_branch": "wr-10.21-20220304",
             "branch": 240,
             "collection": "core",
             "id": 885774,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-02-15T00:02:39+0000",
-            "vcs_last_commit": "2022-02-14T23:02:08+0000",
-            "vcs_last_fetch": "2022-02-15T00:02:39+0000",
-            "vcs_last_rev": "d2464ae1da751c9158d03fe29682d8c19e1c3f27",
+            "updated": "2022-03-10T09:03:06+0000",
+            "vcs_last_commit": "2022-03-09T23:03:31+0000",
+            "vcs_last_fetch": "2022-03-10T09:03:06+0000",
+            "vcs_last_rev": "bfe7e358e91b68b56295f1173833b5e0f2f498cf",
             "vcs_subdir": "meta",
             "version": "12",
             "yp_compatible_version": 42545
@@ -431,10 +445,10 @@
             "id": 885826,
             "layer": 49,
             "local_path": "",
-            "updated": "2022-02-20T23:02:46+0000",
-            "vcs_last_commit": "2022-02-20T22:02:10+0000",
-            "vcs_last_fetch": "2022-02-20T23:02:46+0000",
-            "vcs_last_rev": "52f6b516b06fe0078250c8ee97e2aed2243bbc36",
+            "updated": "2022-03-10T13:03:42+0000",
+            "vcs_last_commit": "2022-03-10T12:03:40+0000",
+            "vcs_last_fetch": "2022-03-10T13:03:42+0000",
+            "vcs_last_rev": "3c2950ca5e809a9ee9a8617874a0f62cb7a7db2f",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42545
@@ -446,9 +460,9 @@
             "id": 889614,
             "layer": 393,
             "local_path": "",
-            "updated": "2022-02-20T22:02:45+0000",
+            "updated": "2022-03-10T09:03:34+0000",
             "vcs_last_commit": "2022-02-19T17:02:44+0000",
-            "vcs_last_fetch": "2022-02-20T22:02:45+0000",
+            "vcs_last_fetch": "2022-03-10T09:03:34+0000",
             "vcs_last_rev": "4d073af5a48ad718002b6a1849b0a64a6d61fad0",
             "vcs_subdir": "",
             "version": "1",
@@ -531,10 +545,10 @@
     "machines": [
         {
             "description": " Marvell CN106xx SoC",
-            "id": 41078,
+            "id": 45777,
             "layerbranch": 889614,
             "name": "marvell-cn106xx",
-            "updated": "2022-02-07T00:02:37+0000"
+            "updated": "2022-03-10T09:03:34+0000"
         }
     ],
     "recipes": [],

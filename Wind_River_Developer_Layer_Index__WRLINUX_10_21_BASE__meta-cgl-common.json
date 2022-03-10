@@ -205,13 +205,6 @@
         },
         {
             "description": "",
-            "id": 42543,
-            "image_url": "",
-            "link_url": "",
-            "name": "3.4 wrl"
-        },
-        {
-            "description": "",
             "id": 42544,
             "image_url": "",
             "link_url": "",
@@ -237,13 +230,6 @@
             "image_url": "",
             "link_url": "",
             "name": "3.4"
-        },
-        {
-            "description": "",
-            "id": 42548,
-            "image_url": "",
-            "link_url": "",
-            "name": "3.1 3.3 3.4"
         },
         {
             "description": "",
@@ -391,6 +377,34 @@
             "image_url": "",
             "link_url": "",
             "name": "3.4 3.5"
+        },
+        {
+            "description": "",
+            "id": 42573,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.5"
+        },
+        {
+            "description": "",
+            "id": 42574,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.5 wrl"
+        },
+        {
+            "description": "",
+            "id": 42575,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 3.5"
+        },
+        {
+            "description": "",
+            "id": 42576,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 3.5"
         }
     ],
     "branches": [
@@ -401,78 +415,78 @@
             "id": 240,
             "name": "WRLINUX_10_21_BASE",
             "short_description": "Wind River Linux 10_21 Baseline",
-            "sort_priority": 16,
+            "sort_priority": 17,
             "update_environment": null,
-            "updated": "2022-02-22T07:02:23+0000",
+            "updated": "2022-03-10T07:03:28+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "",
-            "id": 9677,
+            "id": 10129,
             "layerbranch": 885822,
             "name": "poky-cgl",
-            "updated": "2021-11-01T00:11:46+0000"
+            "updated": "2022-03-10T09:03:42+0000"
         }
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.21-20211124",
+            "actual_branch": "wr-10.21-20220304",
             "branch": 240,
             "collection": "core",
             "id": 885774,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-02-15T00:02:39+0000",
-            "vcs_last_commit": "2022-02-14T23:02:08+0000",
-            "vcs_last_fetch": "2022-02-15T00:02:39+0000",
-            "vcs_last_rev": "d2464ae1da751c9158d03fe29682d8c19e1c3f27",
+            "updated": "2022-03-10T09:03:06+0000",
+            "vcs_last_commit": "2022-03-09T23:03:31+0000",
+            "vcs_last_fetch": "2022-03-10T09:03:06+0000",
+            "vcs_last_rev": "bfe7e358e91b68b56295f1173833b5e0f2f498cf",
             "vcs_subdir": "meta",
             "version": "12",
             "yp_compatible_version": 42545
         },
         {
-            "actual_branch": "wr-10.21-20211124",
+            "actual_branch": "wr-10.21-20220304",
             "branch": 240,
             "collection": "openembedded-layer",
             "id": 885776,
             "layer": 7,
             "local_path": "",
-            "updated": "2022-02-16T02:02:41+0000",
-            "vcs_last_commit": "2022-02-16T01:02:34+0000",
-            "vcs_last_fetch": "2022-02-16T02:02:41+0000",
-            "vcs_last_rev": "313013bf870ff04269c73909fe1205d0380efb7a",
+            "updated": "2022-03-10T09:03:08+0000",
+            "vcs_last_commit": "2022-03-03T23:03:41+0000",
+            "vcs_last_fetch": "2022-03-10T09:03:08+0000",
+            "vcs_last_rev": "5aa038c28936dba25eff7a838c1b75bb87dd7587",
             "vcs_subdir": "meta-oe",
             "version": "1",
             "yp_compatible_version": 42544
         },
         {
-            "actual_branch": "wr-10.21-20211124",
+            "actual_branch": "wr-10.21-20220304",
             "branch": 240,
             "collection": "filesystems-layer",
             "id": 885777,
             "layer": 8,
             "local_path": "",
-            "updated": "2021-11-30T00:11:11+0000",
-            "vcs_last_commit": "2021-10-19T08:10:21+0000",
-            "vcs_last_fetch": "2021-11-30T00:11:11+0000",
-            "vcs_last_rev": "e95ed41c0108e884f5656f5949780e7df7dcdcf7",
+            "updated": "2022-03-10T09:03:22+0000",
+            "vcs_last_commit": "2021-11-13T07:11:48+0000",
+            "vcs_last_fetch": "2022-03-10T09:03:22+0000",
+            "vcs_last_rev": "7fbb2767186a4db729efe4f440cc9a992f2ab183",
             "vcs_subdir": "meta-filesystems",
             "version": "1",
             "yp_compatible_version": 42544
         },
         {
-            "actual_branch": "wr-10.21-20211124",
+            "actual_branch": "wr-10.21-20220304",
             "branch": 240,
             "collection": "perl-layer",
             "id": 885780,
             "layer": 13,
             "local_path": "",
-            "updated": "2021-11-30T00:11:08+0000",
-            "vcs_last_commit": "2021-04-03T07:04:03+0000",
-            "vcs_last_fetch": "2021-11-01T00:11:22+0000",
-            "vcs_last_rev": "c9674d330e3416d2a10dd6ff85a67ac5f94fa9d8",
+            "updated": "2022-03-10T09:03:37+0000",
+            "vcs_last_commit": "2021-11-13T07:11:48+0000",
+            "vcs_last_fetch": "2022-03-10T09:03:37+0000",
+            "vcs_last_rev": "7fbb2767186a4db729efe4f440cc9a992f2ab183",
             "vcs_subdir": "meta-perl",
             "version": "1",
             "yp_compatible_version": 42544
@@ -484,55 +498,55 @@
             "id": 885782,
             "layer": 20,
             "local_path": "",
-            "updated": "2021-11-01T00:11:07+0000",
+            "updated": "2022-03-10T09:03:24+0000",
             "vcs_last_commit": "2021-10-12T19:10:35+0000",
-            "vcs_last_fetch": "2021-11-01T00:11:07+0000",
+            "vcs_last_fetch": "2022-03-10T09:03:24+0000",
             "vcs_last_rev": "0cbb5d2197f164646e7e9468863ca7ea82b2c2e4",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42544
         },
         {
-            "actual_branch": "wr-10.21-20211124",
+            "actual_branch": "wr-10.21-20220304",
             "branch": 240,
             "collection": "networking-layer",
             "id": 885804,
             "layer": 11,
             "local_path": "",
-            "updated": "2022-01-20T19:01:36+0000",
-            "vcs_last_commit": "2022-01-20T18:01:41+0000",
-            "vcs_last_fetch": "2022-01-20T19:01:36+0000",
-            "vcs_last_rev": "4274ba3212a7c33d066f0084465081fcaab828e4",
+            "updated": "2022-03-10T09:03:04+0000",
+            "vcs_last_commit": "2022-03-09T23:03:31+0000",
+            "vcs_last_fetch": "2022-03-10T09:03:04+0000",
+            "vcs_last_rev": "02b526824896736dc27098ede449001946b00bf0",
             "vcs_subdir": "meta-networking",
             "version": "1",
             "yp_compatible_version": 42544
         },
         {
-            "actual_branch": "wr-10.21-20210924",
+            "actual_branch": "wr-10.21-20220304",
             "branch": 240,
             "collection": "security",
             "id": 885806,
             "layer": 18,
             "local_path": "",
-            "updated": "2021-12-02T20:12:35+0000",
-            "vcs_last_commit": "2021-12-02T18:12:21+0000",
-            "vcs_last_fetch": "2021-12-02T20:12:35+0000",
-            "vcs_last_rev": "48dede5717b0d6409faa109982e0ae3360808f21",
+            "updated": "2022-03-10T09:03:03+0000",
+            "vcs_last_commit": "2022-03-03T23:03:58+0000",
+            "vcs_last_fetch": "2022-03-10T09:03:03+0000",
+            "vcs_last_rev": "b52f734a8c9cb31186c5164784bac4336ea97716",
             "vcs_subdir": "",
             "version": null,
             "yp_compatible_version": 42544
         },
         {
-            "actual_branch": "wr-10.21-20210827",
+            "actual_branch": "wr-10.21-20220304",
             "branch": 240,
             "collection": "cgl-common",
             "id": 885822,
             "layer": 172,
             "local_path": "",
-            "updated": "2021-12-28T01:12:38+0000",
-            "vcs_last_commit": "2021-12-28T00:12:59+0000",
-            "vcs_last_fetch": "2021-12-28T01:12:38+0000",
-            "vcs_last_rev": "e82ddc19e39e2161aa8236fa060d5391ae05e432",
+            "updated": "2022-03-10T09:03:42+0000",
+            "vcs_last_commit": "2022-03-03T23:03:14+0000",
+            "vcs_last_fetch": "2022-03-10T09:03:42+0000",
+            "vcs_last_rev": "f224a24c76bffb1d311e4abc19f0815d7ed1c75a",
             "vcs_subdir": "meta-cgl-common",
             "version": null,
             "yp_compatible_version": 42563
@@ -765,7 +779,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-11-01T00:11:40+0000"
+            "updated": "2022-03-10T09:03:36+0000"
         },
         {
             "bbclassextend": "native",
@@ -788,7 +802,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-11-01T00:11:40+0000"
+            "updated": "2022-03-10T09:03:36+0000"
         },
         {
             "bbclassextend": "native",
@@ -811,7 +825,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-11-01T00:11:41+0000"
+            "updated": "2022-03-10T09:03:37+0000"
         },
         {
             "bbclassextend": "native",
@@ -834,7 +848,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-11-01T00:11:41+0000"
+            "updated": "2022-03-10T09:03:37+0000"
         },
         {
             "bbclassextend": "",
@@ -857,7 +871,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Support for having multipath iSCSI devices as root file system",
-            "updated": "2021-11-01T00:11:41+0000"
+            "updated": "2022-03-10T09:03:37+0000"
         },
         {
             "bbclassextend": "",
@@ -880,7 +894,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Application packages required to satisfy the Carrier Grade Linux (CGL) specification",
-            "updated": "2021-11-01T00:11:41+0000"
+            "updated": "2022-03-10T09:03:38+0000"
         },
         {
             "bbclassextend": "",
@@ -903,7 +917,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Kernel packages required to satisfy the Carrier Grade Linux (CGL) specification",
-            "updated": "2021-11-01T00:11:42+0000"
+            "updated": "2022-03-10T09:03:38+0000"
         },
         {
             "bbclassextend": "",
@@ -926,7 +940,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Software development tools packages required to satisfy the Carrier Grade Linux (CGL) specification",
-            "updated": "2021-11-01T00:11:42+0000"
+            "updated": "2022-03-10T09:03:38+0000"
         },
         {
             "bbclassextend": "",
@@ -949,7 +963,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Packages required to satisfy the Carrier Grade Linux (CGL) specification",
-            "updated": "2021-11-01T00:11:42+0000"
+            "updated": "2022-03-10T09:03:38+0000"
         },
         {
             "bbclassextend": "",
@@ -972,7 +986,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Middleware packages required to satisfy the Carrier Grade Linux (CGL) specification",
-            "updated": "2021-11-01T00:11:42+0000"
+            "updated": "2022-03-10T09:03:38+0000"
         },
         {
             "bbclassextend": "",
@@ -995,7 +1009,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2021-11-01T00:11:43+0000"
+            "updated": "2022-03-10T09:03:38+0000"
         },
         {
             "bbclassextend": "",
@@ -1018,13 +1032,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "A console-only image that fully supports the target device hardware.",
-            "updated": "2021-11-01T00:11:43+0000"
+            "updated": "2022-03-10T09:03:39+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " --sysconfdir=/etc/racoon2                  --disable-pedant                  --enable-pcap=yes                  --enable-iked=yes                  --disable-kinkd                  --enable-ipv6                  --with-openssl-libdir=/tmp/tmpqcjbarqo/tmp-glibc/work/core2-32-oe-linux/racoon2/202003018-r0/recipe-sysroot/usr                  --with-kernel-build-dir=/tmp/tmpqcjbarqo/tmp-glibc/work/core2-32-oe-linux/racoon2/202003018-r0/recipe-sysroot/usr/include ",
+            "configopts": " --sysconfdir=/etc/racoon2                  --disable-pedant                  --enable-pcap=yes                  --enable-iked=yes                  --disable-kinkd                  --enable-ipv6                  --with-openssl-libdir=/tmp/tmp4nawet4s/tmp-glibc/work/core2-32-oe-linux/racoon2/202003018-r0/recipe-sysroot/usr                  --with-kernel-build-dir=/tmp/tmp4nawet4s/tmp-glibc/work/core2-32-oe-linux/racoon2/202003018-r0/recipe-sysroot/usr/include ",
             "description": "The Racoon2 project is a joint effort which provides an implementation of key management system for IPsec. The implementation is called Racoon2, a successor of Racoon, which was developed by the KAME project. It supports IKEv1, IKEv2, and KINK protocols. It works on FreeBSD, NetBSD, Linux, and Mac OS X.",
             "filename": "racoon2_202003018.bb",
             "filepath": "recipes-cgl/racoon2",
@@ -1041,7 +1055,7 @@
             "section": "base",
             "srcrev": "7b68950328454b0e91ba24698c10c4a790705cc1",
             "summary": "An implementation of key management system for IPsec",
-            "updated": "2021-11-01T00:11:43+0000"
+            "updated": "2022-03-10T09:03:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1064,7 +1078,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-11-01T00:11:44+0000"
+            "updated": "2022-03-10T09:03:39+0000"
         },
         {
             "bbclassextend": "",
@@ -1087,7 +1101,7 @@
             "section": "System Environment/Base",
             "srcrev": "4d76ceb4aa7aaa1fd595368089e99575d708f719",
             "summary": "Tools for managing the Ocfs2 cluster file system",
-            "updated": "2021-11-01T00:11:44+0000"
+            "updated": "2022-03-10T09:03:40+0000"
         },
         {
             "bbclassextend": "",
@@ -1110,13 +1124,13 @@
             "section": "base",
             "srcrev": "fd5a3befacd23d056a72cacd2b8ad6bba498e56b",
             "summary": "",
-            "updated": "2021-11-01T00:11:44+0000"
+            "updated": "2022-03-10T09:03:40+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     STAGING_DIR_TARGET=/tmp/tmpqcjbarqo/tmp-glibc/work/core2-32-oe-linux/heartbeat/3.0.6-r0/recipe-sysroot     --disable-fatal-warnings     --disable-static  ",
+            "configopts": "     STAGING_DIR_TARGET=/tmp/tmp4nawet4s/tmp-glibc/work/core2-32-oe-linux/heartbeat/3.0.6-r0/recipe-sysroot     --disable-fatal-warnings     --disable-static  ",
             "description": "heartbeat is a basic high-availability subsystem for Linux-HA. It will run scripts at initialization, and when machines go up or down. This version will also perform IP address takeover using gratuitous ARPs.  Heartbeat contains a cluster membership layer, fencing, and local and clusterwide resource management functionality.  When used with Pacemaker, it supports n-node clusters with significant capabilities for managing resources and dependencies.  In addition it continues to support the older release 1 style of 2-node clustering.  It implements the following kinds of heartbeats: - Serial ports - UDP/IP multicast (ethernet, etc) - UDP/IP broadcast (ethernet, etc) - UDP/IP heartbeats - ping heartbeats (for routers, switches, etc.) (to be used for breaking ties in 2-node systems) ",
             "filename": "heartbeat_3.0.6.bb",
             "filepath": "recipes-cgl/heartbeat",
@@ -1133,7 +1147,7 @@
             "section": "System Environment/Daemons",
             "srcrev": "",
             "summary": "Messaging and membership subsystem for High-Availability Linux",
-            "updated": "2021-11-01T00:11:45+0000"
+            "updated": "2022-03-10T09:03:40+0000"
         },
         {
             "bbclassextend": "",
@@ -1156,7 +1170,7 @@
             "section": "base",
             "srcrev": "d10d2fbdd1b357500387bebb432c68e88748526b",
             "summary": "Pacemaker command line interface for management and configuration",
-            "updated": "2021-11-01T00:11:45+0000"
+            "updated": "2022-03-10T09:03:41+0000"
         },
         {
             "bbclassextend": "",
@@ -1179,13 +1193,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "Common Address Redundancy Protocol for Unix",
-            "updated": "2021-11-01T00:11:45+0000"
+            "updated": "2022-03-10T09:03:41+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " STAGING_INCDIR=/tmp/tmp43hgvhpg/tmp-glibc/work/core2-32-oe-linux/pacemaker/2.0.5-r0/recipe-sysroot/usr/include                  --disable-fatal-warnings                  --with-ais                  --without-heartbeat                  --disable-pretty                  --disable-tests                    --with-esmtp=no --disable-systemd",
+            "configopts": " STAGING_INCDIR=/tmp/tmp4nawet4s/tmp-glibc/work/core2-32-oe-linux/pacemaker/2.0.5-r0/recipe-sysroot/usr/include                  --disable-fatal-warnings                  --with-ais                  --without-heartbeat                  --disable-pretty                  --disable-tests                    --with-esmtp=no --disable-systemd",
             "description": "Pacemaker is an advanced, scalable High-Availability cluster resource manager for Linux-HA (Heartbeat) and/or OpenAIS. It supports n-node clusters with significant capabilities for managing resources and dependencies. It will run scripts at initialization, when machines go up or down, when related resources fail and can be configured to periodically check resource health.",
             "filename": "pacemaker_2.0.5.bb",
             "filepath": "recipes-cgl/pacemaker",
@@ -1202,7 +1216,7 @@
             "section": "base",
             "srcrev": "ba59be71228fed04f78ab374dfac748d314d0e89",
             "summary": "Scalable High-Availability cluster resource manager",
-            "updated": "2021-12-28T01:12:38+0000"
+            "updated": "2022-03-10T09:03:41+0000"
         },
         {
             "bbclassextend": "",
@@ -1225,7 +1239,7 @@
             "section": "base",
             "srcrev": "fee181320547365d7f8c88cca2b32801412b933d",
             "summary": "OCF resource agents for use by compatible cluster managers",
-            "updated": "2021-12-28T00:12:39+0000"
+            "updated": "2022-03-10T09:03:42+0000"
         }
     ],
     "wrtemplates": []

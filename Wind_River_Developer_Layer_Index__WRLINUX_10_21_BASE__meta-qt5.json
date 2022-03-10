@@ -205,13 +205,6 @@
         },
         {
             "description": "",
-            "id": 42543,
-            "image_url": "",
-            "link_url": "",
-            "name": "3.4 wrl"
-        },
-        {
-            "description": "",
             "id": 42544,
             "image_url": "",
             "link_url": "",
@@ -237,13 +230,6 @@
             "image_url": "",
             "link_url": "",
             "name": "3.4"
-        },
-        {
-            "description": "",
-            "id": 42548,
-            "image_url": "",
-            "link_url": "",
-            "name": "3.1 3.3 3.4"
         },
         {
             "description": "",
@@ -391,6 +377,34 @@
             "image_url": "",
             "link_url": "",
             "name": "3.4 3.5"
+        },
+        {
+            "description": "",
+            "id": 42573,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.5"
+        },
+        {
+            "description": "",
+            "id": 42574,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.5 wrl"
+        },
+        {
+            "description": "",
+            "id": 42575,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 3.5"
+        },
+        {
+            "description": "",
+            "id": 42576,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 3.5"
         }
     ],
     "branches": [
@@ -401,25 +415,25 @@
             "id": 240,
             "name": "WRLINUX_10_21_BASE",
             "short_description": "Wind River Linux 10_21 Baseline",
-            "sort_priority": 16,
+            "sort_priority": 17,
             "update_environment": null,
-            "updated": "2022-02-22T07:02:23+0000",
+            "updated": "2022-03-10T07:03:28+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.21-20211124",
+            "actual_branch": "wr-10.21-20220304",
             "branch": 240,
             "collection": "core",
             "id": 885774,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-02-15T00:02:39+0000",
-            "vcs_last_commit": "2022-02-14T23:02:08+0000",
-            "vcs_last_fetch": "2022-02-15T00:02:39+0000",
-            "vcs_last_rev": "d2464ae1da751c9158d03fe29682d8c19e1c3f27",
+            "updated": "2022-03-10T09:03:06+0000",
+            "vcs_last_commit": "2022-03-09T23:03:31+0000",
+            "vcs_last_fetch": "2022-03-10T09:03:06+0000",
+            "vcs_last_rev": "bfe7e358e91b68b56295f1173833b5e0f2f498cf",
             "vcs_subdir": "meta",
             "version": "12",
             "yp_compatible_version": 42545
@@ -431,9 +445,9 @@
             "id": 885801,
             "layer": 355,
             "local_path": "",
-            "updated": "2021-11-01T00:11:02+0000",
+            "updated": "2022-03-10T09:03:10+0000",
             "vcs_last_commit": "2021-09-23T19:09:47+0000",
-            "vcs_last_fetch": "2021-11-01T00:11:02+0000",
+            "vcs_last_fetch": "2022-03-10T09:03:10+0000",
             "vcs_last_rev": "3814b5ec1686a66d6648fd014e2195b63512472b",
             "vcs_subdir": "",
             "version": "1",
@@ -517,7 +531,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "Qt Widget Extension for Technical Applications",
-            "updated": "2021-11-01T00:11:40+0000"
+            "updated": "2022-03-10T09:03:47+0000"
         },
         {
             "bbclassextend": "",
@@ -540,7 +554,7 @@
             "section": "base",
             "srcrev": "cade213f562049400da81e60762400df68d7c56b",
             "summary": "",
-            "updated": "2021-11-01T00:11:41+0000"
+            "updated": "2022-03-10T09:03:47+0000"
         },
         {
             "bbclassextend": "",
@@ -563,7 +577,7 @@
             "section": "base",
             "srcrev": "66b7fbaca4b323dce337e87e3093c8836577c561",
             "summary": "",
-            "updated": "2021-11-01T00:11:41+0000"
+            "updated": "2022-03-10T09:03:47+0000"
         },
         {
             "bbclassextend": "",
@@ -586,7 +600,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-11-01T00:11:41+0000"
+            "updated": "2022-03-10T09:03:48+0000"
         },
         {
             "bbclassextend": "",
@@ -609,7 +623,7 @@
             "section": "base",
             "srcrev": "5537ff4437ea7a5f9ea140071343f88bf48deddc",
             "summary": "QtWebEngine combines the power of Chromium and Qt",
-            "updated": "2021-11-01T00:11:41+0000"
+            "updated": "2022-03-10T09:03:48+0000"
         },
         {
             "bbclassextend": "",
@@ -632,7 +646,7 @@
             "section": "base",
             "srcrev": "5618198e6df5e0224f79f786a44af7527b431545",
             "summary": "",
-            "updated": "2021-11-01T00:11:42+0000"
+            "updated": "2022-03-10T09:03:48+0000"
         },
         {
             "bbclassextend": "",
@@ -655,7 +669,7 @@
             "section": "base",
             "srcrev": "628d3b8abd47ffde45252cf6591ed10ec2fa28ac",
             "summary": "",
-            "updated": "2021-11-01T00:11:42+0000"
+            "updated": "2022-03-10T09:03:49+0000"
         },
         {
             "bbclassextend": "",
@@ -678,7 +692,7 @@
             "section": "base",
             "srcrev": "40143c189b7c1bf3c2058b77d00ea5c4e3be8b28",
             "summary": "",
-            "updated": "2021-11-01T00:11:42+0000"
+            "updated": "2022-03-10T09:03:49+0000"
         },
         {
             "bbclassextend": "",
@@ -701,7 +715,7 @@
             "section": "base",
             "srcrev": "5da7de1800eee3d604eb7e787b114479b61ffc93",
             "summary": "",
-            "updated": "2021-11-01T00:11:43+0000"
+            "updated": "2022-03-10T09:03:50+0000"
         },
         {
             "bbclassextend": "",
@@ -724,7 +738,7 @@
             "section": "base",
             "srcrev": "e3332ee38d27a134cef6621fdaf36687af1b6f4a",
             "summary": "",
-            "updated": "2021-11-01T00:11:44+0000"
+            "updated": "2022-03-10T09:03:50+0000"
         },
         {
             "bbclassextend": "native nativesdk ",
@@ -747,7 +761,7 @@
             "section": "base",
             "srcrev": "3cc17177b1b03053276eb6236fda137c588261a7",
             "summary": "",
-            "updated": "2021-11-01T00:11:44+0000"
+            "updated": "2022-03-10T09:03:50+0000"
         },
         {
             "bbclassextend": "",
@@ -770,7 +784,7 @@
             "section": "base",
             "srcrev": "1168c788a117e4556e6cd0ba1e267a86ef62b0c4",
             "summary": "",
-            "updated": "2021-11-01T00:11:44+0000"
+            "updated": "2022-03-10T09:03:51+0000"
         },
         {
             "bbclassextend": "native nativesdk ",
@@ -793,7 +807,7 @@
             "section": "base",
             "srcrev": "104eae5b17b0ec700391e9539ee3a4f638588194",
             "summary": "",
-            "updated": "2021-11-01T00:11:45+0000"
+            "updated": "2022-03-10T09:03:51+0000"
         },
         {
             "bbclassextend": "",
@@ -816,7 +830,7 @@
             "section": "base",
             "srcrev": "ca6cc606d9fc0947ea6c27738a1ca8f12f3258ea",
             "summary": "",
-            "updated": "2021-11-01T00:11:45+0000"
+            "updated": "2022-03-10T09:03:52+0000"
         },
         {
             "bbclassextend": "",
@@ -839,7 +853,7 @@
             "section": "base",
             "srcrev": "1aa9b03756baead139943712839af5ecedeb2989",
             "summary": "",
-            "updated": "2021-11-01T00:11:45+0000"
+            "updated": "2022-03-10T09:03:52+0000"
         },
         {
             "bbclassextend": "",
@@ -862,7 +876,7 @@
             "section": "base",
             "srcrev": "b53aeb784f950d7b2a5ebe38ea37c5bb6f456c9c",
             "summary": "",
-            "updated": "2021-11-01T00:11:46+0000"
+            "updated": "2022-03-10T09:03:52+0000"
         },
         {
             "bbclassextend": "native nativesdk ",
@@ -885,7 +899,7 @@
             "section": "base",
             "srcrev": "95aa78be795a862b95371afa75e1417029ec0a16",
             "summary": "",
-            "updated": "2021-11-01T00:11:46+0000"
+            "updated": "2022-03-10T09:03:53+0000"
         },
         {
             "bbclassextend": "",
@@ -908,7 +922,7 @@
             "section": "base",
             "srcrev": "fd30913d4601d12437404e1d20113a1ed6364ccc",
             "summary": "",
-            "updated": "2021-11-01T00:11:46+0000"
+            "updated": "2022-03-10T09:03:53+0000"
         },
         {
             "bbclassextend": "",
@@ -931,7 +945,7 @@
             "section": "libs",
             "srcrev": "40143c189b7c1bf3c2058b77d00ea5c4e3be8b28",
             "summary": "",
-            "updated": "2021-11-01T00:11:47+0000"
+            "updated": "2022-03-10T09:03:54+0000"
         },
         {
             "bbclassextend": "",
@@ -954,7 +968,7 @@
             "section": "base",
             "srcrev": "52d3788c7b0116ea3db232dccca5f1e3f1e229ac",
             "summary": "",
-            "updated": "2021-11-01T00:11:47+0000"
+            "updated": "2022-03-10T09:03:54+0000"
         },
         {
             "bbclassextend": "",
@@ -977,7 +991,7 @@
             "section": "base",
             "srcrev": "7c29283041a50def3ceca7de4471f211c9b30d4e",
             "summary": "",
-            "updated": "2021-11-01T00:11:48+0000"
+            "updated": "2022-03-10T09:03:54+0000"
         },
         {
             "bbclassextend": "",
@@ -1000,7 +1014,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-11-01T00:11:48+0000"
+            "updated": "2022-03-10T09:03:54+0000"
         },
         {
             "bbclassextend": "native nativesdk ",
@@ -1023,7 +1037,7 @@
             "section": "base",
             "srcrev": "50421402f05b3ee3c76c6cff455a69efaf576b6d",
             "summary": "",
-            "updated": "2021-11-01T00:11:48+0000"
+            "updated": "2022-03-10T09:03:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1046,7 +1060,7 @@
             "section": "base",
             "srcrev": "7b90415c58dd02c682a9ba317f273d7b3398ff88",
             "summary": "",
-            "updated": "2021-11-01T00:11:49+0000"
+            "updated": "2022-03-10T09:03:55+0000"
         },
         {
             "bbclassextend": "",
@@ -1069,7 +1083,7 @@
             "section": "base",
             "srcrev": "90cffd49575b075b0dc28440c693753d860fee87",
             "summary": "",
-            "updated": "2021-11-01T00:11:49+0000"
+            "updated": "2022-03-10T09:03:55+0000"
         },
         {
             "bbclassextend": " native nativesdk",
@@ -1092,7 +1106,7 @@
             "section": "base",
             "srcrev": "8e889442508e284691c923470eb4552c96afdfe3",
             "summary": "",
-            "updated": "2021-11-01T00:11:50+0000"
+            "updated": "2022-03-10T09:03:56+0000"
         },
         {
             "bbclassextend": "",
@@ -1115,7 +1129,7 @@
             "section": "base",
             "srcrev": "9bb0adeac84da6723cf57a2bb0d0c3b405691a15",
             "summary": "",
-            "updated": "2021-11-01T00:11:50+0000"
+            "updated": "2022-03-10T09:03:56+0000"
         },
         {
             "bbclassextend": "",
@@ -1138,7 +1152,7 @@
             "section": "base",
             "srcrev": "ddfa4d16243128d2871a51c513e025d518151b17",
             "summary": "",
-            "updated": "2021-11-01T00:11:50+0000"
+            "updated": "2022-03-10T09:03:56+0000"
         },
         {
             "bbclassextend": "",
@@ -1161,7 +1175,7 @@
             "section": "base",
             "srcrev": "ff933a4e72826a77c81c4153f1adcf765ead35f0",
             "summary": "",
-            "updated": "2021-11-01T00:11:50+0000"
+            "updated": "2022-03-10T09:03:56+0000"
         },
         {
             "bbclassextend": "",
@@ -1184,7 +1198,7 @@
             "section": "base",
             "srcrev": "0d2ce613010c0cc9c69f6821c06a34b6721482b4",
             "summary": "",
-            "updated": "2021-11-01T00:11:50+0000"
+            "updated": "2022-03-10T09:03:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1207,7 +1221,7 @@
             "section": "base",
             "srcrev": "800926cc4e0ecfdb37a3b34486403354b66a37a4",
             "summary": "",
-            "updated": "2021-11-01T00:11:51+0000"
+            "updated": "2022-03-10T09:03:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1230,7 +1244,7 @@
             "section": "base",
             "srcrev": "192e376b01e65e7277772bdc94106613c22cf531",
             "summary": "",
-            "updated": "2021-11-01T00:11:51+0000"
+            "updated": "2022-03-10T09:03:57+0000"
         },
         {
             "bbclassextend": "",
@@ -1253,7 +1267,7 @@
             "section": "base",
             "srcrev": "fb2d6d47a0c961278d63309789a1141c3734818b",
             "summary": "",
-            "updated": "2021-11-01T00:11:51+0000"
+            "updated": "2022-03-10T09:03:58+0000"
         },
         {
             "bbclassextend": "",
@@ -1276,7 +1290,7 @@
             "section": "base",
             "srcrev": "909f74dc56201de9fc06fbe4e4ea368245bc0dd8",
             "summary": "Qt Creator is a new cross-platform Qt IDE",
-            "updated": "2021-11-01T00:11:51+0000"
+            "updated": "2022-03-10T09:03:58+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1299,7 +1313,7 @@
             "section": "base",
             "srcrev": "cc52debd905e0ed061290d6fd00a5f1ab67478a5",
             "summary": "",
-            "updated": "2021-11-01T00:11:52+0000"
+            "updated": "2022-03-10T09:03:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1322,7 +1336,7 @@
             "section": "base",
             "srcrev": "a67f812548b008e3eedcd2bb9313828a195fd23b",
             "summary": "",
-            "updated": "2021-11-01T00:11:52+0000"
+            "updated": "2022-03-10T09:03:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1345,7 +1359,7 @@
             "section": "base",
             "srcrev": "147ad75c589fc4804429710fdb177cc48a80dbea",
             "summary": "",
-            "updated": "2021-11-01T00:11:52+0000"
+            "updated": "2022-03-10T09:03:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1368,7 +1382,7 @@
             "section": "base",
             "srcrev": "5e41e564aaf96b7e49403af5099995efbe4cac8e",
             "summary": "",
-            "updated": "2021-11-01T00:11:52+0000"
+            "updated": "2022-03-10T09:03:59+0000"
         },
         {
             "bbclassextend": "",
@@ -1391,7 +1405,7 @@
             "section": "base",
             "srcrev": "16f27dfa3588c2bf377568ce00bf534af48c9558",
             "summary": "",
-            "updated": "2021-11-01T00:11:53+0000"
+            "updated": "2022-03-10T09:03:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1414,7 +1428,7 @@
             "section": "base",
             "srcrev": "74a5bc4a45195b876454e596e76cb23aeb365410",
             "summary": "",
-            "updated": "2021-11-01T00:11:53+0000"
+            "updated": "2022-03-10T09:03:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1437,7 +1451,7 @@
             "section": "base",
             "srcrev": "b182dcd78a35b4667b2568857b7719d555c7fddb",
             "summary": "",
-            "updated": "2021-11-01T00:11:53+0000"
+            "updated": "2022-03-10T09:03:00+0000"
         },
         {
             "bbclassextend": "",
@@ -1460,7 +1474,7 @@
             "section": "base",
             "srcrev": "3f2bdb5a1d346f02d5ab185522271ba2288a42bb",
             "summary": "Touchscreen driver for integrated mouse pointer in VirtualBox",
-            "updated": "2021-11-01T00:11:53+0000"
+            "updated": "2022-03-10T09:03:01+0000"
         },
         {
             "bbclassextend": " native nativesdk",
@@ -1483,7 +1497,7 @@
             "section": "base",
             "srcrev": "34171b1d99f55fde1627df3c57eed50480ab2ae7",
             "summary": "",
-            "updated": "2021-11-01T00:11:54+0000"
+            "updated": "2022-03-10T09:03:01+0000"
         },
         {
             "bbclassextend": "",
@@ -1506,13 +1520,13 @@
             "section": "libs",
             "srcrev": "40143c189b7c1bf3c2058b77d00ea5c4e3be8b28",
             "summary": "",
-            "updated": "2021-11-01T00:11:54+0000"
+            "updated": "2022-03-10T09:03:02+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DOE_QMAKE_PATH_PREFIX=/usr     -DOE_QMAKE_PATH_HEADERS=/usr/include     -DOE_QMAKE_PATH_LIBS=/usr/lib     -DOE_QMAKE_PATH_ARCHDATA=/usr/lib     -DOE_QMAKE_PATH_DATA=/usr/share     -DOE_QMAKE_PATH_BINS=/usr/bin     -DOE_QMAKE_PATH_LIBEXECS=/usr/lib/libexec     -DOE_QMAKE_PATH_PLUGINS=/usr/lib/plugins     -DOE_QMAKE_PATH_QML=/usr/lib/qml     -DOE_QMAKE_PATH_TRANSLATIONS=/usr/share/translations     -DOE_QMAKE_PATH_DOCS=/usr/share/doc     -DOE_QMAKE_PATH_SETTINGS=/etc     -DOE_QMAKE_PATH_EXAMPLES=/usr/share/examples     -DOE_QMAKE_PATH_TESTS=/usr/share/tests     -DOE_QMAKE_PATH_HOST_PREFIX=/tmp/tmp3k5icftl/tmp-glibc/work/core2-32-oe-linux/qtwebkit/5.15.2+gitX-r0/recipe-sysroot-native     -DOE_QMAKE_PATH_HOST_BINS=/usr/bin     -DOE_QMAKE_PATH_HOST_DATA=/tmp/tmp3k5icftl/tmp-glibc/work/core2-32-oe-linux/qtwebkit/5.15.2+gitX-r0/recipe-sysroot/usr/lib     -DOE_QMAKE_PATH_HOST_LIBS=/tmp/tmp3k5icftl/tmp-glibc/work/core2-32-oe-linux/qtwebkit/5.15.2+gitX-r0/recipe-sysroot/usr/lib     -DOE_QMAKE_PATH_EXTERNAL_HOST_BINS=/tmp/tmp3k5icftl/tmp-glibc/work/core2-32-oe-linux/qtwebkit/5.15.2+gitX-r0/recipe-sysroot-native/usr/bin     -DOE_QMAKE_PATH_QT_HEADERS=/usr/include     -DOE_QMAKE_PATH_QT_ARCHDATA=/usr/lib     -DOE_QMAKE_PATH_QT_DATA=/usr/share     -DOE_QMAKE_PATH_QT_BINS=/usr/bin     -DOE_QMAKE_PATH_QT_TRANSLATIONS=/usr/share/translations     -DOE_QMAKE_PATH_QT_DOCS=/usr/share/doc     -DOE_QMAKE_PATH_QT_SETTINGS=/etc     -DOE_QMAKE_PATH_QT_EXAMPLES=/usr/share/examples     -DOE_QMAKE_PATH_QT_TESTS=/usr/share/tests       -DPORT=Qt     -DCROSS_COMPILE=ON     -DCMAKE_BUILD_TYPE=release     -DECM_MKSPECS_INSTALL_DIR=/usr/lib/mkspecs/modules     -DQML_INSTALL_DIR=/usr/lib/qml     -DPYTHON_EXECUTABLE=`which python3`   -DENABLE_TEST_SUPPORT=ON -DUSE_GSTREAMER=OFF -DUSE_LIBHYPHEN=OFF -DENABLE_GEOLOCATION=ON -DUSE_QT_MULTIMEDIA=ON -DENABLE_DEVICE_ORIENTATION=ON -DENABLE_QT_WEBCHANNEL=ON -DENABLE_X11_TARGET=ON",
+            "configopts": "     -DOE_QMAKE_PATH_PREFIX=/usr     -DOE_QMAKE_PATH_HEADERS=/usr/include     -DOE_QMAKE_PATH_LIBS=/usr/lib     -DOE_QMAKE_PATH_ARCHDATA=/usr/lib     -DOE_QMAKE_PATH_DATA=/usr/share     -DOE_QMAKE_PATH_BINS=/usr/bin     -DOE_QMAKE_PATH_LIBEXECS=/usr/lib/libexec     -DOE_QMAKE_PATH_PLUGINS=/usr/lib/plugins     -DOE_QMAKE_PATH_QML=/usr/lib/qml     -DOE_QMAKE_PATH_TRANSLATIONS=/usr/share/translations     -DOE_QMAKE_PATH_DOCS=/usr/share/doc     -DOE_QMAKE_PATH_SETTINGS=/etc     -DOE_QMAKE_PATH_EXAMPLES=/usr/share/examples     -DOE_QMAKE_PATH_TESTS=/usr/share/tests     -DOE_QMAKE_PATH_HOST_PREFIX=/tmp/tmpzhftszw_/tmp-glibc/work/core2-32-oe-linux/qtwebkit/5.15.2+gitX-r0/recipe-sysroot-native     -DOE_QMAKE_PATH_HOST_BINS=/usr/bin     -DOE_QMAKE_PATH_HOST_DATA=/tmp/tmpzhftszw_/tmp-glibc/work/core2-32-oe-linux/qtwebkit/5.15.2+gitX-r0/recipe-sysroot/usr/lib     -DOE_QMAKE_PATH_HOST_LIBS=/tmp/tmpzhftszw_/tmp-glibc/work/core2-32-oe-linux/qtwebkit/5.15.2+gitX-r0/recipe-sysroot/usr/lib     -DOE_QMAKE_PATH_EXTERNAL_HOST_BINS=/tmp/tmpzhftszw_/tmp-glibc/work/core2-32-oe-linux/qtwebkit/5.15.2+gitX-r0/recipe-sysroot-native/usr/bin     -DOE_QMAKE_PATH_QT_HEADERS=/usr/include     -DOE_QMAKE_PATH_QT_ARCHDATA=/usr/lib     -DOE_QMAKE_PATH_QT_DATA=/usr/share     -DOE_QMAKE_PATH_QT_BINS=/usr/bin     -DOE_QMAKE_PATH_QT_TRANSLATIONS=/usr/share/translations     -DOE_QMAKE_PATH_QT_DOCS=/usr/share/doc     -DOE_QMAKE_PATH_QT_SETTINGS=/etc     -DOE_QMAKE_PATH_QT_EXAMPLES=/usr/share/examples     -DOE_QMAKE_PATH_QT_TESTS=/usr/share/tests       -DPORT=Qt     -DCROSS_COMPILE=ON     -DCMAKE_BUILD_TYPE=release     -DECM_MKSPECS_INSTALL_DIR=/usr/lib/mkspecs/modules     -DQML_INSTALL_DIR=/usr/lib/qml     -DPYTHON_EXECUTABLE=`which python3`   -DENABLE_TEST_SUPPORT=ON -DUSE_GSTREAMER=OFF -DUSE_LIBHYPHEN=OFF -DENABLE_GEOLOCATION=ON -DUSE_QT_MULTIMEDIA=ON -DENABLE_DEVICE_ORIENTATION=ON -DENABLE_QT_WEBCHANNEL=ON -DENABLE_X11_TARGET=ON",
             "description": "",
             "filename": "qtwebkit_git.bb",
             "filepath": "recipes-qt/qt5",
@@ -1529,7 +1543,7 @@
             "section": "base",
             "srcrev": "10cd6a106e1c461c774ca166a67b8c835c755ef7",
             "summary": "",
-            "updated": "2021-11-01T00:11:54+0000"
+            "updated": "2022-03-10T09:03:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1552,7 +1566,7 @@
             "section": "base",
             "srcrev": "cb1857418b36780b0444333f3aa6250ca3780f19",
             "summary": "",
-            "updated": "2021-11-01T00:11:55+0000"
+            "updated": "2022-03-10T09:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1575,7 +1589,7 @@
             "section": "base",
             "srcrev": "f73735911b2124ef16aa39228bf8f89ee900ba5d",
             "summary": "",
-            "updated": "2021-11-01T00:11:55+0000"
+            "updated": "2022-03-10T09:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1598,7 +1612,7 @@
             "section": "base",
             "srcrev": "6d45793cae6f9e744c7bba82f905e431978ce3d0",
             "summary": "",
-            "updated": "2021-11-01T00:11:55+0000"
+            "updated": "2022-03-10T09:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1621,7 +1635,7 @@
             "section": "base",
             "srcrev": "d42b7d9050b5445e2b9430022a46d5d583581631",
             "summary": "Qt Kiosk Browser",
-            "updated": "2021-11-01T00:11:56+0000"
+            "updated": "2022-03-10T09:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1644,7 +1658,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Meta package for building an installable Qt5 toolchain and SDK",
-            "updated": "2021-11-01T00:11:56+0000"
+            "updated": "2022-03-10T09:03:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1667,7 +1681,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Remote debugging tools for QtCreator integration",
-            "updated": "2021-11-01T00:11:56+0000"
+            "updated": "2022-03-10T09:03:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1690,7 +1704,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Host packages for the Qt5 standalone SDK or external toolchain",
-            "updated": "2021-11-01T00:11:56+0000"
+            "updated": "2022-03-10T09:03:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1713,7 +1727,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-11-01T00:11:56+0000"
+            "updated": "2022-03-10T09:03:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1736,7 +1750,7 @@
             "section": "base",
             "srcrev": "7b9810b0f02f9ac74fae3ead6e2e9fb5c1382173",
             "summary": "Qt Simple Image Viewer",
-            "updated": "2021-11-01T00:11:56+0000"
+            "updated": "2022-03-10T09:03:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1759,7 +1773,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Qt/C++ wrapper for ZIP/UNZIP package",
-            "updated": "2021-11-01T00:11:57+0000"
+            "updated": "2022-03-10T09:03:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1782,7 +1796,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "NMap Carousel application is demonstrating the normal mapping technique using Qt5",
-            "updated": "2021-11-01T00:11:57+0000"
+            "updated": "2022-03-10T09:03:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1805,7 +1819,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Qt5 smarthome QML demo application",
-            "updated": "2021-11-01T00:11:57+0000"
+            "updated": "2022-03-10T09:03:05+0000"
         },
         {
             "bbclassextend": "",
@@ -1828,7 +1842,7 @@
             "section": "base",
             "srcrev": "35d72a2eba7456a2efc5eb8b77afbc00f69ba0ac",
             "summary": "Qt5 everywhere demo",
-            "updated": "2021-11-01T00:11:57+0000"
+            "updated": "2022-03-10T09:03:05+0000"
         },
         {
             "bbclassextend": "",
@@ -1851,7 +1865,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Qt5 technology demo",
-            "updated": "2021-11-01T00:11:58+0000"
+            "updated": "2022-03-10T09:03:05+0000"
         },
         {
             "bbclassextend": "",
@@ -1874,7 +1888,7 @@
             "section": "base",
             "srcrev": "938390507054ed1258345f70ed55770d2fe56176",
             "summary": "Qt5 OpenGL ES 2.0 Test Application",
-            "updated": "2021-11-01T00:11:58+0000"
+            "updated": "2022-03-10T09:03:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1897,7 +1911,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "QT5 LedScreen",
-            "updated": "2021-11-01T00:11:58+0000"
+            "updated": "2022-03-10T09:03:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1920,7 +1934,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "QT5 NMapper application",
-            "updated": "2021-11-01T00:11:59+0000"
+            "updated": "2022-03-10T09:03:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1943,7 +1957,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "QT5 QUItBattery",
-            "updated": "2021-11-01T00:11:59+0000"
+            "updated": "2022-03-10T09:03:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1966,7 +1980,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "QUItIndicators components with few usage examples",
-            "updated": "2021-11-01T00:11:59+0000"
+            "updated": "2022-03-10T09:03:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1989,7 +2003,7 @@
             "section": "base",
             "srcrev": "60b1b10de14f932420313c547ab801daf522d539",
             "summary": "",
-            "updated": "2021-11-01T00:11:59+0000"
+            "updated": "2022-03-10T09:03:07+0000"
         },
         {
             "bbclassextend": "",
@@ -2012,7 +2026,7 @@
             "section": "base",
             "srcrev": "c6a348592607248a771a3dde5a0e33dc3c433a2a",
             "summary": "",
-            "updated": "2021-11-01T00:11:00+0000"
+            "updated": "2022-03-10T09:03:07+0000"
         },
         {
             "bbclassextend": "",
@@ -2035,7 +2049,7 @@
             "section": "base",
             "srcrev": "71750df4f0c6bbadcd422cdf7fe360ad033bbd14",
             "summary": "",
-            "updated": "2021-11-01T00:11:00+0000"
+            "updated": "2022-03-10T09:03:07+0000"
         },
         {
             "bbclassextend": "",
@@ -2058,7 +2072,7 @@
             "section": "base",
             "srcrev": "0c7bf141b08aa9e757e91a4a05769257d043eab2",
             "summary": "",
-            "updated": "2021-11-01T00:11:00+0000"
+            "updated": "2022-03-10T09:03:07+0000"
         },
         {
             "bbclassextend": "",
@@ -2081,13 +2095,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-11-01T00:11:00+0000"
+            "updated": "2022-03-10T09:03:08+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DOE_QMAKE_PATH_PREFIX=/usr     -DOE_QMAKE_PATH_HEADERS=/usr/include     -DOE_QMAKE_PATH_LIBS=/usr/lib     -DOE_QMAKE_PATH_ARCHDATA=/usr/lib     -DOE_QMAKE_PATH_DATA=/usr/share     -DOE_QMAKE_PATH_BINS=/usr/bin     -DOE_QMAKE_PATH_LIBEXECS=/usr/lib/libexec     -DOE_QMAKE_PATH_PLUGINS=/usr/lib/plugins     -DOE_QMAKE_PATH_QML=/usr/lib/qml     -DOE_QMAKE_PATH_TRANSLATIONS=/usr/share/translations     -DOE_QMAKE_PATH_DOCS=/usr/share/doc     -DOE_QMAKE_PATH_SETTINGS=/etc     -DOE_QMAKE_PATH_EXAMPLES=/usr/share/examples     -DOE_QMAKE_PATH_TESTS=/usr/share/tests     -DOE_QMAKE_PATH_HOST_PREFIX=/tmp/tmp3k5icftl/tmp-glibc/work/core2-32-oe-linux/tufao/1.3.10+X-r0/recipe-sysroot-native     -DOE_QMAKE_PATH_HOST_BINS=/usr/bin     -DOE_QMAKE_PATH_HOST_DATA=/tmp/tmp3k5icftl/tmp-glibc/work/core2-32-oe-linux/tufao/1.3.10+X-r0/recipe-sysroot/usr/lib     -DOE_QMAKE_PATH_HOST_LIBS=/tmp/tmp3k5icftl/tmp-glibc/work/core2-32-oe-linux/tufao/1.3.10+X-r0/recipe-sysroot/usr/lib     -DOE_QMAKE_PATH_EXTERNAL_HOST_BINS=/tmp/tmp3k5icftl/tmp-glibc/work/core2-32-oe-linux/tufao/1.3.10+X-r0/recipe-sysroot-native/usr/bin     -DOE_QMAKE_PATH_QT_HEADERS=/usr/include     -DOE_QMAKE_PATH_QT_ARCHDATA=/usr/lib     -DOE_QMAKE_PATH_QT_DATA=/usr/share     -DOE_QMAKE_PATH_QT_BINS=/usr/bin     -DOE_QMAKE_PATH_QT_TRANSLATIONS=/usr/share/translations     -DOE_QMAKE_PATH_QT_DOCS=/usr/share/doc     -DOE_QMAKE_PATH_QT_SETTINGS=/etc     -DOE_QMAKE_PATH_QT_EXAMPLES=/usr/share/examples     -DOE_QMAKE_PATH_QT_TESTS=/usr/share/tests  ",
+            "configopts": "     -DOE_QMAKE_PATH_PREFIX=/usr     -DOE_QMAKE_PATH_HEADERS=/usr/include     -DOE_QMAKE_PATH_LIBS=/usr/lib     -DOE_QMAKE_PATH_ARCHDATA=/usr/lib     -DOE_QMAKE_PATH_DATA=/usr/share     -DOE_QMAKE_PATH_BINS=/usr/bin     -DOE_QMAKE_PATH_LIBEXECS=/usr/lib/libexec     -DOE_QMAKE_PATH_PLUGINS=/usr/lib/plugins     -DOE_QMAKE_PATH_QML=/usr/lib/qml     -DOE_QMAKE_PATH_TRANSLATIONS=/usr/share/translations     -DOE_QMAKE_PATH_DOCS=/usr/share/doc     -DOE_QMAKE_PATH_SETTINGS=/etc     -DOE_QMAKE_PATH_EXAMPLES=/usr/share/examples     -DOE_QMAKE_PATH_TESTS=/usr/share/tests     -DOE_QMAKE_PATH_HOST_PREFIX=/tmp/tmpzhftszw_/tmp-glibc/work/core2-32-oe-linux/tufao/1.3.10+X-r0/recipe-sysroot-native     -DOE_QMAKE_PATH_HOST_BINS=/usr/bin     -DOE_QMAKE_PATH_HOST_DATA=/tmp/tmpzhftszw_/tmp-glibc/work/core2-32-oe-linux/tufao/1.3.10+X-r0/recipe-sysroot/usr/lib     -DOE_QMAKE_PATH_HOST_LIBS=/tmp/tmpzhftszw_/tmp-glibc/work/core2-32-oe-linux/tufao/1.3.10+X-r0/recipe-sysroot/usr/lib     -DOE_QMAKE_PATH_EXTERNAL_HOST_BINS=/tmp/tmpzhftszw_/tmp-glibc/work/core2-32-oe-linux/tufao/1.3.10+X-r0/recipe-sysroot-native/usr/bin     -DOE_QMAKE_PATH_QT_HEADERS=/usr/include     -DOE_QMAKE_PATH_QT_ARCHDATA=/usr/lib     -DOE_QMAKE_PATH_QT_DATA=/usr/share     -DOE_QMAKE_PATH_QT_BINS=/usr/bin     -DOE_QMAKE_PATH_QT_TRANSLATIONS=/usr/share/translations     -DOE_QMAKE_PATH_QT_DOCS=/usr/share/doc     -DOE_QMAKE_PATH_QT_SETTINGS=/etc     -DOE_QMAKE_PATH_QT_EXAMPLES=/usr/share/examples     -DOE_QMAKE_PATH_QT_TESTS=/usr/share/tests  ",
             "description": "",
             "filename": "tufao_1.3.10.bb",
             "filepath": "recipes-qt/tufao",
@@ -2104,7 +2118,7 @@
             "section": "base",
             "srcrev": "ad505c32d0ba14c3c616de8ba4c7eb79396c20a6",
             "summary": "An asynchronous web framework for C++ built on top of Qt",
-            "updated": "2021-11-01T00:11:01+0000"
+            "updated": "2022-03-10T09:03:08+0000"
         },
         {
             "bbclassextend": "",
@@ -2127,7 +2141,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python Qt5 Bindings",
-            "updated": "2021-11-01T00:11:01+0000"
+            "updated": "2022-03-10T09:03:08+0000"
         },
         {
             "bbclassextend": "",
@@ -2150,13 +2164,13 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Python Qt Chart Bindings",
-            "updated": "2021-11-01T00:11:01+0000"
+            "updated": "2022-03-10T09:03:09+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": "     -DOE_QMAKE_PATH_PREFIX=/usr     -DOE_QMAKE_PATH_HEADERS=/usr/include     -DOE_QMAKE_PATH_LIBS=/usr/lib     -DOE_QMAKE_PATH_ARCHDATA=/usr/lib     -DOE_QMAKE_PATH_DATA=/usr/share     -DOE_QMAKE_PATH_BINS=/usr/bin     -DOE_QMAKE_PATH_LIBEXECS=/usr/lib/libexec     -DOE_QMAKE_PATH_PLUGINS=/usr/lib/plugins     -DOE_QMAKE_PATH_QML=/usr/lib/qml     -DOE_QMAKE_PATH_TRANSLATIONS=/usr/share/translations     -DOE_QMAKE_PATH_DOCS=/usr/share/doc     -DOE_QMAKE_PATH_SETTINGS=/etc     -DOE_QMAKE_PATH_EXAMPLES=/usr/share/examples     -DOE_QMAKE_PATH_TESTS=/usr/share/tests     -DOE_QMAKE_PATH_HOST_PREFIX=/tmp/tmp3k5icftl/tmp-glibc/work/core2-32-oe-linux/libvcard/1.0+gitrX-r0/recipe-sysroot-native     -DOE_QMAKE_PATH_HOST_BINS=/usr/bin     -DOE_QMAKE_PATH_HOST_DATA=/tmp/tmp3k5icftl/tmp-glibc/work/core2-32-oe-linux/libvcard/1.0+gitrX-r0/recipe-sysroot/usr/lib     -DOE_QMAKE_PATH_HOST_LIBS=/tmp/tmp3k5icftl/tmp-glibc/work/core2-32-oe-linux/libvcard/1.0+gitrX-r0/recipe-sysroot/usr/lib     -DOE_QMAKE_PATH_EXTERNAL_HOST_BINS=/tmp/tmp3k5icftl/tmp-glibc/work/core2-32-oe-linux/libvcard/1.0+gitrX-r0/recipe-sysroot-native/usr/bin     -DOE_QMAKE_PATH_QT_HEADERS=/usr/include     -DOE_QMAKE_PATH_QT_ARCHDATA=/usr/lib     -DOE_QMAKE_PATH_QT_DATA=/usr/share     -DOE_QMAKE_PATH_QT_BINS=/usr/bin     -DOE_QMAKE_PATH_QT_TRANSLATIONS=/usr/share/translations     -DOE_QMAKE_PATH_QT_DOCS=/usr/share/doc     -DOE_QMAKE_PATH_QT_SETTINGS=/etc     -DOE_QMAKE_PATH_QT_EXAMPLES=/usr/share/examples     -DOE_QMAKE_PATH_QT_TESTS=/usr/share/tests  ",
+            "configopts": "     -DOE_QMAKE_PATH_PREFIX=/usr     -DOE_QMAKE_PATH_HEADERS=/usr/include     -DOE_QMAKE_PATH_LIBS=/usr/lib     -DOE_QMAKE_PATH_ARCHDATA=/usr/lib     -DOE_QMAKE_PATH_DATA=/usr/share     -DOE_QMAKE_PATH_BINS=/usr/bin     -DOE_QMAKE_PATH_LIBEXECS=/usr/lib/libexec     -DOE_QMAKE_PATH_PLUGINS=/usr/lib/plugins     -DOE_QMAKE_PATH_QML=/usr/lib/qml     -DOE_QMAKE_PATH_TRANSLATIONS=/usr/share/translations     -DOE_QMAKE_PATH_DOCS=/usr/share/doc     -DOE_QMAKE_PATH_SETTINGS=/etc     -DOE_QMAKE_PATH_EXAMPLES=/usr/share/examples     -DOE_QMAKE_PATH_TESTS=/usr/share/tests     -DOE_QMAKE_PATH_HOST_PREFIX=/tmp/tmpzhftszw_/tmp-glibc/work/core2-32-oe-linux/libvcard/1.0+gitrX-r0/recipe-sysroot-native     -DOE_QMAKE_PATH_HOST_BINS=/usr/bin     -DOE_QMAKE_PATH_HOST_DATA=/tmp/tmpzhftszw_/tmp-glibc/work/core2-32-oe-linux/libvcard/1.0+gitrX-r0/recipe-sysroot/usr/lib     -DOE_QMAKE_PATH_HOST_LIBS=/tmp/tmpzhftszw_/tmp-glibc/work/core2-32-oe-linux/libvcard/1.0+gitrX-r0/recipe-sysroot/usr/lib     -DOE_QMAKE_PATH_EXTERNAL_HOST_BINS=/tmp/tmpzhftszw_/tmp-glibc/work/core2-32-oe-linux/libvcard/1.0+gitrX-r0/recipe-sysroot-native/usr/bin     -DOE_QMAKE_PATH_QT_HEADERS=/usr/include     -DOE_QMAKE_PATH_QT_ARCHDATA=/usr/lib     -DOE_QMAKE_PATH_QT_DATA=/usr/share     -DOE_QMAKE_PATH_QT_BINS=/usr/bin     -DOE_QMAKE_PATH_QT_TRANSLATIONS=/usr/share/translations     -DOE_QMAKE_PATH_QT_DOCS=/usr/share/doc     -DOE_QMAKE_PATH_QT_SETTINGS=/etc     -DOE_QMAKE_PATH_QT_EXAMPLES=/usr/share/examples     -DOE_QMAKE_PATH_QT_TESTS=/usr/share/tests  ",
             "description": "Qt vCard library",
             "filename": "libvcard_git.bb",
             "filepath": "recipes-connectivity/libvcard",
@@ -2173,7 +2187,7 @@
             "section": "libs",
             "srcrev": "4250e2468552ea01954244a2d9cd5d2b44b00042",
             "summary": "",
-            "updated": "2021-11-01T00:11:01+0000"
+            "updated": "2022-03-10T09:03:09+0000"
         },
         {
             "bbclassextend": "",
@@ -2196,7 +2210,7 @@
             "section": "libs",
             "srcrev": "4eec0c726844b8293eeab7312c96956a77d40e90",
             "summary": "",
-            "updated": "2021-11-01T00:11:02+0000"
+            "updated": "2022-03-10T09:03:09+0000"
         },
         {
             "bbclassextend": "",
@@ -2219,7 +2233,7 @@
             "section": "libs",
             "srcrev": "bd0999247f3c6446463f83b1f86c3de39c1a5425",
             "summary": "",
-            "updated": "2021-11-01T00:11:02+0000"
+            "updated": "2022-03-10T09:03:09+0000"
         },
         {
             "bbclassextend": "",
@@ -2242,7 +2256,7 @@
             "section": "base",
             "srcrev": "a0b6b0d9a63f28ab41747892f415c89866d62e4a",
             "summary": "Qt Library for ConnMan",
-            "updated": "2021-11-01T00:11:02+0000"
+            "updated": "2022-03-10T09:03:10+0000"
         }
     ],
     "wrtemplates": []

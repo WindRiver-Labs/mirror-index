@@ -205,13 +205,6 @@
         },
         {
             "description": "",
-            "id": 42543,
-            "image_url": "",
-            "link_url": "",
-            "name": "3.4 wrl"
-        },
-        {
-            "description": "",
             "id": 42544,
             "image_url": "",
             "link_url": "",
@@ -237,13 +230,6 @@
             "image_url": "",
             "link_url": "",
             "name": "3.4"
-        },
-        {
-            "description": "",
-            "id": 42548,
-            "image_url": "",
-            "link_url": "",
-            "name": "3.1 3.3 3.4"
         },
         {
             "description": "",
@@ -391,6 +377,34 @@
             "image_url": "",
             "link_url": "",
             "name": "3.4 3.5"
+        },
+        {
+            "description": "",
+            "id": 42573,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.5"
+        },
+        {
+            "description": "",
+            "id": 42574,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.5 wrl"
+        },
+        {
+            "description": "",
+            "id": 42575,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 3.5"
+        },
+        {
+            "description": "",
+            "id": 42576,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 3.5"
         }
     ],
     "branches": [
@@ -401,43 +415,28 @@
             "id": 240,
             "name": "WRLINUX_10_21_BASE",
             "short_description": "Wind River Linux 10_21 Baseline",
-            "sort_priority": 16,
+            "sort_priority": 17,
             "update_environment": null,
-            "updated": "2022-02-22T07:02:23+0000",
+            "updated": "2022-03-10T07:03:28+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.21-20211124",
+            "actual_branch": "wr-10.21-20220304",
             "branch": 240,
             "collection": "core",
             "id": 885774,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-02-15T00:02:39+0000",
-            "vcs_last_commit": "2022-02-14T23:02:08+0000",
-            "vcs_last_fetch": "2022-02-15T00:02:39+0000",
-            "vcs_last_rev": "d2464ae1da751c9158d03fe29682d8c19e1c3f27",
+            "updated": "2022-03-10T09:03:06+0000",
+            "vcs_last_commit": "2022-03-09T23:03:31+0000",
+            "vcs_last_fetch": "2022-03-10T09:03:06+0000",
+            "vcs_last_rev": "bfe7e358e91b68b56295f1173833b5e0f2f498cf",
             "vcs_subdir": "meta",
             "version": "12",
             "yp_compatible_version": 42545
-        },
-        {
-            "actual_branch": "wr-10.21-20210516",
-            "branch": 240,
-            "collection": "xilinx",
-            "id": 885802,
-            "layer": 358,
-            "local_path": "",
-            "updated": "2021-12-28T01:12:44+0000",
-            "vcs_last_commit": "2021-12-28T00:12:45+0000",
-            "vcs_last_fetch": "2021-12-28T01:12:44+0000",
-            "vcs_last_rev": "2e22d057d400bfdfbff59a9f59bf392dfe16eaa6",
-            "vcs_subdir": "meta-xilinx-bsp",
-            "version": null,
-            "yp_compatible_version": 42544
         },
         {
             "actual_branch": "wr-10.21-20210516",
@@ -446,9 +445,9 @@
             "id": 885824,
             "layer": 357,
             "local_path": "",
-            "updated": "2021-11-01T00:11:44+0000",
+            "updated": "2022-03-10T09:03:41+0000",
             "vcs_last_commit": "2021-06-15T01:06:05+0000",
-            "vcs_last_fetch": "2021-11-01T00:11:44+0000",
+            "vcs_last_fetch": "2022-03-10T09:03:41+0000",
             "vcs_last_rev": "fe527e7bddb263dd2b6f751eaafea9143c0cf20f",
             "vcs_subdir": "",
             "version": null,
@@ -461,10 +460,10 @@
             "id": 885826,
             "layer": 49,
             "local_path": "",
-            "updated": "2022-02-20T23:02:46+0000",
-            "vcs_last_commit": "2022-02-20T22:02:10+0000",
-            "vcs_last_fetch": "2022-02-20T23:02:46+0000",
-            "vcs_last_rev": "52f6b516b06fe0078250c8ee97e2aed2243bbc36",
+            "updated": "2022-03-10T13:03:42+0000",
+            "vcs_last_commit": "2022-03-10T12:03:40+0000",
+            "vcs_last_fetch": "2022-03-10T13:03:42+0000",
+            "vcs_last_rev": "3c2950ca5e809a9ee9a8617874a0f62cb7a7db2f",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42545
@@ -476,13 +475,28 @@
             "id": 885827,
             "layer": 83,
             "local_path": "",
-            "updated": "2022-02-06T19:02:35+0000",
+            "updated": "2022-03-10T09:03:43+0000",
             "vcs_last_commit": "2022-02-06T18:02:45+0000",
-            "vcs_last_fetch": "2022-02-06T19:02:35+0000",
+            "vcs_last_fetch": "2022-03-10T09:03:43+0000",
             "vcs_last_rev": "59366dc61c425b575efb38d28e27f0acf95c76bb",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42545
+        },
+        {
+            "actual_branch": "wr-10.21-20210516",
+            "branch": 240,
+            "collection": "xilinx",
+            "id": 899561,
+            "layer": 437,
+            "local_path": "",
+            "updated": "2022-03-10T09:03:55+0000",
+            "vcs_last_commit": "2021-12-28T00:12:45+0000",
+            "vcs_last_fetch": "2022-03-10T09:03:55+0000",
+            "vcs_last_rev": "2e22d057d400bfdfbff59a9f59bf392dfe16eaa6",
+            "vcs_subdir": "meta-xilinx-bsp",
+            "version": null,
+            "yp_compatible_version": 42544
         }
     ],
     "layerDependencies": [
@@ -499,22 +513,22 @@
             "required": true
         },
         {
-            "dependency": 358,
-            "id": 79259,
+            "dependency": 289,
+            "id": 79261,
+            "layerbranch": 885827,
+            "required": false
+        },
+        {
+            "dependency": 437,
+            "id": 92674,
             "layerbranch": 885827,
             "required": true
         },
         {
             "dependency": 357,
-            "id": 79260,
+            "id": 92675,
             "layerbranch": 885827,
             "required": true
-        },
-        {
-            "dependency": 289,
-            "id": 79261,
-            "layerbranch": 885827,
-            "required": false
         }
     ],
     "layerItems": [
@@ -597,15 +611,15 @@
         {
             "collection": "xilinx",
             "comparison": false,
-            "description": "Collection of layers to support Xilinx products\r\nPlease see the respective READMEs in the layer subdirectories",
-            "id": 358,
+            "description": "Meta xilnx BSPs.",
+            "id": 437,
             "index_preference": 0,
             "layer_type": "B",
             "mailing_list_url": "",
-            "name": "meta-xilinx",
+            "name": "meta-xilinx-bsp",
             "status": "P",
-            "summary": "Xilinx device and board support for Yocto/OE-core.",
-            "updated": "2020-07-06T01:07:26+0000",
+            "summary": "meta-xilinx-bsp",
+            "updated": "2022-03-04T01:03:21+0000",
             "usage_url": "",
             "vcs_url": "#BASE_URL#/meta-xilinx",
             "vcs_web_commit_url": "",
@@ -617,20 +631,20 @@
     "machines": [
         {
             "description": " Zynq Ultrascale+ MPSoC",
-            "id": 42441,
+            "id": 45763,
             "layerbranch": 885827,
             "name": "xilinx-zynqmp",
-            "updated": "2021-12-07T12:12:24+0000"
+            "updated": "2022-03-10T09:03:43+0000"
         }
     ],
     "recipes": [],
     "wrtemplates": [
         {
             "description": "",
-            "id": 82844,
+            "id": 85623,
             "layerbranch": 885827,
             "name": "default",
-            "updated": "2021-12-07T12:12:24+0000"
+            "updated": "2022-03-10T09:03:43+0000"
         }
     ]
 }

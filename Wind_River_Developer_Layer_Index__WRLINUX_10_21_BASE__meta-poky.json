@@ -205,13 +205,6 @@
         },
         {
             "description": "",
-            "id": 42543,
-            "image_url": "",
-            "link_url": "",
-            "name": "3.4 wrl"
-        },
-        {
-            "description": "",
             "id": 42544,
             "image_url": "",
             "link_url": "",
@@ -237,13 +230,6 @@
             "image_url": "",
             "link_url": "",
             "name": "3.4"
-        },
-        {
-            "description": "",
-            "id": 42548,
-            "image_url": "",
-            "link_url": "",
-            "name": "3.1 3.3 3.4"
         },
         {
             "description": "",
@@ -391,6 +377,34 @@
             "image_url": "",
             "link_url": "",
             "name": "3.4 3.5"
+        },
+        {
+            "description": "",
+            "id": 42573,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.5"
+        },
+        {
+            "description": "",
+            "id": 42574,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.5 wrl"
+        },
+        {
+            "description": "",
+            "id": 42575,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 3.5"
+        },
+        {
+            "description": "",
+            "id": 42576,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 3.5"
         }
     ],
     "branches": [
@@ -401,69 +415,69 @@
             "id": 240,
             "name": "WRLINUX_10_21_BASE",
             "short_description": "Wind River Linux 10_21 Baseline",
-            "sort_priority": 16,
+            "sort_priority": 17,
             "update_environment": null,
-            "updated": "2022-02-22T07:02:23+0000",
+            "updated": "2022-03-10T07:03:28+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "Poky (Yocto Project Reference Distro)",
-            "id": 9673,
+            "id": 10125,
             "layerbranch": 885786,
             "name": "poky-altcfg",
-            "updated": "2021-11-01T00:11:34+0000"
+            "updated": "2022-03-10T09:03:51+0000"
         },
         {
             "description": "Poky (Yocto Project Reference Distro)",
-            "id": 9674,
+            "id": 10126,
             "layerbranch": 885786,
             "name": "poky-tiny",
-            "updated": "2021-11-01T00:11:34+0000"
+            "updated": "2022-03-10T09:03:52+0000"
         },
         {
             "description": "Poky (Yocto Project Reference Distro)",
-            "id": 9675,
+            "id": 10127,
             "layerbranch": 885786,
             "name": "poky",
-            "updated": "2021-11-30T00:11:34+0000"
+            "updated": "2022-03-10T09:03:52+0000"
         },
         {
             "description": "Poky (Yocto Project Reference Distro)",
-            "id": 9676,
+            "id": 10128,
             "layerbranch": 885786,
             "name": "poky-bleeding",
-            "updated": "2021-11-01T00:11:34+0000"
+            "updated": "2022-03-10T09:03:52+0000"
         }
     ],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.21-20211124",
+            "actual_branch": "wr-10.21-20220304",
             "branch": 240,
             "collection": "core",
             "id": 885774,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-02-15T00:02:39+0000",
-            "vcs_last_commit": "2022-02-14T23:02:08+0000",
-            "vcs_last_fetch": "2022-02-15T00:02:39+0000",
-            "vcs_last_rev": "d2464ae1da751c9158d03fe29682d8c19e1c3f27",
+            "updated": "2022-03-10T09:03:06+0000",
+            "vcs_last_commit": "2022-03-09T23:03:31+0000",
+            "vcs_last_fetch": "2022-03-10T09:03:06+0000",
+            "vcs_last_rev": "bfe7e358e91b68b56295f1173833b5e0f2f498cf",
             "vcs_subdir": "meta",
             "version": "12",
             "yp_compatible_version": 42545
         },
         {
-            "actual_branch": "wr-10.21-20211124",
+            "actual_branch": "wr-10.21-20220304",
             "branch": 240,
             "collection": "yocto",
             "id": 885786,
             "layer": 59,
             "local_path": "",
-            "updated": "2021-11-30T00:11:34+0000",
-            "vcs_last_commit": "2021-11-23T17:11:35+0000",
-            "vcs_last_fetch": "2021-11-30T00:11:34+0000",
-            "vcs_last_rev": "145bdfa3375b6eb3a3959f3c3ad6fe7c5ff9803a",
+            "updated": "2022-03-10T09:03:52+0000",
+            "vcs_last_commit": "2022-03-03T23:03:34+0000",
+            "vcs_last_fetch": "2022-03-10T09:03:52+0000",
+            "vcs_last_rev": "9cd7434f620c53af8b695d8acde39063e42a073f",
             "vcs_subdir": "meta-poky",
             "version": "3",
             "yp_compatible_version": 42545
@@ -540,7 +554,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Poky-tiny init",
-            "updated": "2021-11-01T00:11:34+0000"
+            "updated": "2022-03-10T09:03:51+0000"
         }
     ],
     "wrtemplates": []

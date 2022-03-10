@@ -205,13 +205,6 @@
         },
         {
             "description": "",
-            "id": 42543,
-            "image_url": "",
-            "link_url": "",
-            "name": "3.4 wrl"
-        },
-        {
-            "description": "",
             "id": 42544,
             "image_url": "",
             "link_url": "",
@@ -237,13 +230,6 @@
             "image_url": "",
             "link_url": "",
             "name": "3.4"
-        },
-        {
-            "description": "",
-            "id": 42548,
-            "image_url": "",
-            "link_url": "",
-            "name": "3.1 3.3 3.4"
         },
         {
             "description": "",
@@ -391,6 +377,34 @@
             "image_url": "",
             "link_url": "",
             "name": "3.4 3.5"
+        },
+        {
+            "description": "",
+            "id": 42573,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.5"
+        },
+        {
+            "description": "",
+            "id": 42574,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.5 wrl"
+        },
+        {
+            "description": "",
+            "id": 42575,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 3.5"
+        },
+        {
+            "description": "",
+            "id": 42576,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 3.5"
         }
     ],
     "branches": [
@@ -401,40 +415,40 @@
             "id": 240,
             "name": "WRLINUX_10_21_BASE",
             "short_description": "Wind River Linux 10_21 Baseline",
-            "sort_priority": 16,
+            "sort_priority": 17,
             "update_environment": null,
-            "updated": "2022-02-22T07:02:23+0000",
+            "updated": "2022-03-10T07:03:28+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.21-20211124",
+            "actual_branch": "wr-10.21-20220304",
             "branch": 240,
             "collection": "core",
             "id": 885774,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-02-15T00:02:39+0000",
-            "vcs_last_commit": "2022-02-14T23:02:08+0000",
-            "vcs_last_fetch": "2022-02-15T00:02:39+0000",
-            "vcs_last_rev": "d2464ae1da751c9158d03fe29682d8c19e1c3f27",
+            "updated": "2022-03-10T09:03:06+0000",
+            "vcs_last_commit": "2022-03-09T23:03:31+0000",
+            "vcs_last_fetch": "2022-03-10T09:03:06+0000",
+            "vcs_last_rev": "bfe7e358e91b68b56295f1173833b5e0f2f498cf",
             "vcs_subdir": "meta",
             "version": "12",
             "yp_compatible_version": 42545
         },
         {
-            "actual_branch": "wr-10.21-20211124",
+            "actual_branch": "wr-10.21-20220304",
             "branch": 240,
             "collection": "meta-python",
             "id": 885779,
             "layer": 12,
             "local_path": "",
-            "updated": "2022-01-28T14:01:28+0000",
-            "vcs_last_commit": "2022-01-28T13:01:36+0000",
-            "vcs_last_fetch": "2022-01-28T14:01:28+0000",
-            "vcs_last_rev": "0030809d01eb2310b6d9982363149a94a961f307",
+            "updated": "2022-03-10T09:03:07+0000",
+            "vcs_last_commit": "2022-03-03T23:03:00+0000",
+            "vcs_last_fetch": "2022-03-10T09:03:07+0000",
+            "vcs_last_rev": "730be4a1a5c83aaff3bb819d924a23fe97e5b72e",
             "vcs_subdir": "meta-python",
             "version": "1",
             "yp_compatible_version": 42544
@@ -446,9 +460,9 @@
             "id": 885782,
             "layer": 20,
             "local_path": "",
-            "updated": "2021-11-01T00:11:07+0000",
+            "updated": "2022-03-10T09:03:24+0000",
             "vcs_last_commit": "2021-10-12T19:10:35+0000",
-            "vcs_last_fetch": "2021-11-01T00:11:07+0000",
+            "vcs_last_fetch": "2022-03-10T09:03:24+0000",
             "vcs_last_rev": "0cbb5d2197f164646e7e9468863ca7ea82b2c2e4",
             "vcs_subdir": "",
             "version": "1",
@@ -557,7 +571,7 @@
             "section": "base",
             "srcrev": "46cb7d92443c9ec7b3af15fb0baa65f65f6415d3",
             "summary": "User space tools for kernel auditing",
-            "updated": "2021-11-01T00:11:58+0000"
+            "updated": "2022-03-10T09:03:12+0000"
         },
         {
             "bbclassextend": "",
@@ -580,7 +594,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-11-01T00:11:58+0000"
+            "updated": "2022-03-10T09:03:12+0000"
         },
         {
             "bbclassextend": "",
@@ -603,7 +617,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-11-01T00:11:58+0000"
+            "updated": "2022-03-10T09:03:13+0000"
         },
         {
             "bbclassextend": "",
@@ -626,7 +640,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-11-01T00:11:58+0000"
+            "updated": "2022-03-10T09:03:13+0000"
         },
         {
             "bbclassextend": "",
@@ -649,7 +663,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-11-01T00:11:59+0000"
+            "updated": "2022-03-10T09:03:14+0000"
         },
         {
             "bbclassextend": "",
@@ -672,7 +686,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-11-01T00:11:59+0000"
+            "updated": "2022-03-10T09:03:14+0000"
         },
         {
             "bbclassextend": "native nativesdk ",
@@ -695,7 +709,7 @@
             "section": "base",
             "srcrev": "4758cdf803d93274f49cb6445cb2bab527d6549f",
             "summary": "Policy analysis tools for SELinux",
-            "updated": "2021-11-01T00:11:59+0000"
+            "updated": "2022-03-10T09:03:15+0000"
         },
         {
             "bbclassextend": "",
@@ -718,7 +732,7 @@
             "section": "admin",
             "srcrev": "",
             "summary": "SELinux minimum policy",
-            "updated": "2021-11-01T00:11:00+0000"
+            "updated": "2022-03-10T09:03:15+0000"
         },
         {
             "bbclassextend": "",
@@ -741,7 +755,7 @@
             "section": "admin",
             "srcrev": "",
             "summary": "MLS (Multi Level Security) variant of the SELinux policy",
-            "updated": "2021-11-01T00:11:00+0000"
+            "updated": "2022-03-10T09:03:16+0000"
         },
         {
             "bbclassextend": "",
@@ -764,7 +778,7 @@
             "section": "admin",
             "srcrev": "",
             "summary": "MCS (Multi Category Security) variant of the SELinux policy",
-            "updated": "2021-11-01T00:11:01+0000"
+            "updated": "2022-03-10T09:03:16+0000"
         },
         {
             "bbclassextend": "",
@@ -787,7 +801,7 @@
             "section": "admin",
             "srcrev": "",
             "summary": "Standard variants of the SELinux policy",
-            "updated": "2021-11-01T00:11:02+0000"
+            "updated": "2022-03-10T09:03:17+0000"
         },
         {
             "bbclassextend": "",
@@ -810,7 +824,7 @@
             "section": "admin",
             "srcrev": "",
             "summary": "SELinux targeted policy",
-            "updated": "2021-11-01T00:11:02+0000"
+            "updated": "2022-03-10T09:03:18+0000"
         },
         {
             "bbclassextend": "native",
@@ -833,7 +847,7 @@
             "section": "base",
             "srcrev": "cf853c1a0c2328ad6c62fb2b2cc55d4926301d6b",
             "summary": "SELinux Common Intermediate Language (CIL) compiler",
-            "updated": "2021-11-01T00:11:03+0000"
+            "updated": "2022-03-10T09:03:19+0000"
         },
         {
             "bbclassextend": "native",
@@ -856,7 +870,7 @@
             "section": "base",
             "srcrev": "cf853c1a0c2328ad6c62fb2b2cc55d4926301d6b",
             "summary": "SELinux library and simple utilities",
-            "updated": "2021-11-01T00:11:03+0000"
+            "updated": "2022-03-10T09:03:19+0000"
         },
         {
             "bbclassextend": "native",
@@ -879,7 +893,7 @@
             "section": "base",
             "srcrev": "cf853c1a0c2328ad6c62fb2b2cc55d4926301d6b",
             "summary": "SELinux binary policy manipulation library",
-            "updated": "2021-11-01T00:11:04+0000"
+            "updated": "2022-03-10T09:03:20+0000"
         },
         {
             "bbclassextend": "native",
@@ -902,7 +916,7 @@
             "section": "base",
             "srcrev": "cf853c1a0c2328ad6c62fb2b2cc55d4926301d6b",
             "summary": "SELinux binary policy manipulation library",
-            "updated": "2021-11-01T00:11:04+0000"
+            "updated": "2022-03-10T09:03:20+0000"
         },
         {
             "bbclassextend": "",
@@ -925,7 +939,7 @@
             "section": "base",
             "srcrev": "cf853c1a0c2328ad6c62fb2b2cc55d4926301d6b",
             "summary": "SELinux GUI tools",
-            "updated": "2021-11-01T00:11:04+0000"
+            "updated": "2022-03-10T09:03:20+0000"
         },
         {
             "bbclassextend": "",
@@ -948,7 +962,7 @@
             "section": "base",
             "srcrev": "cf853c1a0c2328ad6c62fb2b2cc55d4926301d6b",
             "summary": "Python modules and various SELinux utilities.",
-            "updated": "2021-11-01T00:11:04+0000"
+            "updated": "2022-03-10T09:03:21+0000"
         },
         {
             "bbclassextend": "native",
@@ -971,7 +985,7 @@
             "section": "base",
             "srcrev": "cf853c1a0c2328ad6c62fb2b2cc55d4926301d6b",
             "summary": "SELinux policy core utilities",
-            "updated": "2021-11-01T00:11:05+0000"
+            "updated": "2022-03-10T09:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -994,7 +1008,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "SELinux init script",
-            "updated": "2021-11-01T00:11:05+0000"
+            "updated": "2022-03-10T09:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -1017,7 +1031,7 @@
             "section": "base",
             "srcrev": "cf853c1a0c2328ad6c62fb2b2cc55d4926301d6b",
             "summary": "Run cmd under an SELinux sandbox",
-            "updated": "2021-11-01T00:11:05+0000"
+            "updated": "2022-03-10T09:03:21+0000"
         },
         {
             "bbclassextend": "native",
@@ -1040,7 +1054,7 @@
             "section": "base",
             "srcrev": "cf853c1a0c2328ad6c62fb2b2cc55d4926301d6b",
             "summary": "SELinux policy compiler",
-            "updated": "2021-11-01T00:11:05+0000"
+            "updated": "2022-03-10T09:03:22+0000"
         },
         {
             "bbclassextend": "",
@@ -1063,7 +1077,7 @@
             "section": "base",
             "srcrev": "cf853c1a0c2328ad6c62fb2b2cc55d4926301d6b",
             "summary": "Daemon to translate SELinux MCS/MLS sensitivity labels",
-            "updated": "2021-11-01T00:11:06+0000"
+            "updated": "2022-03-10T09:03:22+0000"
         },
         {
             "bbclassextend": "",
@@ -1086,7 +1100,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "SELinux autorelabel script",
-            "updated": "2021-11-01T00:11:06+0000"
+            "updated": "2022-03-10T09:03:22+0000"
         },
         {
             "bbclassextend": "",
@@ -1109,7 +1123,7 @@
             "section": "base",
             "srcrev": "cf853c1a0c2328ad6c62fb2b2cc55d4926301d6b",
             "summary": "SELinux dbus service files",
-            "updated": "2021-11-01T00:11:06+0000"
+            "updated": "2022-03-10T09:03:22+0000"
         },
         {
             "bbclassextend": "",
@@ -1132,7 +1146,7 @@
             "section": "base",
             "srcrev": "cf853c1a0c2328ad6c62fb2b2cc55d4926301d6b",
             "summary": "SELinux library and simple utilities",
-            "updated": "2021-11-01T00:11:06+0000"
+            "updated": "2022-03-10T09:03:23+0000"
         },
         {
             "bbclassextend": "native",
@@ -1155,7 +1169,7 @@
             "section": "base",
             "srcrev": "cf853c1a0c2328ad6c62fb2b2cc55d4926301d6b",
             "summary": "Utilities to manipulate SELinux policy module package",
-            "updated": "2021-11-01T00:11:06+0000"
+            "updated": "2022-03-10T09:03:23+0000"
         },
         {
             "bbclassextend": "",
@@ -1178,7 +1192,7 @@
             "section": "base",
             "srcrev": "cf853c1a0c2328ad6c62fb2b2cc55d4926301d6b",
             "summary": "Daemon to watch for file creation and set default file context",
-            "updated": "2021-11-01T00:11:07+0000"
+            "updated": "2022-03-10T09:03:23+0000"
         },
         {
             "bbclassextend": "",
@@ -1201,7 +1215,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "SELinux init script",
-            "updated": "2021-11-01T00:11:07+0000"
+            "updated": "2022-03-10T09:03:24+0000"
         }
     ],
     "wrtemplates": []

@@ -205,13 +205,6 @@
         },
         {
             "description": "",
-            "id": 42543,
-            "image_url": "",
-            "link_url": "",
-            "name": "3.4 wrl"
-        },
-        {
-            "description": "",
             "id": 42544,
             "image_url": "",
             "link_url": "",
@@ -237,13 +230,6 @@
             "image_url": "",
             "link_url": "",
             "name": "3.4"
-        },
-        {
-            "description": "",
-            "id": 42548,
-            "image_url": "",
-            "link_url": "",
-            "name": "3.1 3.3 3.4"
         },
         {
             "description": "",
@@ -391,6 +377,34 @@
             "image_url": "",
             "link_url": "",
             "name": "3.4 3.5"
+        },
+        {
+            "description": "",
+            "id": 42573,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.5"
+        },
+        {
+            "description": "",
+            "id": 42574,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.5 wrl"
+        },
+        {
+            "description": "",
+            "id": 42575,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 3.5"
+        },
+        {
+            "description": "",
+            "id": 42576,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.3 3.4 3.5"
         }
     ],
     "branches": [
@@ -401,25 +415,25 @@
             "id": 240,
             "name": "WRLINUX_10_21_BASE",
             "short_description": "Wind River Linux 10_21 Baseline",
-            "sort_priority": 16,
+            "sort_priority": 17,
             "update_environment": null,
-            "updated": "2022-02-22T07:02:23+0000",
+            "updated": "2022-03-10T07:03:28+0000",
             "updates_enabled": true
         }
     ],
     "distros": [],
     "layerBranches": [
         {
-            "actual_branch": "wr-10.21-20211124",
+            "actual_branch": "wr-10.21-20220304",
             "branch": 240,
             "collection": "core",
             "id": 885774,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-02-15T00:02:39+0000",
-            "vcs_last_commit": "2022-02-14T23:02:08+0000",
-            "vcs_last_fetch": "2022-02-15T00:02:39+0000",
-            "vcs_last_rev": "d2464ae1da751c9158d03fe29682d8c19e1c3f27",
+            "updated": "2022-03-10T09:03:06+0000",
+            "vcs_last_commit": "2022-03-09T23:03:31+0000",
+            "vcs_last_fetch": "2022-03-10T09:03:06+0000",
+            "vcs_last_rev": "bfe7e358e91b68b56295f1173833b5e0f2f498cf",
             "vcs_subdir": "meta",
             "version": "12",
             "yp_compatible_version": 42545
@@ -431,10 +445,10 @@
             "id": 885826,
             "layer": 49,
             "local_path": "",
-            "updated": "2022-02-20T23:02:46+0000",
-            "vcs_last_commit": "2022-02-20T22:02:10+0000",
-            "vcs_last_fetch": "2022-02-20T23:02:46+0000",
-            "vcs_last_rev": "52f6b516b06fe0078250c8ee97e2aed2243bbc36",
+            "updated": "2022-03-10T13:03:42+0000",
+            "vcs_last_commit": "2022-03-10T12:03:40+0000",
+            "vcs_last_fetch": "2022-03-10T13:03:42+0000",
+            "vcs_last_rev": "3c2950ca5e809a9ee9a8617874a0f62cb7a7db2f",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42545
@@ -446,9 +460,9 @@
             "id": 885834,
             "layer": 347,
             "local_path": "",
-            "updated": "2022-02-09T18:02:28+0000",
+            "updated": "2022-03-10T09:03:19+0000",
             "vcs_last_commit": "2022-02-09T07:02:40+0000",
-            "vcs_last_fetch": "2022-02-09T18:02:28+0000",
+            "vcs_last_fetch": "2022-03-10T09:03:19+0000",
             "vcs_last_rev": "6a98b4c69c17db73cfbf3f35b9f5732956b6cbaf",
             "vcs_subdir": "",
             "version": "1",
@@ -537,10 +551,10 @@
     "machines": [
         {
             "description": " NXP S32G274A SoC",
-            "id": 41076,
+            "id": 45775,
             "layerbranch": 885834,
             "name": "nxp-s32g2xx",
-            "updated": "2021-11-03T00:11:56+0000"
+            "updated": "2022-03-10T09:03:19+0000"
         }
     ],
     "recipes": [
@@ -565,7 +579,7 @@
             "section": "base",
             "srcrev": "2ab4eb6b73f1f1296576e45f333eb0911a2cae00",
             "summary": "",
-            "updated": "2022-02-09T18:02:28+0000"
+            "updated": "2022-03-10T09:03:17+0000"
         },
         {
             "bbclassextend": "",
@@ -588,7 +602,7 @@
             "section": "base",
             "srcrev": "63065a52b26a7bf781947b0b6f93408ac9317786",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2021-11-01T00:11:08+0000"
+            "updated": "2022-03-10T09:03:18+0000"
         },
         {
             "bbclassextend": "",
@@ -611,7 +625,7 @@
             "section": "base",
             "srcrev": "6286902c946f15b2b2ab66904a26d6e0e8748802",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2022-02-09T18:02:28+0000"
+            "updated": "2022-03-10T09:03:18+0000"
         },
         {
             "bbclassextend": "",
@@ -634,7 +648,7 @@
             "section": "base",
             "srcrev": "daa402f07e4d88e5c887a64a709b2f9839038c14",
             "summary": "",
-            "updated": "2022-02-09T18:02:27+0000"
+            "updated": "2022-03-10T09:03:18+0000"
         },
         {
             "bbclassextend": "",
@@ -657,7 +671,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2021-11-01T00:11:08+0000"
+            "updated": "2022-03-10T09:03:19+0000"
         },
         {
             "bbclassextend": "",
@@ -680,7 +694,7 @@
             "section": "base",
             "srcrev": "56d3710e01052a94ad9b6f559e0390d77c059277",
             "summary": "Support for Inter-Process(or) Communication over Shared Memory (ipc-shm)",
-            "updated": "2021-11-01T00:11:08+0000"
+            "updated": "2022-03-10T09:03:19+0000"
         },
         {
             "bbclassextend": "",
@@ -726,16 +740,16 @@
             "section": "base",
             "srcrev": "84dabb46ecce1d8d1f8a8ddb50051a3719568727",
             "summary": "Linux driver for the Packet Forwarding Engine hardware",
-            "updated": "2022-01-05T01:01:33+0000"
+            "updated": "2022-03-10T09:03:19+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 81502,
+            "id": 85714,
             "layerbranch": 885834,
             "name": "default",
-            "updated": "2021-11-01T00:11:09+0000"
+            "updated": "2022-03-10T09:03:19+0000"
         }
     ]
 }
