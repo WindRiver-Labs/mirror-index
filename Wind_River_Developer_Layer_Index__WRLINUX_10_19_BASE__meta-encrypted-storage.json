@@ -405,6 +405,34 @@
             "image_url": "",
             "link_url": "",
             "name": "3.1 3.3 3.4 3.5"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
         }
     ],
     "branches": [
@@ -415,9 +443,9 @@
             "id": 158,
             "name": "WRLINUX_10_19_BASE",
             "short_description": "Wind River Linux 10_19 Baseline",
-            "sort_priority": 52,
+            "sort_priority": 54,
             "update_environment": null,
-            "updated": "2022-03-08T07:03:21+0000",
+            "updated": "2022-03-20T07:03:26+0000",
             "updates_enabled": true
         }
     ],
@@ -430,9 +458,9 @@
             "id": 852955,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-02-03T20:02:36+0000",
+            "updated": "2022-03-20T08:03:51+0000",
             "vcs_last_commit": "2022-02-03T19:02:27+0000",
-            "vcs_last_fetch": "2022-02-03T20:02:36+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:51+0000",
             "vcs_last_rev": "c92c03b7fea37578b951f53fbf796f2c33aa6f5c",
             "vcs_subdir": "meta",
             "version": "11",
@@ -445,13 +473,13 @@
             "id": 853237,
             "layer": 7,
             "local_path": "",
-            "updated": "2021-08-11T01:08:39+0000",
+            "updated": "2022-03-20T08:03:42+0000",
             "vcs_last_commit": "2021-08-11T01:08:08+0000",
-            "vcs_last_fetch": "2021-08-11T01:08:39+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:42+0000",
             "vcs_last_rev": "196ccb3a3c71c1e4abfcd8daffad4ddb95301b3b",
             "vcs_subdir": "meta-oe",
             "version": "1",
-            "yp_compatible_version": 99
+            "yp_compatible_version": 42561
         },
         {
             "actual_branch": "wr-10.19-20191106",
@@ -460,13 +488,13 @@
             "id": 853246,
             "layer": 152,
             "local_path": "",
-            "updated": "2020-04-24T02:04:57+0000",
+            "updated": "2022-03-20T08:03:44+0000",
             "vcs_last_commit": "2019-10-14T08:10:39+0000",
-            "vcs_last_fetch": "2020-04-24T02:04:57+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:44+0000",
             "vcs_last_rev": "a1dba8a13660189eb2184b7870a61dd83f36d886",
             "vcs_subdir": "meta-tpm2",
             "version": null,
-            "yp_compatible_version": 99
+            "yp_compatible_version": 42561
         },
         {
             "actual_branch": "wr-10.19-20191106",
@@ -475,13 +503,13 @@
             "id": 853260,
             "layer": 127,
             "local_path": "",
-            "updated": "2020-04-24T02:04:40+0000",
+            "updated": "2022-03-20T08:03:26+0000",
             "vcs_last_commit": "2019-10-14T08:10:39+0000",
-            "vcs_last_fetch": "2020-04-24T02:04:40+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:26+0000",
             "vcs_last_rev": "a1dba8a13660189eb2184b7870a61dd83f36d886",
             "vcs_subdir": "meta-encrypted-storage",
             "version": null,
-            "yp_compatible_version": 99
+            "yp_compatible_version": 42561
         }
     ],
     "layerDependencies": [
@@ -607,7 +635,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:40+0000"
+            "updated": "2022-03-20T08:03:25+0000"
         },
         {
             "bbclassextend": "",
@@ -630,7 +658,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:40+0000"
+            "updated": "2022-03-20T08:03:25+0000"
         },
         {
             "bbclassextend": "",
@@ -653,7 +681,7 @@
             "section": "security/tpm",
             "srcrev": "87c35c63090a33d4de437f518b8da9f2d1f1d828",
             "summary": "A tool used to create, persist, evict a passphrase for full-disk-encryption with TPM 2.0",
-            "updated": "2020-04-24T02:04:40+0000"
+            "updated": "2022-03-20T08:03:26+0000"
         }
     ],
     "wrtemplates": []

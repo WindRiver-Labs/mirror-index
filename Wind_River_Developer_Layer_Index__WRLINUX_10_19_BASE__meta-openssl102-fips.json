@@ -405,6 +405,34 @@
             "image_url": "",
             "link_url": "",
             "name": "3.1 3.3 3.4 3.5"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
         }
     ],
     "branches": [
@@ -415,9 +443,9 @@
             "id": 158,
             "name": "WRLINUX_10_19_BASE",
             "short_description": "Wind River Linux 10_19 Baseline",
-            "sort_priority": 52,
+            "sort_priority": 54,
             "update_environment": null,
-            "updated": "2022-03-08T07:03:21+0000",
+            "updated": "2022-03-20T07:03:26+0000",
             "updates_enabled": true
         }
     ],
@@ -430,13 +458,13 @@
             "id": 853289,
             "layer": 300,
             "local_path": "",
-            "updated": "2020-04-24T02:04:18+0000",
+            "updated": "2022-03-20T08:03:54+0000",
             "vcs_last_commit": "2019-10-20T18:10:15+0000",
-            "vcs_last_fetch": "2020-04-24T02:04:18+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:54+0000",
             "vcs_last_rev": "a4d5d19cd7a6182658b132eab7a35cec2b591490",
             "vcs_subdir": "",
             "version": "1",
-            "yp_compatible_version": 101
+            "yp_compatible_version": 42554
         },
         {
             "actual_branch": "wr-10.19-20191106",
@@ -445,13 +473,13 @@
             "id": 853291,
             "layer": 301,
             "local_path": "",
-            "updated": "2020-04-24T02:04:22+0000",
+            "updated": "2022-03-20T08:03:00+0000",
             "vcs_last_commit": "2019-10-14T08:10:27+0000",
-            "vcs_last_fetch": "2020-04-24T02:04:22+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:00+0000",
             "vcs_last_rev": "66c43414862ca0552cb2886bdc0b6b7ae34de8d9",
             "vcs_subdir": "",
             "version": "1",
-            "yp_compatible_version": 101
+            "yp_compatible_version": 42554
         }
     ],
     "layerDependencies": [
@@ -529,7 +557,7 @@
             "section": "libs/network",
             "srcrev": "",
             "summary": "OpenSSL FIPS Object Module v2.0 Example",
-            "updated": "2020-04-24T02:04:22+0000"
+            "updated": "2022-03-20T08:03:59+0000"
         },
         {
             "bbclassextend": "",
@@ -552,7 +580,7 @@
             "section": "libs/network",
             "srcrev": "",
             "summary": "OpenSSL FIPS Object Module v2.0",
-            "updated": "2020-04-24T02:04:22+0000"
+            "updated": "2022-03-20T08:03:59+0000"
         },
         {
             "bbclassextend": "",
@@ -575,16 +603,16 @@
             "section": "libs/network",
             "srcrev": "",
             "summary": "A library for integrity verification of FIPS validated modules",
-            "updated": "2020-04-24T02:04:22+0000"
+            "updated": "2022-03-20T08:03:00+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 63426,
+            "id": 86634,
             "layerbranch": 853291,
             "name": "feature/openssl-fips",
-            "updated": "2020-04-24T02:04:22+0000"
+            "updated": "2022-03-20T08:03:00+0000"
         }
     ]
 }

@@ -405,6 +405,34 @@
             "image_url": "",
             "link_url": "",
             "name": "3.1 3.3 3.4 3.5"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
         }
     ],
     "branches": [
@@ -415,9 +443,9 @@
             "id": 158,
             "name": "WRLINUX_10_19_BASE",
             "short_description": "Wind River Linux 10_19 Baseline",
-            "sort_priority": 52,
+            "sort_priority": 54,
             "update_environment": null,
-            "updated": "2022-03-08T07:03:21+0000",
+            "updated": "2022-03-20T07:03:26+0000",
             "updates_enabled": true
         }
     ],
@@ -430,9 +458,9 @@
             "id": 852955,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-02-03T20:02:36+0000",
+            "updated": "2022-03-20T08:03:51+0000",
             "vcs_last_commit": "2022-02-03T19:02:27+0000",
-            "vcs_last_fetch": "2022-02-03T20:02:36+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:51+0000",
             "vcs_last_rev": "c92c03b7fea37578b951f53fbf796f2c33aa6f5c",
             "vcs_subdir": "meta",
             "version": "11",
@@ -445,13 +473,13 @@
             "id": 853237,
             "layer": 7,
             "local_path": "",
-            "updated": "2021-08-11T01:08:39+0000",
+            "updated": "2022-03-20T08:03:42+0000",
             "vcs_last_commit": "2021-08-11T01:08:08+0000",
-            "vcs_last_fetch": "2021-08-11T01:08:39+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:42+0000",
             "vcs_last_rev": "196ccb3a3c71c1e4abfcd8daffad4ddb95301b3b",
             "vcs_subdir": "meta-oe",
             "version": "1",
-            "yp_compatible_version": 99
+            "yp_compatible_version": 42561
         },
         {
             "actual_branch": "wr-10.19-20191106",
@@ -460,13 +488,13 @@
             "id": 853238,
             "layer": 8,
             "local_path": "",
-            "updated": "2020-04-24T02:04:59+0000",
+            "updated": "2022-03-20T08:03:55+0000",
             "vcs_last_commit": "2019-10-14T08:10:09+0000",
-            "vcs_last_fetch": "2020-04-24T02:04:59+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:55+0000",
             "vcs_last_rev": "cd1b61361f94c3ca5e5dbabf160dd7e197e18d20",
             "vcs_subdir": "meta-filesystems",
             "version": "1",
-            "yp_compatible_version": 99
+            "yp_compatible_version": 42561
         },
         {
             "actual_branch": "",
@@ -475,13 +503,13 @@
             "id": 853256,
             "layer": 292,
             "local_path": "",
-            "updated": "2020-05-07T20:05:34+0000",
+            "updated": "2022-03-20T08:03:46+0000",
             "vcs_last_commit": "2020-05-06T19:05:31+0000",
-            "vcs_last_fetch": "2020-05-07T20:05:34+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:46+0000",
             "vcs_last_rev": "8c61b0a2ebe0d5b2b556ece781d5805abe45d8e3",
             "vcs_subdir": "",
             "version": null,
-            "yp_compatible_version": 101
+            "yp_compatible_version": 42554
         }
     ],
     "layerDependencies": [
@@ -607,7 +635,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "wrlinux ostree upgrade config manager",
-            "updated": "2020-04-24T02:04:11+0000"
+            "updated": "2022-03-20T08:03:44+0000"
         },
         {
             "bbclassextend": "",
@@ -630,7 +658,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "U-Boot boot.scr SD boot environment generation for ARM targets",
-            "updated": "2020-04-24T02:04:11+0000"
+            "updated": "2022-03-20T08:03:44+0000"
         },
         {
             "bbclassextend": "",
@@ -653,7 +681,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Basic init for initramfs to mount ostree and pivot root",
-            "updated": "2020-04-24T02:04:11+0000"
+            "updated": "2022-03-20T08:03:45+0000"
         },
         {
             "bbclassextend": "native",
@@ -676,7 +704,7 @@
             "section": "base",
             "srcrev": "4d7f22f50ab43be5bee61ad3e96cd9db4ef3a372",
             "summary": "",
-            "updated": "2020-04-24T02:04:12+0000"
+            "updated": "2022-03-20T08:03:45+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -699,7 +727,7 @@
             "section": "base",
             "srcrev": "6649032a375238255052a43adb8bc56faac989ca",
             "summary": "Tool for managing bootable, immutable, versioned filesystem trees",
-            "updated": "2020-04-24T02:04:12+0000"
+            "updated": "2022-03-20T08:03:46+0000"
         },
         {
             "bbclassextend": "",
@@ -722,7 +750,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:13+0000"
+            "updated": "2022-03-20T08:03:46+0000"
         }
     ],
     "wrtemplates": []

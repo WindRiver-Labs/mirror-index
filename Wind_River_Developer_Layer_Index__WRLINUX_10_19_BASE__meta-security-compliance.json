@@ -405,6 +405,34 @@
             "image_url": "",
             "link_url": "",
             "name": "3.1 3.3 3.4 3.5"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
         }
     ],
     "branches": [
@@ -415,9 +443,9 @@
             "id": 158,
             "name": "WRLINUX_10_19_BASE",
             "short_description": "Wind River Linux 10_19 Baseline",
-            "sort_priority": 52,
+            "sort_priority": 54,
             "update_environment": null,
-            "updated": "2022-03-08T07:03:21+0000",
+            "updated": "2022-03-20T07:03:26+0000",
             "updates_enabled": true
         }
     ],
@@ -430,9 +458,9 @@
             "id": 852955,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-02-03T20:02:36+0000",
+            "updated": "2022-03-20T08:03:51+0000",
             "vcs_last_commit": "2022-02-03T19:02:27+0000",
-            "vcs_last_fetch": "2022-02-03T20:02:36+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:51+0000",
             "vcs_last_rev": "c92c03b7fea37578b951f53fbf796f2c33aa6f5c",
             "vcs_subdir": "meta",
             "version": "11",
@@ -445,13 +473,13 @@
             "id": 853237,
             "layer": 7,
             "local_path": "",
-            "updated": "2021-08-11T01:08:39+0000",
+            "updated": "2022-03-20T08:03:42+0000",
             "vcs_last_commit": "2021-08-11T01:08:08+0000",
-            "vcs_last_fetch": "2021-08-11T01:08:39+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:42+0000",
             "vcs_last_rev": "196ccb3a3c71c1e4abfcd8daffad4ddb95301b3b",
             "vcs_subdir": "meta-oe",
             "version": "1",
-            "yp_compatible_version": 99
+            "yp_compatible_version": 42561
         },
         {
             "actual_branch": "wr-10.19-20191106",
@@ -460,9 +488,9 @@
             "id": 853240,
             "layer": 12,
             "local_path": "",
-            "updated": "2021-12-02T23:12:44+0000",
+            "updated": "2022-03-20T08:03:02+0000",
             "vcs_last_commit": "2021-12-02T23:12:20+0000",
-            "vcs_last_fetch": "2021-12-02T23:12:44+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:02+0000",
             "vcs_last_rev": "97f78c5a2a650e56f5d04c24c722f2f098fb24d9",
             "vcs_subdir": "meta-python",
             "version": "1",
@@ -475,13 +503,13 @@
             "id": 853249,
             "layer": 304,
             "local_path": "",
-            "updated": "2020-04-24T02:04:29+0000",
+            "updated": "2022-03-20T08:03:09+0000",
             "vcs_last_commit": "2019-10-14T08:10:21+0000",
-            "vcs_last_fetch": "2020-04-24T02:04:29+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:09+0000",
             "vcs_last_rev": "7fd959d17e78dc84522db8e9fbfe15bac347341b",
             "vcs_subdir": "meta-security-compliance",
             "version": null,
-            "yp_compatible_version": 97
+            "yp_compatible_version": 42562
         }
     ],
     "layerDependencies": [
@@ -607,7 +635,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Lynis is a free and open source security and auditing tool.",
-            "updated": "2020-04-24T02:04:27+0000"
+            "updated": "2022-03-20T08:03:07+0000"
         },
         {
             "bbclassextend": "",
@@ -630,7 +658,7 @@
             "section": "base",
             "srcrev": "8cb2d0f351faff5440742258782281164953b0a6",
             "summary": "",
-            "updated": "2020-04-24T02:04:27+0000"
+            "updated": "2022-03-20T08:03:07+0000"
         },
         {
             "bbclassextend": "",
@@ -653,7 +681,7 @@
             "section": "base",
             "srcrev": "5fdfdcb2e95afbd86ace555beca5d20cbf1043ed",
             "summary": "",
-            "updated": "2020-04-24T02:04:28+0000"
+            "updated": "2022-03-20T08:03:08+0000"
         },
         {
             "bbclassextend": "native",
@@ -676,7 +704,7 @@
             "section": "base",
             "srcrev": "3a4c635691380fa990a226acc8558db35d7ebabc",
             "summary": "",
-            "updated": "2020-04-24T02:04:28+0000"
+            "updated": "2022-03-20T08:03:08+0000"
         },
         {
             "bbclassextend": "native",
@@ -699,7 +727,7 @@
             "section": "base",
             "srcrev": "4bbdb46ff651f809d5b38ca08d769790c4bfff90",
             "summary": "",
-            "updated": "2020-04-24T02:04:28+0000"
+            "updated": "2022-03-20T08:03:08+0000"
         },
         {
             "bbclassextend": "",
@@ -722,7 +750,7 @@
             "section": "base",
             "srcrev": "f25b16afb6ac761fea13132ff406fba4cdfd2b76",
             "summary": "",
-            "updated": "2020-04-24T02:04:29+0000"
+            "updated": "2022-03-20T08:03:09+0000"
         },
         {
             "bbclassextend": "",
@@ -745,7 +773,7 @@
             "section": "base",
             "srcrev": "7147871d7f37d408c0dd7720ef0fd3ec1b54ad98",
             "summary": "",
-            "updated": "2020-04-24T02:04:29+0000"
+            "updated": "2022-03-20T08:03:09+0000"
         },
         {
             "bbclassextend": "",
@@ -768,7 +796,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Operating release identification",
-            "updated": "2020-04-24T02:04:29+0000"
+            "updated": "2022-03-20T08:03:09+0000"
         }
     ],
     "wrtemplates": []

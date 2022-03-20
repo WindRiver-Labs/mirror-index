@@ -405,6 +405,34 @@
             "image_url": "",
             "link_url": "",
             "name": "3.1 3.3 3.4 3.5"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
         }
     ],
     "branches": [
@@ -415,19 +443,19 @@
             "id": 158,
             "name": "WRLINUX_10_19_BASE",
             "short_description": "Wind River Linux 10_19 Baseline",
-            "sort_priority": 52,
+            "sort_priority": 54,
             "update_environment": null,
-            "updated": "2022-03-08T07:03:21+0000",
+            "updated": "2022-03-20T07:03:26+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "Wind River Linux CGL",
-            "id": 7864,
+            "id": 10243,
             "layerbranch": 853283,
             "name": "wrlinux-cgl",
-            "updated": "2020-04-24T02:04:57+0000"
+            "updated": "2022-03-20T09:03:32+0000"
         }
     ],
     "layerBranches": [
@@ -438,9 +466,9 @@
             "id": 852955,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-02-03T20:02:36+0000",
+            "updated": "2022-03-20T08:03:51+0000",
             "vcs_last_commit": "2022-02-03T19:02:27+0000",
-            "vcs_last_fetch": "2022-02-03T20:02:36+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:51+0000",
             "vcs_last_rev": "c92c03b7fea37578b951f53fbf796f2c33aa6f5c",
             "vcs_subdir": "meta",
             "version": "11",
@@ -453,13 +481,13 @@
             "id": 853236,
             "layer": 4,
             "local_path": "",
-            "updated": "2020-04-24T02:04:49+0000",
+            "updated": "2022-03-20T08:03:02+0000",
             "vcs_last_commit": "2019-10-14T08:10:09+0000",
-            "vcs_last_fetch": "2020-04-24T02:04:49+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:02+0000",
             "vcs_last_rev": "cd1b61361f94c3ca5e5dbabf160dd7e197e18d20",
             "vcs_subdir": "meta-initramfs",
             "version": null,
-            "yp_compatible_version": 99
+            "yp_compatible_version": 42561
         },
         {
             "actual_branch": "wr-10.19-20191106",
@@ -468,13 +496,13 @@
             "id": 853237,
             "layer": 7,
             "local_path": "",
-            "updated": "2021-08-11T01:08:39+0000",
+            "updated": "2022-03-20T08:03:42+0000",
             "vcs_last_commit": "2021-08-11T01:08:08+0000",
-            "vcs_last_fetch": "2021-08-11T01:08:39+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:42+0000",
             "vcs_last_rev": "196ccb3a3c71c1e4abfcd8daffad4ddb95301b3b",
             "vcs_subdir": "meta-oe",
             "version": "1",
-            "yp_compatible_version": 99
+            "yp_compatible_version": 42561
         },
         {
             "actual_branch": "wr-10.19-20191106",
@@ -483,13 +511,13 @@
             "id": 853238,
             "layer": 8,
             "local_path": "",
-            "updated": "2020-04-24T02:04:59+0000",
+            "updated": "2022-03-20T08:03:55+0000",
             "vcs_last_commit": "2019-10-14T08:10:09+0000",
-            "vcs_last_fetch": "2020-04-24T02:04:59+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:55+0000",
             "vcs_last_rev": "cd1b61361f94c3ca5e5dbabf160dd7e197e18d20",
             "vcs_subdir": "meta-filesystems",
             "version": "1",
-            "yp_compatible_version": 99
+            "yp_compatible_version": 42561
         },
         {
             "actual_branch": "wr-10.19-20191106",
@@ -498,13 +526,13 @@
             "id": 853239,
             "layer": 10,
             "local_path": "",
-            "updated": "2020-08-19T00:08:27+0000",
+            "updated": "2022-03-20T08:03:08+0000",
             "vcs_last_commit": "2020-08-18T23:08:26+0000",
-            "vcs_last_fetch": "2020-08-19T00:08:27+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:08+0000",
             "vcs_last_rev": "c2af89c49656741c0a2b291607958cf9c30ae95d",
             "vcs_subdir": "meta-webserver",
             "version": "1",
-            "yp_compatible_version": 99
+            "yp_compatible_version": 42561
         },
         {
             "actual_branch": "wr-10.19-20191106",
@@ -513,9 +541,9 @@
             "id": 853240,
             "layer": 12,
             "local_path": "",
-            "updated": "2021-12-02T23:12:44+0000",
+            "updated": "2022-03-20T08:03:02+0000",
             "vcs_last_commit": "2021-12-02T23:12:20+0000",
-            "vcs_last_fetch": "2021-12-02T23:12:44+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:02+0000",
             "vcs_last_rev": "97f78c5a2a650e56f5d04c24c722f2f098fb24d9",
             "vcs_subdir": "meta-python",
             "version": "1",
@@ -528,13 +556,13 @@
             "id": 853241,
             "layer": 13,
             "local_path": "",
-            "updated": "2020-04-24T02:04:21+0000",
+            "updated": "2022-03-20T08:03:33+0000",
             "vcs_last_commit": "2019-10-14T08:10:09+0000",
-            "vcs_last_fetch": "2020-04-24T02:04:21+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:33+0000",
             "vcs_last_rev": "cd1b61361f94c3ca5e5dbabf160dd7e197e18d20",
             "vcs_subdir": "meta-perl",
             "version": "1",
-            "yp_compatible_version": 99
+            "yp_compatible_version": 42561
         },
         {
             "actual_branch": "wr-10.19-20191106",
@@ -543,13 +571,13 @@
             "id": 853242,
             "layer": 16,
             "local_path": "",
-            "updated": "2020-04-24T02:04:43+0000",
+            "updated": "2022-03-20T08:03:04+0000",
             "vcs_last_commit": "2019-10-14T08:10:09+0000",
-            "vcs_last_fetch": "2020-04-24T02:04:43+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:04+0000",
             "vcs_last_rev": "cd1b61361f94c3ca5e5dbabf160dd7e197e18d20",
             "vcs_subdir": "meta-multimedia",
             "version": "1",
-            "yp_compatible_version": 99
+            "yp_compatible_version": 42561
         },
         {
             "actual_branch": "wr-10.19-20191106",
@@ -558,13 +586,13 @@
             "id": 853243,
             "layer": 20,
             "local_path": "",
-            "updated": "2020-04-24T02:04:56+0000",
+            "updated": "2022-03-20T08:03:21+0000",
             "vcs_last_commit": "2019-12-16T01:12:15+0000",
-            "vcs_last_fetch": "2020-04-24T02:04:56+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:21+0000",
             "vcs_last_rev": "9bd4e87926e4b029019b9361f69aa26c1044c25a",
             "vcs_subdir": "",
             "version": "1",
-            "yp_compatible_version": 99
+            "yp_compatible_version": 42561
         },
         {
             "actual_branch": "wr-10.19-20191106",
@@ -573,13 +601,13 @@
             "id": 853250,
             "layer": 48,
             "local_path": "",
-            "updated": "2020-04-24T02:04:01+0000",
+            "updated": "2022-03-20T08:03:29+0000",
             "vcs_last_commit": "2019-10-14T08:10:27+0000",
-            "vcs_last_fetch": "2020-04-24T02:04:01+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:29+0000",
             "vcs_last_rev": "adb18b84302475cffdf280f9da3cccbcb3a4ff8a",
             "vcs_subdir": "",
             "version": "1",
-            "yp_compatible_version": 99
+            "yp_compatible_version": 42561
         },
         {
             "actual_branch": "",
@@ -588,13 +616,13 @@
             "id": 853252,
             "layer": 55,
             "local_path": "",
-            "updated": "2020-04-24T02:04:10+0000",
+            "updated": "2022-03-20T08:03:39+0000",
             "vcs_last_commit": "2019-10-14T08:10:28+0000",
-            "vcs_last_fetch": "2020-04-24T02:04:10+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:39+0000",
             "vcs_last_rev": "a19a8fb456b0e70d068183cb0837c31f456b46b3",
             "vcs_subdir": "",
             "version": "1",
-            "yp_compatible_version": 101
+            "yp_compatible_version": 42554
         },
         {
             "actual_branch": "wr-10.19-20191106",
@@ -603,9 +631,9 @@
             "id": 853262,
             "layer": 11,
             "local_path": "",
-            "updated": "2022-02-18T05:02:29+0000",
+            "updated": "2022-03-20T08:03:37+0000",
             "vcs_last_commit": "2022-02-18T04:02:16+0000",
-            "vcs_last_fetch": "2022-02-18T05:02:29+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:37+0000",
             "vcs_last_rev": "2beb0442828a18924c1e0693ad6eba15cd096b78",
             "vcs_subdir": "meta-networking",
             "version": "1",
@@ -618,13 +646,13 @@
             "id": 853264,
             "layer": 15,
             "local_path": "",
-            "updated": "2020-04-24T02:04:42+0000",
+            "updated": "2022-03-20T08:03:59+0000",
             "vcs_last_commit": "2019-10-14T08:10:09+0000",
-            "vcs_last_fetch": "2020-04-24T02:04:42+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:59+0000",
             "vcs_last_rev": "cd1b61361f94c3ca5e5dbabf160dd7e197e18d20",
             "vcs_subdir": "meta-gnome",
             "version": "1",
-            "yp_compatible_version": 99
+            "yp_compatible_version": 42561
         },
         {
             "actual_branch": "wr-10.19-20191106",
@@ -633,13 +661,13 @@
             "id": 853265,
             "layer": 18,
             "local_path": "",
-            "updated": "2020-04-24T02:04:56+0000",
+            "updated": "2022-03-20T08:03:22+0000",
             "vcs_last_commit": "2020-04-21T18:04:48+0000",
-            "vcs_last_fetch": "2020-04-24T02:04:56+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:22+0000",
             "vcs_last_rev": "2bc7e287b286f17e1708c4c3cf68988d4ef599e1",
             "vcs_subdir": "",
             "version": null,
-            "yp_compatible_version": 97
+            "yp_compatible_version": 42562
         },
         {
             "actual_branch": "wr-10.19-20191106",
@@ -648,13 +676,13 @@
             "id": 853268,
             "layer": 172,
             "local_path": "",
-            "updated": "2020-08-13T23:08:26+0000",
+            "updated": "2022-03-20T08:03:08+0000",
             "vcs_last_commit": "2020-08-13T23:08:51+0000",
-            "vcs_last_fetch": "2020-08-13T23:08:26+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:08+0000",
             "vcs_last_rev": "678e1dfe75d9c1e38c79e74a35dee29d4d73efc2",
             "vcs_subdir": "meta-cgl-common",
             "version": null,
-            "yp_compatible_version": 97
+            "yp_compatible_version": 42562
         },
         {
             "actual_branch": "wr-10.19-20191106",
@@ -663,9 +691,9 @@
             "id": 853269,
             "layer": 45,
             "local_path": "",
-            "updated": "2021-09-18T00:09:37+0000",
+            "updated": "2022-03-20T08:03:06+0000",
             "vcs_last_commit": "2021-09-18T00:09:39+0000",
-            "vcs_last_fetch": "2021-09-18T00:09:37+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:06+0000",
             "vcs_last_rev": "a0715cd2f770d53a9f210726f12b9cb950330828",
             "vcs_subdir": "",
             "version": "1",
@@ -678,13 +706,13 @@
             "id": 853270,
             "layer": 5,
             "local_path": "",
-            "updated": "2020-04-24T02:04:50+0000",
+            "updated": "2022-03-20T08:03:09+0000",
             "vcs_last_commit": "2019-10-14T08:10:09+0000",
-            "vcs_last_fetch": "2020-04-24T02:04:50+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:09+0000",
             "vcs_last_rev": "cd1b61361f94c3ca5e5dbabf160dd7e197e18d20",
             "vcs_subdir": "meta-xfce",
             "version": "1",
-            "yp_compatible_version": 99
+            "yp_compatible_version": 42561
         },
         {
             "actual_branch": "",
@@ -693,10 +721,10 @@
             "id": 853279,
             "layer": 49,
             "local_path": "",
-            "updated": "2022-03-03T19:03:42+0000",
-            "vcs_last_commit": "2022-03-03T18:03:27+0000",
-            "vcs_last_fetch": "2022-03-03T19:03:42+0000",
-            "vcs_last_rev": "cc69be310bb0d233a0560826607189fb16e068f4",
+            "updated": "2022-03-20T08:03:29+0000",
+            "vcs_last_commit": "2022-03-15T19:03:25+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:29+0000",
+            "vcs_last_rev": "e8d1028b35c163ddd41d683580bfa93f537ac599",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42554
@@ -708,9 +736,9 @@
             "id": 853281,
             "layer": 164,
             "local_path": "",
-            "updated": "2021-12-09T22:12:28+0000",
+            "updated": "2022-03-20T08:03:52+0000",
             "vcs_last_commit": "2021-12-09T22:12:36+0000",
-            "vcs_last_fetch": "2021-12-09T22:12:28+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:52+0000",
             "vcs_last_rev": "62a58d80e9af139d66c2db603700a48060c0ff9e",
             "vcs_subdir": "wrlinux-distro",
             "version": "1",
@@ -723,13 +751,13 @@
             "id": 853283,
             "layer": 176,
             "local_path": "",
-            "updated": "2021-07-09T02:07:02+0000",
+            "updated": "2022-03-20T09:03:32+0000",
             "vcs_last_commit": "2021-07-09T02:07:35+0000",
-            "vcs_last_fetch": "2021-07-09T02:07:02+0000",
+            "vcs_last_fetch": "2022-03-20T09:03:32+0000",
             "vcs_last_rev": "1f8e6a1ec55e83ac637f80fe1a866b7f054fb6fa",
             "vcs_subdir": "wrlinux-cgl",
             "version": "1",
-            "yp_compatible_version": 101
+            "yp_compatible_version": 42554
         },
         {
             "actual_branch": "wr-10.19-20191106",
@@ -738,9 +766,9 @@
             "id": 853310,
             "layer": 155,
             "local_path": "",
-            "updated": "2021-12-02T23:12:01+0000",
+            "updated": "2022-03-20T08:03:51+0000",
             "vcs_last_commit": "2021-12-02T22:12:29+0000",
-            "vcs_last_fetch": "2021-12-02T23:12:01+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:51+0000",
             "vcs_last_rev": "fe46a5a35991c7ae3bc04625e1841b4bc2596e30",
             "vcs_subdir": "meta-openstack",
             "version": null,
@@ -1278,13 +1306,13 @@
             "section": "System Environment/Base",
             "srcrev": "",
             "summary": "Mobile IPv6 and NEMO for Linux",
-            "updated": "2021-01-07T22:01:48+0000"
+            "updated": "2022-03-20T09:03:28+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "https://savannah.nongnu.org/bugs/?group=monit",
-            "configopts": "                  --with-ssl-lib-dir=/tmp/tmpmkkmbnq3/tmp-glibc/work/core2-32-oe-linux/monit/4.9-r0/recipe-sysroot/usr/lib                  --with-crypto-lib-dir=/tmp/tmpmkkmbnq3/tmp-glibc/work/core2-32-oe-linux/monit/4.9-r0/recipe-sysroot/usr/lib                  --with-ssl-incl-dir=/tmp/tmpmkkmbnq3/tmp-glibc/work/core2-32-oe-linux/monit/4.9-r0/recipe-sysroot/usr/include                  --without-pam ",
+            "configopts": "                  --with-ssl-lib-dir=/tmp/tmpfulzjeqd/tmp-glibc/work/core2-32-oe-linux/monit/4.9-r0/recipe-sysroot/usr/lib                  --with-crypto-lib-dir=/tmp/tmpfulzjeqd/tmp-glibc/work/core2-32-oe-linux/monit/4.9-r0/recipe-sysroot/usr/lib                  --with-ssl-incl-dir=/tmp/tmpfulzjeqd/tmp-glibc/work/core2-32-oe-linux/monit/4.9-r0/recipe-sysroot/usr/include                  --without-pam ",
             "description": "Monit is a free open source utility for managing and monitoring, processes, programs, files, directories and filesystems on a UNIX system. Monit conducts automatic maintenance and repair and can execute meaningful causal actions in error situations.",
             "filename": "monit_4.9.bb",
             "filepath": "recipes-cgl/monit",
@@ -1301,7 +1329,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Monit is a tool used for system monitoring and error recovery",
-            "updated": "2020-04-24T02:04:54+0000"
+            "updated": "2022-03-20T09:03:28+0000"
         },
         {
             "bbclassextend": "",
@@ -1324,7 +1352,7 @@
             "section": "network",
             "srcrev": "",
             "summary": "Virtual Route Forwarding foundation package",
-            "updated": "2020-04-24T02:04:54+0000"
+            "updated": "2022-03-20T09:03:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1347,7 +1375,7 @@
             "section": "apps",
             "srcrev": "",
             "summary": "ipsec-test",
-            "updated": "2020-04-24T02:04:54+0000"
+            "updated": "2022-03-20T09:03:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1370,7 +1398,7 @@
             "section": "apps",
             "srcrev": "",
             "summary": "gen-coredump",
-            "updated": "2020-04-24T02:04:54+0000"
+            "updated": "2022-03-20T09:03:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1393,7 +1421,7 @@
             "section": "apps",
             "srcrev": "",
             "summary": "cyclictest",
-            "updated": "2020-04-24T02:04:55+0000"
+            "updated": "2022-03-20T09:03:29+0000"
         },
         {
             "bbclassextend": "",
@@ -1416,7 +1444,7 @@
             "section": "apps",
             "srcrev": "",
             "summary": "HPI Conformance Test Suite",
-            "updated": "2020-04-24T02:04:55+0000"
+            "updated": "2022-03-20T09:03:30+0000"
         },
         {
             "bbclassextend": "",
@@ -1439,7 +1467,7 @@
             "section": "apps",
             "srcrev": "",
             "summary": "cgl-unittest",
-            "updated": "2020-04-24T02:04:55+0000"
+            "updated": "2022-03-20T09:03:30+0000"
         },
         {
             "bbclassextend": "",
@@ -1462,7 +1490,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:56+0000"
+            "updated": "2022-03-20T09:03:30+0000"
         },
         {
             "bbclassextend": "",
@@ -1485,7 +1513,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:56+0000"
+            "updated": "2022-03-20T09:03:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1508,7 +1536,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:56+0000"
+            "updated": "2022-03-20T09:03:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1531,7 +1559,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:56+0000"
+            "updated": "2022-03-20T09:03:31+0000"
         },
         {
             "bbclassextend": "",
@@ -1554,86 +1582,86 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:56+0000"
+            "updated": "2022-03-20T09:03:31+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "Enable disk quota support",
-            "id": 63531,
+            "id": 86751,
             "layerbranch": 853283,
             "name": "feature/quota",
-            "updated": "2020-04-24T02:04:57+0000"
+            "updated": "2022-03-20T09:03:31+0000"
         },
         {
             "description": "Enable ATA over Ethernet",
-            "id": 63532,
+            "id": 86752,
             "layerbranch": 853283,
             "name": "feature/aoe",
-            "updated": "2020-04-24T02:04:57+0000"
+            "updated": "2022-03-20T09:03:32+0000"
         },
         {
             "description": "Enable VRF (Virtual Routing and Forwarding)",
-            "id": 63533,
+            "id": 86753,
             "layerbranch": 853283,
             "name": "feature/vrf",
-            "updated": "2020-04-24T02:04:57+0000"
+            "updated": "2022-03-20T09:03:32+0000"
         },
         {
             "description": "Enable ldap",
-            "id": 63534,
+            "id": 86754,
             "layerbranch": 853283,
             "name": "feature/ldap",
-            "updated": "2020-04-24T02:04:57+0000"
+            "updated": "2022-03-20T09:03:32+0000"
         },
         {
             "description": "Enable libcap-ng",
-            "id": 63535,
+            "id": 86755,
             "layerbranch": 853283,
             "name": "feature/libcap-ng",
-            "updated": "2020-04-24T02:04:57+0000"
+            "updated": "2022-03-20T09:03:32+0000"
         },
         {
             "description": "Enable all CGL related templates",
-            "id": 63537,
+            "id": 86756,
             "layerbranch": 853283,
             "name": "feature/cgl-full",
-            "updated": "2020-04-24T02:04:57+0000"
+            "updated": "2022-03-20T09:03:32+0000"
         },
         {
             "description": "Enable 'mip6' support",
-            "id": 63538,
+            "id": 86757,
             "layerbranch": 853283,
             "name": "feature/mip6",
-            "updated": "2020-04-24T02:04:57+0000"
+            "updated": "2022-03-20T09:03:32+0000"
         },
         {
             "description": "Enable 'sasl' support",
-            "id": 63539,
+            "id": 86758,
             "layerbranch": 853283,
             "name": "feature/sasl",
-            "updated": "2020-04-24T02:04:57+0000"
+            "updated": "2022-03-20T09:03:32+0000"
         },
         {
             "description": "Enable the various CGL protocol templates",
-            "id": 63540,
+            "id": 86759,
             "layerbranch": 853283,
             "name": "feature/protocols",
-            "updated": "2020-04-24T02:04:57+0000"
+            "updated": "2022-03-20T09:03:32+0000"
         },
         {
             "description": "Enable net-snmp-support",
-            "id": 63541,
+            "id": 86760,
             "layerbranch": 853283,
             "name": "feature/snmp",
-            "updated": "2020-04-24T02:04:57+0000"
+            "updated": "2022-03-20T09:03:32+0000"
         },
         {
             "description": "Enable the CGL Unit Tests",
-            "id": 63542,
+            "id": 86761,
             "layerbranch": 853283,
             "name": "feature/cut",
-            "updated": "2020-04-24T02:04:57+0000"
+            "updated": "2022-03-20T09:03:32+0000"
         }
     ]
 }

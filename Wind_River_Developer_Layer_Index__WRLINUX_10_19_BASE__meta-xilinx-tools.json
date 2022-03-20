@@ -405,6 +405,34 @@
             "image_url": "",
             "link_url": "",
             "name": "3.1 3.3 3.4 3.5"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
         }
     ],
     "branches": [
@@ -415,9 +443,9 @@
             "id": 158,
             "name": "WRLINUX_10_19_BASE",
             "short_description": "Wind River Linux 10_19 Baseline",
-            "sort_priority": 52,
+            "sort_priority": 54,
             "update_environment": null,
-            "updated": "2022-03-08T07:03:21+0000",
+            "updated": "2022-03-20T07:03:26+0000",
             "updates_enabled": true
         }
     ],
@@ -430,9 +458,9 @@
             "id": 852955,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-02-03T20:02:36+0000",
+            "updated": "2022-03-20T08:03:51+0000",
             "vcs_last_commit": "2022-02-03T19:02:27+0000",
-            "vcs_last_fetch": "2022-02-03T20:02:36+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:51+0000",
             "vcs_last_rev": "c92c03b7fea37578b951f53fbf796f2c33aa6f5c",
             "vcs_subdir": "meta",
             "version": "11",
@@ -445,9 +473,9 @@
             "id": 853240,
             "layer": 12,
             "local_path": "",
-            "updated": "2021-12-02T23:12:44+0000",
+            "updated": "2022-03-20T08:03:02+0000",
             "vcs_last_commit": "2021-12-02T23:12:20+0000",
-            "vcs_last_fetch": "2021-12-02T23:12:44+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:02+0000",
             "vcs_last_rev": "97f78c5a2a650e56f5d04c24c722f2f098fb24d9",
             "vcs_subdir": "meta-python",
             "version": "1",
@@ -460,13 +488,28 @@
             "id": 873171,
             "layer": 357,
             "local_path": "",
-            "updated": "2020-08-17T18:08:37+0000",
+            "updated": "2022-03-20T08:03:32+0000",
             "vcs_last_commit": "2020-08-17T18:08:03+0000",
-            "vcs_last_fetch": "2020-08-17T18:08:37+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:32+0000",
             "vcs_last_rev": "297afcf56566044318b84837eda7bb2452604e23",
             "vcs_subdir": "",
             "version": null,
-            "yp_compatible_version": 99
+            "yp_compatible_version": 42561
+        },
+        {
+            "actual_branch": "wr-10.19-20200817",
+            "branch": 158,
+            "collection": "xilinx",
+            "id": 899591,
+            "layer": 358,
+            "local_path": "",
+            "updated": "2022-03-20T08:03:24+0000",
+            "vcs_last_commit": "2021-10-26T22:10:33+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:24+0000",
+            "vcs_last_rev": "f0f84e0d4725a3331f44b82452a5d7dff5fd4de5",
+            "vcs_subdir": "meta-xilinx-bsp",
+            "version": null,
+            "yp_compatible_version": 42569
         }
     ],
     "layerDependencies": [
@@ -484,7 +527,7 @@
         },
         {
             "dependency": 358,
-            "id": 71131,
+            "id": 93377,
             "layerbranch": 873171,
             "required": true
         }
@@ -543,6 +586,24 @@
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
+        },
+        {
+            "comparison": false,
+            "description": "Collection of layers to support Xilinx products\r\nPlease see the respective READMEs in the layer subdirectories",
+            "id": 358,
+            "index_preference": 0,
+            "layer_type": "B",
+            "mailing_list_url": "",
+            "name": "meta-xilinx",
+            "status": "P",
+            "summary": "Xilinx device and board support for Yocto/OE-core.",
+            "updated": "2020-07-06T01:07:26+0000",
+            "usage_url": "",
+            "vcs_url": "#BASE_URL#/meta-xilinx",
+            "vcs_web_commit_url": "",
+            "vcs_web_file_base_url": "",
+            "vcs_web_tree_base_url": "",
+            "vcs_web_url": ""
         }
     ],
     "machines": [],
@@ -568,7 +629,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-08-17T02:08:57+0000"
+            "updated": "2022-03-20T08:03:29+0000"
         },
         {
             "bbclassextend": "",
@@ -591,7 +652,7 @@
             "section": "base",
             "srcrev": "6cbb920f4de9e650dc361b8e487f139fd4c3c743",
             "summary": "",
-            "updated": "2020-08-17T18:08:36+0000"
+            "updated": "2022-03-20T08:03:29+0000"
         },
         {
             "bbclassextend": "",
@@ -614,7 +675,7 @@
             "section": "base",
             "srcrev": "6cbb920f4de9e650dc361b8e487f139fd4c3c743",
             "summary": "Platform Loader and Manager for Versal devices",
-            "updated": "2020-08-17T18:08:36+0000"
+            "updated": "2022-03-20T08:03:29+0000"
         },
         {
             "bbclassextend": "",
@@ -637,7 +698,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-08-17T02:08:58+0000"
+            "updated": "2022-03-20T08:03:30+0000"
         },
         {
             "bbclassextend": "",
@@ -660,7 +721,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Generates download.bit using updatemem",
-            "updated": "2020-08-17T02:08:58+0000"
+            "updated": "2022-03-20T08:03:30+0000"
         },
         {
             "bbclassextend": "",
@@ -683,7 +744,7 @@
             "section": "base",
             "srcrev": "6cbb920f4de9e650dc361b8e487f139fd4c3c743",
             "summary": "PSM firmware for versal devices",
-            "updated": "2020-08-17T18:08:37+0000"
+            "updated": "2022-03-20T08:03:30+0000"
         },
         {
             "bbclassextend": "",
@@ -706,7 +767,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-08-17T02:08:58+0000"
+            "updated": "2022-03-20T08:03:30+0000"
         },
         {
             "bbclassextend": "",
@@ -729,7 +790,7 @@
             "section": "base",
             "srcrev": "6cbb920f4de9e650dc361b8e487f139fd4c3c743",
             "summary": "",
-            "updated": "2020-08-17T18:08:37+0000"
+            "updated": "2022-03-20T08:03:30+0000"
         },
         {
             "bbclassextend": "",
@@ -752,7 +813,7 @@
             "section": "base",
             "srcrev": "bc8445833318e9320bf485ea125921eecc3dc97a",
             "summary": "Recipe to generate necessary artifacts to use fpga-manager",
-            "updated": "2020-08-17T18:08:37+0000"
+            "updated": "2022-03-20T08:03:30+0000"
         },
         {
             "bbclassextend": "",
@@ -775,7 +836,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Install user script to support fpga-manager",
-            "updated": "2020-08-17T02:08:59+0000"
+            "updated": "2022-03-20T08:03:30+0000"
         },
         {
             "bbclassextend": "",
@@ -798,7 +859,7 @@
             "section": "libs",
             "srcrev": "6cbb920f4de9e650dc361b8e487f139fd4c3c743",
             "summary": "Xilinx AI Engine runtime",
-            "updated": "2020-08-17T02:08:59+0000"
+            "updated": "2022-03-20T08:03:31+0000"
         },
         {
             "bbclassextend": "",
@@ -821,7 +882,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Generates boot.bin using bootgen tool",
-            "updated": "2020-08-17T02:08:59+0000"
+            "updated": "2022-03-20T08:03:31+0000"
         },
         {
             "bbclassextend": "",
@@ -844,7 +905,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Generates boot.mcs using vivado",
-            "updated": "2020-08-17T02:08:59+0000"
+            "updated": "2022-03-20T08:03:31+0000"
         },
         {
             "bbclassextend": "",
@@ -867,7 +928,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-08-17T02:08:59+0000"
+            "updated": "2022-03-20T08:03:31+0000"
         },
         {
             "bbclassextend": "",
@@ -890,7 +951,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Recipe to install update script",
-            "updated": "2020-08-17T02:08:59+0000"
+            "updated": "2022-03-20T08:03:31+0000"
         },
         {
             "bbclassextend": "",
@@ -913,7 +974,7 @@
             "section": "base",
             "srcrev": "446afb7ade6386e864d5f7175d714f8880d52921",
             "summary": "",
-            "updated": "2020-08-17T02:08:00+0000"
+            "updated": "2022-03-20T08:03:32+0000"
         },
         {
             "bbclassextend": "",
@@ -936,7 +997,7 @@
             "section": "base",
             "srcrev": "6cbb920f4de9e650dc361b8e487f139fd4c3c743",
             "summary": "",
-            "updated": "2020-08-17T18:08:37+0000"
+            "updated": "2022-03-20T08:03:32+0000"
         },
         {
             "bbclassextend": "",
@@ -959,7 +1020,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Set up wiring for fpgamanager init.d script",
-            "updated": "2020-08-17T02:08:00+0000"
+            "updated": "2022-03-20T08:03:32+0000"
         },
         {
             "bbclassextend": "",
@@ -982,7 +1043,7 @@
             "section": "base",
             "srcrev": "6cbb920f4de9e650dc361b8e487f139fd4c3c743",
             "summary": "",
-            "updated": "2020-08-17T18:08:37+0000"
+            "updated": "2022-03-20T08:03:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1005,7 +1066,7 @@
             "section": "base",
             "srcrev": "6cbb920f4de9e650dc361b8e487f139fd4c3c743",
             "summary": "",
-            "updated": "2020-08-17T18:08:37+0000"
+            "updated": "2022-03-20T08:03:32+0000"
         },
         {
             "bbclassextend": "",
@@ -1028,7 +1089,7 @@
             "section": "base",
             "srcrev": "6cbb920f4de9e650dc361b8e487f139fd4c3c743",
             "summary": "",
-            "updated": "2020-08-17T18:08:37+0000"
+            "updated": "2022-03-20T08:03:32+0000"
         }
     ],
     "wrtemplates": []

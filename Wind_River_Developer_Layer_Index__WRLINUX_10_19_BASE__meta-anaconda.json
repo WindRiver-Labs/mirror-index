@@ -405,6 +405,34 @@
             "image_url": "",
             "link_url": "",
             "name": "3.1 3.3 3.4 3.5"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
         }
     ],
     "branches": [
@@ -415,19 +443,19 @@
             "id": 158,
             "name": "WRLINUX_10_19_BASE",
             "short_description": "Wind River Linux 10_19 Baseline",
-            "sort_priority": 52,
+            "sort_priority": 54,
             "update_environment": null,
-            "updated": "2022-03-08T07:03:21+0000",
+            "updated": "2022-03-20T07:03:26+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "OpenEmbedded",
-            "id": 7857,
+            "id": 10236,
             "layerbranch": 853267,
             "name": "anaconda",
-            "updated": "2020-04-24T02:04:23+0000"
+            "updated": "2022-03-20T08:03:22+0000"
         }
     ],
     "layerBranches": [
@@ -438,9 +466,9 @@
             "id": 852955,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-02-03T20:02:36+0000",
+            "updated": "2022-03-20T08:03:51+0000",
             "vcs_last_commit": "2022-02-03T19:02:27+0000",
-            "vcs_last_fetch": "2022-02-03T20:02:36+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:51+0000",
             "vcs_last_rev": "c92c03b7fea37578b951f53fbf796f2c33aa6f5c",
             "vcs_subdir": "meta",
             "version": "11",
@@ -453,13 +481,13 @@
             "id": 853236,
             "layer": 4,
             "local_path": "",
-            "updated": "2020-04-24T02:04:49+0000",
+            "updated": "2022-03-20T08:03:02+0000",
             "vcs_last_commit": "2019-10-14T08:10:09+0000",
-            "vcs_last_fetch": "2020-04-24T02:04:49+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:02+0000",
             "vcs_last_rev": "cd1b61361f94c3ca5e5dbabf160dd7e197e18d20",
             "vcs_subdir": "meta-initramfs",
             "version": null,
-            "yp_compatible_version": 99
+            "yp_compatible_version": 42561
         },
         {
             "actual_branch": "wr-10.19-20191106",
@@ -468,13 +496,13 @@
             "id": 853237,
             "layer": 7,
             "local_path": "",
-            "updated": "2021-08-11T01:08:39+0000",
+            "updated": "2022-03-20T08:03:42+0000",
             "vcs_last_commit": "2021-08-11T01:08:08+0000",
-            "vcs_last_fetch": "2021-08-11T01:08:39+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:42+0000",
             "vcs_last_rev": "196ccb3a3c71c1e4abfcd8daffad4ddb95301b3b",
             "vcs_subdir": "meta-oe",
             "version": "1",
-            "yp_compatible_version": 99
+            "yp_compatible_version": 42561
         },
         {
             "actual_branch": "wr-10.19-20191106",
@@ -483,13 +511,13 @@
             "id": 853238,
             "layer": 8,
             "local_path": "",
-            "updated": "2020-04-24T02:04:59+0000",
+            "updated": "2022-03-20T08:03:55+0000",
             "vcs_last_commit": "2019-10-14T08:10:09+0000",
-            "vcs_last_fetch": "2020-04-24T02:04:59+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:55+0000",
             "vcs_last_rev": "cd1b61361f94c3ca5e5dbabf160dd7e197e18d20",
             "vcs_subdir": "meta-filesystems",
             "version": "1",
-            "yp_compatible_version": 99
+            "yp_compatible_version": 42561
         },
         {
             "actual_branch": "wr-10.19-20191106",
@@ -498,9 +526,9 @@
             "id": 853240,
             "layer": 12,
             "local_path": "",
-            "updated": "2021-12-02T23:12:44+0000",
+            "updated": "2022-03-20T08:03:02+0000",
             "vcs_last_commit": "2021-12-02T23:12:20+0000",
-            "vcs_last_fetch": "2021-12-02T23:12:44+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:02+0000",
             "vcs_last_rev": "97f78c5a2a650e56f5d04c24c722f2f098fb24d9",
             "vcs_subdir": "meta-python",
             "version": "1",
@@ -513,9 +541,9 @@
             "id": 853262,
             "layer": 11,
             "local_path": "",
-            "updated": "2022-02-18T05:02:29+0000",
+            "updated": "2022-03-20T08:03:37+0000",
             "vcs_last_commit": "2022-02-18T04:02:16+0000",
-            "vcs_last_fetch": "2022-02-18T05:02:29+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:37+0000",
             "vcs_last_rev": "2beb0442828a18924c1e0693ad6eba15cd096b78",
             "vcs_subdir": "meta-networking",
             "version": "1",
@@ -528,13 +556,13 @@
             "id": 853264,
             "layer": 15,
             "local_path": "",
-            "updated": "2020-04-24T02:04:42+0000",
+            "updated": "2022-03-20T08:03:59+0000",
             "vcs_last_commit": "2019-10-14T08:10:09+0000",
-            "vcs_last_fetch": "2020-04-24T02:04:42+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:59+0000",
             "vcs_last_rev": "cd1b61361f94c3ca5e5dbabf160dd7e197e18d20",
             "vcs_subdir": "meta-gnome",
             "version": "1",
-            "yp_compatible_version": 99
+            "yp_compatible_version": 42561
         },
         {
             "actual_branch": "wr-10.19-20191106",
@@ -543,13 +571,13 @@
             "id": 853267,
             "layer": 235,
             "local_path": "",
-            "updated": "2020-04-24T02:04:23+0000",
+            "updated": "2022-03-20T08:03:22+0000",
             "vcs_last_commit": "2019-10-14T08:10:51+0000",
-            "vcs_last_fetch": "2020-04-24T02:04:23+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:22+0000",
             "vcs_last_rev": "f7820be5fdb19365cb8798ff2c21902b2c753e99",
             "vcs_subdir": "",
             "version": "2",
-            "yp_compatible_version": 99
+            "yp_compatible_version": 42561
         }
     ],
     "layerDependencies": [
@@ -771,7 +799,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:21+0000"
+            "updated": "2022-03-20T08:03:19+0000"
         },
         {
             "bbclassextend": "",
@@ -794,7 +822,7 @@
             "section": "devel",
             "srcrev": "1c21ffdeda9eed27e5ad8ec16aee467f8daecd50",
             "summary": "A text UI framework",
-            "updated": "2020-04-24T02:04:21+0000"
+            "updated": "2022-03-20T08:03:20+0000"
         },
         {
             "bbclassextend": "",
@@ -817,7 +845,7 @@
             "section": "devel",
             "srcrev": "5c492721676257d239ebc38fbacafc96f944f856",
             "summary": "The anaconda package",
-            "updated": "2020-04-24T02:04:21+0000"
+            "updated": "2022-03-20T08:03:20+0000"
         },
         {
             "bbclassextend": "",
@@ -840,7 +868,7 @@
             "section": "devel",
             "srcrev": "a8268944c8a6064697ccb4d24e52dc666ab03ed4",
             "summary": "ProductMD is a Python library providing parsers for metadatarelated to composes and installation media",
-            "updated": "2020-04-24T02:04:22+0000"
+            "updated": "2022-03-20T08:03:20+0000"
         },
         {
             "bbclassextend": "",
@@ -863,7 +891,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:22+0000"
+            "updated": "2022-03-20T08:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -886,7 +914,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:22+0000"
+            "updated": "2022-03-20T08:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -909,7 +937,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:22+0000"
+            "updated": "2022-03-20T08:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -932,7 +960,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:23+0000"
+            "updated": "2022-03-20T08:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -955,7 +983,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:23+0000"
+            "updated": "2022-03-20T08:03:22+0000"
         }
     ],
     "wrtemplates": []

@@ -405,6 +405,34 @@
             "image_url": "",
             "link_url": "",
             "name": "3.1 3.3 3.4 3.5"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
         }
     ],
     "branches": [
@@ -415,9 +443,9 @@
             "id": 158,
             "name": "WRLINUX_10_19_BASE",
             "short_description": "Wind River Linux 10_19 Baseline",
-            "sort_priority": 52,
+            "sort_priority": 54,
             "update_environment": null,
-            "updated": "2022-03-08T07:03:21+0000",
+            "updated": "2022-03-20T07:03:26+0000",
             "updates_enabled": true
         }
     ],
@@ -430,13 +458,13 @@
             "id": 853237,
             "layer": 7,
             "local_path": "",
-            "updated": "2021-08-11T01:08:39+0000",
+            "updated": "2022-03-20T08:03:42+0000",
             "vcs_last_commit": "2021-08-11T01:08:08+0000",
-            "vcs_last_fetch": "2021-08-11T01:08:39+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:42+0000",
             "vcs_last_rev": "196ccb3a3c71c1e4abfcd8daffad4ddb95301b3b",
             "vcs_subdir": "meta-oe",
             "version": "1",
-            "yp_compatible_version": 99
+            "yp_compatible_version": 42561
         },
         {
             "actual_branch": "wr-10.19-20191106",
@@ -445,9 +473,9 @@
             "id": 853240,
             "layer": 12,
             "local_path": "",
-            "updated": "2021-12-02T23:12:44+0000",
+            "updated": "2022-03-20T08:03:02+0000",
             "vcs_last_commit": "2021-12-02T23:12:20+0000",
-            "vcs_last_fetch": "2021-12-02T23:12:44+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:02+0000",
             "vcs_last_rev": "97f78c5a2a650e56f5d04c24c722f2f098fb24d9",
             "vcs_subdir": "meta-python",
             "version": "1",
@@ -460,13 +488,13 @@
             "id": 853258,
             "layer": 247,
             "local_path": "",
-            "updated": "2020-04-24T02:04:07+0000",
+            "updated": "2022-03-20T08:03:36+0000",
             "vcs_last_commit": "2020-04-21T18:04:28+0000",
-            "vcs_last_fetch": "2020-04-24T02:04:07+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:36+0000",
             "vcs_last_rev": "1c06ceb2d2c8d54d7f189534f86e030bdbbea912",
             "vcs_subdir": "",
             "version": null,
-            "yp_compatible_version": 97
+            "yp_compatible_version": 42562
         }
     ],
     "layerDependencies": [
@@ -568,7 +596,7 @@
             "section": "base",
             "srcrev": "d334fe9a61823054ba9c200fdd56e0ee050d5b1e",
             "summary": "",
-            "updated": "2020-04-24T02:04:28+0000"
+            "updated": "2022-03-20T08:03:58+0000"
         },
         {
             "bbclassextend": "",
@@ -591,7 +619,7 @@
             "section": "base",
             "srcrev": "d334fe9a61823054ba9c200fdd56e0ee050d5b1e",
             "summary": "",
-            "updated": "2020-04-24T02:04:28+0000"
+            "updated": "2022-03-20T08:03:58+0000"
         },
         {
             "bbclassextend": "",
@@ -614,7 +642,7 @@
             "section": "base",
             "srcrev": "809af3b63294d0c5302cc15e3652c65843907cf2",
             "summary": "",
-            "updated": "2020-04-24T02:04:28+0000"
+            "updated": "2022-03-20T08:03:58+0000"
         },
         {
             "bbclassextend": "",
@@ -637,7 +665,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:29+0000"
+            "updated": "2022-03-20T08:03:59+0000"
         },
         {
             "bbclassextend": "",
@@ -660,7 +688,7 @@
             "section": "base",
             "srcrev": "8b232a22e3b67efa17897d9ee66856e77f78a8c3",
             "summary": "",
-            "updated": "2020-04-24T02:04:29+0000"
+            "updated": "2022-03-20T08:03:59+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -683,7 +711,7 @@
             "section": "base",
             "srcrev": "4deb950a4154e9baa39c87d75dd323dd58e239b7",
             "summary": "",
-            "updated": "2020-04-24T02:04:29+0000"
+            "updated": "2022-03-20T08:03:59+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -706,7 +734,7 @@
             "section": "base",
             "srcrev": "6b84372f6a07e55147f8d591e81f7776f3665d0b",
             "summary": "",
-            "updated": "2020-04-24T02:04:30+0000"
+            "updated": "2022-03-20T08:03:59+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -729,7 +757,7 @@
             "section": "base",
             "srcrev": "68ee315a77382f09a8732093603c3c2f1ada08c8",
             "summary": "",
-            "updated": "2020-04-24T02:04:30+0000"
+            "updated": "2022-03-20T08:03:00+0000"
         },
         {
             "bbclassextend": "",
@@ -752,7 +780,7 @@
             "section": "base",
             "srcrev": "55dd09dd2ba0d1bc331f9b4755d9c8a37399da99",
             "summary": "",
-            "updated": "2020-04-24T02:04:31+0000"
+            "updated": "2022-03-20T08:03:00+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -775,7 +803,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:31+0000"
+            "updated": "2022-03-20T08:03:00+0000"
         },
         {
             "bbclassextend": "",
@@ -798,7 +826,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:31+0000"
+            "updated": "2022-03-20T08:03:01+0000"
         },
         {
             "bbclassextend": "",
@@ -821,7 +849,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Pure-Python RSA implementation",
-            "updated": "2020-04-24T02:04:32+0000"
+            "updated": "2022-03-20T08:03:01+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -844,7 +872,7 @@
             "section": "devel/python",
             "srcrev": "c4cee625e5b0b0f410e22ca60f701eff98f288d0",
             "summary": "",
-            "updated": "2020-04-24T02:04:32+0000"
+            "updated": "2022-03-20T08:03:01+0000"
         },
         {
             "bbclassextend": "",
@@ -867,7 +895,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:32+0000"
+            "updated": "2022-03-20T08:03:01+0000"
         },
         {
             "bbclassextend": "",
@@ -890,7 +918,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Basic inter-process locks",
-            "updated": "2020-04-24T02:04:33+0000"
+            "updated": "2022-03-20T08:03:02+0000"
         },
         {
             "bbclassextend": "",
@@ -913,7 +941,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:33+0000"
+            "updated": "2022-03-20T08:03:02+0000"
         },
         {
             "bbclassextend": "",
@@ -936,7 +964,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Pure-Python RSA implementation",
-            "updated": "2020-04-24T02:04:33+0000"
+            "updated": "2022-03-20T08:03:02+0000"
         },
         {
             "bbclassextend": "",
@@ -959,7 +987,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:33+0000"
+            "updated": "2022-03-20T08:03:02+0000"
         },
         {
             "bbclassextend": "",
@@ -982,7 +1010,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Additional functools in the spirit of stdlib\u2019s functools.",
-            "updated": "2020-04-24T02:04:33+0000"
+            "updated": "2022-03-20T08:03:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1005,7 +1033,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:34+0000"
+            "updated": "2022-03-20T08:03:02+0000"
         },
         {
             "bbclassextend": "",
@@ -1028,7 +1056,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:34+0000"
+            "updated": "2022-03-20T08:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1051,7 +1079,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:34+0000"
+            "updated": "2022-03-20T08:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1074,7 +1102,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:34+0000"
+            "updated": "2022-03-20T08:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1097,7 +1125,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:35+0000"
+            "updated": "2022-03-20T08:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1120,7 +1148,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:35+0000"
+            "updated": "2022-03-20T08:03:03+0000"
         },
         {
             "bbclassextend": "",
@@ -1143,7 +1171,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "JSON Matching Expressions",
-            "updated": "2020-04-24T02:04:35+0000"
+            "updated": "2022-03-20T08:03:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1166,7 +1194,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:35+0000"
+            "updated": "2022-03-20T08:03:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1189,7 +1217,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:36+0000"
+            "updated": "2022-03-20T08:03:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1212,7 +1240,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:36+0000"
+            "updated": "2022-03-20T08:03:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1235,7 +1263,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:36+0000"
+            "updated": "2022-03-20T08:03:04+0000"
         },
         {
             "bbclassextend": "",
@@ -1258,7 +1286,7 @@
             "section": "base",
             "srcrev": "8d666f03e2124e107bafc8ee43bceefd0058e5f0",
             "summary": "Python interface to CMU Sphinxbase and Pocketsphinx libraries",
-            "updated": "2020-04-24T02:04:36+0000"
+            "updated": "2022-03-20T08:03:05+0000"
         },
         {
             "bbclassextend": "",
@@ -1281,7 +1309,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:36+0000"
+            "updated": "2022-03-20T08:03:05+0000"
         },
         {
             "bbclassextend": "",
@@ -1304,7 +1332,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:37+0000"
+            "updated": "2022-03-20T08:03:05+0000"
         },
         {
             "bbclassextend": "",
@@ -1327,7 +1355,7 @@
             "section": "base",
             "srcrev": "d9bb60c754137d5914ac275ffe66e1976e06bd2d",
             "summary": "Object-oriented filesystem paths",
-            "updated": "2020-04-24T02:04:37+0000"
+            "updated": "2022-03-20T08:03:05+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1350,7 +1378,7 @@
             "section": "devel/python",
             "srcrev": "0900d346e5569018644dcee850d679de3c915efb",
             "summary": "",
-            "updated": "2020-04-24T02:04:37+0000"
+            "updated": "2022-03-20T08:03:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1373,7 +1401,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:37+0000"
+            "updated": "2022-03-20T08:03:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1396,7 +1424,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Objects and routines pertaining to date and time",
-            "updated": "2020-04-24T02:04:38+0000"
+            "updated": "2022-03-20T08:03:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1419,7 +1447,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Human friendly output for text interfaces using Python",
-            "updated": "2020-04-24T02:04:38+0000"
+            "updated": "2022-03-20T08:03:06+0000"
         },
         {
             "bbclassextend": "",
@@ -1442,7 +1470,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:38+0000"
+            "updated": "2022-03-20T08:03:07+0000"
         },
         {
             "bbclassextend": "native",
@@ -1465,7 +1493,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "setuptools_scm plugin for git archives",
-            "updated": "2020-04-24T02:04:38+0000"
+            "updated": "2022-03-20T08:03:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1488,7 +1516,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Human friendly output for text interfaces using Python",
-            "updated": "2020-04-24T02:04:39+0000"
+            "updated": "2022-03-20T08:03:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1511,7 +1539,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:39+0000"
+            "updated": "2022-03-20T08:03:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1534,7 +1562,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:39+0000"
+            "updated": "2022-03-20T08:03:07+0000"
         },
         {
             "bbclassextend": "",
@@ -1557,7 +1585,7 @@
             "section": "base",
             "srcrev": "8d666f03e2124e107bafc8ee43bceefd0058e5f0",
             "summary": "Python interface to CMU Sphinxbase and Pocketsphinx libraries",
-            "updated": "2020-04-24T02:04:39+0000"
+            "updated": "2022-03-20T08:03:08+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1580,7 +1608,7 @@
             "section": "devel/python",
             "srcrev": "0900d346e5569018644dcee850d679de3c915efb",
             "summary": "",
-            "updated": "2020-04-24T02:04:40+0000"
+            "updated": "2022-03-20T08:03:08+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1603,7 +1631,7 @@
             "section": "base",
             "srcrev": "e27332bc82f4e327aedaec17c9b656ae719322ed",
             "summary": "",
-            "updated": "2020-04-24T02:04:40+0000"
+            "updated": "2022-03-20T08:03:08+0000"
         },
         {
             "bbclassextend": "",
@@ -1626,7 +1654,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:41+0000"
+            "updated": "2022-03-20T08:03:09+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -1649,7 +1677,7 @@
             "section": "devel/python",
             "srcrev": "c4cee625e5b0b0f410e22ca60f701eff98f288d0",
             "summary": "",
-            "updated": "2020-04-24T02:04:41+0000"
+            "updated": "2022-03-20T08:03:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1672,7 +1700,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:41+0000"
+            "updated": "2022-03-20T08:03:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1695,7 +1723,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:41+0000"
+            "updated": "2022-03-20T08:03:09+0000"
         },
         {
             "bbclassextend": "",
@@ -1718,7 +1746,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Backport of functools.lru_cache from Python 3.3 as published at ActiveState.",
-            "updated": "2020-04-24T02:04:42+0000"
+            "updated": "2022-03-20T08:03:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1741,7 +1769,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "SCP module for Paramiko",
-            "updated": "2020-04-24T02:04:42+0000"
+            "updated": "2022-03-20T08:03:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1764,7 +1792,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Makes working with XML feel like you are working with JSON",
-            "updated": "2020-04-24T02:04:42+0000"
+            "updated": "2022-03-20T08:03:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1787,7 +1815,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:42+0000"
+            "updated": "2022-03-20T08:03:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1810,7 +1838,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:42+0000"
+            "updated": "2022-03-20T08:03:10+0000"
         },
         {
             "bbclassextend": "",
@@ -1833,7 +1861,7 @@
             "section": "devel/python",
             "srcrev": "bb429dac1a686807c69b916f03dd843fa10b0927",
             "summary": "",
-            "updated": "2020-04-24T02:04:43+0000"
+            "updated": "2022-03-20T08:03:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1856,7 +1884,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:43+0000"
+            "updated": "2022-03-20T08:03:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1879,7 +1907,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Makes working with XML feel like you are working with JSON",
-            "updated": "2020-04-24T02:04:43+0000"
+            "updated": "2022-03-20T08:03:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1902,7 +1930,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:43+0000"
+            "updated": "2022-03-20T08:03:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1925,7 +1953,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:44+0000"
+            "updated": "2022-03-20T08:03:11+0000"
         },
         {
             "bbclassextend": "",
@@ -1948,7 +1976,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Objects and routines pertaining to date and time",
-            "updated": "2020-04-24T02:04:44+0000"
+            "updated": "2022-03-20T08:03:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1971,7 +1999,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:44+0000"
+            "updated": "2022-03-20T08:03:12+0000"
         },
         {
             "bbclassextend": "",
@@ -1994,7 +2022,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:44+0000"
+            "updated": "2022-03-20T08:03:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2017,7 +2045,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:45+0000"
+            "updated": "2022-03-20T08:03:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2040,7 +2068,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:45+0000"
+            "updated": "2022-03-20T08:03:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2063,7 +2091,7 @@
             "section": "base",
             "srcrev": "edbae30f83f370f9d2f1e43d02e3793081e1cd25",
             "summary": "A better directory iterator and faster os.walk()",
-            "updated": "2020-04-24T02:04:45+0000"
+            "updated": "2022-03-20T08:03:12+0000"
         },
         {
             "bbclassextend": "",
@@ -2086,7 +2114,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:45+0000"
+            "updated": "2022-03-20T08:03:13+0000"
         },
         {
             "bbclassextend": "native",
@@ -2109,7 +2137,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "setuptools_scm plugin for git archives",
-            "updated": "2020-04-24T02:04:46+0000"
+            "updated": "2022-03-20T08:03:13+0000"
         },
         {
             "bbclassextend": "",
@@ -2132,7 +2160,7 @@
             "section": "base",
             "srcrev": "afaeb815ecae56e9de6fe19f376deecdc272e32f",
             "summary": "",
-            "updated": "2020-04-24T02:04:46+0000"
+            "updated": "2022-03-20T08:03:13+0000"
         },
         {
             "bbclassextend": "",
@@ -2155,7 +2183,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:46+0000"
+            "updated": "2022-03-20T08:03:13+0000"
         },
         {
             "bbclassextend": "",
@@ -2178,7 +2206,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Additional functools in the spirit of stdlib\u2019s functools.",
-            "updated": "2020-04-24T02:04:46+0000"
+            "updated": "2022-03-20T08:03:13+0000"
         },
         {
             "bbclassextend": "",
@@ -2201,7 +2229,7 @@
             "section": "base",
             "srcrev": "84c98bc229d67be7d76fe582524b4ae82d4109bb",
             "summary": "Colored terminal output for Python's logging module",
-            "updated": "2020-04-24T02:04:47+0000"
+            "updated": "2022-03-20T08:03:14+0000"
         },
         {
             "bbclassextend": "",
@@ -2224,7 +2252,7 @@
             "section": "base",
             "srcrev": "2016fe9817ad03b26aa5f1a475f5b79ad6757b96",
             "summary": "Converts a Python dictionary or other native data type into a valid XML string.",
-            "updated": "2020-04-24T02:04:47+0000"
+            "updated": "2022-03-20T08:03:14+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2247,7 +2275,7 @@
             "section": "devel/python",
             "srcrev": "29c8281dee7fe8dae8c66c7c40ce7c058ec2ab0f",
             "summary": "",
-            "updated": "2020-04-24T02:04:47+0000"
+            "updated": "2022-03-20T08:03:14+0000"
         },
         {
             "bbclassextend": "",
@@ -2270,7 +2298,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:47+0000"
+            "updated": "2022-03-20T08:03:14+0000"
         },
         {
             "bbclassextend": "",
@@ -2293,7 +2321,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "TCP port monitoring utilities",
-            "updated": "2020-04-24T02:04:47+0000"
+            "updated": "2022-03-20T08:03:14+0000"
         },
         {
             "bbclassextend": "",
@@ -2316,7 +2344,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:47+0000"
+            "updated": "2022-03-20T08:03:15+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2339,7 +2367,7 @@
             "section": "devel/python",
             "srcrev": "29c8281dee7fe8dae8c66c7c40ce7c058ec2ab0f",
             "summary": "",
-            "updated": "2020-04-24T02:04:48+0000"
+            "updated": "2022-03-20T08:03:15+0000"
         },
         {
             "bbclassextend": "",
@@ -2362,7 +2390,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:48+0000"
+            "updated": "2022-03-20T08:03:15+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2385,7 +2413,7 @@
             "section": "base",
             "srcrev": "94870f3f8e4e3507218a07f9d730c38abc42c219",
             "summary": "",
-            "updated": "2020-04-24T02:04:48+0000"
+            "updated": "2022-03-20T08:03:16+0000"
         },
         {
             "bbclassextend": "",
@@ -2408,7 +2436,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:48+0000"
+            "updated": "2022-03-20T08:03:16+0000"
         },
         {
             "bbclassextend": "",
@@ -2431,7 +2459,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:49+0000"
+            "updated": "2022-03-20T08:03:16+0000"
         },
         {
             "bbclassextend": "",
@@ -2454,7 +2482,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:49+0000"
+            "updated": "2022-03-20T08:03:17+0000"
         },
         {
             "bbclassextend": "",
@@ -2477,7 +2505,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "Basic inter-process locks",
-            "updated": "2020-04-24T02:04:49+0000"
+            "updated": "2022-03-20T08:03:17+0000"
         },
         {
             "bbclassextend": "",
@@ -2500,7 +2528,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:49+0000"
+            "updated": "2022-03-20T08:03:17+0000"
         },
         {
             "bbclassextend": "",
@@ -2523,7 +2551,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:49+0000"
+            "updated": "2022-03-20T08:03:17+0000"
         },
         {
             "bbclassextend": "",
@@ -2546,7 +2574,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:50+0000"
+            "updated": "2022-03-20T08:03:17+0000"
         },
         {
             "bbclassextend": "",
@@ -2569,7 +2597,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "SCP module for Paramiko",
-            "updated": "2020-04-24T02:04:50+0000"
+            "updated": "2022-03-20T08:03:17+0000"
         },
         {
             "bbclassextend": "",
@@ -2592,7 +2620,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:50+0000"
+            "updated": "2022-03-20T08:03:18+0000"
         },
         {
             "bbclassextend": "",
@@ -2615,7 +2643,7 @@
             "section": "devel/python",
             "srcrev": "bb429dac1a686807c69b916f03dd843fa10b0927",
             "summary": "",
-            "updated": "2020-04-24T02:04:50+0000"
+            "updated": "2022-03-20T08:03:18+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2638,7 +2666,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:51+0000"
+            "updated": "2022-03-20T08:03:18+0000"
         },
         {
             "bbclassextend": "",
@@ -2661,7 +2689,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:51+0000"
+            "updated": "2022-03-20T08:03:19+0000"
         },
         {
             "bbclassextend": "",
@@ -2684,7 +2712,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "TCP port monitoring utilities",
-            "updated": "2020-04-24T02:04:51+0000"
+            "updated": "2022-03-20T08:03:19+0000"
         },
         {
             "bbclassextend": "",
@@ -2707,7 +2735,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:52+0000"
+            "updated": "2022-03-20T08:03:19+0000"
         },
         {
             "bbclassextend": "",
@@ -2730,7 +2758,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "JSON Matching Expressions",
-            "updated": "2020-04-24T02:04:52+0000"
+            "updated": "2022-03-20T08:03:20+0000"
         },
         {
             "bbclassextend": "",
@@ -2753,7 +2781,7 @@
             "section": "base",
             "srcrev": "84c98bc229d67be7d76fe582524b4ae82d4109bb",
             "summary": "Colored terminal output for Python's logging module",
-            "updated": "2020-04-24T02:04:52+0000"
+            "updated": "2022-03-20T08:03:20+0000"
         },
         {
             "bbclassextend": "",
@@ -2776,7 +2804,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:52+0000"
+            "updated": "2022-03-20T08:03:20+0000"
         },
         {
             "bbclassextend": "",
@@ -2799,7 +2827,7 @@
             "section": "base",
             "srcrev": "edbae30f83f370f9d2f1e43d02e3793081e1cd25",
             "summary": "A better directory iterator and faster os.walk()",
-            "updated": "2020-04-24T02:04:53+0000"
+            "updated": "2022-03-20T08:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -2822,7 +2850,7 @@
             "section": "base",
             "srcrev": "d9bb60c754137d5914ac275ffe66e1976e06bd2d",
             "summary": "Object-oriented filesystem paths",
-            "updated": "2020-04-24T02:04:53+0000"
+            "updated": "2022-03-20T08:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -2845,7 +2873,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:53+0000"
+            "updated": "2022-03-20T08:03:21+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2868,7 +2896,7 @@
             "section": "base",
             "srcrev": "e27332bc82f4e327aedaec17c9b656ae719322ed",
             "summary": "",
-            "updated": "2020-04-24T02:04:54+0000"
+            "updated": "2022-03-20T08:03:21+0000"
         },
         {
             "bbclassextend": "",
@@ -2891,7 +2919,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:54+0000"
+            "updated": "2022-03-20T08:03:22+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -2914,7 +2942,7 @@
             "section": "base",
             "srcrev": "94870f3f8e4e3507218a07f9d730c38abc42c219",
             "summary": "",
-            "updated": "2020-04-24T02:04:54+0000"
+            "updated": "2022-03-20T08:03:22+0000"
         },
         {
             "bbclassextend": "",
@@ -2937,7 +2965,7 @@
             "section": "base",
             "srcrev": "afaeb815ecae56e9de6fe19f376deecdc272e32f",
             "summary": "",
-            "updated": "2020-04-24T02:04:54+0000"
+            "updated": "2022-03-20T08:03:22+0000"
         },
         {
             "bbclassextend": "",
@@ -2960,7 +2988,7 @@
             "section": "base",
             "srcrev": "2016fe9817ad03b26aa5f1a475f5b79ad6757b96",
             "summary": "Converts a Python dictionary or other native data type into a valid XML string.",
-            "updated": "2020-04-24T02:04:55+0000"
+            "updated": "2022-03-20T08:03:22+0000"
         },
         {
             "bbclassextend": "native",
@@ -2983,7 +3011,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:55+0000"
+            "updated": "2022-03-20T08:03:23+0000"
         },
         {
             "bbclassextend": "native",
@@ -3006,7 +3034,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:55+0000"
+            "updated": "2022-03-20T08:03:23+0000"
         },
         {
             "bbclassextend": "",
@@ -3029,7 +3057,7 @@
             "section": "base",
             "srcrev": "f54b0e47a08782a6131cc3d60f94d038fa6e0a51",
             "summary": "",
-            "updated": "2020-04-24T02:04:55+0000"
+            "updated": "2022-03-20T08:03:23+0000"
         },
         {
             "bbclassextend": "",
@@ -3052,7 +3080,7 @@
             "section": "base",
             "srcrev": "c69134d01746dcf551dd7724b4edb12f922eb0d1",
             "summary": "",
-            "updated": "2020-04-24T02:04:55+0000"
+            "updated": "2022-03-20T08:03:24+0000"
         },
         {
             "bbclassextend": "native",
@@ -3075,7 +3103,7 @@
             "section": "base",
             "srcrev": "d989902ac658b4323a4f4020446e6f4dc449e25c",
             "summary": "A multi-platform support library with a focus on asynchronous I/O",
-            "updated": "2020-04-24T02:04:56+0000"
+            "updated": "2022-03-20T08:03:24+0000"
         },
         {
             "bbclassextend": "",
@@ -3098,7 +3126,7 @@
             "section": "base",
             "srcrev": "ee99202f84f8d0e8ebd1c1722aa8a682f54919d0",
             "summary": "",
-            "updated": "2020-04-24T02:04:56+0000"
+            "updated": "2022-03-20T08:03:24+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3121,7 +3149,7 @@
             "section": "libs",
             "srcrev": "",
             "summary": "c-ares is a C library that resolves names asynchronously.",
-            "updated": "2020-04-24T02:04:57+0000"
+            "updated": "2022-03-20T08:03:25+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3144,7 +3172,7 @@
             "section": "base",
             "srcrev": "54f55a2f02a823e5f5c87abe853bb76d1170718d",
             "summary": "Parser for HTTP messages written in C",
-            "updated": "2020-04-24T02:04:57+0000"
+            "updated": "2022-03-20T08:03:26+0000"
         },
         {
             "bbclassextend": "native nativesdk",
@@ -3167,7 +3195,7 @@
             "section": "devel",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:58+0000"
+            "updated": "2022-03-20T08:03:26+0000"
         },
         {
             "bbclassextend": "",
@@ -3190,13 +3218,13 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:58+0000"
+            "updated": "2022-03-20T08:03:26+0000"
         },
         {
             "bbclassextend": "",
             "blacklisted": "",
             "bugtracker": "",
-            "configopts": " -DTHREADS_PTHREAD_ARG=OFF -DBUILD_SHARED_LIBRARY=ON -DBUILD_SAMPLES=ON -DRapidJSON_DIR=/tmp/tmp27ecmqs0/tmp-glibc/work/core2-32-oe-linux/aws-iot-device-sdk-cpp/1.3.0-r0/recipe-sysroot/usr/lib/cmake/RapidJSON ",
+            "configopts": " -DTHREADS_PTHREAD_ARG=OFF -DBUILD_SHARED_LIBRARY=ON -DBUILD_SAMPLES=ON -DRapidJSON_DIR=/tmp/tmpmawyalkq/tmp-glibc/work/core2-32-oe-linux/aws-iot-device-sdk-cpp/1.3.0-r0/recipe-sysroot/usr/lib/cmake/RapidJSON ",
             "description": "SDK for connecting to AWS IoT from a device using C++",
             "filename": "aws-iot-device-sdk-cpp_1.3.0.bb",
             "filepath": "recipes-aws/aws-iot-device-sdk-cpp",
@@ -3213,7 +3241,7 @@
             "section": "base",
             "srcrev": "bf20603154eeda78f52d69eaf9c79189f0b603ea",
             "summary": "",
-            "updated": "2020-04-24T02:04:58+0000"
+            "updated": "2022-03-20T08:03:27+0000"
         },
         {
             "bbclassextend": "",
@@ -3236,7 +3264,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:58+0000"
+            "updated": "2022-03-20T08:03:27+0000"
         },
         {
             "bbclassextend": "",
@@ -3259,7 +3287,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:59+0000"
+            "updated": "2022-03-20T08:03:27+0000"
         },
         {
             "bbclassextend": "",
@@ -3282,7 +3310,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:59+0000"
+            "updated": "2022-03-20T08:03:28+0000"
         },
         {
             "bbclassextend": "",
@@ -3305,7 +3333,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:00+0000"
+            "updated": "2022-03-20T08:03:28+0000"
         },
         {
             "bbclassextend": "",
@@ -3328,7 +3356,7 @@
             "section": "base",
             "srcrev": "59338c88372e5e15b57b438061d007dfeb0fbc3f",
             "summary": "",
-            "updated": "2020-04-24T02:04:00+0000"
+            "updated": "2022-03-20T08:03:29+0000"
         },
         {
             "bbclassextend": "",
@@ -3351,7 +3379,7 @@
             "section": "base",
             "srcrev": "59338c88372e5e15b57b438061d007dfeb0fbc3f",
             "summary": "",
-            "updated": "2020-04-24T02:04:00+0000"
+            "updated": "2022-03-20T08:03:29+0000"
         },
         {
             "bbclassextend": "",
@@ -3374,7 +3402,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:00+0000"
+            "updated": "2022-03-20T08:03:29+0000"
         },
         {
             "bbclassextend": "",
@@ -3397,7 +3425,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:01+0000"
+            "updated": "2022-03-20T08:03:29+0000"
         },
         {
             "bbclassextend": "",
@@ -3420,7 +3448,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:01+0000"
+            "updated": "2022-03-20T08:03:29+0000"
         },
         {
             "bbclassextend": "",
@@ -3443,7 +3471,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:01+0000"
+            "updated": "2022-03-20T08:03:30+0000"
         },
         {
             "bbclassextend": "",
@@ -3466,7 +3494,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:01+0000"
+            "updated": "2022-03-20T08:03:30+0000"
         },
         {
             "bbclassextend": "",
@@ -3489,7 +3517,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:01+0000"
+            "updated": "2022-03-20T08:03:30+0000"
         },
         {
             "bbclassextend": "",
@@ -3512,7 +3540,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:02+0000"
+            "updated": "2022-03-20T08:03:30+0000"
         },
         {
             "bbclassextend": "",
@@ -3535,7 +3563,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:02+0000"
+            "updated": "2022-03-20T08:03:30+0000"
         },
         {
             "bbclassextend": "",
@@ -3558,7 +3586,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "An object oriented API for Open IoT Service Platform",
-            "updated": "2020-04-24T02:04:02+0000"
+            "updated": "2022-03-20T08:03:30+0000"
         },
         {
             "bbclassextend": "",
@@ -3581,7 +3609,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "An object oriented API for Open IoT Service Platform",
-            "updated": "2020-04-24T02:04:02+0000"
+            "updated": "2022-03-20T08:03:31+0000"
         },
         {
             "bbclassextend": "",
@@ -3604,7 +3632,7 @@
             "section": "base",
             "srcrev": "2e646aaf897da0d54a7ee5df55c4de3ac2eac86c",
             "summary": "",
-            "updated": "2020-04-24T02:04:02+0000"
+            "updated": "2022-03-20T08:03:31+0000"
         },
         {
             "bbclassextend": "",
@@ -3627,7 +3655,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:03+0000"
+            "updated": "2022-03-20T08:03:31+0000"
         },
         {
             "bbclassextend": "",
@@ -3650,7 +3678,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:03+0000"
+            "updated": "2022-03-20T08:03:31+0000"
         },
         {
             "bbclassextend": "",
@@ -3673,7 +3701,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:03+0000"
+            "updated": "2022-03-20T08:03:32+0000"
         },
         {
             "bbclassextend": "",
@@ -3696,7 +3724,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:03+0000"
+            "updated": "2022-03-20T08:03:32+0000"
         },
         {
             "bbclassextend": "",
@@ -3719,7 +3747,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:03+0000"
+            "updated": "2022-03-20T08:03:32+0000"
         },
         {
             "bbclassextend": "",
@@ -3742,7 +3770,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:04+0000"
+            "updated": "2022-03-20T08:03:33+0000"
         },
         {
             "bbclassextend": "",
@@ -3765,7 +3793,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:04+0000"
+            "updated": "2022-03-20T08:03:33+0000"
         },
         {
             "bbclassextend": "",
@@ -3788,7 +3816,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:04+0000"
+            "updated": "2022-03-20T08:03:33+0000"
         },
         {
             "bbclassextend": "",
@@ -3811,7 +3839,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:04+0000"
+            "updated": "2022-03-20T08:03:33+0000"
         },
         {
             "bbclassextend": "",
@@ -3834,7 +3862,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:05+0000"
+            "updated": "2022-03-20T08:03:34+0000"
         },
         {
             "bbclassextend": "",
@@ -3857,7 +3885,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:05+0000"
+            "updated": "2022-03-20T08:03:34+0000"
         },
         {
             "bbclassextend": "",
@@ -3880,7 +3908,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:05+0000"
+            "updated": "2022-03-20T08:03:34+0000"
         },
         {
             "bbclassextend": "",
@@ -3903,7 +3931,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:05+0000"
+            "updated": "2022-03-20T08:03:34+0000"
         },
         {
             "bbclassextend": "",
@@ -3926,7 +3954,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "restic is a backup program that is fast, efficient and secure.",
-            "updated": "2020-04-24T02:04:05+0000"
+            "updated": "2022-03-20T08:03:35+0000"
         },
         {
             "bbclassextend": "",
@@ -3949,7 +3977,7 @@
             "section": "base",
             "srcrev": "b2c6b254430bd97aced22a4946bec1a51ccd5173",
             "summary": "An open source, portable, easy to use, readable and flexible SSL library",
-            "updated": "2020-04-24T02:04:06+0000"
+            "updated": "2022-03-20T08:03:35+0000"
         },
         {
             "bbclassextend": "",
@@ -3972,7 +4000,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Rclone - rsync for cloud storage. ",
-            "updated": "2020-04-24T02:04:06+0000"
+            "updated": "2022-03-20T08:03:36+0000"
         }
     ],
     "wrtemplates": []

@@ -405,6 +405,34 @@
             "image_url": "",
             "link_url": "",
             "name": "3.1 3.3 3.4 3.5"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
         }
     ],
     "branches": [
@@ -415,40 +443,40 @@
             "id": 158,
             "name": "WRLINUX_10_19_BASE",
             "short_description": "Wind River Linux 10_19 Baseline",
-            "sort_priority": 52,
+            "sort_priority": 54,
             "update_environment": null,
-            "updated": "2022-03-08T07:03:21+0000",
+            "updated": "2022-03-20T07:03:26+0000",
             "updates_enabled": true
         }
     ],
     "distros": [
         {
             "description": "Poky (Yocto Project Reference Distro)",
-            "id": 7852,
+            "id": 10231,
             "layerbranch": 853253,
             "name": "poky-altcfg",
-            "updated": "2020-04-24T02:04:15+0000"
+            "updated": "2022-03-20T08:03:45+0000"
         },
         {
             "description": "Poky (Yocto Project Reference Distro)",
-            "id": 7853,
+            "id": 10232,
             "layerbranch": 853253,
             "name": "poky-tiny",
-            "updated": "2020-04-24T02:04:15+0000"
+            "updated": "2022-03-20T08:03:45+0000"
         },
         {
             "description": "Poky (Yocto Project Reference Distro)",
-            "id": 7854,
+            "id": 10233,
             "layerbranch": 853253,
             "name": "poky",
-            "updated": "2020-04-24T02:04:15+0000"
+            "updated": "2022-03-20T08:03:45+0000"
         },
         {
             "description": "Poky (Yocto Project Reference Distro)",
-            "id": 7855,
+            "id": 10234,
             "layerbranch": 853253,
             "name": "poky-bleeding",
-            "updated": "2020-04-24T02:04:15+0000"
+            "updated": "2022-03-20T08:03:45+0000"
         }
     ],
     "layerBranches": [
@@ -459,9 +487,9 @@
             "id": 852955,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-02-03T20:02:36+0000",
+            "updated": "2022-03-20T08:03:51+0000",
             "vcs_last_commit": "2022-02-03T19:02:27+0000",
-            "vcs_last_fetch": "2022-02-03T20:02:36+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:51+0000",
             "vcs_last_rev": "c92c03b7fea37578b951f53fbf796f2c33aa6f5c",
             "vcs_subdir": "meta",
             "version": "11",
@@ -474,13 +502,13 @@
             "id": 853253,
             "layer": 59,
             "local_path": "",
-            "updated": "2020-04-24T02:04:15+0000",
+            "updated": "2022-03-20T08:03:45+0000",
             "vcs_last_commit": "2020-03-06T00:03:41+0000",
-            "vcs_last_fetch": "2020-04-24T02:04:15+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:45+0000",
             "vcs_last_rev": "c3278cc3191f43f88e653f4f9a802a62f8039fb3",
             "vcs_subdir": "meta-poky",
             "version": "3",
-            "yp_compatible_version": 100
+            "yp_compatible_version": 42564
         }
     ],
     "layerDependencies": [
@@ -552,7 +580,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "Poky-tiny init",
-            "updated": "2020-04-24T02:04:14+0000"
+            "updated": "2022-03-20T08:03:45+0000"
         }
     ],
     "wrtemplates": []

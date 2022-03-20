@@ -405,6 +405,34 @@
             "image_url": "",
             "link_url": "",
             "name": "3.1 3.3 3.4 3.5"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
         }
     ],
     "branches": [
@@ -415,9 +443,9 @@
             "id": 158,
             "name": "WRLINUX_10_19_BASE",
             "short_description": "Wind River Linux 10_19 Baseline",
-            "sort_priority": 52,
+            "sort_priority": 54,
             "update_environment": null,
-            "updated": "2022-03-08T07:03:21+0000",
+            "updated": "2022-03-20T07:03:26+0000",
             "updates_enabled": true
         }
     ],
@@ -430,9 +458,9 @@
             "id": 852955,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-02-03T20:02:36+0000",
+            "updated": "2022-03-20T08:03:51+0000",
             "vcs_last_commit": "2022-02-03T19:02:27+0000",
-            "vcs_last_fetch": "2022-02-03T20:02:36+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:51+0000",
             "vcs_last_rev": "c92c03b7fea37578b951f53fbf796f2c33aa6f5c",
             "vcs_subdir": "meta",
             "version": "11",
@@ -445,13 +473,13 @@
             "id": 853245,
             "layer": 151,
             "local_path": "",
-            "updated": "2020-04-24T02:04:50+0000",
+            "updated": "2022-03-20T08:03:34+0000",
             "vcs_last_commit": "2019-10-14T08:10:39+0000",
-            "vcs_last_fetch": "2020-04-24T02:04:50+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:34+0000",
             "vcs_last_rev": "a1dba8a13660189eb2184b7870a61dd83f36d886",
             "vcs_subdir": "meta-tpm",
             "version": null,
-            "yp_compatible_version": 99
+            "yp_compatible_version": 42561
         }
     ],
     "layerDependencies": [
@@ -529,7 +557,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:48+0000"
+            "updated": "2022-03-20T08:03:31+0000"
         },
         {
             "bbclassextend": "native",
@@ -552,7 +580,7 @@
             "section": "security/tpm",
             "srcrev": "de57f069ef2297d6a6b3a0353e217a5a2f66e444",
             "summary": "TrouSerS - An open-source TCG Software Stack implementation.",
-            "updated": "2020-04-24T02:04:49+0000"
+            "updated": "2022-03-20T08:03:32+0000"
         },
         {
             "bbclassextend": "native",
@@ -575,7 +603,7 @@
             "section": "security/tpm",
             "srcrev": "bdf9f1bc8f63cd6fc370c2deb58d03ac55079e84",
             "summary": "The tpm-tools package contains commands to allow the platform administrator the ability to manage and diagnose the platform's TPM.",
-            "updated": "2020-04-24T02:04:49+0000"
+            "updated": "2022-03-20T08:03:33+0000"
         },
         {
             "bbclassextend": "",
@@ -598,7 +626,7 @@
             "section": "security/tpm",
             "srcrev": "f8f5c8684fd18522f8b8a82c416b088e886a1b7d",
             "summary": "Testcases to exercise the TSS stack/TSS API",
-            "updated": "2020-04-24T02:04:49+0000"
+            "updated": "2022-03-20T08:03:33+0000"
         },
         {
             "bbclassextend": "",
@@ -621,7 +649,7 @@
             "section": "security/tpm",
             "srcrev": "d70da818778f641c05de8eb205fb72782e5555db",
             "summary": "A collection of programs that provide support for TPM based attestation using the TPM quote mechanism. ",
-            "updated": "2020-04-24T02:04:49+0000"
+            "updated": "2022-03-20T08:03:33+0000"
         },
         {
             "bbclassextend": "",
@@ -644,7 +672,7 @@
             "section": "security/tpm",
             "srcrev": "c02ad8f628b3d99f6d4c087b402fe31a40ee6316",
             "summary": "Command line utility to extend hash of arbitrary data into a TPMs PCR.",
-            "updated": "2020-04-24T02:04:50+0000"
+            "updated": "2022-03-20T08:03:34+0000"
         },
         {
             "bbclassextend": "",
@@ -667,7 +695,7 @@
             "section": "security/tpm",
             "srcrev": "b28de5065e6eb9aa5d5afe2276904f7624c2cbaf",
             "summary": "",
-            "updated": "2020-04-24T02:04:50+0000"
+            "updated": "2022-03-20T08:03:34+0000"
         }
     ],
     "wrtemplates": []

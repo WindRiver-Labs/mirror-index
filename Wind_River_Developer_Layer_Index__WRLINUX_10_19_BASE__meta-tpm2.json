@@ -405,6 +405,34 @@
             "image_url": "",
             "link_url": "",
             "name": "3.1 3.3 3.4 3.5"
+        },
+        {
+            "description": "",
+            "id": 42579,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0"
+        },
+        {
+            "description": "",
+            "id": 42580,
+            "image_url": "",
+            "link_url": "",
+            "name": "4.0 wrl"
+        },
+        {
+            "description": "",
+            "id": 42581,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.1 3.2 3.3 3.4 4.0"
+        },
+        {
+            "description": "",
+            "id": 42582,
+            "image_url": "",
+            "link_url": "",
+            "name": "3.4 4.0"
         }
     ],
     "branches": [
@@ -415,9 +443,9 @@
             "id": 158,
             "name": "WRLINUX_10_19_BASE",
             "short_description": "Wind River Linux 10_19 Baseline",
-            "sort_priority": 52,
+            "sort_priority": 54,
             "update_environment": null,
-            "updated": "2022-03-08T07:03:21+0000",
+            "updated": "2022-03-20T07:03:26+0000",
             "updates_enabled": true
         }
     ],
@@ -430,9 +458,9 @@
             "id": 852955,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-02-03T20:02:36+0000",
+            "updated": "2022-03-20T08:03:51+0000",
             "vcs_last_commit": "2022-02-03T19:02:27+0000",
-            "vcs_last_fetch": "2022-02-03T20:02:36+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:51+0000",
             "vcs_last_rev": "c92c03b7fea37578b951f53fbf796f2c33aa6f5c",
             "vcs_subdir": "meta",
             "version": "11",
@@ -445,13 +473,13 @@
             "id": 853246,
             "layer": 152,
             "local_path": "",
-            "updated": "2020-04-24T02:04:57+0000",
+            "updated": "2022-03-20T08:03:44+0000",
             "vcs_last_commit": "2019-10-14T08:10:39+0000",
-            "vcs_last_fetch": "2020-04-24T02:04:57+0000",
+            "vcs_last_fetch": "2022-03-20T08:03:44+0000",
             "vcs_last_rev": "a1dba8a13660189eb2184b7870a61dd83f36d886",
             "vcs_subdir": "meta-tpm2",
             "version": null,
-            "yp_compatible_version": 99
+            "yp_compatible_version": 42561
         }
     ],
     "layerDependencies": [
@@ -529,7 +557,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:54+0000"
+            "updated": "2022-03-20T08:03:41+0000"
         },
         {
             "bbclassextend": "",
@@ -552,7 +580,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:54+0000"
+            "updated": "2022-03-20T08:03:41+0000"
         },
         {
             "bbclassextend": "native",
@@ -575,7 +603,7 @@
             "section": "devel/python",
             "srcrev": "",
             "summary": "",
-            "updated": "2020-04-24T02:04:55+0000"
+            "updated": "2022-03-20T08:03:41+0000"
         },
         {
             "bbclassextend": "",
@@ -598,7 +626,7 @@
             "section": "base",
             "srcrev": "b9646b90ce26ad34f7fc5c7099f28053eab94333",
             "summary": "TPM 2.0 Simulator Extraction Script",
-            "updated": "2020-04-24T02:04:55+0000"
+            "updated": "2022-03-20T08:03:42+0000"
         },
         {
             "bbclassextend": "",
@@ -621,7 +649,7 @@
             "section": "security/tpm",
             "srcrev": "35ab16e1d328f709d6146221a371b7341b84b670",
             "summary": "The TCG TPM2 Software Stack",
-            "updated": "2020-04-24T02:04:55+0000"
+            "updated": "2022-03-20T08:03:42+0000"
         },
         {
             "bbclassextend": "",
@@ -644,7 +672,7 @@
             "section": "security/tpm",
             "srcrev": "",
             "summary": "The TCG TPM2 Software Stack",
-            "updated": "2020-04-24T02:04:55+0000"
+            "updated": "2022-03-20T08:03:42+0000"
         },
         {
             "bbclassextend": "",
@@ -667,7 +695,7 @@
             "section": "security/tpm",
             "srcrev": "cceb6c12ebb335aacb49207ee13d2f2fc833580a",
             "summary": "TPM2 Access Broker & Resource Manager",
-            "updated": "2020-04-24T02:04:56+0000"
+            "updated": "2022-03-20T08:03:43+0000"
         },
         {
             "bbclassextend": "",
@@ -690,7 +718,7 @@
             "section": "security/tpm",
             "srcrev": "",
             "summary": "TPM2 Access Broker & Resource Manager",
-            "updated": "2020-04-24T02:04:56+0000"
+            "updated": "2022-03-20T08:03:43+0000"
         },
         {
             "bbclassextend": "",
@@ -713,7 +741,7 @@
             "section": "security/tpm",
             "srcrev": "e105149f07c9b944f69599ab67cd8b018ad880d2",
             "summary": "Tools for TPM2",
-            "updated": "2020-04-24T02:04:57+0000"
+            "updated": "2022-03-20T08:03:44+0000"
         },
         {
             "bbclassextend": "",
@@ -736,7 +764,7 @@
             "section": "security/tpm",
             "srcrev": "",
             "summary": "Tools for TPM2",
-            "updated": "2020-04-24T02:04:57+0000"
+            "updated": "2022-03-20T08:03:44+0000"
         }
     ],
     "wrtemplates": []
