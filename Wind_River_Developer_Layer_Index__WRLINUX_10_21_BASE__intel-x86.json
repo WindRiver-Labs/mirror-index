@@ -415,9 +415,9 @@
             "id": 240,
             "name": "WRLINUX_10_21_BASE",
             "short_description": "Wind River Linux 10_21 Baseline",
-            "sort_priority": 18,
+            "sort_priority": 20,
             "update_environment": null,
-            "updated": "2022-04-17T07:04:29+0000",
+            "updated": "2022-04-27T07:04:33+0000",
             "updates_enabled": true
         }
     ],
@@ -430,10 +430,10 @@
             "id": 885774,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-04-13T21:04:40+0000",
-            "vcs_last_commit": "2022-04-13T20:04:52+0000",
-            "vcs_last_fetch": "2022-04-13T21:04:40+0000",
-            "vcs_last_rev": "310afc9d01002ff675ff1a4b5b4f8608498f6392",
+            "updated": "2022-04-24T00:04:56+0000",
+            "vcs_last_commit": "2022-04-23T23:04:24+0000",
+            "vcs_last_fetch": "2022-04-24T00:04:56+0000",
+            "vcs_last_rev": "a6d7c909252ff09103ed9a30431bc90f6a3ffecf",
             "vcs_subdir": "meta",
             "version": "12",
             "yp_compatible_version": 42545
@@ -445,9 +445,9 @@
             "id": 885793,
             "layer": 193,
             "local_path": "",
-            "updated": "2022-03-10T09:03:01+0000",
+            "updated": "2022-04-20T03:04:26+0000",
             "vcs_last_commit": "2021-04-18T19:04:25+0000",
-            "vcs_last_fetch": "2022-03-10T09:03:01+0000",
+            "vcs_last_fetch": "2022-04-20T03:04:26+0000",
             "vcs_last_rev": "cf1c9b47852b9bcc085bb273440620a43bf97038",
             "vcs_subdir": "",
             "version": "1",
@@ -460,9 +460,9 @@
             "id": 885821,
             "layer": 166,
             "local_path": "",
-            "updated": "2022-03-10T09:03:24+0000",
+            "updated": "2022-04-20T04:04:05+0000",
             "vcs_last_commit": "2022-03-03T23:03:58+0000",
-            "vcs_last_fetch": "2022-03-10T09:03:24+0000",
+            "vcs_last_fetch": "2022-04-20T04:04:05+0000",
             "vcs_last_rev": "235f12168a3177113fd6ece8651c475500c22819",
             "vcs_subdir": "",
             "version": "5",
@@ -475,10 +475,10 @@
             "id": 885826,
             "layer": 49,
             "local_path": "",
-            "updated": "2022-04-17T09:04:49+0000",
-            "vcs_last_commit": "2022-04-17T08:04:12+0000",
-            "vcs_last_fetch": "2022-04-17T09:04:49+0000",
-            "vcs_last_rev": "740c96cd4c7a75474b3c9ce5b9fad7b9dbfbbbbf",
+            "updated": "2022-04-24T01:04:07+0000",
+            "vcs_last_commit": "2022-04-24T00:04:56+0000",
+            "vcs_last_fetch": "2022-04-24T01:04:07+0000",
+            "vcs_last_rev": "293268080831941e96601be1ead761801e39e72e",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42545
@@ -490,9 +490,9 @@
             "id": 885836,
             "layer": 32,
             "local_path": "",
-            "updated": "2022-03-10T09:03:43+0000",
+            "updated": "2022-04-20T04:04:47+0000",
             "vcs_last_commit": "2021-12-06T10:12:10+0000",
-            "vcs_last_fetch": "2022-03-10T09:03:43+0000",
+            "vcs_last_fetch": "2022-04-20T04:04:47+0000",
             "vcs_last_rev": "09d615553251960eed7e637237888c35c3c26e5b",
             "vcs_subdir": "",
             "version": "1",
@@ -625,10 +625,10 @@
     "machines": [
         {
             "description": " Intel X86 (64bit) PCs and servers",
-            "id": 45778,
+            "id": 48909,
             "layerbranch": 885836,
             "name": "intel-x86-64",
-            "updated": "2022-03-10T09:03:43+0000"
+            "updated": "2022-04-20T04:04:47+0000"
         }
     ],
     "recipes": [
@@ -653,7 +653,7 @@
             "section": "base",
             "srcrev": "07cda47e386f7bece859323f55b5a6a0df51c63b",
             "summary": "",
-            "updated": "2022-03-10T09:03:42+0000"
+            "updated": "2022-04-20T04:04:47+0000"
         },
         {
             "bbclassextend": "",
@@ -676,58 +676,58 @@
             "section": "base",
             "srcrev": "",
             "summary": "A Monitoring and Testing Tool for Linux kernel thermal subsystem",
-            "updated": "2022-03-10T09:03:43+0000"
+            "updated": "2022-04-20T04:04:47+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "Install \"require\" features together such as:",
-            "id": 85716,
+            "id": 88408,
             "layerbranch": 885836,
             "name": "feature/intel-x86-dev",
-            "updated": "2022-03-10T09:03:43+0000"
+            "updated": "2022-04-20T04:04:47+0000"
         },
         {
             "description": "Install intel-speed-select to rootfs",
-            "id": 85717,
+            "id": 88409,
             "layerbranch": 885836,
             "name": "feature/intel-sst",
-            "updated": "2022-03-10T09:03:43+0000"
+            "updated": "2022-04-20T04:04:47+0000"
         },
         {
             "description": "Add QAT drivers to the image",
-            "id": 85718,
+            "id": 88410,
             "layerbranch": 885836,
             "name": "feature/intel-qat",
-            "updated": "2022-03-10T09:03:43+0000"
+            "updated": "2022-04-20T04:04:47+0000"
         },
         {
             "description": "Add TSN support to the image",
-            "id": 85719,
+            "id": 88411,
             "layerbranch": 885836,
             "name": "feature/intel-tsn",
-            "updated": "2022-03-10T09:03:43+0000"
+            "updated": "2022-04-20T04:04:47+0000"
         },
         {
             "description": "Install ndctl pmdk to rootfs, add pmem support to the image",
-            "id": 85720,
+            "id": 88412,
             "layerbranch": 885836,
             "name": "feature/intel-persistent-memory",
-            "updated": "2022-03-10T09:03:43+0000"
+            "updated": "2022-04-20T04:04:47+0000"
         },
         {
             "description": "Add Intel TCC to the image",
-            "id": 85721,
+            "id": 88413,
             "layerbranch": 885836,
             "name": "feature/intel-tcc",
-            "updated": "2022-03-10T09:03:43+0000"
+            "updated": "2022-04-20T04:04:47+0000"
         },
         {
             "description": "",
-            "id": 85722,
+            "id": 88414,
             "layerbranch": 885836,
             "name": "default",
-            "updated": "2022-03-10T09:03:43+0000"
+            "updated": "2022-04-20T04:04:47+0000"
         }
     ]
 }

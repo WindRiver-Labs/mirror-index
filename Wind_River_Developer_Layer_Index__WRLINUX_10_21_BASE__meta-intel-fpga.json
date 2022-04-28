@@ -415,9 +415,9 @@
             "id": 240,
             "name": "WRLINUX_10_21_BASE",
             "short_description": "Wind River Linux 10_21 Baseline",
-            "sort_priority": 18,
+            "sort_priority": 20,
             "update_environment": null,
-            "updated": "2022-04-17T07:04:29+0000",
+            "updated": "2022-04-27T07:04:33+0000",
             "updates_enabled": true
         }
     ],
@@ -430,9 +430,9 @@
             "id": 885763,
             "layer": 380,
             "local_path": "",
-            "updated": "2022-03-10T09:03:24+0000",
+            "updated": "2022-04-20T03:04:15+0000",
             "vcs_last_commit": "2022-03-03T23:03:58+0000",
-            "vcs_last_fetch": "2022-03-10T09:03:24+0000",
+            "vcs_last_fetch": "2022-04-20T03:04:15+0000",
             "vcs_last_rev": "9c6e7368b3b94ab2e105d970c3f886350dce3a01",
             "vcs_subdir": "",
             "version": null,
@@ -464,87 +464,87 @@
     "machines": [
         {
             "description": " Stratix 10 SoCFPGA",
-            "id": 45626,
+            "id": 48756,
             "layerbranch": 885763,
             "name": "stratix10-extra",
-            "updated": "2022-03-10T09:03:24+0000"
+            "updated": "2022-04-20T03:04:15+0000"
         },
         {
             "description": "Additional machine configuration for the Agilex SoCFPGA",
-            "id": 45627,
+            "id": 48757,
             "layerbranch": 885763,
             "name": "agilex-extra",
-            "updated": "2022-03-10T09:03:24+0000"
+            "updated": "2022-04-20T03:04:15+0000"
         },
         {
             "description": " nios2 machines",
-            "id": 45628,
+            "id": 48758,
             "layerbranch": 885763,
             "name": "10m50",
-            "updated": "2022-03-10T09:03:24+0000"
+            "updated": "2022-04-20T03:04:15+0000"
         },
         {
             "description": " Stratix 10 SoCFPGA",
-            "id": 45629,
+            "id": 48759,
             "layerbranch": 885763,
             "name": "stratix10",
-            "updated": "2022-03-10T09:03:24+0000"
+            "updated": "2022-04-20T03:04:15+0000"
         },
         {
             "description": " N5X eASIC devices",
-            "id": 45630,
+            "id": 48760,
             "layerbranch": 885763,
             "name": "n5x",
-            "updated": "2022-03-10T09:03:24+0000"
+            "updated": "2022-04-20T03:04:15+0000"
         },
         {
             "description": " Cyclone V SoC\"",
-            "id": 45631,
+            "id": 48761,
             "layerbranch": 885763,
             "name": "cyclone5-extra",
-            "updated": "2022-03-10T09:03:24+0000"
+            "updated": "2022-04-20T03:04:15+0000"
         },
         {
             "description": " Agilex SoCFPGA",
-            "id": 45632,
+            "id": 48762,
             "layerbranch": 885763,
             "name": "agilex",
-            "updated": "2022-03-10T09:03:24+0000"
+            "updated": "2022-04-20T03:04:15+0000"
         },
         {
             "description": " Arria 10 SoCFPGA",
-            "id": 45633,
+            "id": 48763,
             "layerbranch": 885763,
             "name": "arria10",
-            "updated": "2022-03-10T09:03:24+0000"
+            "updated": "2022-04-20T03:04:15+0000"
         },
         {
             "description": " nios2 machines",
-            "id": 45634,
+            "id": 48764,
             "layerbranch": 885763,
             "name": "generic-nios2",
-            "updated": "2022-03-10T09:03:24+0000"
+            "updated": "2022-04-20T03:04:15+0000"
         },
         {
             "description": " Arria 10 SoCFPGA",
-            "id": 45635,
+            "id": 48765,
             "layerbranch": 885763,
             "name": "arria10-extra",
-            "updated": "2022-03-10T09:03:24+0000"
+            "updated": "2022-04-20T03:04:15+0000"
         },
         {
             "description": " Cyclone V SoC\"",
-            "id": 45636,
+            "id": 48766,
             "layerbranch": 885763,
             "name": "cyclone5",
-            "updated": "2022-03-10T09:03:24+0000"
+            "updated": "2022-04-20T03:04:15+0000"
         },
         {
             "description": " Arria V SoC\"",
-            "id": 45637,
+            "id": 48767,
             "layerbranch": 885763,
             "name": "arria5",
-            "updated": "2022-03-10T09:03:24+0000"
+            "updated": "2022-04-20T03:04:15+0000"
         }
     ],
     "recipes": [
@@ -569,7 +569,7 @@
             "section": "bootloaders",
             "srcrev": "32c055643799e4109aff8a5f9ea76ea0389a6e10",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2022-03-10T09:03:21+0000"
+            "updated": "2022-04-20T03:04:12+0000"
         },
         {
             "bbclassextend": "",
@@ -592,7 +592,7 @@
             "section": "bootloaders",
             "srcrev": "c11f4e161a2d86a3657fbbc21f87bc4afb815eb9",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2022-03-10T09:03:22+0000"
+            "updated": "2022-04-20T03:04:13+0000"
         },
         {
             "bbclassextend": "",
@@ -615,7 +615,7 @@
             "section": "bootloaders",
             "srcrev": "bdc9a4409de9cef4408eebd81196fd63887ac78f",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2022-03-10T09:03:22+0000"
+            "updated": "2022-04-20T03:04:13+0000"
         },
         {
             "bbclassextend": "",
@@ -638,7 +638,7 @@
             "section": "base",
             "srcrev": "c841485a3730ba9193afc35b88b161ab0b30eaf7",
             "summary": "",
-            "updated": "2022-03-10T09:03:23+0000"
+            "updated": "2022-04-20T03:04:13+0000"
         },
         {
             "bbclassextend": "",
@@ -661,7 +661,7 @@
             "section": "base",
             "srcrev": "7009a0d7a0a0c7c8fa5834958dfdd8ee60cbf21d",
             "summary": "",
-            "updated": "2022-03-10T09:03:23+0000"
+            "updated": "2022-04-20T03:04:13+0000"
         },
         {
             "bbclassextend": "",
@@ -684,7 +684,7 @@
             "section": "kernel",
             "srcrev": "d91a80a66076c0863ff934537da8f860a75ab618",
             "summary": "Linux kernel",
-            "updated": "2022-03-10T09:03:23+0000"
+            "updated": "2022-04-20T03:04:14+0000"
         },
         {
             "bbclassextend": "",
@@ -707,7 +707,7 @@
             "section": "kernel",
             "srcrev": "4b159443997466eb36133c59e7aaef4e76f62f4a",
             "summary": "Linux kernel",
-            "updated": "2022-03-10T09:03:23+0000"
+            "updated": "2022-04-20T03:04:14+0000"
         },
         {
             "bbclassextend": "",
@@ -730,7 +730,7 @@
             "section": "kernel",
             "srcrev": "27e8b9142bfe1aab0494e08692214f3438a4ea67",
             "summary": "Linux kernel",
-            "updated": "2022-03-10T09:03:23+0000"
+            "updated": "2022-04-20T03:04:14+0000"
         },
         {
             "bbclassextend": "",
@@ -753,7 +753,7 @@
             "section": "kernel",
             "srcrev": "d4d238db6ebb2a39863f296b1f1fab34c89fefb5",
             "summary": "Linux kernel",
-            "updated": "2022-03-10T09:03:23+0000"
+            "updated": "2022-04-20T03:04:14+0000"
         },
         {
             "bbclassextend": "",
@@ -776,7 +776,7 @@
             "section": "kernel",
             "srcrev": "c35d63f9c7e450605ef20834d2613f845f0c3388",
             "summary": "Linux kernel",
-            "updated": "2022-03-10T09:03:23+0000"
+            "updated": "2022-04-20T03:04:14+0000"
         },
         {
             "bbclassextend": "",
@@ -799,7 +799,7 @@
             "section": "bootloaders",
             "srcrev": "584a2391639d89cff6476bbfbdf7d9c666970661",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2022-03-10T09:03:24+0000"
+            "updated": "2022-04-20T03:04:14+0000"
         },
         {
             "bbclassextend": "",
@@ -822,7 +822,7 @@
             "section": "base",
             "srcrev": "c41b679fa5ec92795ae8fd432bddcf8f799814bb",
             "summary": "",
-            "updated": "2022-03-10T09:03:24+0000"
+            "updated": "2022-04-20T03:04:15+0000"
         }
     ],
     "wrtemplates": []

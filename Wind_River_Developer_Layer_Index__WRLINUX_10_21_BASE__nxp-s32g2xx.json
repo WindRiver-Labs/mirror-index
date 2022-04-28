@@ -415,9 +415,9 @@
             "id": 240,
             "name": "WRLINUX_10_21_BASE",
             "short_description": "Wind River Linux 10_21 Baseline",
-            "sort_priority": 18,
+            "sort_priority": 20,
             "update_environment": null,
-            "updated": "2022-04-17T07:04:29+0000",
+            "updated": "2022-04-27T07:04:33+0000",
             "updates_enabled": true
         }
     ],
@@ -430,10 +430,10 @@
             "id": 885774,
             "layer": 1,
             "local_path": "",
-            "updated": "2022-04-13T21:04:40+0000",
-            "vcs_last_commit": "2022-04-13T20:04:52+0000",
-            "vcs_last_fetch": "2022-04-13T21:04:40+0000",
-            "vcs_last_rev": "310afc9d01002ff675ff1a4b5b4f8608498f6392",
+            "updated": "2022-04-24T00:04:56+0000",
+            "vcs_last_commit": "2022-04-23T23:04:24+0000",
+            "vcs_last_fetch": "2022-04-24T00:04:56+0000",
+            "vcs_last_rev": "a6d7c909252ff09103ed9a30431bc90f6a3ffecf",
             "vcs_subdir": "meta",
             "version": "12",
             "yp_compatible_version": 42545
@@ -445,10 +445,10 @@
             "id": 885826,
             "layer": 49,
             "local_path": "",
-            "updated": "2022-04-17T09:04:49+0000",
-            "vcs_last_commit": "2022-04-17T08:04:12+0000",
-            "vcs_last_fetch": "2022-04-17T09:04:49+0000",
-            "vcs_last_rev": "740c96cd4c7a75474b3c9ce5b9fad7b9dbfbbbbf",
+            "updated": "2022-04-24T01:04:07+0000",
+            "vcs_last_commit": "2022-04-24T00:04:56+0000",
+            "vcs_last_fetch": "2022-04-24T01:04:07+0000",
+            "vcs_last_rev": "293268080831941e96601be1ead761801e39e72e",
             "vcs_subdir": "",
             "version": "2",
             "yp_compatible_version": 42545
@@ -457,13 +457,13 @@
             "actual_branch": "",
             "branch": 240,
             "collection": "wr-nxp-s32g",
-            "id": 902288,
-            "layer": 439,
+            "id": 904278,
+            "layer": 347,
             "local_path": "",
-            "updated": "2022-04-13T21:04:48+0000",
-            "vcs_last_commit": "2022-04-13T19:04:37+0000",
-            "vcs_last_fetch": "2022-04-13T21:04:48+0000",
-            "vcs_last_rev": "28869effc22461294a17c88f8089f3b37dc2fd53",
+            "updated": "2022-04-24T20:04:33+0000",
+            "vcs_last_commit": "2022-04-24T19:04:56+0000",
+            "vcs_last_fetch": "2022-04-24T20:04:33+0000",
+            "vcs_last_rev": "805a43182dee9c4ff756e855d76f07ff5235d847",
             "vcs_subdir": "",
             "version": "1",
             "yp_compatible_version": 42545
@@ -472,20 +472,20 @@
     "layerDependencies": [
         {
             "dependency": 1,
-            "id": 93417,
-            "layerbranch": 902288,
+            "id": 94708,
+            "layerbranch": 904278,
             "required": true
         },
         {
             "dependency": 49,
-            "id": 93418,
-            "layerbranch": 902288,
+            "id": 94709,
+            "layerbranch": 904278,
             "required": true
         },
         {
-            "dependency": 440,
-            "id": 93419,
-            "layerbranch": 902288,
+            "dependency": 348,
+            "id": 94714,
+            "layerbranch": 904278,
             "required": false
         }
     ],
@@ -531,18 +531,18 @@
         {
             "collection": "wr-nxp-s32g",
             "comparison": false,
-            "description": "NXP S32G BSP",
-            "id": 439,
+            "description": "The BSP for NXP S32G2XX SOCs.",
+            "id": 347,
             "index_preference": 0,
             "layer_type": "B",
             "mailing_list_url": "",
-            "name": "nxp-s32g",
+            "name": "nxp-s32g2xx",
             "status": "P",
-            "summary": "The BSP for NXP S32G SOCs.",
-            "updated": "2022-03-31T01:03:03+0000",
+            "summary": "NXP S32G2XX BSP",
+            "updated": "2020-03-24T03:03:18+0000",
             "usage_url": "",
-            "vcs_url": "#BASE_URL#/nxp-s32g",
-            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/wr-bsps/nxp-s32g.git/commit/?id=%hash%",
+            "vcs_url": "#BASE_URL#/nxp-s32g2xx",
+            "vcs_web_commit_url": "http://lxgit.wrs.com/cgit/layers/wr-bsps/nxp-s32g2xx.git/commit/?id=%hash%",
             "vcs_web_file_base_url": "",
             "vcs_web_tree_base_url": "",
             "vcs_web_url": ""
@@ -551,10 +551,17 @@
     "machines": [
         {
             "description": " NXP S32G2/G3 SoC",
-            "id": 47853,
-            "layerbranch": 902288,
+            "id": 48905,
+            "layerbranch": 904278,
             "name": "nxp-s32g",
-            "updated": "2022-04-13T21:04:48+0000"
+            "updated": "2022-04-24T20:04:33+0000"
+        },
+        {
+            "description": "",
+            "id": 49067,
+            "layerbranch": 904278,
+            "name": "nxp-s32g2xx",
+            "updated": "2022-04-21T17:04:36+0000"
         }
     ],
     "recipes": [
@@ -567,9 +574,9 @@
             "filename": "pkcs11-hse_1.0.bb",
             "filepath": "recipes-extend/pkcs11",
             "homepage": "",
-            "id": 1516456,
+            "id": 1533098,
             "inherits": "",
-            "layerbranch": 902288,
+            "layerbranch": 904278,
             "license": "BSD-3-Clause",
             "pe": "",
             "pn": "pkcs11-hse",
@@ -579,7 +586,7 @@
             "section": "base",
             "srcrev": "2ab4eb6b73f1f1296576e45f333eb0911a2cae00",
             "summary": "",
-            "updated": "2022-03-31T02:03:50+0000"
+            "updated": "2022-04-20T04:04:12+0000"
         },
         {
             "bbclassextend": "",
@@ -590,9 +597,9 @@
             "filename": "u-boot-s32_2019.04.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "",
-            "id": 1516457,
+            "id": 1533099,
             "inherits": "cml1 deploy nxp-u-boot-localversion python3-dir python3native uboot-config uboot-extlinux-config uboot-sign",
-            "layerbranch": 902288,
+            "layerbranch": 904278,
             "license": "GPLv2 & BSD-3-Clause & BSD-2-Clause & LGPL-2.0 & LGPL-2.1",
             "pe": "",
             "pn": "u-boot-s32",
@@ -602,7 +609,7 @@
             "section": "base",
             "srcrev": "63065a52b26a7bf781947b0b6f93408ac9317786",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2022-03-31T02:03:51+0000"
+            "updated": "2022-04-20T04:04:12+0000"
         },
         {
             "bbclassextend": "",
@@ -613,9 +620,9 @@
             "filename": "u-boot-s32_2020.04.bb",
             "filepath": "recipes-bsp/u-boot",
             "homepage": "",
-            "id": 1516458,
+            "id": 1533100,
             "inherits": "cml1 deploy nxp-u-boot-localversion python3-dir python3native uboot-config uboot-extlinux-config uboot-sign",
-            "layerbranch": 902288,
+            "layerbranch": 904278,
             "license": "GPLv2 & BSD-3-Clause & BSD-2-Clause & LGPL-2.0 & LGPL-2.1",
             "pe": "",
             "pn": "u-boot-s32",
@@ -625,7 +632,7 @@
             "section": "base",
             "srcrev": "7cc85e188554fb38b6bd39a98b6149b033ebd53e",
             "summary": "Universal Boot Loader for embedded devices",
-            "updated": "2022-04-01T04:04:38+0000"
+            "updated": "2022-04-20T08:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -636,9 +643,9 @@
             "filename": "atf-s32g_2.5.bb",
             "filepath": "recipes-bsp/arm-trusted-firmware",
             "homepage": "",
-            "id": 1516459,
+            "id": 1533101,
             "inherits": "",
-            "layerbranch": 902288,
+            "layerbranch": 904278,
             "license": "BSD-3-Clause",
             "pe": "",
             "pn": "atf-s32g",
@@ -648,7 +655,7 @@
             "section": "base",
             "srcrev": "b6b0419ec2d8cf84d1bf17cb3cd13d16558d639f",
             "summary": "",
-            "updated": "2022-04-12T23:04:33+0000"
+            "updated": "2022-04-20T08:04:37+0000"
         },
         {
             "bbclassextend": "",
@@ -659,9 +666,9 @@
             "filename": "llce_1.0.bb",
             "filepath": "recipes-kernel/llce",
             "homepage": "",
-            "id": 1516460,
+            "id": 1533102,
             "inherits": "deploy",
-            "layerbranch": 902288,
+            "layerbranch": 904278,
             "license": "BSD-3-Clause",
             "pe": "",
             "pn": "llce",
@@ -671,7 +678,7 @@
             "section": "base",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-03-31T02:03:54+0000"
+            "updated": "2022-04-20T04:04:13+0000"
         },
         {
             "bbclassextend": "",
@@ -682,9 +689,9 @@
             "filename": "ipc-shm.bb",
             "filepath": "recipes-kernel/ipc-shm",
             "homepage": "",
-            "id": 1516461,
+            "id": 1533103,
             "inherits": "deploy kernel-arch kernel-module-split module module-base pkgconfig",
-            "layerbranch": 902288,
+            "layerbranch": 904278,
             "license": "BSD-3-Clause",
             "pe": "",
             "pn": "ipc-shm",
@@ -694,7 +701,7 @@
             "section": "base",
             "srcrev": "79164a0b055c759557a00f2ce3ec73a90361937c",
             "summary": "Support for Inter-Process(or) Communication over Shared Memory (ipc-shm)",
-            "updated": "2022-04-12T23:04:33+0000"
+            "updated": "2022-04-20T04:04:13+0000"
         },
         {
             "bbclassextend": "",
@@ -705,9 +712,9 @@
             "filename": "sja1105_1.0.bb",
             "filepath": "recipes-kernel/sja1105",
             "homepage": "",
-            "id": 1516462,
+            "id": 1533104,
             "inherits": "",
-            "layerbranch": 902288,
+            "layerbranch": 904278,
             "license": "",
             "pe": "",
             "pn": "sja1105",
@@ -717,7 +724,7 @@
             "section": "",
             "srcrev": "",
             "summary": "",
-            "updated": "2022-04-02T02:04:36+0000"
+            "updated": "2022-04-19T21:04:36+0000"
         },
         {
             "bbclassextend": "",
@@ -728,9 +735,9 @@
             "filename": "pfe_0.9.7.bb",
             "filepath": "recipes-kernel/pfe",
             "homepage": "",
-            "id": 1516463,
+            "id": 1533105,
             "inherits": "deploy kernel-arch kernel-module-split module module-base pkgconfig",
-            "layerbranch": 902288,
+            "layerbranch": 904278,
             "license": "GPL-2.0",
             "pe": "",
             "pn": "pfe",
@@ -740,16 +747,16 @@
             "section": "base",
             "srcrev": "d6aac63e29e1dd06db925f200846937f78db327a",
             "summary": "Linux driver for the Packet Forwarding Engine hardware",
-            "updated": "2022-04-01T04:04:38+0000"
+            "updated": "2022-04-20T04:04:13+0000"
         }
     ],
     "wrtemplates": [
         {
             "description": "",
-            "id": 87184,
-            "layerbranch": 902288,
+            "id": 88405,
+            "layerbranch": 904278,
             "name": "default",
-            "updated": "2022-03-31T19:03:59+0000"
+            "updated": "2022-04-20T04:04:13+0000"
         }
     ]
 }
